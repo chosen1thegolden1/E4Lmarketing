@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eat 4 Life Marketing - Master digital marketing through courses and books, or let us handle your marketing with done-for-you services.">
+    <title>Eat 4 Life Marketing | Digital Marketing Education & Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="logo-pulse">
+            <div class="efl-logo">EFL</div>
+        </div>
+    </div>
+
+    <!-- Split Screen Homepage -->
+    <div id="split-screen" class="split-screen active">
+        <div class="split-half learning-half" data-section="learning">
+            <div class="split-content">
+                <div class="icon-group">
+                    <span class="icon">📚</span>
+                    <span class="icon">💡</span>
+                    <span class="icon">🎓</span>
+                </div>
+                <h1 class="split-heading fineday">Learn Digital Marketing</h1>
+                <p class="split-subheading">Courses • Books • Resources</p>
+                <div class="hover-indicator">Click to Explore →</div>
+            </div>
+        </div>
+
+        <div class="split-divider">
+            <div class="efl-mark">EFL</div>
+        </div>
+
+        <div class="split-half services-half" data-section="services">
+            <div class="split-content">
+                <div class="icon-group">
+                    <span class="icon">📈</span>
+                    <span class="icon">🚀</span>
+                    <span class="icon">💼</span>
+                </div>
+                <h1 class="split-heading fineday">Done-For-You Services</h1>
+                <p class="split-subheading">Marketing • Advertising • Strategy</p>
+                <div class="hover-indicator">Click to Explore →</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Header (Hidden initially, shown after selection) -->
+    <header id="main-header" class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text fineday">Eat For Life</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li id="section-nav-links"></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle between Learning and Services">
+                <span class="toggle-text"></span>
+            </button>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Learning Section (Yellow Theme) -->
+    <main id="learning-section" class="content-section learning-theme">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-heading fineday">Master Digital Marketing</h1>
+                <p class="hero-subheading">From beginner to expert with our comprehensive learning tools</p>
+                <a href="#courses" class="cta-button">Explore Courses</a>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="courses-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Our Courses</h2>
+                <div class="grid-3">
+                    <div class="course-card card">
+                        <div class="card-icon">🎯</div>
+                        <h3 class="card-title">Social Media Marketing Mastery</h3>
+                        <p class="card-description">Learn to create engaging content and grow your audience across all major platforms.</p>
+                        <p class="card-price">$297</p>
+                        <button class="card-button">Learn More</button>
+                    </div>
+                    <div class="course-card card">
+                        <div class="card-icon">💰</div>
+                        <h3 class="card-title">Facebook & Instagram Ads</h3>
+                        <p class="card-description">Master paid advertising with proven strategies that deliver ROI.</p>
+                        <p class="card-price">$397</p>
+                        <button class="card-button">Learn More</button>
+                    </div>
+                    <div class="course-card card">
+                        <div class="card-icon">✉️</div>
+                        <h3 class="card-title">Email Marketing Blueprint</h3>
+                        <p class="card-description">Build and nurture your email list to drive consistent sales.</p>
+                        <p class="card-price">$197</p>
+                        <button class="card-button">Learn More</button>
+                    </div>
+                    <div class="course-card card">
+                        <div class="card-icon">🔍</div>
+                        <h3 class="card-title">SEO & Content Strategy</h3>
+                        <p class="card-description">Rank higher on Google and attract organic traffic to your business.</p>
+                        <p class="card-price">$347</p>
+                        <button class="card-button">Learn More</button>
+                    </div>
+                    <div class="course-card card">
+                        <div class="card-icon">📊</div>
+                        <h3 class="card-title">Analytics & Data Tracking</h3>
+                        <p class="card-description">Make data-driven decisions with comprehensive analytics training.</p>
+                        <p class="card-price">$247</p>
+                        <button class="card-button">Learn More</button>
+                    </div>
+                    <div class="course-card card">
+                        <div class="card-icon">🎨</div>
+                        <h3 class="card-title">Brand Development</h3>
+                        <p class="card-description">Create a memorable brand that resonates with your target audience.</p>
+                        <p class="card-price">$297</p>
+                        <button class="card-button">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Books Section -->
+        <section id="books" class="books-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Marketing Books & Guides</h2>
+                <div class="grid-3">
+                    <div class="book-card card">
+                        <div class="book-cover">
+                            <div class="book-placeholder">📖</div>
+                        </div>
+                        <h3 class="card-title">The Digital Marketing Handbook</h3>
+                        <p class="card-description">Your complete guide to modern digital marketing strategies.</p>
+                        <button class="card-button">Buy Now - $29</button>
+                    </div>
+                    <div class="book-card card">
+                        <div class="book-cover">
+                            <div class="book-placeholder">📖</div>
+                        </div>
+                        <h3 class="card-title">Social Media Success</h3>
+                        <p class="card-description">Proven tactics to grow your following and engagement.</p>
+                        <button class="card-button">Buy Now - $24</button>
+                    </div>
+                    <div class="book-card card">
+                        <div class="book-cover">
+                            <div class="book-placeholder">📖</div>
+                        </div>
+                        <h3 class="card-title">Ad Strategies That Convert</h3>
+                        <p class="card-description">Maximize your ROI with advanced advertising techniques.</p>
+                        <button class="card-button">Buy Now - $34</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="resources-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Free Resources</h2>
+                <div class="grid-3">
+                    <div class="resource-card card">
+                        <div class="card-icon">📝</div>
+                        <h3 class="card-title">Blog & Articles</h3>
+                        <p class="card-description">Latest insights and tips from industry experts.</p>
+                        <a href="#" class="card-link">Read Now →</a>
+                    </div>
+                    <div class="resource-card card">
+                        <div class="card-icon">📄</div>
+                        <h3 class="card-title">Marketing Templates</h3>
+                        <p class="card-description">Ready-to-use templates for your campaigns.</p>
+                        <a href="#" class="card-link">Download Free →</a>
+                    </div>
+                    <div class="resource-card card">
+                        <div class="card-icon">🎥</div>
+                        <h3 class="card-title">Video Tutorials</h3>
+                        <p class="card-description">Step-by-step video guides and walkthroughs.</p>
+                        <a href="#" class="card-link">Watch Now →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Services Section (Black Theme) -->
+    <main id="services-section" class="content-section services-theme">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-heading fineday">We Grow Your Business</h1>
+                <p class="hero-subheading">Full-service digital marketing and advertising agency</p>
+                <a href="#consultation" class="cta-button">Book Consultation</a>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section id="our-services" class="services-grid-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="grid-3">
+                    <div class="service-card card">
+                        <div class="card-icon">📱</div>
+                        <h3 class="card-title">Social Media Marketing</h3>
+                        <p class="card-description">Engage your audience with compelling content and strategic social media management.</p>
+                        <a href="#" class="card-link">Learn More →</a>
+                    </div>
+                    <div class="service-card card">
+                        <div class="card-icon">🎯</div>
+                        <h3 class="card-title">Paid Advertising</h3>
+                        <p class="card-description">Drive results with targeted ads on Facebook, Google, TikTok, and more.</p>
+                        <a href="#" class="card-link">Learn More →</a>
+                    </div>
+                    <div class="service-card card">
+                        <div class="card-icon">✉️</div>
+                        <h3 class="card-title">Email Marketing</h3>
+                        <p class="card-description">Build relationships and increase conversions with strategic email campaigns.</p>
+                        <a href="#" class="card-link">Learn More →</a>
+                    </div>
+                    <div class="service-card card">
+                        <div class="card-icon">🔍</div>
+                        <h3 class="card-title">SEO & Content Strategy</h3>
+                        <p class="card-description">Improve your search rankings and attract qualified organic traffic.</p>
+                        <a href="#" class="card-link">Learn More →</a>
+                    </div>
+                    <div class="service-card card">
+                        <div class="card-icon">🎨</div>
+                        <h3 class="card-title">Brand Development</h3>
+                        <p class="card-description">Create a powerful brand identity that stands out in your market.</p>
+                        <a href="#" class="card-link">Learn More →</a>
+                    </div>
+                    <div class="service-card card">
+                        <div class="card-icon">📊</div>
+                        <h3 class="card-title">Analytics & Reporting</h3>
+                        <p class="card-description">Track performance and optimize campaigns with comprehensive analytics.</p>
+                        <a href="#" class="card-link">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies -->
+        <section id="case-studies" class="case-studies-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Client Success Stories</h2>
+                <div class="grid-3">
+                    <div class="case-study-card card">
+                        <div class="client-logo-placeholder">🏢</div>
+                        <div class="case-study-results">
+                            <div class="result-metric">
+                                <span class="metric-number">342%</span>
+                                <span class="metric-label">ROI Increase</span>
+                            </div>
+                        </div>
+                        <p class="card-description">E-commerce brand scaled from $50K to $220K monthly revenue in 6 months.</p>
+                        <span class="industry-tag">E-commerce</span>
+                    </div>
+                    <div class="case-study-card card">
+                        <div class="client-logo-placeholder">🏢</div>
+                        <div class="case-study-results">
+                            <div class="result-metric">
+                                <span class="metric-number">2.8M</span>
+                                <span class="metric-label">Impressions</span>
+                            </div>
+                        </div>
+                        <p class="card-description">Local service business generated 2.8M impressions and 450+ leads in 90 days.</p>
+                        <span class="industry-tag">Services</span>
+                    </div>
+                    <div class="case-study-card card">
+                        <div class="client-logo-placeholder">🏢</div>
+                        <div class="case-study-results">
+                            <div class="result-metric">
+                                <span class="metric-number">85%</span>
+                                <span class="metric-label">Cost Reduction</span>
+                            </div>
+                        </div>
+                        <p class="card-description">SaaS company reduced customer acquisition cost by 85% with optimized campaigns.</p>
+                        <span class="industry-tag">Technology</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="process-section section-padding">
+            <div class="container">
+                <h2 class="section-title">How We Work</h2>
+                <div class="process-timeline">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Discovery</h3>
+                            <p class="step-description">We learn about your business, goals, and target audience.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Strategy</h3>
+                            <p class="step-description">We develop a customized marketing plan tailored to your needs.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Execution</h3>
+                            <p class="step-description">We implement campaigns and create compelling content.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Optimize</h3>
+                            <p class="step-description">We continuously monitor and improve campaign performance.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Scale</h3>
+                            <p class="step-description">We help you grow with proven strategies that deliver results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="consultation" class="cta-section section-padding">
+            <div class="container text-center">
+                <h2 class="cta-heading fineday">Ready to Transform Your Marketing?</h2>
+                <p class="cta-subheading">Let's discuss how we can help you achieve your business goals.</p>
+                <a href="#contact" class="cta-button large">Start Your Journey</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <h2 class="section-title">About Eat 4 Life Marketing</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="large-text">We transform businesses through education and done-for-you marketing services.</p>
+                    <p>Formerly Gold Standard Gaming, we've evolved into a full-service digital marketing agency and education platform. Our mission is to empower entrepreneurs with the knowledge and tools they need to succeed, or to handle their marketing entirely so they can focus on what they do best.</p>
+                    <p>Whether you want to learn digital marketing yourself or have our expert team execute proven strategies for you, we're here to help you grow.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">🌟</div>
+                </div>
+            </div>
+            <div class="team-section">
+                <h3 class="subsection-title">Our Team</h3>
+                <div class="grid-3">
+                    <div class="team-member">
+                        <div class="team-photo-placeholder">👤</div>
+                        <h4 class="team-name">Team Member</h4>
+                        <p class="team-role">Founder & CEO</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-photo-placeholder">👤</div>
+                        <h4 class="team-name">Team Member</h4>
+                        <p class="team-role">Head of Marketing</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-photo-placeholder">👤</div>
+                        <h4 class="team-name">Team Member</h4>
+                        <p class="team-role">Creative Director</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                    <div id="form-success" class="form-message success" style="display: none;">
+                        Thank you! We'll get back to you soon.
+                    </div>
+                    <div id="form-error" class="form-message error" style="display: none;">
+                        Oops! Something went wrong. Please try again.
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="info-block">
+                        <h3>Contact Information</h3>
+                        <p>📧 info@eat4lifemarketing.com</p>
+                        <p>📱 (555) 123-4567</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook">Facebook</a>
+                            <a href="#" aria-label="Instagram">Instagram</a>
+                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="#" aria-label="Twitter">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text fineday">Eat For Life</span>
+                    <p class="footer-tagline">Transform Your Marketing</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Learn</h4>
+                        <ul>
+                            <li><a href="#courses">Courses</a></li>
+                            <li><a href="#books">Books</a></li>
+                            <li><a href="#resources">Resources</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#our-services">Our Services</a></li>
+                            <li><a href="#case-studies">Case Studies</a></li>
+                            <li><a href="#consultation">Consultation</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="LinkedIn">IN</a>
+                    <a href="#" aria-label="Twitter">TW</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eat 4 Life Marketing. All rights reserved.</p>
+                <button id="footer-theme-toggle" class="footer-toggle">
+                    Switch to <span class="toggle-target"></span>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
