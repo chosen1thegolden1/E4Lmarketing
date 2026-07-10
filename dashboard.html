@@ -75,6 +75,7 @@
   .item .what{font-size:13px; color:var(--ink); margin:3px 0 5px}
   .item .act{font-size:12.5px; color:var(--muted)}
   .item .act b{color:var(--gold-ink); font-weight:800}
+  .item .why{font-size:11.5px; color:var(--muted); margin-top:5px; font-style:italic; border-top:1px dashed var(--gold-line); padding-top:5px}
   .tag{display:inline-block; font-size:10.5px; font-weight:800; letter-spacing:.04em; padding:1px 7px; border-radius:6px; background:var(--tag-bg); color:var(--tag-ink)}
   .muted-list{margin:0; padding:0; list-style:none; font-size:12.5px; color:var(--muted)}
   .muted-list li{padding:6px 0; border-bottom:1px dashed var(--line); display:flex; justify-content:space-between; gap:10px}
@@ -113,18 +114,18 @@
     <div class="hero">
       <div class="card">
         <div class="num">1</div>
-        <h3>Resolve the past-due WESTSTAR invoice</h3>
-        <p>$168.00, due June 30 — now overdue. Confirm it's legit, then pay or dispute. Only you can approve.</p>
+        <h3>Verify the overdue WESTSTAR invoice</h3>
+        <p>$168.00, 10 days overdue. Confirm it's a bill you authorized (matches a fake-invoice pattern) before paying — then Rozel can process.</p>
       </div>
       <div class="card">
         <div class="num">2</div>
-        <h3>Check your Amex limit</h3>
-        <p>Amex flagged possible declines — a NAV charge landed near the limit. A quick balance check keeps business spend flowing.</p>
+        <h3>Check the Anthropic passkey alert</h3>
+        <p>A new passkey was added to your Claude account ("Electron on Mac OS X"). If it wasn't you, remove it. 2-minute security check.</p>
       </div>
       <div class="card">
         <div class="num">3</div>
-        <h3>Get ahead on the AI launch</h3>
-        <p>Clear calendar, no sign-ups yet — a strong window to push onboarding &amp; follow-ups proactively.</p>
+        <h3>Push the AI launch</h3>
+        <p>Wide-open day — a clean runway for onboarding prep and sign-up follow-ups.</p>
       </div>
     </div>
   </section>
@@ -137,12 +138,12 @@
         <span class="big">◆</span>
         <div>
           <strong>Completely clear today.</strong>
-          <small>No events across your primary, Rozel's, or client calendars — no conflicts, no back-to-backs. Clear runway for deep work.</small>
+          <small>No events across your primary, Rozel's, or both client ad calendars — no conflicts, no back-to-backs. Clear runway for deep work.</small>
         </div>
       </div>
       <div class="sub"><strong>Tomorrow morning (Sat, Jul 11):</strong> nothing scheduled.</div>
-      <div class="note"><b>⚠ Setting watch:</b> your primary calendar defaults to <b>America/New_York (EST)</b>, not PST. New events you add default to EST — an easy 3-hour trap.</div>
-      <div class="note"><b>📌 Note:</b> no "Activate AI Income in 2026" session on today's calendar — if you expect that weekly anchor, it may sit on another day.</div>
+      <div class="note"><b>📌 Note:</b> the weekly "Activate AI Income in 2026" anchor didn't appear on any calendar I can read — if you expected it today, it may live elsewhere or be on another day.</div>
+      <div class="note"><b>⚠ Zone check:</b> your primary calendar's base zone is <b>EST</b>, Rozel's is <b>PST</b>. Nothing scheduled so no trap today — just mind it when adding events.</div>
     </div>
   </section>
 
@@ -155,17 +156,13 @@
         <div class="card">
           <div class="col-head">
             <span class="name">🔴 Needs Reply</span>
-            <span class="pill">2</span>
+            <span class="pill">1</span>
           </div>
           <div class="item">
-            <div class="from">WESTSTAR Relocation Inc <span class="tag">OVERDUE</span></div>
-            <div class="what">Invoice $168.00 (via Clover), due June 30 — now past due.</div>
-            <div class="act"><b>Action:</b> confirm it's legitimately yours, then pay or dispute.</div>
-          </div>
-          <div class="item">
-            <div class="from">American Express <span class="tag">TIME-SENSITIVE</span></div>
-            <div class="what">"Future transactions may be declined" — a NAV charge came in near your card limit.</div>
-            <div class="act"><b>Action:</b> check balance/limit before it disrupts spend.</div>
+            <div class="from">WESTSTAR Relocation Inc <span class="tag">OVERDUE 10D</span></div>
+            <div class="what">Past-due invoice $168.00 (#V1N9E0BFXBZBJ, "Storage — June"), due June 30.</div>
+            <div class="act"><b>Action:</b> verify it's legit, then pay or dispute. → Rozel can process once confirmed.</div>
+            <div class="why">why: money — genuine overdue bill, a decision only you can make.</div>
           </div>
         </div>
       </div>
@@ -177,14 +174,14 @@
             <span class="pill">2</span>
           </div>
           <div class="item">
-            <div class="from">Nav</div>
-            <div class="what">New business credit inquiry on Gold Standard Gaming LLC (Experian, 06/08).</div>
-            <div class="act">Quick eyeball to confirm it's expected, not fraud.</div>
+            <div class="from">Airbnb — Host (Troy)</div>
+            <div class="what">Welcome note for your LA stay Jul 15–Aug 12. No ask.</div>
+            <div class="why">why: real person, courtesy greeting — no action required.</div>
           </div>
           <div class="item">
-            <div class="from">Google Workspace</div>
-            <div class="what">Monthly invoice for gsgagency.com available (auto-charged).</div>
-            <div class="act"><b>→ Rozel</b> can file/track.</div>
+            <div class="from">American Express</div>
+            <div class="what">Servicing reminder about changes to your Amazon Business account.</div>
+            <div class="why">why: automated account-servicing notice, informational.</div>
           </div>
         </div>
       </div>
@@ -193,21 +190,19 @@
         <div class="card">
           <div class="col-head">
             <span class="name">⚪ Ignore</span>
-            <span class="pill">~46</span>
+            <span class="pill">44</span>
           </div>
           <ul class="muted-list">
-            <li><span>Newsletters</span><span class="n">16</span></li>
-            <li><span>Promotions / offers</span><span class="n">13</span></li>
-            <li><span>Automated receipts &amp; billing</span><span class="n">7</span></li>
-            <li><span>System / policy notices</span><span class="n">6</span></li>
-            <li><span>Cold sales outreach</span><span class="n">2</span></li>
-            <li><span>Nav credit-score summary</span><span class="n">1</span></li>
+            <li><span>System / account notices</span><span class="n">14</span></li>
+            <li><span>Newsletters</span><span class="n">13</span></li>
+            <li><span>Promotions / offers</span><span class="n">11</span></li>
+            <li><span>Automated billing / receipts</span><span class="n">6</span></li>
           </ul>
         </div>
       </div>
 
     </div>
-    <div class="sub">No VIP mail (Rozel, Wilbert, Sean, paralegal) in this window · no client sign-ups / AI-service inbound · ~201 total unread — most recent ~50 triaged, rest is older noise.</div>
+    <div class="sub">🔐 Also flagged: an <b>Anthropic passkey alert</b> (elevated to Top-3 #2). Two cold B2B pitches sit in Ignore if you want deal flow. No VIP mail this window · Sender Rules still empty.</div>
   </section>
 
   <!-- TIME BLOCKS -->
@@ -217,23 +212,23 @@
       <div class="card">
         <div class="time">9:00 – 10:30 PST</div>
         <h4>Deep work — AI launch</h4>
-        <p>Map the onboarding + sign-up follow-up flow while the day is quiet.</p>
+        <p>Onboarding flow + sign-up follow-up sequence while the day is quiet.</p>
       </div>
       <div class="card">
-        <div class="time">13:00 – 13:45 PST</div>
-        <h4>Money admin + replies</h4>
-        <p>Resolve WESTSTAR, check Amex limit, verify the Nav inquiry. Run <code>/replies</code> for anything needing a response.</p>
+        <div class="time">13:00 – 13:30 PST</div>
+        <h4>Money + security admin</h4>
+        <p>Verify the WESTSTAR invoice, check/remove the Anthropic passkey. Run <code>/replies</code> for anything needing a response.</p>
       </div>
       <div class="card">
         <div class="time">15:30 – 16:30 PST</div>
         <h4>Proactive outreach</h4>
-        <p>Reach warm leads &amp; prep onboarding assets so next week's inbound has somewhere to land.</p>
+        <p>Warm-lead follow-ups &amp; prep onboarding assets so next week's inbound has somewhere to land.</p>
       </div>
     </div>
   </section>
 
   <footer>
-    <span>Generated Fri, Jul 10, 2026 · 8:00 AM PST</span>
+    <span>Generated Fri, Jul 10, 2026 · PST</span>
     <span class="lock">🔒 Read-only · Nothing is sent without your yes.</span>
   </footer>
 
