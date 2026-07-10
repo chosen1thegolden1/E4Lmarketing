@@ -59,8 +59,15 @@ Write the same brief to `daily/YYYY-MM-DD.md` (use today's date). If the file
 already exists, overwrite the brief section but preserve any `## Wrap-Up` section
 already appended by `/wrap`. Create the `daily/` folder if it doesn't exist.
 
-## Step 5 — Close
-Show the brief in chat. Then remind Sebastian he can run **`/replies`** to draft
+## Step 5 — Build the visual dashboard
+Read `.claude/dashboard-spec.md` and, following it exactly, write a single
+self-contained `dashboard.html` in the project root with THIS brief's data
+inlined (no external files, no server — double-click to open). Overwrite any
+existing dashboard.html. Keep it read-only: no buttons that send/reply/delete.
+
+## Step 6 — Close
+Show the brief in chat. Mention that `dashboard.html` was refreshed (open it, or
+run **`/dashboard`**). Then remind Sebastian he can run **`/replies`** to draft
 responses to the Needs-Reply items, and **`/wrap`** at end of day.
 
 Reminder: never act on the mailbox or calendar. Draft nothing here — that's
