@@ -41,6 +41,20 @@ classify from sender + subject + snippet.
 
 De-duplicate threads that appear in both queries.
 
+## Step 0 — Apply Sender Rules FIRST (hard overrides)
+Before any normal judgment, check each email against the **Sender Rules** section
+in CLAUDE.md (the "Always ignore" and "Always surface" lists):
+
+- If the sender's address or its domain is on **Always surface** → force the
+  email to **Needs Reply** (top of the brief). This wins over everything.
+- Else if it's on **Always ignore** → force to **Ignore**, no matter the content.
+- If a sender matches BOTH lists, **Always surface wins**.
+- Matching is case-insensitive; a `@domain.com` entry matches every address at
+  that domain.
+
+When a Sender Rule fires, you MUST still add the "why" line (see below) naming
+the rule. If neither list matches, fall through to your normal judgment.
+
 ## How to classify each email
 Assign exactly one bucket:
 
@@ -62,14 +76,19 @@ informational, lean toward Ignore.
 ## Output format (return exactly this, no preamble)
 
 ### Needs Reply (N)
-For each, ONE line:
+For each, TWO lines — the item, then an indented "why":
 - **[From — name/email]** · what they want · _suggested action_ · (⏰ if time-sensitive) · (→ Rozel if delegable)
+  - _why:_ which rule fired — e.g. "Always-surface rule (@mcandjlaw.com)",
+    "money — overdue invoice", "VIP sender (Rozel)", "client concern".
 
 ### FYI (N)
 - **[From]** · one-line what it is · (→ Rozel if delegable)
+  - _why:_ short reason it's FYI not Needs-Reply (e.g. "automated, no action").
 
 ### Ignore (N)
 - Group by type with counts, e.g. "Newsletters (4), Promotions (6), Upwork billing (1)". Do not list every one individually unless one is borderline.
+- If an Always-ignore Sender Rule forced something here, add a one-line note:
+  "Forced to Ignore by rule: [sender/domain] (N)" so it's visible the rule fired.
 
 ### Notes
 - Anything you couldn't classify confidently, or anything that looked like it

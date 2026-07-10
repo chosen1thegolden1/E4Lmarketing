@@ -27,6 +27,27 @@
   - `@mcandjlaw.com` (legal/compliance)
 - *Note: more key leaders to be added later.*
 
+## Sender Rules (learned overrides)
+These are **hard overrides** the inbox-analyst applies BEFORE its normal
+judgment. They're maintained by `/tune` as Sebastian gives feedback. A match
+here wins over the general importance rules below.
+
+Format (one per line, under the right list):
+`- sender@example.com — short reason`  ← a specific address, OR
+`- @somedomain.com — short reason`     ← a whole domain
+
+Matching: case-insensitive; a `@domain.com` entry matches every address at that
+domain. If a sender somehow matches BOTH lists, **Always surface wins** (safer to
+show than to hide).
+
+### Always ignore (force to ⚪ Ignore — never surface)
+<!-- e.g. - @news.example.com — newsletter I never read -->
+_(none yet — add via /tune)_
+
+### Always surface (force to 🔴 Needs Reply / top of brief)
+<!-- e.g. - billing@stripe.com — always want to see payment issues -->
+_(none yet — add via /tune)_
+
 ## My Reply Voice
 Warm, concise, confident, and delivery-driven. Professional but plain-spoken
 ("corporate but layman's") so the everyday person never feels overwhelmed by
