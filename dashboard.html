@@ -5,23 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Command Center — Friday, July 10</title>
 <style>
+  /* Eat 4 Life brand palette — Gold #FFC200 · Black #000 · White #FFF */
   :root{
-    --bg:#f4f6fb; --panel:#ffffff; --ink:#111827; --muted:#6b7280;
-    --line:#e5e7eb; --soft:#f9fafb;
-    --accent:#2563eb; --accent-soft:#eff4ff; --accent-ink:#1d4ed8;
-    --red:#dc2626; --red-soft:#fef2f2; --amber:#d97706; --amber-soft:#fffbeb;
-    --emerald:#059669; --emerald-soft:#ecfdf5;
-    --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px rgba(16,24,40,.06);
+    --bg:#f4f2ec; --panel:#ffffff; --ink:#0a0a0a; --muted:#6f6b60;
+    --line:#e6e2d7; --soft:#faf8f2;
+    --gold:#FFC200; --gold-ink:#8a6d00; --gold-soft:#fff6d6; --gold-line:#f0d789;
+    --shadow:0 1px 2px rgba(20,16,4,.06),0 10px 26px rgba(20,16,4,.07);
     --radius:16px;
+    --tag-bg:#0a0a0a; --tag-ink:#FFC200;
   }
   @media (prefers-color-scheme: dark){
     :root{
-      --bg:#0b1020; --panel:#141a2c; --ink:#e8ecf6; --muted:#93a0bd;
-      --line:#243049; --soft:#1a2135;
-      --accent:#5b8cff; --accent-soft:#182444; --accent-ink:#9db8ff;
-      --red:#f87171; --red-soft:#341a1c; --amber:#fbbf24; --amber-soft:#332711;
-      --emerald:#34d399; --emerald-soft:#0f2a22;
-      --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+      --bg:#0a0a0a; --panel:#161513; --ink:#f6f5f2; --muted:#a3a097;
+      --line:#2b2822; --soft:#1d1b16;
+      --gold:#FFC200; --gold-ink:#FFC200; --gold-soft:#2a2205; --gold-line:#5c4a08;
+      --shadow:0 1px 2px rgba(0,0,0,.5),0 12px 32px rgba(0,0,0,.45);
+      --tag-bg:#FFC200; --tag-ink:#0a0a0a;
     }
   }
   *{box-sizing:border-box}
@@ -31,31 +30,34 @@
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     line-height:1.5; -webkit-font-smoothing:antialiased;
   }
+  .serif{font-family:Georgia,"Times New Roman",serif}
   .wrap{max-width:1080px; margin:0 auto; padding:28px 20px 60px}
-  .eyebrow{font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:700}
-  header.top{display:flex; justify-content:space-between; align-items:flex-end; gap:16px; flex-wrap:wrap; margin-bottom:26px}
-  header.top h1{margin:6px 0 2px; font-size:30px; letter-spacing:-.02em}
+  .eyebrow{font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--gold-ink); font-weight:800}
+  header.top{display:flex; justify-content:space-between; align-items:flex-end; gap:16px; flex-wrap:wrap; margin-bottom:26px; padding-bottom:20px; border-bottom:2px solid var(--gold)}
+  header.top h1{margin:8px 0 3px; font-size:32px; letter-spacing:-.01em; font-weight:600}
   header.top .date{color:var(--muted); font-size:15px}
-  .mark{font-size:13px; font-weight:700; color:var(--muted); white-space:nowrap}
-  .mark b{color:var(--accent-ink)}
+  .mark{font-size:13px; font-weight:700; color:var(--muted); white-space:nowrap; letter-spacing:.02em}
+  .mark b{color:var(--ink)}
+  .mark .g{color:var(--gold-ink)}
   section{margin:26px 0}
-  .sec-title{display:flex; align-items:center; gap:10px; font-size:13px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:0 0 14px}
+  .sec-title{display:flex; align-items:center; gap:10px; font-size:13px; font-weight:800; letter-spacing:.09em; text-transform:uppercase; color:var(--muted); margin:0 0 14px}
+  .sec-title::after{content:""; flex:1; height:1px; background:var(--line)}
   .card{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow)}
   /* Top 3 */
   .hero{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
   .hero .card{padding:18px 18px 20px; position:relative; overflow:hidden}
-  .hero .num{font-size:13px; font-weight:800; color:#fff; background:var(--accent); width:26px; height:26px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:12px}
+  .hero .num{font-size:14px; font-weight:800; color:#0a0a0a; background:var(--gold); width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:12px}
   .hero h3{margin:0 0 6px; font-size:16px; letter-spacing:-.01em}
   .hero p{margin:0; color:var(--muted); font-size:13.5px}
-  .hero .card::before{content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--accent)}
+  .hero .card::before{content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--gold)}
   /* Timeline */
-  .timeline .card{padding:20px 22px}
+  .timeline .card{padding:20px 22px; border-left:4px solid var(--gold)}
   .tl-empty{display:flex; align-items:center; gap:12px; font-size:15px}
-  .tl-empty .big{font-size:22px}
+  .tl-empty .big{font-size:22px; color:var(--gold-ink)}
   .tl-empty small{color:var(--muted); display:block; font-size:13px; margin-top:2px}
-  .note{margin-top:14px; padding:12px 14px; background:var(--amber-soft); border:1px solid var(--line); border-left:3px solid var(--amber); border-radius:10px; font-size:13px; color:var(--ink)}
+  .note{margin-top:14px; padding:12px 14px; background:var(--gold-soft); border:1px solid var(--gold-line); border-radius:10px; font-size:13px; color:var(--ink)}
   .note + .note{margin-top:8px}
-  .note b{color:var(--amber)}
+  .note b{color:var(--gold-ink)}
   .sub{margin-top:16px; font-size:13px; color:var(--muted)}
   /* Inbox */
   .inbox{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; align-items:start}
@@ -63,30 +65,33 @@
   .col-head{display:flex; align-items:center; justify-content:space-between; margin-bottom:12px}
   .col-head .name{font-weight:700; font-size:14px; display:flex; align-items:center; gap:7px}
   .pill{font-size:12px; font-weight:800; padding:2px 10px; border-radius:999px; background:var(--soft); color:var(--muted); border:1px solid var(--line)}
-  .col.reply .pill{background:var(--red-soft); color:var(--red); border-color:transparent}
-  .col.fyi .pill{background:var(--amber-soft); color:var(--amber); border-color:transparent}
+  .col.reply .pill{background:var(--gold); color:#0a0a0a; border-color:transparent}
+  .col.fyi .pill{background:var(--soft); color:var(--ink); border-color:var(--line)}
+  .col.reply .card{border-color:var(--gold-line)}
   .item{padding:11px 12px; border:1px solid var(--line); border-radius:11px; margin-bottom:9px; background:var(--soft)}
   .item:last-child{margin-bottom:0}
-  .col.reply .item{background:var(--red-soft); border-color:transparent}
-  .item .from{font-weight:700; font-size:13.5px; display:flex; align-items:center; gap:6px}
+  .col.reply .item{background:var(--gold-soft); border-color:var(--gold-line)}
+  .item .from{font-weight:700; font-size:13.5px; display:flex; align-items:center; gap:6px; flex-wrap:wrap}
   .item .what{font-size:13px; color:var(--ink); margin:3px 0 5px}
   .item .act{font-size:12.5px; color:var(--muted)}
-  .item .act b{color:var(--accent-ink); font-weight:700}
-  .tag{display:inline-block; font-size:11px; font-weight:800; padding:1px 7px; border-radius:6px; background:var(--red); color:#fff; margin-left:2px}
+  .item .act b{color:var(--gold-ink); font-weight:800}
+  .tag{display:inline-block; font-size:10.5px; font-weight:800; letter-spacing:.04em; padding:1px 7px; border-radius:6px; background:var(--tag-bg); color:var(--tag-ink)}
   .muted-list{margin:0; padding:0; list-style:none; font-size:12.5px; color:var(--muted)}
-  .muted-list li{padding:5px 0; border-bottom:1px dashed var(--line)}
+  .muted-list li{padding:6px 0; border-bottom:1px dashed var(--line); display:flex; justify-content:space-between; gap:10px}
   .muted-list li:last-child{border-bottom:0}
+  .muted-list .n{font-weight:800; color:var(--ink)}
   /* Time blocks */
   .blocks{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
-  .blocks .card{padding:16px 16px 18px}
-  .blocks .time{font-weight:800; font-size:13px; color:var(--accent-ink); letter-spacing:-.01em; margin-bottom:6px}
+  .blocks .card{padding:16px 16px 18px; border-top:3px solid var(--gold)}
+  .blocks .time{font-weight:800; font-size:13px; color:var(--gold-ink); letter-spacing:-.01em; margin-bottom:6px}
   .blocks h4{margin:0 0 5px; font-size:14.5px}
   .blocks p{margin:0; font-size:13px; color:var(--muted)}
-  footer{margin-top:34px; padding-top:18px; border-top:1px solid var(--line); font-size:12.5px; color:var(--muted); display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap}
-  footer .lock{font-weight:700; color:var(--emerald)}
+  .blocks code{background:var(--gold-soft); color:var(--gold-ink); padding:1px 5px; border-radius:5px; font-size:12px}
+  footer{margin-top:34px; padding-top:18px; border-top:2px solid var(--gold); font-size:12.5px; color:var(--muted); display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap}
+  footer .lock{font-weight:700; color:var(--ink)}
   @media (max-width:760px){
     .hero,.inbox,.blocks{grid-template-columns:1fr}
-    header.top h1{font-size:25px}
+    header.top h1{font-size:26px}
   }
 </style>
 </head>
@@ -96,10 +101,10 @@
   <header class="top">
     <div>
       <div class="eyebrow">Daily Command Center</div>
-      <h1>Good morning, Sebastian ☀️</h1>
+      <h1 class="serif">Good morning, Sebastian</h1>
       <div class="date">Friday, July 10, 2026</div>
     </div>
-    <div class="mark">Eat 4 Life · <b>Command Center</b></div>
+    <div class="mark serif">Eat 4 Life <span class="g">·</span> <b>Command Center</b></div>
   </header>
 
   <!-- TOP 3 -->
@@ -129,7 +134,7 @@
     <div class="sec-title">📅 Calendar at a glance <span style="font-weight:600;text-transform:none;letter-spacing:0;color:var(--muted)">· times in PST</span></div>
     <div class="card">
       <div class="tl-empty">
-        <span class="big">🟢</span>
+        <span class="big">◆</span>
         <div>
           <strong>Completely clear today.</strong>
           <small>No events across your primary, Rozel's, or client calendars — no conflicts, no back-to-backs. Clear runway for deep work.</small>
@@ -191,12 +196,12 @@
             <span class="pill">~46</span>
           </div>
           <ul class="muted-list">
-            <li>Newsletters — 16</li>
-            <li>Promotions / offers — 13</li>
-            <li>Automated receipts &amp; billing — 7</li>
-            <li>System / policy notices — 6</li>
-            <li>Cold sales outreach — 2</li>
-            <li>Nav credit-score summary — 1</li>
+            <li><span>Newsletters</span><span class="n">16</span></li>
+            <li><span>Promotions / offers</span><span class="n">13</span></li>
+            <li><span>Automated receipts &amp; billing</span><span class="n">7</span></li>
+            <li><span>System / policy notices</span><span class="n">6</span></li>
+            <li><span>Cold sales outreach</span><span class="n">2</span></li>
+            <li><span>Nav credit-score summary</span><span class="n">1</span></li>
           </ul>
         </div>
       </div>

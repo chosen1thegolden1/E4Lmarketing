@@ -43,15 +43,29 @@ card in that section instead of faking data.
 6. **Footer** — "Generated at [timestamp] · Read-only · Nothing is sent without
    your yes." Use the real generation time; PST.
 
-## Style direction
-- Clean, modern, calm. Card-based on a soft background. Generous whitespace.
-- A single accent color for priority/Needs-Reply (a confident blue or emerald).
-  Red only for genuine conflicts/urgent. Muted gray for Ignore/noise.
-- System font stack (e.g. `-apple-system, BlinkMacSystemFont, "Segoe UI",
-  Roboto, sans-serif`) — no web fonts.
-- Priority coding consistent with the brief: 🔴 Needs Reply, 🟡 FYI, ⚪ Ignore.
+## Style direction — Eat 4 Life brand
+- **Brand palette (use ONLY these, per the brand guidelines):**
+  - **Gold** `#FFC200` — the single accent (priority, highlights, num badges,
+    accent bars, wordmark). On light backgrounds use a darker gold for TEXT
+    (`#8a6d00`) to stay legible; keep `#FFC200` for fills/borders/badges. On
+    dark backgrounds `#FFC200` text is perfect.
+  - **Black** `#000000` (near-black `#0a0a0a` for surfaces) and **White**
+    `#FFFFFF`. Everything is black/white/gold — no blues, reds, greens, ambers.
+  - For an "urgent/overdue" tag, stay on-brand: black pill with gold text (light
+    mode) / gold pill with black text (dark mode). Do NOT introduce red.
+  - Ignore/noise = muted gray only.
+- **Dark mode is on-brand and premium:** black background, white ink, gold
+  accent (mirrors the brand's dark-BG logo variant). Light mode: warm off-white
+  bg, white cards, black ink, gold accents.
+- Brand fonts are **Fineday** (display) and **Rethink Sans** (body) — NOT
+  web-safe and we allow no external requests, so use a system stack:
+  body `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif`;
+  optionally a system serif (Georgia) for the big greeting/wordmark to nod at
+  the display font. Never fetch a web font.
+- Priority coding: 🔴 Needs Reply (gold accent), 🟡 FYI (neutral), ⚪ Ignore (muted).
 - Use CSS custom properties for colors so light/dark stay consistent.
-- Keep it tasteful and executive — this is the CEO's morning cockpit, not a toy.
+- Clean, modern, calm, card-based, generous whitespace. Tasteful and executive —
+  the CEO's morning cockpit, not a toy.
 
 ## Title
 `<title>` = "Command Center — [Weekday, Month D]".
