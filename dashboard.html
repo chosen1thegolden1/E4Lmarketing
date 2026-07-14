@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Command Center — Sunday, July 12</title>
+<title>Command Center — Tuesday, July 14</title>
 <style>
   /* Eat 4 Life brand palette — Gold #FFC200 · Black #000 · White #FFF */
   :root{
@@ -76,12 +76,16 @@
   .item .act{font-size:12.5px; color:var(--muted)}
   .item .act b{color:var(--gold-ink); font-weight:800}
   .item .why{font-size:11.5px; color:var(--muted); margin-top:5px; font-style:italic; border-top:1px dashed var(--gold-line); padding-top:5px}
-  .empty-col{font-size:13px; color:var(--muted); padding:6px 2px}
+  .empty-col{font-size:13px; color:var(--muted); padding:8px 2px; text-align:center}
+  .empty-col .zero{font-size:20px; display:block; margin-bottom:4px}
   .tag{display:inline-block; font-size:10.5px; font-weight:800; letter-spacing:.04em; padding:1px 7px; border-radius:6px; background:var(--tag-bg); color:var(--tag-ink)}
   .muted-list{margin:0; padding:0; list-style:none; font-size:12.5px; color:var(--muted)}
   .muted-list li{padding:6px 0; border-bottom:1px dashed var(--line); display:flex; justify-content:space-between; gap:10px}
   .muted-list li:last-child{border-bottom:0}
   .muted-list .n{font-weight:800; color:var(--ink)}
+  /* Security callout */
+  .alert{margin-top:2px; padding:14px 16px; background:var(--gold-soft); border:1px solid var(--gold-line); border-left:4px solid var(--gold); border-radius:12px; font-size:13px}
+  .alert b{color:var(--gold-ink)}
   /* Time blocks */
   .blocks{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
   .blocks .card{padding:16px 16px 18px; border-top:3px solid var(--gold)}
@@ -104,7 +108,7 @@
     <div>
       <div class="eyebrow">Daily Command Center</div>
       <h1 class="serif">Good morning, Sebastian</h1>
-      <div class="date">Sunday, July 12, 2026 · weekend</div>
+      <div class="date">Tuesday, July 14, 2026</div>
     </div>
     <div class="mark serif">Eat 4 Life <span class="g">·</span> <b>Command Center</b></div>
   </header>
@@ -115,18 +119,18 @@
     <div class="hero">
       <div class="card">
         <div class="num">1</div>
-        <h3>Resolve the overdue WESTSTAR invoice</h3>
-        <p>$168.00, past due since June 30. Confirm you engaged Weststar before paying (legitimacy check), then pay or dispute. Rozel can process once confirmed.</p>
+        <h3>Verify the Amazon sign-in alert</h3>
+        <p>A "sign-in attempt" notice landed today. Could be legit or phishing — check activity directly at amazon.com, don't click the email.</p>
       </div>
       <div class="card">
         <div class="num">2</div>
-        <h3>Check the Amex limit alert</h3>
-        <p>"Future transactions may be declined" — a charge landed near your limit. A quick balance check keeps business spend flowing.</p>
+        <h3>Push the AI launch</h3>
+        <p>Wide-open day, no mail waiting — a clean runway for onboarding flow + sign-up follow-ups.</p>
       </div>
       <div class="card">
         <div class="num">3</div>
-        <h3>It's Sunday — protect it</h3>
-        <p>Nothing scheduled, no VIP or client mail waiting. Get ahead on the AI launch if you want, or rest before the week.</p>
+        <h3>Close the money loose ends</h3>
+        <p>The WESTSTAR invoice and older Amex limit alert haven't shown resolved — quick confirm so they don't drag.</p>
       </div>
     </div>
   </section>
@@ -139,12 +143,12 @@
         <span class="big">◆</span>
         <div>
           <strong>Completely clear today.</strong>
-          <small>No events across your primary or Rozel's calendar — a calm weekend. Nothing needs you.</small>
+          <small>No events on your primary calendar — no conflicts, no back-to-backs. Clear runway for deep work.</small>
         </div>
       </div>
-      <div class="sub"><strong>Tomorrow morning (Mon, Jul 13):</strong> nothing scheduled yet.</div>
-      <div class="note"><b>📌 Note:</b> no "Activate AI Income in 2026" session on the calendar this window.</div>
-      <div class="note"><b>⚠ Zone check:</b> your primary calendar's base zone is <b>EST</b>, Rozel's is <b>PST</b> — mind it when adding events so nothing lands 3 hours off.</div>
+      <div class="sub"><strong>Tomorrow morning (Wed, Jul 15):</strong> nothing scheduled.</div>
+      <div class="note"><b>🔎 Heads-up:</b> I only see your primary calendar. If you keep a separate team/work calendar, say the word and I'll pull it too.</div>
+      <div class="note"><b>⚠ Zone check:</b> primary calendar defaults to <b>EST</b> — mind it when adding events so nothing lands 3 hours off.</div>
     </div>
   </section>
 
@@ -157,20 +161,9 @@
         <div class="card">
           <div class="col-head">
             <span class="name">🔴 Needs Reply</span>
-            <span class="pill">2</span>
+            <span class="pill">0</span>
           </div>
-          <div class="item">
-            <div class="from">WESTSTAR Relocation Inc <span class="tag">OVERDUE</span></div>
-            <div class="what">Past-due invoice $168.00, due June 30, marked overdue.</div>
-            <div class="act"><b>Action:</b> verify it's legit, then pay or dispute. → Rozel can process once confirmed.</div>
-            <div class="why">why: money — overdue invoice you'd owe. Surface-now "Money" rule.</div>
-          </div>
-          <div class="item">
-            <div class="from">American Express <span class="tag">LIMIT</span></div>
-            <div class="what">"Future transactions may be declined" — a charge came in near your card limit.</div>
-            <div class="act"><b>Action:</b> check available credit / clear balance.</div>
-            <div class="why">why: automated, but signals a potential problem (declines) — bumped up to surface.</div>
-          </div>
+          <div class="empty-col"><span class="zero">✅</span>Nobody's waiting on you — no VIP, client, invoice, or legal item.</div>
         </div>
       </div>
 
@@ -180,7 +173,7 @@
             <span class="name">🟡 FYI</span>
             <span class="pill">0</span>
           </div>
-          <div class="empty-col">Nothing this window — no VIP, client, or meeting-recap mail landed. 🎉</div>
+          <div class="empty-col"><span class="zero">🎉</span>Nothing to pass along this window.</div>
         </div>
       </div>
 
@@ -188,46 +181,48 @@
         <div class="card">
           <div class="col-head">
             <span class="name">⚪ Ignore</span>
-            <span class="pill">~48</span>
+            <span class="pill">52</span>
           </div>
           <ul class="muted-list">
-            <li><span>Newsletters</span><span class="n">21</span></li>
-            <li><span>Promotions / offers</span><span class="n">10</span></li>
-            <li><span>Automated billing / receipts</span><span class="n">8</span></li>
-            <li><span>Product / admin notices</span><span class="n">6</span></li>
-            <li><span>Cold sales outreach</span><span class="n">3</span></li>
+            <li><span>Newsletters</span><span class="n">19</span></li>
+            <li><span>Promotions / offers</span><span class="n">13</span></li>
+            <li><span>Automated receipts / billing</span><span class="n">10</span></li>
+            <li><span>Account / service notices</span><span class="n">9</span></li>
+            <li><span>Cold outreach</span><span class="n">1</span></li>
           </ul>
         </div>
       </div>
 
     </div>
-    <div class="sub">Worth a personal reply if it interests you: <b>ryan@strawhutzone.com</b> (cold branded-podcast pitch, real human). No VIP mail this window · Sender Rules still empty.</div>
+    <div class="alert">
+      🔐 <b>Security eyeball (don't click):</b> an <b>Amazon "sign-in attempt"</b> alert ("near Connecticut, Android") arrived today — verify directly in your Amazon account, not via the email. Also lingering: an older <b>Amex</b> "may be declined" notice (Jun 9) worth confirming if a live card limit still matters.
+    </div>
   </section>
 
   <!-- TIME BLOCKS -->
   <section>
-    <div class="sec-title">⏱️ Suggested time blocks <span style="font-weight:600;text-transform:none;letter-spacing:0;color:var(--muted)">· light, it's Sunday</span></div>
+    <div class="sec-title">⏱️ Suggested time blocks</div>
     <div class="blocks">
       <div class="card">
-        <div class="time">10:00 – 10:20 PST</div>
-        <h4>Money admin</h4>
-        <p>Verify the WESTSTAR invoice + check the Amex limit. Two quick items, then you're clear.</p>
+        <div class="time">9:00 – 10:30 PST</div>
+        <h4>Deep work — AI launch</h4>
+        <p>Onboarding flow + sign-up follow-up sequence while it's quiet.</p>
       </div>
       <div class="card">
-        <div class="time">11:00 – 12:00 PST</div>
-        <h4>Optional deep work</h4>
-        <p>If you're in the mood, sketch the AI-launch onboarding/follow-up flow while it's quiet.</p>
+        <div class="time">11:00 – 11:15 PST</div>
+        <h4>Security + money check</h4>
+        <p>Verify the Amazon sign-in in-app; confirm WESTSTAR + Amex are handled.</p>
       </div>
       <div class="card">
-        <div class="time">Rest of day</div>
-        <h4>Protected 🌿</h4>
-        <p>Weekend inbox is calm — nothing needs you. Recharge for the week.</p>
+        <div class="time">14:00 – 15:00 PST</div>
+        <h4>Proactive outreach</h4>
+        <p>Warm-lead follow-ups &amp; onboarding prep so this week's inbound has somewhere to land.</p>
       </div>
     </div>
   </section>
 
   <footer>
-    <span>Generated Sun, Jul 12, 2026 · PST</span>
+    <span>Generated Tue, Jul 14, 2026 · PST</span>
     <span class="lock">🔒 Read-only · Nothing is sent without your yes.</span>
   </footer>
 
