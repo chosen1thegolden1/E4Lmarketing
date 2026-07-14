@@ -14,13 +14,19 @@ anything. The only file you write is today's `daily/` note.
   day started with (Top 3, Needs Reply, meetings).
 
 ## Step 2 — Ask what got done
-Ask Sebastian directly, and keep it easy to answer:
+If today's note has a **"Today's Moves"** checklist, show it back and ask him to
+tell you which he knocked down. Then the broader questions:
 > How'd the day go? Quick hits:
-> 1. What got done? (wins, sent replies, closed items)
-> 2. Anything still open or waiting on someone?
-> 3. Anything new that landed today I should carry forward?
+> 1. Which of today's moves did you finish? (list them, or "1 and 3")
+> 2. What else got done? (wins, sent replies, closed items)
+> 3. Anything still open or waiting on someone?
+> 4. Anything new that landed today I should carry forward?
 
 Wait for his answer. If he's brief, that's fine — work with what he gives you.
+
+When he names finished moves, tick them to `[x]` in today's note's Today's Moves
+list. If a finished move completes a whole weekly goal, offer to check that goal
+off in `goals/this-week.md` too (confirm before writing that file).
 
 ## Step 3 — Reconcile against the brief
 Compare what he said against today's Top 3 and Needs-Reply list:

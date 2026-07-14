@@ -20,6 +20,20 @@ one turn) so they run concurrently:
 Wait for both to return before writing the brief. If one fails (e.g. connector
 not authorized), note it in the brief and continue with what you have.
 
+## Step 2.5 — Generate "Today's Moves" from the weekly goals
+Read `goals/this-week.md`. If it has real goals (not just placeholders), pick
+**3 small, concrete moves for today** (up to 5 on a wide-open day; fewer on a
+packed one) that ladder up to those weekly goals. Rules:
+- Spread across categories over the week so Lead Gen, Content, Admin, and Agent
+  Building all move — don't hammer one and ignore the rest.
+- Weight toward what's still undone and how many days are left in the week
+  (Mon has the whole week; Fri, prioritize what must close).
+- Each move is finishable in one sitting and names the goal it advances.
+- **Carry over** any unchecked moves from the most recent `daily/` note first.
+- Fit them around today's calendar and the money/security items in the brief.
+If `goals/this-week.md` is empty/placeholder, skip this section and, once in the
+brief, gently note he can set goals with `/goals`.
+
 ## Step 3 — Write the Morning Brief
 Use today's date from the environment. Format:
 
@@ -33,6 +47,14 @@ Use today's date from the environment. Format:
 (Pull from the highest-priority Needs-Reply emails + most important meetings.
 Money, client needs, deadlines, compliance, and VIPs win. Be specific and
 action-oriented.)
+
+## ✅ Today's Moves (toward this week's goals)
+- [ ] [category] concrete move · _→ advances: [which weekly goal]_
+- [ ] …
+- [ ] …
+(From Step 2.5. These are proactive tasks he can knock down; the Top 3 above are
+what *matters* reactively. Include carry-overs from yesterday first. Omit this
+whole section if no weekly goals are set.)
 
 ## 2. Calendar at a Glance
 [calendar-analyst output: today's timeline in PST, tomorrow-morning peek,

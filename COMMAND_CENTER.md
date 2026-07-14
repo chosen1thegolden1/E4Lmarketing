@@ -11,7 +11,8 @@ your own profile via `/tune`. All three need your explicit "yes."
 
 | Command | What it does | Writes anything? |
 |---------|--------------|------------------|
-| **`/brief`** | Runs the inbox + calendar analysts in parallel → Morning Brief (Top 3 · Calendar · Inbox · Time Blocks). Saves it to `daily/` and refreshes `dashboard.html`. | Daily note + dashboard (yours only) |
+| **`/brief`** | Runs the inbox + calendar analysts in parallel → Morning Brief (Top 3 · **Today's Moves** · Calendar · Inbox · Time Blocks). Saves it to `daily/` and refreshes `dashboard.html`. | Daily note + dashboard (yours only) |
+| **`/goals`** | Set or update this week's goals (Lead Gen · Content · Admin · Agent Building, etc.). `/brief` turns them into small daily moves. Shows a diff; saves on your yes. | `goals/this-week.md`, only on your yes |
 | **`/dashboard`** | Rebuilds `dashboard.html` from your latest daily note and opens it in your browser. | Dashboard file only |
 | **`/replies`** | Drafts replies to your Needs-Reply emails **in your voice**, shows them, lets you edit, and — only when you say "save 1 and 3" — creates them as Gmail **drafts**. Never sends. | Gmail *drafts*, only on your yes |
 | **`/tune`** | You give plain-English feedback about what a brief got wrong; it proposes concrete rule changes, shows a before/after diff, and updates `CLAUDE.md` only after you confirm. | Your profile, only on your yes |
