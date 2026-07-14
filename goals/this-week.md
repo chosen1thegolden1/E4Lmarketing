@@ -1,20 +1,21 @@
-# 🎯 Weekly Goals — Week of [Mon Mon D → Sun Mon D]
+# 🎯 Goals — Rest of July (Jul 14 → 31)
 
-> Set/edit with `/goals`. Each `/brief` pulls small daily moves from these so the
-> week gets done a little at a time. Check items off here as whole goals land;
-> day-to-day progress is tracked in each `daily/` note under "Today's Moves."
+> Set/edit with `/goals`. Shown on every `/brief` alongside "Today's Moves,"
+> which pull small daily steps from these. Check items off as whole goals land.
 
 ## 🧲 Lead Gen
-- [ ] _(add via /goals)_
+- [ ] Directly approach ≥20 leads with our AI marketing services
+- [ ] Get the "Xbox → Executive" lead-gen funnel fully operational, end-to-end
 
 ## ✍️ Content Creation
-- [ ] _(add via /goals)_
+- [ ] Finalize the book (manuscript → print-ready PDF)
+- [ ] Finalize the audiobook version
+- [ ] Produce the ad creative driving traffic to the funnel
 
-## 🗂️ Admin
-- [ ] _(add via /goals)_
+## 🗂️ Admin / Distribution
+- [ ] Publish & distribute the book on KDP (listing live)
+- [ ] Launch the ads to the funnel
 
-## 🤖 Agent Building
-- [ ] _(add via /goals)_
-
-<!-- Add or rename categories freely (e.g. Sales, Ops, Hiring). Format per line:
-     - [ ] a specific, finishable goal for the week -->
+## 🤖 Agent Building (delivery automation)
+- [ ] Auto-deliver the PDF — leads get it exactly when they need it
+- [ ] Auto-deliver the audiobook — leads get it when they need it

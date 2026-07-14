@@ -48,6 +48,11 @@ Use today's date from the environment. Format:
 Money, client needs, deadlines, compliance, and VIPs win. Be specific and
 action-oriented.)
 
+## 🎯 This Week's Goals — [goal-window, e.g. Rest of July] · [X/Y done]
+Show the full goal list from `goals/this-week.md`, grouped by category, with
+each item's checkbox state (`[ ]` / `[x]`) so the big picture is on the sheet.
+Keep it compact. (Omit if no goals are set.)
+
 ## ✅ Today's Moves (toward this week's goals)
 - [ ] [category] concrete move · _→ advances: [which weekly goal]_
 - [ ] …

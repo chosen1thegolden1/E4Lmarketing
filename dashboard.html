@@ -41,7 +41,8 @@
   .mark .g{color:var(--gold-ink)}
   section{margin:26px 0}
   .sec-title{display:flex; align-items:center; gap:10px; font-size:13px; font-weight:800; letter-spacing:.09em; text-transform:uppercase; color:var(--muted); margin:0 0 14px}
-  .sec-title::after{content:""; flex:1; height:1px; background:var(--line)}
+  .sec-title .prog{margin-left:auto; text-transform:none; letter-spacing:0; font-weight:800; color:var(--gold-ink); background:var(--gold-soft); border:1px solid var(--gold-line); padding:1px 9px; border-radius:999px; font-size:12px}
+  .sec-title.rule::after{content:""; flex:1; height:1px; background:var(--line)}
   .card{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow)}
   /* Top 3 */
   .hero{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
@@ -50,6 +51,27 @@
   .hero h3{margin:0 0 6px; font-size:16px; letter-spacing:-.01em}
   .hero p{margin:0; color:var(--muted); font-size:13.5px}
   .hero .card::before{content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--gold)}
+  /* Weekly goals */
+  .goals .card{padding:16px 18px}
+  .goals-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:8px 26px}
+  .gcat{margin:6px 0 2px; font-size:12px; font-weight:800; color:var(--ink)}
+  .gitem{display:flex; gap:8px; align-items:flex-start; font-size:13px; color:var(--muted); padding:2px 0}
+  .gbox{flex:none; width:14px; height:14px; border:1.5px solid var(--gold-line); border-radius:4px; margin-top:2px}
+  .gitem.done .gbox{background:var(--gold); border-color:var(--gold); position:relative}
+  .gitem.done .gbox::after{content:"✓"; position:absolute; inset:0; font-size:10px; color:#0a0a0a; display:flex; align-items:center; justify-content:center; font-weight:900}
+  .gitem.done span{text-decoration:line-through; opacity:.6}
+  /* Today's moves */
+  .moves .card{padding:14px 16px}
+  .move{display:flex; gap:11px; align-items:flex-start; padding:11px 4px; border-bottom:1px dashed var(--line)}
+  .move:last-child{border-bottom:0}
+  .mbox{flex:none; width:20px; height:20px; border:2px solid var(--gold); border-radius:6px; margin-top:1px}
+  .move.done .mbox{background:var(--gold); position:relative}
+  .move.done .mbox::after{content:"✓"; position:absolute; inset:0; font-size:13px; color:#0a0a0a; display:flex; align-items:center; justify-content:center; font-weight:900}
+  .mbody{flex:1}
+  .mcat{display:inline-block; font-size:10.5px; font-weight:800; letter-spacing:.03em; color:var(--gold-ink); background:var(--gold-soft); border:1px solid var(--gold-line); padding:0 7px; border-radius:6px; margin-right:7px}
+  .mtask{font-size:14px; font-weight:600}
+  .move.done .mtask{text-decoration:line-through; color:var(--muted)}
+  .madv{display:block; font-size:11.5px; color:var(--muted); font-style:italic; margin-top:3px}
   /* Timeline */
   .timeline .card{padding:20px 22px; border-left:4px solid var(--gold)}
   .tl-empty{display:flex; align-items:center; gap:12px; font-size:15px}
@@ -67,36 +89,25 @@
   .pill{font-size:12px; font-weight:800; padding:2px 10px; border-radius:999px; background:var(--soft); color:var(--muted); border:1px solid var(--line)}
   .col.reply .pill{background:var(--gold); color:#0a0a0a; border-color:transparent}
   .col.fyi .pill{background:var(--soft); color:var(--ink); border-color:var(--line)}
-  .col.reply .card{border-color:var(--gold-line)}
   .item{padding:11px 12px; border:1px solid var(--line); border-radius:11px; margin-bottom:9px; background:var(--soft)}
-  .item:last-child{margin-bottom:0}
-  .col.reply .item{background:var(--gold-soft); border-color:var(--gold-line)}
-  .item .from{font-weight:700; font-size:13.5px; display:flex; align-items:center; gap:6px; flex-wrap:wrap}
-  .item .what{font-size:13px; color:var(--ink); margin:3px 0 5px}
-  .item .act{font-size:12.5px; color:var(--muted)}
-  .item .act b{color:var(--gold-ink); font-weight:800}
-  .item .why{font-size:11.5px; color:var(--muted); margin-top:5px; font-style:italic; border-top:1px dashed var(--gold-line); padding-top:5px}
   .empty-col{font-size:13px; color:var(--muted); padding:8px 2px; text-align:center}
   .empty-col .zero{font-size:20px; display:block; margin-bottom:4px}
-  .tag{display:inline-block; font-size:10.5px; font-weight:800; letter-spacing:.04em; padding:1px 7px; border-radius:6px; background:var(--tag-bg); color:var(--tag-ink)}
   .muted-list{margin:0; padding:0; list-style:none; font-size:12.5px; color:var(--muted)}
   .muted-list li{padding:6px 0; border-bottom:1px dashed var(--line); display:flex; justify-content:space-between; gap:10px}
   .muted-list li:last-child{border-bottom:0}
   .muted-list .n{font-weight:800; color:var(--ink)}
-  /* Security callout */
   .alert{margin-top:2px; padding:14px 16px; background:var(--gold-soft); border:1px solid var(--gold-line); border-left:4px solid var(--gold); border-radius:12px; font-size:13px}
   .alert b{color:var(--gold-ink)}
   /* Time blocks */
-  .blocks{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
-  .blocks .card{padding:16px 16px 18px; border-top:3px solid var(--gold)}
-  .blocks .time{font-weight:800; font-size:13px; color:var(--gold-ink); letter-spacing:-.01em; margin-bottom:6px}
-  .blocks h4{margin:0 0 5px; font-size:14.5px}
-  .blocks p{margin:0; font-size:13px; color:var(--muted)}
-  .blocks code{background:var(--gold-soft); color:var(--gold-ink); padding:1px 5px; border-radius:5px; font-size:12px}
+  .blocks{display:grid; grid-template-columns:repeat(4,1fr); gap:12px}
+  .blocks .card{padding:15px 15px 16px; border-top:3px solid var(--gold)}
+  .blocks .time{font-weight:800; font-size:12.5px; color:var(--gold-ink); letter-spacing:-.01em; margin-bottom:6px}
+  .blocks h4{margin:0 0 5px; font-size:14px}
+  .blocks p{margin:0; font-size:12.5px; color:var(--muted)}
   footer{margin-top:34px; padding-top:18px; border-top:2px solid var(--gold); font-size:12.5px; color:var(--muted); display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap}
   footer .lock{font-weight:700; color:var(--ink)}
   @media (max-width:760px){
-    .hero,.inbox,.blocks{grid-template-columns:1fr}
+    .hero,.inbox,.blocks,.goals-grid{grid-template-columns:1fr}
     header.top h1{font-size:26px}
   }
 </style>
@@ -115,7 +126,7 @@
 
   <!-- TOP 3 -->
   <section>
-    <div class="sec-title">🎯 Top 3 things that matter today</div>
+    <div class="sec-title rule">🎯 Top 3 things that matter today</div>
     <div class="hero">
       <div class="card">
         <div class="num">1</div>
@@ -124,26 +135,80 @@
       </div>
       <div class="card">
         <div class="num">2</div>
-        <h3>Push the AI launch</h3>
-        <p>Wide-open day, no mail waiting — a clean runway for onboarding flow + sign-up follow-ups.</p>
+        <h3>Kick off the "Xbox → Executive" funnel</h3>
+        <p>The anchor project for the rest of July. Today's moves start moving it.</p>
       </div>
       <div class="card">
         <div class="num">3</div>
         <h3>Close the money loose ends</h3>
-        <p>The WESTSTAR invoice and older Amex limit alert haven't shown resolved — quick confirm so they don't drag.</p>
+        <p>WESTSTAR invoice + older Amex limit alert haven't shown resolved — quick confirm so they don't drag.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- THIS WEEK'S GOALS -->
+  <section class="goals">
+    <div class="sec-title">🎯 Goals — Rest of July (Jul 14 → 31) <span class="prog">0 / 9 done</span></div>
+    <div class="card">
+      <div class="goals-grid">
+        <div>
+          <div class="gcat">🧲 Lead Gen</div>
+          <div class="gitem"><span class="gbox"></span><span>Approach ≥20 leads with our AI marketing services</span></div>
+          <div class="gitem"><span class="gbox"></span><span>Get the "Xbox → Executive" funnel fully operational, end-to-end</span></div>
+          <div class="gcat" style="margin-top:12px">✍️ Content Creation</div>
+          <div class="gitem"><span class="gbox"></span><span>Finalize the book (manuscript → print-ready PDF)</span></div>
+          <div class="gitem"><span class="gbox"></span><span>Finalize the audiobook version</span></div>
+          <div class="gitem"><span class="gbox"></span><span>Produce the ad creative driving traffic to the funnel</span></div>
+        </div>
+        <div>
+          <div class="gcat">🗂️ Admin / Distribution</div>
+          <div class="gitem"><span class="gbox"></span><span>Publish &amp; distribute the book on KDP (listing live)</span></div>
+          <div class="gitem"><span class="gbox"></span><span>Launch the ads to the funnel</span></div>
+          <div class="gcat" style="margin-top:12px">🤖 Agent Building (delivery automation)</div>
+          <div class="gitem"><span class="gbox"></span><span>Auto-deliver the PDF — leads get it exactly when they need it</span></div>
+          <div class="gitem"><span class="gbox"></span><span>Auto-deliver the audiobook — leads get it when they need it</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TODAY'S MOVES -->
+  <section class="moves">
+    <div class="sec-title">✅ Today's Moves <span style="font-weight:600;text-transform:none;letter-spacing:0;color:var(--muted)">· knock these down</span></div>
+    <div class="card">
+      <div class="move">
+        <span class="mbox"></span>
+        <div class="mbody">
+          <span class="mcat">Lead Gen</span><span class="mtask">Approach 4 leads with our AI marketing services</span>
+          <span class="madv">→ advances: ≥20 leads · pace ~4/day hits 20 by month-end</span>
+        </div>
+      </div>
+      <div class="move">
+        <span class="mbox"></span>
+        <div class="mbody">
+          <span class="mcat">Content</span><span class="mtask">Draft/finalize the next section of the book toward a print-ready PDF</span>
+          <span class="madv">→ advances: finalize the book</span>
+        </div>
+      </div>
+      <div class="move">
+        <span class="mbox"></span>
+        <div class="mbody">
+          <span class="mcat">Agent Building</span><span class="mtask">Map the PDF auto-delivery flow (what triggers it, how a lead receives it on demand)</span>
+          <span class="madv">→ advances: auto-deliver the PDF</span>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- CALENDAR -->
   <section class="timeline">
-    <div class="sec-title">📅 Calendar at a glance <span style="font-weight:600;text-transform:none;letter-spacing:0;color:var(--muted)">· times in PST</span></div>
+    <div class="sec-title rule">📅 Calendar at a glance <span style="font-weight:600;text-transform:none;letter-spacing:0;color:var(--muted)">· times in PST</span></div>
     <div class="card">
       <div class="tl-empty">
         <span class="big">◆</span>
         <div>
           <strong>Completely clear today.</strong>
-          <small>No events on your primary calendar — no conflicts, no back-to-backs. Clear runway for deep work.</small>
+          <small>No events on your primary calendar — no conflicts, no back-to-backs. Clear runway for the funnel work.</small>
         </div>
       </div>
       <div class="sub"><strong>Tomorrow morning (Wed, Jul 15):</strong> nothing scheduled.</div>
@@ -154,35 +219,23 @@
 
   <!-- INBOX -->
   <section>
-    <div class="sec-title">📥 Inbox</div>
+    <div class="sec-title rule">📥 Inbox</div>
     <div class="inbox">
-
       <div class="col reply">
         <div class="card">
-          <div class="col-head">
-            <span class="name">🔴 Needs Reply</span>
-            <span class="pill">0</span>
-          </div>
+          <div class="col-head"><span class="name">🔴 Needs Reply</span><span class="pill">0</span></div>
           <div class="empty-col"><span class="zero">✅</span>Nobody's waiting on you — no VIP, client, invoice, or legal item.</div>
         </div>
       </div>
-
       <div class="col fyi">
         <div class="card">
-          <div class="col-head">
-            <span class="name">🟡 FYI</span>
-            <span class="pill">0</span>
-          </div>
+          <div class="col-head"><span class="name">🟡 FYI</span><span class="pill">0</span></div>
           <div class="empty-col"><span class="zero">🎉</span>Nothing to pass along this window.</div>
         </div>
       </div>
-
       <div class="col ignore">
         <div class="card">
-          <div class="col-head">
-            <span class="name">⚪ Ignore</span>
-            <span class="pill">52</span>
-          </div>
+          <div class="col-head"><span class="name">⚪ Ignore</span><span class="pill">52</span></div>
           <ul class="muted-list">
             <li><span>Newsletters</span><span class="n">19</span></li>
             <li><span>Promotions / offers</span><span class="n">13</span></li>
@@ -192,31 +245,35 @@
           </ul>
         </div>
       </div>
-
     </div>
     <div class="alert">
-      🔐 <b>Security eyeball (don't click):</b> an <b>Amazon "sign-in attempt"</b> alert ("near Connecticut, Android") arrived today — verify directly in your Amazon account, not via the email. Also lingering: an older <b>Amex</b> "may be declined" notice (Jun 9) worth confirming if a live card limit still matters.
+      🔐 <b>Security eyeball (don't click):</b> an <b>Amazon "sign-in attempt"</b> alert ("near Connecticut, Android") arrived today — verify directly in your Amazon account, not via the email. Also lingering: an older <b>Amex</b> "may be declined" notice (Jun 9).
     </div>
   </section>
 
   <!-- TIME BLOCKS -->
   <section>
-    <div class="sec-title">⏱️ Suggested time blocks</div>
+    <div class="sec-title rule">⏱️ Suggested time blocks</div>
     <div class="blocks">
       <div class="card">
-        <div class="time">9:00 – 10:30 PST</div>
-        <h4>Deep work — AI launch</h4>
-        <p>Onboarding flow + sign-up follow-up sequence while it's quiet.</p>
+        <div class="time">9:00 – 10:30</div>
+        <h4>Deep work — the book</h4>
+        <p>Today's Content move: book section → PDF.</p>
       </div>
       <div class="card">
-        <div class="time">11:00 – 11:15 PST</div>
-        <h4>Security + money check</h4>
-        <p>Verify the Amazon sign-in in-app; confirm WESTSTAR + Amex are handled.</p>
+        <div class="time">11:00 – 11:15</div>
+        <h4>Security + money</h4>
+        <p>Verify Amazon sign-in; confirm WESTSTAR + Amex.</p>
       </div>
       <div class="card">
-        <div class="time">14:00 – 15:00 PST</div>
-        <h4>Proactive outreach</h4>
-        <p>Warm-lead follow-ups &amp; onboarding prep so this week's inbound has somewhere to land.</p>
+        <div class="time">13:00 – 14:00</div>
+        <h4>Lead gen</h4>
+        <p>Approach today's 4 leads with the AI pitch.</p>
+      </div>
+      <div class="card">
+        <div class="time">15:00 – 15:45</div>
+        <h4>Agent build</h4>
+        <p>Sketch the PDF auto-delivery flow.</p>
       </div>
     </div>
   </section>

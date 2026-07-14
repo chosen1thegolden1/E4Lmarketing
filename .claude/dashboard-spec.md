@@ -34,12 +34,17 @@ card in that section instead of faking data.
    left, event on the right), times in **PST**. Badge conflicts (⚠️),
    back-to-backs (🔁), and prep-needed (📋). Include a small "tomorrow morning"
    subsection if present.
+3.4. **This Week's Goals** (only if goals are set) — a compact card after the
+   Top 3 showing the full weekly goal list grouped by category, each with its
+   checkbox state and a header progress count (e.g. "2 / 9 done"). This keeps the
+   month's big picture on the same sheet. Muted, reference-style — lighter than
+   the Moves below it.
 3.5. **Today's Moves** (only if the brief has them) — a checklist card right
-   after the Top 3, styled as gold checkbox rows: an empty gold-outlined box, the
-   task text, and a small muted tag for the goal it advances. Checked/carried
-   items (from the daily note's `[x]`) render with a filled gold check and
-   strikethrough. This is the "knock it down" list toward the weekly goals — keep
-   it prominent but lighter than the Top 3 hero. Omit the section if none.
+   after This Week's Goals, styled as gold checkbox rows: an empty gold-outlined
+   box, the task text, and a small muted tag for the goal it advances.
+   Checked/carried items (from the daily note's `[x]`) render with a filled gold
+   check and strikethrough. This is the "knock it down" list — keep it prominent
+   but lighter than the Top 3 hero. Omit the section if none.
 4. **Inbox — three columns** — Needs Reply / FYI / Ignore, each a column with a
    count pill in its header. Needs-Reply cards show sender · what they want ·
    suggested action, and use the accent color. FYI is neutral. Ignore is muted /
