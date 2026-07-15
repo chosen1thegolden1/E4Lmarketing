@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Command Center — Tuesday, July 14</title>
+<title>Command Center — Wednesday, July 15</title>
 <style>
   /* Eat 4 Life brand palette — Gold #FFC200 · Black #000 · White #FFF */
   :root{
@@ -89,15 +89,21 @@
   .pill{font-size:12px; font-weight:800; padding:2px 10px; border-radius:999px; background:var(--soft); color:var(--muted); border:1px solid var(--line)}
   .col.reply .pill{background:var(--gold); color:#0a0a0a; border-color:transparent}
   .col.fyi .pill{background:var(--soft); color:var(--ink); border-color:var(--line)}
+  .col.reply .card{border-color:var(--gold-line)}
   .item{padding:11px 12px; border:1px solid var(--line); border-radius:11px; margin-bottom:9px; background:var(--soft)}
+  .col.reply .item{background:var(--gold-soft); border-color:var(--gold-line)}
+  .item .from{font-weight:700; font-size:13.5px; display:flex; align-items:center; gap:6px; flex-wrap:wrap}
+  .item .what{font-size:13px; color:var(--ink); margin:3px 0 5px}
+  .item .act{font-size:12.5px; color:var(--muted)}
+  .item .act b{color:var(--gold-ink); font-weight:800}
+  .item .why{font-size:11.5px; color:var(--muted); margin-top:5px; font-style:italic; border-top:1px dashed var(--gold-line); padding-top:5px}
   .empty-col{font-size:13px; color:var(--muted); padding:8px 2px; text-align:center}
   .empty-col .zero{font-size:20px; display:block; margin-bottom:4px}
   .muted-list{margin:0; padding:0; list-style:none; font-size:12.5px; color:var(--muted)}
   .muted-list li{padding:6px 0; border-bottom:1px dashed var(--line); display:flex; justify-content:space-between; gap:10px}
   .muted-list li:last-child{border-bottom:0}
   .muted-list .n{font-weight:800; color:var(--ink)}
-  .alert{margin-top:2px; padding:14px 16px; background:var(--gold-soft); border:1px solid var(--gold-line); border-left:4px solid var(--gold); border-radius:12px; font-size:13px}
-  .alert b{color:var(--gold-ink)}
+  .tag{display:inline-block; font-size:10.5px; font-weight:800; letter-spacing:.04em; padding:1px 7px; border-radius:6px; background:var(--tag-bg); color:var(--tag-ink)}
   /* Time blocks */
   .blocks{display:grid; grid-template-columns:repeat(4,1fr); gap:12px}
   .blocks .card{padding:15px 15px 16px; border-top:3px solid var(--gold)}
@@ -119,7 +125,7 @@
     <div>
       <div class="eyebrow">Daily Command Center</div>
       <h1 class="serif">Good morning, Sebastian</h1>
-      <div class="date">Tuesday, July 14, 2026</div>
+      <div class="date">Wednesday, July 15, 2026</div>
     </div>
     <div class="mark serif">Eat 4 Life <span class="g">·</span> <b>Command Center</b></div>
   </header>
@@ -130,25 +136,25 @@
     <div class="hero">
       <div class="card">
         <div class="num">1</div>
-        <h3>Verify the Amazon sign-in alert</h3>
-        <p>A "sign-in attempt" notice landed today. Could be legit or phishing — check activity directly at amazon.com, don't click the email.</p>
+        <h3>Confirm your Airbnb check-in — today</h3>
+        <p>Host "Troy" sent check-in + building-entry (ButterflyMX) instructions for your Jul 15–Aug 12 stay. Reply via Airbnb and save the entry details before you arrive.</p>
       </div>
       <div class="card">
         <div class="num">2</div>
-        <h3>Kick off the "Xbox → Executive" funnel</h3>
-        <p>The anchor project for the rest of July. Today's moves start moving it.</p>
+        <h3>Push the "Xbox → Executive" funnel</h3>
+        <p>The anchor project for the rest of July. Today's moves keep it moving.</p>
       </div>
       <div class="card">
         <div class="num">3</div>
-        <h3>Close the money loose ends</h3>
-        <p>WESTSTAR invoice + older Amex limit alert haven't shown resolved — quick confirm so they don't drag.</p>
+        <h3>Close the money / security items</h3>
+        <p>WESTSTAR invoice, older Amex limit alert, and yesterday's Amazon sign-in — a quick confirm so none of them drag.</p>
       </div>
     </div>
   </section>
 
   <!-- THIS WEEK'S GOALS -->
   <section class="goals">
-    <div class="sec-title">🎯 Goals — Rest of July (Jul 14 → 31) <span class="prog">0 / 9 done</span></div>
+    <div class="sec-title">🎯 Goals — Rest of July (Jul 15 → 31) <span class="prog">0 / 9 done</span></div>
     <div class="card">
       <div class="goals-grid">
         <div>
@@ -174,7 +180,7 @@
 
   <!-- TODAY'S MOVES -->
   <section class="moves">
-    <div class="sec-title">✅ Today's Moves <span style="font-weight:600;text-transform:none;letter-spacing:0;color:var(--muted)">· knock these down</span></div>
+    <div class="sec-title">✅ Today's Moves <span style="font-weight:600;text-transform:none;letter-spacing:0;color:var(--muted)">· carried from yesterday · knock these down</span></div>
     <div class="card">
       <div class="move">
         <span class="mbox"></span>
@@ -208,11 +214,10 @@
         <span class="big">◆</span>
         <div>
           <strong>Completely clear today.</strong>
-          <small>No events on your primary calendar — no conflicts, no back-to-backs. Clear runway for the funnel work.</small>
+          <small>No events on your primary or Rozel's calendar — no conflicts, no back-to-backs. Clear runway for the funnel work.</small>
         </div>
       </div>
-      <div class="sub"><strong>Tomorrow morning (Wed, Jul 15):</strong> nothing scheduled.</div>
-      <div class="note"><b>🔎 Heads-up:</b> I only see your primary calendar. If you keep a separate team/work calendar, say the word and I'll pull it too.</div>
+      <div class="sub"><strong>Tomorrow morning (Thu, Jul 16):</strong> nothing scheduled.</div>
       <div class="note"><b>⚠ Zone check:</b> primary calendar defaults to <b>EST</b> — mind it when adding events so nothing lands 3 hours off.</div>
     </div>
   </section>
@@ -223,8 +228,13 @@
     <div class="inbox">
       <div class="col reply">
         <div class="card">
-          <div class="col-head"><span class="name">🔴 Needs Reply</span><span class="pill">0</span></div>
-          <div class="empty-col"><span class="zero">✅</span>Nobody's waiting on you — no VIP, client, invoice, or legal item.</div>
+          <div class="col-head"><span class="name">🔴 Needs Reply</span><span class="pill">1</span></div>
+          <div class="item">
+            <div class="from">Airbnb — Host "Troy" <span class="tag">CHECK-IN TODAY</span></div>
+            <div class="what">Check-in + ButterflyMX building-entry instructions for your Jul 15–Aug 12 stay.</div>
+            <div class="act"><b>Action:</b> reply via Airbnb to confirm; save the entry details.</div>
+            <div class="why">why: a real person is waiting and it's time-sensitive (check-in today).</div>
+          </div>
         </div>
       </div>
       <div class="col fyi">
@@ -235,20 +245,18 @@
       </div>
       <div class="col ignore">
         <div class="card">
-          <div class="col-head"><span class="name">⚪ Ignore</span><span class="pill">52</span></div>
+          <div class="col-head"><span class="name">⚪ Ignore</span><span class="pill">~60</span></div>
           <ul class="muted-list">
-            <li><span>Newsletters</span><span class="n">19</span></li>
+            <li><span>Order / product / policy notices</span><span class="n">11</span></li>
             <li><span>Promotions / offers</span><span class="n">13</span></li>
-            <li><span>Automated receipts / billing</span><span class="n">10</span></li>
-            <li><span>Account / service notices</span><span class="n">9</span></li>
-            <li><span>Cold outreach</span><span class="n">1</span></li>
+            <li><span>Newsletters</span><span class="n">12</span></li>
+            <li><span>Automated billing / receipts</span><span class="n">8</span></li>
+            <li><span>Cold outreach</span><span class="n">4</span></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="alert">
-      🔐 <b>Security eyeball (don't click):</b> an <b>Amazon "sign-in attempt"</b> alert ("near Connecticut, Android") arrived today — verify directly in your Amazon account, not via the email. Also lingering: an older <b>Amex</b> "may be declined" notice (Jun 9).
-    </div>
+    <div class="sub">Eyeball if relevant: <b>eric@aragoncpas.com</b> (real CPA firm, but a promo blast — pin to surface via <code>/tune</code> if they're your accountant). Sender Rules still empty.</div>
   </section>
 
   <!-- TIME BLOCKS -->
@@ -256,14 +264,14 @@
     <div class="sec-title rule">⏱️ Suggested time blocks</div>
     <div class="blocks">
       <div class="card">
-        <div class="time">9:00 – 10:30</div>
-        <h4>Deep work — the book</h4>
-        <p>Today's Content move: book section → PDF.</p>
+        <div class="time">9:00 – 9:15</div>
+        <h4>Airbnb check-in</h4>
+        <p>Confirm + save the building-entry instructions.</p>
       </div>
       <div class="card">
-        <div class="time">11:00 – 11:15</div>
-        <h4>Security + money</h4>
-        <p>Verify Amazon sign-in; confirm WESTSTAR + Amex.</p>
+        <div class="time">9:30 – 11:00</div>
+        <h4>Deep work — the book</h4>
+        <p>Today's Content move: book section → PDF.</p>
       </div>
       <div class="card">
         <div class="time">13:00 – 14:00</div>
@@ -279,7 +287,7 @@
   </section>
 
   <footer>
-    <span>Generated Tue, Jul 14, 2026 · PST</span>
+    <span>Generated Wed, Jul 15, 2026 · PST</span>
     <span class="lock">🔒 Read-only · Nothing is sent without your yes.</span>
   </footer>
 
