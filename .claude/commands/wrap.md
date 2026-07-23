@@ -28,6 +28,10 @@ When he names finished moves, tick them to `[x]` in today's note's Today's Moves
 list. If a finished move completes a whole weekly goal, offer to check that goal
 off in `goals/this-week.md` too (confirm before writing that file).
 
+Also glance at `handoffs.md`: if any **Sent** item is done (he mentions the
+person delivered), offer to move it to Done. If an **Open** item never got sent,
+remind him he can route it with `/handoff`.
+
 ## Step 3 — Reconcile against the brief
 Compare what he said against today's Top 3 and Needs-Reply list:
 - Mark what's **done**.

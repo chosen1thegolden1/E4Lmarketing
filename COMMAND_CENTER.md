@@ -15,6 +15,7 @@ your own profile via `/tune`. All three need your explicit "yes."
 | **`/goals`** | Set or update this week's goals (Lead Gen · Content · Admin · Agent Building, etc.). `/brief` turns them into small daily moves. Shows a diff; saves on your yes. | `goals/this-week.md`, only on your yes |
 | **`/dashboard`** | Rebuilds `dashboard.html` from your latest daily note and opens it in your browser. | Dashboard file only |
 | **`/replies`** | Drafts replies to your Needs-Reply emails **in your voice**, shows them, lets you edit, and — only when you say "save 1 and 3" — creates them as Gmail **drafts**. Never sends. | Gmail *drafts*, only on your yes |
+| **`/handoff`** | Capture something you need from someone (Rozel, the team) and route it to them on **Slack** — drafted in your voice, sent only on your explicit yes. Tracks status; open items show on the brief. | `handoffs.md` + a Slack message only on your yes |
 | **`/tune`** | You give plain-English feedback about what a brief got wrong; it proposes concrete rule changes, shows a before/after diff, and updates `CLAUDE.md` only after you confirm. | Your profile, only on your yes |
 | **`/wrap`** | End-of-day: asks what got done, logs open loops + carry-overs into today's daily note. | Daily note only |
 

@@ -34,6 +34,11 @@ packed one) that ladder up to those weekly goals. Rules:
 If `goals/this-week.md` is empty/placeholder, skip this section and, once in the
 brief, gently note he can set goals with `/goals`.
 
+## Step 2.6 — Pull open handoffs
+Read `handoffs.md`. If there are **Open** or **Sent (awaiting them)** items,
+they go in the brief so Sebastian sees what he's waiting on. If a Sent item has
+been outstanding a while, flag it as worth a nudge. Skip the section if empty.
+
 ## Step 3 — Write the Morning Brief
 Use today's date from the environment. Format:
 
@@ -60,6 +65,11 @@ Keep it compact. (Omit if no goals are set.)
 (From Step 2.5. These are proactive tasks he can knock down; the Top 3 above are
 what *matters* reactively. Include carry-overs from yesterday first. Omit this
 whole section if no weekly goals are set.)
+
+## 🤝 Waiting on Others (open handoffs)
+- [ ] <what you need> — @person · asked <date> · (⏰ nudge if it's been sitting)
+(From Step 2.6 / handoffs.md — Open + Sent items. Omit if none. Add to a handoff
+or send a nudge with `/handoff`.)
 
 ## 2. Calendar at a Glance
 [calendar-analyst output: today's timeline in PST, tomorrow-morning peek,

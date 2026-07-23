@@ -45,6 +45,10 @@ card in that section instead of faking data.
    Checked/carried items (from the daily note's `[x]`) render with a filled gold
    check and strikethrough. This is the "knock it down" list — keep it prominent
    but lighter than the Top 3 hero. Omit the section if none.
+3.6. **Waiting on Others** (only if handoffs.md has Open/Sent items) — a small
+   card listing what Sebastian is waiting on from people: the ask, @person, and a
+   status chip (Open / Sent). Flag long-outstanding Sent items. Muted, compact.
+   Omit if none.
 4. **Inbox — three columns** — Needs Reply / FYI / Ignore, each a column with a
    count pill in its header. Needs-Reply cards show sender · what they want ·
    suggested action, and use the accent color. FYI is neutral. Ignore is muted /
