@@ -10,7 +10,7 @@ Status: **Open** (not sent yet) · **Sent** (delivered on Slack) · **Done** (th
 _(none yet — add via /handoff)_
 
 ## 📤 Sent (awaiting them)
-_(none yet)_
+- [ ] PDF breaking down GHL's email data capture (emails sent, open rates, all details) — @Rozel · asked Jul 15 · **due Fri Jul 17, 2pm PST** · status: Sent (Slack DM)
 
 ## ✅ Done
 _(none yet)_
