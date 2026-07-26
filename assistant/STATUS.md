@@ -37,6 +37,19 @@ GHL_API_TOKEN=<private integration token, starts with pit->
 GHL_LOCATION_ID=zSBqmFrgOtGwd4ALyIsD
 ```
 
+## 📧 Email system designed — ready to build in GHL
+
+Full spec + all 13 emails live in `assistant/campaigns/`:
+- `README.md` — tags, enrollment triggers, weekly rhythm, pre-flight checklist
+- `student-welcome.md` — new opt-ins → 8-Week AI Course (5 emails)
+- `student-book.md` — existing list → book offer (3 emails)
+- `company-nurture.md` — warm company leads → services (5 emails)
+
+Build order in GHL: (1) verify sending domain, (2) create tags, (3) build
+the three workflows with the email copy, (4) wire enrollment triggers +
+stop-on-reply, (5) run the pre-flight checklist, (6) owner approves, live.
+A few placeholders need owner input first — see README.md §5.
+
 ## ▶️ First thing to do in the next session (after network is set)
 
 Run the GHL connection test:
