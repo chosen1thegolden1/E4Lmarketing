@@ -15,6 +15,8 @@ Turn a prospect's website URL into a personalized GoHighLevel Voice AI demo page
 npm run scrape -- <url>            # step 1 only (JSON to stdout)
 npm run demo   -- <url>            # scrape → generate → render
 npm run demo   -- <url> --push     # …and create the GHL Voice AI agent
+npm run demo   -- <url> --push --spec=<demospec.json>
+                                   # skip scrape+generate; render+push a pre-generated DemoSpec
 ```
 Requires `ANTHROPIC_API_KEY` (generate) and network egress to the prospect's site (scrape).
 `--push` also needs GHL creds + egress to `services.leadconnectorhq.com`.

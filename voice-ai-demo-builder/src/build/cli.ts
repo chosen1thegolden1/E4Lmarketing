@@ -1,16 +1,23 @@
 import "dotenv/config";
+import { readFileSync } from "node:fs";
 import { buildFromUrl } from "../pipeline";
+import type { DemoSpec } from "../types";
 
 const args = process.argv.slice(2);
 const push = args.includes("--push");
 const url = args.find((a) => !a.startsWith("--"));
+const specArg = args.find((a) => a.startsWith("--spec="))?.slice("--spec=".length);
 
-if (!url) {
-  console.error("Usage: npm run demo -- <prospect-url> [--push]");
+if (!url && !specArg) {
+  console.error("Usage: npm run demo -- <prospect-url> [--push] [--spec=<demospec.json>]");
   process.exit(1);
 }
 
-buildFromUrl(url, { push })
+const spec = specArg
+  ? (JSON.parse(readFileSync(specArg, "utf8")) as DemoSpec)
+  : undefined;
+
+buildFromUrl(url ?? "", { push, spec })
   .then(({ spec, render, push: pushResult }) => {
     console.log(`✓ Demo built for "${spec.businessName}"`);
     console.log(`  Receptionist: ${spec.persona.name} — ${spec.persona.role}`);
