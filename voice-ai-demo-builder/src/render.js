@@ -1,6 +1,12 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
+const fmtPhone = (p) => {
+  const d = String(p ?? '').replace(/\D/g, '');
+  const n = d.length === 11 && d.startsWith('1') ? d.slice(1) : d;
+  return n.length === 10 ? `(${n.slice(0, 3)}) ${n.slice(3, 6)}-${n.slice(6)}` : p;
+};
+
 const esc = (s) =>
   String(s ?? '')
     .replace(/&/g, '&amp;')
@@ -53,6 +59,9 @@ export async function renderDemo(data, outRoot) {
     .join('');
 
   const caps = (a.capabilities || []).map((c) => `<li>${esc(c)}</li>`).join('');
+
+  const demoPhone = data._demoPhone || null;
+  const demoTel = demoPhone ? `tel:${String(demoPhone).replace(/[^\d+]/g, '')}` : null;
 
   const faqs = (a.faqs || [])
     .map(
@@ -119,6 +128,14 @@ export async function renderDemo(data, outRoot) {
   .cta h2 { margin-bottom: 10px; }
   .cta p { max-width: 560px; margin: 0 auto 22px; opacity: .95; }
   .btn { display: inline-block; background: #fff; color: var(--ink); font-weight: 700; padding: 14px 32px; border-radius: 999px; text-decoration: none; }
+  .call-btn { display: inline-flex; align-items: center; gap: 12px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 800; font-size: 19px; padding: 16px 30px; border-radius: 999px; margin-top: 28px; box-shadow: 0 8px 24px rgba(0,0,0,.25); transition: transform .12s ease; }
+  .call-btn:hover { transform: translateY(-2px); }
+  .call-btn .ring { width: 14px; height: 14px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 0 rgba(74,222,128,.7); animation: pulse 1.8s infinite; }
+  .call-btn small { display: block; font-size: 12px; font-weight: 600; opacity: .85; }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(74,222,128,.7); } 70% { box-shadow: 0 0 0 10px rgba(74,222,128,0); } 100% { box-shadow: 0 0 0 0 rgba(74,222,128,0); } }
+  .call-card { margin: 16px 0 20px; background: color-mix(in srgb, var(--accent) 10%, white); border: 1px dashed var(--accent); border-radius: 12px; padding: 14px 18px; }
+  .call-card a { color: var(--brand); font-weight: 800; font-size: 20px; text-decoration: none; }
+  .call-card span { display: block; font-size: 13px; color: var(--muted); }
   footer { text-align: center; padding: 26px 0 40px; color: var(--muted); font-size: 13.5px; }
 </style>
 </head>
@@ -128,6 +145,7 @@ export async function renderDemo(data, outRoot) {
     <span class="kicker">Voice AI Receptionist Demo</span>
     <h1>${esc(p.heroHeadline)}</h1>
     <p class="sub">${esc(p.heroSub)}</p>
+    ${demoTel ? `<a class="call-btn" href="${esc(demoTel)}"><span class="ring"></span><span>Call ${esc(a.agentName)} live: ${esc(fmtPhone(demoPhone))}<small>Tap to try the demo line right now</small></span></a>` : ''}
     <p class="biz">Prepared for <strong>${esc(b.name)}</strong> · ${esc(b.industry)}${b.location ? ' · ' + esc(b.location) : ''}</p>
     <div class="stats">${stats}</div>
   </div>
@@ -149,6 +167,7 @@ export async function renderDemo(data, outRoot) {
         <h3>Meet ${esc(a.agentName)}</h3>
         <p>Your always-on receptionist, trained on ${esc(b.name)}.</p>
         <div class="greeting">“${esc(a.welcomeMessage)}”</div>
+        ${demoTel ? `<div class="call-card"><a href="${esc(demoTel)}">📞 ${esc(fmtPhone(demoPhone))}</a><span>Live demo line — call and talk to ${esc(a.agentName)} yourself</span></div>` : ''}
         <ul class="caps">${caps}</ul>
         <details class="prompt">
           <summary>View full agent instructions</summary>
@@ -185,6 +204,7 @@ export async function renderDemo(data, outRoot) {
   <div class="cta">
     <h2>Ready to stop missing calls?</h2>
     <p>${esc(p.closingCta)}</p>
+    ${demoTel ? `<a class="btn" href="${esc(demoTel)}" style="margin-right:12px">📞 Call ${esc(a.agentName)} now</a>` : ''}
     <a class="btn" href="mailto:chosen1@gsgagency.com?subject=Voice%20AI%20for%20${encodeURIComponent(b.name)}">Go live with ${esc(a.agentName)}</a>
   </div>
 </div>
