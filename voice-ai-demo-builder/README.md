@@ -6,9 +6,18 @@ Turn a prospect's website URL into a personalized GoHighLevel Voice AI demo page
 
 ## Pipeline
 1. `src/scrape` — `scrape(url) -> RawSite` (Cheerio, Playwright fallback for JS-heavy sites) ✅
-2. `src/generate` — one Claude call, strict JSON: `{ businessName, services[], persona, faqs[], demoCopy{} }` _(TODO)_
-3. `src/render` — writes `demos/<slug>/index.html` from `templates/` + E4L brand kit _(TODO)_
-4. GHL push — create the Voice AI knowledge base for the prospect _(TODO)_
+2. `src/generate` — one `claude-opus-5` call, strict JSON schema → `DemoSpec { businessName, services[], persona, faqs[], demoCopy{} }` ✅ _(needs `ANTHROPIC_API_KEY`)_
+3. `src/render` — fills `templates/demo.html` (E4L brand kit) → `demos/<slug>/index.html` ✅
+4. `src/push` — creates a GHL **Voice AI agent** from the spec (knowledge base = `agentPrompt`) ✅ _(verified live)_
+
+## Run it
+```bash
+npm run scrape -- <url>            # step 1 only (JSON to stdout)
+npm run demo   -- <url>            # scrape → generate → render
+npm run demo   -- <url> --push     # …and create the GHL Voice AI agent
+```
+Requires `ANTHROPIC_API_KEY` (generate) and network egress to the prospect's site (scrape).
+`--push` also needs GHL creds + egress to `services.leadconnectorhq.com`.
 
 ## Brand kit
 Gold `#FFC200` on black `#000000`, white text. Display font **Fineday** (self-hosted `@font-face`),
