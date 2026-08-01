@@ -1,0 +1,9 @@
+# secrets — never commit
+.env
+.env.local
+
+node_modules/
+dist/
+
+# scrape output (regenerable per prospect)
+out/

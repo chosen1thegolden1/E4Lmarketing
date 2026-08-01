@@ -1,0 +1,30 @@
+{
+  "name": "voice-ai-demo-builder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "E4L Voice AI Demo Builder — prospect URL in, branded GHL Voice AI demo out.",
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx src/cli.ts scrape",
+    "generate": "tsx src/cli.ts generate",
+    "render": "tsx src/cli.ts render",
+    "test:smoke": "tsx test/smoke.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.49.0"
+  }
+}
