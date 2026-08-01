@@ -1,0 +1,17 @@
+{
+  "name": "voice-ai-demo-builder",
+  "version": "1.0.0",
+  "description": "Scrape a business website, generate a Voice AI receptionist demo page with Claude, and optionally create the matching GoHighLevel Voice AI agent.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "demo": "node src/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0",
+    "cheerio": "^1.0.0"
+  }
+}
