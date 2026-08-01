@@ -6,9 +6,12 @@
   "description": "Turn a prospect's website URL into a personalized GoHighLevel Voice AI demo page.",
   "scripts": {
     "scrape": "tsx src/scrape/cli.ts",
+    "demo": "tsx src/build/cli.ts",
+    "smoke": "tsx test/pipeline-smoke.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0",
     "cheerio": "^1.0.0",
     "dotenv": "^16.4.7",
     "playwright": "^1.49.1"

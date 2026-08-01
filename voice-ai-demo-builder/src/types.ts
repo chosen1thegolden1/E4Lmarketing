@@ -26,3 +26,40 @@ export interface RawSite {
   /** Non-fatal problems encountered while scraping. */
   warnings: string[];
 }
+
+/** The Voice AI receptionist persona for the prospect's business. */
+export interface DemoPersona {
+  /** Receptionist's name, e.g. "Ava". */
+  name: string;
+  /** Role line, e.g. "AI receptionist for All Things Roofing". */
+  role: string;
+  /** Tone/personality guidance for the voice — the prospect's brand, not E4L's. */
+  voice: string;
+  /** The opening line the receptionist says when the caller taps to talk. */
+  greeting: string;
+}
+
+export interface DemoFaq {
+  question: string;
+  answer: string;
+}
+
+/** Pitch copy shown on the E4L-branded demo page (E4L's confident, direct voice). */
+export interface DemoCopy {
+  headline: string;
+  subhead: string;
+  /** Short ROI-strip bullets (e.g. "Never miss an after-hours call"). */
+  roi: string[];
+  /** Label on the tap-to-talk button, e.g. "Tap to talk to Ava". */
+  ctaLabel: string;
+}
+
+/** The generator's output: everything needed to build a prospect's demo + GHL KB. */
+export interface DemoSpec {
+  businessName: string;
+  /** Services the business offers — seeds the receptionist's knowledge. */
+  services: string[];
+  persona: DemoPersona;
+  faqs: DemoFaq[];
+  demoCopy: DemoCopy;
+}
