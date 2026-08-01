@@ -8,6 +8,7 @@
     "scrape": "tsx src/scrape/cli.ts",
     "demo": "tsx src/build/cli.ts",
     "smoke": "tsx test/pipeline-smoke.ts",
+    "push:test": "tsx test/push-smoke.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
