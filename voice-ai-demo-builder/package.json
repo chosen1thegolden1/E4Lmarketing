@@ -1,0 +1,21 @@
+{
+  "name": "voice-ai-demo-builder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Turn a prospect's website URL into a personalized GoHighLevel Voice AI demo page.",
+  "scripts": {
+    "scrape": "tsx src/scrape/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.49.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

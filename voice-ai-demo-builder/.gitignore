@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+*.log
+
+# generated prospect demos (delete this line to version them)
+demos/*
+!demos/.gitkeep
