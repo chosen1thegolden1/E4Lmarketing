@@ -12,7 +12,16 @@ const MODEL = process.env.LLM_MODEL || "claude-opus-5";
  * The strict JSON schema guarantees the shape, so the result parses cleanly.
  */
 export async function generate(site: RawSite): Promise<DemoSpec> {
-  const client = new Anthropic(); // reads ANTHROPIC_API_KEY from env
+  // Use LLM_API_KEY (not ANTHROPIC_API_KEY, which Claude Code reserves for its
+  // own auth and strips from the session env). Falls back to ANTHROPIC_API_KEY
+  // for local runs where it isn't reserved.
+  const apiKey = process.env.LLM_API_KEY || process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    throw new Error(
+      "LLM_API_KEY is not set. Add it to the environment (do NOT use ANTHROPIC_API_KEY — Claude Code reserves that name)."
+    );
+  }
+  const client = new Anthropic({ apiKey });
 
   const res = await client.messages.create({
     model: MODEL,

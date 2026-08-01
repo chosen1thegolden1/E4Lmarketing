@@ -10,8 +10,8 @@ import type { DemoSpec } from "../src/types";
 async function main() {
   let spec: DemoSpec;
 
-  if (process.env.ANTHROPIC_API_KEY) {
-    console.log("ANTHROPIC_API_KEY found → running the real generator on the med-spa fixture…");
+  if (process.env.LLM_API_KEY || process.env.ANTHROPIC_API_KEY) {
+    console.log("LLM_API_KEY found → running the real generator on the med-spa fixture…");
     const { generate } = await import("../src/generate/index");
     spec = await generate(MEDSPA_SITE);
     console.log("Generated DemoSpec:\n", JSON.stringify(spec, null, 2));
