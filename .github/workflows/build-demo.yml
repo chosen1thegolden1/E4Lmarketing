@@ -42,6 +42,32 @@ jobs:
 
       - run: npm ci
 
+      - name: Preflight credential check
+        env:
+          GHL_API_TOKEN: ${{ secrets.GHL_API_TOKEN }}
+          GHL_LOCATION_ID: ${{ secrets.GHL_LOCATION_ID }}
+        run: |
+          EXPECTED="zSBqmFrgOtGwd4ALyIsD"
+          echo "GHL_LOCATION_ID length: ${#GHL_LOCATION_ID} (expected 20)"
+          if [ "$GHL_LOCATION_ID" = "$EXPECTED" ]; then
+            echo "GHL_LOCATION_ID: OK — matches the Eat 4 Life sub-account"
+          else
+            echo "::error::GHL_LOCATION_ID MISMATCH — the secret does not equal $EXPECTED. Re-add it with exactly that value."
+          fi
+          echo "GHL_API_TOKEN length: ${#GHL_API_TOKEN}"
+          A=$(curl -s -o /tmp/a.json -w '%{http_code}' "https://services.leadconnectorhq.com/voice-ai/agents?locationId=$GHL_LOCATION_ID" -H "Authorization: Bearer $GHL_API_TOKEN" -H "Version: 2021-07-28")
+          B=$(curl -s -o /tmp/b.json -w '%{http_code}' "https://services.leadconnectorhq.com/voice-ai/agents?locationId=$EXPECTED" -H "Authorization: Bearer $GHL_API_TOKEN" -H "Version: 2021-07-28")
+          echo "Test A (token + your GHL_LOCATION_ID secret): HTTP $A — $(head -c 200 /tmp/a.json)"
+          echo "Test B (token + hardcoded Eat 4 Life ID):     HTTP $B — $(head -c 200 /tmp/b.json)"
+          if [ "$B" = "200" ] && [ "$A" != "200" ]; then
+            echo "::error::Token is GOOD. The GHL_LOCATION_ID secret is the problem — re-add it as exactly $EXPECTED"
+            exit 1
+          elif [ "$B" != "200" ]; then
+            echo "::error::The GHL_API_TOKEN secret cannot access Eat 4 Life (HTTP $B). The token in the secret is not the one from the Eat 4 Life private integration, or is missing the Voice AI scope."
+            exit 1
+          fi
+          echo "Preflight passed — credentials are good."
+
       - name: Build demo (scrape -> Claude -> render -> GHL agent + pool number)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
