@@ -75,7 +75,6 @@ if (push) {
       agentId: agent.id,
       agentName: agent.agentName,
       business: data.business.name,
-      leadEmail,
       rep,
     });
     data._demoPhone = number;

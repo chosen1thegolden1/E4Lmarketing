@@ -55,7 +55,9 @@ export async function releaseSlug(slug) {
  * Assign a free pool number to a newly created agent. If the pool is exhausted,
  * recycles the number from the oldest active demo first.
  */
-export async function assignNumber({ slug, agentId, agentName, business, leadEmail, rep }) {
+// Note: lead emails deliberately never land in the registry — this repo is
+// public (required for free Pages hosting). Lead PII lives only in GHL.
+export async function assignNumber({ slug, agentId, agentName, business, rep }) {
   const pool = await loadPool();
   if (!pool.numbers?.length) {
     throw new Error('pool.json has no numbers — buy demo numbers in GHL and add them to pool.json.');
@@ -77,7 +79,6 @@ export async function assignNumber({ slug, agentId, agentName, business, leadEma
     agentName,
     business,
     number,
-    leadEmail: leadEmail || null,
     rep: rep || null,
     assignedAt: new Date().toISOString(),
   };

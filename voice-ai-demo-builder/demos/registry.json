@@ -1,19 +1,17 @@
 {
   "all-things-roofing": {
     "agentId": "6a6dd74a8506350d8d5a7726",
-    "agentName": "Sadie — All Things Roofing",
+    "agentName": "Sadie \u2014 All Things Roofing",
     "business": "All Things Roofing and Consulting",
     "number": "+14244013448",
-    "leadEmail": null,
     "rep": null,
     "assignedAt": "2026-08-01T18:25:00.000Z"
   },
   "allinroofingla": {
     "agentId": "6a6ea844ebdb83edd293b1f3",
-    "agentName": "Riley — All In Roofing",
+    "agentName": "Riley \u2014 All In Roofing",
     "business": "All In Roofing LA",
     "number": "+19126164577",
-    "leadEmail": null,
     "rep": null,
     "assignedAt": "2026-08-02T02:15:33.075Z"
   }
