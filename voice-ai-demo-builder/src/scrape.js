@@ -6,15 +6,38 @@ const UA =
 const MAX_PAGES = 6;
 const MAX_TEXT_PER_PAGE = 6000;
 
-async function fetchHtml(url) {
-  const res = await fetch(url, {
-    headers: { 'User-Agent': UA, Accept: 'text/html,application/xhtml+xml' },
-    redirect: 'follow',
-  });
-  if (!res.ok) throw new Error(`GET ${url} -> HTTP ${res.status}`);
-  const type = res.headers.get('content-type') || '';
-  if (!type.includes('text/html')) throw new Error(`GET ${url} -> not HTML (${type})`);
-  return res.text();
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function fetchHtml(url, attempts = 3) {
+  let lastErr;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          'User-Agent': UA,
+          Accept: 'text/html,application/xhtml+xml',
+          'Accept-Language': 'en-US,en;q=0.9',
+        },
+        redirect: 'follow',
+        signal: AbortSignal.timeout(20_000),
+      });
+      // Retry 403/429/5xx — often bot-protection or rate limits that clear on backoff
+      if ([403, 429, 500, 502, 503].includes(res.status)) {
+        throw new Error(`HTTP ${res.status}`);
+      }
+      if (!res.ok) throw Object.assign(new Error(`GET ${url} -> HTTP ${res.status}`), { fatal: true });
+      const type = res.headers.get('content-type') || '';
+      if (!type.includes('text/html')) {
+        throw Object.assign(new Error(`GET ${url} -> not HTML (${type})`), { fatal: true });
+      }
+      return res.text();
+    } catch (err) {
+      if (err.fatal) throw err;
+      lastErr = err;
+      if (i < attempts - 1) await sleep(2000 * 2 ** i);
+    }
+  }
+  throw new Error(`GET ${url} failed after ${attempts} attempts: ${lastErr.message}`);
 }
 
 function extractPage(url, html) {
