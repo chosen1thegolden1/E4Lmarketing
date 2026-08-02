@@ -1,0 +1,69 @@
+name: Build Voice AI Demo
+run-name: "Demo: ${{ inputs.website_url }} (${{ inputs.rep || 'no rep' }})"
+
+on:
+  workflow_dispatch:
+    inputs:
+      website_url:
+        description: "Lead's website URL"
+        required: true
+        type: string
+      lead_email:
+        description: "Lead's email (adds/updates the GHL contact)"
+        required: false
+        type: string
+        default: ""
+      rep:
+        description: "Your rep/affiliate ID (commission attribution)"
+        required: false
+        type: string
+        default: ""
+
+# One build at a time so pool assignment and registry commits never race
+concurrency: demo-builder
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: voice-ai-demo-builder
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: voice-ai-demo-builder/package-lock.json
+
+      - run: npm ci
+
+      - name: Build demo (scrape -> Claude -> render -> GHL agent + pool number)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GHL_API_TOKEN: ${{ secrets.GHL_API_TOKEN }}
+          GHL_LOCATION_ID: ${{ secrets.GHL_LOCATION_ID }}
+          DEMO_BASE_URL: ${{ vars.DEMO_BASE_URL }}
+          WEBSITE_URL: ${{ inputs.website_url }}
+          LEAD_EMAIL: ${{ inputs.lead_email }}
+          REP: ${{ inputs.rep }}
+        run: |
+          ARGS=("$WEBSITE_URL" --push)
+          [ -n "$LEAD_EMAIL" ] && ARGS+=("--email=$LEAD_EMAIL")
+          [ -n "$REP" ] && ARGS+=("--rep=$REP")
+          npm run demo -- "${ARGS[@]}"
+
+      - name: Commit demo + registry
+        env:
+          WEBSITE_URL: ${{ inputs.website_url }}
+        run: |
+          git config user.name "voice-ai-demo-bot"
+          git config user.email "voice-ai-demo-bot@users.noreply.github.com"
+          git add demos
+          git commit -m "Add voice AI demo for $WEBSITE_URL" || echo "nothing to commit"
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"

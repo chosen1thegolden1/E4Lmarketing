@@ -16,7 +16,7 @@ const esc = (s) =>
 
 export async function renderDemo(data, outRoot) {
   const { business: b, agent: a, page: p } = data;
-  const slug = (b.slug || b.name || 'demo')
+  const slug = (data._slug || b.slug || b.name || 'demo')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');

@@ -56,3 +56,17 @@ export async function listVoiceAgents() {
   const { locationId } = creds();
   return ghl('GET', `/voice-ai/agents?locationId=${encodeURIComponent(locationId)}`);
 }
+
+export async function updateAgentNumbers(agentId, numbers) {
+  const { locationId } = creds();
+  return ghl('PATCH', `/voice-ai/agents/${agentId}?locationId=${encodeURIComponent(locationId)}`, {
+    inboundNumbers: numbers,
+  });
+}
+
+export async function deleteVoiceAgent(agentId) {
+  const { locationId } = creds();
+  return ghl('DELETE', `/voice-ai/agents/${agentId}?locationId=${encodeURIComponent(locationId)}`);
+}
+
+export { ghl, creds };

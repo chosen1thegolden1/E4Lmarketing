@@ -5,7 +5,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "demo": "node src/cli.js"
+    "demo": "node src/cli.js",
+    "pool": "node src/pool-cli.js"
   },
   "engines": {
     "node": ">=18"
