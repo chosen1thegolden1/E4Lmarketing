@@ -2,6 +2,8 @@ name: Deploy Demo Pages
 
 on:
   push:
+    branches:
+      - claude/build-eat4life-website-01V86jRtpmdCuFxu3he73xcf
     paths:
       - "voice-ai-demo-builder/demos/**"
   workflow_dispatch:
