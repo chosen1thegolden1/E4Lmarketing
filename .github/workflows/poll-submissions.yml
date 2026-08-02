@@ -1,0 +1,78 @@
+name: Poll Demo Requests
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+concurrency: demo-builder
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: voice-ai-demo-builder
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: voice-ai-demo-builder/package-lock.json
+
+      - run: npm ci
+
+      - name: Build demos for new form submissions
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GHL_API_TOKEN: ${{ secrets.GHL_API_TOKEN }}
+          GHL_LOCATION_ID: ${{ secrets.GHL_LOCATION_ID }}
+          DEMO_BASE_URL: ${{ vars.DEMO_BASE_URL }}
+        run: node src/poll-submissions.js --build
+
+      - name: Commit new demos
+        id: commit
+        run: |
+          git config user.name "voice-ai-demo-bot"
+          git config user.email "voice-ai-demo-bot@users.noreply.github.com"
+          git add demos
+          if git commit -m "Add voice AI demos from form submissions"; then
+            git pull --rebase origin "${{ github.ref_name }}"
+            git push origin "HEAD:${{ github.ref_name }}"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy-pages.yml/dispatches" \
+            -d "{\"ref\":\"${{ github.ref_name }}\"}"
+
+      - name: Send outreach emails
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GHL_API_TOKEN: ${{ secrets.GHL_API_TOKEN }}
+          GHL_LOCATION_ID: ${{ secrets.GHL_LOCATION_ID }}
+          DEMO_BASE_URL: ${{ vars.DEMO_BASE_URL }}
+        run: node src/poll-submissions.js --email
+
+      - name: Commit email status
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          git add demos/processed-submissions.json
+          git commit -m "Update submission email status" || exit 0
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"

@@ -31,7 +31,7 @@ jobs:
       - name: Stage public pages only
         run: |
           mkdir -p _site
-          rsync -a --exclude registry.json --exclude data.json voice-ai-demo-builder/demos/ _site/
+          rsync -a --exclude registry.json --exclude data.json --exclude processed-submissions.json voice-ai-demo-builder/demos/ _site/
 
       - uses: actions/upload-pages-artifact@v3
         with:
