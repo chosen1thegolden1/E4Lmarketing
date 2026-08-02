@@ -7,6 +7,7 @@ import { renderDemo } from './render.js';
 import { createVoiceAgent } from './ghl.js';
 import { assignNumber } from './pool.js';
 import { upsertLead } from './crm.js';
+import { slugFromUrl } from './slug.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DEMOS_DIR = path.join(__dirname, '..', 'demos');
@@ -37,13 +38,7 @@ try {
   process.exit(1);
 }
 
-// Deterministic slug from the lead's domain (e.g. allthingsroofing.squarespace.com
-// -> "allthingsroofing"), so the demo URL is knowable before the build finishes.
-const labels = parsedUrl.hostname.split('.');
-const defaultSlug = (labels[0] === 'www' ? labels[1] : labels[0])
-  .toLowerCase()
-  .replace(/[^a-z0-9]+/g, '-');
-const slug = flag('slug') || defaultSlug;
+const slug = flag('slug') || slugFromUrl(parsedUrl.href);
 
 const baseUrl = process.env.DEMO_BASE_URL?.replace(/\/+$/, '');
 const demoUrl = baseUrl ? `${baseUrl}/${slug}/` : null;
