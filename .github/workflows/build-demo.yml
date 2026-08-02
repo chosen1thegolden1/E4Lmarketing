@@ -24,6 +24,7 @@ concurrency: demo-builder
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   build:
@@ -93,3 +94,16 @@ jobs:
           git commit -m "Add voice AI demo for $WEBSITE_URL" || echo "nothing to commit"
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"
+
+      # Pushes made with GITHUB_TOKEN don't fire push-triggered workflows,
+      # so kick the Pages deploy explicitly.
+      - name: Trigger Pages deploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy-pages.yml/dispatches" \
+            -d "{\"ref\":\"${{ github.ref_name }}\"}"
+          echo "Pages deploy dispatched."
