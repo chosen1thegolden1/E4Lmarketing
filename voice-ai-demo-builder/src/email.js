@@ -39,7 +39,7 @@ export function renderOutreachEmail(data, demoUrl) {
   <p>— Eat 4 Life Marketing</p>
   <p style="font-size:13px;color:#5b6b7b">P.S. Every missed call is a job your competitor quoted. ${esc(a.agentName)} hasn't missed one yet.</p>
   <hr style="border:none;border-top:1px solid #e3e8ee;margin:24px 0 12px">
-  <p style="font-size:12px;color:#8a99a8">Eat 4 Life Marketing · Los Angeles, CA<br>
+  <p style="font-size:12px;color:#8a99a8">Eat 4 Life Marketing · 215 E Regent Street, Inglewood, CA 90301<br>
   You're receiving this one-time note because we built this demo from your public website.
   Reply "unsubscribe" and we'll never contact you again — the demo line will also be retired.</p>
 </div>`;
