@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "demo": "node src/cli.js",
-    "pool": "node src/pool-cli.js"
+    "pool": "node src/pool-cli.js",
+    "setup-location": "node src/setup-location.js"
   },
   "engines": {
     "node": ">=18"
