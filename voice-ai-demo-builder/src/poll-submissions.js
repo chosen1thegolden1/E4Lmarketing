@@ -30,10 +30,13 @@ async function readJson(p, fallback) {
   }
 }
 
-function extractFields(sub) {
-  // Submissions carry answers in `others` keyed by generated field keys.
-  // Match tolerantly on key names; fall back to value shapes.
-  const flat = { email: sub.email, ...((sub.others && typeof sub.others === 'object') ? sub.others : {}) };
+function extractFields(sub, fieldNames = {}) {
+  // Submissions carry answers in `others` keyed by generated field IDs.
+  // Resolve IDs to their configured names, then match tolerantly; fall back
+  // to value shapes.
+  const raw = { email: sub.email, ...((sub.others && typeof sub.others === 'object') ? sub.others : {}) };
+  const flat = {};
+  for (const [k, v] of Object.entries(raw)) flat[fieldNames[k] || k] = v;
   let website, email, rep;
   for (const [k, v] of Object.entries(flat)) {
     if (typeof v !== 'string' || !v.trim()) continue;
@@ -93,14 +96,17 @@ const state = await readJson(STATE_PATH, {});
 const fresh = submissions.filter((s) => !state[s.id]);
 console.log(`${submissions.length} submission(s) on "${form.name}", ${fresh.length} new`);
 
+const { customFields } = await ghl('GET', `/locations/${locationId}/customFields`);
+const fieldNames = Object.fromEntries(customFields.map((f) => [f.id, f.name]));
+
 if (mode === '--dry') {
-  for (const s of fresh) console.log(s.id, extractFields(s));
+  for (const s of fresh) console.log(s.id, extractFields(s, fieldNames));
   process.exit(0);
 }
 
 const pending = [];
 for (const s of fresh.reverse()) {
-  const { website, email, rep } = extractFields(s);
+  const { website, email, rep } = extractFields(s, fieldNames);
   if (!website) {
     console.error(`! submission ${s.id}: no website found — marking skipped`);
     state[s.id] = { status: 'skipped', reason: 'no website field' };
