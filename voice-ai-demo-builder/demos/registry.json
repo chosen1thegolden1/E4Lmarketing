@@ -12,9 +12,10 @@
     "agentId": "6a6ea844ebdb83edd293b1f3",
     "agentName": "Riley — All In Roofing",
     "business": "All In Roofing LA",
-    "number": "+19126164577",
+    "number": null,
     "rep": null,
-    "assignedAt": "2026-08-02T02:15:33.075Z"
+    "assignedAt": "2026-08-02T02:15:33.075Z",
+    "releasedAt": "2026-08-03T19:13:10.284Z"
   },
   "modernroofing": {
     "agentId": "6a6f10194a7e4e28de499947",
@@ -31,5 +32,13 @@
     "number": "+14244013448",
     "rep": "Sebastian",
     "assignedAt": "2026-08-03T04:25:41.608Z"
+  },
+  "culvercityroofingspecialists": {
+    "agentId": "6a70e845034d1229440bdc6d",
+    "agentName": "Riley — Culver City Roofing",
+    "business": "Culver City Roofing Specialists",
+    "number": "+19126164577",
+    "rep": "rozel-demo",
+    "assignedAt": "2026-08-03T19:13:10.749Z"
   }
 }
