@@ -1,6 +1,12 @@
 {
   "6a70176094657bf93a252faa": {
-    "status": "hold",
-    "note": "held pending owner decision - real business email"
+    "status": "built",
+    "slug": "mylocalrooferca",
+    "rep": "Sebastian",
+    "note": "outreach rerouted to owner for test - do not email the business"
+  },
+  "6a70151094657b33ee252ac0": {
+    "status": "skipped",
+    "reason": "incomplete first test submission (no website field)"
   }
 }

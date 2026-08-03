@@ -3,9 +3,10 @@
     "agentId": "6a6dd74a8506350d8d5a7726",
     "agentName": "Sadie — All Things Roofing",
     "business": "All Things Roofing and Consulting",
-    "number": "+14244013448",
+    "number": null,
     "rep": null,
-    "assignedAt": "2026-08-01T18:25:00.000Z"
+    "assignedAt": "2026-08-01T18:25:00.000Z",
+    "releasedAt": "2026-08-03T04:25:41.219Z"
   },
   "allinroofingla": {
     "agentId": "6a6ea844ebdb83edd293b1f3",
@@ -22,5 +23,13 @@
     "number": "+18392508433",
     "rep": "dress-rehearsal",
     "assignedAt": "2026-08-02T09:38:34.162Z"
+  },
+  "mylocalrooferca": {
+    "agentId": "6a7018445d992e0cc2064283",
+    "agentName": "Sam — My Local Roofer",
+    "business": "My Local Roofer, CA",
+    "number": "+14244013448",
+    "rep": "Sebastian",
+    "assignedAt": "2026-08-03T04:25:41.608Z"
   }
 }
