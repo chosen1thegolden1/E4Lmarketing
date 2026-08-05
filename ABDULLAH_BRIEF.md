@@ -107,16 +107,17 @@ Executive summary of that PDF:
 
 ### Task 4 — E4L services pages
 
-**Scope:** turn the services catalog in `docs/services-price-sheet-v2.pdf` into public-facing pages inside E4L Client Services — so leads landing from the scorecard (or anywhere else) can browse what E4L actually sells at real prices.
+**Scope:** turn the services catalog in `docs/services-price-sheet-v2.pdf` into public-facing pages inside E4L Client Services. This is the same visual system as the scorecard — black (`#000`), gold (`#FFC200`), Rethink Sans + Space Mono. Prefix funnel names with `CS-`.
+
+**Critical context Chosen wants surfaced:** the scorecard and the services pages are **one machine.** The tier the scorecard recommends (Recover / Accelerate / Own) is a **composition** of items from the price sheet — Recover is a specific bundle of Core Systems + Expansion items, Accelerate is a bigger composition, Own is the full stack. When a lead sees "we recommend E4L Accelerate" in their scorecard results, the services pages should show them what Accelerate is *made of* — a mapping from tier → concrete line items from the catalog.
 
 **Structure suggestion (Chosen to confirm before you build):**
-- **One master services page** at `/services` — mirrors the PDF's flow (Two things we sell → Core Systems → Content Engine plans → Creative Packs → Expansion Menu → À la carte)
-- **Optionally**, one page per Core System (`/services/content-engine`, `/services/ai-front-desk`, `/services/quiz-funnels`) — for deep-dive pitches when reps or scorecard emails deep-link
-- Both funnels sit on the same services domain as the scorecard
+- **A master services page** at `/services` — mirrors the PDF's flow: Two things we sell → Core Systems → Content Engine plans → Creative Packs → Expansion Menu → À la carte add-ons
+- **Three "tier anatomy" sections or blocks** — one each for Recover, Accelerate, Own — visually distinct, each showing which line items from the catalog compose that tier (e.g., "OWN = AI Front Desk Growth Engine + Content Engine Studio + Ads Management + Chatbot AI + …") and the resulting all-in monthly figure. Ask Chosen for the exact composition of each tier before publishing this section.
+- **Deep-link anchors** — `/services#recover`, `/services#accelerate`, `/services#own` — so scorecard result emails can deep-link a lead straight to their recommended tier's anatomy
+- **Optional per-service deep-dives** (`/services/content-engine`, `/services/ai-front-desk`, `/services/quiz-funnels`) if Chosen wants them for individual pitches
 
-Design must match the price sheet's look: black background (`#000`), gold accent (`#FFC200`), Rethink Sans + Space Mono. Same visual system as the scorecard. Prefix all funnel names with `CS-` per the guardrail (e.g., `CS-Services-Master`).
-
-Ask Chosen before building whether he wants the master page only, or the master + per-service pages. He may also want CTAs pointing at the game plan call calendar from Task 1.
+All CTAs point at the Game Plan Call calendar from Task 1. Ask Chosen for tier compositions and page-count preference before building.
 
 ### Pricing errata — read this before any asset quotes dollars
 
