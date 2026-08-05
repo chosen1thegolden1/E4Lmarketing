@@ -26,8 +26,8 @@ Both live in the same GHL sub-account when finished.
 
 Before you can start, Chosen sets these up. Ask him if any are missing:
 
-- [ ] **GHL Agency-level access** — temporary, so you can create the new E4L Client Services sub-account yourself. **Once Task 1 is complete and you've verified you have full Admin access to E4L Client Services, tell Chosen so he revokes your agency-level role.** After that you stay as an Admin on E4L Client Services only. This "elevate → do the work → step back down" pattern keeps E4L School isolated from your day-to-day scope.
-  - You should NEVER perform any action inside the **E4L School** sub-account. It's off-limits for reads and writes. If you find yourself there by accident, back out.
+- [ ] **GHL Admin on E4L Client Services** (the new sub-account) — Chosen creates the sub-account himself and invites you as Admin. Send you the Location ID when the invite goes out.
+  - You should NEVER perform any action inside the **E4L School** sub-account. It's off-limits for reads and writes. Your invite is scoped to E4L Client Services only.
 - [ ] **GHL delegate on GoDaddy** — for the DNS work (Task 3)
 - [ ] **GitHub collaborator** on `chosen1thegolden1/E4Lmarketing` — Write role (lets you push code, edit workflows, manage Pages; does not expose repo secrets)
 - [ ] **Slack workspace access** if not already — needs to be in E4L's workspace for Task 2's Slack wiring
@@ -44,8 +44,8 @@ Full spec: pages 3 of `docs/mission-brief-scorecard.pdf`. Guardrails: page 6. **
 
 | Step | Who | Notes |
 |---|---|---|
-| Create the sub-account "E4L Client Services" (from blank — do NOT apply a snapshot or template) | You | Agency dashboard → Sub-Accounts → New. Timezone: match E4L School's setting. Send Chosen the Location ID once created. |
-| Add users: Chosen (admin), Rozel (admin) — leave yourself as the third admin | You | Seller seat NOT created yet — flagged in the mission brief. Until the seller joins, all leads route to Chosen. |
+| Create the sub-account "E4L Client Services" | Chosen | Chosen owns the agency; he'll create it (from blank, no snapshot) and send you the Location ID. |
+| Add users: Chosen (admin), Rozel (admin), Abdullah (admin) | Chosen | Seller seat NOT created yet — flagged in the mission brief. Until the seller joins, all leads route to Chosen. |
 | Attach services domain or subdomain (e.g. `go.[domain].com`) for funnels | You | Do NOT reuse the school's funnel domain. See Task 3 for domain choice. |
 | Configure brand kit — logo (EFL gold mark), colors (`#000` black / `#FFC200` gold), fonts (Rethink Sans, Space Mono) | You | Inside E4L Client Services only |
 | Create custom fields (contact level): `cs_leak_monthly`, `cs_leak_annual`, `cs_grade`, `cs_recommended_tier`, `cs_industry`, `cs_customer_value`, `cs_monthly_inquiries`, `cs_database_size` | **Claude** | I have a script that does this idempotently. Chosen: run `npm run setup-location` in the demo builder against the new sub-account once Location ID + token are in the env. |
@@ -105,13 +105,29 @@ Executive summary of that PDF:
 - Update the GitHub repo variable `DEMO_BASE_URL` (Settings → Secrets and variables → Actions → **Variables** tab) to the new branded URL — this powers the demo builder's outreach emails
 - Verify with mail-tester.com (target ≥ 9/10) and inbox tests on Gmail, Outlook, Yahoo
 
-### Task 4 — E4L services pages (scoping needed)
+### Task 4 — E4L services pages
 
-Chosen has mentioned "bringing E4L services pages over" but the scope isn't yet defined. Ask him: which pages, from where, to where? Do not act on assumptions here.
+**Scope:** turn the services catalog in `docs/services-price-sheet-v2.pdf` into public-facing pages inside E4L Client Services — so leads landing from the scorecard (or anywhere else) can browse what E4L actually sells at real prices.
 
-### Task 5 — Once Task 1 lands, tell Chosen to revoke your agency-level GHL access
+**Structure suggestion (Chosen to confirm before you build):**
+- **One master services page** at `/services` — mirrors the PDF's flow (Two things we sell → Core Systems → Content Engine plans → Creative Packs → Expansion Menu → À la carte)
+- **Optionally**, one page per Core System (`/services/content-engine`, `/services/ai-front-desk`, `/services/quiz-funnels`) — for deep-dive pitches when reps or scorecard emails deep-link
+- Both funnels sit on the same services domain as the scorecard
 
-You'll only need Admin on E4L Client Services after that. Standard contractor hygiene, and it's what the brief's guardrails imply.
+Design must match the price sheet's look: black background (`#000`), gold accent (`#FFC200`), Rethink Sans + Space Mono. Same visual system as the scorecard. Prefix all funnel names with `CS-` per the guardrail (e.g., `CS-Services-Master`).
+
+Ask Chosen before building whether he wants the master page only, or the master + per-service pages. He may also want CTAs pointing at the game plan call calendar from Task 1.
+
+### Pricing errata — read this before any asset quotes dollars
+
+The mission brief (page 6, section 05) locks pricing at "Recover $2,500 + $1,500/mo · Accelerate $5,000 + $2,500/mo · Own $7,500 + $3,500/mo." **That guardrail is retired.** Chosen has confirmed:
+
+- The scorecard's tier names (**Recover / Accelerate / Own**) are **internal bundle names** used as a positioning recommendation to leads. Keep them in the scorecard.
+- **Never auto-quote a specific dollar amount for any tier** in the scorecard email, SMS, Slack alert, or any workflow-generated asset. The recommendation stays qualitative ("we recommend E4L Accelerate — here's what it does").
+- **`docs/services-price-sheet-v2.pdf` is canonical** for actual dollar amounts and appears anywhere the client sees prices (the services pages you're building in Task 4, sales calls, proposals).
+- On the sales call, Chosen or the seller translates the tier recommendation into specific line items from the catalog (e.g., an "Accelerate" recommendation → $997 Front Desk + Content Engine Studio + Ads Management).
+
+If any asset needs prices, use ONLY the numbers in the price sheet v2, verbatim.
 
 ---
 
@@ -123,11 +139,7 @@ From the mission brief, section 05 (page 6). Ignoring any of these breaks the cl
 - **Tagline wall:** all client-facing copy says **"AI Marketing Made Easy."** Never **"Everybody Eats"** — that is student-side only.
 - **No promised results.** Leak figures are directional estimates. Every asset that shows a number carries a disclaimer.
 - **Don't redesign the scorecard page.** HTML is final and tested. Only deployment-time edits: `WEBHOOK_URL`, calendar link, domain.
-- **Pricing is locked** (any asset that needs prices):
-  - **Recover** — $2,500 + $1,500/mo
-  - **Accelerate** — $5,000 + $2,500/mo
-  - **Own** — $7,500 + $3,500/mo
-  - Voice AI is included in every tier.
+- **Pricing:** the mission brief's tier prices (Recover / Accelerate / Own) are retired. Use `docs/services-price-sheet-v2.pdf` as the only source of dollar amounts. Scorecard tier recommendations stay qualitative — see the "Pricing errata" section under Task 4.
 - **One test before live.** Nothing goes to a real prospect until every box in the Definition of Done (mission brief page 6) is checked.
 
 ---
@@ -162,11 +174,12 @@ Task 3:
 
 ## Files worth reading, in order
 
-1. `docs/mission-brief-scorecard.pdf` — Chosen's original spec for Tasks 1 & 2. **Wins any conflict.**
-2. `docs/email-deliverability-setup.pdf` — Task 3 details (retargeted to E4L Client Services)
-3. `voice-ai-demo-builder/README.md` — how the demo builder works
-4. `voice-ai-demo-builder/MIGRATE_SUBACCOUNT.md` — how the demo builder migrates between sub-accounts (needed after Task 1)
-5. `voice-ai-demo-builder/REP_PORTAL.md` — how reps submit leads through the form (context for how the pipeline you're building fits into the daily flow)
-6. `voice-ai-demo-builder/EMAIL_TEMPLATE.md` — reference copy for the demo builder's outreach email
+1. `docs/mission-brief-scorecard.pdf` — Chosen's original spec for Tasks 1 & 2. Wins any conflict **except** the Task 5 pricing guardrail, which is superseded by the price sheet (see Pricing errata above).
+2. `docs/services-price-sheet-v2.pdf` — the services catalog and canonical pricing. Powers Task 4 and is the only source of dollar amounts.
+3. `docs/email-deliverability-setup.pdf` — Task 3 details (retargeted to E4L Client Services)
+4. `voice-ai-demo-builder/README.md` — how the demo builder works
+5. `voice-ai-demo-builder/MIGRATE_SUBACCOUNT.md` — how the demo builder migrates between sub-accounts (needed after Task 1)
+6. `voice-ai-demo-builder/REP_PORTAL.md` — how reps submit leads through the form (context for how the pipeline you're building fits into the daily flow)
+7. `voice-ai-demo-builder/EMAIL_TEMPLATE.md` — reference copy for the demo builder's outreach email
 
 Systems beat hustle. Ship it clean.
