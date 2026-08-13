@@ -89,6 +89,10 @@
     ],
     "faqs": [
       {
+        "q": "How does Ava connect to our existing phone number?",
+        "a": "One conditional-forwarding setting on your line: your phone rings exactly like it does today, and only the calls you don't pick up roll to Ava instead of voicemail. Nothing ports, your number stays with your carrier, and you can switch it off with a single code any time."
+      },
+      {
         "q": "What happens if someone calls with a real electrical emergency?",
         "a": "Ava is trained on safety-first handling: fire or smoke means an immediate 911 referral, hazards like sparking outlets get flagged urgent with a fast callback, and she never gives DIY repair advice beyond switching off a breaker when it's safe."
       },
