@@ -23,6 +23,27 @@ Output per run, committed as evidence under `audits/<slug>/<date>/`:
 
 GHL: the runner checks whether the `cs_geo_score` custom field exists and reports it in the summary; it writes the score only when the field is wired **and** `--ghl-email` is given. It never blocks on GHL.
 
+## The report (client + manager readable)
+
+```bash
+node src/report.js <slug>        # e.g. node src/report.js eat-4-life-marketing
+```
+
+Reads every run under `audits/<slug>/`, writes **`report.html`** into the latest run's folder, and prints the Ops Brief § 03 dashboard line (`AI VISIBILITY — {month}. Baseline: … This month: …`) for pasting into GHL/Slack. One self-contained file (proof screenshots embedded) — email it or print to PDF:
+
+- plain-language hero: "Named in X of 21 AI answers" and what that means
+- platform-by-platform tiles, question-by-question grid, "Who AI recommends instead"
+- **The receipts** — embedded screenshots of the actual AI answers
+- score-over-time chart once a second run exists (baseline → current)
+- a clearly-marked **Run notes (ops)** block for Rozel — platform limits hit, next action
+- the § 05 disclaimer; tagline "AI Marketing Made Easy"
+
+**Rozel QA gate:** the report is generated, never auto-sent. Rozel reviews `report.html` before it goes to a client.
+
+## The monthly loop (automation)
+
+`clients.json` is the roster (`{ name, city, niche, trade?, problem?, ghlEmail? }` per entry — adding a client = adding a line). `.github/workflows/geo-monthly.yml` runs on the 1st of each month (and on demand from the Actions tab): re-audits every roster client, regenerates reports, commits the evidence, and posts the dashboard lines to #cs-ops when the `SLACK_WEBHOOK_URL` secret is set. `node src/run-roster.js` runs the same loop locally.
+
 Container note: in the Claude Code remote environment the runner automatically uses the pre-installed Chromium and caps the proxy TLS handshake at 1.2 (still certificate-verified) — see `src/browser.js`. On any other machine it uses Playwright's own Chromium; run `npx playwright install chromium` once.
 
 ## Money-question templates (`money-questions/`)
