@@ -5,6 +5,9 @@
 // filename, every bracket token in a question is a declared placeholder,
 // every declared placeholder is actually used, [city] present in every
 // question (the brief requires location phrased into the question).
+// A template may set "allowNonLocal": true to relax the per-question [city]
+// rule (e.g. marketing-agency mixes national AI-niche intent with local);
+// [city] must still appear in at least one question.
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -39,8 +42,11 @@ for (const file of files) {
 
   const declared = new Set(t.placeholders || []);
   const used = new Set();
+  if (t.allowNonLocal && !t.questions.some((q) => q.includes('[city]'))) {
+    fail('allowNonLocal template must still use [city] in at least one question');
+  }
   for (const q of t.questions) {
-    if (!q.includes('[city]')) fail(`question lacks [city]: "${q}"`);
+    if (!t.allowNonLocal && !q.includes('[city]')) fail(`question lacks [city]: "${q}"`);
     for (const m of q.matchAll(/\[([a-z-]+)\]/gi)) {
       used.add(m[1]);
       if (!declared.has(m[1])) fail(`undeclared placeholder [${m[1]}] in "${q}"`);

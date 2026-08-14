@@ -6,6 +6,11 @@
   "type": "module",
   "scripts": {
     "validate": "node src/validate-questions.js",
-    "questions": "node src/questions.js"
+    "questions": "node src/questions.js",
+    "audit": "node src/audit.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "playwright": "^1.62.1"
   }
 }
