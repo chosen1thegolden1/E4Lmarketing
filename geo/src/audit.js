@@ -109,6 +109,7 @@ await Promise.all(
         screenshot: `screenshots/${shotFile}`,
       };
       if (res.ok) {
+        if (res.via && res.via !== 'ui') row.via = res.via;
         try {
           const analysis = await analyzeAnswer({
             subject: businessName,
@@ -197,6 +198,10 @@ ${topCompetitors.length ? `**Competitors named:** ${topCompetitors.map(([n, c]) 
 ${questions.map((q, i) => `| ${i + 1} | ${q} | ${platforms.map((p) => cell(p, i + 1)).join(' | ')} |`).join('\n')}
 
 ✓ = ${businessName} named · — = answered, not named · ✗ = ask failed (counts as not named)
+${(() => {
+  const api = results.filter((r) => r.via === 'api').length;
+  return api ? `\n${api} ChatGPT answer(s) captured via the OpenAI API (fresh stateless sessions) because chatgpt.com was rate-limited — evidence cards are labeled accordingly.` : '';
+})()}
 ${failed.length ? `\n${failed.length} of ${total} asks failed (${[...new Set(failed.map((f) => platformLabel(f.platform)))].join(', ')}) — details in results.json.` : '\nAll asks completed.'}${(() => {
   const walls = [...new Set(results.filter((r) => r.skipped).map((r) => `${platformLabel(r.platform)} — ${r.error.replace('platform unavailable this run: ', '')}`))];
   return walls.length ? `\nPlatform walls hit this run: ${walls.join('; ')}. Re-run the audit for those once the limit resets.` : '';

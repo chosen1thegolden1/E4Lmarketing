@@ -292,6 +292,10 @@ ${proof.length ? `
   <ul>
     <li>Score (cs_geo_score): <strong>${esc(current.score)}</strong> · asks: ${answered.length} answered, ${current.failedAsks} not completed.</li>
     ${walls.length ? walls.map((w) => `<li>Platform limit hit: ${esc(w)}. Those questions count as “not named” and re-test next cycle.</li>`).join('\n    ') : '<li>All platforms tested normally.</li>'}
+    ${(() => {
+      const api = rows.filter((r) => r.via === 'api').length;
+      return api ? `<li>${api} ChatGPT answer(s) captured via the OpenAI API (fresh stateless sessions; chatgpt.com was rate-limited) — their screenshots are labeled evidence cards.</li>` : '';
+    })()}
     <li>Next action: ${esc(nextAction)}.</li>
     <li>Full per-question log: <code>results.json</code> · every screenshot: <code>screenshots/</code>.</li>
   </ul>
