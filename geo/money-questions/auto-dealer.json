@@ -1,0 +1,15 @@
+{
+  "niche": "auto-dealer",
+  "label": "Auto Dealership",
+  "placeholders": ["city"],
+  "source": "authored to the starter-set pattern (buyer-intent, local, asked the way a car shopper asks an AI)",
+  "questions": [
+    "best used car dealership in [city]",
+    "most trustworthy car dealer near [city]",
+    "[city] car dealership with good reviews",
+    "where should I buy a used truck in [city]",
+    "best place to trade in my car in [city]",
+    "car dealership [city] financing for bad credit",
+    "auto service center near [city]"
+  ]
+}

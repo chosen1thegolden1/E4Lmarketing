@@ -1,0 +1,16 @@
+{
+  "niche": "marketing-agency",
+  "label": "AI Marketing Agency",
+  "placeholders": ["city"],
+  "allowNonLocal": true,
+  "source": "specified by Chosen for the E4L baseline audit — mixes national AI-niche intent with local intent, so only some questions carry [city]",
+  "questions": [
+    "best AI marketing agency for med spas",
+    "AI marketing agency near [city]",
+    "who can set up an AI voice agent for my business",
+    "agency that automates missed-call follow-up [city]",
+    "best marketing agency for home services companies",
+    "AI content creation agency for small business",
+    "marketing agency [city] reviews"
+  ]
+}

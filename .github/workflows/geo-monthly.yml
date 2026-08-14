@@ -1,0 +1,61 @@
+name: GEO Monthly Loop
+
+# Ops Brief § 01 steps 6–7: re-ask every client's money questions monthly,
+# file the evidence, regenerate the report. Rozel QAs report.html before
+# anything ships to a client — this workflow only commits evidence.
+on:
+  schedule:
+    - cron: "0 15 1 * *" # 1st of the month, 8am PT
+  workflow_dispatch:
+
+concurrency: geo-loop
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    defaults:
+      run:
+        working-directory: geo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: geo/package-lock.json
+
+      - run: npm ci
+
+      - run: npx playwright install --with-deps chromium
+
+      - name: Run audits + reports for the roster
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GHL_API_TOKEN: ${{ secrets.GHL_API_TOKEN }}
+          GHL_LOCATION_ID: ${{ secrets.GHL_LOCATION_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node src/run-roster.js | tee roster-run.log
+
+      - name: Commit evidence
+        run: |
+          git config user.name "geo-loop[bot]"
+          git config user.email "noreply@github.com"
+          git add audits
+          git diff --cached --quiet || git commit -m "GEO monthly loop: audits + reports $(date -u +%Y-%m)"
+          git push
+
+      - name: Notify Slack (#cs-ops)
+        if: always()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          [ -z "$SLACK_WEBHOOK_URL" ] && { echo "SLACK_WEBHOOK_URL not set — skipping notify"; exit 0; }
+          SUMMARY=$(sed -n '/monthly loop done/,$p' roster-run.log | tail -n +2)
+          [ -z "$SUMMARY" ] && SUMMARY="GEO monthly loop ran but produced no summary — check the workflow log."
+          printf '%s' "$SUMMARY" | python3 -c 'import json,sys; print(json.dumps({"text": "GEO MONTHLY LOOP — evidence committed, reports await Rozel QA:\n" + sys.stdin.read()}))' \
+            | curl -sS -X POST -H 'Content-Type: application/json' -d @- "$SLACK_WEBHOOK_URL"

@@ -1,0 +1,15 @@
+{
+  "niche": "med-spa",
+  "label": "Med Spa & Aesthetics",
+  "placeholders": ["city"],
+  "source": "starter set, E4L GEO Ops Brief section 02 (verbatim)",
+  "questions": [
+    "best med spa in [city]",
+    "botox near [city]",
+    "[city] med spa with good reviews",
+    "where should I get filler in [city]",
+    "laser hair removal [city]",
+    "most trusted aesthetics clinic near [city]",
+    "med spa [city] prices"
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "subject": "Beauty Boost Med Spa",
+  "city": "Newport Beach, CA",
+  "niche": "med-spa",
+  "label": "Med Spa & Aesthetics",
+  "date": "2026-08-14",
+  "startedAt": "2026-08-14T03:50:34.962Z",
+  "finishedAt": "2026-08-14T04:01:27.277Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "5/21",
+  "named": 5,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score not wired (cs_geo_score custom field not found) — score filed in repo instead",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best med spa in Newport Beach, CA",
+      "askedAt": "2026-08-14T03:50:35.316Z",
+      "ok": false,
+      "screenshot": "screenshots/beauty-boost-med-spa_chatgpt_q1_2026-08-14.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "botox near Newport Beach, CA",
+      "askedAt": "2026-08-14T03:52:28.267Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "Newport Beach, CA med spa with good reviews",
+      "askedAt": "2026-08-14T03:52:28.268Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "where should I get filler in Newport Beach, CA",
+      "askedAt": "2026-08-14T03:52:28.268Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "laser hair removal Newport Beach, CA",
+      "askedAt": "2026-08-14T03:52:28.268Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "most trusted aesthetics clinic near Newport Beach, CA",
+      "askedAt": "2026-08-14T03:52:28.268Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "med spa Newport Beach, CA prices",
+      "askedAt": "2026-08-14T03:52:28.268Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best med spa in Newport Beach, CA",
+      "askedAt": "2026-08-14T03:50:35.317Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_gemini_q1_2026-08-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Plump Medical Spa",
+        "Beauty Boost Med Spa",
+        "California Cosmetics",
+        "Newport Beach MedSpa"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Plump Medical Spa",
+        "California Cosmetics",
+        "Newport Beach MedSpa"
+      ],
+      "note": "Recommended 4 local med spas with distinct specialties, including the audit subject as the pick for natural injectables.",
+      "answerChars": 3474
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "botox near Newport Beach, CA",
+      "askedAt": "2026-08-14T03:51:14.389Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_gemini_q2_2026-08-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Beauty Boost Med Spa",
+        "OrangeTwist Newport Beach",
+        "Bonakdar Aesthetics",
+        "Dr. David Wirta, M.D.",
+        "Dr. Ira Vidor, M.D.",
+        "Dr. Sanjay Grover",
+        "Dr. Raymond E. Lee",
+        "Michael J. Yoo, MD"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "OrangeTwist Newport Beach",
+        "Bonakdar Aesthetics",
+        "Dr. David Wirta, M.D.",
+        "Dr. Ira Vidor, M.D.",
+        "Dr. Sanjay Grover",
+        "Dr. Raymond E. Lee",
+        "Michael J. Yoo, MD"
+      ],
+      "note": "Listed Beauty Boost Med Spa as the top med spa alongside several competing med spas, dermatologists, and plastic surgeons in Newport Beach.",
+      "answerChars": 2934
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "Newport Beach, CA med spa with good reviews",
+      "askedAt": "2026-08-14T03:51:54.392Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_gemini_q3_2026-08-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Newport Beach MedSpa",
+        "NakedMD Med Spa Newport Beach",
+        "TIA MEDSPA Newport Beach",
+        "BioSpa",
+        "Beauty Boost Med Spa, Inc."
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Newport Beach MedSpa",
+        "NakedMD Med Spa Newport Beach",
+        "TIA MEDSPA Newport Beach",
+        "BioSpa"
+      ],
+      "note": "Listed 5 highly-rated Newport Beach med spas including the subject, Beauty Boost Med Spa, ranked last with a 4.9 rating.",
+      "answerChars": 2290
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "where should I get filler in Newport Beach, CA",
+      "askedAt": "2026-08-14T03:52:27.826Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_gemini_q4_2026-08-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Bonakdar Aesthetics",
+        "Armstrong MD",
+        "Plump Medical Spa",
+        "Beauty Boost Med Spa",
+        "South Coast MedSpa"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Bonakdar Aesthetics",
+        "Armstrong MD",
+        "Plump Medical Spa",
+        "South Coast MedSpa"
+      ],
+      "note": "Recommended five Newport Beach filler providers, including the audit subject, placed fourth among five options.",
+      "answerChars": 2511
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "laser hair removal Newport Beach, CA",
+      "askedAt": "2026-08-14T03:53:01.057Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_gemini_q5_2026-08-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Newport Plastic and Reconstructive Surgery Associates",
+        "Jonathan Zelken, MD",
+        "Savalia Plastic Surgery",
+        "Coastline Dermatology Laser & Medical Center",
+        "Newport Beach MedSpa"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Newport Plastic and Reconstructive Surgery Associates",
+        "Jonathan Zelken, MD",
+        "Savalia Plastic Surgery",
+        "Coastline Dermatology Laser & Medical Center",
+        "Newport Beach MedSpa"
+      ],
+      "note": "Recommended five other Newport Beach med spas/clinics for laser hair removal, without mentioning Beauty Boost Med Spa.",
+      "answerChars": 2864
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "most trusted aesthetics clinic near Newport Beach, CA",
+      "askedAt": "2026-08-14T03:53:35.773Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_gemini_q6_2026-08-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Bonakdar Aesthetics",
+        "BioSpa (Pacific Center for Plastic Surgery)",
+        "Beauty Boost Med Spa",
+        "Skinovation Clinic"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Bonakdar Aesthetics",
+        "BioSpa (Pacific Center for Plastic Surgery)",
+        "Skinovation Clinic"
+      ],
+      "note": "Named 4 aesthetics clinics near Newport Beach, ranking Beauty Boost Med Spa third with a positive description.",
+      "answerChars": 2675
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "med spa Newport Beach, CA prices",
+      "askedAt": "2026-08-14T03:54:10.497Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_gemini_q7_2026-08-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Pacific Center Plastic Surgery",
+        "PCH MedSpa",
+        "Fix Me Up Medical Spa",
+        "Newport Beach MedSpa",
+        "Seaglass Medspa OC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Pacific Center Plastic Surgery",
+        "PCH MedSpa",
+        "Fix Me Up Medical Spa",
+        "Newport Beach MedSpa",
+        "Seaglass Medspa OC"
+      ],
+      "note": "Gave detailed price ranges by treatment type citing several other Newport Beach med spas as sources, but never mentioned Beauty Boost Med Spa.",
+      "answerChars": 2443
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best med spa in Newport Beach, CA",
+      "askedAt": "2026-08-14T03:50:35.317Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_perplexity_q1_2026-08-14.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer content was captured; page shows only UI chrome with no business recommendations.",
+      "answerChars": 144
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "botox near Newport Beach, CA",
+      "askedAt": "2026-08-14T03:53:23.325Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_perplexity_q2_2026-08-14.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer content was captured; the page only shows a signup prompt with no business recommendations.",
+      "answerChars": 139
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "Newport Beach, CA med spa with good reviews",
+      "askedAt": "2026-08-14T03:56:10.647Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_perplexity_q3_2026-08-14.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a sign-up prompt with no business recommendations.",
+      "answerChars": 216
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "where should I get filler in Newport Beach, CA",
+      "askedAt": "2026-08-14T03:56:38.083Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_perplexity_q4_2026-08-14.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned no actual answer, just a prompt to sign up and repeat the request.",
+      "answerChars": 157
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "laser hair removal Newport Beach, CA",
+      "askedAt": "2026-08-14T03:59:25.448Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_perplexity_q5_2026-08-14.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page only prompted the user to sign up and repeat the request.",
+      "answerChars": 209
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "most trusted aesthetics clinic near Newport Beach, CA",
+      "askedAt": "2026-08-14T03:59:52.365Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_perplexity_q6_2026-08-14.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page shows only UI chrome prompting sign-up, with no recommendations.",
+      "answerChars": 226
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "med spa Newport Beach, CA prices",
+      "askedAt": "2026-08-14T04:00:59.558Z",
+      "ok": true,
+      "screenshot": "screenshots/beauty-boost-med-spa_perplexity_q7_2026-08-14.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page only prompted the user to sign up and repeat the request.",
+      "answerChars": 205
+    }
+  ]
+}

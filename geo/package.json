@@ -1,0 +1,17 @@
+{
+  "name": "e4l-geo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "E4L AI Search Visibility (GEO) loop — money-question templates and tooling",
+  "type": "module",
+  "scripts": {
+    "validate": "node src/validate-questions.js",
+    "questions": "node src/questions.js",
+    "audit": "node src/audit.js",
+    "report": "node src/report.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "playwright": "^1.62.1"
+  }
+}

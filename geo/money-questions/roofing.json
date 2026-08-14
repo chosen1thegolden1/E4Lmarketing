@@ -1,0 +1,15 @@
+{
+  "niche": "roofing",
+  "label": "Roofing",
+  "placeholders": ["city"],
+  "source": "home-services pattern, pre-filled for the roofing trade",
+  "questions": [
+    "emergency roofer near [city]",
+    "most reliable roofing company in [city]",
+    "roofer that answers the phone [city]",
+    "best-reviewed roofer near me [city]",
+    "roofing company [city] free estimate",
+    "who should I call for a roof leak in [city]",
+    "roofer open now [city]"
+  ]
+}

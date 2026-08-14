@@ -1,0 +1,15 @@
+{
+  "niche": "veterinary",
+  "label": "Veterinary",
+  "placeholders": ["city"],
+  "source": "authored to the starter-set pattern (buyer-intent, local, asked the way a pet owner asks an AI)",
+  "questions": [
+    "best vet in [city]",
+    "emergency vet near [city]",
+    "[city] vet with good reviews",
+    "vet taking new patients [city]",
+    "affordable vet near [city]",
+    "who should I call if my dog ate something toxic in [city]",
+    "vet open on weekends [city]"
+  ]
+}

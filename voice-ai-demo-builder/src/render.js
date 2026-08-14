@@ -181,7 +181,7 @@ export async function renderDemo(data, outRoot) {
 <section>
   <div class="wrap">
     <h2>Why ${esc(b.shortName)} needs this</h2>
-    <p class="lede">Every missed call is a roof someone else quoted. Here's what changes the day ${esc(a.agentName)} goes live.</p>
+    <p class="lede">Every missed call is a job someone else quoted. Here's what changes the day ${esc(a.agentName)} goes live.</p>
     <div class="cards">${props}</div>
   </div>
 </section>

@@ -1,1 +1,27 @@
-{}
+{
+  "culvercityroofingspecialists": {
+    "agentId": "6a70e845034d1229440bdc6d",
+    "agentName": "Riley — Culver City Roofing",
+    "business": "Culver City Roofing Specialists",
+    "number": null,
+    "rep": null,
+    "assignedAt": "2026-08-12T20:52:10.048Z",
+    "releasedAt": "2026-08-14T03:21:57.924Z"
+  },
+  "modernroofing": {
+    "agentId": "6a6f10194a7e4e28de499947",
+    "agentName": "Casey — Modern Roofing",
+    "business": "Modern Roofing",
+    "number": "+19126164577",
+    "rep": "chosen1",
+    "assignedAt": "2026-08-14T03:21:57.924Z"
+  },
+  "sammyelectricalservices": {
+    "agentId": "6a7cdcac5061922b24b30dcb",
+    "agentName": "Ava — Sammy Electrical",
+    "business": "Sammy Electrical Services",
+    "number": "+18392508433",
+    "rep": null,
+    "assignedAt": "2026-08-12T20:52:10.048Z"
+  }
+}

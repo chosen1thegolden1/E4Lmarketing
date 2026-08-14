@@ -1,0 +1,15 @@
+{
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "placeholders": ["city"],
+  "source": "home-services pattern, pre-filled for the HVAC trade",
+  "questions": [
+    "emergency AC repair near [city]",
+    "most reliable HVAC company in [city]",
+    "HVAC company that answers the phone [city]",
+    "best-reviewed HVAC company near me [city]",
+    "HVAC [city] free estimate",
+    "who should I call when my AC stops cooling in [city]",
+    "furnace repair open now [city]"
+  ]
+}

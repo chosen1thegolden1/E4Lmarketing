@@ -1,0 +1,15 @@
+{
+  "niche": "landscaping",
+  "label": "Landscaping & Lawn Care",
+  "placeholders": ["city"],
+  "source": "home-services pattern, adapted — landscaping has no emergency/open-now intent, swapped for design and recurring-service intent",
+  "questions": [
+    "best landscaping company in [city]",
+    "most reliable lawn care service in [city]",
+    "landscaper that answers the phone [city]",
+    "best-reviewed landscaper near me [city]",
+    "landscaping [city] free estimate",
+    "who should I call to redo my backyard in [city]",
+    "weekly lawn mowing service [city]"
+  ]
+}

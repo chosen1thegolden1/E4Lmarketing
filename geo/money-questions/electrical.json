@@ -1,0 +1,15 @@
+{
+  "niche": "electrical",
+  "label": "Electrical",
+  "placeholders": ["city"],
+  "source": "home-services pattern, pre-filled for the electrical trade",
+  "questions": [
+    "emergency electrician near [city]",
+    "most reliable electrician in [city]",
+    "electrician that answers the phone [city]",
+    "best-reviewed electrician near me [city]",
+    "electrician [city] free estimate",
+    "who should I call for a sparking outlet in [city]",
+    "electrician open now [city]"
+  ]
+}

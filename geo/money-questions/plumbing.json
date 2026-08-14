@@ -1,0 +1,15 @@
+{
+  "niche": "plumbing",
+  "label": "Plumbing",
+  "placeholders": ["city"],
+  "source": "home-services pattern, pre-filled for the plumbing trade",
+  "questions": [
+    "emergency plumber near [city]",
+    "most reliable plumber in [city]",
+    "plumber that answers the phone [city]",
+    "best-reviewed plumber near me [city]",
+    "plumber [city] free estimate",
+    "who should I call for a burst pipe in [city]",
+    "plumber open now [city]"
+  ]
+}

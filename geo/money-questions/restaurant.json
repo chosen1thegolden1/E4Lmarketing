@@ -1,0 +1,15 @@
+{
+  "niche": "restaurant",
+  "label": "Restaurant",
+  "placeholders": ["city"],
+  "source": "authored to the starter-set pattern (buyer-intent, local, asked the way a diner asks an AI)",
+  "questions": [
+    "best restaurant in [city]",
+    "where should I eat tonight in [city]",
+    "[city] restaurant good for date night",
+    "best-reviewed restaurant near me [city]",
+    "best brunch in [city]",
+    "family friendly restaurant [city]",
+    "best catering in [city]"
+  ]
+}
