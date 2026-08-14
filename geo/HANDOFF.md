@@ -10,7 +10,7 @@ You're taking the GEO loop from **built and tested** to **fully live**. Everythi
 
 ## Chosen does first (access grants)
 
-- [ ] Bump your GitHub role on this repo to **Admin** (repo Settings → Collaborators) — you need it for the Secrets page in Task 2. If he keeps you at Write, do Task 2 by sending him the values to paste instead.
+- [ ] **Task 2 hand-back:** this is a personal repo, so the Secrets page is owner-only (GitHub has no Admin role for collaborators on personal repos). You gather the three values in Task 2 and send them to Chosen; he pastes them (Settings → Secrets and variables → Actions → New repository secret). That's his only touch.
 - [ ] Decide on the optional OpenAI API key (Task 5) — it's his billing.
 
 ## Task 1 — Merge the PR (activates the automation)
@@ -20,9 +20,9 @@ A PR titled **"GEO loop: question templates, audit runner, reports, monthly auto
 1. Review the PR (the diff is the whole `geo/` folder + one workflow file — nothing touches the demo builder).
 2. Merge it.
 
-## Task 2 — Repo secrets (needs Admin from Chosen)
+## Task 2 — Repo secrets (you gather, Chosen pastes)
 
-Repo → Settings → Secrets and variables → **Actions**:
+Collect these values, then send them to Chosen in one message — he pastes them under repo → Settings → Secrets and variables → **Actions** (owner-only page):
 
 | Secret | Value | Where you get it |
 |---|---|---|
