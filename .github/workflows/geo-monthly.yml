@@ -65,5 +65,8 @@ jobs:
           [ -z "$SLACK_WEBHOOK_URL" ] && { echo "SLACK_WEBHOOK_URL not set — skipping notify"; exit 0; }
           SUMMARY=$(sed -n '/monthly loop done/,$p' roster-run.log | tail -n +2)
           [ -z "$SUMMARY" ] && SUMMARY="GEO monthly loop ran but produced no summary — check the workflow log."
+          SUMMARY="$SUMMARY
+          Reports + evidence: https://github.com/${GITHUB_REPOSITORY}/tree/${GITHUB_REF_NAME}/geo/audits (open a client -> newest date -> report.html; download it to view)
+          Content drafts for QA: https://github.com/${GITHUB_REPOSITORY}/tree/${GITHUB_REF_NAME}/geo/content"
           printf '%s' "$SUMMARY" | python3 -c 'import json,sys; print(json.dumps({"text": "GEO MONTHLY LOOP — evidence committed, reports await Rozel QA:\n" + sys.stdin.read()}))' \
             | curl -sS -X POST -H 'Content-Type: application/json' -d @- "$SLACK_WEBHOOK_URL"
