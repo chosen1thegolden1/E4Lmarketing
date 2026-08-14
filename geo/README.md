@@ -42,6 +42,18 @@ Reads every run under `audits/<slug>/`, writes **`report.html`** into the latest
 
 **Rozel QA gate:** the report is generated, never auto-sent. Rozel reviews `report.html` before it goes to a client.
 
+## Answer content (what moves the score)
+
+```bash
+node src/content.js <client-slug> --all      # setup batch: every uncovered money question
+node src/content.js <client-slug> --drip=2   # monthly drip (what the workflow runs)
+node src/content.js <client-slug> --question=3
+```
+
+One page per money question (Ops Brief § 03): H1 = the question verbatim, first 2–3 sentences answer it directly (the quotable block an AI can lift), then process / pricing-approach / proof sections, 3 related FAQs, FAQPage JSON-LD, booking CTA. Pages are written **in the client's voice from `clients/<slug>/intake.md`** and grounded only in that file — no invented reviews, numbers, or promises. Output lands in `content/<slug>/` with a manifest so the drip never repeats a question.
+
+The monthly workflow runs a 2-page drip automatically for any roster client that has an intake doc. **Everything is a draft until Rozel QAs it and publishes it to the client's site** — the generator never publishes.
+
 ## The monthly loop (automation)
 
 `clients.json` is the roster (`{ name, city, niche, trade?, problem?, ghlEmail? }` per entry — adding a client = adding a line). `.github/workflows/geo-monthly.yml` runs on the 1st of each month (and on demand from the Actions tab): re-audits every roster client, regenerates reports, commits the evidence, and posts the dashboard lines to #cs-ops when the `SLACK_WEBHOOK_URL` secret is set. `node src/run-roster.js` runs the same loop locally.

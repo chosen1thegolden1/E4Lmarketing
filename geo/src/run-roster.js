@@ -34,6 +34,16 @@ for (const c of roster) {
     process.stdout.write(out);
     const line = out.split('\n').find((l) => l.startsWith('AI VISIBILITY'));
     if (line) lines.push(`${c.name}: ${line}`);
+    // Monthly content drip (brief step 5): only for clients with an intake
+    // doc, and never fatal — a drip failure must not sink the audit/report.
+    const hasIntake = await fs.access(path.join(GEO_ROOT, 'clients', slug, 'intake.md')).then(() => true, () => false);
+    if (hasIntake) {
+      try {
+        execFileSync('node', ['src/content.js', slug, '--drip=2'], { cwd: GEO_ROOT, stdio: 'inherit' });
+      } catch {
+        console.error(`! content drip failed for ${c.name} — audit/report unaffected, drip retries next cycle`);
+      }
+    }
   } catch (err) {
     failures++;
     console.error(`! ${c.name} failed: ${err.message.split('\n')[0]} — continuing with next client`);
