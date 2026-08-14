@@ -1,0 +1,15 @@
+{
+  "niche": "pi-law",
+  "label": "Personal Injury Law",
+  "placeholders": ["city"],
+  "source": "authored to the starter-set pattern (buyer-intent, local, asked the way a hurt person asks an AI)",
+  "questions": [
+    "best personal injury lawyer in [city]",
+    "car accident lawyer near [city]",
+    "[city] injury attorney with good reviews",
+    "who should I call after a car accident in [city]",
+    "personal injury lawyer [city] free consultation",
+    "slip and fall attorney near [city]",
+    "personal injury lawyer [city] no win no fee"
+  ]
+}

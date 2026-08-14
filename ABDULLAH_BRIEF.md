@@ -169,6 +169,10 @@ Task 3:
 
 ---
 
+## Addendum — GEO Loop (added Aug 2026)
+
+A fifth workstream now exists: the **AI Search Visibility (GEO) loop** in `geo/`. It's fully built and tested; your part is activation (secrets, one Slack webhook, one GHL field, one test run). Full instructions: **`geo/HANDOFF.md`**. It's independent of everything above — nothing there can break the demo builder or the scorecard.
+
 ## Files worth reading, in order
 
 1. `docs/mission-brief-scorecard.pdf` — Chosen's original spec for Tasks 1 & 2. Wins any conflict **except** the Task 5 pricing guardrail, which is superseded by the price sheet (see Pricing errata above).

@@ -1,0 +1,16 @@
+{
+  "niche": "salon",
+  "label": "Salon & Barbershop",
+  "placeholders": ["city"],
+  "source": "authored to the starter-set pattern (buyer-intent, local, asked the way a new guest asks an AI)",
+  "notes": "Covers hair salons and barbershops in one set; for a barbershop-only client, swap the salon questions for barber equivalents when onboarding.",
+  "questions": [
+    "best hair salon in [city]",
+    "balayage near [city]",
+    "[city] salon with good reviews",
+    "best barber in [city]",
+    "where should I get my hair colored in [city]",
+    "hair salon taking new clients [city]",
+    "hair salon [city] prices"
+  ]
+}

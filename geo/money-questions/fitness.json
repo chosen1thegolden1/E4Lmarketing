@@ -1,0 +1,15 @@
+{
+  "niche": "fitness",
+  "label": "Fitness & Wellness",
+  "placeholders": ["city"],
+  "source": "authored to the starter-set pattern (buyer-intent, local, asked the way a new member asks an AI)",
+  "questions": [
+    "best gym in [city]",
+    "personal trainer near [city]",
+    "[city] gym with good reviews",
+    "best gym for beginners in [city]",
+    "group fitness classes [city]",
+    "where should I start working out in [city]",
+    "gym [city] membership prices"
+  ]
+}

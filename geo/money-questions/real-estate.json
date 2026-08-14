@@ -1,0 +1,15 @@
+{
+  "niche": "real-estate",
+  "label": "Real Estate",
+  "placeholders": ["city"],
+  "source": "authored to the starter-set pattern (buyer-intent, local, asked the way a buyer or seller asks an AI)",
+  "questions": [
+    "best real estate agent in [city]",
+    "who should I use to sell my house in [city]",
+    "[city] realtor with good reviews",
+    "best real estate agent for first-time buyers [city]",
+    "top listing agent near [city]",
+    "who does free home valuations in [city]",
+    "property management company [city]"
+  ]
+}
