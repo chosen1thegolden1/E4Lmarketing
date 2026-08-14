@@ -109,10 +109,17 @@ const PLATFORMS = {
       await page.waitForTimeout(4000);
       await assertNotBlocked(page);
       await dismissDialogs(page);
-      const editor = page.locator('#prompt-textarea');
-      await editor.waitFor({ timeout: 25000 });
+      // The composer's DOM varies by A/B bucket: usually #prompt-textarea
+      // (a contenteditable div), sometimes an unlabeled contenteditable or a
+      // plain textarea with an "Ask anything" placeholder.
+      const editor = page
+        .locator('#prompt-textarea, main [contenteditable="true"], textarea[placeholder*="Ask" i]')
+        .first();
+      await editor.waitFor({ timeout: 40000 });
       await editor.click();
-      await editor.fill(question);
+      await editor.fill(question).catch(async () => {
+        await page.keyboard.type(question, { delay: 15 });
+      });
       await page.keyboard.press('Enter');
       await page.waitForSelector('[data-message-author-role="assistant"]', { timeout: 90000 });
       return waitStable(page, '[data-message-author-role="assistant"]');
