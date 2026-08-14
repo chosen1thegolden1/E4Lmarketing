@@ -59,7 +59,8 @@ ChatGPT's logged-out site only allows a few automated questions per IP. The API 
 
 ## Ongoing (this is the whole job after setup)
 
-- **New GEO client** = add one entry to `geo/clients.json` and merge: `{ "name": "...", "city": "...", "niche": "med-spa" }` (niche keys are the filenames in `geo/money-questions/`; generic trades also take `"trade"` and `"problem"`; add `"ghlEmail"` to write the score to their GHL contact). The next monthly run picks them up automatically.
+- **New GEO client** = add one entry to `geo/clients.json` and merge: `{ "name": "...", "city": "...", "niche": "med-spa" }` (niche keys are the filenames in `geo/money-questions/`; generic trades also take `"trade"` and `"problem"`; add `"ghlEmail"` to write the score to their GHL contact). The next monthly run picks them up automatically. Use the GitHub web editor: open the file → pencil icon → add the line → Commit changes.
+- **Client intake doc** = `geo/clients/<slug>/intake.md` (copy the eat-4-life-marketing one as a template): the client's services, differentiators, proof points, and tone. Once it exists, the monthly run also drafts 2 answer-content pages per month into `geo/content/<slug>/` — Rozel QAs each draft and publishes it to the client's site (typically a new page in their GHL funnel/website with the HTML pasted in). No intake doc = no content drip, audits still run.
 - **Prospect pitch audit on demand**: Actions → GEO Monthly Loop → Run workflow after temporarily adding the prospect to the roster — or ask Chosen to have Claude run a one-off.
 - **Rozel's QA gate**: reports are generated, never auto-sent. Rozel reviews `report.html` before anything reaches a client.
 
