@@ -121,7 +121,21 @@ const PLATFORMS = {
         await page.keyboard.type(question, { delay: 15 });
       });
       await page.keyboard.press('Enter');
-      await page.waitForSelector('[data-message-author-role="assistant"]', { timeout: 90000 });
+      // Logged-out ChatGPT allows a handful of chats per IP, then swaps the
+      // submit for a "Sign in to continue" dialog. Poll for whichever comes
+      // first so a quota wall fails fast instead of timing out.
+      const deadline = Date.now() + 90000;
+      for (;;) {
+        if (await page.locator('[data-message-author-role="assistant"]').count()) break;
+        const wall = await page
+          .locator('text=/Sign in (is required|to continue)/i')
+          .first()
+          .isVisible()
+          .catch(() => false);
+        if (wall) throw new Error('sign-in required — anonymous chat limit reached for this IP');
+        if (Date.now() > deadline) throw new Error('no answer appeared within 90s of submitting');
+        await page.waitForTimeout(1000);
+      }
       return waitStable(page, '[data-message-author-role="assistant"]');
     },
   },
@@ -173,6 +187,11 @@ const PLATFORMS = {
 export const PLATFORM_KEYS = Object.keys(PLATFORMS);
 export const platformLabel = (key) => PLATFORMS[key].label;
 
+// Errors that mean the platform is closed to us this run (quota/bot walls) —
+// retrying or continuing to the next question would just burn time.
+export const isPlatformUnavailable = (msg) =>
+  /sign-in required|anonymous chat limit|bot challenge/i.test(msg || '');
+
 // Ask one question in a fresh context; capture answer text + screenshot.
 // Returns { ok, answerText?, error? }. Never throws.
 export async function askQuestion(browser, platformKey, question, screenshotPath, { retries = 1 } = {}) {
@@ -193,6 +212,7 @@ export async function askQuestion(browser, platformKey, question, screenshotPath
         .screenshot({ path: screenshotPath, type: 'jpeg', quality: 75 })
         .catch(() => {});
       await ctx.close();
+      if (isPlatformUnavailable(err.message)) break; // a fresh context hits the same wall
       if (attempt < retries) await new Promise((r) => setTimeout(r, 8000));
     }
   }

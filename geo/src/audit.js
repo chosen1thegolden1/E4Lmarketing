@@ -19,7 +19,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadQuestions, loadTemplate } from './questions.js';
-import { launchBrowser, askQuestion, PLATFORM_KEYS, platformLabel } from './browser.js';
+import { launchBrowser, askQuestion, isPlatformUnavailable, PLATFORM_KEYS, platformLabel } from './browser.js';
 import { analyzeAnswer } from './analyze.js';
 import { checkGeoScoreField, writeGeoScore } from './ghl.js';
 
@@ -49,7 +49,15 @@ const total = questions.length * platforms.length;
 
 const slug = businessName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 const date = new Date().toISOString().slice(0, 10);
-const outDir = path.resolve(GEO_ROOT, flag('out') || 'audits', slug, date);
+
+// Never overwrite a completed run's evidence: same-day reruns get an
+// attempt-numbered folder (…/2026-08-14, …/2026-08-14-2, …).
+let outDir = path.resolve(GEO_ROOT, flag('out') || 'audits', slug, date);
+for (let attempt = 2; ; attempt++) {
+  const done = await fs.access(path.join(outDir, 'results.json')).then(() => true, () => false);
+  if (!done) break;
+  outDir = path.resolve(GEO_ROOT, flag('out') || 'audits', slug, `${date}-${attempt}`);
+}
 const shotsDir = path.join(outDir, 'screenshots');
 await fs.mkdir(shotsDir, { recursive: true });
 
@@ -71,12 +79,27 @@ await Promise.all(
 await Promise.all(
   platforms.map(async (platformKey) => {
     const browser = browserFor[platformKey];
+    let unavailable = null; // circuit breaker: quota/bot wall reason
     for (let i = 0; i < questions.length; i++) {
       const question = questions[i];
       const qn = i + 1;
       const shotFile = `${slug}_${platformKey}_q${qn}_${date}.jpg`;
       const askedAt = new Date().toISOString();
+      if (unavailable) {
+        results.push({
+          platform: platformKey,
+          question: qn,
+          text: question,
+          askedAt,
+          ok: false,
+          skipped: true,
+          error: `platform unavailable this run: ${unavailable}`,
+        });
+        console.log(`  [${platformKey} q${qn}/${questions.length}] ⊘ skipped (${unavailable})`);
+        continue;
+      }
       const res = await askQuestion(browser, platformKey, question, path.join(shotsDir, shotFile));
+      if (!res.ok && isPlatformUnavailable(res.error)) unavailable = res.error;
       const row = {
         platform: platformKey,
         question: qn,
@@ -174,7 +197,10 @@ ${topCompetitors.length ? `**Competitors named:** ${topCompetitors.map(([n, c]) 
 ${questions.map((q, i) => `| ${i + 1} | ${q} | ${platforms.map((p) => cell(p, i + 1)).join(' | ')} |`).join('\n')}
 
 ✓ = ${businessName} named · — = answered, not named · ✗ = ask failed (counts as not named)
-${failed.length ? `\n${failed.length} of ${total} asks failed (${[...new Set(failed.map((f) => platformLabel(f.platform)))].join(', ')}) — details in results.json.` : '\nAll asks completed.'}
+${failed.length ? `\n${failed.length} of ${total} asks failed (${[...new Set(failed.map((f) => platformLabel(f.platform)))].join(', ')}) — details in results.json.` : '\nAll asks completed.'}${(() => {
+  const walls = [...new Set(results.filter((r) => r.skipped).map((r) => `${platformLabel(r.platform)} — ${r.error.replace('platform unavailable this run: ', '')}`))];
+  return walls.length ? `\nPlatform walls hit this run: ${walls.join('; ')}. Re-run the audit for those once the limit resets.` : '';
+})()}
 
 - **Score (cs_geo_score):** ${score}
 - **GHL:** ${ghlLine}
