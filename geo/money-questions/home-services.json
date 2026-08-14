@@ -1,0 +1,16 @@
+{
+  "niche": "home-services",
+  "label": "Home Services (generic pattern — adapt per trade)",
+  "placeholders": ["city", "trade", "problem"],
+  "source": "starter set, E4L GEO Ops Brief section 02 (verbatim)",
+  "notes": "Pattern template for trades without a dedicated file. Prefer the pre-filled per-trade files (roofing, plumbing, hvac, electrical, landscaping); use this one with --trade and --problem for anything else (e.g. trade: 'garage door repair company', problem: 'a garage door stuck open').",
+  "questions": [
+    "emergency [trade] near [city]",
+    "most reliable [trade] in [city]",
+    "[trade] that answers the phone [city]",
+    "best-reviewed [trade] near me [city]",
+    "[trade] [city] free estimate",
+    "who should I call for [problem] in [city]",
+    "[trade] open now [city]"
+  ]
+}
