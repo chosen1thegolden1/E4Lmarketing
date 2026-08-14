@@ -111,9 +111,13 @@ const PLATFORMS = {
       await dismissDialogs(page);
       // The composer's DOM varies by A/B bucket: usually #prompt-textarea
       // (a contenteditable div), sometimes an unlabeled contenteditable or a
-      // plain textarea with an "Ask anything" placeholder.
+      // textarea with an "Ask anything" placeholder. A HIDDEN fallback
+      // textarea with that placeholder precedes the visible editor in DOM
+      // order, so match only visible candidates.
       const editor = page
-        .locator('#prompt-textarea, main [contenteditable="true"], textarea[placeholder*="Ask" i]')
+        .locator(
+          '#prompt-textarea:visible, main [contenteditable="true"]:visible, textarea[placeholder*="Ask" i]:visible'
+        )
         .first();
       await editor.waitFor({ timeout: 40000 });
       await editor.click();
