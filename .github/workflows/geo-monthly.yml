@@ -45,8 +45,16 @@ jobs:
         run: |
           git config user.name "geo-loop[bot]"
           git config user.email "noreply@github.com"
-          git add audits
-          git diff --cached --quiet || git commit -m "GEO monthly loop: audits + reports $(date -u +%Y-%m)"
+          git add audits content
+          git diff --cached --quiet && { echo "nothing to commit"; exit 0; }
+          git commit -m "GEO monthly loop: audits + reports $(date -u +%Y-%m)"
+          # The branch can move while a run is in flight (other bots commit
+          # here too) — rebase and retry instead of dying on non-fast-forward.
+          for i in 1 2 3 4; do
+            git push && exit 0
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            sleep $((i * 5))
+          done
           git push
 
       - name: Notify Slack (#cs-ops)
