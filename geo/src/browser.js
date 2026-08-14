@@ -13,6 +13,7 @@
 
 import { chromium } from 'playwright';
 import { existsSync } from 'node:fs';
+import { askChatGptApi, evidenceCardHtml } from './chatgpt-api.js';
 
 // Prefer an explicitly provided binary, then the container's pre-installed
 // Chromium (its version may not match this Playwright's registry), then
@@ -101,10 +102,32 @@ async function assertNotBlocked(page) {
   }
 }
 
+// Quota/bot walls that close a platform for the rest of a run.
+export const isPlatformUnavailable = (msg) =>
+  /sign-in required|anonymous chat limit|bot challenge/i.test(msg || '');
+
 const PLATFORMS = {
   chatgpt: {
     label: 'ChatGPT',
     async ask(page, question) {
+      try {
+        return await this.askUi(page, question);
+      } catch (err) {
+        // UI walled + API key available → ask via API and render a labeled
+        // evidence card for the screenshot. Same question, fresh stateless
+        // session; never disguised as a chatgpt.com capture.
+        if (isPlatformUnavailable(err.message) && process.env.OPENAI_API_KEY) {
+          const { text, model } = await askChatGptApi(question).catch((apiErr) => {
+            throw new Error(`${err.message}; API fallback failed: ${apiErr.message}`);
+          });
+          await page.setContent(evidenceCardHtml({ question, answerText: text, model }));
+          await page.waitForTimeout(300);
+          return { text, via: 'api' };
+        }
+        throw err;
+      }
+    },
+    async askUi(page, question) {
       await page.goto('https://chatgpt.com/', { waitUntil: 'domcontentloaded', timeout: 60000 });
       await page.waitForTimeout(4000);
       await assertNotBlocked(page);
@@ -191,25 +214,22 @@ const PLATFORMS = {
 export const PLATFORM_KEYS = Object.keys(PLATFORMS);
 export const platformLabel = (key) => PLATFORMS[key].label;
 
-// Errors that mean the platform is closed to us this run (quota/bot walls) —
-// retrying or continuing to the next question would just burn time.
-export const isPlatformUnavailable = (msg) =>
-  /sign-in required|anonymous chat limit|bot challenge/i.test(msg || '');
-
 // Ask one question in a fresh context; capture answer text + screenshot.
-// Returns { ok, answerText?, error? }. Never throws.
+// Returns { ok, answerText?, via?, error? }. Never throws.
 export async function askQuestion(browser, platformKey, question, screenshotPath, { retries = 1 } = {}) {
   const platform = PLATFORMS[platformKey];
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
     const { ctx, page } = await freshPage(browser);
     try {
-      const answerText = await platform.ask(page, question);
+      const answer = await platform.ask(page, question);
+      const answerText = typeof answer === 'string' ? answer : answer.text;
+      const via = typeof answer === 'string' ? 'ui' : answer.via;
       await page
         .screenshot({ path: screenshotPath, fullPage: true, type: 'jpeg', quality: 75 })
         .catch(() => page.screenshot({ path: screenshotPath, type: 'jpeg', quality: 75 }));
       await ctx.close();
-      return { ok: true, answerText };
+      return { ok: true, answerText, via };
     } catch (err) {
       lastErr = err;
       await page

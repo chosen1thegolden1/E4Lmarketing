@@ -15,6 +15,8 @@ Options: `--platforms=chatgpt,gemini,perplexity` (limit/rerun), `--ghl-email=<co
 
 How it works: each question runs in a **fresh logged-out browser session** (new context, no cookies, no history) on each platform; the answer is captured as text + a screenshot; Claude extracts which businesses were named in order, whether the subject was named, and the competitors. Failed asks count as *not named* and are listed in the output — never silently dropped.
 
+ChatGPT fallback: chatgpt.com rate-limits logged-out chats per IP. When its wall is up and `OPENAI_API_KEY` is set, those questions go through the OpenAI API instead (fresh stateless sessions, web search enabled; `GEO_OPENAI_MODEL` overrides the model). API captures screenshot as clearly-labeled evidence cards — never disguised as chatgpt.com pages — and are flagged in `results.json` (`via: "api"`), the summary, and the report's ops notes.
+
 Output per run, committed as evidence under `audits/<slug>/<date>/`:
 
 - `summary.md` — the one-page summary: **Named in X of 21**, top competitors, biggest-gap platform, per-question ✓/—/✗ grid

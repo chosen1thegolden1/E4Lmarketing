@@ -44,9 +44,9 @@ Collect these values, then send them to Chosen in one message — he pastes them
 
 Create one custom **contact** field, type **Single Line Text**, named **`CS GEO Score`** (E4L Services → Settings → Custom Fields). That's the whole GHL footprint of this system. The audit writes to it only for roster clients with a `ghlEmail` set.
 
-## Task 5 — Optional: full ChatGPT coverage
+## Task 5 — Full ChatGPT coverage (adapter shipped; needs only the secret)
 
-ChatGPT's logged-out site only allows a few automated questions per IP, so some monthly runs will show ChatGPT as "not tested — re-tests next cycle." That is expected and reported honestly. If Chosen approves an `OPENAI_API_KEY` secret, ping him to tell Claude (via his Claude Code session) to add the API fallback adapter — that part is a code change, not yours.
+ChatGPT's logged-out site only allows a few automated questions per IP. The API fallback is already built in: when the wall is up **and** the `OPENAI_API_KEY` secret exists, those questions are asked through the OpenAI API instead (fresh stateless sessions), and their screenshots are clearly-labeled evidence cards rather than chatgpt.com captures. No secret → those questions honestly report "re-tests next cycle." Chosen owns the key/billing decision.
 
 ## Task 6 — Prove it end to end
 
