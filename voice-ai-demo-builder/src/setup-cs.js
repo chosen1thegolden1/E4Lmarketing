@@ -3,12 +3,9 @@
 // 8 custom fields, 6 tags, and the CS-Agency-Pipeline with 6 stages.
 // Idempotent — safe to re-run.
 import { ghl } from './ghl.js';
+import { assertServicesLocation } from './location-guard.js';
 
-const locationId = process.env.GHL_LOCATION_ID;
-if (!process.env.GHL_API_TOKEN || !locationId) {
-  console.error('Set GHL_API_TOKEN and GHL_LOCATION_ID for the TARGET sub-account.');
-  process.exit(1);
-}
+const locationId = await assertServicesLocation();
 
 const CS_FIELDS = [
   { name: 'cs_leak_monthly', dataType: 'NUMERICAL' },

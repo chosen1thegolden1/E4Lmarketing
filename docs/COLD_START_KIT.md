@@ -33,37 +33,95 @@ the inbox beats a hundred that don't, and week three is where the volume actuall
 
 ---
 
-## Step 1 — Get your leads into GHL tonight (15 minutes)
+## Step 1 — Get your leads into GHL tonight (20 minutes)
 
-Format your list as CSV with these headers, in this order:
+### 1a. Create the custom fields first
 
-```
-First Name,Last Name,Email,Phone,Company Name,Website,City,State,Industry
-```
+The import maps into fields that have to exist before you upload, or the columns land nowhere.
+From a shell with a **GHL token scoped to E4L Services**:
 
-Anything you don't have, leave blank — only **Email** is truly required, and **First Name** or
-**Company Name** for the merge fields to read like a human wrote them. A row with neither reads
-as "Hey there" and gets deleted.
-
-In **E4L Client Services** (confirm the sub-account name in the top-left switcher before you
-touch anything): **Contacts → Import → Upload CSV → map the columns → apply tags on import.**
-
-Tags to apply to the whole batch at import:
-
-```
-cold-outreach
-status:queued
-batch:2026-08-16
-industry:<vertical>
-city:<city>
+```bash
+cd voice-ai-demo-builder
+npm run setup-cs         # mission-brief fields, tags, pipeline (idempotent)
+npm run setup-outreach   # the outreach fields below (idempotent)
 ```
 
-The `batch:` tag is what lets you pull today's group tomorrow and compare batch to batch later.
-Use one tag per import so you never lose track of which list is which.
+`setup-outreach` creates twelve fields the cold program reads and writes:
 
-**Then split the list.** Sort by whichever signal you trust — revenue, review count, how well
-you know the vertical — and tag your top 20 `priority:high`. Those get a phone call and a
-personalized first line. The rest ride the series as-is.
+| Field | Holds |
+|---|---|
+| `cs_geo_score` | Latest AI visibility score, `"5/21"` |
+| `cs_geo_score_baseline` | First score — makes the month-over-month email possible |
+| `cs_geo_last_audit` | Date of the last audit run |
+| `cs_lead_source` | `sheet-import` / `google-places` / `scorecard` / `referral` |
+| `cs_outreach_batch` | `2026-08-16-hvac` — which import they came from |
+| `cs_outreach_step` | Last opener email sent, 1–5 |
+| `cs_opener_question` | Which vertical question they got — this is the A/B loop |
+| `cs_email_type` | `personal` / `role` |
+| `cs_priority` | `A` / `B` / `C` |
+| `cs_call_outcome` | `no-answer` / `voicemail` / `spoke` / `callback-requested` / `do-not-contact` |
+| `cs_call_notes` | What they actually said |
+| `cs_last_touch` | Last outbound of any kind — stops double-touching |
+
+`cs_geo_score` is overdue regardless of this program: every GEO audit run already tries to write
+it and reports *"cs_geo_score not wired"* because the field doesn't exist, so scores are being
+filed in the repo instead of on the contact.
+
+**Both scripts now refuse to run outside E4L Services.** The `GHL_LOCATION_ID` sitting in the
+working environment points at `zSBqmFrgOtGwd4ALyIsD` — the *school* sub-account — so before this
+guard existed, `npm run setup-cs` would have quietly built every CS-* asset in the wrong house.
+If you see `REFUSING TO WRITE`, the token or the location ID is the school's; get one scoped to
+E4L Services and re-run.
+
+### 1b. Import the lists
+
+The sheet is already parsed, cleaned, and split by vertical in **`leads/ghl-import/`**:
+
+| File | Leads | Tier A | Notes |
+|---|---:|---:|---|
+| `2026-08-16-roofing.csv` | 279 | 277 | National. Best hit rate of the six |
+| `2026-08-16-dental.csv` | 274 | 272 | National |
+| `2026-08-16-hvac.csv` | 256 | 226 | Mostly California |
+| `2026-08-16-med-spa.csv` | 133 | 133 | Heavy NY concentration |
+| `2026-08-16-chiropractic.csv` | 118 | 118 | |
+| `2026-08-16-dog-grooming.csv` | 71 | 52 | Mostly Phoenix |
+| **Total** | **1,131** | **1,078** | 1,082 have a phone · every row has a website |
+
+Tiers: **A** = named person + personal email (personalize, and call these) · **B** = named person
+at a role mailbox · **C** = no name, company merge only. 97% are tier A, which is unusually good
+— that list is worth treating carefully.
+
+To regenerate after the sheet grows: `python3 leads/prepare-import.py <sheet.json>`.
+
+**In E4L Services** (confirm the sub-account name in the top-left switcher first):
+**Contacts → Import → Upload CSV → map columns → import.**
+
+The columns map straight onto GHL's defaults, plus three that need pointing at the new fields:
+
+| CSV column | Maps to |
+|---|---|
+| First Name / Last Name / Email / Phone | native contact fields |
+| Company Name / Website / City / State | native contact fields |
+| Industry | `cs_industry` |
+| Email Type | `cs_email_type` |
+| Priority | `cs_priority` |
+| Tags | tags |
+
+The **Tags** column is pre-filled per row — `cold-outreach status:queued batch:2026-08-16
+industry:<vertical> city:<city> priority:<tier>` — so the batch, vertical, city, and tier all
+arrive as filterable tags with no manual work. Import one vertical at a time so a bad mapping
+costs you one file, not all six.
+
+Set `cs_lead_source` to `sheet-import` in bulk after each import (select all → edit field).
+
+### 1c. Pick tomorrow's ten
+
+**Start with HVAC or roofing.** Trades reply to direct email more than any other vertical on this
+list, and mid-August is peak season for HVAC — which is exactly when a busy shop is dropping the
+most calls. The opening question lands hardest during the week it's actually happening to them.
+
+Filter to `priority:a` + `industry:hvac`, sort however you like, take ten. Those ten get Email 1
+tomorrow morning and a call tomorrow afternoon.
 
 ---
 

@@ -9,6 +9,7 @@
     "pool": "node src/pool-cli.js",
     "setup-location": "node src/setup-location.js",
     "setup-cs": "node src/setup-cs.js",
+    "setup-outreach": "node src/setup-outreach.js",
     "leads": "node src/leads-cli.js"
   },
   "engines": {
