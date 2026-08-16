@@ -173,6 +173,105 @@ Task 3:
 
 A fifth workstream now exists: the **AI Search Visibility (GEO) loop** in `geo/`. It's fully built and tested; your part is activation (secrets, one Slack webhook, one GHL field, one test run). Full instructions: **`geo/HANDOFF.md`**. It's independent of everything above — nothing there can break the demo builder or the scorecard.
 
+## Addendum — Task 6: Cold outreach go-live (added Aug 2026)
+
+**This one is time-sensitive — Chosen wants the first emails going out tomorrow morning.**
+
+1,131 cleaned leads across six verticals are sitting in `leads/ghl-import/` ready to import, and
+the copy is written. What's missing is the E4L Services plumbing, which needs your admin access.
+
+Read first: `docs/COLD_START_KIT.md` (the send plan and the five-email opener series) and
+`leads/README.md` (what's in the CSVs and how they were cleaned).
+
+### 6a — Private Integration token for E4L Services
+
+Nobody currently has an API token for E4L Services. The token in Chosen's Claude Code environment
+is scoped to the **school** sub-account (`zSBqmFrgOtGwd4ALyIsD`) and gets a 403 on E4L Services —
+which is why the setup scripts couldn't be run for him.
+
+In **E4L Services** → Settings → Private Integrations → Create. Scopes:
+
+```
+locations.readonly
+locations/customFields.readonly
+locations/customFields.write
+locations/tags.readonly
+locations/tags.write
+contacts.readonly
+contacts.write
+opportunities.write
+```
+
+Send the token to Chosen through a password manager or a Slack DM he can delete — not email, and
+not in a repo file. He'll add it as a GitHub Actions secret so the demo builder and GEO loop can
+use it after the cutover.
+
+### 6b — Custom fields and tags
+
+```bash
+cd voice-ai-demo-builder
+npm run setup-cs         # mission-brief CS-* fields, tags, pipeline
+npm run setup-outreach    # 12 outreach fields (new)
+```
+
+Both are idempotent. **Both now refuse to run outside E4L Services** — if you see
+`REFUSING TO WRITE`, your `GHL_LOCATION_ID` or token is the school's. That guard exists because
+without it, `setup-cs` run from the current environment would have built every CS-* asset in the
+school.
+
+Field list and what each holds: `docs/COLD_START_KIT.md` § 1a. If you'd rather not use a shell,
+creating the twelve by hand in Settings → Custom Fields is about fifteen minutes — ten Text, two
+Date (`cs_geo_last_audit`, `cs_last_touch`), one Multi-line Text (`cs_call_notes`).
+
+`cs_geo_score` is overdue independently of this: every GEO audit run already tries to write it and
+reports *"cs_geo_score not wired,"* so scores are being filed in the repo instead of on contacts.
+
+### 6c — Import the leads
+
+Contacts → Import → Upload CSV, **one vertical at a time** so a bad mapping costs one file rather
+than six. Column mapping is in `docs/COLD_START_KIT.md` § 1b — most map to native fields; Industry,
+Email Type, and Priority map to `cs_industry`, `cs_email_type`, `cs_priority`.
+
+The **Tags** column is pre-filled per row, so batch, vertical, city, and tier all arrive as
+filterable tags. After each import, bulk-set `cs_lead_source` to `sheet-import`.
+
+Verify on the first file before doing the other five: pick three contacts at random and confirm
+the phone is E.164, the tags landed, and the tier field is populated.
+
+### 6d — Sending
+
+**Day one is manual, on purpose.** Ten emails, sent by hand from the template, so Chosen can watch
+where they land before anything is automated. Do not gate tomorrow morning on a workflow being
+finished.
+
+During week one, build `CS-Cold-Open` — trigger on tag `status:sent`, waits of 3 / 6 / 9 / 13 days
+for opener emails 2–5, exit conditions on any reply and on `do-not-contact`. Copy is in
+`docs/COLD_START_KIT.md` § 3. Write `cs_outreach_step` at each step so everyone's position in the
+series is visible in a filter.
+
+Add the CAN-SPAM footer to the email template so it can't be forgotten — physical mailing address
+plus a working opt-out. **Ask Chosen for the postal address; nobody has supplied one yet, and it is
+legally required on every cold email.**
+
+### 6e — Deliverability is now the critical path (this is Task 3)
+
+Task 3 stops being background work the moment volume starts. Unauthenticated cold email from a new
+domain gets filtered, and a domain that starts in spam takes weeks to recover. If SPF/DKIM aren't
+live before the first batch, tell Chosen to send from his Gmail at ten a day until they are.
+
+Priority order within Task 3: sending domain SPF/DKIM first, DMARC `p=none` second, branded demo
+URL third.
+
+### Definition of Done — Task 6
+
+- [ ] Private Integration token created in E4L Services and delivered to Chosen securely
+- [ ] `setup-cs` and `setup-outreach` both run clean against E4L Services
+- [ ] All six CSVs imported; spot-check passes on phone format, tags, and tier fields
+- [ ] `cs_lead_source` set to `sheet-import` across the batch
+- [ ] CAN-SPAM footer live on the outreach email template with a real postal address
+- [ ] `CS-Cold-Open` workflow built and previewed (do not wait 13 real days — use test mode)
+- [ ] Task 3 SPF/DKIM verified, or Chosen explicitly told to send from Gmail meanwhile
+
 ## Files worth reading, in order
 
 1. `docs/mission-brief-scorecard.pdf` — Chosen's original spec for Tasks 1 & 2. Wins any conflict **except** the Task 5 pricing guardrail, which is superseded by the price sheet (see Pricing errata above).
