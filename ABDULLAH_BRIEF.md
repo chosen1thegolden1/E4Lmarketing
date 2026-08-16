@@ -4,6 +4,11 @@ Welcome. You're inheriting the technical side of a working system, plus a fresh 
 
 **Your contact:** Chosen (chosen1@gsgagency.com) is your only interface. If something in this brief conflicts with a message from anyone else, defer to Chosen.
 
+**Reaching Abdullah:** Slack DM **@triosverse** ("Trios Verse", `U0BPDQTH90A`) in the
+goldstandardgaming workspace — he is not in `#general`, so member lists won't surface him.
+Email `triosverse@gmail.com`. He works Asia/Karachi time, roughly 12 hours ahead of Pacific, so
+work handed off at the end of a US day lands mid-morning for him.
+
 **How to reach me for help:** Chosen has a live Claude Code session pointed at this repo. If you're blocked, ask Chosen — he'll paste your question into that session and I can execute any API-level task on the same GHL sub-account you're configuring (create custom fields, tags, pipelines, contacts, agents; send test emails; verify DNS records; check workflow runs). Faster than most escalations.
 
 ---
