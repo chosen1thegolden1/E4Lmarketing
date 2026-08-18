@@ -15,7 +15,25 @@ Full pitch library for next week: `OUTREACH_COPY_BANK.md`.
 
 ---
 
-## Read this before you send anything tomorrow
+## Status — updated 2026-08-18
+
+The deliverability work described in the next section is **done**. Recorded here because the
+advice below is now historical, and following it would be actively wrong:
+
+| | |
+|---|---|
+| `gsgagency.com` | SPF, DKIM, DMARC all live. mail-tester 10/10. **Never send cold from it** — that is what damaged it |
+| `mail.e4lmarketingdemos.com` | Authenticated, aligned from-address `Chosen <chosen@mail.e4lmarketingdemos.com>`, Mailgun MX for replies. **All campaign mail goes here** |
+| Booking link | `https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call` |
+| Leads | HVAC batch (256) imported to E4L Services; five verticals still to go |
+| Postal address | 215 E Regent St, Inglewood, CA — ZIP still needed |
+
+The "send from Gmail" fallback below is **superseded**. Campaign mail sends through GHL on the
+cold domain, not from anyone's personal mailbox.
+
+---
+
+## Read this before you send anything tomorrow (historical — see Status above)
 
 **Get SPF + DKIM on the sending domain today if there is any way to do it.** It's a DNS job —
 GHL generates the records, you paste them at the registrar, click verify. Thirty minutes of
@@ -107,9 +125,10 @@ The columns map straight onto GHL's defaults, plus three that need pointing at t
 | Priority | `cs_priority` |
 | Tags | tags |
 
-The **Tags** column is pre-filled per row — `cold-outreach status:queued batch:2026-08-16
-industry:<vertical> city:<city> priority:<tier>` — so the batch, vertical, city, and tier all
-arrive as filterable tags with no manual work. Import one vertical at a time so a bad mapping
+The **Tags** column is pre-filled per row, comma-separated — `cold-outreach,status:queued,
+batch:2026-08-16,industry:<vertical>,city:<city>,priority:<tier>` — so the batch, vertical, city,
+and tier all arrive as six separate filterable tags. **GHL splits tags on commas only**; a
+space-separated list imports as one useless mega-tag that still looks right on the contact. Import one vertical at a time so a bad mapping
 costs you one file, not all six.
 
 Set `cs_lead_source` to `sheet-import` in bulk after each import (select all → edit field).
@@ -404,7 +423,7 @@ Two things, non-negotiable, on every send:
 forgotten:
 
 ```
-Eat 4 Life Marketing · [FULL POSTAL ADDRESS, CITY, STATE ZIP]
+Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA [ZIP]
 Not useful? Reply "stop" and I won't email you again.
 ```
 
