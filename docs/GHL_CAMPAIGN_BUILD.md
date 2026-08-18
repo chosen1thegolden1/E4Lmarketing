@@ -212,16 +212,15 @@ track — `OUTREACH_COPY_BANK.md` § 7.
 Put it in the email template footer so it can't be forgotten:
 
 ```
-Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA [ZIP]
+Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA 90301
 Not useful? Reply "stop" and I won't email you again.
 ```
 
 A physical postal address and a working opt-out are both legally required on
 commercial email. Honor every stop the same day and tag `do-not-contact`.
 
-Address confirmed 2026-08-18. **The 5-digit ZIP is the one field still missing** —
-Inglewood spans 90301–90305, and guessing it on a legal notice is not worth the
-five seconds saved.
+Address confirmed 2026-08-18. Complete — paste the two lines above into the GHL
+email template footer once, so every send in every sequence inherits it.
 
 ---
 

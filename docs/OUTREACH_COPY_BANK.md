@@ -68,7 +68,7 @@ The drafter does not currently append it. Add it to the GHL template footer so i
 everything automatically:
 
 ```
-Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA [ZIP]
+Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA 90301
 Not useful? Reply "stop" and I won't email you again.
 ```
 

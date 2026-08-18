@@ -26,7 +26,7 @@ advice below is now historical, and following it would be actively wrong:
 | `mail.e4lmarketingdemos.com` | Authenticated, aligned from-address `Chosen <chosen@mail.e4lmarketingdemos.com>`, Mailgun MX for replies. **All campaign mail goes here** |
 | Booking link | `https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call` |
 | Leads | HVAC batch (256) imported to E4L Services; five verticals still to go |
-| Postal address | 215 E Regent St, Inglewood, CA — ZIP still needed |
+| Postal address | 215 E Regent St, Inglewood, CA 90301 — footer complete |
 
 The "send from Gmail" fallback below is **superseded**. Campaign mail sends through GHL on the
 cold domain, not from anyone's personal mailbox.
@@ -423,7 +423,7 @@ Two things, non-negotiable, on every send:
 forgotten:
 
 ```
-Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA [ZIP]
+Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA 90301
 Not useful? Reply "stop" and I won't email you again.
 ```
 
