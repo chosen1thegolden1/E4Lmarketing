@@ -36,7 +36,7 @@ in `geo/audits/` is a live example of a prospect audit already sitting on disk.
   ladder in § 2.
 - **Cold SMS.** See § 2. Not a preference — a legal line.
 - **Anything with a booking link in it.** The Game Plan Call calendar (Task 1) isn't created yet,
-  so every CTA below is written with `[CALENDAR LINK]` as a placeholder. Until that link exists,
+  so every CTA below is written with `https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call` as a placeholder. Until that link exists,
   use the reply-to-me variant noted under each CTA — asking for a reply works fine and helps
   sender reputation.
 
@@ -231,7 +231,7 @@ That last one is fixable, and it's a positioning problem, not an ad-spend
 problem.
 
 Happy to walk you through what moves it — 20 minutes, and you keep the
-report either way: [CALENDAR LINK]
+report either way: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call
 
 — Chosen · Eat 4 Life Marketing
 
@@ -319,7 +319,7 @@ build.
 If you want to hear it before then: {{contact.voice_demo_phone}}
 
 If you'd rather have her on your real business line instead of a demo one,
-that's a 20-minute conversation: [CALENDAR LINK]
+that's a 20-minute conversation: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call
 
 And if it's a no, no hard feelings — reply "stop" and I'm out of your inbox.
 
@@ -352,7 +352,7 @@ nobody chased. Yours weren't even. One of them is doing most of the damage.
 Twenty minutes and I'll tell you which — and what seals it. You keep the
 map whether or not you ever work with us.
 
-[CALENDAR LINK]
+https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call
 
 — Chosen · Eat 4 Life Marketing
 
@@ -372,7 +372,7 @@ your real numbers, and I tell you straight whether we're a fit. If we're
 not, I'll say so — I'd rather do that than take a bad-fit deal and have you
 right back where you started in six months.
 
-[CALENDAR LINK], or reply with a week that works.
+https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call, or reply with a week that works.
 
 — Chosen · Eat 4 Life Marketing
 ```
@@ -389,7 +389,7 @@ that month that a {{contact.cs_industry | default: "local business"}} owner
 can use. No sequence, no pitch pressure. Reply "stop" any time and it ends.
 
 The scorecard number is still yours, and so is the call whenever you want
-it: [CALENDAR LINK]
+it: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call
 
 — Chosen · Eat 4 Life Marketing
 ```
@@ -450,7 +450,7 @@ goes to a purchased or scraped number.
 **S2 — No-show recovery** (booked the call, didn't attend):
 ```
 {{contact.first_name}} — Chosen. Missed you at 2. No worries, it happens.
-Want me to grab you another 20 min this week? [CALENDAR LINK]
+Want me to grab you another 20 min this week? https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call
 ```
 
 **S3 — After a positive email reply, to convert to a call:**
@@ -506,7 +506,7 @@ Depends what you actually need, and I'd be guessing right now. Twenty
 minutes on the phone and I can give you a straight number instead of a
 range — plus what I'd do first if it were my business.
 
-[CALENDAR LINK]
+https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call
 ```
 Do not send the price sheet cold. It's an eight-page document that answers a question they
 haven't asked precisely enough yet, and it turns a conversation into a comparison.
