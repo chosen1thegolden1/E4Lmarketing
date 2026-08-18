@@ -32,13 +32,16 @@ in `geo/audits/` is a live example of a prospect audit already sitting on disk.
 
 ### What you cannot send yet
 
-- **Anything at volume.** Task 3 (dedicated sending domain, SPF/DKIM/DMARC) isn't done. Volume
-  ladder in § 2.
+- **Anything at volume.** The cold domain `mail.e4lmarketingdemos.com` is authenticated and
+  correct, but GHL has it in Warmup Stage 1. Volume ladder in § 2 — that ramp is not optional.
 - **Cold SMS.** See § 2. Not a preference — a legal line.
-- **Anything with a booking link in it.** The Game Plan Call calendar (Task 1) isn't created yet,
-  so every CTA below is written with `https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call` as a placeholder. Until that link exists,
-  use the reply-to-me variant noted under each CTA — asking for a reply works fine and helps
-  sender reputation.
+- **Anything with a scorecard link.** The `/scorecard` funnel isn't deployed, so `[SCORECARD LINK]`
+  below has nowhere to point. Emails carrying no link (openers 1 and 2 in the Cold Start Kit) are
+  unaffected.
+
+**Booking link is live** as of 2026-08-18:
+`https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call` — CS-Game-Plan-Call, 20 min,
+Mon–Fri 9–5 Pacific, verified bookable. Every CTA below now points at a real calendar.
 
 ---
 
