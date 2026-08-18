@@ -222,19 +222,35 @@ day and tag `do-not-contact`.
 
 ---
 
-## Sender settings
+## Sender settings — CONFIRMED LIVE 2026-08-18
 
-**From address must be on `mail.e4lmarketingdemos.com`.** Not
-`gsgagency.com` — that's the domain currently being repaired, and cold volume is
-what damaged it. Not the bare `e4lmarketingdemos.com` either: it has no MX
-records, so replies to it bounce, and this entire sequence is built to earn
-replies.
+Verified in E4L Services → Settings → Email Services:
 
-Verified live DNS on `mail.e4lmarketingdemos.com`: SPF (leadconnectorhq +
-mailgun), DKIM at `mx._domainkey.mail`, and Mailgun MX for inbound. It is
-correctly configured and ready.
+| | |
+|---|---|
+| Sending domain | `mail.e4lmarketingdemos.com` — default, SSL issued, Workflow Domain 100% |
+| From name | `Chosen` |
+| From email | `chosen@mail.e4lmarketingdemos.com` |
+| Reply / Forward / BCC | intentionally **empty** |
+| GHL warmup | Stage 1, ceiling 1000/day |
 
----
+The `mail.` prefix is load-bearing in two directions. The bare
+`e4lmarketingdemos.com` has no MX records, so replies to an address there
+vanish; and the DKIM key is published under `mx._domainkey.mail`, so a From:
+header on the bare domain would fail DMARC alignment.
+
+**The from-address had to be set explicitly.** GHL's Dedicated Header was
+empty ("Name not provided / Email not provided"), which meant outbound would
+fall back to the Business Profile address — `Chosen1@gsgagency.com`. That
+would have DKIM-signed every campaign email as `mail.e4lmarketingdemos.com`
+while showing a `gsgagency.com` From: header: DMARC misalignment on every
+send, invisible under `p=none` and catastrophic the moment that domain
+tightens to `p=quarantine`. Set via the domain card's ⋯ → Set Headers.
+
+**Reply/Forward/BCC stay empty on purpose.** Replies must land in GHL
+Conversations so Stop-on-Response can fire and the sequence exits. A
+Reply-To pointing at Gmail would send replies somewhere GHL cannot see, and
+the workflow would keep emailing people who already answered.
 
 ## Before you switch it on
 

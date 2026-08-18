@@ -60,7 +60,7 @@ Full spec: pages 3 of `docs/mission-brief-scorecard.pdf`. Guardrails: page 6. **
 | Configure brand kit — logo (EFL gold mark), colors (`#000` black / `#FFC200` gold), fonts (Rethink Sans, Space Mono) | **You** | Inside E4L Services only |
 | Verify: every new asset in this sub-account starts with `CS-` | **You** | If it doesn't start with CS-, it doesn't belong here |
 | Create a Calendar for the "Game Plan Call" (20 minutes) and grab the public booking link | **You or Rozel** | You'll paste this link into Task 2's emails and SMS |
-| Buy 2–3 dedicated demo numbers in this sub-account (for the demo builder pool) | **You** | Settings → Phone Numbers. Send Chosen the numbers so he can update `pool.json` and cut the demo builder over from E4L School to E4L Services. |
+| Buy 2–3 dedicated demo numbers in this sub-account (for the demo builder pool) | **You** | ✅ done — `+1 908-628-1089` (DemoNumber1) and `+1 424-459-8617` (Demonumber2), both A2P verified, confirmed 2026-08-18. These are what `pool.json` needs at cutover; it still lists the two E4L School numbers. |
 
 The custom fields, tags, and pipeline API work was already done by Claude via `npm run setup-cs` in the repo. If you ever need to re-verify or set up a new sub-account, that command is idempotent — safe to re-run.
 
