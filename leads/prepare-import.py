@@ -240,7 +240,10 @@ def main():
             priority = "A" if (first and kind == "personal") else ("B" if first else "C")
             tiers[priority] += 1
 
-            tags = " ".join([
+            # GHL splits a Tags cell on COMMAS. Joining with spaces imports the
+            # whole string as ONE tag, which silently breaks every tag filter
+            # and workflow trigger downstream.
+            tags = ",".join([
                 "cold-outreach", "status:queued", f"batch:{args.batch}",
                 f"industry:{slug}", f"city:{re.sub(r'[^a-z0-9]+', '-', city.lower()).strip('-')}",
                 f"priority:{priority.lower()}",
