@@ -20,9 +20,11 @@ top-left before you start.
 | | |
 |---|---|
 | Contacts | **535** — HVAC 256, roofing 279, tags splitting correctly |
-| `CS-Cold-Open` | Exists, status **Draft**, 0 enrolled. Settings saved |
-| `outreach:start` | Tag created |
-| Trigger + actions | **Not built** — lost to a builder crash, needs rebuilding |
+| `CS-Cold-Open` | **Built through Email 1**, status Draft, 0 enrolled |
+| Trigger | `Tag added includes "outreach:start"` + filter `cs_priority matches any of ["A","B"]` |
+| Action 1 | Update Contact Field — `cs_outreach_step`=1, `cs_opener_question`=the trades question |
+| Action 2 | Send Email — `Chosen <chosen@mail.e4lmarketingdemos.com>`, plain text, no links, all tracking OFF |
+| Still to add | Wait/condition steps and Emails 2–5 |
 
 **Settings that saved** (GHL's exact labels, which differ from the docs):
 
