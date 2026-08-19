@@ -13,6 +13,55 @@ top-left before you start.
 
 ---
 
+## Build state and GHL realities — 2026-08-18
+
+**Confirmed live in E4L Services:**
+
+| | |
+|---|---|
+| Contacts | **535** — HVAC 256, roofing 279, tags splitting correctly |
+| `CS-Cold-Open` | Exists, status **Draft**, 0 enrolled. Settings saved |
+| `outreach:start` | Tag created |
+| Trigger + actions | **Not built** — lost to a builder crash, needs rebuilding |
+
+**Settings that saved** (GHL's exact labels, which differ from the docs):
+
+- `Stop on response` → ON — *"Ends workflow for a contact if the contact responds to a message sent from this workflow."* The whole premise; verify it after any edit.
+- `Allow re-entry` → OFF
+- `Specific time` → ON, Start 07:00 AM, End 11:00 AM
+- `Timezone` → **Contact timezone** (the other option is Account timezone)
+- `Include days` → Tue / Wed / Thu only
+
+### Four GHL behaviours that cost us time
+
+**No bulk edit for custom fields on the contact list.** Select-all offers only
+Send SMS / Email / WhatsApp, review requests, companies, opportunities, trigger
+automation, add/remove tags, export, merge, delete. To set a custom field across
+many contacts you either put it in a workflow's Update Contact Field step, or
+export → add column → re-import as an update.
+
+**No current-date token for date fields.** `cs_last_touch` cannot be set to
+"today" from a workflow action. Left unset rather than faked.
+
+**"Stop on Unsubscribe" does not exist per-workflow.** GHL enforces DND and
+unsubscribe at the send layer instead. Nothing to configure.
+
+**The builder loses unsaved work on crash.** A white-screen reload rolled back a
+fully-configured trigger and action; only separately-saved Settings survived, and
+"Add new trigger" stayed unresponsive across two reloads. **Save after every
+single step.** Do not batch.
+
+### Why the opener question is hardcoded
+
+The original design merged `{{contact.cs_opener_question}}` so one workflow could
+serve every vertical. Since the field can only be set *by* the workflow (see
+above), merging it would mean rendering a value written one step earlier — a race
+for no benefit. HVAC and roofing share the same question, so it is typed directly
+into Email 1. The field is still written, for A/B tracking. Verticals with a
+different question get their own workflow variant.
+
+---
+
 ## The design decision that saves you five workflows
 
 The opener question changes per vertical — a roofer gets "when someone calls for
