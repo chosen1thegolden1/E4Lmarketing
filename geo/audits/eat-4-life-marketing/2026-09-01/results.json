@@ -1,0 +1,380 @@
+{
+  "subject": "Eat 4 Life Marketing",
+  "city": "Los Angeles, CA",
+  "niche": "marketing-agency",
+  "label": "AI Marketing Agency",
+  "date": "2026-09-01",
+  "startedAt": "2026-09-01T18:18:48.780Z",
+  "finishedAt": "2026-09-01T18:42:00.729Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "0/21",
+  "named": 0,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best AI marketing agency for med spas",
+      "askedAt": "2026-09-01T18:18:49.089Z",
+      "ok": false,
+      "screenshot": "screenshots/eat-4-life-marketing_chatgpt_q1_2026-09-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "AI marketing agency near Los Angeles, CA",
+      "askedAt": "2026-09-01T18:22:08.253Z",
+      "ok": false,
+      "screenshot": "screenshots/eat-4-life-marketing_chatgpt_q2_2026-09-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "who can set up an AI voice agent for my business",
+      "askedAt": "2026-09-01T18:25:27.767Z",
+      "ok": false,
+      "screenshot": "screenshots/eat-4-life-marketing_chatgpt_q3_2026-09-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "agency that automates missed-call follow-up Los Angeles, CA",
+      "askedAt": "2026-09-01T18:28:46.941Z",
+      "ok": false,
+      "screenshot": "screenshots/eat-4-life-marketing_chatgpt_q4_2026-09-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "best marketing agency for home services companies",
+      "askedAt": "2026-09-01T18:32:05.119Z",
+      "ok": false,
+      "screenshot": "screenshots/eat-4-life-marketing_chatgpt_q5_2026-09-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "AI content creation agency for small business",
+      "askedAt": "2026-09-01T18:35:23.532Z",
+      "ok": false,
+      "screenshot": "screenshots/eat-4-life-marketing_chatgpt_q6_2026-09-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "marketing agency Los Angeles, CA reviews",
+      "askedAt": "2026-09-01T18:38:42.243Z",
+      "ok": false,
+      "screenshot": "screenshots/eat-4-life-marketing_chatgpt_q7_2026-09-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best AI marketing agency for med spas",
+      "askedAt": "2026-09-01T18:18:49.089Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_gemini_q1_2026-09-01.jpg",
+      "answered": true,
+      "businesses": [
+        "KailxLabs",
+        "Podium Aesthetics",
+        "PatientCopilot",
+        "MedSpaMarketing.ai"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "KailxLabs",
+        "Podium Aesthetics",
+        "PatientCopilot",
+        "MedSpaMarketing.ai"
+      ],
+      "note": "Recommended four other AI marketing agencies/tools for med spas, without mentioning Eat 4 Life Marketing.",
+      "answerChars": 3025
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "AI marketing agency near Los Angeles, CA",
+      "askedAt": "2026-09-01T18:19:14.522Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_gemini_q2_2026-09-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Tack Media",
+        "Melleka Marketing",
+        "NoGood",
+        "Single Grain"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Tack Media",
+        "Melleka Marketing",
+        "NoGood",
+        "Single Grain"
+      ],
+      "note": "Recommended four other LA-area marketing/AI agencies and omitted Eat 4 Life Marketing entirely.",
+      "answerChars": 2582
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "who can set up an AI voice agent for my business",
+      "askedAt": "2026-09-01T18:19:38.535Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_gemini_q3_2026-09-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Synthflow",
+        "Retell AI",
+        "ElevenLabs Agents",
+        "Lindy",
+        "CallRail",
+        "Nextiva",
+        "RingCentral",
+        "OpenPhone",
+        "Aircall",
+        "Vapi"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Synthflow",
+        "Retell AI",
+        "ElevenLabs Agents",
+        "Lindy",
+        "CallRail",
+        "Nextiva",
+        "RingCentral",
+        "OpenPhone",
+        "Aircall",
+        "Vapi"
+      ],
+      "note": "Gave generic advice listing AI voice agent platforms, phone providers, and agency/freelancer options, never mentioning the audit subject.",
+      "answerChars": 2553
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "agency that automates missed-call follow-up Los Angeles, CA",
+      "askedAt": "2026-09-01T18:20:03.411Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_gemini_q4_2026-09-01.jpg",
+      "answered": true,
+      "businesses": [
+        "AI Biz Automate",
+        "Willix AI",
+        "Allo",
+        "Enzak",
+        "LeadTruffle",
+        "Weave"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "AI Biz Automate",
+        "Willix AI",
+        "Allo",
+        "Enzak",
+        "LeadTruffle",
+        "Weave"
+      ],
+      "note": "Gave generic guidance on missed-call automation and named several agencies/SaaS tools (AI Biz Automate, Willix AI, Allo, Enzak, LeadTruffle, Weave) without mentioning Eat 4 Life Marketing.",
+      "answerChars": 2867
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "best marketing agency for home services companies",
+      "askedAt": "2026-09-01T18:20:28.625Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_gemini_q5_2026-09-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Scorpion",
+        "Blue Corona",
+        "RYNO Strategic Solutions",
+        "Hook Agency",
+        "KickCharge Creative",
+        "Plumber SEO / CI Web Group"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Scorpion",
+        "Blue Corona",
+        "RYNO Strategic Solutions",
+        "Hook Agency",
+        "KickCharge Creative",
+        "Plumber SEO / CI Web Group"
+      ],
+      "note": "Recommended six named marketing agencies for home services companies without mentioning Eat 4 Life Marketing.",
+      "answerChars": 2155
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "AI content creation agency for small business",
+      "askedAt": "2026-09-01T18:20:52.805Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_gemini_q6_2026-09-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Winston Digital Marketing",
+        "The Branded",
+        "327 Digital"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Winston Digital Marketing",
+        "The Branded",
+        "327 Digital"
+      ],
+      "note": "Gave generic advice on AI content agencies and named three competitor agencies, never mentioning the audit subject.",
+      "answerChars": 2366
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "marketing agency Los Angeles, CA reviews",
+      "askedAt": "2026-09-01T18:21:15.869Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_gemini_q7_2026-09-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Darkroom",
+        "Thrive Internet Marketing Agency",
+        "SmartSites",
+        "Brenton Way",
+        "RPA",
+        "Deutsch LA",
+        "Team One",
+        "Omelet",
+        "TBWA\\Chiat\\Day",
+        "72andSunny"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Darkroom",
+        "Thrive Internet Marketing Agency",
+        "SmartSites",
+        "Brenton Way",
+        "RPA",
+        "Deutsch LA",
+        "Team One",
+        "Omelet",
+        "TBWA\\Chiat\\Day",
+        "72andSunny"
+      ],
+      "note": "Answer surveyed LA marketing agencies by tier (performance/mid-market, large creative, niche) without ever mentioning Eat 4 Life Marketing.",
+      "answerChars": 2911
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best AI marketing agency for med spas",
+      "askedAt": "2026-09-01T18:18:49.090Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_perplexity_q1_2026-09-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows a login prompt/error with no actual answer content captured.",
+      "answerChars": 229
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "AI marketing agency near Los Angeles, CA",
+      "askedAt": "2026-09-01T18:19:16.896Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_perplexity_q2_2026-09-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned no actual answer, just a sign-up prompt with no business recommendations.",
+      "answerChars": 160
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "who can set up an AI voice agent for my business",
+      "askedAt": "2026-09-01T18:22:03.938Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_perplexity_q3_2026-09-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only prompted the user to sign up and repeat the request.",
+      "answerChars": 168
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "agency that automates missed-call follow-up Los Angeles, CA",
+      "askedAt": "2026-09-01T18:24:51.014Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_perplexity_q4_2026-09-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 179
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "best marketing agency for home services companies",
+      "askedAt": "2026-09-01T18:27:38.144Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_perplexity_q5_2026-09-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 231
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "AI content creation agency for small business",
+      "askedAt": "2026-09-01T18:28:03.383Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_perplexity_q6_2026-09-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned no actual answer, just a prompt to sign up and repeat the request.",
+      "answerChars": 227
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "marketing agency Los Angeles, CA reviews",
+      "askedAt": "2026-09-01T18:28:28.297Z",
+      "ok": true,
+      "screenshot": "screenshots/eat-4-life-marketing_perplexity_q7_2026-09-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No real answer was captured; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 160
+    }
+  ]
+}
