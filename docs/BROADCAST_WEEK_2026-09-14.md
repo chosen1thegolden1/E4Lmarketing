@@ -11,12 +11,13 @@ deadline in it (Sora, Sept 24) goes stale fast — check before sending.
 where it fits, different framing.
 
 **Review doc (the version Chosen + Zion read):**
-https://docs.google.com/document/d/1163_MXKAMKXCM8-WPP_sYGXNRzfB_K6kFK6Hm-cmwDU/edit
+https://docs.google.com/document/d/1goLrhEoKAO3QEIG__e-ufj2-l8hDnK9aC6N6rB_RvFs/edit
 
 Earlier drafts are renamed SUPERSEDED rather than deleted, in case their links were
 already passed around: `1-zvmUuHjjl7uTNWdNTywSBiQsJz7UFePq7JYNW-0OPw` (v1),
 `1ZkvzgncWjAX7CTDibnXi8Byq4AfPnk381PpX0vpZ1h4` (v2, no link markers), and
-`13MdjcqP714R3UNePPKXazzBUKI9CR6zKgxCragHzDzk` (v3, aggregator source links).
+`13MdjcqP714R3UNePPKXazzBUKI9CR6zKgxCragHzDzk` (v3, aggregator source links), and
+`1163_MXKAMKXCM8-WPP_sYGXNRzfB_K6kFK6Hm-cmwDU` (v4, no book link).
 Drive's API can rename a doc but not rewrite its body, so every revision is a new file.
 
 ---
@@ -60,14 +61,21 @@ that email can go out.
 | What | URL |
 |---|---|
 | Book a call (agency CTA) | `https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call` |
-| From Xbox to Executive (student CTA) | **NEEDED** — no store URL has ever been given to me. Every student email is blocked on this. |
+| From Xbox to Executive (student CTA) | `https://joineat4life.com/xboxtoexec` |
 
 The originals in the appendix keep Chosen's own `[INSERT ...]` placeholders — they're
 reference copy, not send copy, so they stay exactly as he wrote them.
 
 **Every link was checked and returns 200, with one exception:** the Constant Contact
 report (used in A3 and B2) blocks automated checks, so I couldn't confirm it from here.
-Zion — open that one in a browser before send. Everything else is verified live.
+Zion — open that one in a browser before send. Everything else is verified live,
+including the book page.
+
+**Note on the book CTA:** the landing page offers the paperback + digital free, cover
+$9.95 shipping (audiobook +$9.99), checking out on Chosen's own site. The CTA copy in
+these emails just says "Get From Xbox to Executive" — it does not mention the free/
+shipping offer. That's a real hook being left on the table; Chosen's call whether to
+work it into the five student CTAs.
 
 ---
 
@@ -350,7 +358,7 @@ from professional gaming into business, and the book breaks down
 the five departments behind a digital business so you can find
 where YOUR skills already fit.
 
-👉 Get From Xbox to Executive: (LINK: NEEDED — no store URL on file)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -423,7 +431,7 @@ walk in and say so.
 That second one is the whole business. It's most of what From
 Xbox to Executive is about.
 
-👉 Get From Xbox to Executive: (LINK: NEEDED — no store URL on file)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -493,7 +501,7 @@ I did the same thing with gaming before anybody thought it was
 a real career. That story, and the framework behind it, is in
 From Xbox to Executive.
 
-👉 Get From Xbox to Executive: (LINK: NEEDED — no store URL on file)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -561,7 +569,7 @@ Every piece of software you use is rented. Always. So pick the ones you could wa
 
 That's the same lesson I had to learn going from gaming into business — the platform changes, the skill moves with you. That's most of what From Xbox to Executive is about.
 
-👉 Get From Xbox to Executive: (LINK: NEEDED — no store URL on file)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -616,7 +624,7 @@ The businesses winning right now aren't the ones using the most AI. They're the 
 
 Figuring out where that instinct fits inside an actual business is what From Xbox to Executive breaks down — five departments, and where your skills already land.
 
-👉 Get From Xbox to Executive: (LINK: NEEDED — no store URL on file)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
