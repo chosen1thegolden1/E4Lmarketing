@@ -11,12 +11,13 @@ deadline in it (Sora, Sept 24) goes stale fast — check before sending.
 where it fits, different framing.
 
 **Review doc (the version Chosen + Zion read):**
-https://docs.google.com/document/d/13MdjcqP714R3UNePPKXazzBUKI9CR6zKgxCragHzDzk/edit
+https://docs.google.com/document/d/1163_MXKAMKXCM8-WPP_sYGXNRzfB_K6kFK6Hm-cmwDU/edit
 
-Two earlier drafts are renamed SUPERSEDED rather than deleted, in case their links were
-already passed around: `1-zvmUuHjjl7uTNWdNTywSBiQsJz7UFePq7JYNW-0OPw` (v1) and
-`1ZkvzgncWjAX7CTDibnXi8Byq4AfPnk381PpX0vpZ1h4` (v2, no link markers). Drive's API can
-rename a doc but not rewrite its body, so every revision is a new file — expect that.
+Earlier drafts are renamed SUPERSEDED rather than deleted, in case their links were
+already passed around: `1-zvmUuHjjl7uTNWdNTywSBiQsJz7UFePq7JYNW-0OPw` (v1),
+`1ZkvzgncWjAX7CTDibnXi8Byq4AfPnk381PpX0vpZ1h4` (v2, no link markers), and
+`13MdjcqP714R3UNePPKXazzBUKI9CR6zKgxCragHzDzk` (v3, aggregator source links).
+Drive's API can rename a doc but not rewrite its body, so every revision is a new file.
 
 ---
 
@@ -64,6 +65,10 @@ that email can go out.
 The originals in the appendix keep Chosen's own `[INSERT ...]` placeholders — they're
 reference copy, not send copy, so they stay exactly as he wrote them.
 
+**Every link was checked and returns 200, with one exception:** the Constant Contact
+report (used in A3 and B2) blocks automated checks, so I couldn't confirm it from here.
+Zion — open that one in a browser before send. Everything else is verified live.
+
 ---
 
 ## How the two lists pair up
@@ -81,7 +86,7 @@ agency email (A1) *and* Wednesday's student email (S2), written twice from scrat
 
 | | Agency | Student |
 |---|---|---|
-| **Mon** | A1 — Muse | S1 — AI-skills pay bump |
+| **Mon** | A1 — Muse | S1 — AI demand tripled |
 | **Wed** | A2 — Sora sunset | S2 — Muse |
 | **Fri** | A3 — 48% stat | S3 — XPeng robots |
 
@@ -105,8 +110,8 @@ Meta just dropped something called Muse. It's a personal AI
 assistant — and here's the part that matters: it lives inside
 WhatsApp. 👀
 
-Not an app somebody has to download. The thing already on their
-phone.
+There's a Muse app too — but they don't need it. It works right
+inside the app already on their phone.
 
 Which means the buying conversation now starts somewhere you
 can't see.
@@ -119,7 +124,7 @@ already have open.
 Your customer doesn't Google "best roofer near me" anymore. They
 ask. And they get ONE answer, not ten blue links.
 
-Read the launch → (LINK: https://aiweekly.co/ai-news-today)
+Read the launch → (LINK: https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/)
 
 2. One answer means one winner.
 Ten search results meant ten chances. One AI answer means one
@@ -137,7 +142,7 @@ See if you come up. See who does instead.
 That takes 4 minutes and it's the most useful 4 minutes you'll
 spend this week. Most owners have never once checked.
 
-The part that gets me: this isn't coming. It shipped Monday.
+The part that gets me: this isn't coming. It shipped last Tuesday.
 
 If you run the test and don't like the answer, that's fixable —
 but only if somebody's actually working on it.
@@ -151,7 +156,7 @@ Sebastian
 Eat 4 Life
 ```
 
-*Source: Meta Muse launch, Sept 8 2026 — https://aiweekly.co/ai-news-today*
+*Source: Meta Muse launch, Sept 8 2026 — https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/*
 
 ---
 
@@ -176,7 +181,7 @@ of it breaks.
 
 Not because anybody did anything wrong. The tool just... ended.
 
-See the shutdown notice → (LINK: https://wavespeed.ai/blog/posts/ai-video-generation-news-2026/)
+See the shutdown notice → (LINK: https://developers.openai.com/api/docs/deprecations)
 
 2. Everybody's scrambling to the same three doors.
 Google Veo, Runway, Kling. They all work. People will migrate,
@@ -210,7 +215,8 @@ Sebastian
 Eat 4 Life
 ```
 
-*Source: Sora API sunset Sept 24 2026 — https://wavespeed.ai/blog/posts/ai-video-generation-news-2026/*
+*Source: OpenAI deprecations table (Sora 2 / Videos API, removal 2026-09-24) — https://developers.openai.com/api/docs/deprecations
+Background: https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation*
 
 ---
 
@@ -236,7 +242,7 @@ using it: 35%.
 That's a big enough gap that "I'll get to it eventually" is
 costing real money.
 
-See the report → (LINK: https://www.askneedle.com/blog/ai-marketing-tools-for-small-business)
+See the report → (LINK: https://www.constantcontact.com/blog/small-business-now-report/)
 
 3. But here's the trap nobody's talking about.
 If half the market is generating emails from the same handful
@@ -267,7 +273,7 @@ Sebastian
 Eat 4 Life
 ```
 
-*Source: Constant Contact State of Small Business Marketing — https://www.askneedle.com/blog/ai-marketing-tools-for-small-business*
+*Source: Constant Contact Small Business Now Report — https://www.constantcontact.com/blog/small-business-now-report/*
 
 ---
 
@@ -275,9 +281,9 @@ Eat 4 Life
 
 ## S1 — Monday
 
-**Subject:** They're paying 9% more for this
+**Subject:** Demand for this TRIPLED in a year
 
-**Preview text:** And most people your age haven't figured it out yet.
+**Preview text:** And it's entry-level jobs doing the asking.
 
 ```
 Yo [First Name],
@@ -285,14 +291,17 @@ Yo [First Name],
 Numbers just dropped on entry-level hiring and I need you to
 see these. 📊
 
-35% of entry-level jobs now ask for AI skills. That number
-nearly DOUBLED in one year.
+More than a THIRD of entry-level jobs now require AI skills.
+That's nearly TRIPLE what it was in fall 2025.
 
-And people with real AI skills are getting about 9% more pay
-starting out.
+Not senior roles. Entry-level. The jobs you're actually applying
+for.
 
-Read that again. Same job. Same age. 9% more — for a skill you
-can start building today for free.
+See the report → (LINK: https://www.naceweb.org/job-market/trends-and-predictions/demand-for-ai-skills-in-entry-level-jobs-nearly-triples-since-fall-2025)
+
+And the part that should take some pressure off: about 61% of
+employers say they see AI as something that makes a job bigger,
+not something that deletes it.
 
 Here's your side quest:
 
@@ -316,12 +325,21 @@ Do it. Save the before and after. That's a portfolio piece and
 you just made it in 20 minutes.
 
 3. Take it to a real business. 💼
-Small businesses are hiring nearly a MILLION grads this year —
-and a lot of them are specifically looking for people who grew
-up with this stuff.
+Small businesses are on track to hire about 974,000 grads this
+year — and a lot of them are specifically looking for people who
+grew up with this stuff.
+
+See who's hiring → (LINK: https://fortune.com/2026/05/01/one-million-new-grads-hired-small-businesses-2026-hottest-jobs-ai-proof-service-technicians/)
 
 You walk in with proof instead of a resume line. That's a
 different conversation entirely.
+
+On money, honestly: postings that ask for AI skills advertise
+about 28% higher salaries. That's an average across ALL
+experience levels, not a promise for your first job — but it
+tells you which way the money is moving.
+
+See the numbers → (LINK: https://lightcast.io/resources/blog/beyond-the-buzz-press-release-2025-07-23)
 
 Real talk: employers said the same thing across every one of
 these reports. They want AI fluency AND judgment. The tool plus
@@ -342,9 +360,9 @@ P.S. I gotta question: what's the most boring task you'd happily
 get paid to never do by hand again?
 ```
 
-*Sources: CNBC entry-level AI skills, Fortune small-business hiring —
-https://www.cnbc.com/2026/04/29/entry-level-jobs-calling-for-ai-skills-nearly-doubled-from-a-year-ago-report.html ·
-https://fortune.com/2026/05/01/one-million-new-grads-hired-small-businesses-2026-hottest-jobs-ai-proof-service-technicians/*
+*Sources: NACE Job Outlook 2026 Spring Update — https://www.naceweb.org/job-market/trends-and-predictions/demand-for-ai-skills-in-entry-level-jobs-nearly-triples-since-fall-2025 ·
+Fortune / Gusto new-grad hiring — https://fortune.com/2026/05/01/one-million-new-grads-hired-small-businesses-2026-hottest-jobs-ai-proof-service-technicians/ ·
+Lightcast AI salary premium — https://lightcast.io/resources/blog/beyond-the-buzz-press-release-2025-07-23*
 
 ---
 
@@ -361,6 +379,8 @@ Meta just put a personal AI agent called Muse inside WhatsApp.
 Same app your group chat is in. 👀
 
 Free to start. On your phone right now, basically.
+
+See what it actually does → (LINK: https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/)
 
 Most people are gonna use it to settle arguments about
 basketball stats. You're gonna use it to build something.
@@ -413,7 +433,7 @@ P.S. I gotta question: which local business would you fix first
 if they'd actually let you?
 ```
 
-*Source: Meta Muse launch, Sept 8 2026 — https://aiweekly.co/ai-news-today*
+*Source: Meta Muse launch, Sept 8 2026 — https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/*
 
 ---
 
@@ -426,8 +446,8 @@ if they'd actually let you?
 ```
 Yo [First Name],
 
-XPeng flipped on a production line for humanoid robots this
-week. Actual factory. Actual robots rolling off it. 🤖
+XPeng flipped on a production line for humanoid robots last week.
+Actual factory. Actual robots rolling off it. 🤖
 
 The specs are stupid:
 
@@ -435,7 +455,7 @@ The specs are stupid:
 2,250 TOPS — on the robot, not in the cloud.
 
 For scale: your hand has about 27 degrees of freedom. They got
-to 21 per hand. In a machine. On a line. This week.
+to 21 per hand. In a machine. On a line. Right now.
 
 Here's what I want you to take from it:
 
@@ -446,7 +466,7 @@ Tuesday in September 2026.
 Every time you think "that's years away" — check. It usually
 isn't.
 
-See the build → (LINK: https://aiweekly.co/ai-news-today)
+See the build → (LINK: https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b)
 
 2. New machines make new jobs, and they're always weird ones.
 Somebody has to teach these things. Somebody has to test them
@@ -487,7 +507,7 @@ away" that you think shows up next year?
 sources vary. Keep the "about" or cut the line — don't let it get tightened into a hard
 number during QA.
 
-*Source: XPeng IRON production line, Sept 8 2026 — https://aiweekly.co/ai-news-today*
+*Source: XPeng IRON production line, Sept 8 2026 — https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b*
 
 ---
 
@@ -509,6 +529,8 @@ Yo [First Name],
 OpenAI is shutting down the Sora API on September 24th.
 
 People built whole businesses on that thing. Video pipelines. Client work. Content operations. Two weeks from now the plug comes out and all of it breaks. 😵‍💫
+
+Read the shutdown notice → (LINK: https://developers.openai.com/api/docs/deprecations)
 
 Here's why I'm telling YOU:
 
@@ -550,7 +572,7 @@ P.S. I gotta question: what's one tool you'd be stuck without if it disappeared 
 
 **Notes:** Same Sora source as A2. Dead copy after Sept 24 — if it slips, don't reschedule it, cut it.
 
-*Source: https://wavespeed.ai/blog/posts/ai-video-generation-news-2026/*
+*Source: https://developers.openai.com/api/docs/deprecations*
 
 ---
 
@@ -564,6 +586,8 @@ P.S. I gotta question: what's one tool you'd be stuck without if it disappeared 
 Yo [First Name],
 
 Fresh numbers: 48% of small businesses now use AI to write their emails. The ones using it report 53% success. The ones who don't: 35%.
+
+See the report → (LINK: https://www.constantcontact.com/blog/small-business-now-report/)
 
 So it works. Cool. Here's the part nobody's saying out loud 👇
 
@@ -603,7 +627,7 @@ P.S. I gotta question: what's one thing you'd notice about a business that a str
 
 **Notes:** Same stat source as A3. No expiry — this one keeps.
 
-*Source: https://www.askneedle.com/blog/ai-marketing-tools-for-small-business*
+*Source: https://www.constantcontact.com/blog/small-business-now-report/*
 
 ---
 
