@@ -1,0 +1,460 @@
+# Broadcast emails — week of Sept 14, 2026
+
+Three agency, three student. Value-first, no pitch pressure. These run *alongside*
+the `CS-Cold-Open` sequence — different audience, different job. Cold outreach earns
+a first reply; these keep a list that already knows Sebastian warm.
+
+**Research date: 2026-09-10.** Every fact below is dated and sourced. Anything with a
+deadline in it (Sora, Sept 24) goes stale fast — check before sending.
+
+**Send order:** Mon / Wed / Fri. Agency and student go out the same day, same theme
+where it fits, different framing.
+
+---
+
+## ⚠️ Two things to sort before these go out
+
+**1. Which domain sends these.** These are broadcasts to a list, not cold sends. But
+`gsgagency.com` is still in reputation recovery (repaired 2026-08-18, roughly 3 weeks
+in), and a broadcast blast is exactly the volume spike that stalls a recovery. Options:
+
+- Send agency broadcasts from `mail.e4lmarketingdemos.com` — authenticated, aligned, but
+  its own warmup is still Stage 1, so ramp it
+- Or hold the list broadcasts one more week and watch Google Postmaster first
+
+**2. The student list lives in E4L School.** That sub-account is off-limits to me —
+no reads, no writes, per the mission brief. I can write the copy; someone else loads it.
+
+Both lists need the CAN-SPAM footer and a real unsubscribe, same as everything else:
+
+```
+Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA 90301
+```
+
+Broadcast to a subscribed list should use a proper unsubscribe **link**, not the
+"reply stop" line — that shortcut is for cold one-to-one sends only.
+
+---
+
+# AGENCY SIDE
+
+## A1 — Monday
+
+**Subject:** Your customer asked an AI about you last week
+
+**Preview text:** And you weren't in the room for it.
+
+```
+Yo [First Name],
+
+Meta just dropped something called Muse. It's a personal AI
+assistant — and here's the part that matters: it lives inside
+WhatsApp. 👀
+
+Not an app somebody has to download. The thing already on their
+phone.
+
+Which means the buying conversation now starts somewhere you
+can't see.
+
+1. It's free, and it's already where your customers are.
+Free tier, plus paid plans at $20 and $100/month. But most people
+will never pay — they'll just use the free one, in the app they
+already have open.
+
+Your customer doesn't Google "best roofer near me" anymore. They
+ask. And they get ONE answer, not ten blue links.
+
+Read the launch →
+
+2. One answer means one winner.
+Ten search results meant ten chances. One AI answer means one
+business gets named and everybody else doesn't exist.
+
+That's not a small change to how you get found. That's the whole
+game moving.
+
+3. You can check what it says about you. Today.
+Open any AI assistant. Ask it the exact question a customer would
+ask to find a business like yours. In your city.
+
+See if you come up. See who does instead.
+
+That takes 4 minutes and it's the most useful 4 minutes you'll
+spend this week. Most owners have never once checked.
+
+The part that gets me: this isn't coming. It shipped Monday.
+
+If you run the test and don't like the answer, that's fixable —
+but only if somebody's actually working on it.
+
+👉 Book a call: [INSERT CALENDAR LINK]
+
+P.S. I gotta question: when's the last time you asked an AI about
+your OWN business?
+
+Sebastian
+Eat 4 Life
+```
+
+*Source: Meta Muse launch, Sept 8 2026 — https://aiweekly.co/ai-news-today*
+
+---
+
+## A2 — Wednesday
+
+**Subject:** A tool 1000s of businesses use dies Sept 24
+
+**Preview text:** Two weeks. Then it's gone.
+
+```
+Yo [First Name],
+
+OpenAI is shutting down the Sora API on September 24th.
+
+If that means nothing to you — good, keep it that way. But
+here's why I'm writing about it anyway. 👇
+
+1. People built real businesses on that thing.
+Video pipelines. Client deliverables. Whole content operations.
+Two weeks from now the plug comes out and everything downstream
+of it breaks.
+
+Not because anybody did anything wrong. The tool just... ended.
+
+See the shutdown notice →
+
+2. Everybody's scrambling to the same three doors.
+Google Veo, Runway, Kling. They all work. People will migrate,
+rebuild, and get on with it.
+
+The migration isn't the expensive part. The two weeks of nobody
+knowing what happens next — that's the expensive part.
+
+3. Here's the actual lesson, and it's not about video.
+Own the asset. Rent the tool.
+
+Your customer list, your before-and-after photos, your reviews,
+the phone number people know — that's yours. It doesn't sunset.
+
+The software that turns it into marketing? Rented. Always.
+Pick the ones that are easy to walk away from.
+
+Quick gut-check: if the tool you rely on most announced it was
+closing in 14 days, what would break?
+
+If you don't know the answer, that IS the answer. 😅
+
+Worth 20 minutes to map what you own versus what you're renting.
+
+👉 Book a call: [INSERT CALENDAR LINK]
+
+P.S. I gotta question: what's the one tool your business genuinely
+could not run without?
+
+Sebastian
+Eat 4 Life
+```
+
+*Source: Sora API sunset Sept 24 2026 — https://wavespeed.ai/blog/posts/ai-video-generation-news-2026/*
+
+---
+
+## A3 — Friday
+
+**Subject:** 48% of your competitors are doing this now
+
+**Preview text:** And it's working. That's the problem.
+
+```
+Yo [First Name],
+
+Fresh numbers on small business + AI, and they cut both ways.
+
+1. Almost half already use AI to write their emails.
+48% of small businesses use it for emails or subject lines.
+That was a weird thing to admit two years ago. Now it's Tuesday.
+
+2. And it's working — measurably.
+Businesses using AI report email success at 53%. The ones not
+using it: 35%.
+
+That's a big enough gap that "I'll get to it eventually" is
+costing real money.
+
+See the report →
+
+3. But here's the trap nobody's talking about.
+If half the market is generating emails from the same handful
+of tools... every inbox starts sounding the same.
+
+Same polish. Same rhythm. Same three-bullet structure. Same
+"I hope this finds you well."
+
+Which means polish stopped being the advantage. Being SPECIFIC
+did.
+
+One sentence only you could write — the neighborhood, the job
+you did last week, the thing their website says — beats four
+paragraphs of perfectly-generated nothing.
+
+Use AI for the speed. Bring the specifics yourself. That's the
+whole play. 🎯
+
+The businesses winning right now aren't the ones using the most
+AI. They're the ones that still sound like a person.
+
+👉 Book a call: [INSERT CALENDAR LINK]
+
+P.S. I gotta question: could a customer tell your last marketing
+email from your competitor's?
+
+Sebastian
+Eat 4 Life
+```
+
+*Source: Constant Contact State of Small Business Marketing — https://www.askneedle.com/blog/ai-marketing-tools-for-small-business*
+
+---
+
+# STUDENT SIDE
+
+## S1 — Monday
+
+**Subject:** They're paying 9% more for this
+
+**Preview text:** And most people your age haven't figured it out yet.
+
+```
+Yo [First Name],
+
+Numbers just dropped on entry-level hiring and I need you to
+see these. 📊
+
+35% of entry-level jobs now ask for AI skills. That number
+nearly DOUBLED in one year.
+
+And people with real AI skills are getting about 9% more pay
+starting out.
+
+Read that again. Same job. Same age. 9% more — for a skill you
+can start building today for free.
+
+Here's your side quest:
+
+1. Pick ONE boring business task. 🎯
+Not a cool one. A boring one. Writing product descriptions.
+Answering the same customer question 40 times. Turning a long
+video into short clips.
+
+Boring is where the money is, because boring is what businesses
+hate doing.
+
+2. Do it with AI. Then screenshot the receipts.
+Try this:
+
+"I'm going to give you 10 products from a local store. Write a
+short, honest product description for each — no hype words.
+Then explain what makes a good product description so I actually
+learn it."
+
+Do it. Save the before and after. That's a portfolio piece and
+you just made it in 20 minutes.
+
+3. Take it to a real business. 💼
+Small businesses are hiring nearly a MILLION grads this year —
+and a lot of them are specifically looking for people who grew
+up with this stuff.
+
+You walk in with proof instead of a resume line. That's a
+different conversation entirely.
+
+Real talk: employers said the same thing across every one of
+these reports. They want AI fluency AND judgment. The tool plus
+the taste. AI can do the first part. You bring the second.
+
+That's exactly what From Xbox to Executive is about — I went
+from professional gaming into business, and the book breaks down
+the five departments behind a digital business so you can find
+where YOUR skills already fit.
+
+👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+
+Holla Back – Get ya Dolla Back. ✊🏾
+Sebastian
+Eat 4 Life
+
+P.S. I gotta question: what's the most boring task you'd happily
+get paid to never do by hand again?
+```
+
+*Sources: CNBC entry-level AI skills, Fortune small-business hiring —
+https://www.cnbc.com/2026/04/29/entry-level-jobs-calling-for-ai-skills-nearly-doubled-from-a-year-ago-report.html ·
+https://fortune.com/2026/05/01/one-million-new-grads-hired-small-businesses-2026-hottest-jobs-ai-proof-service-technicians/*
+
+---
+
+## S2 — Wednesday
+
+**Subject:** Your group chat has an AI in it now
+
+**Preview text:** Meta put one in WhatsApp. Let's use it.
+
+```
+Yo [First Name],
+
+Meta just put a personal AI agent called Muse inside WhatsApp.
+Same app your group chat is in. 👀
+
+Free to start. On your phone right now, basically.
+
+Most people are gonna use it to settle arguments about
+basketball stats. You're gonna use it to build something.
+
+Side quest — three levels:
+
+1. Make it do something useful for someone else. 🎮
+Pick a local business you actually know. The barbershop. The
+wing spot. Your cousin's detailing setup.
+
+Try this:
+
+"Act as a customer trying to find [type of business] in [your
+city]. Ask the 10 questions you'd really ask before booking.
+Then tell me which questions most businesses answer badly on
+their website."
+
+Now you're holding a list of 10 things that business is losing
+money on. You made it in five minutes.
+
+2. Fix ONE of them. Then show them.
+Pick the easiest one. Write the answer. Make it good.
+
+Walk in and say "I noticed people ask this and your site doesn't
+answer it — I wrote you something."
+
+Worst case: they say no thanks. Best case: you just got your
+first client at [your age]. 💰
+
+3. Level up: do it for five businesses.
+Same prompt. Five businesses. One afternoon.
+
+Now it's not a favor — it's a service. And you've got proof it
+works before you ever charge anybody.
+
+The skill you're building isn't "using AI." Everybody's gonna
+have that. It's spotting what's broken and having the guts to
+walk in and say so.
+
+That second one is the whole business. It's most of what From
+Xbox to Executive is about.
+
+👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+
+Holla Back – Get ya Dolla Back. ✊🏾
+Sebastian
+Eat 4 Life
+
+P.S. I gotta question: which local business would you fix first
+if they'd actually let you?
+```
+
+*Source: Meta Muse launch, Sept 8 2026 — https://aiweekly.co/ai-news-today*
+
+---
+
+## S3 — Friday
+
+**Subject:** They just built a robot with 21 fingers per hand
+
+**Preview text:** Not a demo. A production line.
+
+```
+Yo [First Name],
+
+XPeng flipped on a production line for humanoid robots this
+week. Actual factory. Actual robots rolling off it. 🤖
+
+The specs are stupid:
+
+76 degrees of freedom. 21 in EACH HAND. Three AI chips running
+2,250 TOPS — on the robot, not in the cloud.
+
+For scale: your hand has about 27 degrees of freedom. They got
+to 21 per hand. In a machine. On a line. This week.
+
+Here's what I want you to take from it:
+
+1. The "someday" stuff keeps showing up early. ⚡
+Robots on a production line was a 2035 conversation. It's a
+Tuesday in September 2026.
+
+Every time you think "that's years away" — check. It usually
+isn't.
+
+See the build →
+
+2. New machines make new jobs, and they're always weird ones.
+Somebody has to teach these things. Somebody has to test them
+and write down what broke. Somebody has to explain to a normal
+business what it actually does.
+
+Those jobs don't exist yet, so nobody has 10 years experience
+in them. That's the opening. That's ALWAYS the opening.
+
+3. Your side quest: get early on purpose. 🎯
+Try this:
+
+"Explain how humanoid robots are being used in real businesses
+right now — not in the future. Then list 5 jobs that will exist
+because of them within 3 years, and what skills each one needs."
+
+Read it. Pick the one that sounds most like you. Start there.
+
+Being early is a strategy. It's basically the only one that
+works when you don't have experience yet — you go where nobody
+has experience.
+
+I did the same thing with gaming before anybody thought it was
+a real career. That story, and the framework behind it, is in
+From Xbox to Executive.
+
+👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+
+Holla Back – Get ya Dolla Back. ✊🏾
+Sebastian
+Eat 4 Life
+
+P.S. I gotta question: what's something everybody says is "years
+away" that you think shows up next year?
+```
+
+*Source: XPeng IRON production line, Sept 8 2026 — https://aiweekly.co/ai-news-today*
+
+---
+
+# How these get written each week
+
+The research is the job. The format is fixed; the facts have to be current.
+
+**Every Monday, before writing:**
+
+1. Search for the week's AI launches, shutdowns, and funding — anything dated
+2. Search the small-business / local-business AI angle specifically
+3. Search the jobs-and-skills angle for the student side
+4. Pick **one theme per email**, three concrete beats under it
+
+**The rules that make these work:**
+
+- **Every fact is dated and sourced.** A deadline (Sept 24) or a launch date beats a
+  vague trend. If it can't be dated, it isn't news, it's filler.
+- **Three beats, not five.** His format. Item 3 is always the one they can DO today.
+- **Agency = "what this means for YOUR business."** Student = "here's the side quest."
+- **One CTA.** Agency → book a call. Student → the book. Never both.
+- **P.S. is always a question**, and always answerable in one line. That's what earns
+  replies, and replies are what keep the domain healthy.
+- **Never promise results.** Report what happened; let them draw the line.
+- Agency copy says **"AI Marketing Made Easy."** "Everybody Eats" is student-side only.
+
+**Where the links go:** each `Check out X →` needs a real URL before send. Sources are
+listed under every email above — use those or something better.
