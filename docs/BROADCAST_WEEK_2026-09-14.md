@@ -10,6 +10,11 @@ deadline in it (Sora, Sept 24) goes stale fast — check before sending.
 **Send order:** Mon / Wed / Fri. Agency and student go out the same day, same theme
 where it fits, different framing.
 
+**Review doc (the version Chosen + Zion read):**
+https://docs.google.com/document/d/1ZkvzgncWjAX7CTDibnXi8Byq4AfPnk381PpX0vpZ1h4/edit
+(v1 `1-zvmUuHjjl7uTNWdNTywSBiQsJz7UFePq7JYNW-0OPw` is renamed SUPERSEDED — v2 adds
+Chosen's two originals as voice reference, the list-pairing rules, and the bench emails.)
+
 ---
 
 ## ⚠️ Two things to sort before these go out
@@ -33,6 +38,30 @@ Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA 90301
 
 Broadcast to a subscribed list should use a proper unsubscribe **link**, not the
 "reply stop" line — that shortcut is for cold one-to-one sends only.
+
+---
+
+## How the two lists pair up
+
+Every email here is written for ONE list. Nothing gets sent to both as-is.
+
+Two things break an agency email on the student list, and both come straight from
+Chosen's own originals:
+
+- **The CTA.** Agency ends on "Book a call." Student ends on the book.
+- **The signoff.** "Holla Back – Get ya Dolla Back" is student-side only.
+
+So topics cross over, copy doesn't. That's already happening — Meta Muse is Monday's
+agency email (A1) *and* Wednesday's student email (S2), written twice from scratch.
+
+| | Agency | Student |
+|---|---|---|
+| **Mon** | A1 — Muse | S1 — AI-skills pay bump |
+| **Wed** | A2 — Sora sunset | S2 — Muse |
+| **Fri** | A3 — 48% stat | S3 — XPeng robots |
+
+B1 and B2 at the bottom are student versions of A2 and A3, written out in full. Not
+scheduled — there if those topics should run both ways, or as swaps for S2/S3.
 
 ---
 
@@ -429,7 +458,127 @@ P.S. I gotta question: what's something everybody says is "years
 away" that you think shows up next year?
 ```
 
+**Note for Zion:** "your hand has about 27 degrees of freedom" is an approximation and
+sources vary. Keep the "about" or cut the line — don't let it get tightened into a hard
+number during QA.
+
 *Source: XPeng IRON production line, Sept 8 2026 — https://aiweekly.co/ai-news-today*
+
+---
+
+## Bench — student versions of A2 and A3
+
+Not on the schedule. The Sora story and the "everybody sounds the same" story both work
+on the student list — they just needed writing from scratch, not relabeling. Use these if
+those topics should run both ways, or as swaps for S2/S3.
+
+### B1 — student version of A2 (Sora sunset) — dead after Sept 24
+
+**Subject:** The app they built their whole thing on dies Sept 24
+
+**Preview text:** Read this before you get attached to a tool.
+
+```
+Yo [First Name],
+
+OpenAI is shutting down the Sora API on September 24th.
+
+People built whole businesses on that thing. Video pipelines. Client work. Content operations. Two weeks from now the plug comes out and all of it breaks. 😵‍💫
+
+Here's why I'm telling YOU:
+
+1. The tool is not the skill. 🎮
+Nobody hires you because you know Sora. They hire you because you can take a rough idea and turn it into something a person actually watches.
+
+Tools sunset. That taste doesn't.
+
+Try this:
+
+"I'm learning short-form video. Explain the 5 things that make someone keep watching past 3 seconds, with an example of each. Don't mention any specific software."
+
+Now you learned the part that survives.
+
+2. Right now, being the person who KNOWS is worth money. 💡
+There are business owners today who built their content on Sora and have no idea it's ending. Two weeks.
+
+You could be the one who tells them — and knows the three places to move to. Veo. Runway. Kling.
+
+That's not a resume line. That's a message: "Hey, the tool you're using shuts down Sept 24. Here's what I'd move you to."
+
+Send that to five local businesses and see what happens.
+
+3. Own the asset. Rent the tool.
+Your reel. Your edits. Your portfolio. The people who've seen your work. That's yours and it doesn't sunset.
+
+Every piece of software you use is rented. Always. So pick the ones you could walk away from tomorrow.
+
+That's the same lesson I had to learn going from gaming into business — the platform changes, the skill moves with you. That's most of what From Xbox to Executive is about.
+
+👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+
+Holla Back – Get ya Dolla Back. ✊🏾
+Sebastian
+Eat 4 Life
+
+P.S. I gotta question: what's one tool you'd be stuck without if it disappeared in 14 days?
+```
+
+**Notes:** Same Sora source as A2. Dead copy after Sept 24 — if it slips, don't reschedule it, cut it.
+
+*Source: https://wavespeed.ai/blog/posts/ai-video-generation-news-2026/*
+
+---
+
+### B2 — student version of A3 (48% stat)
+
+**Subject:** Everybody's emails sound the same now
+
+**Preview text:** That's your opening.
+
+```
+Yo [First Name],
+
+Fresh numbers: 48% of small businesses now use AI to write their emails. The ones using it report 53% success. The ones who don't: 35%.
+
+So it works. Cool. Here's the part nobody's saying out loud 👇
+
+1. When half the market uses the same three tools, everybody starts sounding identical.
+Same polish. Same three bullets. Same "I hope this finds you well."
+
+It's like when everybody unlocked the same gun. The gear stopped being the advantage and it went back to who could actually play.
+
+2. Specific beats polished. Every time. 🎯
+One sentence only YOU could write beats four perfect paragraphs of nothing.
+
+Side quest: pick a local business you know. Spend ten minutes on their site, their reviews, their IG. Then write ONE sentence about them a stranger could not have written.
+
+That's the whole skill. Ten minutes.
+
+3. Now go use it. 💼
+Try this:
+
+"Here's what I noticed about this business: [your sentence]. Write me a short, honest 5-sentence email offering to help with [one thing]. No hype words. Sound like someone who did their homework, not a marketing agency."
+
+Read it. Fix the parts that don't sound like you. Send it.
+
+Businesses will pay you TODAY for this — most of them are drowning in generic and they know it.
+
+The businesses winning right now aren't the ones using the most AI. They're the ones that still sound like a person. Same goes for you.
+
+Figuring out where that instinct fits inside an actual business is what From Xbox to Executive breaks down — five departments, and where your skills already land.
+
+👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+
+Holla Back – Get ya Dolla Back. ✊🏾
+Sebastian
+Eat 4 Life
+
+P.S. I gotta question: what's one thing you'd notice about a business that a stranger wouldn't?
+```
+
+**Notes:** Same stat source as A3. No expiry — this one keeps.
+
+*Source: https://www.askneedle.com/blog/ai-marketing-tools-for-small-business*
 
 ---
 
@@ -458,3 +607,112 @@ The research is the job. The format is fixed; the facts have to be current.
 
 **Where the links go:** each `Check out X →` needs a real URL before send. Sources are
 listed under every email above — use those or something better.
+
+
+---
+
+# Appendix — Chosen's two originals (voice reference)
+
+These are the templates every email above was written against. **Don't send them** — the
+GPT-6 Astra news is from an earlier cycle. They're here so each week's batch can be
+checked against the real voice.
+
+### Original — agency
+
+```
+Subject: ChatGPT just went NUTS
+Preview text: No seriously-it's insane
+
+Yo [First Name],
+
+I went down a GPT-6 Astra rabbit hole… and had to send you these. 👀 Astra is the newest version of ChatGPT (think IPhone 18 vs IPhone 17)
+
+1. Someone built a game with 10,000+ planets.
+They used Astra to create a space game where you can fly, land, and explore. This used to take 6 MONTHS. Now we can do it in 6 minutes 😵‍💫.
+
+Imagine a mini-game for YOUR brand where customers play to unlock an offer.
+
+You bring the idea and feedback. AI handles much of the coding. That makes testing a custom game a whole lot more approachable.
+
+Check out the game →
+
+2. Someone created a house you can actually walk through.
+Virtually, using Astra with Blender and Unreal Engine.
+
+Think renovations, event spaces, or your next showroom.
+
+If you want a virtual room made? Any room-20 minutes.
+
+Describe changes in everyday language and explore them before paying for physical changes. Move the idea around while it's still pixels. Your wallet will appreciate that. 😂
+
+See the walkthrough →
+
+3. It worked INSIDE Adobe Premiere to edit a video.
+Dan Shipper says his team used Astra to make the first cut of a published video.
+
+That footage sitting on your phone? Think about handing off the rough edit.
+
+Less manual cutting for your team. More time to polish the story and get it published.
+
+See his breakdown →
+
+The part that excites me: ideas we kept putting off are getting easier to try.
+
+Got one already? Let's figure out what this could unlock for your business.
+
+👉 Book a call: [INSERT CALENDAR LINK]
+
+P.S. I gotta question : What are you gonna do with YOUR extra time?
+
+Sebastian
+Eat 4 Life
+```
+
+### Original — student
+
+```
+Preview text: Your next side quest just got interesting.
+
+Yo [First Name],
+
+We're still waiting on GTA 6… and someone used GPT-6 Astra to build a game with 10,000+ planets.
+
+Fly there. Land. Get out and explore. 👀
+
+You gotta see this →
+
+Now imagine making something YOU would actually play.
+
+Here's a little side quest:
+
+1. Build your first mini-game. 🎮
+Try this prompt with Astra:
+
+"Build a simple basketball shooting game that runs in my browser. Include a score and a timer. Tell me how to run it, and explain how it works like I'm a beginner."
+
+AI can handle much of the coding while you learn what makes the game work.
+
+2. Play it. Then make it better.
+Too easy? Ask for a moving hoop. Something broken? Describe what happened.
+
+You're practicing how to explain an idea, test it, and improve it. Those skills travel way beyond gaming. Businesses will Pay you TODAY to do this FOR them.
+
+3. Give it a business mission. 💡
+Imagine adapting it for a local gym's shooting challenge.
+
+Now you've got a sample project to show a business owner—and a reason to learn about offers, marketing, and customers.
+
+That's the energy behind From Xbox to Executive.
+
+I went from professional gaming to business. The book connects those worlds and breaks down the five departments behind a digital business, so you can find where your skills fit.
+
+Have fun building. Learn what makes the business work.
+
+👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+
+Holla Back – Get ya Dolla Back. ✊🏾
+Sebastian
+Eat 4 Life
+
+P.S. I gotta question: If you could build your own game… what would it be?
+```
