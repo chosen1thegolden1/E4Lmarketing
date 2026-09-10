@@ -11,9 +11,12 @@ deadline in it (Sora, Sept 24) goes stale fast — check before sending.
 where it fits, different framing.
 
 **Review doc (the version Chosen + Zion read):**
-https://docs.google.com/document/d/1ZkvzgncWjAX7CTDibnXi8Byq4AfPnk381PpX0vpZ1h4/edit
-(v1 `1-zvmUuHjjl7uTNWdNTywSBiQsJz7UFePq7JYNW-0OPw` is renamed SUPERSEDED — v2 adds
-Chosen's two originals as voice reference, the list-pairing rules, and the bench emails.)
+https://docs.google.com/document/d/13MdjcqP714R3UNePPKXazzBUKI9CR6zKgxCragHzDzk/edit
+
+Two earlier drafts are renamed SUPERSEDED rather than deleted, in case their links were
+already passed around: `1-zvmUuHjjl7uTNWdNTywSBiQsJz7UFePq7JYNW-0OPw` (v1) and
+`1ZkvzgncWjAX7CTDibnXi8Byq4AfPnk381PpX0vpZ1h4` (v2, no link markers). Drive's API can
+rename a doc but not rewrite its body, so every revision is a new file — expect that.
 
 ---
 
@@ -38,6 +41,28 @@ Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA 90301
 
 Broadcast to a subscribed list should use a proper unsubscribe **link**, not the
 "reply stop" line — that shortcut is for cold one-to-one sends only.
+
+---
+
+## Link convention
+
+Every place a link goes is marked. The line reads:
+
+```
+the visible text → (LINK: where it points)
+```
+
+Zion: hyperlink the visible text, delete the `(LINK: ...)` part. If a marker says
+`(LINK: NEEDED — ...)` the URL doesn't exist yet and somebody has to supply it before
+that email can go out.
+
+| What | URL |
+|---|---|
+| Book a call (agency CTA) | `https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call` |
+| From Xbox to Executive (student CTA) | **NEEDED** — no store URL has ever been given to me. Every student email is blocked on this. |
+
+The originals in the appendix keep Chosen's own `[INSERT ...]` placeholders — they're
+reference copy, not send copy, so they stay exactly as he wrote them.
 
 ---
 
@@ -94,7 +119,7 @@ already have open.
 Your customer doesn't Google "best roofer near me" anymore. They
 ask. And they get ONE answer, not ten blue links.
 
-Read the launch →
+Read the launch → (LINK: https://aiweekly.co/ai-news-today)
 
 2. One answer means one winner.
 Ten search results meant ten chances. One AI answer means one
@@ -117,7 +142,7 @@ The part that gets me: this isn't coming. It shipped Monday.
 If you run the test and don't like the answer, that's fixable —
 but only if somebody's actually working on it.
 
-👉 Book a call: [INSERT CALENDAR LINK]
+👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call)
 
 P.S. I gotta question: when's the last time you asked an AI about
 your OWN business?
@@ -151,7 +176,7 @@ of it breaks.
 
 Not because anybody did anything wrong. The tool just... ended.
 
-See the shutdown notice →
+See the shutdown notice → (LINK: https://wavespeed.ai/blog/posts/ai-video-generation-news-2026/)
 
 2. Everybody's scrambling to the same three doors.
 Google Veo, Runway, Kling. They all work. People will migrate,
@@ -176,7 +201,7 @@ If you don't know the answer, that IS the answer. 😅
 
 Worth 20 minutes to map what you own versus what you're renting.
 
-👉 Book a call: [INSERT CALENDAR LINK]
+👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call)
 
 P.S. I gotta question: what's the one tool your business genuinely
 could not run without?
@@ -211,7 +236,7 @@ using it: 35%.
 That's a big enough gap that "I'll get to it eventually" is
 costing real money.
 
-See the report →
+See the report → (LINK: https://www.askneedle.com/blog/ai-marketing-tools-for-small-business)
 
 3. But here's the trap nobody's talking about.
 If half the market is generating emails from the same handful
@@ -233,7 +258,7 @@ whole play. 🎯
 The businesses winning right now aren't the ones using the most
 AI. They're the ones that still sound like a person.
 
-👉 Book a call: [INSERT CALENDAR LINK]
+👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call)
 
 P.S. I gotta question: could a customer tell your last marketing
 email from your competitor's?
@@ -307,7 +332,7 @@ from professional gaming into business, and the book breaks down
 the five departments behind a digital business so you can find
 where YOUR skills already fit.
 
-👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+👉 Get From Xbox to Executive: (LINK: NEEDED — no store URL on file)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -378,7 +403,7 @@ walk in and say so.
 That second one is the whole business. It's most of what From
 Xbox to Executive is about.
 
-👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+👉 Get From Xbox to Executive: (LINK: NEEDED — no store URL on file)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -421,7 +446,7 @@ Tuesday in September 2026.
 Every time you think "that's years away" — check. It usually
 isn't.
 
-See the build →
+See the build → (LINK: https://aiweekly.co/ai-news-today)
 
 2. New machines make new jobs, and they're always weird ones.
 Somebody has to teach these things. Somebody has to test them
@@ -448,7 +473,7 @@ I did the same thing with gaming before anybody thought it was
 a real career. That story, and the framework behind it, is in
 From Xbox to Executive.
 
-👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+👉 Get From Xbox to Executive: (LINK: NEEDED — no store URL on file)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -514,7 +539,7 @@ Every piece of software you use is rented. Always. So pick the ones you could wa
 
 That's the same lesson I had to learn going from gaming into business — the platform changes, the skill moves with you. That's most of what From Xbox to Executive is about.
 
-👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+👉 Get From Xbox to Executive: (LINK: NEEDED — no store URL on file)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -567,7 +592,7 @@ The businesses winning right now aren't the ones using the most AI. They're the 
 
 Figuring out where that instinct fits inside an actual business is what From Xbox to Executive breaks down — five departments, and where your skills already land.
 
-👉 Get From Xbox to Executive: [INSERT BOOK LINK]
+👉 Get From Xbox to Executive: (LINK: NEEDED — no store URL on file)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -597,7 +622,7 @@ The research is the job. The format is fixed; the facts have to be current.
 
 - **Every fact is dated and sourced.** A deadline (Sept 24) or a launch date beats a
   vague trend. If it can't be dated, it isn't news, it's filler.
-- **Three beats, not five.** His format. Item 3 is always the one they can DO today.
+- **Three beats, not five.** Chosen's format. Item 3 is always the one they can DO today.
 - **Agency = "what this means for YOUR business."** Student = "here's the side quest."
 - **One CTA.** Agency → book a call. Student → the book. Never both.
 - **P.S. is always a question**, and always answerable in one line. That's what earns
@@ -605,8 +630,11 @@ The research is the job. The format is fixed; the facts have to be current.
 - **Never promise results.** Report what happened; let them draw the line.
 - Agency copy says **"AI Marketing Made Easy."** "Everybody Eats" is student-side only.
 
-**Where the links go:** each `Check out X →` needs a real URL before send. Sources are
-listed under every email above — use those or something better.
+**Where the links go:** mark every one as `visible text → (LINK: url)` so whoever loads
+it knows exactly which words to hyperlink and where they point. Never ship a bare arrow
+with no marker — that's how a link silently goes out dead. If the URL doesn't exist yet,
+write `(LINK: NEEDED — what it should point to)` so it shows up as a blocker in review
+instead of getting missed.
 
 
 ---
