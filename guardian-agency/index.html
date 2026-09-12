@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Guardian Agency</title>
+<meta name="description" content="The Guardian Agency PLLC – life, health, Medicare, dental and vision coverage, plus a specialty in turning life insurance into your own private bank. Take the 60-second quiz for a personalized estimate.">
+<link rel="icon" href="assets/logo-placeholder.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Ambient sky orbs -->
+<div class="sky" aria-hidden="true">
+  <span class="orb orb-1"></span>
+  <span class="orb orb-2"></span>
+  <span class="orb orb-3"></span>
+</div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="The Guardian Agency home">
+      <img src="assets/logo-placeholder.svg" alt="" width="40" height="40">
+      <span class="brand-text"><strong>The Guardian Agency</strong><small>PLLC</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#coverage">Coverage</a>
+      <a href="#own-bank">Own Your Bank</a>
+      <a href="#how">How it works</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-ghost" href="tel:+10000000000" data-config="phoneHref">Call</a>
+      <a class="btn btn-primary btn-raise" href="#quiz">Get my estimate</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#coverage">Coverage</a>
+    <a href="#own-bank">Own Your Bank</a>
+    <a href="#how">How it works</a>
+    <a href="#about">About</a>
+    <a href="#faq">FAQ</a>
+    <a class="btn btn-primary btn-raise" href="#quiz">Get my estimate</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span> Life · Health · Medicare · Dental · Vision</p>
+      <h1>Protect your family.<br><em>Then let your policy pay you back.</em></h1>
+      <p class="lede">Most people buy life insurance and forget about it. Our clients turn theirs into a private, tax-advantaged bank they can borrow from for a home, a business, or college, while it keeps growing.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-lg btn-raise" href="#quiz">Take the 60-second quiz</a>
+        <a class="btn btn-soft btn-lg btn-raise" href="#own-bank">See how “own your bank” works</a>
+      </div>
+      <ul class="trust">
+        <li><strong data-count="27" data-suffix="+">0</strong><span>carriers compared</span></li>
+        <li><strong data-count="24" data-suffix="h">0</strong><span>average quote turnaround</span></li>
+        <li><strong data-count="100" data-suffix="%">0</strong><span>no-pressure, ever</span></li>
+      </ul>
+    </div>
+
+    <!-- Interactive "own your bank" demo card -->
+    <div class="hero-visual">
+      <div class="bank-card tilt" id="bankCard">
+        <div class="bank-head">
+          <span class="chip">Live illustration</span>
+          <h3>Your policy as a bank</h3>
+          <p>Slide to see how a funded life policy could grow cash value you can borrow against.</p>
+        </div>
+        <div class="bank-controls">
+          <label for="contrib">Monthly contribution <output id="contribOut">$500</output></label>
+          <input type="range" id="contrib" min="150" max="2500" step="50" value="500">
+          <label for="years">Years funded <output id="yearsOut">20 yrs</output></label>
+          <input type="range" id="years" min="5" max="35" step="1" value="20">
+        </div>
+        <canvas id="bankChart" width="520" height="220" aria-label="Projected cash value chart" role="img"></canvas>
+        <div class="bank-stats">
+          <div><small>Total you put in</small><strong id="statIn">$120,000</strong></div>
+          <div><small>Illustrated cash value</small><strong id="statCash" class="gold">$219,000</strong></div>
+          <div><small>Available to borrow*</small><strong id="statLoan">$197,000</strong></div>
+        </div>
+        <p class="fine">*Illustrative only, assumes a 6% average credited rate and 90% loan-to-value. Not a guarantee. Actual policy performance varies by carrier, product and health class.</p>
+      </div>
+      <div class="float-badge badge-a"><span>🛡️</span> Death benefit stays in place</div>
+      <div class="float-badge badge-b"><span>🏦</span> Borrow tax-free, keep growing</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COVERAGE ================= -->
+<section class="section" id="coverage">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">What we cover</p>
+      <h2>One agent. Every policy your household needs.</h2>
+      <p class="sub">Independent means we shop dozens of carriers for you, not one company's menu.</p>
+    </div>
+    <div class="cards cards-5">
+      <a class="card tilt raise" href="#quiz" data-line="life">
+        <div class="icon">❤️</div>
+        <h3>Life</h3>
+        <p>Term, whole life and indexed universal life (IUL). Income replacement, mortgage protection, final expense, and living-benefit riders.</p>
+        <span class="link">Get a life estimate →</span>
+      </a>
+      <a class="card tilt raise" href="#quiz" data-line="health">
+        <div class="icon">🩺</div>
+        <h3>Health</h3>
+        <p>Individual and family plans, marketplace enrollment, and short-term coverage between jobs.</p>
+        <span class="link">Compare health plans →</span>
+      </a>
+      <a class="card tilt raise" href="#quiz" data-line="medicare">
+        <div class="icon">📘</div>
+        <h3>Medicare</h3>
+        <p>Turning 65? We explain Parts A, B, C and D in plain English and match you with Advantage or Supplement plans.</p>
+        <span class="link">Medicare made simple →</span>
+      </a>
+      <a class="card tilt raise" href="#quiz" data-line="dental">
+        <div class="icon">🦷</div>
+        <h3>Dental</h3>
+        <p>Cleanings, fillings, crowns and orthodontics with affordable plans that start right away.</p>
+        <span class="link">See dental options →</span>
+      </a>
+      <a class="card tilt raise" href="#quiz" data-line="vision">
+        <div class="icon">👓</div>
+        <h3>Vision</h3>
+        <p>Annual exams, frames, lenses and contacts, often bundled with dental for one low monthly rate.</p>
+        <span class="link">Add vision →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OWN YOUR BANK ================= -->
+<section class="section section-sky" id="own-bank">
+  <div class="wrap">
+    <div class="split">
+      <div class="split-copy">
+        <p class="eyebrow">Our specialty</p>
+        <h2>Stop renting money from the bank. <em>Become the bank.</em></h2>
+        <p>It's called the Infinite Banking Concept. You over-fund a permanent life policy, usually an indexed universal life (IUL) or dividend-paying whole life, and use the cash value as your own lending source.</p>
+        <ul class="checks">
+          <li><strong>Borrow without a credit check.</strong> Take a policy loan for a car, a down payment, tuition, or a business, on your terms.</li>
+          <li><strong>Your money keeps working.</strong> Your full cash value keeps earning even while you have a loan out.</li>
+          <li><strong>Tax-advantaged access.</strong> Policy loans are generally not taxed as income when structured correctly.</li>
+          <li><strong>The protection never leaves.</strong> Your family is still covered by the death benefit the whole time.</li>
+        </ul>
+        <a class="btn btn-primary btn-lg btn-raise" href="#quiz">See if I qualify</a>
+        <p class="fine">Cash value growth in an IUL is tied to a market index with a floor and cap and is not a direct investment. Loans reduce the death benefit until repaid. We'll show you a carrier illustration before you commit to anything.</p>
+      </div>
+      <div class="split-visual">
+        <div class="compare">
+          <div class="compare-col bank-them raise">
+            <h4>Traditional bank loan</h4>
+            <ul>
+              <li>Credit check and approval</li>
+              <li>Interest goes to the bank</li>
+              <li>Fixed payment schedule</li>
+              <li>Money leaves your balance sheet</li>
+            </ul>
+          </div>
+          <div class="compare-vs">vs</div>
+          <div class="compare-col bank-you raise">
+            <h4>Policy loan from <em>your</em> bank</h4>
+            <ul>
+              <li>No credit check, funded in days</li>
+              <li>Interest recaptured into your policy</li>
+              <li>You set the repayment plan</li>
+              <li>Cash value keeps compounding</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">How it works</p>
+      <h2>From quiz to covered in three steps.</h2>
+    </div>
+    <ol class="steps">
+      <li class="step raise">
+        <span class="step-n">1</span>
+        <h3>Answer 9 quick questions</h3>
+        <p>Age, health, tobacco use and goals. No medical exam, no commitment, about 60 seconds.</p>
+      </li>
+      <li class="step raise">
+        <span class="step-n">2</span>
+        <h3>Get your estimate and packet</h3>
+        <p>See a real monthly range on the spot, then download your Guardian Packet with plan options and the own-your-bank blueprint.</p>
+      </li>
+      <li class="step raise">
+        <span class="step-n">3</span>
+        <h3>Book a 15-minute call</h3>
+        <p>Pick a time that works. We walk through carrier quotes together and apply in one sitting if you're ready.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= QUIZ FUNNEL ================= -->
+<section class="section section-quiz" id="quiz">
+  <div class="wrap quiz-wrap">
+    <div class="quiz-intro">
+      <p class="eyebrow"><span class="dot"></span> 60-second estimate</p>
+      <h2>Find out what it would cost to protect your family <em>and</em> start your own bank.</h2>
+      <p class="sub">Answer honestly and we'll show a real monthly range before you ever talk to anyone.</p>
+      <ul class="quiz-perks">
+        <li>✔ Instant estimate</li>
+        <li>✔ Free PDF packet</li>
+        <li>✔ Pick your own call time</li>
+      </ul>
+    </div>
+
+    <div class="quiz" id="quizApp" data-total="10">
+      <div class="quiz-progress" aria-hidden="true"><span id="quizBar" style="width:10%"></span></div>
+      <p class="quiz-count"><span id="quizStep">1</span> of 10</p>
+
+      <!-- Q1 goal -->
+      <fieldset class="qstep is-active" data-step="1" data-key="goal">
+        <legend>What matters most to you right now?</legend>
+        <div class="choices">
+          <button type="button" class="choice raise" data-value="Protect my family's income">👨‍👩‍👧 Protect my family's income</button>
+          <button type="button" class="choice raise" data-value="Pay off the mortgage and debts">🏠 Pay off the mortgage and debts</button>
+          <button type="button" class="choice raise" data-value="Cover final expenses">🕊️ Cover final expenses</button>
+          <button type="button" class="choice raise choice-gold" data-value="Build wealth I can borrow from (own my bank)">🏦 Build wealth I can borrow from</button>
+          <button type="button" class="choice raise" data-value="Protect my business">💼 Protect my business or partners</button>
+        </div>
+      </fieldset>
+
+      <!-- Q2 DOB -->
+      <fieldset class="qstep" data-step="2" data-key="dob">
+        <legend>What's your date of birth?</legend>
+        <p class="hint">Rates are locked in by age, so younger is cheaper. Every birthday matters.</p>
+        <div class="field-row">
+          <input type="date" id="dob" name="dob" required aria-label="Date of birth">
+          <p class="age-line" id="ageLine" aria-live="polite"></p>
+        </div>
+        <button type="button" class="btn btn-primary btn-raise next" data-requires="#dob">Continue</button>
+      </fieldset>
+
+      <!-- Q3 gender -->
+      <fieldset class="qstep" data-step="3" data-key="gender">
+        <legend>Which best describes you?</legend>
+        <p class="hint">Carriers price by biological sex on the application. This only affects the estimate.</p>
+        <div class="choices choices-2">
+          <button type="button" class="choice raise" data-value="Female">Female</button>
+          <button type="button" class="choice raise" data-value="Male">Male</button>
+        </div>
+      </fieldset>
+
+      <!-- Q4 tobacco -->
+      <fieldset class="qstep" data-step="4" data-key="tobacco">
+        <legend>Have you used tobacco or nicotine in the last 12 months?</legend>
+        <p class="hint">Includes cigarettes, vaping, chew, patches and gum. Honesty here saves surprises later.</p>
+        <div class="choices">
+          <button type="button" class="choice raise" data-value="No">🚭 No</button>
+          <button type="button" class="choice raise" data-value="Quit over a year ago">🌱 I quit more than a year ago</button>
+          <button type="button" class="choice raise" data-value="Yes">🚬 Yes</button>
+        </div>
+      </fieldset>
+
+      <!-- Q5 health -->
+      <fieldset class="qstep" data-step="5" data-key="health">
+        <legend>How's your health overall?</legend>
+        <div class="choices">
+          <button type="button" class="choice raise" data-value="Excellent">💪 Excellent, no medications</button>
+          <button type="button" class="choice raise" data-value="Good">🙂 Good, maybe one maintenance medication</button>
+          <button type="button" class="choice raise" data-value="Fair">😐 Fair, a couple of things I manage</button>
+          <button type="button" class="choice raise" data-value="Managing a condition">🩺 Managing a serious condition (diabetes, heart, cancer history)</button>
+        </div>
+      </fieldset>
+
+      <!-- Q6 coverage -->
+      <fieldset class="qstep" data-step="6" data-key="coverage">
+        <legend>How much coverage are you thinking about?</legend>
+        <p class="hint">A common rule of thumb is 10x your annual income. Not sure? We'll help.</p>
+        <div class="choices choices-2">
+          <button type="button" class="choice raise" data-value="100000">$100,000</button>
+          <button type="button" class="choice raise" data-value="250000">$250,000</button>
+          <button type="button" class="choice raise" data-value="500000">$500,000</button>
+          <button type="button" class="choice raise" data-value="1000000">$1,000,000</button>
+          <button type="button" class="choice raise choice-wide" data-value="unsure">🤔 Not sure, help me figure it out</button>
+        </div>
+      </fieldset>
+
+      <!-- Q7 budget -->
+      <fieldset class="qstep" data-step="7" data-key="budget">
+        <legend>What monthly amount feels comfortable?</legend>
+        <p class="hint">If you want the own-your-bank strategy, a higher monthly funds more cash value faster.</p>
+        <div class="choices choices-2">
+          <button type="button" class="choice raise" data-value="$50–$100">$50 – $100</button>
+          <button type="button" class="choice raise" data-value="$100–$250">$100 – $250</button>
+          <button type="button" class="choice raise" data-value="$250–$500">$250 – $500</button>
+          <button type="button" class="choice raise choice-gold" data-value="$500+">$500 + (bank builder)</button>
+        </div>
+      </fieldset>
+
+      <!-- Q8 IBC interest -->
+      <fieldset class="qstep" data-step="8" data-key="ibc">
+        <legend>Want your policy to double as your own bank?</legend>
+        <p class="hint">This is what The Guardian Agency is known for. You can borrow against your cash value for big purchases while it keeps growing.</p>
+        <div class="choices">
+          <button type="button" class="choice raise choice-gold" data-value="Yes, show me the blueprint">🏦 Yes! Show me the blueprint</button>
+          <button type="button" class="choice raise" data-value="Curious, tell me more">🧐 Curious, tell me more on the call</button>
+          <button type="button" class="choice raise" data-value="Just coverage for now">🛡️ Just coverage for now</button>
+        </div>
+      </fieldset>
+
+      <!-- Q9 state -->
+      <fieldset class="qstep" data-step="9" data-key="state">
+        <legend>Which state do you live in?</legend>
+        <p class="hint">Carrier availability and pricing change by state.</p>
+        <div class="field-row">
+          <select id="state" name="state" required aria-label="State">
+            <option value="">Select your state</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-primary btn-raise next" data-requires="#state">Continue</button>
+      </fieldset>
+
+      <!-- Q10 contact -->
+      <fieldset class="qstep" data-step="10" data-key="contact">
+        <legend>Where should we send your estimate and Guardian Packet?</legend>
+        <div class="contact-grid">
+          <label>First name<input type="text" id="firstName" name="firstName" autocomplete="given-name" required></label>
+          <label>Last name<input type="text" id="lastName" name="lastName" autocomplete="family-name" required></label>
+          <label>Email<input type="email" id="email" name="email" autocomplete="email" required></label>
+          <label>Mobile<input type="tel" id="phone" name="phone" autocomplete="tel" required></label>
+          <label class="span-2">Best time to reach you
+            <select id="bestTime" name="bestTime">
+              <option>Morning</option><option>Afternoon</option><option>Evening</option><option>Text me first</option>
+            </select>
+          </label>
+        </div>
+        <label class="consent"><input type="checkbox" id="consent" required> I agree to be contacted by The Guardian Agency PLLC by phone, text or email about my request. Message and data rates may apply. I can opt out anytime.</label>
+        <button type="button" class="btn btn-primary btn-lg btn-raise" id="quizSubmit">Show my estimate</button>
+        <p class="fine">We never sell your information. Licensed agent, not a lead-generation company.</p>
+      </fieldset>
+
+      <!-- RESULTS -->
+      <div class="qresult" id="quizResult" hidden>
+        <div class="result-hero">
+          <p class="eyebrow"><span class="dot"></span> Your estimate</p>
+          <h3 id="resultTitle">Great news, you're in a strong position.</h3>
+          <div class="result-range">
+            <span class="range-num" id="rangeLow">$38</span>
+            <span class="range-dash">to</span>
+            <span class="range-num" id="rangeHigh">$57</span>
+            <span class="range-per">/month</span>
+          </div>
+          <p class="result-sub" id="resultSub">Estimated for $250,000 of 20-year term coverage. Your final rate is set by the carrier after a short application.</p>
+        </div>
+        <div class="result-ibc" id="resultIbc">
+          <h4>🏦 Your own-bank track</h4>
+          <p id="ibcLine">Funding around $500/month into a properly structured IUL could illustrate roughly $219,000 in cash value over 20 years, with the death benefit in place the whole time.</p>
+        </div>
+        <div class="result-actions">
+          <a class="action-card raise" id="packetLink" href="assets/guardian-packet.pdf" download>
+            <span class="icon">📄</span>
+            <strong>Download your Guardian Packet</strong>
+            <span>Plan options, the own-your-bank blueprint and what to expect next.</span>
+          </a>
+          <a class="action-card raise action-primary" id="calendarLink" href="#book">
+            <span class="icon">📅</span>
+            <strong>Book your 15-minute call</strong>
+            <span>Pick a time and we'll bring real carrier quotes.</span>
+          </a>
+        </div>
+        <div class="calendar" id="book">
+          <div class="calendar-frame" id="calendarFrame">
+            <div class="calendar-placeholder">
+              <span class="icon">📅</span>
+              <strong>Calendar embed goes here</strong>
+              <p>Paste your Calendly, GoHighLevel or Acuity link into <code>CONFIG.calendarUrl</code> in <code>js/config.js</code> and the live scheduler will appear in this box.</p>
+            </div>
+          </div>
+        </div>
+        <p class="fine">Estimates are illustrative, based on the answers you gave, and are not an offer of coverage. Final premiums are determined by the issuing carrier after underwriting.</p>
+        <button type="button" class="btn btn-ghost" id="quizRestart">Start over</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div class="about-photo tilt">
+      <div class="photo-placeholder" id="agentPhoto">
+        <span>Agent photo</span>
+      </div>
+      <div class="about-badge raise">Licensed &amp; independent</div>
+    </div>
+    <div class="about-copy">
+      <p class="eyebrow">Meet your agent</p>
+      <h2 data-config="agentName">Michelle Sanders</h2>
+      <p class="role">Founder, The Guardian Agency PLLC</p>
+      <p>I started The Guardian Agency because too many families were sold a policy and then left alone with it. My job is to make sure your coverage is right, your premiums are fair, and, when it fits, your policy becomes an asset that works for you for the rest of your life.</p>
+      <p>Whether you're 28 and buying your first term policy, 45 and ready to build your own bank, or 64 and staring down Medicare enrollment, you'll get a straight answer and a plan you understand.</p>
+      <ul class="about-facts">
+        <li><strong>Life · Health · Medicare · Dental · Vision</strong></li>
+        <li><strong>Infinite Banking Concept</strong> policy design</li>
+        <li><strong>Independent</strong>, appointed with 27+ carriers</li>
+      </ul>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-raise" href="#quiz">Get my estimate</a>
+        <a class="btn btn-soft btn-raise" href="mailto:hello@example.com" data-config="emailHref">Email me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="section section-sky" id="faq">
+  <div class="wrap wrap-narrow">
+    <div class="section-head">
+      <p class="eyebrow">Questions people ask</p>
+      <h2>Straight answers.</h2>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary>Is “infinite banking” a real thing or a gimmick?</summary>
+        <p>It's a real strategy used for decades by families and business owners, built on permanent life insurance with cash value. It is not magic and it is not for everyone. It works best when you can fund a policy consistently for 7+ years. On our call we'll run an actual carrier illustration so you see real numbers, not hype.</p>
+      </details>
+      <details>
+        <summary>What's the difference between IUL and whole life for this?</summary>
+        <p>Whole life offers guaranteed cash value growth plus potential dividends. Indexed universal life (IUL) credits interest based on a market index with a 0% floor and a cap, which can grow faster but with less guarantee. We'll show you both and recommend based on your goals and risk comfort.</p>
+      </details>
+      <details>
+        <summary>Do I need a medical exam?</summary>
+        <p>Often, no. Many carriers now offer accelerated underwriting for healthy applicants up to $1M or more. If an exam is needed, a nurse comes to you and it takes about 20 minutes.</p>
+      </details>
+      <details>
+        <summary>How do you get paid?</summary>
+        <p>By the insurance carrier when a policy is issued. You never pay us a fee, and your premium is the same whether you use an agent or not.</p>
+      </details>
+      <details>
+        <summary>Can you help with Medicare if I'm turning 65 soon?</summary>
+        <p>Yes. Your initial enrollment window opens three months before your 65th birthday. Reach out early and we'll map out Parts A, B, D and whether an Advantage or Supplement plan fits you best.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="section cta-band">
+  <div class="wrap cta-inner">
+    <h2>Your family's protection and your own bank, <em>in one policy.</em></h2>
+    <p>Take the quiz, get your estimate and packet, then book a call. No pressure, no jargon.</p>
+    <a class="btn btn-white btn-lg btn-raise" href="#quiz">Start the 60-second quiz</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href="#top">
+        <img src="assets/logo-placeholder.svg" alt="" width="36" height="36">
+        <span class="brand-text"><strong>The Guardian Agency</strong><small>PLLC</small></span>
+      </a>
+      <p class="footer-tag">Life · Health · Medicare · Dental · Vision · Infinite Banking policy design</p>
+    </div>
+    <div>
+      <h5>Explore</h5>
+      <a href="#coverage">Coverage</a>
+      <a href="#own-bank">Own Your Bank</a>
+      <a href="#quiz">Get an estimate</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <a href="tel:+10000000000" data-config="phoneHref"><span data-config="phone">(000) 000-0000</span></a>
+      <a href="mailto:hello@example.com" data-config="emailHref"><span data-config="email">hello@example.com</span></a>
+      <span data-config="location">City, State</span>
+    </div>
+  </div>
+  <div class="wrap footer-legal">
+    <p>© <span id="year"></span> The Guardian Agency PLLC. All rights reserved. Licensed insurance agency. License numbers available on request. Not connected with or endorsed by the U.S. government or the federal Medicare program. Insurance products are offered through licensed carriers; availability varies by state. Nothing on this site is tax, legal or investment advice.</p>
+    <p><a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Do not sell my info</a></p>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+<script src="js/quiz.js"></script>
+</body>
+</html>
