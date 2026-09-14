@@ -11,13 +11,14 @@ deadline in it (Sora, Sept 24) goes stale fast — check before sending.
 where it fits, different framing.
 
 **Review doc (the version Chosen + Zion read):**
-https://docs.google.com/document/d/1goLrhEoKAO3QEIG__e-ufj2-l8hDnK9aC6N6rB_RvFs/edit
+https://docs.google.com/document/d/1FHiwajnIk6f57RUpdEvliJ7F3059Em71khcHOdS3BCQ/edit
 
 Earlier drafts are renamed SUPERSEDED rather than deleted, in case their links were
 already passed around: `1-zvmUuHjjl7uTNWdNTywSBiQsJz7UFePq7JYNW-0OPw` (v1),
 `1ZkvzgncWjAX7CTDibnXi8Byq4AfPnk381PpX0vpZ1h4` (v2, no link markers), and
 `13MdjcqP714R3UNePPKXazzBUKI9CR6zKgxCragHzDzk` (v3, aggregator source links), and
-`1163_MXKAMKXCM8-WPP_sYGXNRzfB_K6kFK6Hm-cmwDU` (v4, no book link).
+`1163_MXKAMKXCM8-WPP_sYGXNRzfB_K6kFK6Hm-cmwDU` (v4, no book link), and
+`1goLrhEoKAO3QEIG__e-ufj2-l8hDnK9aC6N6rB_RvFs` (v5, student copy pitched too advanced).
 Drive's API can rename a doc but not rewrite its body, so every revision is a new file.
 
 ---
@@ -71,11 +72,15 @@ report (used in A3 and B2) blocks automated checks, so I couldn't confirm it fro
 Zion — open that one in a browser before send. Everything else is verified live,
 including the book page.
 
-**Note on the book CTA:** the landing page offers the paperback + digital free, cover
-$9.95 shipping (audiobook +$9.99), checking out on Chosen's own site. The CTA copy in
-these emails just says "Get From Xbox to Executive" — it does not mention the free/
-shipping offer. That's a real hook being left on the table; Chosen's call whether to
-work it into the five student CTAs.
+**Note on the book CTA:** the landing page gives the paperback + digital free against
+$9.95 shipping (audiobook +$9.99). The CTA still reads just "Get From Xbox to Executive"
+and does not mention the free offer — still Chosen's call whether to say it out loud.
+
+**The two sides are written for different reading levels on purpose.** Agency copy talks
+to owners who already run something. Student copy assumes the reader has never done any
+of this: no jargon, no assumed portfolio, nothing that expects them to already know what
+an API or a "pipeline" is. If a student email starts sounding like it's for someone
+skilled up, that's a bug — flag it.
 
 ---
 
@@ -94,9 +99,9 @@ agency email (A1) *and* Wednesday's student email (S2), written twice from scrat
 
 | | Agency | Student |
 |---|---|---|
-| **Mon** | A1 — Muse | S1 — AI demand tripled |
+| **Mon** | A1 — Muse | S1 — build a website tonight |
 | **Wed** | A2 — Sora sunset | S2 — Muse |
-| **Fri** | A3 — 48% stat | S3 — XPeng robots |
+| **Fri** | A3 — 48% stat | S3 — robot factory |
 
 B1 and B2 at the bottom are student versions of A2 and A3, written out in full. Not
 scheduled — there if those topics should run both ways, or as swaps for S2/S3.
@@ -287,76 +292,77 @@ Eat 4 Life
 
 # STUDENT SIDE
 
+**Written for somebody who has never done this.** No jargon, no assumed portfolio, no
+"you already know what an API is." Every side quest is something they could finish
+tonight on a phone. Each one ends on the same idea: *doing it once is a favor, doing it
+the same way every time for a price is a business* — which is the on-ramp to the book.
+
 ## S1 — Monday
 
-**Subject:** Demand for this TRIPLED in a year
+**Subject:** You could build somebody a website tonight
 
-**Preview text:** And it's entry-level jobs doing the asking.
+**Preview text:** No coding. I'm serious.
 
 ```
 Yo [First Name],
 
-Numbers just dropped on entry-level hiring and I need you to
-see these. 📊
+One number first, then I'ma show you something.
 
-More than a THIRD of entry-level jobs now require AI skills.
-That's nearly TRIPLE what it was in fall 2025.
-
-Not senior roles. Entry-level. The jobs you're actually applying
-for.
+More than a third of entry-level jobs now ask for AI skills.
+A year ago, almost none did.
 
 See the report → (LINK: https://www.naceweb.org/job-market/trends-and-predictions/demand-for-ai-skills-in-entry-level-jobs-nearly-triples-since-fall-2025)
 
-And the part that should take some pressure off: about 61% of
-employers say they see AI as something that makes a job bigger,
-not something that deletes it.
+Here's what nobody tells you: "AI skills" doesn't mean coding.
+It doesn't mean a degree. It means you know how to ask for
+what you want.
 
-Here's your side quest:
+Let me prove it to you.
 
-1. Pick ONE boring business task. 🎯
-Not a cool one. A boring one. Writing product descriptions.
-Answering the same customer question 40 times. Turning a long
-video into short clips.
+1. Think of a business with no website. 🎯
+Your barber. The lady who does nails. Your uncle with the lawn
+equipment. Somebody who's been saying "I gotta get online"
+for two years straight.
 
-Boring is where the money is, because boring is what businesses
-hate doing.
+You already know three people like this.
 
-2. Do it with AI. Then screenshot the receipts.
-Try this:
+2. Ask ChatGPT to build it. Just talk to it normal.
+Copy this exactly:
 
-"I'm going to give you 10 products from a local store. Write a
-short, honest product description for each — no hype words.
-Then explain what makes a good product description so I actually
-learn it."
+"Build me a simple one-page website for a barber shop called
+[NAME] in [CITY]. Put the hours, the prices, the phone number,
+and a button to text for an appointment. Make it look good on
+a phone. Then tell me step by step how to put it online —
+explain it like I've never done this before."
 
-Do it. Save the before and after. That's a portfolio piece and
-you just made it in 20 minutes.
+That's it. That's the whole thing. It writes the website AND
+it walks you through putting it up.
 
-3. Take it to a real business. 💼
-Small businesses are on track to hire about 974,000 grads this
-year — and a lot of them are specifically looking for people who
-grew up with this stuff.
+First one might take you an hour, because you're learning.
+The second one takes 20 minutes.
 
-See who's hiring → (LINK: https://fortune.com/2026/05/01/one-million-new-grads-hired-small-businesses-2026-hottest-jobs-ai-proof-service-technicians/)
+3. Don't offer. Just show up with it. 💼
+Don't walk in saying "I could build you a website." Everybody
+says that. They've heard it.
 
-You walk in with proof instead of a resume line. That's a
-different conversation entirely.
+Walk in with it already made. Pull it up on your phone.
+"I made this for you. What would you change?"
 
-On money, honestly: postings that ask for AI skills advertise
-about 28% higher salaries. That's an average across ALL
-experience levels, not a promise for your first job — but it
-tells you which way the money is moving.
+That's a whole different conversation. That's the one where
+money comes up.
 
-See the numbers → (LINK: https://lightcast.io/resources/blog/beyond-the-buzz-press-release-2025-07-23)
+Now here's the part I really want you to catch:
 
-Real talk: employers said the same thing across every one of
-these reports. They want AI fluency AND judgment. The tool plus
-the taste. AI can do the first part. You bring the second.
+A website is not a business. Doing it one time is a favor.
 
-That's exactly what From Xbox to Executive is about — I went
-from professional gaming into business, and the book breaks down
-the five departments behind a digital business so you can find
-where YOUR skills already fit.
+Doing it the same way every time, for a set price, with a way
+for people to find you — that's a business. That's the part
+most people never figure out.
+
+That's what From Xbox to Executive is about. I went from
+gaming to running a real company, and the book breaks down the
+five departments behind a digital business — so you know what
+to build after that first sale.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -364,72 +370,71 @@ Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
 Eat 4 Life
 
-P.S. I gotta question: what's the most boring task you'd happily
-get paid to never do by hand again?
+P.S. I gotta question: who's the first person you'd build one
+for?
 ```
 
-*Sources: NACE Job Outlook 2026 Spring Update — https://www.naceweb.org/job-market/trends-and-predictions/demand-for-ai-skills-in-entry-level-jobs-nearly-triples-since-fall-2025 ·
-Fortune / Gusto new-grad hiring — https://fortune.com/2026/05/01/one-million-new-grads-hired-small-businesses-2026-hottest-jobs-ai-proof-service-technicians/ ·
-Lightcast AI salary premium — https://lightcast.io/resources/blog/beyond-the-buzz-press-release-2025-07-23*
+*Source: NACE Job Outlook 2026 Spring Update — https://www.naceweb.org/job-market/trends-and-predictions/demand-for-ai-skills-in-entry-level-jobs-nearly-triples-since-fall-2025*
 
 ---
 
 ## S2 — Wednesday
 
-**Subject:** Your group chat has an AI in it now
+**Subject:** There's a free AI inside WhatsApp now
 
-**Preview text:** Meta put one in WhatsApp. Let's use it.
+**Preview text:** Same app your group chat is in.
 
 ```
 Yo [First Name],
 
-Meta just put a personal AI agent called Muse inside WhatsApp.
-Same app your group chat is in. 👀
+Meta put a free AI assistant called Muse inside WhatsApp. Same
+app you already text in. Nothing to download. 👀
 
-Free to start. On your phone right now, basically.
+See what it does → (LINK: https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/)
 
-See what it actually does → (LINK: https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/)
+Most people gonna use it to settle arguments about basketball.
 
-Most people are gonna use it to settle arguments about
-basketball stats. You're gonna use it to build something.
+You gonna use it to find somebody's problem and fix it. Watch.
 
-Side quest — three levels:
+1. Pick a business you actually go to. 🎮
+The wing spot. The barbershop. The nail place. Somewhere you've
+been more than once.
 
-1. Make it do something useful for someone else. 🎮
-Pick a local business you actually know. The barbershop. The
-wing spot. Your cousin's detailing setup.
+2. Ask it what customers wish they knew.
+Copy this:
 
-Try this:
+"Pretend you're a customer trying to find a [type of business]
+in [city]. What are the 10 questions you'd want answered before
+you booked? Then tell me which ones most of these businesses
+forget to put online."
 
-"Act as a customer trying to find [type of business] in [your
-city]. Ask the 10 questions you'd really ask before booking.
-Then tell me which questions most businesses answer badly on
-their website."
+Read what comes back. That list is reasons people didn't call
+that business. You just made it in five minutes.
 
-Now you're holding a list of 10 things that business is losing
-money on. You made it in five minutes.
+3. Fix ONE of them. Then show them. 💰
+Pick the easiest one on the list. Write the answer out nice.
 
-2. Fix ONE of them. Then show them.
-Pick the easiest one. Write the answer. Make it good.
+Text it to the owner or walk it in:
+"I noticed people always ask this and it's not on your page.
+So I wrote it for you."
 
-Walk in and say "I noticed people ask this and your site doesn't
-answer it — I wrote you something."
+Worst thing that happens: they say no thanks and you're out
+20 minutes.
 
-Worst case: they say no thanks. Best case: you just got your
-first client at [your age]. 💰
+Best thing that happens: you just got paid for the first time
+for something you did on your phone.
 
-3. Level up: do it for five businesses.
-Same prompt. Five businesses. One afternoon.
+Now the part that turns it into money:
 
-Now it's not a favor — it's a service. And you've got proof it
-works before you ever charge anybody.
+That same prompt works for ANY business. Change two words, run
+it again. Change two words, run it again.
 
-The skill you're building isn't "using AI." Everybody's gonna
-have that. It's spotting what's broken and having the guts to
-walk in and say so.
+Do it once, it's a favor. Do it for five businesses this week
+and you've got something you can charge for.
 
-That second one is the whole business. It's most of what From
-Xbox to Executive is about.
+Figuring out the charging part — what to offer, how people find
+you, how you keep them — that's what From Xbox to Executive
+walks through. Five departments, and where you already fit.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -437,8 +442,8 @@ Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
 Eat 4 Life
 
-P.S. I gotta question: which local business would you fix first
-if they'd actually let you?
+P.S. I gotta question: which spot would you fix first if they
+let you?
 ```
 
 *Source: Meta Muse launch, Sept 8 2026 — https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/*
@@ -447,59 +452,63 @@ if they'd actually let you?
 
 ## S3 — Friday
 
-**Subject:** They just built a robot with 21 fingers per hand
+**Subject:** They turned on a robot factory last week
 
-**Preview text:** Not a demo. A production line.
+**Preview text:** Not a movie. A real one.
 
 ```
 Yo [First Name],
 
-XPeng flipped on a production line for humanoid robots last week.
-Actual factory. Actual robots rolling off it. 🤖
+XPeng switched on a factory that builds humanoid robots. Real
+building. Robots walking off the line. Last week. 🤖
 
-The specs are stupid:
-
-76 degrees of freedom. 21 in EACH HAND. Three AI chips running
-2,250 TOPS — on the robot, not in the cloud.
-
-For scale: your hand has about 27 degrees of freedom. They got
-to 21 per hand. In a machine. On a line. Right now.
-
-Here's what I want you to take from it:
-
-1. The "someday" stuff keeps showing up early. ⚡
-Robots on a production line was a 2035 conversation. It's a
-Tuesday in September 2026.
-
-Every time you think "that's years away" — check. It usually
-isn't.
+Each hand has 21 different ways it can move. A real hand isn't
+far off that.
 
 See the build → (LINK: https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b)
 
-2. New machines make new jobs, and they're always weird ones.
-Somebody has to teach these things. Somebody has to test them
+I'm not telling you this so you go build robots. I'm telling
+you because of what it means for you.
+
+1. The future keeps showing up early. ⚡
+Robots working in a factory was supposed to be a 2035 thing.
+It happened this month.
+
+So every time you catch yourself thinking "that's years away" —
+go check. It usually isn't.
+
+2. New machines make new jobs. Weird ones.
+Somebody has to train these things. Somebody has to test them
 and write down what broke. Somebody has to explain to a normal
-business what it actually does.
+business owner what the thing even does.
 
-Those jobs don't exist yet, so nobody has 10 years experience
-in them. That's the opening. That's ALWAYS the opening.
+Those jobs are brand new. Which means NOBODY has ten years of
+experience in them. Not one person on earth.
 
-3. Your side quest: get early on purpose. 🎯
-Try this:
+That's the only door that's ever wide open when you're starting
+out — the one where nobody has experience yet.
 
-"Explain how humanoid robots are being used in real businesses
-right now — not in the future. Then list 5 jobs that will exist
-because of them within 3 years, and what skills each one needs."
+3. So get early on purpose. 🎯
+Ask ChatGPT this:
 
-Read it. Pick the one that sounds most like you. Start there.
+"What jobs will exist in the next 3 years because of AI and
+robots that barely exist right now? For each one, tell me what
+it pays, and the first thing I'd need to learn."
 
-Being early is a strategy. It's basically the only one that
-works when you don't have experience yet — you go where nobody
-has experience.
+Read it. Pick the one that sounds the most like you. Go learn
+that one thing.
+
+That's the whole move. That's it.
 
 I did the same thing with gaming before anybody thought it was
-a real career. That story, and the framework behind it, is in
-From Xbox to Executive.
+a real career. People laughed. Then it stopped being funny.
+
+Being early is a strategy. When you don't have experience yet,
+it's honestly the only one that works — you go where nobody
+else has experience either.
+
+That story, and how I turned it into a business, is in From
+Xbox to Executive.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -507,13 +516,9 @@ Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
 Eat 4 Life
 
-P.S. I gotta question: what's something everybody says is "years
-away" that you think shows up next year?
+P.S. I gotta question: what's something everybody says is
+"years away" that you think shows up next year?
 ```
-
-**Note for Zion:** "your hand has about 27 degrees of freedom" is an approximation and
-sources vary. Keep the "about" or cut the line — don't let it get tightened into a hard
-number during QA.
 
 *Source: XPeng IRON production line, Sept 8 2026 — https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b*
 
@@ -527,47 +532,64 @@ those topics should run both ways, or as swaps for S2/S3.
 
 ### B1 — student version of A2 (Sora sunset) — dead after Sept 24
 
-**Subject:** The app they built their whole thing on dies Sept 24
+**Subject:** The app people built businesses on just died
 
-**Preview text:** Read this before you get attached to a tool.
+**Preview text:** Here's why that's good news for you.
 
 ```
 Yo [First Name],
 
-OpenAI is shutting down the Sora API on September 24th.
+OpenAI is shutting off Sora. It made AI videos. People built
+whole little businesses on it. On September 24th it stops
+working. 😵‍💫
 
-People built whole businesses on that thing. Video pipelines. Client work. Content operations. Two weeks from now the plug comes out and all of it breaks. 😵‍💫
+Read the notice → (LINK: https://developers.openai.com/api/docs/deprecations)
 
-Read the shutdown notice → (LINK: https://developers.openai.com/api/docs/deprecations)
+Sounds like bad news. It's actually the most useful lesson I
+can hand you right now.
 
-Here's why I'm telling YOU:
+1. Don't fall in love with an app. 🎮
+Nobody is gonna hire you because you know Sora. Or ChatGPT.
+Or whatever's hot next month.
 
-1. The tool is not the skill. 🎮
-Nobody hires you because you know Sora. They hire you because you can take a rough idea and turn it into something a person actually watches.
+They hire you because you can take a messy idea and turn it
+into something that looks good.
 
-Tools sunset. That taste doesn't.
+Apps get shut off. That doesn't.
 
-Try this:
+2. Learn the part that never disappears.
+Ask this:
 
-"I'm learning short-form video. Explain the 5 things that make someone keep watching past 3 seconds, with an example of each. Don't mention any specific software."
+"What makes somebody keep watching a short video past the
+first 3 seconds? Give me 5 things and an example of each.
+Don't name any specific apps."
 
-Now you learned the part that survives.
+Now you learned something that works in every app, forever.
+Nobody can turn that off.
 
-2. Right now, being the person who KNOWS is worth money. 💡
-There are business owners today who built their content on Sora and have no idea it's ending. Two weeks.
+3. Right now, being the one who KNOWS is worth money. 💡
+There are business owners today using Sora with no idea it's
+shutting off. In two weeks their videos just stop.
 
-You could be the one who tells them — and knows the three places to move to. Veo. Runway. Kling.
+You could be the person who tells them. And who knows where
+to send them instead.
 
-That's not a resume line. That's a message: "Hey, the tool you're using shuts down Sept 24. Here's what I'd move you to."
+That text is worth more than anything on a resume:
+"Hey — the video app you're using shuts down Sept 24. Here's
+what I'd switch you to."
 
-Send that to five local businesses and see what happens.
+Send that to five local businesses. See who writes back.
 
-3. Own the asset. Rent the tool.
-Your reel. Your edits. Your portfolio. The people who've seen your work. That's yours and it doesn't sunset.
+Last thing, and it matters:
 
-Every piece of software you use is rented. Always. So pick the ones you could walk away from tomorrow.
+Your videos, your edits, the people who've seen your work —
+that's yours. Nobody can shut that off.
 
-That's the same lesson I had to learn going from gaming into business — the platform changes, the skill moves with you. That's most of what From Xbox to Executive is about.
+Every app you use is rented. Always. So don't build your whole
+thing on top of one of them.
+
+That lesson cost me real money to learn going from gaming into
+business. It's most of what From Xbox to Executive is about.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -575,7 +597,8 @@ Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
 Eat 4 Life
 
-P.S. I gotta question: what's one tool you'd be stuck without if it disappeared in 14 days?
+P.S. I gotta question: what's one app you'd be stuck without if
+it disappeared in 14 days?
 ```
 
 **Notes:** Same Sora source as A2. Dead copy after Sept 24 — if it slips, don't reschedule it, cut it.
@@ -593,36 +616,59 @@ P.S. I gotta question: what's one tool you'd be stuck without if it disappeared 
 ```
 Yo [First Name],
 
-Fresh numbers: 48% of small businesses now use AI to write their emails. The ones using it report 53% success. The ones who don't: 35%.
+Almost half of small businesses now use AI to write their
+emails. And it's working — they get better results than the
+ones who don't.
 
 See the report → (LINK: https://www.constantcontact.com/blog/small-business-now-report/)
 
-So it works. Cool. Here's the part nobody's saying out loud 👇
+But here's what nobody's saying out loud 👇
 
-1. When half the market uses the same three tools, everybody starts sounding identical.
-Same polish. Same three bullets. Same "I hope this finds you well."
+1. When everybody uses the same three apps, everybody starts
+sounding the same.
+Same clean paragraphs. Same three bullet points. Same "I hope
+this email finds you well."
 
-It's like when everybody unlocked the same gun. The gear stopped being the advantage and it went back to who could actually play.
+It's like when everybody unlocked the same gun. The gear
+stopped being the advantage. Went right back to who could
+actually play.
 
-2. Specific beats polished. Every time. 🎯
-One sentence only YOU could write beats four perfect paragraphs of nothing.
+2. Being specific is the whole edge now. 🎯
+One sentence only YOU could write beats four perfect paragraphs
+of nothing.
 
-Side quest: pick a local business you know. Spend ten minutes on their site, their reviews, their IG. Then write ONE sentence about them a stranger could not have written.
+Try it. Ten minutes:
 
-That's the whole skill. Ten minutes.
+Pick a business you know. Look at their page, their reviews,
+their IG. Then write ONE sentence about them that a stranger
+could not have written.
+
+Something like: "Y'all are the only shop on the block open
+Sunday and half your reviews say it."
+
+That's the skill. That's the whole thing.
 
 3. Now go use it. 💼
-Try this:
+Copy this:
 
-"Here's what I noticed about this business: [your sentence]. Write me a short, honest 5-sentence email offering to help with [one thing]. No hype words. Sound like someone who did their homework, not a marketing agency."
+"Here's what I noticed about this business: [your sentence].
+Write me a short, honest 5-sentence email offering to help them
+with [one thing]. No hype words. Sound like a real person who
+did their homework, not an ad."
 
-Read it. Fix the parts that don't sound like you. Send it.
+Read it. Fix anything that doesn't sound like you. Send it.
 
-Businesses will pay you TODAY for this — most of them are drowning in generic and they know it.
+Businesses will pay for this TODAY. Most of them are drowning
+in generic and they know it.
 
-The businesses winning right now aren't the ones using the most AI. They're the ones that still sound like a person. Same goes for you.
+The ones winning right now aren't using the most AI. They're
+the ones that still sound like a person.
 
-Figuring out where that instinct fits inside an actual business is what From Xbox to Executive breaks down — five departments, and where your skills already land.
+Same goes for you.
+
+Where that instinct fits inside an actual business — that's
+what From Xbox to Executive breaks down. Five departments, and
+where your skills already land.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -630,7 +676,8 @@ Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
 Eat 4 Life
 
-P.S. I gotta question: what's one thing you'd notice about a business that a stranger wouldn't?
+P.S. I gotta question: what's one thing you'd notice about a
+business that a stranger wouldn't?
 ```
 
 **Notes:** Same stat source as A3. No expiry — this one keeps.
