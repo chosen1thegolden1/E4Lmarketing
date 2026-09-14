@@ -11,7 +11,7 @@ deadline in it (Sora, Sept 24) goes stale fast — check before sending.
 where it fits, different framing.
 
 **Review doc (the version Chosen + Zion read):**
-https://docs.google.com/document/d/1OQhtLTpX2gMFZVLL2qOoNYPtKAHPU2yW-NERq_RLjFk/edit
+https://docs.google.com/document/d/1GCMSIAq9SqPstz50pi03nQP5OB9oAcCVM0wouJA3E6c/edit
 
 Earlier drafts are renamed SUPERSEDED rather than deleted, in case their links were
 already passed around: `1-zvmUuHjjl7uTNWdNTywSBiQsJz7UFePq7JYNW-0OPw` (v1),
@@ -19,7 +19,8 @@ already passed around: `1-zvmUuHjjl7uTNWdNTywSBiQsJz7UFePq7JYNW-0OPw` (v1),
 `13MdjcqP714R3UNePPKXazzBUKI9CR6zKgxCragHzDzk` (v3, aggregator source links), and
 `1163_MXKAMKXCM8-WPP_sYGXNRzfB_K6kFK6Hm-cmwDU` (v4, no book link), and
 `1goLrhEoKAO3QEIG__e-ufj2-l8hDnK9aC6N6rB_RvFs` (v5, student copy pitched too advanced), and
-`1FHiwajnIk6f57RUpdEvliJ7F3059Em71khcHOdS3BCQ` (v6, generic book bridges).
+`1FHiwajnIk6f57RUpdEvliJ7F3059Em71khcHOdS3BCQ` (v6, generic book bridges), and
+`1OQhtLTpX2gMFZVLL2qOoNYPtKAHPU2yW-NERq_RLjFk` (v7, gaming talk too heavy).
 Drive's API can rename a doc but not rewrite its body, so every revision is a new file.
 
 ---
@@ -360,20 +361,23 @@ Doing it the same way every time, for a set price, with a way
 for people to find you — that's a business. That's the part
 most people never figure out.
 
-In From Xbox to Executive I break a business down like a team
-comp. Damage, Support, Tank. Same as any team game you've
-played.
+Every business needs five jobs handled to actually grow.
+Getting customers in the door. Following up with them. Taking
+care of them. Getting known. Actually delivering the work.
 
-That website you just built? That's the Damage role. Sales and
-funnels. The one that actually puts money on the board.
+Most small businesses are doing two of them. That's not me
+talking down on anybody — that's just the gap. And that gap
+is the reason they need somebody.
 
-Most small businesses out here are running a broken comp — two
-roles filled, three empty. That's not a small thing. That's
-the opening. That's why they need you.
+That website you just built? That's the first one. Getting
+customers in the door. The one that puts money on the board.
 
 And you don't learn all five. You learn ONE well enough to get
-paid, then go find one business that needs it. That's the
-whole 90-day plan in the book.
+paid, then go find one business that needs it.
+
+That's the whole 90-day plan in From Xbox to Executive. I went
+from gaming to running a real company — the book lays out all
+five jobs, but it starts you on one.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -445,15 +449,17 @@ and you've got something you can charge for.
 
 And look at what you actually just did.
 
-You found a role that business isn't running. In From Xbox to
-Executive I break every business into five roles, like a team
-comp — Damage, Support, Tank. Most of them are running two and
-wondering why they keep losing the fight.
+You found a job that business isn't doing.
 
-You just spotted the empty slot. That's the hard part, and you
-did it on your phone in five minutes.
+That's the whole skill, right there. And you did it on your
+phone in five minutes.
 
-The book shows you how to fill one and charge for it.
+In From Xbox to Executive I break every business into five
+jobs that have to get handled. Most are doing two of them and
+can't figure out why they're stuck.
+
+You just spotted the missing one. The book shows you how to be
+the person who fills it.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -530,10 +536,9 @@ But being early is only half of it. You still gotta know what
 to DO when you get there. That part I had to learn the hard
 way.
 
-From Xbox to Executive is the other half. It breaks a business
-into five roles — Damage, Support, Tank, same as a team comp —
-and shows you which one to learn first, and how to get paid
-for it inside 90 days.
+From Xbox to Executive is the other half. Five jobs every
+business needs handled, which one to learn first, and how to
+get paid for it inside 90 days.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -615,13 +620,14 @@ thing on top of one of them.
 
 And the skill you're actually building here has a name.
 
-In From Xbox to Executive I call it the Amplifier — content
-and social. It's one of five roles a business needs, and it's
-the one that makes a business known. It almost never closes
-the sale by itself. What it does is make every other part of
-that business hit harder.
+Getting a business known. The posts, the videos, the presence
+that makes a whole neighborhood feel like they know that spot.
 
-Apps come and go. That role doesn't.
+In From Xbox to Executive I call it the Amplifier, and it's
+one of five jobs every business needs. It almost never closes
+the sale by itself. It's the reason the sale was easy.
+
+Apps come and go. That job doesn't.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -701,13 +707,13 @@ Same goes for you.
 And the thing you just practiced is a real job somebody pays
 for.
 
-In From Xbox to Executive it's the ranged Damage role — email
-and SMS, the follow-up that works the whole map while the
-owner is asleep. One of five roles I break down in there.
+Email and follow-up — the messages that keep working while the
+owner is asleep. It's one of five jobs I break down in From
+Xbox to Executive.
 
-Honestly it's one of the easiest to sell, because almost
-nobody is doing it and the client can see the difference
-inside 30 days.
+Honestly it's one of the easiest ones to sell, because almost
+nobody is doing it and the client sees the difference inside
+30 days.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -725,11 +731,16 @@ business that a stranger wouldn't?
 
 ---
 
-# The book's framework (use this for every student bridge)
+# The book's framework (internal reference — do not copy into emails)
 
 From Xbox to Executive breaks a business into **five roles, framed as an Overwatch team
-comp**. That's the backbone — not a generic "five departments" line. Every student email
-should land on a *named* role, so the email and the book are obviously the same thing.
+comp**. That framing is the book's, and it's great *in the book*.
+
+**The emails translate it into plain English.** A reader who plays Madden once a month,
+or hasn't touched a controller since college, should still get every point. So in the
+copy it's "five jobs every business needs handled" and "most are only doing two" — never
+"ranged Damage" or "a broken comp gets rolled." Save the class names for the book; the
+email just has to leave them knowing which job they'd be doing.
 
 | Role | Department | What it does |
 |---|---|---|
@@ -739,12 +750,13 @@ should land on a *named* role, so the email and the book are obviously the same 
 | **Support (buff)** | Content & Social | The Amplifier. Rarely closes a sale; makes every other role hit harder. |
 | **Tank** | Customer Fulfillment | Delivers what sales promised. Where reputations are made or destroyed. |
 
-**The two lines that do the most work in the book:**
+**The two ideas that do the most work — say them plainly in email:**
 
-- *"A broken comp gets rolled."* Most small businesses run two roles and wonder why they
-  keep losing. That gap is the reader's opening.
-- *"You're not a single hero anymore. You're a whole team in one chair."* AI fills the
-  other slots — which is why one person can now run the full comp.
+- *"A broken comp gets rolled."* → in copy: most small businesses are only doing two of
+  the five jobs, and that gap is why they need somebody.
+- *"You're not a single hero anymore. You're a whole team in one chair."* → in copy: AI
+  covers the parts that used to take a whole staff, which is why one person can do this
+  now.
 
 **And the 90-day plan matters as much as the comp:** the goal of the first 90 days is
 *one* paying client, not five. Days 1–30 learn ONE role. Days 31–60 land one client.
@@ -753,13 +765,13 @@ need to learn everything is fighting the book.
 
 **Where this week's emails land:**
 
-| Email | Role it bridges to |
-|---|---|
-| S1 — build a website | Damage (Sales & Funnels) |
-| S2 — Muse, find the gap | Spotting the empty slot in a broken comp |
-| S3 — robot factory | Getting early, then the 90-day plan |
-| B1 — Sora shuts off | Amplifier (Content & Social) |
-| B2 — emails sound the same | Ranged Damage (Marketing) |
+| Email | Job it bridges to | Book role behind it |
+|---|---|---|
+| S1 — build a website | Getting customers in the door | Damage (Sales & Funnels) |
+| S2 — Muse, find the gap | Spotting the job a business isn't doing | The broken comp |
+| S3 — robot factory | Getting early, then pick one job | The 90-day plan |
+| B1 — Sora shuts off | Getting a business known ("the Amplifier") | Content & Social |
+| B2 — emails sound the same | Email and follow-up | Ranged Damage (Marketing) |
 
 ---
 
@@ -780,6 +792,23 @@ The research is the job. The format is fixed; the facts have to be current.
   vague trend. If it can't be dated, it isn't news, it's filler.
 - **Three beats, not five.** Chosen's format. Item 3 is always the one they can DO today.
 - **Agency = "what this means for YOUR business."** Student = "here's the side quest."
+- **Student copy assumes zero experience.** No jargon. Nothing that expects them to
+  already have a portfolio, clients, or a skill. If a normal person couldn't do it
+  tonight on their phone, it's the wrong side quest.
+- **Every student email lands on the same idea:** doing it once is a favor, doing it the
+  same way every time for a price is a business. That's the bridge to the book.
+- **Name the actual job the email maps to** — "getting customers in the door," "email and
+  follow-up" — not a generic "five departments." The framework table above is the
+  reference. A named job makes the email and the book feel like one thing; a generic
+  mention reads like an ad bolted on the end.
+- **Gaming is the handshake, not the vocabulary.** The reader should finish an email
+  knowing Sebastian came out of gaming, and seeing their own relationship with it in his
+  story — without ever needing to know a specific game to follow the point. One reference
+  any casual player gets (the "everybody unlocked the same gun" line, "side quest",
+  waiting on GTA 6) beats three that need Overwatch knowledge. If a line only lands for
+  someone deep in the culture, it's costing you the reader who isn't.
+- **Link to the actual story**, never an aggregator front page or a homepage. Those move
+  on and the link goes dead. Check every URL loads before it ships.
 - **One CTA.** Agency → book a call. Student → the book. Never both.
 - **P.S. is always a question**, and always answerable in one line. That's what earns
   replies, and replies are what keep the domain healthy.
