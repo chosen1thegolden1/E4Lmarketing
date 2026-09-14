@@ -11,14 +11,15 @@ deadline in it (Sora, Sept 24) goes stale fast — check before sending.
 where it fits, different framing.
 
 **Review doc (the version Chosen + Zion read):**
-https://docs.google.com/document/d/1FHiwajnIk6f57RUpdEvliJ7F3059Em71khcHOdS3BCQ/edit
+https://docs.google.com/document/d/1OQhtLTpX2gMFZVLL2qOoNYPtKAHPU2yW-NERq_RLjFk/edit
 
 Earlier drafts are renamed SUPERSEDED rather than deleted, in case their links were
 already passed around: `1-zvmUuHjjl7uTNWdNTywSBiQsJz7UFePq7JYNW-0OPw` (v1),
 `1ZkvzgncWjAX7CTDibnXi8Byq4AfPnk381PpX0vpZ1h4` (v2, no link markers), and
 `13MdjcqP714R3UNePPKXazzBUKI9CR6zKgxCragHzDzk` (v3, aggregator source links), and
 `1163_MXKAMKXCM8-WPP_sYGXNRzfB_K6kFK6Hm-cmwDU` (v4, no book link), and
-`1goLrhEoKAO3QEIG__e-ufj2-l8hDnK9aC6N6rB_RvFs` (v5, student copy pitched too advanced).
+`1goLrhEoKAO3QEIG__e-ufj2-l8hDnK9aC6N6rB_RvFs` (v5, student copy pitched too advanced), and
+`1FHiwajnIk6f57RUpdEvliJ7F3059Em71khcHOdS3BCQ` (v6, generic book bridges).
 Drive's API can rename a doc but not rewrite its body, so every revision is a new file.
 
 ---
@@ -359,10 +360,20 @@ Doing it the same way every time, for a set price, with a way
 for people to find you — that's a business. That's the part
 most people never figure out.
 
-That's what From Xbox to Executive is about. I went from
-gaming to running a real company, and the book breaks down the
-five departments behind a digital business — so you know what
-to build after that first sale.
+In From Xbox to Executive I break a business down like a team
+comp. Damage, Support, Tank. Same as any team game you've
+played.
+
+That website you just built? That's the Damage role. Sales and
+funnels. The one that actually puts money on the board.
+
+Most small businesses out here are running a broken comp — two
+roles filled, three empty. That's not a small thing. That's
+the opening. That's why they need you.
+
+And you don't learn all five. You learn ONE well enough to get
+paid, then go find one business that needs it. That's the
+whole 90-day plan in the book.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -432,9 +443,17 @@ it again. Change two words, run it again.
 Do it once, it's a favor. Do it for five businesses this week
 and you've got something you can charge for.
 
-Figuring out the charging part — what to offer, how people find
-you, how you keep them — that's what From Xbox to Executive
-walks through. Five departments, and where you already fit.
+And look at what you actually just did.
+
+You found a role that business isn't running. In From Xbox to
+Executive I break every business into five roles, like a team
+comp — Damage, Support, Tank. Most of them are running two and
+wondering why they keep losing the fight.
+
+You just spotted the empty slot. That's the hard part, and you
+did it on your phone in five minutes.
+
+The book shows you how to fill one and charge for it.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -507,8 +526,14 @@ Being early is a strategy. When you don't have experience yet,
 it's honestly the only one that works — you go where nobody
 else has experience either.
 
-That story, and how I turned it into a business, is in From
-Xbox to Executive.
+But being early is only half of it. You still gotta know what
+to DO when you get there. That part I had to learn the hard
+way.
+
+From Xbox to Executive is the other half. It breaks a business
+into five roles — Damage, Support, Tank, same as a team comp —
+and shows you which one to learn first, and how to get paid
+for it inside 90 days.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -588,8 +613,15 @@ that's yours. Nobody can shut that off.
 Every app you use is rented. Always. So don't build your whole
 thing on top of one of them.
 
-That lesson cost me real money to learn going from gaming into
-business. It's most of what From Xbox to Executive is about.
+And the skill you're actually building here has a name.
+
+In From Xbox to Executive I call it the Amplifier — content
+and social. It's one of five roles a business needs, and it's
+the one that makes a business known. It almost never closes
+the sale by itself. What it does is make every other part of
+that business hit harder.
+
+Apps come and go. That role doesn't.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -666,9 +698,16 @@ the ones that still sound like a person.
 
 Same goes for you.
 
-Where that instinct fits inside an actual business — that's
-what From Xbox to Executive breaks down. Five departments, and
-where your skills already land.
+And the thing you just practiced is a real job somebody pays
+for.
+
+In From Xbox to Executive it's the ranged Damage role — email
+and SMS, the follow-up that works the whole map while the
+owner is asleep. One of five roles I break down in there.
+
+Honestly it's one of the easiest to sell, because almost
+nobody is doing it and the client can see the difference
+inside 30 days.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
 
@@ -683,6 +722,44 @@ business that a stranger wouldn't?
 **Notes:** Same stat source as A3. No expiry — this one keeps.
 
 *Source: https://www.constantcontact.com/blog/small-business-now-report/*
+
+---
+
+# The book's framework (use this for every student bridge)
+
+From Xbox to Executive breaks a business into **five roles, framed as an Overwatch team
+comp**. That's the backbone — not a generic "five departments" line. Every student email
+should land on a *named* role, so the email and the book are obviously the same thing.
+
+| Role | Department | What it does |
+|---|---|---|
+| **Damage** | Sales & Funnels | Turns attention into money. The carry. Fastest visible win for a client. |
+| **Damage (ranged)** | Marketing — email, SMS, ads | Works the whole map. Reaches people at scale while the owner sleeps. |
+| **Support (healer)** | Customer Service | Keeps the customers you already won. Stops the bleed-out. |
+| **Support (buff)** | Content & Social | The Amplifier. Rarely closes a sale; makes every other role hit harder. |
+| **Tank** | Customer Fulfillment | Delivers what sales promised. Where reputations are made or destroyed. |
+
+**The two lines that do the most work in the book:**
+
+- *"A broken comp gets rolled."* Most small businesses run two roles and wonder why they
+  keep losing. That gap is the reader's opening.
+- *"You're not a single hero anymore. You're a whole team in one chair."* AI fills the
+  other slots — which is why one person can now run the full comp.
+
+**And the 90-day plan matters as much as the comp:** the goal of the first 90 days is
+*one* paying client, not five. Days 1–30 learn ONE role. Days 31–60 land one client.
+Days 61–90 deliver. "Not all five departments. One." Any student email that implies they
+need to learn everything is fighting the book.
+
+**Where this week's emails land:**
+
+| Email | Role it bridges to |
+|---|---|
+| S1 — build a website | Damage (Sales & Funnels) |
+| S2 — Muse, find the gap | Spotting the empty slot in a broken comp |
+| S3 — robot factory | Getting early, then the 90-day plan |
+| B1 — Sora shuts off | Amplifier (Content & Social) |
+| B2 — emails sound the same | Ranged Damage (Marketing) |
 
 ---
 
