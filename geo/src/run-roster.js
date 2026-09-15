@@ -5,6 +5,11 @@
 // the end so the calling workflow can post it.
 //
 // Roster entry: { name, city, niche, trade?, problem?, ghlEmail? }
+//
+// Flags:
+//   --new-only   audit only roster entries with no audit folder yet. Used by
+//                the push-triggered run so adding a lead to clients.json
+//                audits just that lead instead of re-running the whole book.
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -12,6 +17,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 const GEO_ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
+const newOnly = process.argv.includes('--new-only');
 const roster = JSON.parse(await fs.readFile(path.join(GEO_ROOT, 'clients.json'), 'utf8'));
 
 if (!roster.length) {
@@ -21,12 +27,23 @@ if (!roster.length) {
 
 const lines = [];
 let failures = 0;
+let skipped = 0;
 for (const c of roster) {
   const args = ['src/audit.js', c.name, c.city, c.niche];
   if (c.trade) args.push(`--trade=${c.trade}`);
   if (c.problem) args.push(`--problem=${c.problem}`);
   if (c.ghlEmail) args.push(`--ghl-email=${c.ghlEmail}`);
   const slug = c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  if (newOnly) {
+    const audited = await fs
+      .readdir(path.join(GEO_ROOT, 'audits', slug))
+      .then((d) => d.length > 0, () => false);
+    if (audited) {
+      console.log(`\n──── ${c.name}: already audited, skipping (--new-only) ────`);
+      skipped++;
+      continue;
+    }
+  }
   console.log(`\n════ ${c.name} (${c.niche}) ════`);
   try {
     execFileSync('node', args, { cwd: GEO_ROOT, stdio: 'inherit' });
@@ -52,5 +69,13 @@ for (const c of roster) {
 }
 
 console.log('\n──── monthly loop done ────');
+if (!lines.length) {
+  console.log(
+    newOnly && skipped
+      ? `No new leads to audit — all ${skipped} roster entries already have reports.`
+      : 'Nothing ran.'
+  );
+}
 for (const l of lines) console.log(l);
-if (failures) console.log(`${failures} client(s) failed — Rozel: re-run those manually.`);
+if (skipped && lines.length) console.log(`(${skipped} already-audited entr${skipped === 1 ? 'y' : 'ies'} skipped)`);
+if (failures) console.log(`${failures} client(s) failed — re-run those manually.`);
