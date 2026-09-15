@@ -3,9 +3,19 @@ name: GEO Monthly Loop
 # Ops Brief § 01 steps 6–7: re-ask every client's money questions monthly,
 # file the evidence, regenerate the report. Rozel QAs report.html before
 # anything ships to a client — this workflow only commits evidence.
+#
+# Three ways it runs:
+#   schedule          — the 1st of each month, re-audits every roster entry
+#   push (clients.json) — someone adds a lead to the roster: audits just the
+#                       new names (--new-only). No button to find, no Actions
+#                       tab needed — editing the file IS the trigger.
+#   workflow_dispatch — manual re-run of the whole roster from the Actions tab
 on:
   schedule:
     - cron: "0 15 1 * *" # 1st of the month, 8am PT
+  push:
+    paths:
+      - "geo/clients.json"
   workflow_dispatch:
 
 concurrency: geo-loop
@@ -15,6 +25,9 @@ permissions:
 
 jobs:
   audit:
+    # Roster edits only count on the default branch — a push on a feature
+    # branch shouldn't spend an hour auditing or commit evidence there.
+    if: github.event_name != 'push' || github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     timeout-minutes: 120
     defaults:
@@ -39,7 +52,7 @@ jobs:
           GHL_API_TOKEN: ${{ secrets.GHL_API_TOKEN }}
           GHL_LOCATION_ID: ${{ secrets.GHL_LOCATION_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: node src/run-roster.js | tee roster-run.log
+        run: node src/run-roster.js ${{ github.event_name == 'push' && '--new-only' || '' }} | tee roster-run.log
 
       - name: Commit evidence
         run: |
@@ -47,7 +60,11 @@ jobs:
           git config user.email "noreply@github.com"
           git add audits content
           git diff --cached --quiet && { echo "nothing to commit"; exit 0; }
-          git commit -m "GEO monthly loop: audits + reports $(date -u +%Y-%m)"
+          if [ "${{ github.event_name }}" = "push" ]; then
+            git commit -m "GEO new-lead audit: reports $(date -u +%Y-%m-%d)"
+          else
+            git commit -m "GEO monthly loop: audits + reports $(date -u +%Y-%m)"
+          fi
           # The branch can move while a run is in flight (other bots commit
           # here too) — rebase and retry instead of dying on non-fast-forward.
           for i in 1 2 3 4; do
@@ -68,5 +85,10 @@ jobs:
           SUMMARY="$SUMMARY
           Reports + evidence: https://github.com/${GITHUB_REPOSITORY}/tree/${GITHUB_REF_NAME}/geo/audits (open a client -> newest date -> report.html; download it to view)
           Content drafts for QA: https://github.com/${GITHUB_REPOSITORY}/tree/${GITHUB_REF_NAME}/geo/content"
-          printf '%s' "$SUMMARY" | python3 -c 'import json,sys; print(json.dumps({"text": "GEO MONTHLY LOOP — evidence committed, reports await Rozel QA:\n" + sys.stdin.read()}))' \
+          if [ "${{ github.event_name }}" = "push" ]; then
+            HEADLINE="NEW LEAD AUDIT — a lead was added to the roster, here are the results:"
+          else
+            HEADLINE="GEO MONTHLY LOOP — evidence committed, reports await QA:"
+          fi
+          printf '%s' "$SUMMARY" | HEADLINE="$HEADLINE" python3 -c 'import json,os,sys; print(json.dumps({"text": os.environ["HEADLINE"] + "\n" + sys.stdin.read()}))' \
             | curl -sS -X POST -H 'Content-Type: application/json' -d @- "$SLACK_WEBHOOK_URL"

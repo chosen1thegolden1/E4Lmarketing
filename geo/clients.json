@@ -4,5 +4,30 @@
     "city": "Los Angeles, CA",
     "niche": "marketing-agency",
     "contactEmail": "chosen1@gsgagency.com"
+  },
+  {
+    "name": "Sammy Electrical Services",
+    "city": "La Mirada, CA",
+    "niche": "electrical"
+  },
+  {
+    "name": "Modern Roofing Inc.",
+    "city": "Burbank, CA",
+    "niche": "roofing"
+  },
+  {
+    "name": "Culver City Roofing Specialists",
+    "city": "Culver City, CA",
+    "niche": "roofing"
+  },
+  {
+    "name": "My Local Roofer, CA",
+    "city": "Woodland Hills, CA",
+    "niche": "roofing"
+  },
+  {
+    "name": "All In Roofing LA",
+    "city": "Los Angeles, CA",
+    "niche": "roofing"
   }
 ]
