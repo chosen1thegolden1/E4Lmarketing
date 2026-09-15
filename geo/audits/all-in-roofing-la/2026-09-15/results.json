@@ -1,0 +1,368 @@
+{
+  "subject": "All In Roofing LA",
+  "city": "Los Angeles, CA",
+  "niche": "roofing",
+  "label": "Roofing",
+  "date": "2026-09-15",
+  "startedAt": "2026-09-15T11:06:17.207Z",
+  "finishedAt": "2026-09-15T11:29:04.370Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "2/21",
+  "named": 2,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency roofer near Los Angeles, CA",
+      "askedAt": "2026-09-15T11:06:17.338Z",
+      "ok": false,
+      "screenshot": "screenshots/all-in-roofing-la_chatgpt_q1_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable roofing company in Los Angeles, CA",
+      "askedAt": "2026-09-15T11:09:31.002Z",
+      "ok": false,
+      "screenshot": "screenshots/all-in-roofing-la_chatgpt_q2_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "roofer that answers the phone Los Angeles, CA",
+      "askedAt": "2026-09-15T11:12:49.019Z",
+      "ok": false,
+      "screenshot": "screenshots/all-in-roofing-la_chatgpt_q3_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed roofer near me Los Angeles, CA",
+      "askedAt": "2026-09-15T11:16:02.090Z",
+      "ok": false,
+      "screenshot": "screenshots/all-in-roofing-la_chatgpt_q4_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "roofing company Los Angeles, CA free estimate",
+      "askedAt": "2026-09-15T11:19:20.257Z",
+      "ok": false,
+      "screenshot": "screenshots/all-in-roofing-la_chatgpt_q5_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call for a roof leak in Los Angeles, CA",
+      "askedAt": "2026-09-15T11:22:33.203Z",
+      "ok": false,
+      "screenshot": "screenshots/all-in-roofing-la_chatgpt_q6_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "roofer open now Los Angeles, CA",
+      "askedAt": "2026-09-15T11:25:46.680Z",
+      "ok": false,
+      "screenshot": "screenshots/all-in-roofing-la_chatgpt_q7_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency roofer near Los Angeles, CA",
+      "askedAt": "2026-09-15T11:06:17.338Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_gemini_q1_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "All In Roofing",
+        "Roof Rescue Services LLC",
+        "Bumble Roofing of Los Angeles",
+        "Los Angeles Roofing & Commercial Roof Repair",
+        "LA Roofing Contractors"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Roof Rescue Services LLC",
+        "Bumble Roofing of Los Angeles",
+        "Los Angeles Roofing & Commercial Roof Repair",
+        "LA Roofing Contractors"
+      ],
+      "note": "Recommended 5 local emergency roofers including the audit subject, all with 24/7 availability and ratings.",
+      "answerChars": 2596
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable roofing company in Los Angeles, CA",
+      "askedAt": "2026-09-15T11:06:42.793Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_gemini_q2_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Bilt-Well Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Bilt-Well Roofing"
+      ],
+      "note": "Recommended only Bilt-Well Roofing as the most reliable roofer, not mentioning All In Roofing LA.",
+      "answerChars": 920
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "roofer that answers the phone Los Angeles, CA",
+      "askedAt": "2026-09-15T11:07:04.312Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_gemini_q3_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Bilt-Well Roofing",
+        "LA Smart Roofing",
+        "The Roofer Bros Construction",
+        "Guardian Roofs"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Bilt-Well Roofing",
+        "LA Smart Roofing",
+        "The Roofer Bros Construction",
+        "Guardian Roofs"
+      ],
+      "note": "Recommended four competing LA roofing companies without mentioning All In Roofing LA.",
+      "answerChars": 1211
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed roofer near me Los Angeles, CA",
+      "askedAt": "2026-09-15T11:07:26.035Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_gemini_q4_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "August Roofing & Solar",
+        "Smart Roofing Inc.",
+        "Julian Construction, Inc.",
+        "Power Roofing, Inc.",
+        "United Roofing California",
+        "Golden Eagle Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "August Roofing & Solar",
+        "Smart Roofing Inc.",
+        "Julian Construction, Inc.",
+        "Power Roofing, Inc.",
+        "United Roofing California",
+        "Golden Eagle Roofing"
+      ],
+      "note": "Recommended six other LA-area roofing companies with ratings and certifications, but did not mention All In Roofing LA.",
+      "answerChars": 2332
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "roofing company Los Angeles, CA free estimate",
+      "askedAt": "2026-09-15T11:07:49.630Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_gemini_q5_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Smart Roofing, Inc.",
+        "RAA Roofing",
+        "AJ Reyes Roofing",
+        "J & J Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Smart Roofing, Inc.",
+        "RAA Roofing",
+        "AJ Reyes Roofing",
+        "J & J Roofing"
+      ],
+      "note": "Recommended four other LA roofing companies offering free estimates, without mentioning All In Roofing LA.",
+      "answerChars": 1628
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call for a roof leak in Los Angeles, CA",
+      "askedAt": "2026-09-15T11:08:11.767Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_gemini_q6_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Bumble Roofing",
+        "Bilt-Well Roofing",
+        "Hull Brothers Roofing",
+        "Zatarain Roofing",
+        "American Roofing Pro",
+        "California Building Professionals"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Bumble Roofing",
+        "Bilt-Well Roofing",
+        "Hull Brothers Roofing",
+        "Zatarain Roofing",
+        "American Roofing Pro",
+        "California Building Professionals"
+      ],
+      "note": "Recommended several other LA roofing companies and gave general leak advice, never naming All In Roofing LA.",
+      "answerChars": 2128
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "roofer open now Los Angeles, CA",
+      "askedAt": "2026-09-15T11:08:35.255Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_gemini_q7_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "All In Roofing",
+        "LA Roofing Contractors",
+        "Francisco's Roofing Inc.",
+        "LA Roofing Specialists",
+        "Specialist Roofing & Repair"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "LA Roofing Contractors",
+        "Francisco's Roofing Inc.",
+        "LA Roofing Specialists",
+        "Specialist Roofing & Repair"
+      ],
+      "note": "Recommended five open roofing contractors in LA, including the audit subject 'All In Roofing' listed first.",
+      "answerChars": 2434
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency roofer near Los Angeles, CA",
+      "askedAt": "2026-09-15T11:06:17.338Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_perplexity_q1_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Overhead Roofing",
+        "Pro Budget Roofing",
+        "Resident Roofer",
+        "Bumble Roofing",
+        "TMC Roofing",
+        "Stone Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Overhead Roofing",
+        "Pro Budget Roofing",
+        "Resident Roofer",
+        "Bumble Roofing",
+        "TMC Roofing",
+        "Stone Roofing"
+      ],
+      "note": "Listed six emergency roofing companies serving Los Angeles, none of which was the audit subject All In Roofing LA.",
+      "answerChars": 3349
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable roofing company in Los Angeles, CA",
+      "askedAt": "2026-09-15T11:06:49.952Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_perplexity_q2_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows no actual answer content, just an unfulfilled research prompt requiring sign-up.",
+      "answerChars": 243
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "roofer that answers the phone Los Angeles, CA",
+      "askedAt": "2026-09-15T11:07:15.548Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_perplexity_q3_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 178
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed roofer near me Los Angeles, CA",
+      "askedAt": "2026-09-15T11:10:01.187Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_perplexity_q4_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows no actual answer content, just a sign-up prompt, indicating the query was not answered.",
+      "answerChars": 239
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "roofing company Los Angeles, CA free estimate",
+      "askedAt": "2026-09-15T11:10:26.158Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_perplexity_q5_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was returned; the page only prompted to sign up and repeat the request.",
+      "answerChars": 178
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call for a roof leak in Los Angeles, CA",
+      "askedAt": "2026-09-15T11:13:12.502Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_perplexity_q6_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page only shows a sign-up prompt with no recommendations.",
+      "answerChars": 185
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "roofer open now Los Angeles, CA",
+      "askedAt": "2026-09-15T11:15:59.054Z",
+      "ok": true,
+      "screenshot": "screenshots/all-in-roofing-la_perplexity_q7_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was returned; the page only shows a prompt to sign up and repeat the request.",
+      "answerChars": 164
+    }
+  ]
+}

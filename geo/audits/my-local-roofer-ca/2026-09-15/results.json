@@ -1,0 +1,378 @@
+{
+  "subject": "My Local Roofer, CA",
+  "city": "Woodland Hills, CA",
+  "niche": "roofing",
+  "label": "Roofing",
+  "date": "2026-09-15",
+  "startedAt": "2026-09-15T10:46:22.367Z",
+  "finishedAt": "2026-09-15T11:06:16.727Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "1/21",
+  "named": 1,
+  "total": 21,
+  "failedAsks": 6,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency roofer near Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:46:22.513Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_chatgpt_q1_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Vekra Nom Roofers",
+        "Top Shield Roofing LA",
+        "Best Roofing Specialists",
+        "Roman Roofing",
+        "NEMA Roofing Repair - Woodland Hills",
+        "American Roofing Pro"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Vekra Nom Roofers",
+        "Top Shield Roofing LA",
+        "Best Roofing Specialists",
+        "Roman Roofing",
+        "NEMA Roofing Repair - Woodland Hills",
+        "American Roofing Pro"
+      ],
+      "note": "The answer recommended six competing roofing companies in Woodland Hills but never mentioned My Local Roofer, CA.",
+      "answerChars": 1672
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable roofing company in Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:46:46.151Z",
+      "ok": false,
+      "screenshot": "screenshots/my-local-roofer-ca_chatgpt_q2_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "roofer that answers the phone Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:49:59.645Z",
+      "ok": false,
+      "screenshot": "screenshots/my-local-roofer-ca_chatgpt_q3_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed roofer near me Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:53:17.485Z",
+      "ok": false,
+      "screenshot": "screenshots/my-local-roofer-ca_chatgpt_q4_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "roofing company Woodland Hills, CA free estimate",
+      "askedAt": "2026-09-15T10:56:30.936Z",
+      "ok": false,
+      "screenshot": "screenshots/my-local-roofer-ca_chatgpt_q5_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call for a roof leak in Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:59:44.301Z",
+      "ok": false,
+      "screenshot": "screenshots/my-local-roofer-ca_chatgpt_q6_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "roofer open now Woodland Hills, CA",
+      "askedAt": "2026-09-15T11:03:03.044Z",
+      "ok": false,
+      "screenshot": "screenshots/my-local-roofer-ca_chatgpt_q7_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency roofer near Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:46:22.514Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_gemini_q1_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Woodland Hills Roofing",
+        "Roofing & Commercial Roof Repair Woodland Hills",
+        "Roofing Angels",
+        "My Local Roofer",
+        "Specialists"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Woodland Hills Roofing",
+        "Roofing & Commercial Roof Repair Woodland Hills",
+        "Roofing Angels",
+        "Specialists"
+      ],
+      "note": "Listed five roofing contractors including the subject, but noted the subject was currently closed while competitors offered 24/7 service.",
+      "answerChars": 2875
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable roofing company in Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:46:47.522Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_gemini_q2_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Smart Roofing Inc.",
+        "Roofing Angels",
+        "Smile Roofing",
+        "Roof Installation Pros",
+        "Graback Roofing Inc.",
+        "Fava Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Smart Roofing Inc.",
+        "Roofing Angels",
+        "Smile Roofing",
+        "Roof Installation Pros",
+        "Graback Roofing Inc.",
+        "Fava Roofing"
+      ],
+      "note": "Recommended six other local roofing companies plus general vetting tips, but never mentioned My Local Roofer, CA.",
+      "answerChars": 1562
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "roofer that answers the phone Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:47:11.216Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_gemini_q3_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "RAA Roofing",
+        "LA Smart Roofing",
+        "Michiel Roofing, Inc.",
+        "Hunters Roofing",
+        "Smile Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "RAA Roofing",
+        "LA Smart Roofing",
+        "Michiel Roofing, Inc.",
+        "Hunters Roofing",
+        "Smile Roofing"
+      ],
+      "note": "Recommended five roofing companies in Woodland Hills with phone numbers and details, none being the audit subject 'My Local Roofer, CA'.",
+      "answerChars": 1546
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed roofer near me Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:47:33.478Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_gemini_q4_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Woodland Hills Roofing",
+        "Roofing & Commercial Roof Repair Woodland Hills",
+        "Roofing Angels",
+        "Smile Roofing",
+        "Global Roofing Specialist"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Woodland Hills Roofing",
+        "Roofing & Commercial Roof Repair Woodland Hills",
+        "Roofing Angels",
+        "Smile Roofing",
+        "Global Roofing Specialist"
+      ],
+      "note": "Recommended five other local roofing companies with ratings and details, never mentioning 'My Local Roofer, CA'.",
+      "answerChars": 3030
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "roofing company Woodland Hills, CA free estimate",
+      "askedAt": "2026-09-15T10:47:57.661Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_gemini_q5_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "RAA Roofing",
+        "Bright Stone Roofing",
+        "Roofing Woodland Hills",
+        "Hunters Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "RAA Roofing",
+        "Bright Stone Roofing",
+        "Roofing Woodland Hills",
+        "Hunters Roofing"
+      ],
+      "note": "Recommended four local roofing companies for free estimates in Woodland Hills, none matching the audit subject 'My Local Roofer, CA'.",
+      "answerChars": 2302
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call for a roof leak in Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:48:19.508Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_gemini_q6_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "NEMA Roofing Services",
+        "M & M Developers Inc.",
+        "American Roofing Pro"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "NEMA Roofing Services",
+        "M & M Developers Inc.",
+        "American Roofing Pro"
+      ],
+      "note": "Recommended three local roofing companies plus DIY leak-containment tips, without mentioning My Local Roofer, CA.",
+      "answerChars": 1635
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "roofer open now Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:48:41.556Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_gemini_q7_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Woodland Hills Roofing",
+        "Roofing & Commercial Roof Repair Woodland Hills",
+        "Roofing Angels",
+        "Global Roofing Specialist",
+        "Specialists"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Woodland Hills Roofing",
+        "Roofing & Commercial Roof Repair Woodland Hills",
+        "Roofing Angels",
+        "Global Roofing Specialist",
+        "Specialists"
+      ],
+      "note": "Listed 5 currently-open roofing contractors in Woodland Hills, none of which was 'My Local Roofer, CA'.",
+      "answerChars": 1818
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency roofer near Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:46:22.514Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_perplexity_q1_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted sign-up with no recommendations.",
+      "answerChars": 169
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable roofing company in Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:49:08.909Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_perplexity_q2_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows an incomplete/error state prompting sign-up instead of recommendations.",
+      "answerChars": 184
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "roofer that answers the phone Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:51:55.628Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_perplexity_q3_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page shows a sign-up prompt with no recommendations.",
+      "answerChars": 243
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed roofer near me Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:52:20.589Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_perplexity_q4_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only prompted sign-up with no recommendations.",
+      "answerChars": 176
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "roofing company Woodland Hills, CA free estimate",
+      "askedAt": "2026-09-15T10:55:06.664Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_perplexity_q5_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned no actual answer, just a prompt to sign in and repeat the request.",
+      "answerChars": 243
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call for a roof leak in Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:55:32.373Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_perplexity_q6_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was returned; the page just prompted sign-up with no recommendations.",
+      "answerChars": 188
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "roofer open now Woodland Hills, CA",
+      "askedAt": "2026-09-15T10:58:19.143Z",
+      "ok": true,
+      "screenshot": "screenshots/my-local-roofer-ca_perplexity_q7_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was returned; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 167
+    }
+  ]
+}

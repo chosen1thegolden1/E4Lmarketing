@@ -1,0 +1,357 @@
+{
+  "subject": "Modern Roofing Inc.",
+  "city": "Burbank, CA",
+  "niche": "roofing",
+  "label": "Roofing",
+  "date": "2026-09-15",
+  "startedAt": "2026-09-15T10:00:56.616Z",
+  "finishedAt": "2026-09-15T10:23:31.224Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "2/21",
+  "named": 2,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency roofer near Burbank, CA",
+      "askedAt": "2026-09-15T10:00:56.749Z",
+      "ok": false,
+      "screenshot": "screenshots/modern-roofing-inc_chatgpt_q1_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable roofing company in Burbank, CA",
+      "askedAt": "2026-09-15T10:04:09.949Z",
+      "ok": false,
+      "screenshot": "screenshots/modern-roofing-inc_chatgpt_q2_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "roofer that answers the phone Burbank, CA",
+      "askedAt": "2026-09-15T10:07:23.080Z",
+      "ok": false,
+      "screenshot": "screenshots/modern-roofing-inc_chatgpt_q3_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed roofer near me Burbank, CA",
+      "askedAt": "2026-09-15T10:10:36.070Z",
+      "ok": false,
+      "screenshot": "screenshots/modern-roofing-inc_chatgpt_q4_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "roofing company Burbank, CA free estimate",
+      "askedAt": "2026-09-15T10:13:54.885Z",
+      "ok": false,
+      "screenshot": "screenshots/modern-roofing-inc_chatgpt_q5_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call for a roof leak in Burbank, CA",
+      "askedAt": "2026-09-15T10:17:03.090Z",
+      "ok": false,
+      "screenshot": "screenshots/modern-roofing-inc_chatgpt_q6_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "roofer open now Burbank, CA",
+      "askedAt": "2026-09-15T10:20:16.779Z",
+      "ok": false,
+      "screenshot": "screenshots/modern-roofing-inc_chatgpt_q7_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency roofer near Burbank, CA",
+      "askedAt": "2026-09-15T10:00:56.749Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_gemini_q1_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Specialist Roofing & Repair",
+        "Top roof's inc",
+        "Envision Homes Roofing & Construction",
+        "Clear View Roofing & Construction",
+        "Roof Repair Burbank"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Specialist Roofing & Repair",
+        "Top roof's inc",
+        "Envision Homes Roofing & Construction",
+        "Clear View Roofing & Construction",
+        "Roof Repair Burbank"
+      ],
+      "note": "Recommended five local roofing companies near Burbank but did not mention Modern Roofing Inc.",
+      "answerChars": 2753
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable roofing company in Burbank, CA",
+      "askedAt": "2026-09-15T10:01:19.845Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_gemini_q2_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Modern Roofing"
+      ],
+      "subjectNamed": true,
+      "competitors": [],
+      "note": "Recommended only the audit subject, Modern Roofing, describing its services and reputation.",
+      "answerChars": 1128
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "roofer that answers the phone Burbank, CA",
+      "askedAt": "2026-09-15T10:01:40.953Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_gemini_q3_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Roof Repair Specialist",
+        "Roof Replacement Inc",
+        "Hunters Roofing",
+        "The Roofer Bros and Construction"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Roof Repair Specialist",
+        "Roof Replacement Inc",
+        "Hunters Roofing",
+        "The Roofer Bros and Construction"
+      ],
+      "note": "Recommended four Burbank roofing contractors, none of which was Modern Roofing Inc.",
+      "answerChars": 1513
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed roofer near me Burbank, CA",
+      "askedAt": "2026-09-15T10:02:02.345Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_gemini_q4_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Specialist Roofing & Repair",
+        "Envision Homes Roofing & Construction",
+        "Clear View Roofing & Construction",
+        "Ikon Roofing, Inc.",
+        "Total Roofing, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Specialist Roofing & Repair",
+        "Envision Homes Roofing & Construction",
+        "Clear View Roofing & Construction",
+        "Ikon Roofing, Inc.",
+        "Total Roofing, Inc."
+      ],
+      "note": "Recommended five other local roofers with ratings and details, never mentioning Modern Roofing Inc.",
+      "answerChars": 2503
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "roofing company Burbank, CA free estimate",
+      "askedAt": "2026-09-15T10:02:25.396Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_gemini_q5_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Modern Roofing, Inc.",
+        "Newhaus Roofing & Construction",
+        "Alpha Roofing Group Inc.",
+        "Burbank Roofing",
+        "Hann Roofing"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Newhaus Roofing & Construction",
+        "Alpha Roofing Group Inc.",
+        "Burbank Roofing",
+        "Hann Roofing"
+      ],
+      "note": "Listed five Burbank roofing companies with free estimates, including the subject Modern Roofing, Inc., plus general tips for choosing a contractor.",
+      "answerChars": 2561
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call for a roof leak in Burbank, CA",
+      "askedAt": "2026-09-15T10:02:48.895Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_gemini_q6_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Burbank Roofing Company",
+        "Burbank Roofing (San Fernando Valley)",
+        "Specialist Roofing and Repair"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Burbank Roofing Company",
+        "Burbank Roofing (San Fernando Valley)",
+        "Specialist Roofing and Repair"
+      ],
+      "note": "Recommended three local roofing companies for leak repair without mentioning Modern Roofing Inc.",
+      "answerChars": 1362
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "roofer open now Burbank, CA",
+      "askedAt": "2026-09-15T10:03:09.856Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_gemini_q7_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Specialist Roofing & Repair",
+        "Top roof's inc",
+        "Top Roofer North Hollywood",
+        "Strong Roofing Repair Service",
+        "Roof Replacement Inc"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Specialist Roofing & Repair",
+        "Top roof's inc",
+        "Top Roofer North Hollywood",
+        "Strong Roofing Repair Service",
+        "Roof Replacement Inc"
+      ],
+      "note": "Recommended five local roofers open now, none of which was Modern Roofing Inc.",
+      "answerChars": 1807
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency roofer near Burbank, CA",
+      "askedAt": "2026-09-15T10:00:56.749Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_perplexity_q1_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned no actual answer, just a sign-up prompt with no business recommendations.",
+      "answerChars": 162
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable roofing company in Burbank, CA",
+      "askedAt": "2026-09-15T10:03:43.724Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_perplexity_q2_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a sign-up prompt with no recommendations.",
+      "answerChars": 239
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "roofer that answers the phone Burbank, CA",
+      "askedAt": "2026-09-15T10:04:08.796Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_perplexity_q3_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No real answer was returned; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 174
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed roofer near me Burbank, CA",
+      "askedAt": "2026-09-15T10:06:54.909Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_perplexity_q4_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Specialist Roofing & Repair",
+        "Shea Roofing Inc.",
+        "Century Pro Builders",
+        "Ikon Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Specialist Roofing & Repair",
+        "Shea Roofing Inc.",
+        "Century Pro Builders",
+        "Ikon Roofing"
+      ],
+      "note": "Recommended four competing Burbank roofers with contact details and vetting advice, never mentioning Modern Roofing Inc.",
+      "answerChars": 3588
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "roofing company Burbank, CA free estimate",
+      "askedAt": "2026-09-15T10:07:28.029Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_perplexity_q5_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted sign-up with no recommendations.",
+      "answerChars": 232
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call for a roof leak in Burbank, CA",
+      "askedAt": "2026-09-15T10:07:53.644Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_perplexity_q6_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page only shows a sign-up prompt with no recommendations.",
+      "answerChars": 243
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "roofer open now Burbank, CA",
+      "askedAt": "2026-09-15T10:08:18.426Z",
+      "ok": true,
+      "screenshot": "screenshots/modern-roofing-inc_perplexity_q7_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was returned; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 160
+    }
+  ]
+}

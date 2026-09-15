@@ -1,0 +1,347 @@
+{
+  "subject": "Sammy Electrical Services",
+  "city": "La Mirada, CA",
+  "niche": "electrical",
+  "label": "Electrical",
+  "date": "2026-09-15",
+  "startedAt": "2026-09-15T09:38:14.427Z",
+  "finishedAt": "2026-09-15T10:00:56.137Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "1/21",
+  "named": 1,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency electrician near La Mirada, CA",
+      "askedAt": "2026-09-15T09:38:14.784Z",
+      "ok": false,
+      "screenshot": "screenshots/sammy-electrical-services_chatgpt_q1_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable electrician in La Mirada, CA",
+      "askedAt": "2026-09-15T09:41:28.521Z",
+      "ok": false,
+      "screenshot": "screenshots/sammy-electrical-services_chatgpt_q2_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "electrician that answers the phone La Mirada, CA",
+      "askedAt": "2026-09-15T09:44:41.588Z",
+      "ok": false,
+      "screenshot": "screenshots/sammy-electrical-services_chatgpt_q3_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed electrician near me La Mirada, CA",
+      "askedAt": "2026-09-15T09:47:54.634Z",
+      "ok": false,
+      "screenshot": "screenshots/sammy-electrical-services_chatgpt_q4_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "electrician La Mirada, CA free estimate",
+      "askedAt": "2026-09-15T09:51:07.569Z",
+      "ok": false,
+      "screenshot": "screenshots/sammy-electrical-services_chatgpt_q5_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call for a sparking outlet in La Mirada, CA",
+      "askedAt": "2026-09-15T09:54:25.233Z",
+      "ok": false,
+      "screenshot": "screenshots/sammy-electrical-services_chatgpt_q6_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "electrician open now La Mirada, CA",
+      "askedAt": "2026-09-15T09:57:37.906Z",
+      "ok": false,
+      "screenshot": "screenshots/sammy-electrical-services_chatgpt_q7_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency electrician near La Mirada, CA",
+      "askedAt": "2026-09-15T09:38:14.785Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_gemini_q1_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "La Mirada Master Electrician",
+        "La Mirada 24 Hour Electrician Services",
+        "La Mirada Electrical",
+        "United Electric Services",
+        "ROC ELECTRIC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "La Mirada Master Electrician",
+        "La Mirada 24 Hour Electrician Services",
+        "La Mirada Electrical",
+        "United Electric Services",
+        "ROC ELECTRIC"
+      ],
+      "note": "Recommended five local emergency electricians near La Mirada, none of which was Sammy Electrical Services.",
+      "answerChars": 1657
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable electrician in La Mirada, CA",
+      "askedAt": "2026-09-15T09:38:36.510Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_gemini_q2_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "First Electric"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "First Electric"
+      ],
+      "note": "Recommended only First Electric as the most reliable electrician, not mentioning Sammy Electrical Services.",
+      "answerChars": 990
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "electrician that answers the phone La Mirada, CA",
+      "askedAt": "2026-09-15T09:38:57.135Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_gemini_q3_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "First Electric",
+        "La Mirada Master Electrician",
+        "ORE ELECTRIC",
+        "Clear View Electrical Services",
+        "All For You Electricians"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "First Electric",
+        "La Mirada Master Electrician",
+        "ORE ELECTRIC",
+        "Clear View Electrical Services",
+        "All For You Electricians"
+      ],
+      "note": "Recommended five local electricians in/near La Mirada with ratings and contact info, but did not mention Sammy Electrical Services.",
+      "answerChars": 1818
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed electrician near me La Mirada, CA",
+      "askedAt": "2026-09-15T09:39:21.347Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_gemini_q4_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "First Electric",
+        "ORE ELECTRIC",
+        "La Mirada Master Electrician"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "First Electric",
+        "ORE ELECTRIC",
+        "La Mirada Master Electrician"
+      ],
+      "note": "Recommended three other local electricians as top-rated options, never mentioning Sammy Electrical Services.",
+      "answerChars": 1598
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "electrician La Mirada, CA free estimate",
+      "askedAt": "2026-09-15T09:39:42.022Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_gemini_q5_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "La Mirada Master Electrician",
+        "ORE ELECTRIC",
+        "La Mirada Electrical",
+        "Harmony Electrical, Plumbing & Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "La Mirada Master Electrician",
+        "ORE ELECTRIC",
+        "La Mirada Electrical",
+        "Harmony Electrical, Plumbing & Air"
+      ],
+      "note": "Listed four competing electricians in the La Mirada area but did not mention Sammy Electrical Services.",
+      "answerChars": 1539
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call for a sparking outlet in La Mirada, CA",
+      "askedAt": "2026-09-15T09:40:03.704Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_gemini_q6_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "First Electric",
+        "Sammy Electrical Services",
+        "La Mirada Electrical",
+        "Saiyan Electric"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "First Electric",
+        "La Mirada Electrical",
+        "Saiyan Electric"
+      ],
+      "note": "Listed four local electricians for sparking outlet emergencies, including the audit subject as one of four options.",
+      "answerChars": 1402
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "electrician open now La Mirada, CA",
+      "askedAt": "2026-09-15T09:40:24.894Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_gemini_q7_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "First Electric",
+        "La Mirada Master Electrician",
+        "Clear View Electrical Services",
+        "All For You Electricians",
+        "Harmony Electrical, Plumbing & Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "First Electric",
+        "La Mirada Master Electrician",
+        "Clear View Electrical Services",
+        "All For You Electricians",
+        "Harmony Electrical, Plumbing & Air"
+      ],
+      "note": "Recommended five electricians open now in/near La Mirada, none of which was Sammy Electrical Services.",
+      "answerChars": 1526
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency electrician near La Mirada, CA",
+      "askedAt": "2026-09-15T09:38:14.785Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_perplexity_q1_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page captured only a sign-up prompt with no actual answer content or business recommendations.",
+      "answerChars": 235
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable electrician in La Mirada, CA",
+      "askedAt": "2026-09-15T09:38:40.829Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_perplexity_q2_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer content was captured; the page shows only UI chrome and a sign-up prompt with no business recommendations.",
+      "answerChars": 175
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "electrician that answers the phone La Mirada, CA",
+      "askedAt": "2026-09-15T09:41:26.490Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_perplexity_q3_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 181
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed electrician near me La Mirada, CA",
+      "askedAt": "2026-09-15T09:44:12.607Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_perplexity_q4_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 180
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "electrician La Mirada, CA free estimate",
+      "askedAt": "2026-09-15T09:46:58.509Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_perplexity_q5_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned no actual answer, just a sign-up prompt with no business recommendations.",
+      "answerChars": 234
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call for a sparking outlet in La Mirada, CA",
+      "askedAt": "2026-09-15T09:47:22.820Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_perplexity_q6_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 189
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "electrician open now La Mirada, CA",
+      "askedAt": "2026-09-15T09:50:09.423Z",
+      "ok": true,
+      "screenshot": "screenshots/sammy-electrical-services_perplexity_q7_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted sign-up instead of providing recommendations.",
+      "answerChars": 167
+    }
+  ]
+}

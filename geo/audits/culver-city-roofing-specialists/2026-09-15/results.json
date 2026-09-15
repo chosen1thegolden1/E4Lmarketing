@@ -1,0 +1,345 @@
+{
+  "subject": "Culver City Roofing Specialists",
+  "city": "Culver City, CA",
+  "niche": "roofing",
+  "label": "Roofing",
+  "date": "2026-09-15",
+  "startedAt": "2026-09-15T10:23:31.719Z",
+  "finishedAt": "2026-09-15T10:46:21.878Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "3/21",
+  "named": 3,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency roofer near Culver City, CA",
+      "askedAt": "2026-09-15T10:23:31.872Z",
+      "ok": false,
+      "screenshot": "screenshots/culver-city-roofing-specialists_chatgpt_q1_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable roofing company in Culver City, CA",
+      "askedAt": "2026-09-15T10:26:51.386Z",
+      "ok": false,
+      "screenshot": "screenshots/culver-city-roofing-specialists_chatgpt_q2_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "roofer that answers the phone Culver City, CA",
+      "askedAt": "2026-09-15T10:29:59.466Z",
+      "ok": false,
+      "screenshot": "screenshots/culver-city-roofing-specialists_chatgpt_q3_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed roofer near me Culver City, CA",
+      "askedAt": "2026-09-15T10:33:17.887Z",
+      "ok": false,
+      "screenshot": "screenshots/culver-city-roofing-specialists_chatgpt_q4_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "roofing company Culver City, CA free estimate",
+      "askedAt": "2026-09-15T10:36:35.650Z",
+      "ok": false,
+      "screenshot": "screenshots/culver-city-roofing-specialists_chatgpt_q5_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call for a roof leak in Culver City, CA",
+      "askedAt": "2026-09-15T10:39:49.196Z",
+      "ok": false,
+      "screenshot": "screenshots/culver-city-roofing-specialists_chatgpt_q6_2026-09-15.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "roofer open now Culver City, CA",
+      "askedAt": "2026-09-15T10:43:08.442Z",
+      "ok": false,
+      "screenshot": "screenshots/culver-city-roofing-specialists_chatgpt_q7_2026-09-15.jpg",
+      "error": "page.goto: Timeout 60000ms exceeded."
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency roofer near Culver City, CA",
+      "askedAt": "2026-09-15T10:23:31.873Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_gemini_q1_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "LA Roof Masters Culver City",
+        "Dream roofing Culver City",
+        "Culver City Roofing Contractors",
+        "Culver City Roofing Specialists",
+        "Reliable Roofing Repair"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "LA Roof Masters Culver City",
+        "Dream roofing Culver City",
+        "Culver City Roofing Contractors",
+        "Reliable Roofing Repair"
+      ],
+      "note": "Listed five local roofing contractors including the audit subject, each with hours and contact info for emergency service.",
+      "answerChars": 2243
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable roofing company in Culver City, CA",
+      "askedAt": "2026-09-15T10:23:56.283Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_gemini_q2_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Hull Brothers Roofing and Waterproofing",
+        "Economy Roofing",
+        "Royal Roofing Company"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Hull Brothers Roofing and Waterproofing",
+        "Economy Roofing",
+        "Royal Roofing Company"
+      ],
+      "note": "Recommended three competing roofing companies and did not mention Culver City Roofing Specialists at all.",
+      "answerChars": 2631
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "roofer that answers the phone Culver City, CA",
+      "askedAt": "2026-09-15T10:24:20.079Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_gemini_q3_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "LA Roof Masters Culver City",
+        "Culver City Roofing Specialists",
+        "Culver City Roofing Contractors",
+        "Dream roofing Culver City",
+        "Hull Brothers Roofing and Waterproofing"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "LA Roof Masters Culver City",
+        "Culver City Roofing Contractors",
+        "Dream roofing Culver City",
+        "Hull Brothers Roofing and Waterproofing"
+      ],
+      "note": "Listed 5 Culver City roofing contractors with hours and phone numbers, including the audit subject alongside four competitors.",
+      "answerChars": 1855
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed roofer near me Culver City, CA",
+      "askedAt": "2026-09-15T10:24:42.573Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_gemini_q4_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Hull Brothers Roofing and Waterproofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Hull Brothers Roofing and Waterproofing"
+      ],
+      "note": "Recommended only one competitor, Hull Brothers Roofing and Waterproofing, and did not mention Culver City Roofing Specialists.",
+      "answerChars": 780
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "roofing company Culver City, CA free estimate",
+      "askedAt": "2026-09-15T10:25:04.873Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_gemini_q5_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "NewHaus Roofing",
+        "Best LA Roofing",
+        "Orian Construction & Roofing",
+        "Economy Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "NewHaus Roofing",
+        "Best LA Roofing",
+        "Orian Construction & Roofing",
+        "Economy Roofing"
+      ],
+      "note": "Recommended four other local roofing companies with contact info and cost estimates, never mentioning Culver City Roofing Specialists.",
+      "answerChars": 1913
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call for a roof leak in Culver City, CA",
+      "askedAt": "2026-09-15T10:25:28.207Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_gemini_q6_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "Dan Roofing",
+        "Roofing h USA",
+        "Hull Brothers Roofing Co.",
+        "Cal Roofing Expert Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dan Roofing",
+        "Roofing h USA",
+        "Hull Brothers Roofing Co.",
+        "Cal Roofing Expert Inc."
+      ],
+      "note": "The answer recommended four other local roofing companies with contact info and did not mention Culver City Roofing Specialists.",
+      "answerChars": 1706
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "roofer open now Culver City, CA",
+      "askedAt": "2026-09-15T10:25:51.839Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_gemini_q7_2026-09-15.jpg",
+      "answered": true,
+      "businesses": [
+        "LA Roof Masters Culver City",
+        "Culver City Roofing Specialists",
+        "Reliable Roofing Repair",
+        "Trueline Roof Company",
+        "AllStar Superior Roofing"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "LA Roof Masters Culver City",
+        "Reliable Roofing Repair",
+        "Trueline Roof Company",
+        "AllStar Superior Roofing"
+      ],
+      "note": "Listed five roofing contractors open 24/7 in Culver City, including the audit subject alongside four competitors.",
+      "answerChars": 1850
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency roofer near Culver City, CA",
+      "askedAt": "2026-09-15T10:23:31.873Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_perplexity_q1_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page shows a sign-up prompt with no recommendations.",
+      "answerChars": 232
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable roofing company in Culver City, CA",
+      "askedAt": "2026-09-15T10:23:57.501Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_perplexity_q2_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a sign-up prompt with no recommendations.",
+      "answerChars": 181
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "roofer that answers the phone Culver City, CA",
+      "askedAt": "2026-09-15T10:26:43.805Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_perplexity_q3_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No answer was returned; page only prompted the user to sign up and repeat the request.",
+      "answerChars": 178
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed roofer near me Culver City, CA",
+      "askedAt": "2026-09-15T10:29:30.127Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_perplexity_q4_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a sign-up prompt with no recommendations.",
+      "answerChars": 177
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "roofing company Culver City, CA free estimate",
+      "askedAt": "2026-09-15T10:32:15.995Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_perplexity_q5_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned no actual answer, just a login prompt with no business recommendations.",
+      "answerChars": 178
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call for a roof leak in Culver City, CA",
+      "askedAt": "2026-09-15T10:35:01.995Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_perplexity_q6_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a sign-up prompt with no recommendations.",
+      "answerChars": 185
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "roofer open now Culver City, CA",
+      "askedAt": "2026-09-15T10:37:47.880Z",
+      "ok": true,
+      "screenshot": "screenshots/culver-city-roofing-specialists_perplexity_q7_2026-09-15.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was returned; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 222
+    }
+  ]
+}
