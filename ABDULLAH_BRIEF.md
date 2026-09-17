@@ -138,6 +138,10 @@ That's the entire task. No copy rewrite, no new pages.
 From the mission brief, section 05 (page 6). Ignoring any of these breaks the client-services separation Chosen paid to establish:
 
 - **Never touch the E4L School sub-account.** No reads, no writes. If any action would occur outside E4L Services, stop and ask.
+  - *One exception, and it isn't yours:* Chosen asked (2026-09-10 and 2026-09-17) for a
+    weekly email report across **both** sub-accounts. `voice-ai-demo-builder/src/email-report.js`
+    reads the School sub-account for that — reads only, no writes, and it's the only
+    thing that does. This does not change anything for you.
 - **Tagline wall:** all client-facing copy says **"AI Marketing Made Easy."** Never **"Everybody Eats"** — that is student-side only.
 - **No promised results.** Leak figures are directional estimates. Every asset that shows a number carries a disclaimer.
 - **Don't redesign the scorecard page.** HTML is final and tested. Only deployment-time edits: `WEBHOOK_URL`, calendar link, domain.

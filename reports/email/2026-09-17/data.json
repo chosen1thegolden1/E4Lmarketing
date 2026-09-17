@@ -1,0 +1,376 @@
+[
+  {
+    "side": "Students (school)",
+    "locationId": "zSBqmFrgOtGwd4ALyIsD",
+    "window": {
+      "since": "2026-09-10T06:20:23.356Z",
+      "until": "2026-09-17T06:20:23.356Z",
+      "days": 7
+    },
+    "gaps": [
+      "Opens and clicks are NOT in these numbers: the per-message status field only records delivery. Bulk-campaign opens/clicks need the email-stats scope; workflow-email opens are UI-only."
+    ],
+    "hygiene": [
+      "Paused campaign still holding 1227 queued contacts: \"Feb 4th - The day you stop trading time for money\" (2026-01-28)",
+      "Pipeline \"Chris Power dialer\": source is split by casing — \"11 Digital Careers - Sales Funnel\" vs \"11 digital careers - sales funnel\" — attribution counts are being divided.",
+      "Pipeline \"E4L\": 3 opportunities sit in a paid stage with $0 recorded — revenue from email can't be reported until values are entered.",
+      "Pipeline \"E4L\": 338 of 367 (92.1%) still at \"New Lead (Ebook/ads/etc)\" — the pipeline isn't being worked, so stage-based conversion will read as zero.",
+      "Pipeline \"E4L\": source is split by casing — \"11 Digital Careers - Sales Funnel\" vs \"11 digital careers - sales funnel\" — attribution counts are being divided.",
+      "Pipeline \"E4L\": source is split by casing — \"Xbox to Executive - Optin Form\" vs \"xbox to executive - optin form\" — attribution counts are being divided."
+    ],
+    "locationName": "Eat 4 Life Students",
+    "campaigns": [],
+    "workflowEmails": [
+      {
+        "subject": "You already have the obsession",
+        "source": "workflow",
+        "sent": 35,
+        "byStatus": {
+          "delivered": 35
+        },
+        "delivered": 35,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The 4-week AI implementation plan every startup needs",
+        "source": "workflow",
+        "sent": 27,
+        "byStatus": {
+          "delivered": 27
+        },
+        "delivered": 27,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Your competition is asleep",
+        "source": "workflow",
+        "sent": 12,
+        "byStatus": {
+          "delivered": 12
+        },
+        "delivered": 12,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "You don't need more hours. You need better leverage.",
+        "source": "workflow",
+        "sent": 12,
+        "byStatus": {
+          "delivered": 12
+        },
+        "delivered": 12,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Entrepreneurs are basically gamers",
+        "source": "workflow",
+        "sent": 12,
+        "byStatus": {
+          "delivered": 12
+        },
+        "delivered": 12,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "This isn't about money",
+        "source": "workflow",
+        "sent": 11,
+        "byStatus": {
+          "delivered": 11
+        },
+        "delivered": 11,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Your first client is built, not found",
+        "source": "workflow",
+        "sent": 7,
+        "byStatus": {
+          "delivered": 7
+        },
+        "delivered": 7,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The job path is outdated",
+        "source": "workflow",
+        "sent": 7,
+        "byStatus": {
+          "delivered": 7
+        },
+        "delivered": 7,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "You already know how to win",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Money is feedback",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Hiding is keeping you broke",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "I work 4 hours a day and make more than I did working 60",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The call that changes everything",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Your circle is lowering your stats",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The thing nobody tells you about New Year's goals (and what to do instead)",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Broke clients cost the most",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "You only need 2 clients",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Why 'rise and grind' is a losing strategy in 2026",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "This is where most people lose",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Stop memorizing. Start leveraging.",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Rich people are lazy",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      }
+    ],
+    "workflowEmailsTotal": 145,
+    "hasEngagement": false,
+    "appointments": [],
+    "appointmentsTotal": 0,
+    "forms": [],
+    "formsTotal": 0,
+    "formsKnown": [
+      "Voice AI Demo Request",
+      "Free Eat 4 Life Training Sign Up ",
+      "Event Marketing",
+      "V2 - A2P Compliant Optin Form ",
+      "Xbox to Executive - Optin Form",
+      "11 Digital Careers - Sales Funnel"
+    ],
+    "pipelines": [
+      {
+        "name": "Chris Power dialer",
+        "total": 1000,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": []
+      },
+      {
+        "name": "E4L",
+        "total": 367,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": [
+          "Paid Ebook -X-box- Purchased",
+          "Paid Ebook -0-880- Purchased (upsell)",
+          "Course Purchased",
+          "Coaching Enrolled"
+        ]
+      },
+      {
+        "name": "E4L Students",
+        "total": 0,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": [
+          "Closed"
+        ]
+      },
+      {
+        "name": "Wilbert Power dialer",
+        "total": 1000,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": []
+      }
+    ]
+  },
+  {
+    "side": "Agency (E4L Services)",
+    "locationName": "cVjZYdYSOnOs4rZPrzcs",
+    "unavailable": "no API token configured for this sub-account"
+  }
+]

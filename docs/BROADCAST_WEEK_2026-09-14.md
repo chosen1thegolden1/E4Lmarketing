@@ -66,6 +66,19 @@ that email can go out.
 | Book a call (agency CTA) | `https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call` |
 | From Xbox to Executive (student CTA) | `https://joineat4life.com/xboxtoexec` |
 
+**Every link carries UTM tags, or the weekly report can't see it.** The report
+attributes purchases and bookings to email through `utm_source=email` on the opportunity.
+No UTM, no attribution — the sale happens and the email gets no credit. So every URL in a
+marker gets this appended before it ships:
+
+```
+?utm_source=email&utm_medium=<agency|student>&utm_campaign=<email id, e.g. S1-2026-09-14>
+```
+
+The book link becomes `https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S1-2026-09-14`.
+Whoever formats the doc adds these; Daniel and Sammy also turn on GHL's own
+"UTM tracking" toggle on every bulk send so the click itself is tagged too.
+
 The originals in the appendix keep Chosen's own `[INSERT ...]` placeholders — they're
 reference copy, not send copy, so they stay exactly as he wrote them.
 

@@ -10,7 +10,8 @@
     "setup-location": "node src/setup-location.js",
     "setup-cs": "node src/setup-cs.js",
     "setup-outreach": "node src/setup-outreach.js",
-    "leads": "node src/leads-cli.js"
+    "leads": "node src/leads-cli.js",
+    "email-report": "node src/email-report.js"
   },
   "engines": {
     "node": ">=18"

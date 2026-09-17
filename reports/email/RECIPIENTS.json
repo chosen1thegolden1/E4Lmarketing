@@ -1,0 +1,11 @@
+{
+  "_comment": "Who gets the Monday email report. Add Sammy and Daniel here once their addresses are confirmed — one line each.",
+  "from": "chosen1@gsgagency.com",
+  "to": ["chosen1@gsgagency.com"],
+  "pending": {
+    "Sammy": "email address not yet provided",
+    "Daniel": "email address not yet provided"
+  },
+  "humanInTheLoop": { "name": "Zion", "slackUserId": "U031UDVQ46N" },
+  "schedule": "Mondays 7:00 AM Pacific (0 14 * * 1 UTC)"
+}
