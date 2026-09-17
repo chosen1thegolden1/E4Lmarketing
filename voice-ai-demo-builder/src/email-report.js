@@ -16,7 +16,7 @@
 // Falls back to GHL_API_TOKEN / GHL_LOCATION_ID for whichever side that ID is.
 import fs from 'node:fs';
 import path from 'node:path';
-import { renderHtml, parseNote } from './email-report-html.js';
+import { renderHtml, renderArtifact, parseNote } from './email-report-html.js';
 
 const BASE = 'https://services.leadconnectorhq.com';
 const STUDENTS_ID = 'zSBqmFrgOtGwd4ALyIsD';
@@ -222,5 +222,6 @@ const notePath = path.join(dir, 'note.md');
 const note = parseNote(fs.existsSync(notePath) ? fs.readFileSync(notePath, 'utf8') : '');
 const win = results.find(r => r.window)?.window || { since: SINCE.toISOString(), until: UNTIL.toISOString() };
 fs.writeFileSync(path.join(dir, 'report.html'), renderHtml(results, note, win));
+fs.writeFileSync(path.join(dir, 'report.artifact.html'), renderArtifact(results, note, win));
 if (!RENDER_ONLY) process.stdout.write(fs.readFileSync(path.join(dir, 'report.md'), 'utf8'));
-process.stderr.write(`\nwrote ${dir}/{data.json,report.md,report.html}${fs.existsSync(notePath) ? '' : '  (no note.md yet)'}\n`);
+process.stderr.write(`\nwrote ${dir}/{data.json,report.md,report.html,report.artifact.html}${fs.existsSync(notePath) ? '' : '  (no note.md yet)'}\n`);

@@ -1,6 +1,6 @@
 {
   "_comment": "Who gets the Monday report, and how. Delivery is a PDF in Google Drive + a Slack DM with the note inline and the PDF link. Email is the fallback if Slack is unavailable.",
-  "delivery": "slack",
+  "delivery": "slack + artifact link (option B, 2026-09-17)",
   "slack": {
     "Chosen": "U0316M6J5MM",
     "Sammy":  "U0C082R2RT3",
@@ -11,6 +11,5 @@
     "to": ["chosen1@gsgagency.com", "ojoomoniyidamilola@gmail.com", "fajuyidaniel4@gmail.com"]
   },
   "humanInTheLoop": { "name": "Zion", "slackUserId": "U031UDVQ46N" },
-  "schedule": "Mondays 7:00 AM Pacific (0 14 * * 1 UTC)",
-  "driveFolder": "E4L Email Reports"
+  "schedule": "Mondays 7:00 AM Pacific (0 14 * * 1 UTC)"
 }

@@ -57,7 +57,7 @@ function subjectTable(side) {
   const body = shown.map((w, i) => `<tr style="background:${i % 2 ? '#f6f5f2' : '#ffffff'}">${td(w.subject, false)}${td(w.sent)}${td(w.delivered)}${eng ? td(w.opened) + td(w.clicked) + td(w.openRate + '%') + td(w.clickRate + '%') : ''}${td(w.bounced)}</tr>`).join('');
   const more = rest > 0 ? `<p style="font:12px ${FONT};color:${INK2};margin:8px 0 0 0">…and ${rest} more subject line${rest > 1 ? 's' : ''} with fewer sends. Full list in the archive.</p>` : '';
   const gap = !eng && rows.length ? `<p style="font:13px ${FONT};color:${INK2};margin:10px 0 0 0;padding:10px 12px;background:#f6f5f2;border-radius:6px">ⓘ&nbsp; <b>Opens and clicks aren't in this table.</b> GHL's per-message status only records delivery. They appear once the token has the email-stats scope.</p>` : '';
-  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse"><tr>${head}</tr>${body}</table>${more}${gap}`;
+  return `<div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;min-width:480px"><tr>${head}</tr>${body}</table></div>${more}${gap}`;
 }
 
 function h2(t) { return `<h2 style="font:700 18px ${FONT};color:${INK};margin:28px 0 12px 0;padding:0 0 6px 0;border-bottom:1px solid ${LINE}">${esc(t)}</h2>`; }
@@ -85,13 +85,22 @@ function sideBlock(s) {
   return html;
 }
 
+// The claude.ai Artifact tool wraps content in its own <html>/<body>, so the
+// Monday page is the same markup minus the document shell, plus a <title>.
+export function renderArtifact(sides, note, win) {
+  const full = renderHtml(sides, note, win);
+  const inner = full.slice(full.indexOf('<table role="presentation" width="100%"'), full.lastIndexOf('</body>'));
+  const d = s => new Date(s).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  return `<title>E4L Email Report ${d(win.since)}–${d(win.until)}</title>\n<style>body{background:${SURF};margin:0}</style>\n` + inner;
+}
+
 export function renderHtml(sides, note, { since, until }) {
   const d = s => new Date(s).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   const noteHtml = (note.working.length || note.notWorking.length || note.change.length)
     ? callout('✅', 'What worked', GOOD, note.working) + callout('⛔', "What didn't", CRIT, note.notWorking) + callout('→', 'Change this week', ACCENT, note.change)
     : `<p style="font:14px ${FONT};color:${INK2}">Note not written for this week.</p>`;
   return `<!doctype html><html><body style="margin:0;padding:0;background:${SURF};-webkit-print-color-adjust:exact;print-color-adjust:exact">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${SURF}"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${SURF}"><tr><td align="center" style="padding-block:24px;padding-inline:16px">
 <table role="presentation" width="640" cellpadding="0" cellspacing="0" style="max-width:640px;width:100%">
   <tr><td style="background:#1a1a19;border-radius:8px 8px 0 0;padding:22px 26px">
     <div style="font:600 11px/1 ${FONT};letter-spacing:.1em;text-transform:uppercase;color:#c3c2b7">Eat 4 Life · weekly email report</div>

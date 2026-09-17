@@ -23,18 +23,17 @@ end to end without waiting on anyone; use Zion only where the steps below say to
    a phone.
 
 3. Run `node src/email-report.js --render-only --out ../reports/email` (from
-   `voice-ai-demo-builder/`). That folds `note.md` into `report.html`. Then render the
-   PDF:
+   `voice-ai-demo-builder/`). That folds `note.md` into `report.html` and writes
+   `report.artifact.html`. Then render the PDF for the archive:
    `PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers npx --no-install playwright pdf --paper-format Letter file://$PWD/../reports/email/<today>/report.html ../reports/email/<today>/report.pdf`
 
-4. Upload `report.pdf` to Google Drive with the Drive tool (base64, mimeType
-   `application/pdf`, title `E4L email report — <Monday date>.pdf`, into the folder
-   named in `RECIPIENTS.json` → `driveFolder`; create it if missing). Share it so
-   anyone in the org with the link can view. Then DM each Slack user in
-   `RECIPIENTS.json` → `slack` with: the three note sections written out (short —
-   this is read on a phone), then the Drive link to the PDF on its own line. One DM
-   each, not a group message. If Slack is unavailable, fall back to email:
-   `htmlBody` = `report.html`, `body` = `report.md`, recipients from the `email` block.
+4. Publish `reports/email/<today>/report.artifact.html` with the Artifact tool
+   (favicon 📊, description "Weekly E4L email performance — <Monday date>"). Then DM each
+   Slack user in `RECIPIENTS.json` → `slack` with: the three note sections written out
+   (short — this is read on a phone), then the artifact link on its own line. One DM
+   each, not a group message. The PDF stays in the repo archive; it does not travel.
+   If Slack is unavailable, fall back to email: `htmlBody` = `report.html`, `body` =
+   `report.md`, recipients from the `email` block.
 
 5. If `RECIPIENTS.json` still lists anyone under `pending`, or `report.md` shows a side
    as "Not pulled", DM Zion once with exactly what's missing (an email address, a token)
