@@ -7,6 +7,8 @@
 // note on top of this — this file only collects.
 //
 //   node src/email-report.js [--days 7] [--out ../reports/email]
+//   node src/email-report.js --render-only [--date YYYY-MM-DD]   re-render html from
+//       an existing data.json + note.md without touching the API
 //
 // Tokens per side (each optional — a missing side is reported, not fatal):
 //   GHL_STUDENTS_TOKEN / GHL_STUDENTS_LOCATION   Eat 4 Life Students (school)
@@ -14,6 +16,7 @@
 // Falls back to GHL_API_TOKEN / GHL_LOCATION_ID for whichever side that ID is.
 import fs from 'node:fs';
 import path from 'node:path';
+import { renderHtml, parseNote } from './email-report-html.js';
 
 const BASE = 'https://services.leadconnectorhq.com';
 const STUDENTS_ID = 'zSBqmFrgOtGwd4ALyIsD';
@@ -195,17 +198,29 @@ const sidesCfg = [
 ];
 for (const c of sidesCfg) if (!c.token && process.env.GHL_API_TOKEN && process.env.GHL_LOCATION_ID === c.loc) c.token = process.env.GHL_API_TOKEN;
 
-const results = [];
-for (const c of sidesCfg) {
-  if (!c.token) { results.push({ side: c.side, locationName: c.loc, unavailable: 'no API token configured for this sub-account' }); continue; }
-  process.stderr.write(`pulling ${c.side}…\n`);
-  results.push(await pullSide(c.side, c.token, c.loc));
-}
-const stamp = UNTIL.toISOString().slice(0, 10);
+const RENDER_ONLY = args.includes('--render-only');
+const stamp = flag('date', UNTIL.toISOString().slice(0, 10));
 const dir = path.join(OUT, stamp);
 fs.mkdirSync(dir, { recursive: true });
-fs.writeFileSync(path.join(dir, 'data.json'), JSON.stringify(results, null, 2));
-const md = render(results);
-fs.writeFileSync(path.join(dir, 'report.md'), md);
-process.stdout.write(md);
-process.stderr.write(`\nwrote ${dir}/{data.json,report.md}\n`);
+
+let results;
+if (RENDER_ONLY) {
+  results = JSON.parse(fs.readFileSync(path.join(dir, 'data.json'), 'utf8'));
+} else {
+  results = [];
+  for (const c of sidesCfg) {
+    if (!c.token) { results.push({ side: c.side, locationName: c.loc, unavailable: 'no API token configured for this sub-account' }); continue; }
+    process.stderr.write(`pulling ${c.side}…\n`);
+    results.push(await pullSide(c.side, c.token, c.loc));
+  }
+  fs.writeFileSync(path.join(dir, 'data.json'), JSON.stringify(results, null, 2));
+  fs.writeFileSync(path.join(dir, 'report.md'), render(results));
+}
+// note.md is written by the Monday session after reading report.md; the html
+// is the thing that actually gets emailed.
+const notePath = path.join(dir, 'note.md');
+const note = parseNote(fs.existsSync(notePath) ? fs.readFileSync(notePath, 'utf8') : '');
+const win = results.find(r => r.window)?.window || { since: SINCE.toISOString(), until: UNTIL.toISOString() };
+fs.writeFileSync(path.join(dir, 'report.html'), renderHtml(results, note, win));
+if (!RENDER_ONLY) process.stdout.write(fs.readFileSync(path.join(dir, 'report.md'), 'utf8'));
+process.stderr.write(`\nwrote ${dir}/{data.json,report.md,report.html}${fs.existsSync(notePath) ? '' : '  (no note.md yet)'}\n`);

@@ -14,21 +14,32 @@ end to end without waiting on anyone; use Zion only where the steps below say to
    writes `reports/email/<today>/report.md` and `data.json`. If it exits non-zero, DM
    Zion (Slack `U031UDVQ46N`) with the error and stop — do not send a broken report.
 
-2. Read `report.md` and last week's report if it exists. Write a short note on top, in
-   plain language, three parts: **what worked** (name the specific subject lines /
-   forms / calendars with the numbers), **what didn't** (same), and **one thing to
-   change this week**. Compare to last week where you can. Never invent a number that
-   isn't in the file. If opens/clicks are absent, say so once and don't pretend a 0 is
-   a 0%.
+2. Read `report.md` and last week's report if it exists. Write
+   `reports/email/<today>/note.md` with exactly three headings — `## What worked`,
+   `## What didn't`, `## Change this week` — and bullets under each. Name the specific
+   subject lines / forms / calendars with their numbers. Compare to last week where you
+   can. Never invent a number that isn't in the file. If opens/clicks are absent, say so
+   once and don't pretend a 0 is a 0%. Two to four bullets per heading; this is read on
+   a phone.
 
-3. Send it by email using the Gmail tool. `from` and `to` are in
-   `reports/email/RECIPIENTS.json`. Subject: `E4L email report — week of <Monday date>`.
-   Body: your note first, then the report. Plain text is fine.
+3. Run `node src/email-report.js --render-only --out ../reports/email` (from
+   `voice-ai-demo-builder/`). That folds `note.md` into `report.html`. Then render the
+   PDF:
+   `PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers npx --no-install playwright pdf --paper-format Letter file://$PWD/../reports/email/<today>/report.html ../reports/email/<today>/report.pdf`
 
-4. If `RECIPIENTS.json` still lists anyone under `pending`, or `report.md` shows a side
+4. Upload `report.pdf` to Google Drive with the Drive tool (base64, mimeType
+   `application/pdf`, title `E4L email report — <Monday date>.pdf`, into the folder
+   named in `RECIPIENTS.json` → `driveFolder`; create it if missing). Share it so
+   anyone in the org with the link can view. Then DM each Slack user in
+   `RECIPIENTS.json` → `slack` with: the three note sections written out (short —
+   this is read on a phone), then the Drive link to the PDF on its own line. One DM
+   each, not a group message. If Slack is unavailable, fall back to email:
+   `htmlBody` = `report.html`, `body` = `report.md`, recipients from the `email` block.
+
+5. If `RECIPIENTS.json` still lists anyone under `pending`, or `report.md` shows a side
    as "Not pulled", DM Zion once with exactly what's missing (an email address, a token)
    so a human can chase it. Don't repeat the same DM two weeks in a row — check the
    previous week's report folder for a `zion-notified.txt` marker and write one when
    you notify.
 
-5. Commit the new `reports/email/<today>/` folder and push. That folder is the archive.
+6. Commit the new `reports/email/<today>/` folder and push. That folder is the archive.
