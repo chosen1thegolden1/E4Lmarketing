@@ -2,6 +2,32 @@
 
 Two lists, two businesses, one rhythm each. Both run off the same wheel.
 
+## The production week (who does what, which day)
+
+The full operating system is `docs/EMAIL_OPERATING_CADENCE.md` in the repo. The short
+version, because it changes how you write:
+
+**The batch you are writing is next week's, not this week's.** Claude writes Tuesday,
+Zion QAs Wednesday, Chosen greenlights Thursday, Daniel and Sammy load Friday, and the
+first email sends the following Monday. So a batch written Tuesday has its Monday
+email land six days later.
+
+That gap is the single biggest trap in this job. Write every dated claim so it is
+still true on its send date, not on the day you write it:
+
+- Say "last week" only if it will still be last week when it sends. Count the days.
+- Never write "today", "yesterday", or "this morning" in a broadcast.
+- If a thing is dying on a date, put the send day before the date and say so in the
+  doc header, loud. A "tomorrow" email that sends after the deadline is a credibility
+  fire you can't put out.
+- Friday's step re-verifies every dated claim before anything is scheduled. Write the
+  notes so that check is possible: name the source and the date it published.
+
+When you finish a batch, run `node scripts/build-emails.js docs/BROADCAST_WEEK_<date>.md`.
+It renders each email to paste-ready HTML with live links and fails the build on a
+missing UTM, a crossed list, a broken link marker, or an agency email that opens with
+"Yo". If the builder fails, the batch is not done.
+
 ## Weekly rhythm (broadcasts)
 
 **Floor: Monday / Wednesday / Friday, both lists, every week.** Held for months. Add

@@ -94,6 +94,10 @@ Speaker, not the Teacher, not the Used Car Salesman.
    P.S.
 9. **Run the fourteen checks** in `jfsi.md` before it goes in the doc. If it passes
    ten, send it. Good-enough-and-sent beats perfect-and-drafted.
+10. **Build it.** `node scripts/build-emails.js docs/BROADCAST_WEEK_<date>.md`. It
+   renders every email to paste-ready HTML with the links already live and fails on a
+   missing UTM, a crossed list, an unreadable link marker, or an agency email that
+   opens with "Yo". A batch that doesn't build isn't finished — it's a draft.
 
 ## Hard walls — these don't move
 
@@ -113,6 +117,10 @@ Speaker, not the Teacher, not the Used Car Salesman.
 - **Never invent a fact.** Every stat is dated and sourced under the email. Every story
   is true — Hollywood-ize the telling, never the events.
 - **Nothing sends from gsgagency.com.** That domain is still healing.
+- **Write for the send date, not today's date.** The batch you're writing sends
+  starting the *following* Monday — six days out. "Last week" has to still be last week
+  when it lands, and "today" and "tomorrow" never belong in a broadcast unless the send
+  day is pinned and stated in the doc header. See `cadence.md`.
 - **Every link carries UTMs and a `(LINK: …)` marker.** No marker, no attribution, and
   the Monday report can't see the sale. Format is in `assets/email-template.md`.
 
@@ -122,6 +130,14 @@ Deliver into the review doc format Zion and the formatter already use — see
 `assets/email-template.md`. Subject, preview text, body with `(LINK: url?utm…)` markers,
 a Notes line, a Source line. Batches go in `docs/BROADCAST_WEEK_<date>.md` and get
 published as the Google Doc.
+
+Then run the builder. It writes `docs/broadcasts/<date>/` — one HTML file per email
+with live links, a `SCHEDULE.md` with the send dates and the load checklist, and an
+`index.html` Zion scrolls to QA the whole week. That folder is what Daniel and Sammy
+paste from, so the batch isn't handed off until it exists.
+
+A standing batch is eight emails plus two bench. The bench exists so a claim that dies
+mid-week costs a swap, not a skipped send.
 
 When asked to *review* rather than write: score against the fourteen checks, name the
 segment and angle you think it's aimed at, and say which one thing would move clicks
