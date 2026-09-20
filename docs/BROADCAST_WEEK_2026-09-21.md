@@ -10,6 +10,17 @@ against taste.
 from last week and re-verified then. **Sora dies Thursday Sept 24** — A2 and B1 send
 Wednesday the 23rd or not at all.
 
+**Send week:** 2026-09-28
+
+⚠️ **This batch was displaced.** Chosen's call (Sept 20): the Sept 14 batch, the one Zion
+already formatted, is what sends the week of Sept 21. This one moves to the week of
+Sept 28 — and it does not survive the move intact. **A2 and B1 are dead**: their whole
+argument is that the Sora API closes Thursday Sept 24, which is four days before this
+batch's first send. They must be cut or replaced before anything here ships. A1's Muse
+angle will also be three weeks old by Sept 28. Treat this file as a starting point for
+Tuesday's write, not a finished batch. A-SUN and S-SUN carry no dated claims and are
+reusable as-is.
+
 **Send order:** Mon / Wed / Fri, both lists — plus **Sunday**, one each, short and
 direct. Sunday is the highest-sales day: it's when people decide to change. Four a
 week is the new floor.

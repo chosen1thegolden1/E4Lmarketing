@@ -4,11 +4,17 @@ Three agency, three student. Value-first, no pitch pressure. These run *alongsid
 the `CS-Cold-Open` sequence — different audience, different job. Cold outreach earns
 a first reply; these keep a list that already knows Sebastian warm.
 
-**Research date: 2026-09-10.** Every fact below is dated and sourced. Anything with a
-deadline in it (Sora, Sept 24) goes stale fast — check before sending.
+**Send week:** 2026-09-21
 
-**Send order:** Mon / Wed / Fri. Agency and student go out the same day, same theme
-where it fits, different framing.
+**Research date: 2026-09-10. Re-dated for a Sept 21 send on 2026-09-20.** This batch
+was written for the week of Sept 14 and held. Chosen's call (Sept 20): these are the
+ones Zion already formatted, so these are the ones that go out. Every relative date was
+re-checked against the new send dates and rewritten where it had gone wrong — the
+changes are listed at the bottom under "Re-dating for the Sept 21 send."
+
+**Send order:** Mon Sept 21 / Wed Sept 23 / Fri Sept 25. Agency and student go out the
+same day, same theme where it fits, different framing. The Sunday slot is empty — this
+batch predates the Sunday send.
 
 **Review doc (the version Chosen + Zion read):**
 https://docs.google.com/document/d/1GCMSIAq9SqPstz50pi03nQP5OB9oAcCVM0wouJA3E6c/edit
@@ -132,9 +138,9 @@ scheduled — there if those topics should run both ways, or as swaps for S2/S3.
 **Preview text:** And you weren't in the room for it.
 
 ```
-Yo [First Name],
+Hey [First Name],
 
-Meta just dropped something called Muse. It's a personal AI
+Meta dropped something called Muse. It's a personal AI
 assistant — and here's the part that matters: it lives inside
 WhatsApp. 👀
 
@@ -152,7 +158,7 @@ already have open.
 Your customer doesn't Google "best roofer near me" anymore. They
 ask. And they get ONE answer, not ten blue links.
 
-Read the launch → (LINK: https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/)
+Read the launch → (LINK: https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/?utm_source=email&utm_medium=agency&utm_campaign=A1-2026-09-14)
 
 2. One answer means one winner.
 Ten search results meant ten chances. One AI answer means one
@@ -170,12 +176,12 @@ See if you come up. See who does instead.
 That takes 4 minutes and it's the most useful 4 minutes you'll
 spend this week. Most owners have never once checked.
 
-The part that gets me: this isn't coming. It shipped last Tuesday.
+The part that gets me: this isn't coming. It shipped two weeks ago.
 
 If you run the test and don't like the answer, that's fixable —
 but only if somebody's actually working on it.
 
-👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call)
+👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A1-2026-09-14)
 
 P.S. I gotta question: when's the last time you asked an AI about
 your OWN business?
@@ -192,10 +198,10 @@ Eat 4 Life
 
 **Subject:** A tool 1000s of businesses use dies Sept 24
 
-**Preview text:** Two weeks. Then it's gone.
+**Preview text:** Tomorrow. Then it's gone.
 
 ```
-Yo [First Name],
+Hey [First Name],
 
 OpenAI is shutting down the Sora API on September 24th.
 
@@ -204,19 +210,19 @@ here's why I'm writing about it anyway. 👇
 
 1. People built real businesses on that thing.
 Video pipelines. Client deliverables. Whole content operations.
-Two weeks from now the plug comes out and everything downstream
-of it breaks.
+Tomorrow the plug comes out and everything downstream of it
+breaks.
 
 Not because anybody did anything wrong. The tool just... ended.
 
-See the shutdown notice → (LINK: https://developers.openai.com/api/docs/deprecations)
+See the shutdown notice → (LINK: https://developers.openai.com/api/docs/deprecations?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-09-14)
 
 2. Everybody's scrambling to the same three doors.
 Google Veo, Runway, Kling. They all work. People will migrate,
 rebuild, and get on with it.
 
-The migration isn't the expensive part. The two weeks of nobody
-knowing what happens next — that's the expensive part.
+The migration isn't the expensive part. The stretch where nobody
+knows what happens next — that's the expensive part.
 
 3. Here's the actual lesson, and it's not about video.
 Own the asset. Rent the tool.
@@ -228,13 +234,13 @@ The software that turns it into marketing? Rented. Always.
 Pick the ones that are easy to walk away from.
 
 Quick gut-check: if the tool you rely on most announced it was
-closing in 14 days, what would break?
+closing tomorrow, what would break?
 
 If you don't know the answer, that IS the answer. 😅
 
 Worth 20 minutes to map what you own versus what you're renting.
 
-👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call)
+👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-09-14)
 
 P.S. I gotta question: what's the one tool your business genuinely
 could not run without?
@@ -255,7 +261,7 @@ Background: https://help.openai.com/en/articles/20001152-what-to-know-about-the-
 **Preview text:** And it's working. That's the problem.
 
 ```
-Yo [First Name],
+Hey [First Name],
 
 Fresh numbers on small business + AI, and they cut both ways.
 
@@ -270,7 +276,7 @@ using it: 35%.
 That's a big enough gap that "I'll get to it eventually" is
 costing real money.
 
-See the report → (LINK: https://www.constantcontact.com/blog/small-business-now-report/)
+See the report → (LINK: https://www.constantcontact.com/blog/small-business-now-report/?utm_source=email&utm_medium=agency&utm_campaign=A3-2026-09-14)
 
 3. But here's the trap nobody's talking about.
 If half the market is generating emails from the same handful
@@ -292,7 +298,7 @@ whole play. 🎯
 The businesses winning right now aren't the ones using the most
 AI. They're the ones that still sound like a person.
 
-👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call)
+👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A3-2026-09-14)
 
 P.S. I gotta question: could a customer tell your last marketing
 email from your competitor's?
@@ -326,7 +332,7 @@ One number first, then I'ma show you something.
 More than a third of entry-level jobs now ask for AI skills.
 A year ago, almost none did.
 
-See the report → (LINK: https://www.naceweb.org/job-market/trends-and-predictions/demand-for-ai-skills-in-entry-level-jobs-nearly-triples-since-fall-2025)
+See the report → (LINK: https://www.naceweb.org/job-market/trends-and-predictions/demand-for-ai-skills-in-entry-level-jobs-nearly-triples-since-fall-2025?utm_source=email&utm_medium=student&utm_campaign=S1-2026-09-14)
 
 Here's what nobody tells you: "AI skills" doesn't mean coding.
 It doesn't mean a degree. It means you know how to ask for
@@ -392,7 +398,7 @@ That's the whole 90-day plan in From Xbox to Executive. I went
 from gaming to running a real company — the book lays out all
 five jobs, but it starts you on one.
 
-👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S1-2026-09-14)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -418,7 +424,7 @@ Yo [First Name],
 Meta put a free AI assistant called Muse inside WhatsApp. Same
 app you already text in. Nothing to download. 👀
 
-See what it does → (LINK: https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/)
+See what it does → (LINK: https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/?utm_source=email&utm_medium=student&utm_campaign=S2-2026-09-14)
 
 Most people gonna use it to settle arguments about basketball.
 
@@ -474,7 +480,7 @@ can't figure out why they're stuck.
 You just spotted the missing one. The book shows you how to be
 the person who fills it.
 
-👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S2-2026-09-14)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -490,7 +496,7 @@ let you?
 
 ## S3 — Friday
 
-**Subject:** They turned on a robot factory last week
+**Subject:** They turned on a robot factory this month
 
 **Preview text:** Not a movie. A real one.
 
@@ -498,12 +504,12 @@ let you?
 Yo [First Name],
 
 XPeng switched on a factory that builds humanoid robots. Real
-building. Robots walking off the line. Last week. 🤖
+building. Robots walking off the line. This month. 🤖
 
 Each hand has 21 different ways it can move. A real hand isn't
 far off that.
 
-See the build → (LINK: https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b)
+See the build → (LINK: https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b?utm_source=email&utm_medium=student&utm_campaign=S3-2026-09-14)
 
 I'm not telling you this so you go build robots. I'm telling
 you because of what it means for you.
@@ -553,7 +559,7 @@ From Xbox to Executive is the other half. Five jobs every
 business needs handled, which one to learn first, and how to
 get paid for it inside 90 days.
 
-👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S3-2026-09-14)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -586,7 +592,7 @@ OpenAI is shutting off Sora. It made AI videos. People built
 whole little businesses on it. On September 24th it stops
 working. 😵‍💫
 
-Read the notice → (LINK: https://developers.openai.com/api/docs/deprecations)
+Read the notice → (LINK: https://developers.openai.com/api/docs/deprecations?utm_source=email&utm_medium=student&utm_campaign=B1-2026-09-14)
 
 Sounds like bad news. It's actually the most useful lesson I
 can hand you right now.
@@ -642,7 +648,7 @@ the sale by itself. It's the reason the sale was easy.
 
 Apps come and go. That job doesn't.
 
-👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=B1-2026-09-14)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -671,7 +677,7 @@ Almost half of small businesses now use AI to write their
 emails. And it's working — they get better results than the
 ones who don't.
 
-See the report → (LINK: https://www.constantcontact.com/blog/small-business-now-report/)
+See the report → (LINK: https://www.constantcontact.com/blog/small-business-now-report/?utm_source=email&utm_medium=student&utm_campaign=B2-2026-09-14)
 
 But here's what nobody's saying out loud 👇
 
@@ -728,7 +734,7 @@ Honestly it's one of the easiest ones to sell, because almost
 nobody is doing it and the client sees the difference inside
 30 days.
 
-👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=B2-2026-09-14)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
@@ -942,3 +948,32 @@ Eat 4 Life
 
 P.S. I gotta question: If you could build your own game… what would it be?
 ```
+
+---
+
+## Re-dating for the Sept 21 send
+
+Written for the week of Sept 14, held, and sent the week of Sept 21 instead. Eleven days
+passed, so every relative date was re-checked against its source and its new send date.
+What changed:
+
+| Email | Was | Now | Why |
+|---|---|---|---|
+| A1 | "Meta just dropped" | "Meta dropped" | Muse shipped Sept 8. Thirteen days is not "just". |
+| A1 | "It shipped last Tuesday." | "It shipped two weeks ago." | Sept 8 was two Tuesdays before the Sept 21 send, not one. |
+| A2 | preview "Two weeks. Then it's gone." | "Tomorrow. Then it's gone." | Sends Wed Sept 23. The Sora API closes Thu Sept 24. |
+| A2 | "Two weeks from now the plug comes out" | "Tomorrow the plug comes out" | Same. |
+| A2 | "The two weeks of nobody knowing" | "The stretch where nobody knows" | That window had already passed. |
+| A2 | "closing in 14 days" | "closing tomorrow" | Same. |
+| S3 | subject "...last week" | "...this month" | XPeng switched the line on Sept 8; S3 sends Sept 25. |
+| S3 | "Robots walking off the line. Last week." | "This month." | Same. |
+
+Also applied: the agency greeting is "Hey [First Name]," on A1, A2 and A3 (Chosen's call,
+Sept 20 — "Yo" is student-side only), and every link now carries its UTM tags, which the
+original draft left for whoever formatted the doc.
+
+A3, S1 and S2 carry no dated claims and went out as written.
+
+**A2 is the one to watch.** It sends Wednesday Sept 23 and its whole argument is that the
+Sora API closes the next day. After Thursday Sept 24 it is not late, it is wrong. If it
+slips past Wednesday, drop it — do not send it.

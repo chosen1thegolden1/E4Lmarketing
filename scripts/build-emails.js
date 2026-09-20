@@ -187,10 +187,19 @@ function sendDate(weekMonday, day) {
 function main() {
   const src = process.argv[2];
   if (!src) { console.error('usage: node scripts/build-emails.js docs/BROADCAST_WEEK_<YYYY-MM-DD>.md'); process.exit(2); }
-  const week = (path.basename(src).match(/(\d{4}-\d{2}-\d{2})/) || [])[1];
-  if (!week) { console.error('filename must carry the week-of Monday date'); process.exit(2); }
-
   const md = fs.readFileSync(src, 'utf8');
+
+  // A batch normally sends the week its filename names. A batch that got held
+  // sends a later week, and every send date has to follow it there, so an
+  // explicit `**Send week:** YYYY-MM-DD` in the header overrides the filename.
+  const declared = (md.match(/^\*\*Send week:\*\*\s*(\d{4}-\d{2}-\d{2})\s*$/m) || [])[1];
+  const week = declared || (path.basename(src).match(/(\d{4}-\d{2}-\d{2})/) || [])[1];
+  if (!week) { console.error('filename must carry the week-of Monday date'); process.exit(2); }
+  if (new Date(`${week}T12:00:00Z`).getUTCDay() !== 1) {
+    console.error(`send week ${week} is not a Monday`); process.exit(2);
+  }
+  if (declared) console.log(`send week ${week} (declared in the header, not the filename)`);
+
   const emails = parse(md, week);
   if (!emails.length) { console.error('no emails found — has the doc format changed?'); process.exit(2); }
 
