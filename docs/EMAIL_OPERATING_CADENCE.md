@@ -18,9 +18,10 @@ time Monday's email lands, next Monday's is already being written.
 |---|---|---|---|
 | **Mon** | A1 agency · S1 student | Weekly performance report, 7:00 AM PT | Claude → Slack |
 | **Tue** | — | Write all 8. Push, build HTML, open the review doc | Claude, 6:00 AM PT |
-| **Wed** | A2 agency · S2 student | Review and QA the draft. Comments only | **Zion**, by 5:00 PM PT |
-| **Thu** | — | Greenlight or notes. Silence counts as yes | **Chosen**, by 5:00 PM PT |
-| **Fri** | A3 agency · S3 student | Load and schedule all 8 in GHL | **Daniel** (agency) · **Sammy** (student), by 5:00 PM PT |
+| **Wed** | A2 agency · S2 student | Edit and format the draft | **Zion**, by 5:00 PM PT |
+| **Thu** | — | Approve. Then Zion routes the approved batch on | **Chosen**, by 5:00 PM PT |
+| **Fri** | A3 agency · S3 student | Load and schedule all 8 in GHL | **Abdullah**, by 5:00 PM PT |
+| **Fri** | | Visibility brief: what's going out and what it sells | Claude → **Daniel** + **Sammy** |
 | **Sat** | — | — | — |
 | **Sun** | A-SUN agency · S-SUN student | — | — |
 
@@ -41,45 +42,87 @@ fact in a cold email is worse than no email.
 
 ---
 
-## What each owner actually does
+## The five roles
+
+The chain is short on purpose. One person writes, one edits, one approves, one loads.
+Two more watch the results. Nobody does two of those jobs at once.
+
+| Role | Who | What it means |
+|---|---|---|
+| **Writer** | Claude | Tuesday. Researches, writes eight emails plus two bench, builds the HTML, pushes. |
+| **Editor** | Zion | Wednesday. Edits and formats. After Chosen approves, Zion is the one who hands the batch to Abdullah. |
+| **Approver** | Chosen | Thursday. Kills or keeps. Silence by 5 PM counts as a yes. |
+| **Loader** | Abdullah | Friday. Puts them into GHL and schedules them. Nobody else touches the builder. |
+| **Watchers** | Daniel (agency) · Sammy (student) | Standing visibility. Not a task. |
 
 ### Tuesday — Claude writes
 Runs the `e4l-email-sharpener` skill. Eight emails: four agency (A1, A2, A3, A-SUN),
-four student (S1, S2, S3, S-SUN). Each one names its reader, its angle, and the
-wheel spoke it sells. Every factual claim links to the primary source, never an
-aggregator. Then `node scripts/build-emails.js` turns the batch into paste-ready
-HTML with the links already live, pushes to the branch, and opens the review doc.
+four student (S1, S2, S3, S-SUN), plus two bench. Each one names its reader, its angle,
+and the offer it sells. Every factual claim links to the primary source, never an
+aggregator. Then `node scripts/build-emails.js` turns the batch into paste-ready HTML
+with the links already live, pushes to the branch, and opens the review doc.
 
-### Wednesday — Zion reviews
-Opens `docs/broadcasts/<week>/index.html` and the Google Doc. His job is QA, not
-construction: click every link, check every date, check the subject and preview
-match the table, flag anything that reads wrong. **He comments, he does not edit.**
-Copy changes go back through Claude so the skill's rules stay intact.
+### Wednesday — Zion edits
+He is the editor, not a proofreader. He fixes what's wrong in the copy, checks every
+link opens, checks every date still reads right, and checks the subject and preview
+match the schedule. He no longer hand-builds the links: the builder does that, so his
+time goes into the writing instead of the plumbing.
 
-Zion no longer hand-builds the links. That used to make one person the single point
-of failure for the whole week. The builder does it now, and his review is a safety
-net rather than a bottleneck.
+### Thursday — Chosen approves, then Zion routes
+Chosen reads the batch and kills or keeps. **Silence by 5 PM Pacific counts as a yes** —
+that rule exists so a busy week never becomes a missed week. Once it's approved, Zion
+sends the approved batch to Abdullah. That hand-off is Zion's job, not Claude's, and not
+Chosen's.
 
-### Thursday — Chosen greenlights
-Reads the batch, kills or keeps. Notes go in the doc as comments. **Silence by 5 PM
-Pacific counts as a yes** — that rule exists so a busy week never becomes a missed
-week. If something needs to change, say so Thursday, not Friday afternoon.
+### Friday — Abdullah loads
+Claude re-checks every dated claim in the morning and posts the go/no-go. Abdullah then
+pastes each email's HTML into the GHL builder, sets subject and preview text from
+`SCHEDULE.md`, and schedules each for 8:00 AM Pacific on its send date. Every load ends
+with a test send to himself: first name renders, unsubscribe works, every link opens.
 
-### Friday — Daniel and Sammy load
-Claude re-checks the dated claims in the morning and posts the go/no-go. Then Daniel
-takes the four agency emails and Sammy takes the four student emails, pastes the HTML
-into GHL, sets subject and preview text from `SCHEDULE.md`, and schedules each for
-8:00 AM Pacific on its send date.
+> ⚠️ **Abdullah's brief scopes him to E4L Services only** — "never touch the E4L School
+> sub-account, no reads, no writes." The student list lives in E4L School. So as written,
+> Abdullah can load the agency four and cannot load the student four. Either the wall
+> moves for this one job, or the student side needs a named loader. **Unresolved — see
+> the open question at the bottom of this doc.**
 
-Every load ends with a test send to yourself. First name renders, unsubscribe works,
-every link opens. Tick the checklist in `SCHEDULE.md`.
+### Daniel and Sammy — second pair of eyes, one sub-account each
+**Daniel covers E4L Services. Sammy covers E4L School.** Not just email: everything that
+runs inside their sub-account, and email is one of the things running inside it. Same
+shape as Jisan on social — they're accountable for whether the thing is working, so they
+have to be able to see it.
 
-### Monday — the report closes the loop
-The weekly report lands in Slack at 7 AM Pacific with what worked, what didn't, and
-one change for the week. That report is the input to Tuesday's writing. The loop is
-the system: write → send → measure → write better.
+Email reaches them two ways:
 
----
+1. **Friday:** next week's send schedule — dates, subject lines, and the offer each
+   email points at. Daniel gets the agency four, Sammy gets the student four.
+2. **Monday:** the performance report — sends, clicks, form submissions, bookings,
+   pipeline movement, and what changed from last week.
+
+Why the offer and not just the subject line: when a booking or a book order lands, they
+have to be able to say which email drove it. Every link carries UTM tags so the report
+can attribute it, but the person reading the report still needs to know that Wednesday's
+student email was selling the book and Wednesday's agency email was selling the call.
+Without that, the numbers are trivia.
+
+### Where Daniel and Sammy are headed
+Right now they read the schedule and watch the results. **After a couple of rounds, the
+format-and-link check moves to them** — Daniel checks the agency four, Sammy checks the
+student four, each inside the sub-account they already own. Zion keeps the copy edit.
+
+That's a deliberate split, not a demotion for anybody. Checking that a link opens and a
+merge tag renders is a job for the person who owns the account it runs in, because
+they're the one who'll see it break. Judging whether a sentence lands is a different
+skill, and that stays with the editor.
+
+The handover is ready when both have seen the schedule land twice, caught at least one
+real problem between them, and can open their own sub-account's email builder without
+being walked through it. Until then they're reading, not gating: **nothing waits on their
+sign-off**, and if a week ships without a word from either of them, that is the system
+working as designed.
+
+Once it moves, Wednesday becomes: Zion edits the copy, Daniel and Sammy check their own
+side's links and formatting, all three done by 5 PM.
 
 ## When somebody misses
 
@@ -87,9 +130,10 @@ The batch ships anyway. That is the rule everything else bends around.
 
 | Missed | What happens |
 |---|---|
-| Zion doesn't review by Thursday morning | Claude nudges once, then tells Chosen. The batch moves forward unreviewed — the HTML is already correct by construction. |
-| Chosen doesn't greenlight by Thursday 5 PM | Counts as a yes. Batch goes to Friday. |
-| Nothing is scheduled by Friday 5 PM | Claude DMs Daniel and Sammy, then escalates to Chosen. A Monday with nothing queued is the one real failure. |
+| Zion doesn't edit by Thursday morning | Claude nudges once, then tells Chosen. The batch moves forward unedited — the HTML is already correct by construction. |
+| Chosen doesn't approve by Thursday 5 PM | Counts as a yes. Batch goes to Friday. |
+| The batch never reaches Abdullah | Claude's Friday message goes to Abdullah directly as a backstop, and tells Chosen it went around Zion. |
+| Nothing is scheduled by Friday 5 PM | Claude checks GHL Friday evening and escalates to Chosen. A Monday with nothing queued is the one real failure. |
 | A dated claim died during the week | Friday's re-check pulls that email. Its bench replacement goes instead. That's what the bench is for. |
 
 ## Standing rules
@@ -148,3 +192,28 @@ The Monday report Routine has the same gap, and has had it since Sept 17.
 | Weekly reports | `reports/email/<Monday>/` |
 | Week of Sept 21 preview | https://claude.ai/artifact/RtK5yZCQ34N5ZzfQLJ2nuj |
 | Who gets the report | `reports/email/RECIPIENTS.json` |
+
+---
+
+## Open question — who loads the student side?
+
+Abdullah is the loader. His brief (`ABDULLAH_BRIEF.md`) scopes him to **E4L Services
+only** and says plainly: never touch the E4L School sub-account, no reads, no writes.
+The student list lives in E4L School. So as written he can load the agency four and not
+the student four.
+
+That wall was set deliberately, so it isn't Claude's to move. Two ways out:
+
+1. **Sammy loads the student side.** He already owns E4L School as his sub-account, so
+   this needs no new access and no change to Abdullah's brief. It does add a doing job
+   to someone whose role here is checking — worth naming rather than sliding into.
+2. **Widen Abdullah's scope** to cover loading broadcasts in E4L School, and amend his
+   brief so the wall carries a stated exception instead of being quietly ignored.
+
+Option 1 is the smaller change and the one the Friday routine assumes until told
+otherwise. Either way it needs Chosen's word, because both options alter a boundary he
+set on purpose.
+
+Until it's settled, the Friday routine sends the agency four to Abdullah and flags the
+student four to Chosen as unassigned. That is a real gap, not a formality: a week where
+nobody owns the student load is a week the student list hears nothing.

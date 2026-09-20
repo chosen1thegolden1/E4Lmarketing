@@ -1,21 +1,24 @@
 # Send schedule — week of 2026-09-21
 
 Built by `scripts/build-emails.js`. Every link below is already live in the HTML.
-Daniel loads the agency side, Sammy loads the student side.
+
+**Who does what:** Claude writes · Zion edits · Chosen approves · **Abdullah loads these
+into GHL** · Daniel is second eyes on E4L Services, Sammy on E4L School. They get the
+schedule and the offers so they can tie traffic and sales back to the sends.
 
 **Send from:** chosen@mail.e4lmarketingdemos.com — never gsgagency.com.
 **Send time:** 8:00 AM Pacific.
 **Merge tags:** first name `{{contact.first_name}}`, unsubscribe `{{unsubscribe_url}}`. Send yourself a
 test first — if either renders literally, fix it once in `scripts/build-emails.js`.
 
-| Send date | Day | Side | File | Subject | Preview text | Links |
+| Send date | Day | Side | File | Subject | Preview text | Sells |
 |---|---|---|---|---|---|---|
-| 2026-09-21 | Monday | agency | `A1.html` | Your customer asked an AI about you last week | And you weren't in the room for it. | 2 |
-| 2026-09-21 | Monday | student | `S1.html` | You could build somebody a website tonight | No coding. I'm serious. | 2 |
-| 2026-09-23 | Wednesday | agency | `A2.html` | A tool 1000s of businesses use dies Sept 24 | Tomorrow. Then it's gone. | 2 |
-| 2026-09-23 | Wednesday | student | `S2.html` | There's a free AI inside WhatsApp now | Same app your group chat is in. | 2 |
-| 2026-09-25 | Friday | agency | `A3.html` | 48% of your competitors are doing this now | And it's working. That's the problem. | 2 |
-| 2026-09-25 | Friday | student | `S3.html` | They turned on a robot factory this month | Not a movie. A real one. | 2 |
+| 2026-09-21 | Monday | agency | `A1.html` | Your customer asked an AI about you last week | And you weren't in the room for it. | Game Plan Call (agency front end) |
+| 2026-09-21 | Monday | student | `S1.html` | You could build somebody a website tonight | No coding. I'm serious. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-09-23 | Wednesday | agency | `A2.html` | A tool 1000s of businesses use dies Sept 24 | Tomorrow. Then it's gone. | Game Plan Call (agency front end) |
+| 2026-09-23 | Wednesday | student | `S2.html` | There's a free AI inside WhatsApp now | Same app your group chat is in. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-09-25 | Friday | agency | `A3.html` | 48% of your competitors are doing this now | And it's working. That's the problem. | Game Plan Call (agency front end) |
+| 2026-09-25 | Friday | student | `S3.html` | They turned on a robot factory this month | Not a movie. A real one. | From Xbox to Executive (book, free + $9.95 shipping) |
 
 ## Load checklist — tick each one
 

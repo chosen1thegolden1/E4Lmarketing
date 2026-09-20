@@ -26,6 +26,26 @@ const TAG_UNSUBSCRIBE = '{{unsubscribe_url}}';
 
 const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
+/**
+ * What each email is actually selling, read off its call-to-action link.
+ *
+ * Daniel and Sammy don't load these — they watch what the sends drive. That only
+ * works if they can see which offer each email points at, so the offer travels
+ * with the schedule instead of living in someone's head.
+ */
+const OFFERS = [
+  [/cs-game-plan-call/, 'Game Plan Call (agency front end)'],
+  [/joineat4life\.com\/xboxtoexec/, 'From Xbox to Executive (book, free + $9.95 shipping)'],
+];
+function offerFor(links, meta) {
+  for (const url of links) {
+    const hit = OFFERS.find(([re]) => re.test(url));
+    if (hit) return hit[1];
+  }
+  const spoke = (meta.match(/\*\*Spoke:\*\*\s*(.+?)\s*$/) || [])[1];
+  return spoke || 'No offer — relationship email';
+}
+
 const errors = [];
 const warnings = [];
 const fail = (id, msg) => errors.push(`${id}: ${msg}`);
@@ -170,6 +190,7 @@ function parse(md, week) {
 
     emails.push({
       id: h.id, key, side, day, bench, proposed, subject, preview, meta,
+      offer: offerFor(links, meta),
       bodyHtml: html.replace(/\[First Name\]/g, TAG_FIRST_NAME),
       linkCount: links.length, week,
     });
@@ -216,16 +237,19 @@ function main() {
   const schedule = `# Send schedule — week of ${week}
 
 Built by \`scripts/build-emails.js\`. Every link below is already live in the HTML.
-Daniel loads the agency side, Sammy loads the student side.
+
+**Who does what:** Claude writes · Zion edits · Chosen approves · **Abdullah loads these
+into GHL** · Daniel is second eyes on E4L Services, Sammy on E4L School. They get the
+schedule and the offers so they can tie traffic and sales back to the sends.
 
 **Send from:** ${FROM} — never gsgagency.com.
 **Send time:** 8:00 AM Pacific.
 **Merge tags:** first name \`${TAG_FIRST_NAME}\`, unsubscribe \`${TAG_UNSUBSCRIBE}\`. Send yourself a
 test first — if either renders literally, fix it once in \`scripts/build-emails.js\`.
 
-| Send date | Day | Side | File | Subject | Preview text | Links |
+| Send date | Day | Side | File | Subject | Preview text | Sells |
 |---|---|---|---|---|---|---|
-${rows.map((e) => `| ${e.date} | ${e.day} | ${e.side} | \`${e.key}.html\` | ${e.subject} | ${e.preview} | ${e.linkCount} |`).join('\n')}
+${rows.map((e) => `| ${e.date} | ${e.day} | ${e.side} | \`${e.key}.html\` | ${e.subject} | ${e.preview} | ${e.offer} |`).join('\n')}
 
 ## Load checklist — tick each one
 
@@ -258,11 +282,11 @@ header{padding:16px 20px;border-bottom:1px solid var(--line);}
 iframe{width:100%;height:640px;border:0;display:block;background:#f4f4f2;}
 </style></head><body><main>
 <h1>Broadcast QA — week of ${week}</h1>
-<p style="margin:0;color:var(--muted);">Links are live. Click every one. Flag anything wrong in the Google Doc as a comment, don't edit the copy.</p>
+<p style="margin:0;color:var(--muted);">Claude writes · Zion edits · Chosen approves · Abdullah loads into GHL · Daniel and Sammy watch what it drives. Links are live: click every one.</p>
 <div style="overflow-x:auto;"><table style="border-collapse:collapse;width:100%;font-size:14px;">
 <caption style="text-align:left;font-weight:600;padding-bottom:8px;">Send schedule — 8:00 AM Pacific, from ${FROM}</caption>
-<thead><tr>${['Send', 'Day', 'Side', 'Subject'].map((h) => `<th style="text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);color:var(--muted);font-weight:600;">${h}</th>`).join('')}</tr></thead>
-<tbody>${rows.map((e) => `<tr><td style="padding:8px 10px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap;">${e.date}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);">${e.day}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);">${e.side}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);">${esc(e.subject)}</td></tr>`).join('')}</tbody>
+<thead><tr>${['Send', 'Day', 'Side', 'Subject', 'Sells'].map((h) => `<th style="text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);color:var(--muted);font-weight:600;">${h}</th>`).join('')}</tr></thead>
+<tbody>${rows.map((e) => `<tr><td style="padding:8px 10px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap;">${e.date}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);">${e.day}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);">${e.side}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);">${esc(e.subject)}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);color:var(--muted);">${esc(e.offer)}</td></tr>`).join('')}</tbody>
 </table></div>
 ${emails.map((e) => `<article>
 <header><div class="id">${e.key}${e.day ? ` · ${e.day}` : e.bench ? ' · bench' : ' · proposed'} · ${e.side}</div>
