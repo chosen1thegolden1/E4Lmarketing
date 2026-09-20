@@ -12,7 +12,7 @@ Wednesday the 23rd or not at all.
 direct. Sunday is the highest-sales day: it's when people decide to change. Four a
 week is the new floor.
 
-**Review doc:** created on publish — see below.
+**Review doc:** https://docs.google.com/document/d/1TCKJ1FyXOrI-y5SkxdpllH8yJC11bqJZbOsxB9GHWXI/edit
 
 ---
 
