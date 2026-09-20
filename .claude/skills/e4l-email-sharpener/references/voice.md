@@ -9,7 +9,9 @@ system). Signs emails "Sebastian / Eat 4 Life."
 
 Study the two originals at the bottom of this file. What's in them:
 
-- **"Yo [First Name],"** — every email. Not "Hey," not "Hi."
+- **"Yo [First Name],"** on the student side. **"Hey [First Name],"** on the agency
+  side — Chosen's call (2026-09-20), even though his original agency email used "Yo."
+  Agency is peer-to-owner; "Yo" reads as talking down to someone who runs something.
 - **Numbered beats, three of them.** Each beat: a bold-able header line, then 2–4 short
   lines. Item 3 is always the one they can DO today.
 - **Line breaks every one or two sentences.** It reads like texts.
@@ -40,6 +42,7 @@ That's the shape: name the excuse, refuse it, empathize, hand them the move.
 
 | | Agency | Student |
 |---|---|---|
+| Greeting | Hey [First Name], | Yo [First Name], |
 | Tagline | **AI Marketing Made Easy** | **Everybody Eats** |
 | CTA | 👉 Book a call | 👉 Get From Xbox to Executive |
 | Signoff | Sebastian / Eat 4 Life | Holla Back – Get ya Dolla Back. ✊🏾 / Sebastian / Eat 4 Life |
@@ -73,6 +76,30 @@ stories get written once and reused forever.
 - **The five jobs.** Every business needs five things handled; most are doing two.
   That gap is the opening. (Translated, never "Damage/Support/Tank.")
 - **The 90-day plan.** One role, one client, deliver. "Not all five. One."
+
+## Why a structurally perfect email can still be boring
+
+The first batch through the skill (Sept 21) hit every check and Chosen's read was
+"a bit boring." Read those emails and the pattern is obvious in hindsight: they
+*explain the news*. Correct beats, correct link, correct CTA — and not one line a
+smart marketer couldn't have written. What was missing, every time:
+
+- **A correlation from outside the industry.** "Muse gives one answer" is a fact.
+  "The Yellow Pages died because Google gave ten answers instead of three hundred —
+  this thing gives one" is a picture. JFSI: the further the source, the harder the
+  click.
+- **A stance.** "Here's the part your marketing guy won't say out loud" is Chosen.
+  "Here's why that matters" is a blog.
+- **The reader's Tuesday, not the reader's category.** Not "small business owners" —
+  the phone that stopped ringing and nobody heard it stop.
+- **Some "me."** A real moment, a real opinion, a real loss. Ask Chosen for one if
+  the story bank doesn't have it. Never invent one.
+- **The offer as a picture.** "Book a call" is a button. "I'll screen-share the AI and
+  show you what it sees when it looks for you" is a reason to click.
+
+Boring is the one failure the fourteen checks don't catch, because check #2 ("would
+I want to read this?") is easy to pass when you wrote it. Use the stricter test: is
+there a line in here that would make Chosen say "yeah, that's me"?
 
 ## What he wants the reader to feel
 

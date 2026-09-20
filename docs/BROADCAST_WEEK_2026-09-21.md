@@ -1,6 +1,8 @@
 # Broadcast emails — week of Sept 21, 2026
 
-**Written with the `e4l-email-sharpener` skill.** First batch through it. Every email
+**Written with the `e4l-email-sharpener` skill.** First batch through it. Chosen's read
+(Sept 20): keep them, drop "Yo" on the agency side, and they're a bit boring — improve
+as we go. "Yo"→"Hey" applied below; the sharper-cut A1 shows the direction. Every email
 names its reader, angle, and wheel spoke so Zion can check it against the skill, not
 against taste.
 
@@ -44,7 +46,7 @@ copy is shorter and hits harder — that's the brief.
 **Reader:** A-1 (small business that wants more sales) · **Angle:** Correlation, dated news · **Spoke:** front end → call
 
 ```
-Yo [First Name],
+Hey [First Name],
 
 Meta put an AI assistant called Muse inside WhatsApp last week. 👀
 
@@ -96,6 +98,62 @@ assumes they ran the test — that's the point; it's a reply hook.
 
 ---
 
+### A1 — sharper cut (proposed — Chosen's call before it replaces the one above)
+
+**Subject:** Your customers stopped Googling you
+
+**Preview text:** The Yellow Pages died. This is worse.
+
+**Reader:** A-1 · **Angle:** Correlation (far source) + a stance · **Spoke:** call
+
+```
+Hey [First Name],
+
+Remember the Yellow Pages? Big yellow brick. Every business in
+town, alphabetical, and yours was in there whether you liked
+it or not.
+
+It died because Google gave people ten answers instead of
+three hundred.
+
+Last week Meta put an AI called Muse inside WhatsApp. Free.
+Already on the phone in your customer's hand.
+
+It gives ONE answer. 👀
+
+Not ten links. One name. Everybody else doesn't exist.
+
+Here's the part your marketing guy won't say out loud: it's
+not your ad budget. It's whether the AI can find you, verify
+you, and trust you — and that's decided by stuff you haven't
+touched since you set up the Google listing.
+
+Run the test. Four minutes. Open any AI, ask it what a
+customer would ask to find a business like yours in your
+city. See who comes up.
+
+If it's not you, I'll show you exactly why. 20 minutes, no
+pitch — I'll share my screen, run the same question, and show
+you what the AI sees when it looks for you. Then you decide.
+
+👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A1-2026-09-21)
+
+Sebastian
+Eat 4 Life
+
+P.S. I gotta question: when's the last time you asked an AI
+about your OWN business?
+```
+
+*Notes:* Same facts, same link, ~40 words shorter. What changed: a correlation from
+outside marketing (Yellow Pages), a stance ("your marketing guy won't say"), the
+reader's actual moment (the Google listing they haven't touched), and the offer as a
+picture (screen-share the AI). **Confirm the screen-share is how you'd actually run
+that call** — it's the promise the email makes.
+*Source:* same as A1
+
+---
+
 ## A2 — Wednesday ⚠️ dead after Thursday Sept 24
 
 **Subject:** Tomorrow, a tool 1000s of businesses depend on dies
@@ -105,7 +163,7 @@ assumes they ran the test — that's the point; it's a reply hook.
 **Reader:** A-3 (great at sales, bad at tools) · **Angle:** Worst Way · **Spoke:** call
 
 ```
-Yo [First Name],
+Hey [First Name],
 
 OpenAI shuts off Sora tomorrow. Made AI video. Thousands of
 businesses built content operations on it.
@@ -167,7 +225,7 @@ reschedule.
 **Reader:** A-2 (killing it, always adding) · **Angle:** Paradigm Shift · **Spoke:** call
 
 ```
-Yo [First Name],
+Hey [First Name],
 
 Fresh numbers. 48% of small businesses now use AI to write
 their emails. The ones doing it report 53% success. The ones
@@ -221,7 +279,7 @@ from your competitor's? Be honest.
 **Reader:** A-1 / A-3 · **Angle:** direct offer with a reason why · **Spoke:** call
 
 ```
-Yo [First Name],
+Hey [First Name],
 
 Quick one.
 

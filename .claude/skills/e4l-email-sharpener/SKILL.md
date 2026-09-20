@@ -80,16 +80,25 @@ Speaker, not the Teacher, not the Used Car Salesman.
    the story needs it. Sequences run shorter. The nine-word re-engagement is nine words.
    Write like talking to a friend, include a specific number, hold back the
    implementation.
-7. **Land the CTA.** Bottom of the email or in the P.S. One link. The natural next
+7. **Find the one line a copywriter couldn't have written.** Every email needs at
+   least one: a true moment from Chosen's week (ask if you don't have one — never
+   invent it), a take that will annoy somebody, a correlation pulled from far outside
+   marketing (the Yellow Pages, a sourdough starter, a lost round), or a joke that gets
+   a nose-breath. Structure makes an email *correct*. This makes it *read*. The first
+   batch through this skill passed every structural check and Chosen called it boring —
+   this step exists because of that. If you can't find the line, the email isn't done.
+8. **Land the CTA.** Bottom of the email or in the P.S. One link. The natural next
    step of what you just said — never a bolted-on ad. Chosen's P.S. convention (a
    question they can answer in one line) doubles as a reply CTA, which also feeds
    deliverability. Both CTAs can coexist: link above the signature, question in the
    P.S.
-8. **Run the fourteen checks** in `jfsi.md` before it goes in the doc. If it passes
+9. **Run the fourteen checks** in `jfsi.md` before it goes in the doc. If it passes
    ten, send it. Good-enough-and-sent beats perfect-and-drafted.
 
 ## Hard walls — these don't move
 
+- **Agency opens "Hey [First Name]," — student opens "Yo [First Name],".** Chosen's
+  call, 2026-09-20: "Yo" is student-only. Agency talks to an owner like a peer.
 - **Agency copy says "AI Marketing Made Easy."** Never "Everybody Eats." Student copy
   owns "Everybody Eats" and "Holla Back – Get ya Dolla Back. ✊🏾"
 - **Agency CTA is the call. Student CTA is the book.** One CTA per email.
