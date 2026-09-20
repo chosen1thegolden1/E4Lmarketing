@@ -112,15 +112,30 @@ All times above are Pacific. The Routines that fire these steps are set in UTC
 against Pacific Daylight Time. **Pacific goes back to standard time on Nov 1, 2026** —
 on that date every cron below needs +1 hour or the whole week drifts an hour early.
 
-| Step | Cron (UTC) | Pacific |
-|---|---|---|
-| Monday report | `0 14 * * 1` | 7:00 AM Mon |
-| Tuesday write | `0 13 * * 2` | 6:00 AM Tue |
-| Wednesday Zion review | `30 7 * * 3` | 12:30 AM Tue night / 8:30 AM Lagos |
-| Thursday greenlight | `30 15 * * 4` | 8:30 AM Thu |
-| Friday load | `30 13 * * 5` | 6:30 AM Fri |
+| Step | Routine ID | Cron (UTC) | Pacific |
+|---|---|---|---|
+| Monday report | `trig_01VBcd6sX3PjEeBthvAa32x5` | `0 14 * * 1` | 7:00 AM Mon |
+| Tuesday write | `trig_01Cmnf478rsjFXzSLVLBGY1P` | `0 13 * * 2` | 6:00 AM Tue |
+| Wednesday Zion QA | `trig_01EaLNjBSK7Ne9w4JA5wv7Hv` | `30 7 * * 3` | 12:30 AM Tue night / 8:30 AM Lagos |
+| Thursday greenlight | `trig_01LbpW3hLtt74wPygNxShdLn` | `30 15 * * 4` | 8:30 AM Thu |
+| Friday freshness + hand-off | `trig_018LEeke4LN4WWr485s212GV` | `30 13 * * 5` | 6:30 AM Fri |
+| Friday evening: is it queued? | `trig_01SakWNdDC5732ZhhxV5xTz7` | `30 0 * * 6` | 5:30 PM Fri |
 
 Zion's nudge fires on Lagos time because that's where he works.
+
+### These Routines have no connectors attached
+
+Connectors can't be attached to a Routine from inside a session — the platform
+refuses it. Every Routine above was created without Slack or Google Drive, which
+means **none of them can send a DM or make a doc until someone opens each one in the
+claude.ai Routines UI and attaches Slack (and Google Drive on the Tuesday one).**
+
+Until that happens the system half-runs: Tuesday still writes and pushes the batch,
+Friday still re-verifies the claims and pushes, and the results land in the push
+notification instead of in anyone's Slack. The writing survives. The hand-off doesn't.
+That is the single highest-value ten minutes of clicking in this whole setup.
+
+The Monday report Routine has the same gap, and has had it since Sept 17.
 
 ## Where things live
 
@@ -131,4 +146,5 @@ Zion's nudge fires on Lagos time because that's where he works.
 | The builder | `scripts/build-emails.js` |
 | The voice, audiences, frameworks | `.claude/skills/e4l-email-sharpener/` |
 | Weekly reports | `reports/email/<Monday>/` |
+| Week of Sept 21 preview | https://claude.ai/artifact/RtK5yZCQ34N5ZzfQLJ2nuj |
 | Who gets the report | `reports/email/RECIPIENTS.json` |
