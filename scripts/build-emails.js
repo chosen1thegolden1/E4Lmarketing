@@ -233,7 +233,7 @@ ${emails.filter((e) => e.bench).length ? `## Bench — not scheduled\n\n${emails
 
   // One page Zion can scroll to QA the whole week.
   const qa = `<!doctype html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Week of ${week}</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>E4L Broadcast — week of ${week}</title>
 <style>
 :root{--surface:#fcfcfb;--ink:#0b0b0b;--muted:#52514e;--line:#e6e6e3;--accent:#2a78d6;}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--surface:#141413;--ink:#f2f2ef;--muted:#a3a29e;--line:#2c2c2a;--accent:#6ba6ef;}}
@@ -250,6 +250,11 @@ iframe{width:100%;height:640px;border:0;display:block;background:#f4f4f2;}
 </style></head><body><main>
 <h1>Broadcast QA — week of ${week}</h1>
 <p style="margin:0;color:var(--muted);">Links are live. Click every one. Flag anything wrong in the Google Doc as a comment, don't edit the copy.</p>
+<div style="overflow-x:auto;"><table style="border-collapse:collapse;width:100%;font-size:14px;">
+<caption style="text-align:left;font-weight:600;padding-bottom:8px;">Send schedule — 8:00 AM Pacific, from ${FROM}</caption>
+<thead><tr>${['Send', 'Day', 'Side', 'Subject'].map((h) => `<th style="text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);color:var(--muted);font-weight:600;">${h}</th>`).join('')}</tr></thead>
+<tbody>${rows.map((e) => `<tr><td style="padding:8px 10px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap;">${e.date}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);">${e.day}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);">${e.side}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);">${esc(e.subject)}</td></tr>`).join('')}</tbody>
+</table></div>
 ${emails.map((e) => `<article>
 <header><div class="id">${e.key}${e.day ? ` · ${e.day}` : e.bench ? ' · bench' : ' · proposed'} · ${e.side}</div>
 <div class="subj">${esc(e.subject)}</div><p class="prev">${esc(e.preview)}</p><p class="meta">${esc(e.meta.replace(/\*\*/g, ''))}</p></header>
