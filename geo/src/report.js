@@ -177,6 +177,20 @@ const heroMsg =
     ? `When customers ask AI who to call, <strong>${esc(current.subject)} is not in the answer yet</strong> — competitors are.`
     : `AI already names ${esc(current.subject)} in ${current.named} answers — the plan below grows that number.`;
 
+// A platform that captured nothing is untested, not a verdict. Say so in the
+// hero rather than letting the reader count those answers as rejections — and
+// only claim we asked the platforms we actually captured.
+const untested = perPlatform.filter((pp) => pp.failed === pp.total);
+const commaList = (xs) =>
+  xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')}${xs.length > 2 ? ',' : ''} and ${xs.at(-1)}`;
+const askedList = commaList(
+  perPlatform.filter((pp) => pp.failed !== pp.total).map((pp) => label(pp.platform))
+) || 'the AI assistants';
+const untestedAsks = untested.reduce((n, pp) => n + pp.total, 0);
+const untestedNote = untested.length
+  ? ` <em>${esc(commaList(untested.map((pp) => label(pp.platform))))} could not be captured this run, so ${untestedAsks} of the ${current.total} answers counted above are untested rather than misses — ${untested.length > 1 ? 'they re-test' : 'it re-tests'} next cycle.</em>`
+  : '';
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -241,7 +255,7 @@ const html = `<!DOCTYPE html>
 <section>
   <div class="hero">
     <div class="score">${current.named}<small>of ${current.total} AI answers<br>name ${esc(current.subject)}</small></div>
-    <p>We asked <strong>ChatGPT, Gemini, and Perplexity</strong> the ${questions.length} questions your customers actually type when they're ready to buy — fresh sessions, no history, just like a real person. ${heroMsg}</p>
+    <p>We asked <strong>${esc(askedList)}</strong> the ${questions.length} questions your customers actually type when they're ready to buy — fresh sessions, no history, just like a real person. ${heroMsg}${untestedNote}</p>
   </div>
 </section>
 
