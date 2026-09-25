@@ -109,14 +109,19 @@ export const isPlatformUnavailable = (msg) =>
 const PLATFORMS = {
   chatgpt: {
     label: 'ChatGPT',
-    async ask(page, question) {
+    async ask(page, question, { lastAttempt = true } = {}) {
       try {
         return await this.askUi(page, question);
       } catch (err) {
-        // UI walled + API key available → ask via API and render a labeled
-        // evidence card for the screenshot. Same question, fresh stateless
-        // session; never disguised as a chatgpt.com capture.
-        if (isPlatformUnavailable(err.message) && process.env.OPENAI_API_KEY) {
+        // The consumer UI fails two ways: a hard wall (sign-in, bot
+        // challenge) and a soft one (composer never loads, answer never
+        // streams). Both leave the question unanswered, and an unanswered
+        // ChatGPT drags a client's score down for a reason that has nothing
+        // to do with their visibility. So once the UI is out of retries,
+        // ask via the API instead and render a labeled evidence card for the
+        // screenshot. Same question, fresh stateless session; never
+        // disguised as a chatgpt.com capture.
+        if ((isPlatformUnavailable(err.message) || lastAttempt) && process.env.OPENAI_API_KEY) {
           const { text, model } = await askChatGptApi(question).catch((apiErr) => {
             throw new Error(`${err.message}; API fallback failed: ${apiErr.message}`);
           });
@@ -222,7 +227,7 @@ export async function askQuestion(browser, platformKey, question, screenshotPath
   for (let attempt = 0; attempt <= retries; attempt++) {
     const { ctx, page } = await freshPage(browser);
     try {
-      const answer = await platform.ask(page, question);
+      const answer = await platform.ask(page, question, { lastAttempt: attempt === retries });
       const answerText = typeof answer === 'string' ? answer : answer.text;
       const via = typeof answer === 'string' ? 'ui' : answer.via;
       await page
