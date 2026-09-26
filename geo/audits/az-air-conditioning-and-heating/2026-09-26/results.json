@@ -1,0 +1,385 @@
+{
+  "subject": "AZ Air Conditioning and Heating",
+  "city": "Sylmar, CA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-09-26",
+  "startedAt": "2026-09-26T18:01:36.412Z",
+  "finishedAt": "2026-09-26T18:10:39.123Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "1/21",
+  "named": 1,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Sylmar, CA",
+      "askedAt": "2026-09-26T18:01:36.577Z",
+      "ok": false,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_chatgpt_q1_2026-09-26.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Sylmar, CA",
+      "askedAt": "2026-09-26T18:03:26.266Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Sylmar, CA",
+      "askedAt": "2026-09-26T18:03:26.266Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Sylmar, CA",
+      "askedAt": "2026-09-26T18:03:26.266Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Sylmar, CA free estimate",
+      "askedAt": "2026-09-26T18:03:26.267Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Sylmar, CA",
+      "askedAt": "2026-09-26T18:03:26.267Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Sylmar, CA",
+      "askedAt": "2026-09-26T18:03:26.267Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Sylmar, CA",
+      "askedAt": "2026-09-26T18:01:36.578Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_gemini_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Coast AC & Heater Repair Sylmar",
+        "Dutton Plumbing, Cooling, Heating & Electrical",
+        "Best Choice Heating & AC Repair Sylmar",
+        "Compass Air Conditioning and Heat",
+        "Sylmar HVAC Installation Contractor"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Coast AC & Heater Repair Sylmar",
+        "Dutton Plumbing, Cooling, Heating & Electrical",
+        "Best Choice Heating & AC Repair Sylmar",
+        "Compass Air Conditioning and Heat",
+        "Sylmar HVAC Installation Contractor"
+      ],
+      "note": "Recommended 5 local HVAC/AC repair providers near Sylmar, none of which was the audit subject AZ Air Conditioning and Heating.",
+      "answerChars": 2051
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Sylmar, CA",
+      "askedAt": "2026-09-26T18:02:00.117Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_gemini_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Morflow Air Conditioning",
+        "DC Air and Heating",
+        "K4 Heating & Cooling",
+        "American AC Heat Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Morflow Air Conditioning",
+        "DC Air and Heating",
+        "K4 Heating & Cooling",
+        "American AC Heat Plumbing"
+      ],
+      "note": "Recommended four other HVAC companies in Sylmar area without mentioning AZ Air Conditioning and Heating.",
+      "answerChars": 2823
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Sylmar, CA",
+      "askedAt": "2026-09-26T18:02:22.678Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_gemini_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Dutton Plumbing, Cooling, Heating & Electrical",
+        "Fresh Air Conditioning & Heating",
+        "Dependable Heating & AC",
+        "Compass Air Conditioning and Heat",
+        "Sylmar HVAC Installation Contractor"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dutton Plumbing, Cooling, Heating & Electrical",
+        "Fresh Air Conditioning & Heating",
+        "Dependable Heating & AC",
+        "Compass Air Conditioning and Heat",
+        "Sylmar HVAC Installation Contractor"
+      ],
+      "note": "Recommended five other HVAC companies in Sylmar with hours/phone details, never mentioning AZ Air Conditioning and Heating.",
+      "answerChars": 2535
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Sylmar, CA",
+      "askedAt": "2026-09-26T18:02:45.728Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_gemini_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Sylmar HVAC Installation Contractor",
+        "Compass Air Conditioning and Heat",
+        "Fresh Air Conditioning & Heating",
+        "Dutton Plumbing, Cooling, Heating & Electrical",
+        "Tri-Cities Best Heating and Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Sylmar HVAC Installation Contractor",
+        "Compass Air Conditioning and Heat",
+        "Fresh Air Conditioning & Heating",
+        "Dutton Plumbing, Cooling, Heating & Electrical",
+        "Tri-Cities Best Heating and Air"
+      ],
+      "note": "Recommended five other local HVAC companies without mentioning AZ Air Conditioning and Heating.",
+      "answerChars": 2458
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Sylmar, CA free estimate",
+      "askedAt": "2026-09-26T18:03:08.797Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_gemini_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "HVAC in LA",
+        "Universal Heating & Air",
+        "Reliable HVAC",
+        "K4 Heating & Cooling",
+        "The Home Depot"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "HVAC in LA",
+        "Universal Heating & Air",
+        "Reliable HVAC",
+        "K4 Heating & Cooling",
+        "The Home Depot"
+      ],
+      "note": "Recommended four local HVAC contractors and The Home Depot for free estimates in Sylmar, but never mentioned AZ Air Conditioning and Heating.",
+      "answerChars": 3320
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Sylmar, CA",
+      "askedAt": "2026-09-26T18:03:33.695Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_gemini_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Morflow Air Conditioning",
+        "DC Air and Heating",
+        "American AC Heat Plumbing",
+        "Fleetwell Heating & Air",
+        "The Home Depot Home Services"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Morflow Air Conditioning",
+        "DC Air and Heating",
+        "American AC Heat Plumbing",
+        "Fleetwell Heating & Air",
+        "The Home Depot Home Services"
+      ],
+      "note": "Recommended five local HVAC contractors for Sylmar AC repair but did not mention AZ Air Conditioning and Heating at all.",
+      "answerChars": 2267
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Sylmar, CA",
+      "askedAt": "2026-09-26T18:03:57.393Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_gemini_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Best Choice Heating & AC Repair Sylmar",
+        "Dutton Plumbing, Cooling, Heating & Electrical",
+        "Dependable Heating & AC",
+        "Fresh Air Conditioning & Heating",
+        "Sylmar HVAC Installation Contractor"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Best Choice Heating & AC Repair Sylmar",
+        "Dutton Plumbing, Cooling, Heating & Electrical",
+        "Dependable Heating & AC",
+        "Fresh Air Conditioning & Heating",
+        "Sylmar HVAC Installation Contractor"
+      ],
+      "note": "Recommended five other local HVAC contractors as open now for furnace repair, never mentioning AZ Air Conditioning and Heating.",
+      "answerChars": 2380
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Sylmar, CA",
+      "askedAt": "2026-09-26T18:01:36.578Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_perplexity_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "LC Heating & Air",
+        "Pacific Heating Acre Air Sylmar",
+        "American AC Heat Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "LC Heating & Air",
+        "Pacific Heating Acre Air Sylmar",
+        "American AC Heat Plumbing"
+      ],
+      "note": "Recommended three competing HVAC companies for emergency AC repair near Sylmar without mentioning AZ Air Conditioning and Heating.",
+      "answerChars": 742
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Sylmar, CA",
+      "askedAt": "2026-09-26T18:02:04.860Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_perplexity_q2_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a sign-up prompt with no business recommendations.",
+      "answerChars": 238
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Sylmar, CA",
+      "askedAt": "2026-09-26T18:02:30.679Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_perplexity_q3_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page shows only a sign-up prompt with no recommendations.",
+      "answerChars": 244
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Sylmar, CA",
+      "askedAt": "2026-09-26T18:03:34.585Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_perplexity_q4_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows no actual answer, just a sign-up prompt with no business recommendations.",
+      "answerChars": 181
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Sylmar, CA free estimate",
+      "askedAt": "2026-09-26T18:06:58.553Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_perplexity_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "The Home Depot",
+        "Green Air Solutions",
+        "AC and Heating Repairs in Sylmar",
+        "Green Future Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "The Home Depot",
+        "Green Air Solutions",
+        "AC and Heating Repairs in Sylmar",
+        "Green Future Heating & Air Conditioning"
+      ],
+      "note": "Listed four HVAC providers offering free estimates in Sylmar, none of which was the audit subject AZ Air Conditioning and Heating.",
+      "answerChars": 1048
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Sylmar, CA",
+      "askedAt": "2026-09-26T18:07:25.633Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_perplexity_q6_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 188
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Sylmar, CA",
+      "askedAt": "2026-09-26T18:10:11.746Z",
+      "ok": true,
+      "screenshot": "screenshots/az-air-conditioning-and-heating_perplexity_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Reliable Heating and Air",
+        "AZ Air Conditioning and Heating"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Reliable Heating and Air"
+      ],
+      "note": "Named the subject alongside one competitor as local furnace repair options in Sylmar, CA.",
+      "answerChars": 747
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "subject": "Brower Mechanical",
+  "city": "Rocklin, CA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-09-26",
+  "startedAt": "2026-09-26T17:41:23.588Z",
+  "finishedAt": "2026-09-26T17:53:47.056Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "4/21",
+  "named": 4,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Rocklin, CA",
+      "askedAt": "2026-09-26T17:41:23.737Z",
+      "ok": false,
+      "screenshot": "screenshots/brower-mechanical_chatgpt_q1_2026-09-26.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Rocklin, CA",
+      "askedAt": "2026-09-26T17:41:29.760Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Rocklin, CA",
+      "askedAt": "2026-09-26T17:41:29.760Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Rocklin, CA",
+      "askedAt": "2026-09-26T17:41:29.760Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Rocklin, CA free estimate",
+      "askedAt": "2026-09-26T17:41:29.760Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Rocklin, CA",
+      "askedAt": "2026-09-26T17:41:29.760Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Rocklin, CA",
+      "askedAt": "2026-09-26T17:41:29.760Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Rocklin, CA",
+      "askedAt": "2026-09-26T17:41:23.737Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_gemini_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Rocklin Heating & Air",
+        "Service Champions",
+        "Heco Heating and Air Conditioning",
+        "American Energy Home Pros",
+        "Christensen Heating and AC Repair"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Rocklin Heating & Air",
+        "Service Champions",
+        "Heco Heating and Air Conditioning",
+        "American Energy Home Pros",
+        "Christensen Heating and AC Repair"
+      ],
+      "note": "Recommended five local HVAC competitors for emergency AC repair near Rocklin, CA, without mentioning Brower Mechanical.",
+      "answerChars": 2129
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Rocklin, CA",
+      "askedAt": "2026-09-26T17:41:48.544Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_gemini_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Kendrick Heating & Air",
+        "Rocklin Heating & Air",
+        "Brower Mechanical",
+        "Sierra Pacific Home & Comfort, Inc."
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Kendrick Heating & Air",
+        "Rocklin Heating & Air",
+        "Sierra Pacific Home & Comfort, Inc."
+      ],
+      "note": "Listed four HVAC companies with ratings and descriptions, ranking Brower Mechanical third by star rating behind two 5.0-rated competitors.",
+      "answerChars": 2735
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Rocklin, CA",
+      "askedAt": "2026-09-26T17:42:13.231Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_gemini_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Rocklin Heating & Air",
+        "Service Champions",
+        "Brower Mechanical",
+        "Heco Heating and Air Conditioning"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Rocklin Heating & Air",
+        "Service Champions",
+        "Heco Heating and Air Conditioning"
+      ],
+      "note": "Listed four local HVAC companies with contact/hours details, including Brower Mechanical as the third option.",
+      "answerChars": 1653
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Rocklin, CA",
+      "askedAt": "2026-09-26T17:42:36.410Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_gemini_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Rocklin Heating & Air",
+        "Service Champions",
+        "Brower Mechanical",
+        "Kendrick Heating & Air",
+        "American Energy Home Pros"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Rocklin Heating & Air",
+        "Service Champions",
+        "Kendrick Heating & Air",
+        "American Energy Home Pros"
+      ],
+      "note": "Listed five local HVAC companies with ratings and descriptions, including Brower Mechanical as the third option.",
+      "answerChars": 2348
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Rocklin, CA free estimate",
+      "askedAt": "2026-09-26T17:42:59.521Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_gemini_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Kendrick Heating & Air",
+        "Super Brothers (AC Replacement Pros)",
+        "Lorenzo Heating & Air Conditioning",
+        "A-CLASS Heating and Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Kendrick Heating & Air",
+        "Super Brothers (AC Replacement Pros)",
+        "Lorenzo Heating & Air Conditioning",
+        "A-CLASS Heating and Air"
+      ],
+      "note": "Recommended four local HVAC competitors in Rocklin, CA and did not mention Brower Mechanical at all.",
+      "answerChars": 2004
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Rocklin, CA",
+      "askedAt": "2026-09-26T17:43:21.540Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_gemini_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Kendrick Heating & Air",
+        "Lorenzo Heating & Air Conditioning",
+        "Barraza HVAC",
+        "Service Champions"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Kendrick Heating & Air",
+        "Lorenzo Heating & Air Conditioning",
+        "Barraza HVAC",
+        "Service Champions"
+      ],
+      "note": "Recommended four competing local HVAC contractors and did not mention Brower Mechanical at all.",
+      "answerChars": 1906
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Rocklin, CA",
+      "askedAt": "2026-09-26T17:43:43.975Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_gemini_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Rocklin Heating & Air",
+        "Service Champions",
+        "American Energy Home Pros",
+        "Brower Mechanical",
+        "Christensen Heating and AC Repair"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Rocklin Heating & Air",
+        "Service Champions",
+        "American Energy Home Pros",
+        "Christensen Heating and AC Repair"
+      ],
+      "note": "Listed five local HVAC/furnace repair companies including Brower Mechanical, ranked fourth of five.",
+      "answerChars": 2241
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Rocklin, CA",
+      "askedAt": "2026-09-26T17:41:23.737Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_perplexity_q1_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only prompted sign-up rather than providing recommendations.",
+      "answerChars": 168
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Rocklin, CA",
+      "askedAt": "2026-09-26T17:44:09.343Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_perplexity_q2_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a prompt to sign up and repeat the request.",
+      "answerChars": 177
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Rocklin, CA",
+      "askedAt": "2026-09-26T17:46:54.675Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_perplexity_q3_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows no actual answer, just a sign-up prompt with no business recommendations.",
+      "answerChars": 245
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Rocklin, CA",
+      "askedAt": "2026-09-26T17:47:19.861Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_perplexity_q4_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a prompt to sign up and repeat the request.",
+      "answerChars": 182
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Rocklin, CA free estimate",
+      "askedAt": "2026-09-26T17:50:06.132Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_perplexity_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Lorenzo HVAC",
+        "Kendrick Heating & Air",
+        "A-CLASS Heating & Air",
+        "Perma Services",
+        "Home Worx Heating and Cooling",
+        "Home Depot HVAC Installation"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Lorenzo HVAC",
+        "Kendrick Heating & Air",
+        "A-CLASS Heating & Air",
+        "Perma Services",
+        "Home Worx Heating and Cooling",
+        "Home Depot HVAC Installation"
+      ],
+      "note": "Listed six competing HVAC companies offering free estimates in Rocklin but did not mention Brower Mechanical.",
+      "answerChars": 2535
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Rocklin, CA",
+      "askedAt": "2026-09-26T17:50:33.759Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_perplexity_q6_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page only shows a sign-up prompt with no recommendations.",
+      "answerChars": 193
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Rocklin, CA",
+      "askedAt": "2026-09-26T17:53:19.679Z",
+      "ok": true,
+      "screenshot": "screenshots/brower-mechanical_perplexity_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Service Champions Rocklin",
+        "Pro Max HVAC Rocklin",
+        "123HVAC Rocklin",
+        "Rocklin Heating & Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Service Champions Rocklin",
+        "Pro Max HVAC Rocklin",
+        "123HVAC Rocklin",
+        "Rocklin Heating & Air"
+      ],
+      "note": "Recommended four other local HVAC companies for furnace repair, not mentioning Brower Mechanical at all.",
+      "answerChars": 885
+    }
+  ]
+}

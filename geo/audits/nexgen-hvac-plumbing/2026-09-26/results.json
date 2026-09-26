@@ -1,0 +1,376 @@
+{
+  "subject": "NexGen HVAC & Plumbing",
+  "city": "Anaheim, CA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-09-26",
+  "startedAt": "2026-09-26T17:31:17.359Z",
+  "finishedAt": "2026-09-26T17:41:23.043Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "4/21",
+  "named": 4,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Anaheim, CA",
+      "askedAt": "2026-09-26T17:31:17.504Z",
+      "ok": false,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_chatgpt_q1_2026-09-26.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Anaheim, CA",
+      "askedAt": "2026-09-26T17:31:23.614Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Anaheim, CA",
+      "askedAt": "2026-09-26T17:31:23.614Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Anaheim, CA",
+      "askedAt": "2026-09-26T17:31:23.618Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Anaheim, CA free estimate",
+      "askedAt": "2026-09-26T17:31:23.618Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Anaheim, CA",
+      "askedAt": "2026-09-26T17:31:23.618Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Anaheim, CA",
+      "askedAt": "2026-09-26T17:31:23.618Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Anaheim, CA",
+      "askedAt": "2026-09-26T17:31:17.508Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_gemini_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "24/7 HVAC Anaheim",
+        "Prime Anaheim HVAC Repair Co",
+        "Four Seasons Heating and Air",
+        "Anaheim AC Repair Pros",
+        "Alps Heating & Air Conditioning, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "24/7 HVAC Anaheim",
+        "Prime Anaheim HVAC Repair Co",
+        "Four Seasons Heating and Air",
+        "Anaheim AC Repair Pros",
+        "Alps Heating & Air Conditioning, Inc."
+      ],
+      "note": "Recommended 5 local HVAC competitors for emergency AC repair, none of which was NexGen HVAC & Plumbing.",
+      "answerChars": 2246
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Anaheim, CA",
+      "askedAt": "2026-09-26T17:31:41.578Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_gemini_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "McMaster Heating & Air Conditioning",
+        "Associated Heating & Air",
+        "AC Cool, Inc.",
+        "Alps Air Conditioning & Heating"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "McMaster Heating & Air Conditioning",
+        "Associated Heating & Air",
+        "AC Cool, Inc.",
+        "Alps Air Conditioning & Heating"
+      ],
+      "note": "Recommended four competitor HVAC companies in Anaheim without mentioning NexGen HVAC & Plumbing.",
+      "answerChars": 2601
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Anaheim, CA",
+      "askedAt": "2026-09-26T17:32:04.161Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_gemini_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Home Comfort Cooling, Heating & Plumbing",
+        "NexGen HVAC & Plumbing",
+        "Alps Heating & Air Conditioning, Inc.",
+        "Associated Heating & Air Inc.",
+        "Four Seasons Heating and Air"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Home Comfort Cooling, Heating & Plumbing",
+        "Alps Heating & Air Conditioning, Inc.",
+        "Associated Heating & Air Inc.",
+        "Four Seasons Heating and Air"
+      ],
+      "note": "Listed five HVAC companies with ratings and hours, including NexGen HVAC & Plumbing among four competitors, all noted for phone responsiveness.",
+      "answerChars": 2263
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Anaheim, CA",
+      "askedAt": "2026-09-26T17:32:27.903Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_gemini_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Four Seasons Heating and Air",
+        "Haven Air Conditioning",
+        "Associated Heating & Air Inc.",
+        "Sano Plumbing Heating AC",
+        "Alps Heating & Air Conditioning, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Four Seasons Heating and Air",
+        "Haven Air Conditioning",
+        "Associated Heating & Air Inc.",
+        "Sano Plumbing Heating AC",
+        "Alps Heating & Air Conditioning, Inc."
+      ],
+      "note": "Listed five competing HVAC companies in Anaheim with ratings and details, without mentioning NexGen HVAC & Plumbing.",
+      "answerChars": 2931
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Anaheim, CA free estimate",
+      "askedAt": "2026-09-26T17:32:51.899Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_gemini_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "20th Century Air",
+        "Air Concepts HVAC",
+        "Creative Air Mechanical Services",
+        "South County Air Services"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "20th Century Air",
+        "Air Concepts HVAC",
+        "Creative Air Mechanical Services",
+        "South County Air Services"
+      ],
+      "note": "Recommended four local HVAC companies with free estimates but did not mention NexGen HVAC & Plumbing.",
+      "answerChars": 2347
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Anaheim, CA",
+      "askedAt": "2026-09-26T17:33:14.188Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_gemini_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Service Champions",
+        "20th Century Air",
+        "Associated Heating & Air",
+        "NEXGEN"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Service Champions",
+        "20th Century Air",
+        "Associated Heating & Air"
+      ],
+      "note": "Listed four local HVAC companies including the subject (NEXGEN) as one of several options, plus basic troubleshooting tips.",
+      "answerChars": 1845
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Anaheim, CA",
+      "askedAt": "2026-09-26T17:33:36.895Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_gemini_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "South County Air Services",
+        "NEXGEN Air Conditioning, Heating & Plumbing",
+        "Home Comfort Cooling, Heating & Plumbing",
+        "Veteran Plumbing & Air"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "South County Air Services",
+        "Home Comfort Cooling, Heating & Plumbing",
+        "Veteran Plumbing & Air"
+      ],
+      "note": "Listed four local HVAC providers including the subject (as NEXGEN) alongside three competitors, plus suggested checking Angi/HomeAdvisor.",
+      "answerChars": 1382
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Anaheim, CA",
+      "askedAt": "2026-09-26T17:31:17.508Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_perplexity_q1_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page shows only UI chrome prompting sign-up, with no business recommendations.",
+      "answerChars": 234
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Anaheim, CA",
+      "askedAt": "2026-09-26T17:31:43.070Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_perplexity_q2_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer content was captured; the page shows only UI chrome and a prompt to sign up, with no recommendations.",
+      "answerChars": 239
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Anaheim, CA",
+      "askedAt": "2026-09-26T17:32:08.589Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_perplexity_q3_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was returned; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 179
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Anaheim, CA",
+      "askedAt": "2026-09-26T17:34:54.994Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_perplexity_q4_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a sign-up prompt with no business recommendations.",
+      "answerChars": 182
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Anaheim, CA free estimate",
+      "askedAt": "2026-09-26T17:37:40.679Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_perplexity_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "20th Century Air",
+        "South County Air",
+        "NEXGEN",
+        "White Mechanical",
+        "McMaster Heating & Air",
+        "Home Depot HVAC program"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "20th Century Air",
+        "South County Air",
+        "White Mechanical",
+        "McMaster Heating & Air",
+        "Home Depot HVAC program"
+      ],
+      "note": "Listed six Anaheim HVAC providers including the subject (as NEXGEN) alongside five competitors, with tips on comparing free estimates.",
+      "answerChars": 3108
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Anaheim, CA",
+      "askedAt": "2026-09-26T17:38:07.956Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_perplexity_q6_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows no actual answer, just a sign-up prompt with no business recommendations.",
+      "answerChars": 193
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Anaheim, CA",
+      "askedAt": "2026-09-26T17:40:54.574Z",
+      "ok": true,
+      "screenshot": "screenshots/nexgen-hvac-plumbing_perplexity_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Four Seasons Heating & Air",
+        "Albert Air",
+        "Alps Heating & Air Conditioning",
+        "AC Repair Anaheim"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Four Seasons Heating & Air",
+        "Albert Air",
+        "Alps Heating & Air Conditioning",
+        "AC Repair Anaheim"
+      ],
+      "note": "Recommended four competing HVAC companies for furnace repair in Anaheim, none of which was the audit subject NexGen HVAC & Plumbing.",
+      "answerChars": 967
+    }
+  ]
+}

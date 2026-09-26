@@ -1,0 +1,422 @@
+{
+  "subject": "Home Comfort Cooling, Heating & Plumbing",
+  "city": "Anaheim, CA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-09-26",
+  "startedAt": "2026-09-26T16:52:01.497Z",
+  "finishedAt": "2026-09-26T16:58:20.898Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "2/21",
+  "named": 2,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Anaheim, CA",
+      "askedAt": "2026-09-26T16:52:01.848Z",
+      "ok": false,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_chatgpt_q1_2026-09-26.jpg",
+      "error": "no answer text appeared in [data-message-author-role=\"assistant\"]"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Anaheim, CA",
+      "askedAt": "2026-09-26T16:55:30.658Z",
+      "ok": false,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_chatgpt_q2_2026-09-26.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Anaheim, CA",
+      "askedAt": "2026-09-26T16:58:20.670Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Anaheim, CA",
+      "askedAt": "2026-09-26T16:58:20.670Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Anaheim, CA free estimate",
+      "askedAt": "2026-09-26T16:58:20.670Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Anaheim, CA",
+      "askedAt": "2026-09-26T16:58:20.670Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Anaheim, CA",
+      "askedAt": "2026-09-26T16:58:20.670Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Anaheim, CA",
+      "askedAt": "2026-09-26T16:52:01.848Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_gemini_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "24/7 HVAC Anaheim",
+        "Prime Anaheim HVAC Repair Co",
+        "Four Seasons Heating and Air",
+        "Anaheim AC Repair Pros",
+        "Alps Heating & Air Conditioning, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "24/7 HVAC Anaheim",
+        "Prime Anaheim HVAC Repair Co",
+        "Four Seasons Heating and Air",
+        "Anaheim AC Repair Pros",
+        "Alps Heating & Air Conditioning, Inc."
+      ],
+      "note": "Recommended five other local HVAC companies for emergency AC repair, none of which was the audit subject.",
+      "answerChars": 1863
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Anaheim, CA",
+      "askedAt": "2026-09-26T16:52:26.170Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_gemini_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "McMaster Heating & Air Conditioning",
+        "Associated Heating & Air",
+        "20th Century Air",
+        "AC Cool, Inc.",
+        "Service Champions"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "McMaster Heating & Air Conditioning",
+        "Associated Heating & Air",
+        "20th Century Air",
+        "AC Cool, Inc.",
+        "Service Champions"
+      ],
+      "note": "Recommended five other HVAC companies in Anaheim without mentioning Home Comfort Cooling, Heating & Plumbing.",
+      "answerChars": 3218
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Anaheim, CA",
+      "askedAt": "2026-09-26T16:52:49.738Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_gemini_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Dial One – Heating, Cooling and Plumbing",
+        "Friends & Family HVAC",
+        "Command Comfort",
+        "Accurate Comfort Air Conditioning and Heating"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dial One – Heating, Cooling and Plumbing",
+        "Friends & Family HVAC",
+        "Command Comfort",
+        "Accurate Comfort Air Conditioning and Heating"
+      ],
+      "note": "Recommended four other HVAC companies in Anaheim, none of which was the audit subject.",
+      "answerChars": 1046
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Anaheim, CA",
+      "askedAt": "2026-09-26T16:53:11.750Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_gemini_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Four Seasons Heating and Air",
+        "Haven Air Conditioning",
+        "Associated Heating & Air Inc.",
+        "Alps Heating & Air Conditioning, Inc.",
+        "Sano Plumbing Heating AC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Four Seasons Heating and Air",
+        "Haven Air Conditioning",
+        "Associated Heating & Air Inc.",
+        "Alps Heating & Air Conditioning, Inc.",
+        "Sano Plumbing Heating AC"
+      ],
+      "note": "Recommended five competing HVAC companies in Anaheim without mentioning Home Comfort Cooling, Heating & Plumbing.",
+      "answerChars": 2358
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Anaheim, CA free estimate",
+      "askedAt": "2026-09-26T16:53:37.570Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_gemini_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "20th Century Air",
+        "Air Concepts HVAC",
+        "South County Air Services",
+        "Associated Heating & Air",
+        "NEXGEN",
+        "Cool Air Technologies",
+        "Total Home Environmental",
+        "The Home Depot"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "20th Century Air",
+        "Air Concepts HVAC",
+        "South County Air Services",
+        "Associated Heating & Air",
+        "NEXGEN",
+        "Cool Air Technologies",
+        "Total Home Environmental",
+        "The Home Depot"
+      ],
+      "note": "Listed several Anaheim HVAC companies and retailers offering free estimates, but never named the audit subject.",
+      "answerChars": 2123
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Anaheim, CA",
+      "askedAt": "2026-09-26T16:54:01.248Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_gemini_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Service Champions",
+        "NEXGEN",
+        "20th Century Air",
+        "Home Comfort Cooling, Heating & Plumbing",
+        "Alps Heating & Air Conditioning"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Service Champions",
+        "NEXGEN",
+        "20th Century Air",
+        "Alps Heating & Air Conditioning"
+      ],
+      "note": "Listed five local HVAC companies including the audit subject, plus basic troubleshooting tips.",
+      "answerChars": 1533
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Anaheim, CA",
+      "askedAt": "2026-09-26T16:54:23.194Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_gemini_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Four Seasons Heating and Air",
+        "Associated Heating & Air Inc.",
+        "Prime Anaheim HVAC Repair Co",
+        "Service All-Stars Plumbing Heating and Air Comfort",
+        "Home Comfort Cooling, Heating & Plumbing"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Four Seasons Heating and Air",
+        "Associated Heating & Air Inc.",
+        "Prime Anaheim HVAC Repair Co",
+        "Service All-Stars Plumbing Heating and Air Comfort"
+      ],
+      "note": "Listed five local HVAC companies including the audit subject, each with hours and specialty details, ending with a follow-up question.",
+      "answerChars": 1602
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Anaheim, CA",
+      "askedAt": "2026-09-26T16:52:01.848Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_perplexity_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "South County Air Services",
+        "AC Repair Anaheim",
+        "Service All Star",
+        "All City Plumbing, Air & Electrical",
+        "Express HVAC Pros",
+        "Coastline Comfort CA",
+        "Mike Diamond Plumbing & HVAC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "South County Air Services",
+        "AC Repair Anaheim",
+        "Service All Star",
+        "All City Plumbing, Air & Electrical",
+        "Express HVAC Pros",
+        "Coastline Comfort CA",
+        "Mike Diamond Plumbing & HVAC"
+      ],
+      "note": "Recommended 7 competing HVAC companies for emergency AC repair near Anaheim, without naming the audit subject.",
+      "answerChars": 1202
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Anaheim, CA",
+      "askedAt": "2026-09-26T16:52:36.727Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_perplexity_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Sano Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Sano Heating & Air Conditioning"
+      ],
+      "note": "The answer recommended a single competitor (Sano Heating & Air Conditioning) and did not mention the audit subject.",
+      "answerChars": 702
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Anaheim, CA",
+      "askedAt": "2026-09-26T16:53:41.383Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_perplexity_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Albert Air",
+        "JW Mitchell Heating and Air",
+        "South County Air",
+        "Associated Heating & Air",
+        "One Season Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Albert Air",
+        "JW Mitchell Heating and Air",
+        "South County Air",
+        "Associated Heating & Air",
+        "One Season Air"
+      ],
+      "note": "Listed five other Anaheim-area HVAC companies with contact info but did not mention Home Comfort Cooling, Heating & Plumbing.",
+      "answerChars": 1250
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Anaheim, CA",
+      "askedAt": "2026-09-26T16:54:47.726Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_perplexity_q4_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page shows only a sign-in prompt with no recommendations.",
+      "answerChars": 243
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Anaheim, CA free estimate",
+      "askedAt": "2026-09-26T16:55:12.803Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_perplexity_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "20th Century Air Inc.",
+        "Quick, Tidy, Done",
+        "Price Air HVAC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "20th Century Air Inc.",
+        "Quick, Tidy, Done",
+        "Price Air HVAC"
+      ],
+      "note": "Named three competing Anaheim HVAC companies offering free estimates, without mentioning the audit subject.",
+      "answerChars": 956
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Anaheim, CA",
+      "askedAt": "2026-09-26T16:55:39.796Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_perplexity_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Sano Heating & Air Conditioning",
+        "Mike Diamond Plumbing & HVAC",
+        "All City Plumbing, Air & Electrical"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Sano Heating & Air Conditioning",
+        "Mike Diamond Plumbing & HVAC",
+        "All City Plumbing, Air & Electrical"
+      ],
+      "note": "Recommended three competing local HVAC companies with phone numbers, without mentioning the audit subject.",
+      "answerChars": 838
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Anaheim, CA",
+      "askedAt": "2026-09-26T16:56:08.072Z",
+      "ok": true,
+      "screenshot": "screenshots/home-comfort-cooling-heating-plumbing_perplexity_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Four Seasons Heating & Air",
+        "Alps Heating & Air Conditioning",
+        "AC Cool, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Four Seasons Heating & Air",
+        "Alps Heating & Air Conditioning",
+        "AC Cool, Inc."
+      ],
+      "note": "Recommended three competing HVAC companies in Anaheim for furnace repair, without mentioning the audit subject.",
+      "answerChars": 899
+    }
+  ]
+}

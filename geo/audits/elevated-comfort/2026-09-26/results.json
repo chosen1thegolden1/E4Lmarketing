@@ -1,0 +1,384 @@
+{
+  "subject": "Elevated Comfort",
+  "city": "Cotati, CA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-09-26",
+  "startedAt": "2026-09-26T17:53:47.561Z",
+  "finishedAt": "2026-09-26T18:01:35.901Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "10/21",
+  "named": 10,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Cotati, CA",
+      "askedAt": "2026-09-26T17:53:47.691Z",
+      "ok": false,
+      "screenshot": "screenshots/elevated-comfort_chatgpt_q1_2026-09-26.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Cotati, CA",
+      "askedAt": "2026-09-26T17:57:07.748Z",
+      "ok": false,
+      "screenshot": "screenshots/elevated-comfort_chatgpt_q2_2026-09-26.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Cotati, CA",
+      "askedAt": "2026-09-26T17:58:56.440Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Cotati, CA",
+      "askedAt": "2026-09-26T17:58:56.440Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Cotati, CA free estimate",
+      "askedAt": "2026-09-26T17:58:56.440Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Cotati, CA",
+      "askedAt": "2026-09-26T17:58:56.440Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Cotati, CA",
+      "askedAt": "2026-09-26T17:58:56.440Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Cotati, CA",
+      "askedAt": "2026-09-26T17:53:47.692Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_gemini_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Elevated Comfort",
+        "Next Day Air & Heating",
+        "Northbay Comfort Inc.",
+        "Mountain House Mechanical",
+        "Ross HVAC And Appliance Service"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Next Day Air & Heating",
+        "Northbay Comfort Inc.",
+        "Mountain House Mechanical",
+        "Ross HVAC And Appliance Service"
+      ],
+      "note": "Listed Elevated Comfort first among five local HVAC providers for emergency AC repair near Cotati, CA.",
+      "answerChars": 2328
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Cotati, CA",
+      "askedAt": "2026-09-26T17:54:11.383Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_gemini_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Ongaro & Sons",
+        "Downing Heating, Inc.",
+        "Elevated Comfort",
+        "Bragg Home Services"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Ongaro & Sons",
+        "Downing Heating, Inc.",
+        "Bragg Home Services"
+      ],
+      "note": "Listed four HVAC contractors in the Cotati area, including the subject Elevated Comfort, as third of four recommendations.",
+      "answerChars": 1788
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Cotati, CA",
+      "askedAt": "2026-09-26T17:54:33.657Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_gemini_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Elevated Comfort",
+        "Next Day Air & Heating",
+        "Hulbert Heating & Air Conditioning Inc"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Next Day Air & Heating",
+        "Hulbert Heating & Air Conditioning Inc"
+      ],
+      "note": "Listed three Cotati HVAC companies including the subject, Elevated Comfort, as the first option with positive details.",
+      "answerChars": 1642
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Cotati, CA",
+      "askedAt": "2026-09-26T17:54:56.854Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_gemini_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Elevated Comfort",
+        "Hulbert Heating & Air Conditioning Inc",
+        "Next Day Air & Heating",
+        "Green Core Heating & Air",
+        "Enviro Heating & Air Conditioning Inc"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Hulbert Heating & Air Conditioning Inc",
+        "Next Day Air & Heating",
+        "Green Core Heating & Air",
+        "Enviro Heating & Air Conditioning Inc"
+      ],
+      "note": "Listed Elevated Comfort first among five top-rated local HVAC companies with ratings and descriptions.",
+      "answerChars": 2417
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Cotati, CA free estimate",
+      "askedAt": "2026-09-26T17:55:19.976Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_gemini_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Enviro Heating & Air Conditioning",
+        "Action Plumbing, Heating & Air",
+        "Elevated Comfort",
+        "Downing Heating, Inc."
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Enviro Heating & Air Conditioning",
+        "Action Plumbing, Heating & Air",
+        "Downing Heating, Inc."
+      ],
+      "note": "Listed four local HVAC companies serving Cotati, including the subject Elevated Comfort, with contact info and free-estimate tips.",
+      "answerChars": 1525
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Cotati, CA",
+      "askedAt": "2026-09-26T17:55:42.214Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_gemini_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Elevated Comfort",
+        "Enviro Heating & Air Conditioning",
+        "Downing Heating, Inc.",
+        "Ongaro & Sons",
+        "Central Pros Heating & Air"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Enviro Heating & Air Conditioning",
+        "Downing Heating, Inc.",
+        "Ongaro & Sons",
+        "Central Pros Heating & Air"
+      ],
+      "note": "Listed Elevated Comfort first among five local HVAC companies with phone numbers and added general AC troubleshooting tips.",
+      "answerChars": 1994
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Cotati, CA",
+      "askedAt": "2026-09-26T17:56:05.128Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_gemini_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Elevated Comfort",
+        "Next Day Air & Heating",
+        "Mountain House Mechanical",
+        "Ross HVAC And Appliance Service",
+        "Northbay Comfort Inc."
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Next Day Air & Heating",
+        "Mountain House Mechanical",
+        "Ross HVAC And Appliance Service",
+        "Northbay Comfort Inc."
+      ],
+      "note": "Listed Elevated Comfort first alongside four competitor HVAC providers with hours and locations for furnace repair near Cotati, CA.",
+      "answerChars": 1829
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Cotati, CA",
+      "askedAt": "2026-09-26T17:53:47.692Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_perplexity_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Next Day HVAC Contractor",
+        "24 Hour and Emergency Furnace Repair Service",
+        "Enviro Heating & Air Conditioning",
+        "Downing Heating, Inc.",
+        "Elevated Comfort"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Next Day HVAC Contractor",
+        "24 Hour and Emergency Furnace Repair Service",
+        "Enviro Heating & Air Conditioning",
+        "Downing Heating, Inc."
+      ],
+      "note": "Listed 5 emergency AC repair options near Cotati, CA, including the audit subject Elevated Comfort last.",
+      "answerChars": 1237
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Cotati, CA",
+      "askedAt": "2026-09-26T17:54:17.880Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_perplexity_q2_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only UI chrome prompting sign-in with no recommendations.",
+      "answerChars": 238
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Cotati, CA",
+      "askedAt": "2026-09-26T17:54:43.156Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_perplexity_q3_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was returned; the page only prompted sign-up rather than recommending any businesses.",
+      "answerChars": 182
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Cotati, CA",
+      "askedAt": "2026-09-26T17:57:29.477Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_perplexity_q4_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a sign-up prompt with no business recommendations.",
+      "answerChars": 243
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Cotati, CA free estimate",
+      "askedAt": "2026-09-26T17:57:54.577Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_perplexity_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Downing Heating & Air",
+        "Action Plumbing Heating & Air",
+        "Enviro Heating & Air Conditioning",
+        "Green Core Heating & Air",
+        "Elevated Comfort",
+        "Home Depot HVAC installation service"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Downing Heating & Air",
+        "Action Plumbing Heating & Air",
+        "Enviro Heating & Air Conditioning",
+        "Green Core Heating & Air",
+        "Home Depot HVAC installation service"
+      ],
+      "note": "Listed six local HVAC companies offering free estimates, including Elevated Comfort as one option among several competitors.",
+      "answerChars": 2608
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Cotati, CA",
+      "askedAt": "2026-09-26T17:58:20.977Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_perplexity_q6_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only prompted the user to sign up and repeat the request.",
+      "answerChars": 192
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Cotati, CA",
+      "askedAt": "2026-09-26T18:01:07.256Z",
+      "ok": true,
+      "screenshot": "screenshots/elevated-comfort_perplexity_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Home Depot Heating and Air Conditioning Repair",
+        "RDHvac",
+        "Downing Heating, Inc.",
+        "Elevated Comfort",
+        "Next Day Air And Heating"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Home Depot Heating and Air Conditioning Repair",
+        "RDHvac",
+        "Downing Heating, Inc.",
+        "Next Day Air And Heating"
+      ],
+      "note": "Listed five furnace repair options in Cotati, CA, including the audit subject Elevated Comfort alongside four competitors.",
+      "answerChars": 1139
+    }
+  ]
+}

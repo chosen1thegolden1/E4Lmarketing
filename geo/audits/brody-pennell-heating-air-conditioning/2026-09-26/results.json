@@ -1,0 +1,360 @@
+{
+  "subject": "Brody Pennell Heating & Air Conditioning",
+  "city": "Los Angeles, CA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-09-26",
+  "startedAt": "2026-09-26T17:15:08.441Z",
+  "finishedAt": "2026-09-26T17:23:31.930Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "5/21",
+  "named": 5,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Los Angeles, CA",
+      "askedAt": "2026-09-26T17:15:08.591Z",
+      "ok": false,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_chatgpt_q1_2026-09-26.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Los Angeles, CA",
+      "askedAt": "2026-09-26T17:17:59.778Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Los Angeles, CA",
+      "askedAt": "2026-09-26T17:17:59.778Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Los Angeles, CA",
+      "askedAt": "2026-09-26T17:17:59.779Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Los Angeles, CA free estimate",
+      "askedAt": "2026-09-26T17:17:59.779Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Los Angeles, CA",
+      "askedAt": "2026-09-26T17:17:59.779Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Los Angeles, CA",
+      "askedAt": "2026-09-26T17:17:59.779Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Los Angeles, CA",
+      "askedAt": "2026-09-26T17:15:08.592Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_gemini_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Service Genius Air Conditioning and Heating",
+        "Advanced Heating & AC Repair Los Angeles",
+        "Universal Heating & Air",
+        "JW Plumbing, Heating and Air",
+        "Brody Pennell Heating & Air Conditioning"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Service Genius Air Conditioning and Heating",
+        "Advanced Heating & AC Repair Los Angeles",
+        "Universal Heating & Air",
+        "JW Plumbing, Heating and Air"
+      ],
+      "note": "Listed five 24/7 emergency AC repair providers in Los Angeles, including the audit subject Brody Pennell, ranked last among five.",
+      "answerChars": 2705
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Los Angeles, CA",
+      "askedAt": "2026-09-26T17:15:46.387Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_gemini_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Brody Pennell Heating & Air Conditioning"
+      ],
+      "subjectNamed": true,
+      "competitors": [],
+      "note": "Answer exclusively recommended and praised Brody Pennell as the most reliable HVAC company, naming no competitors.",
+      "answerChars": 1105
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Los Angeles, CA",
+      "askedAt": "2026-09-26T17:16:19.031Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_gemini_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Affordable Heating and Air",
+        "Service Genius Air Conditioning and Heating",
+        "The Telephone Secretary",
+        "ArcLine Automation",
+        "Platinum Web Studio"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Affordable Heating and Air",
+        "Service Genius Air Conditioning and Heating",
+        "The Telephone Secretary",
+        "ArcLine Automation",
+        "Platinum Web Studio"
+      ],
+      "note": "Recommended two competing HVAC companies plus answering-service alternatives, never mentioning Brody Pennell Heating & Air Conditioning.",
+      "answerChars": 2013
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Los Angeles, CA",
+      "askedAt": "2026-09-26T17:16:41.772Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_gemini_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "LC Heating & Air Conditioning",
+        "Southwest Heating & Air Conditioning",
+        "JW Plumbing, Heating and Air",
+        "Universal Heating & Air",
+        "Brody Pennell Heating & Air Conditioning"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "LC Heating & Air Conditioning",
+        "Southwest Heating & Air Conditioning",
+        "JW Plumbing, Heating and Air",
+        "Universal Heating & Air"
+      ],
+      "note": "Listed five HVAC companies in Los Angeles with ratings and descriptions, including the audit subject ranked last.",
+      "answerChars": 2306
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Los Angeles, CA free estimate",
+      "askedAt": "2026-09-26T17:17:04.419Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_gemini_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "EA Mechanical"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "EA Mechanical"
+      ],
+      "note": "Answer text was cut off, only listing one competitor (EA Mechanical) without naming the audit subject.",
+      "answerChars": 156
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Los Angeles, CA",
+      "askedAt": "2026-09-26T17:17:31.473Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_gemini_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Brody Pennell Heating & Air Conditioning",
+        "Lions Heating & Air",
+        "JW Plumbing, Heating & Air",
+        "American Air Conditioning & Heating"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Lions Heating & Air",
+        "JW Plumbing, Heating & Air",
+        "American Air Conditioning & Heating"
+      ],
+      "note": "Named the subject as top option alongside three competitor HVAC companies, plus generic troubleshooting and technician-selection advice.",
+      "answerChars": 2056
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Los Angeles, CA",
+      "askedAt": "2026-09-26T17:17:54.622Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_gemini_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "JW Plumbing, Heating and Air",
+        "Universal Heating & Air",
+        "Brody Pennell Heating & Air Conditioning",
+        "LC Heating & Air Conditioning",
+        "Service Champions Plumbing, Heating & AC"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "JW Plumbing, Heating and Air",
+        "Universal Heating & Air",
+        "LC Heating & Air Conditioning",
+        "Service Champions Plumbing, Heating & AC"
+      ],
+      "note": "Listed 5 24/7 HVAC contractors in Los Angeles, including Brody Pennell as the 3rd option among competitors.",
+      "answerChars": 2261
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Los Angeles, CA",
+      "askedAt": "2026-09-26T17:15:08.592Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_perplexity_q1_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only prompted the user to sign up and repeat the request.",
+      "answerChars": 176
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Los Angeles, CA",
+      "askedAt": "2026-09-26T17:17:55.055Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_perplexity_q2_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows no actual answer content, just UI chrome indicating the request requires sign-up.",
+      "answerChars": 243
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Los Angeles, CA",
+      "askedAt": "2026-09-26T17:18:20.835Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_perplexity_q3_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page shows only a sign-up prompt with no recommendations.",
+      "answerChars": 249
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Los Angeles, CA",
+      "askedAt": "2026-09-26T17:18:46.165Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_perplexity_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "LC Heating & Air Conditioning",
+        "Los Angeles Air Conditioning Service",
+        "Los Angeles Air Department"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "LC Heating & Air Conditioning",
+        "Los Angeles Air Conditioning Service",
+        "Los Angeles Air Department"
+      ],
+      "note": "Recommended three other HVAC companies in LA and did not mention Brody Pennell Heating & Air Conditioning.",
+      "answerChars": 873
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Los Angeles, CA free estimate",
+      "askedAt": "2026-09-26T17:19:51.826Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_perplexity_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "The Home Depot",
+        "SoCal Climate Control & Mechanical, Inc.",
+        "Pyramid Heating and Cooling",
+        "Grand Heating & Air Conditioning",
+        "Meridian Heating & Air Los Angeles"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "The Home Depot",
+        "SoCal Climate Control & Mechanical, Inc.",
+        "Pyramid Heating and Cooling",
+        "Grand Heating & Air Conditioning",
+        "Meridian Heating & Air Los Angeles"
+      ],
+      "note": "Listed five other HVAC providers offering free estimates in LA without mentioning Brody Pennell Heating & Air Conditioning.",
+      "answerChars": 1002
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Los Angeles, CA",
+      "askedAt": "2026-09-26T17:20:20.386Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_perplexity_q6_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a sign-up prompt with no recommendations.",
+      "answerChars": 197
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Los Angeles, CA",
+      "askedAt": "2026-09-26T17:23:07.071Z",
+      "ok": true,
+      "screenshot": "screenshots/brody-pennell-heating-air-conditioning_perplexity_q7_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a sign-in prompt with no business recommendations.",
+      "answerChars": 237
+    }
+  ]
+}

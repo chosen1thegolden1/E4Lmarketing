@@ -1,0 +1,380 @@
+{
+  "subject": "Veteran Air",
+  "city": "Anaheim, CA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-09-26",
+  "startedAt": "2026-09-26T17:23:32.436Z",
+  "finishedAt": "2026-09-26T17:31:16.833Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "0/21",
+  "named": 0,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Anaheim, CA",
+      "askedAt": "2026-09-26T17:23:32.592Z",
+      "ok": false,
+      "screenshot": "screenshots/veteran-air_chatgpt_q1_2026-09-26.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Anaheim, CA",
+      "askedAt": "2026-09-26T17:25:22.134Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Anaheim, CA",
+      "askedAt": "2026-09-26T17:25:22.134Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Anaheim, CA",
+      "askedAt": "2026-09-26T17:25:22.134Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Anaheim, CA free estimate",
+      "askedAt": "2026-09-26T17:25:22.134Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Anaheim, CA",
+      "askedAt": "2026-09-26T17:25:22.134Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Anaheim, CA",
+      "askedAt": "2026-09-26T17:25:22.134Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Anaheim, CA",
+      "askedAt": "2026-09-26T17:23:32.594Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_gemini_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "24/7 HVAC Anaheim",
+        "Anaheim AC Repair Pros",
+        "Four Seasons Heating and Air",
+        "Prime Anaheim HVAC Repair Co",
+        "Alps Heating & Air Conditioning, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "24/7 HVAC Anaheim",
+        "Anaheim AC Repair Pros",
+        "Four Seasons Heating and Air",
+        "Prime Anaheim HVAC Repair Co",
+        "Alps Heating & Air Conditioning, Inc."
+      ],
+      "note": "Recommended five competing HVAC repair companies near Anaheim without mentioning Veteran Air.",
+      "answerChars": 2212
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Anaheim, CA",
+      "askedAt": "2026-09-26T17:23:55.691Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_gemini_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "AC Cool, Inc.",
+        "McMaster Heating & Air Conditioning",
+        "Associated Heating & Air",
+        "Andrew D. Cooper Co. Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "AC Cool, Inc.",
+        "McMaster Heating & Air Conditioning",
+        "Associated Heating & Air",
+        "Andrew D. Cooper Co. Inc."
+      ],
+      "note": "Recommended four other local HVAC companies in Anaheim without mentioning Veteran Air at all.",
+      "answerChars": 2778
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Anaheim, CA",
+      "askedAt": "2026-09-26T17:24:19.177Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_gemini_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Four Seasons Heating and Air",
+        "Associated Heating & Air Inc.",
+        "Alps Heating & Air Conditioning, Inc.",
+        "Home Comfort Cooling, Heating & Plumbing",
+        "NexGen HVAC & Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Four Seasons Heating and Air",
+        "Associated Heating & Air Inc.",
+        "Alps Heating & Air Conditioning, Inc.",
+        "Home Comfort Cooling, Heating & Plumbing",
+        "NexGen HVAC & Plumbing"
+      ],
+      "note": "Listed 5 competing HVAC companies in Anaheim with ratings and hours, but did not mention Veteran Air.",
+      "answerChars": 1474
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Anaheim, CA",
+      "askedAt": "2026-09-26T17:24:42.119Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_gemini_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Four Seasons Heating and Air",
+        "Haven Air Conditioning",
+        "Associated Heating & Air Inc.",
+        "Alps Heating & Air Conditioning, Inc.",
+        "Sano Plumbing Heating AC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Four Seasons Heating and Air",
+        "Haven Air Conditioning",
+        "Associated Heating & Air Inc.",
+        "Alps Heating & Air Conditioning, Inc.",
+        "Sano Plumbing Heating AC"
+      ],
+      "note": "Recommended five other local HVAC companies without mentioning Veteran Air at all.",
+      "answerChars": 2950
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Anaheim, CA free estimate",
+      "askedAt": "2026-09-26T17:25:05.782Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_gemini_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "20th Century Air",
+        "Air Concepts HVAC",
+        "South County Air Services",
+        "Associated Heating & Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "20th Century Air",
+        "Air Concepts HVAC",
+        "South County Air Services",
+        "Associated Heating & Air"
+      ],
+      "note": "Recommended four competing Anaheim HVAC companies offering free estimates, without mentioning Veteran Air.",
+      "answerChars": 2317
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Anaheim, CA",
+      "askedAt": "2026-09-26T17:25:28.822Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_gemini_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "20th Century Air",
+        "Associated Heating & Air",
+        "NEXGEN Air & Plumbing",
+        "Mike Diamond Plumbing & HVAC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "20th Century Air",
+        "Associated Heating & Air",
+        "NEXGEN Air & Plumbing",
+        "Mike Diamond Plumbing & HVAC"
+      ],
+      "note": "Recommended four competitor HVAC companies in Anaheim without mentioning Veteran Air at all.",
+      "answerChars": 1905
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Anaheim, CA",
+      "askedAt": "2026-09-26T17:25:51.005Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_gemini_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Four Seasons Heating and Air",
+        "Associated Heating & Air Inc.",
+        "Prime Anaheim HVAC Repair Co",
+        "Service All-Stars Plumbing Heating and Air Comfort",
+        "Home Comfort Cooling, Heating & Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Four Seasons Heating and Air",
+        "Associated Heating & Air Inc.",
+        "Prime Anaheim HVAC Repair Co",
+        "Service All-Stars Plumbing Heating and Air Comfort",
+        "Home Comfort Cooling, Heating & Plumbing"
+      ],
+      "note": "Recommended 5 other local HVAC contractors in Anaheim currently open, without mentioning Veteran Air.",
+      "answerChars": 2535
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Anaheim, CA",
+      "askedAt": "2026-09-26T17:23:32.594Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_perplexity_q1_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page captured no actual answer, just a sign-in prompt with no business recommendations.",
+      "answerChars": 234
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Anaheim, CA",
+      "askedAt": "2026-09-26T17:23:58.082Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_perplexity_q2_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows no actual answer content, just UI chrome indicating the request requires sign-up.",
+      "answerChars": 239
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Anaheim, CA",
+      "askedAt": "2026-09-26T17:24:23.748Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_perplexity_q3_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned no actual answer, just a prompt to sign up and repeat the request.",
+      "answerChars": 183
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Anaheim, CA",
+      "askedAt": "2026-09-26T17:27:10.289Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_perplexity_q4_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows no actual answer content, just a prompt to sign up and repeat the request.",
+      "answerChars": 244
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Anaheim, CA free estimate",
+      "askedAt": "2026-09-26T17:27:35.502Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_perplexity_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "20th Century Air Inc.",
+        "Price Air HVAC",
+        "Quick, Tidy, Done (International HVAC LA)"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "20th Century Air Inc.",
+        "Price Air HVAC",
+        "Quick, Tidy, Done (International HVAC LA)"
+      ],
+      "note": "Recommended three Anaheim HVAC companies offering free estimates, none of which was Veteran Air.",
+      "answerChars": 878
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Anaheim, CA",
+      "askedAt": "2026-09-26T17:28:02.429Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_perplexity_q6_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a sign-up prompt instead of a response.",
+      "answerChars": 189
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Anaheim, CA",
+      "askedAt": "2026-09-26T17:30:48.130Z",
+      "ok": true,
+      "screenshot": "screenshots/veteran-air_perplexity_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Four Seasons Heating & Air",
+        "AC Repair Anaheim",
+        "Alps Heating & Air Conditioning",
+        "Cool Air Technologies",
+        "South County Air Services",
+        "AC Cool, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Four Seasons Heating & Air",
+        "AC Repair Anaheim",
+        "Alps Heating & Air Conditioning",
+        "Cool Air Technologies",
+        "South County Air Services",
+        "AC Cool, Inc."
+      ],
+      "note": "Recommended six HVAC competitors for furnace repair in Anaheim, never mentioning Veteran Air.",
+      "answerChars": 1198
+    }
+  ]
+}

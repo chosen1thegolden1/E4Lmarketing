@@ -1,0 +1,390 @@
+{
+  "subject": "California Air Conditioning Systems",
+  "city": "Lomita, CA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-09-26",
+  "startedAt": "2026-09-26T16:58:21.435Z",
+  "finishedAt": "2026-09-26T17:04:27.700Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "4/21",
+  "named": 4,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Lomita, CA",
+      "askedAt": "2026-09-26T16:58:21.572Z",
+      "ok": false,
+      "screenshot": "screenshots/california-air-conditioning-systems_chatgpt_q1_2026-09-26.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Lomita, CA",
+      "askedAt": "2026-09-26T17:00:11.748Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Lomita, CA",
+      "askedAt": "2026-09-26T17:00:11.748Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Lomita, CA",
+      "askedAt": "2026-09-26T17:00:11.748Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Lomita, CA free estimate",
+      "askedAt": "2026-09-26T17:00:11.748Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Lomita, CA",
+      "askedAt": "2026-09-26T17:00:11.748Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Lomita, CA",
+      "askedAt": "2026-09-26T17:00:11.748Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Lomita, CA",
+      "askedAt": "2026-09-26T16:58:21.573Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_gemini_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Urso Air Systems",
+        "Hawthorne HVAC Service",
+        "International HVAC Service",
+        "PDS Plumbing and Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Urso Air Systems",
+        "Hawthorne HVAC Service",
+        "International HVAC Service",
+        "PDS Plumbing and Air"
+      ],
+      "note": "Recommended four competitor HVAC companies for emergency AC repair near Lomita, CA, without naming California Air Conditioning Systems.",
+      "answerChars": 1407
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Lomita, CA",
+      "askedAt": "2026-09-26T16:58:44.393Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_gemini_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "California Air Conditioning Systems",
+        "Smart Air & Repair Lomita",
+        "Workman Heating & AC Repair Service Lomita"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Smart Air & Repair Lomita",
+        "Workman Heating & AC Repair Service Lomita"
+      ],
+      "note": "Listed three local HVAC providers including the subject, with ratings and service details, but rated two competitors higher than the subject.",
+      "answerChars": 1807
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Lomita, CA",
+      "askedAt": "2026-09-26T16:59:08.385Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_gemini_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "California Air Conditioning Systems",
+        "Smart Air & Repair Lomita",
+        "Cloud Comfort HVAC",
+        "Workman Heating & AC Repair Service Lomita",
+        "NexGen HVAC & Plumbing"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Smart Air & Repair Lomita",
+        "Cloud Comfort HVAC",
+        "Workman Heating & AC Repair Service Lomita",
+        "NexGen HVAC & Plumbing"
+      ],
+      "note": "Listed the subject first among five 24/7 or extended-hours HVAC companies serving Lomita, CA.",
+      "answerChars": 2180
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Lomita, CA",
+      "askedAt": "2026-09-26T16:59:32.079Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_gemini_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Smart Air & Repair Lomita",
+        "California Air Conditioning Systems",
+        "Workman Heating & AC Repair Service Lomita",
+        "Cloud Comfort HVAC",
+        "Torrance HVAC Services – AC Installation HVAC Replacement By Dusty Ducts"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Smart Air & Repair Lomita",
+        "Workman Heating & AC Repair Service Lomita",
+        "Cloud Comfort HVAC",
+        "Torrance HVAC Services – AC Installation HVAC Replacement By Dusty Ducts"
+      ],
+      "note": "Listed five local HVAC companies with ratings and hours, including the audit subject among four competitors.",
+      "answerChars": 2386
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Lomita, CA free estimate",
+      "askedAt": "2026-09-26T16:59:56.009Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_gemini_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Hawthorne HVAC Service",
+        "International HVAC LA",
+        "Universal Heating & Air",
+        "The Home Depot",
+        "First Service Pros HVAC Heating and Cooling"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Hawthorne HVAC Service",
+        "International HVAC LA",
+        "Universal Heating & Air",
+        "The Home Depot",
+        "First Service Pros HVAC Heating and Cooling"
+      ],
+      "note": "Recommended five competing HVAC providers for free estimates in Lomita, never mentioning California Air Conditioning Systems.",
+      "answerChars": 1999
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Lomita, CA",
+      "askedAt": "2026-09-26T17:00:18.767Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_gemini_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Urso Air Systems",
+        "Lomita Plumbing and Air Pros",
+        "Absolute Air Flow",
+        "PDS Plumbing and Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Urso Air Systems",
+        "Lomita Plumbing and Air Pros",
+        "Absolute Air Flow",
+        "PDS Plumbing and Air"
+      ],
+      "note": "Recommended four local HVAC competitors with phone numbers, never mentioning California Air Conditioning Systems.",
+      "answerChars": 1729
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Lomita, CA",
+      "askedAt": "2026-09-26T17:00:41.386Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_gemini_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Smart Air & Repair Lomita",
+        "Workman Heating & AC Repair Service Lomita",
+        "California Air Conditioning Systems",
+        "Joe's Heating and Cooling Inc.",
+        "AC Plumbing, Heating & Air Conditioning"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Smart Air & Repair Lomita",
+        "Workman Heating & AC Repair Service Lomita",
+        "Joe's Heating and Cooling Inc.",
+        "AC Plumbing, Heating & Air Conditioning"
+      ],
+      "note": "Listed five local HVAC providers including the audit subject, ranked third among five options.",
+      "answerChars": 2191
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Lomita, CA",
+      "askedAt": "2026-09-26T16:58:21.573Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_perplexity_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "The Home Depot Lomita Heating and Air Conditioning Repair",
+        "One Hour® Heating & Air Lomita",
+        "Power Pro Plumbing",
+        "LC Heating & Air",
+        "Brody Pennell Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "The Home Depot Lomita Heating and Air Conditioning Repair",
+        "One Hour® Heating & Air Lomita",
+        "Power Pro Plumbing",
+        "LC Heating & Air",
+        "Brody Pennell Heating & Air Conditioning"
+      ],
+      "note": "Listed five HVAC repair providers near Lomita but did not mention California Air Conditioning Systems.",
+      "answerChars": 937
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Lomita, CA",
+      "askedAt": "2026-09-26T16:58:50.208Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_perplexity_q2_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No answer content was captured; the page shows only UI chrome and a sign-in prompt with no recommendations.",
+      "answerChars": 237
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Lomita, CA",
+      "askedAt": "2026-09-26T16:59:15.533Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_perplexity_q3_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page shows a sign-up prompt instead of content.",
+      "answerChars": 244
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Lomita, CA",
+      "askedAt": "2026-09-26T17:00:18.801Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_perplexity_q4_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a prompt to sign in, with no recommendations given.",
+      "answerChars": 243
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Lomita, CA free estimate",
+      "askedAt": "2026-09-26T17:00:44.634Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_perplexity_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "International HVAC LA",
+        "Power Pro Plumbing, Heating & Air",
+        "Stephens Plumbing, Heating & Air",
+        "Hawthorne HVAC Service",
+        "Home Depot HVAC Installation",
+        "K&L HVAC & Construction"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "International HVAC LA",
+        "Power Pro Plumbing, Heating & Air",
+        "Stephens Plumbing, Heating & Air",
+        "Hawthorne HVAC Service",
+        "Home Depot HVAC Installation",
+        "K&L HVAC & Construction"
+      ],
+      "note": "Listed six competing HVAC providers offering free estimates in Lomita, but did not mention California Air Conditioning Systems.",
+      "answerChars": 2653
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Lomita, CA",
+      "askedAt": "2026-09-26T17:01:12.155Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_perplexity_q6_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page only shows a sign-up prompt with no recommendations.",
+      "answerChars": 192
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Lomita, CA",
+      "askedAt": "2026-09-26T17:03:58.820Z",
+      "ok": true,
+      "screenshot": "screenshots/california-air-conditioning-systems_perplexity_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Home Depot",
+        "RDH HVAC",
+        "One Hour Heating and Air",
+        "Season Control HVAC",
+        "Moe Plumbing/HVAC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Home Depot",
+        "RDH HVAC",
+        "One Hour Heating and Air",
+        "Season Control HVAC",
+        "Moe Plumbing/HVAC"
+      ],
+      "note": "Recommended five other HVAC providers for furnace repair in Lomita, CA, without mentioning California Air Conditioning Systems.",
+      "answerChars": 917
+    }
+  ]
+}

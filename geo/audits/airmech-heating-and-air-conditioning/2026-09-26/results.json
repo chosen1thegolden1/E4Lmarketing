@@ -1,0 +1,360 @@
+{
+  "subject": "Airmech Heating and Air Conditioning",
+  "city": "Elk Grove, CA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-09-26",
+  "startedAt": "2026-09-26T18:10:39.641Z",
+  "finishedAt": "2026-09-26T18:25:24.686Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "4/21",
+  "named": 4,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Elk Grove, CA",
+      "askedAt": "2026-09-26T18:10:39.788Z",
+      "ok": false,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_chatgpt_q1_2026-09-26.jpg",
+      "error": "locator.waitFor: Timeout 40000ms exceeded."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Elk Grove, CA",
+      "askedAt": "2026-09-26T18:13:07.473Z",
+      "ok": false,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_chatgpt_q2_2026-09-26.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Elk Grove, CA",
+      "askedAt": "2026-09-26T18:14:06.289Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Elk Grove, CA",
+      "askedAt": "2026-09-26T18:14:06.289Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Elk Grove, CA free estimate",
+      "askedAt": "2026-09-26T18:14:06.289Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Elk Grove, CA",
+      "askedAt": "2026-09-26T18:14:06.289Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Elk Grove, CA",
+      "askedAt": "2026-09-26T18:14:06.290Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Elk Grove, CA",
+      "askedAt": "2026-09-26T18:10:39.788Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_gemini_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Airmech Heating and Air Conditioning",
+        "Powercool Hvac Solutions",
+        "One Hour Heating & Air Conditioning",
+        "Huft Home Services Elk Grove"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Powercool Hvac Solutions",
+        "One Hour Heating & Air Conditioning",
+        "Huft Home Services Elk Grove"
+      ],
+      "note": "Listed five HVAC providers (including the subject twice, at two locations) as 24/7 emergency AC repair options near Elk Grove.",
+      "answerChars": 2197
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Elk Grove, CA",
+      "askedAt": "2026-09-26T18:11:03.005Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_gemini_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Kendrick Heating & Air",
+        "TRC Heating and Air",
+        "Barnett Heating & Air",
+        "Lemos Heating & Air",
+        "Elk Grove Plumbing, Drain, Heating & Air",
+        "Bonney Heating and Cooling",
+        "Huft Home Services"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Kendrick Heating & Air",
+        "TRC Heating and Air",
+        "Barnett Heating & Air",
+        "Lemos Heating & Air",
+        "Elk Grove Plumbing, Drain, Heating & Air",
+        "Bonney Heating and Cooling",
+        "Huft Home Services"
+      ],
+      "note": "Recommended seven other local/regional HVAC companies without mentioning Airmech Heating and Air Conditioning.",
+      "answerChars": 2494
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Elk Grove, CA",
+      "askedAt": "2026-09-26T18:11:26.032Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_gemini_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "One Hour Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "One Hour Heating & Air Conditioning"
+      ],
+      "note": "Recommended only a competitor (One Hour Heating & Air Conditioning) and did not mention Airmech Heating and Air Conditioning.",
+      "answerChars": 859
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Elk Grove, CA",
+      "askedAt": "2026-09-26T18:11:48.401Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_gemini_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Airmech Heating and Air Conditioning",
+        "Elite Heating & Air Conditioning",
+        "Huft Home Services Elk Grove",
+        "Esco Air Inc",
+        "Top Rank Heating and Air Conditioning Inc."
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Elite Heating & Air Conditioning",
+        "Huft Home Services Elk Grove",
+        "Esco Air Inc",
+        "Top Rank Heating and Air Conditioning Inc."
+      ],
+      "note": "Listed Airmech first with a perfect 5.0 rating alongside four competitor HVAC companies ranked by star rating.",
+      "answerChars": 2581
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Elk Grove, CA free estimate",
+      "askedAt": "2026-09-26T18:15:03.189Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_gemini_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "The Home Depot",
+        "Pulse HVAC",
+        "Speedi Air",
+        "One Hour Heating & Air Conditioning",
+        "Anderson Heating & Air Services"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "The Home Depot",
+        "Pulse HVAC",
+        "Speedi Air",
+        "One Hour Heating & Air Conditioning",
+        "Anderson Heating & Air Services"
+      ],
+      "note": "Recommended five competing HVAC providers and Home Depot's contractor network, never mentioning Airmech Heating and Air Conditioning.",
+      "answerChars": 2157
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Elk Grove, CA",
+      "askedAt": "2026-09-26T18:15:25.012Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_gemini_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Bonney Heating and Cooling",
+        "Airmech Heating and Air Conditioning",
+        "Mac’s Plumbing Heating & Air",
+        "Derek Sawyer’s Heating, Air, & Plumbing"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Bonney Heating and Cooling",
+        "Mac’s Plumbing Heating & Air",
+        "Derek Sawyer’s Heating, Air, & Plumbing"
+      ],
+      "note": "Listed four local HVAC companies including the subject, plus a troubleshooting checklist.",
+      "answerChars": 2004
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Elk Grove, CA",
+      "askedAt": "2026-09-26T18:15:47.477Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_gemini_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Brower Mechanical",
+        "One Hour Heating & Air Conditioning",
+        "Speedi Air",
+        "Tokay Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Brower Mechanical",
+        "One Hour Heating & Air Conditioning",
+        "Speedi Air",
+        "Tokay Heating & Air Conditioning"
+      ],
+      "note": "Recommended four competing HVAC companies for furnace repair but never mentioned Airmech Heating and Air Conditioning.",
+      "answerChars": 1562
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Elk Grove, CA",
+      "askedAt": "2026-09-26T18:10:39.788Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_perplexity_q1_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a prompt to sign up and repeat the request.",
+      "answerChars": 170
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Elk Grove, CA",
+      "askedAt": "2026-09-26T18:13:25.555Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_perplexity_q2_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows no actual answer content, just a prompt to sign up and repeat the request.",
+      "answerChars": 179
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Elk Grove, CA",
+      "askedAt": "2026-09-26T18:16:11.582Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_perplexity_q3_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a prompt to sign up and repeat the request.",
+      "answerChars": 185
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Elk Grove, CA",
+      "askedAt": "2026-09-26T18:18:57.663Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_perplexity_q4_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a sign-up prompt with no business recommendations.",
+      "answerChars": 180
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Elk Grove, CA free estimate",
+      "askedAt": "2026-09-26T18:21:43.498Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_perplexity_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "PULSE HVAC",
+        "Airmech Heating and Air Conditioning",
+        "One Hour Heating & Air Conditioning Elk Grove",
+        "Reliable Cooling & Heating"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "PULSE HVAC",
+        "One Hour Heating & Air Conditioning Elk Grove",
+        "Reliable Cooling & Heating"
+      ],
+      "note": "Listed four Elk Grove HVAC providers including the subject, but noted its free-estimate offer wasn't explicitly confirmed unlike competitors.",
+      "answerChars": 1139
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Elk Grove, CA",
+      "askedAt": "2026-09-26T18:22:12.913Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_perplexity_q6_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page only shows a sign-up prompt with no recommendations.",
+      "answerChars": 195
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Elk Grove, CA",
+      "askedAt": "2026-09-26T18:24:59.514Z",
+      "ok": true,
+      "screenshot": "screenshots/airmech-heating-and-air-conditioning_perplexity_q7_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page shows no actual answer content, requiring sign-in to view results.",
+      "answerChars": 235
+    }
+  ]
+}

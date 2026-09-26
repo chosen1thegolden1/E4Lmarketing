@@ -1,0 +1,361 @@
+{
+  "subject": "So Cal Air",
+  "city": "Glendale, CA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-09-26",
+  "startedAt": "2026-09-26T17:04:28.223Z",
+  "finishedAt": "2026-09-26T17:15:07.921Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "3/21",
+  "named": 3,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Glendale, CA",
+      "askedAt": "2026-09-26T17:04:28.382Z",
+      "ok": false,
+      "screenshot": "screenshots/so-cal-air_chatgpt_q1_2026-09-26.jpg",
+      "error": "sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Glendale, CA",
+      "askedAt": "2026-09-26T17:04:34.481Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Glendale, CA",
+      "askedAt": "2026-09-26T17:04:34.481Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Glendale, CA",
+      "askedAt": "2026-09-26T17:04:34.481Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Glendale, CA free estimate",
+      "askedAt": "2026-09-26T17:04:34.481Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Glendale, CA",
+      "askedAt": "2026-09-26T17:04:34.481Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Glendale, CA",
+      "askedAt": "2026-09-26T17:04:34.481Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — anonymous chat limit reached for this IP"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Glendale, CA",
+      "askedAt": "2026-09-26T17:04:28.383Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_gemini_q1_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Glendale HVAC Installation Contractor",
+        "AC Repair Glendale",
+        "Progressive Air inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Glendale HVAC Installation Contractor",
+        "AC Repair Glendale",
+        "Progressive Air inc."
+      ],
+      "note": "Recommended three other local HVAC contractors for emergency AC repair, without mentioning So Cal Air.",
+      "answerChars": 1449
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Glendale, CA",
+      "askedAt": "2026-09-26T17:04:49.941Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_gemini_q2_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Just One Call, Inc.",
+        "Ed & Ed Brothers",
+        "So Cal Air"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Just One Call, Inc.",
+        "Ed & Ed Brothers"
+      ],
+      "note": "Listed three HVAC companies in Glendale, including So Cal Air, with brief descriptions of each.",
+      "answerChars": 2351
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Glendale, CA",
+      "askedAt": "2026-09-26T17:05:17.199Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_gemini_q3_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Progressive Air inc.",
+        "AIR SUPPORT HVAC, INC",
+        "Glendale HVAC Installation Contractor"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Progressive Air inc.",
+        "AIR SUPPORT HVAC, INC",
+        "Glendale HVAC Installation Contractor"
+      ],
+      "note": "Recommended three other Glendale HVAC companies with phone availability details, but did not mention So Cal Air.",
+      "answerChars": 1548
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Glendale, CA",
+      "askedAt": "2026-09-26T17:05:40.537Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_gemini_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Glendale HVAC Installation Contractor",
+        "So Cal Air",
+        "Thermo Cooling Inc",
+        "Ed & Ed Brothers"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Glendale HVAC Installation Contractor",
+        "Thermo Cooling Inc",
+        "Ed & Ed Brothers"
+      ],
+      "note": "Listed four local HVAC contractors with ratings and hours, including So Cal Air as one of the recommended options.",
+      "answerChars": 2046
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Glendale, CA free estimate",
+      "askedAt": "2026-09-26T17:06:02.380Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_gemini_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Green Planet Heating & Air",
+        "Toto Air",
+        "Service Genius",
+        "NEXGEN"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Green Planet Heating & Air",
+        "Toto Air",
+        "Service Genius",
+        "NEXGEN"
+      ],
+      "note": "Recommended four competing HVAC companies in Glendale offering free estimates, without mentioning So Cal Air.",
+      "answerChars": 1494
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Glendale, CA",
+      "askedAt": "2026-09-26T17:06:23.349Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_gemini_q6_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Air-Tro HVAC",
+        "ECO Heating & Cooling",
+        "Kahn Air Conditioning",
+        "Aire Serv of Glendale"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Air-Tro HVAC",
+        "ECO Heating & Cooling",
+        "Kahn Air Conditioning",
+        "Aire Serv of Glendale"
+      ],
+      "note": "Recommended four competing local HVAC companies for AC repair in Glendale and did not mention So Cal Air at all.",
+      "answerChars": 1785
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Glendale, CA",
+      "askedAt": "2026-09-26T17:06:45.616Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_gemini_q7_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Glendale HVAC Installation Contractor",
+        "So Cal Air",
+        "Evans Heating & Air"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Glendale HVAC Installation Contractor",
+        "Evans Heating & Air"
+      ],
+      "note": "Listed three HVAC contractors open now in Glendale, including the audit subject So Cal Air, with hours and contact info.",
+      "answerChars": 1234
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Glendale, CA",
+      "askedAt": "2026-09-26T17:04:28.383Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_perplexity_q1_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned no actual answer, only a prompt to sign up and repeat the request.",
+      "answerChars": 173
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Glendale, CA",
+      "askedAt": "2026-09-26T17:07:14.193Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_perplexity_q2_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a sign-up prompt with no business recommendations.",
+      "answerChars": 178
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Glendale, CA",
+      "askedAt": "2026-09-26T17:10:37.791Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_perplexity_q3_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page just prompted the user to sign up and repeat the request.",
+      "answerChars": 184
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Glendale, CA",
+      "askedAt": "2026-09-26T17:13:23.370Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_perplexity_q4_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Pac-West Air Conditioning & Heating Inc",
+        "American Cool and Heat",
+        "Just One Call, Inc.",
+        "Air Plus HVAC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Pac-West Air Conditioning & Heating Inc",
+        "American Cool and Heat",
+        "Just One Call, Inc.",
+        "Air Plus HVAC"
+      ],
+      "note": "Recommended four other Glendale HVAC companies with review stats but never mentioned So Cal Air.",
+      "answerChars": 797
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Glendale, CA free estimate",
+      "askedAt": "2026-09-26T17:13:51.059Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_perplexity_q5_2026-09-26.jpg",
+      "answered": true,
+      "businesses": [
+        "Toto Air",
+        "ECO Heating & Cooling",
+        "NEXGEN Air, Heating & Plumbing",
+        "Green Planet Heating & Air",
+        "Affordable Heating and Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Toto Air",
+        "ECO Heating & Cooling",
+        "NEXGEN Air, Heating & Plumbing",
+        "Green Planet Heating & Air",
+        "Affordable Heating and Air"
+      ],
+      "note": "Listed five other Glendale HVAC companies offering free estimates but never mentioned So Cal Air.",
+      "answerChars": 2633
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Glendale, CA",
+      "askedAt": "2026-09-26T17:14:17.420Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_perplexity_q6_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; page shows only a sign-up prompt with no recommendations.",
+      "answerChars": 256
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Glendale, CA",
+      "askedAt": "2026-09-26T17:14:42.988Z",
+      "ok": true,
+      "screenshot": "screenshots/so-cal-air_perplexity_q7_2026-09-26.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was returned; the page only prompted sign-up instead of providing recommendations.",
+      "answerChars": 234
+    }
+  ]
+}
