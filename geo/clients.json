@@ -29,5 +29,65 @@
     "name": "All In Roofing LA",
     "city": "Los Angeles, CA",
     "niche": "roofing"
+  },
+  {
+    "name": "Home Comfort Cooling, Heating & Plumbing",
+    "city": "Anaheim, CA",
+    "niche": "hvac",
+    "contactEmail": "sherry.singer@homecomfortusa.com"
+  },
+  {
+    "name": "California Air Conditioning Systems",
+    "city": "Lomita, CA",
+    "niche": "hvac",
+    "contactEmail": "harryirvine@californiaac.com"
+  },
+  {
+    "name": "So Cal Air",
+    "city": "Glendale, CA",
+    "niche": "hvac",
+    "contactEmail": "menooa@socalair.co"
+  },
+  {
+    "name": "Brody Pennell Heating & Air Conditioning",
+    "city": "Los Angeles, CA",
+    "niche": "hvac",
+    "contactEmail": "fabio@brodypennell.com"
+  },
+  {
+    "name": "Veteran Air",
+    "city": "Anaheim, CA",
+    "niche": "hvac",
+    "contactEmail": "paul@veteranair.net"
+  },
+  {
+    "name": "NexGen HVAC & Plumbing",
+    "city": "Anaheim, CA",
+    "niche": "hvac",
+    "contactEmail": "yasmin.inzunza@nexgenairandheat.com"
+  },
+  {
+    "name": "Brower Mechanical",
+    "city": "Rocklin, CA",
+    "niche": "hvac",
+    "contactEmail": "duane@browermechanical.com"
+  },
+  {
+    "name": "Elevated Comfort",
+    "city": "Cotati, CA",
+    "niche": "hvac",
+    "contactEmail": "matt@goelevatedcomfort.com"
+  },
+  {
+    "name": "AZ Air Conditioning and Heating",
+    "city": "Sylmar, CA",
+    "niche": "hvac",
+    "contactEmail": "k.pasquier@azaircond.com"
+  },
+  {
+    "name": "Airmech Heating and Air Conditioning",
+    "city": "Elk Grove, CA",
+    "niche": "hvac",
+    "contactEmail": "justin@airmechhvac.com"
   }
 ]
