@@ -89,5 +89,10 @@
     "city": "Elk Grove, CA",
     "niche": "hvac",
     "contactEmail": "justin@airmechhvac.com"
-  }
+  },
+  {
+  "name": "Wirth Plastic Surgery",
+  "city": "Newport Beach, CA",
+  "niche": "med-spa"
+}
 ]
