@@ -1,0 +1,482 @@
+{
+  "subject": "Wirth Plastic Surgery",
+  "city": "Newport Beach, CA",
+  "niche": "med-spa",
+  "label": "Med Spa & Aesthetics",
+  "date": "2026-09-27",
+  "startedAt": "2026-09-27T16:15:53.285Z",
+  "finishedAt": "2026-09-27T16:33:23.275Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "0/21",
+  "named": 0,
+  "total": 21,
+  "failedAsks": 5,
+  "ghl": "cs_geo_score field is wired (location); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best med spa in Newport Beach, CA",
+      "askedAt": "2026-09-27T16:15:53.926Z",
+      "ok": false,
+      "screenshot": "screenshots/wirth-plastic-surgery_chatgpt_q1_2026-09-27.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "botox near Newport Beach, CA",
+      "askedAt": "2026-09-27T16:20:13.467Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_chatgpt_q2_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "Newport Cove Dermatology + Aesthetics",
+        "Balanced Skin Dermatology and Aesthetics",
+        "SkinSpirit Newport Beach",
+        "Beauty Boost Med Spa, Inc.",
+        "DermFx",
+        "NakedMD Med Spa Newport Beach",
+        "Newport Beach MedSpa"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Newport Cove Dermatology + Aesthetics",
+        "Balanced Skin Dermatology and Aesthetics",
+        "SkinSpirit Newport Beach",
+        "Beauty Boost Med Spa, Inc.",
+        "DermFx",
+        "NakedMD Med Spa Newport Beach",
+        "Newport Beach MedSpa"
+      ],
+      "note": "Recommended seven local dermatology/med spa practices for Botox, but did not mention Wirth Plastic Surgery at all.",
+      "answerChars": 1791
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "Newport Beach, CA med spa with good reviews",
+      "askedAt": "2026-09-27T16:20:35.635Z",
+      "ok": false,
+      "screenshot": "screenshots/wirth-plastic-surgery_chatgpt_q3_2026-09-27.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "where should I get filler in Newport Beach, CA",
+      "askedAt": "2026-09-27T16:24:55.797Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_chatgpt_q4_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "Newport Cove Dermatology + Aesthetics",
+        "Batniji Facial Plastic Surgery",
+        "Daines Plastic Surgery: Steven M. Daines, MD FACS",
+        "OC Facial Plastic Surgery - Ali Sepehr, MD",
+        "Dr. Shabnam Ghazizadeh MD, Facial Plastic Surgery",
+        "Coastline Plastic Surgery - Dr. Brandyn Dunn",
+        "JUVIVE (Dr. Heidi Goodarzi)",
+        "Newport Beach Dermatology & Plastic Surgery (Dr. Larisa Lehmer)"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Newport Cove Dermatology + Aesthetics",
+        "Batniji Facial Plastic Surgery",
+        "Daines Plastic Surgery: Steven M. Daines, MD FACS",
+        "OC Facial Plastic Surgery - Ali Sepehr, MD",
+        "Dr. Shabnam Ghazizadeh MD, Facial Plastic Surgery",
+        "Coastline Plastic Surgery - Dr. Brandyn Dunn",
+        "JUVIVE (Dr. Heidi Goodarzi)",
+        "Newport Beach Dermatology & Plastic Surgery (Dr. Larisa Lehmer)"
+      ],
+      "note": "Recommended eight Newport Beach dermatology/facial plastic surgery practices for filler, none of which was the audit subject Wirth Plastic Surgery.",
+      "answerChars": 3408
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "laser hair removal Newport Beach, CA",
+      "askedAt": "2026-09-27T16:25:22.494Z",
+      "ok": false,
+      "screenshot": "screenshots/wirth-plastic-surgery_chatgpt_q5_2026-09-27.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "most trusted aesthetics clinic near Newport Beach, CA",
+      "askedAt": "2026-09-27T16:29:41.992Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_chatgpt_q6_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "ZENA Medical",
+        "Newport Cove Dermatology + Aesthetics",
+        "Balanced Skin Dermatology and Aesthetics",
+        "SkinSpirit Newport Beach",
+        "Beauty Boost Med Spa, Inc.",
+        "NakedMD Med Spa Newport Beach",
+        "The Aesthetic Lounge",
+        "OC Beauty Medspa - Newport Beach",
+        "Gallery of Cosmetic Surgery & Aesthetic Lounge"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ZENA Medical",
+        "Newport Cove Dermatology + Aesthetics",
+        "Balanced Skin Dermatology and Aesthetics",
+        "SkinSpirit Newport Beach",
+        "Beauty Boost Med Spa, Inc.",
+        "NakedMD Med Spa Newport Beach",
+        "The Aesthetic Lounge",
+        "OC Beauty Medspa - Newport Beach",
+        "Gallery of Cosmetic Surgery & Aesthetic Lounge"
+      ],
+      "note": "Recommended multiple local dermatology/med-spa clinics and physician-led practices but never mentioned Wirth Plastic Surgery.",
+      "answerChars": 3112
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "med spa Newport Beach, CA prices",
+      "askedAt": "2026-09-27T16:30:04.880Z",
+      "ok": false,
+      "screenshot": "screenshots/wirth-plastic-surgery_chatgpt_q7_2026-09-27.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best med spa in Newport Beach, CA",
+      "askedAt": "2026-09-27T16:15:53.926Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_gemini_q1_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "Plump Medical Spa",
+        "Beauty Boost Med Spa, Inc.",
+        "Newport Beach MedSpa",
+        "BioSpa",
+        "Aesthetic Lounge"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Plump Medical Spa",
+        "Beauty Boost Med Spa, Inc.",
+        "Newport Beach MedSpa",
+        "BioSpa",
+        "Aesthetic Lounge"
+      ],
+      "note": "Recommended five local med spas, none of which was Wirth Plastic Surgery.",
+      "answerChars": 3260
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "botox near Newport Beach, CA",
+      "askedAt": "2026-09-27T16:17:02.437Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_gemini_q2_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "SkinSpirit Newport Beach",
+        "Beauty Boost Med Spa",
+        "DermFx Newport Beach",
+        "Plump Medical Spa",
+        "Coastline Dermatology Laser & Medical Center"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "SkinSpirit Newport Beach",
+        "Beauty Boost Med Spa",
+        "DermFx Newport Beach",
+        "Plump Medical Spa",
+        "Coastline Dermatology Laser & Medical Center"
+      ],
+      "note": "Recommended 5 local med spas/clinics for Botox, none of which was Wirth Plastic Surgery.",
+      "answerChars": 2511
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "Newport Beach, CA med spa with good reviews",
+      "askedAt": "2026-09-27T16:17:24.103Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_gemini_q3_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "Newport Beach MedSpa",
+        "NakedMD",
+        "Beauty Boost Med Spa, Inc.",
+        "MeSO Medspa Newport Beach",
+        "BioSpa"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Newport Beach MedSpa",
+        "NakedMD",
+        "Beauty Boost Med Spa, Inc.",
+        "MeSO Medspa Newport Beach",
+        "BioSpa"
+      ],
+      "note": "Recommended 5 local med spas in Newport Beach, none of which was Wirth Plastic Surgery.",
+      "answerChars": 2073
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "where should I get filler in Newport Beach, CA",
+      "askedAt": "2026-09-27T16:18:23.572Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_gemini_q4_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "Grey Aesthetics",
+        "Plump Medical Spa",
+        "Beauty Boost Med Spa, Inc.",
+        "Dr. Jennifer Armstrong | ArmstrongMD"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Grey Aesthetics",
+        "Plump Medical Spa",
+        "Beauty Boost Med Spa, Inc.",
+        "Dr. Jennifer Armstrong | ArmstrongMD"
+      ],
+      "note": "Recommended four Newport Beach med spas/clinics but did not mention Wirth Plastic Surgery at all.",
+      "answerChars": 3015
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "laser hair removal Newport Beach, CA",
+      "askedAt": "2026-09-27T16:19:19.056Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_gemini_q5_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "LaserAway Crystal Cove",
+        "Coastline Dermatology Laser & Medical Center",
+        "Newport Beach MedSpa",
+        "Dr. Jennifer Armstrong | ArmstrongMD",
+        "Renaissance Plastic Surgery: Richard H. Lee, MD"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "LaserAway Crystal Cove",
+        "Coastline Dermatology Laser & Medical Center",
+        "Newport Beach MedSpa",
+        "Dr. Jennifer Armstrong | ArmstrongMD",
+        "Renaissance Plastic Surgery: Richard H. Lee, MD"
+      ],
+      "note": "Recommended five other Newport Beach laser hair removal providers, none of which was Wirth Plastic Surgery.",
+      "answerChars": 3006
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "most trusted aesthetics clinic near Newport Beach, CA",
+      "askedAt": "2026-09-27T16:19:43.885Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_gemini_q6_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "Plump Medical Spa",
+        "BioSpa",
+        "California Cosmetics",
+        "Newport Aesthetics"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Plump Medical Spa",
+        "BioSpa",
+        "California Cosmetics",
+        "Newport Aesthetics"
+      ],
+      "note": "Recommended four local med spas/aesthetics clinics, none of which was Wirth Plastic Surgery.",
+      "answerChars": 3471
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "med spa Newport Beach, CA prices",
+      "askedAt": "2026-09-27T16:20:10.089Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_gemini_q7_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic average price ranges for med spa treatments in Newport Beach without naming any specific businesses, including the subject.",
+      "answerChars": 2248
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best med spa in Newport Beach, CA",
+      "askedAt": "2026-09-27T16:15:53.926Z",
+      "ok": false,
+      "screenshot": "screenshots/wirth-plastic-surgery_perplexity_q1_2026-09-27.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "botox near Newport Beach, CA",
+      "askedAt": "2026-09-27T16:17:02.610Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_perplexity_q2_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "Newport Beach MedSpa",
+        "Beauty With A Mission - Orange County's Premier Medical Spa",
+        "Pure Beauty Medical Spa",
+        "California Cosmetics",
+        "Rox Spa Newport Beach",
+        "European Wellness Cosmedical",
+        "Skin Society",
+        "SkinSpirit Newport Beach",
+        "Med Lounge",
+        "Alchemy 43 Newport Beach",
+        "Coastline Dermatology Laser & Medical Center",
+        "OrangeTwist Newport Beach"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Newport Beach MedSpa",
+        "Beauty With A Mission - Orange County's Premier Medical Spa",
+        "Pure Beauty Medical Spa",
+        "California Cosmetics",
+        "Rox Spa Newport Beach",
+        "European Wellness Cosmedical",
+        "Skin Society",
+        "SkinSpirit Newport Beach",
+        "Med Lounge",
+        "Alchemy 43 Newport Beach",
+        "Coastline Dermatology Laser & Medical Center",
+        "OrangeTwist Newport Beach"
+      ],
+      "note": "Recommended numerous local med spas and dermatology practices near Newport Beach but never mentioned Wirth Plastic Surgery.",
+      "answerChars": 4812
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "Newport Beach, CA med spa with good reviews",
+      "askedAt": "2026-09-27T16:17:36.675Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_perplexity_q3_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "Newport Beach MedSpa",
+        "Beyond Beauty Medical Spa",
+        "Beauty Boost Med Spa",
+        "South Coast MedSpa",
+        "SkinSpirit Newport Beach"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Newport Beach MedSpa",
+        "Beyond Beauty Medical Spa",
+        "Beauty Boost Med Spa",
+        "South Coast MedSpa",
+        "SkinSpirit Newport Beach"
+      ],
+      "note": "Recommended five other Newport Beach med spas with positive reviews, never mentioning Wirth Plastic Surgery.",
+      "answerChars": 1036
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "where should I get filler in Newport Beach, CA",
+      "askedAt": "2026-09-27T16:18:43.446Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_perplexity_q4_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "SkinSpirit Newport Beach",
+        "Newport Aesthetics",
+        "Beauty Boost Med Spa",
+        "OrangeTwist Newport Beach",
+        "LaserAway Newport Beach",
+        "Glossy Skin Lounge"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "SkinSpirit Newport Beach",
+        "Newport Aesthetics",
+        "Beauty Boost Med Spa",
+        "OrangeTwist Newport Beach",
+        "LaserAway Newport Beach",
+        "Glossy Skin Lounge"
+      ],
+      "note": "Recommended six local med spas/clinics for fillers but did not mention Wirth Plastic Surgery.",
+      "answerChars": 1255
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "laser hair removal Newport Beach, CA",
+      "askedAt": "2026-09-27T16:19:13.014Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_perplexity_q5_2026-09-27.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer content was captured; the page shows only a sign-up prompt with no recommendations.",
+      "answerChars": 233
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "most trusted aesthetics clinic near Newport Beach, CA",
+      "askedAt": "2026-09-27T16:19:37.682Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_perplexity_q6_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "The Aesthetic Center",
+        "Newport Beach Center for Plastic Surgery",
+        "Rejuvenate Aesthetics"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "The Aesthetic Center",
+        "Newport Beach Center for Plastic Surgery",
+        "Rejuvenate Aesthetics"
+      ],
+      "note": "Recommended three other local clinics by review ratings/counts and did not mention Wirth Plastic Surgery.",
+      "answerChars": 1646
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "med spa Newport Beach, CA prices",
+      "askedAt": "2026-09-27T16:20:06.992Z",
+      "ok": true,
+      "screenshot": "screenshots/wirth-plastic-surgery_perplexity_q7_2026-09-27.jpg",
+      "answered": true,
+      "businesses": [
+        "PCH MedSpa",
+        "Avesta Aesthetics",
+        "Plump Medical Spa",
+        "Fix Me Up Medical Spa"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "PCH MedSpa",
+        "Avesta Aesthetics",
+        "Plump Medical Spa",
+        "Fix Me Up Medical Spa"
+      ],
+      "note": "Cited pricing from four local med spas (PCH, Avesta, Plump, Fix Me Up) but never mentioned Wirth Plastic Surgery.",
+      "answerChars": 4758
+    }
+  ]
+}
