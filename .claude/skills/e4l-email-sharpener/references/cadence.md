@@ -8,8 +8,8 @@ The full operating system is `docs/EMAIL_OPERATING_CADENCE.md` in the repo. The 
 version, because it changes how you write:
 
 **The batch you are writing is next week's, not this week's.** Claude writes Tuesday,
-Zion QAs Wednesday, Chosen greenlights Thursday, Daniel and Sammy load Friday, and the
-first email sends the following Monday. So a batch written Tuesday has its Monday
+a second Claude session edits it Tuesday, Chosen approves, Daniel and Sammy get it, and
+Abdullah loads it Friday for the following Monday. So a batch written Tuesday has its Monday
 email land six days later.
 
 That gap is the single biggest trap in this job. Write every dated claim so it is

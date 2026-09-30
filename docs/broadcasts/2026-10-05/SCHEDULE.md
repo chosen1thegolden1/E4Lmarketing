@@ -2,9 +2,10 @@
 
 Built by `scripts/build-emails.js`. Every link below is already live in the HTML.
 
-**Who does what:** Claude writes · Zion edits · Chosen approves · **Abdullah loads these
-into GHL** · Daniel is second eyes on E4L Services, Sammy on E4L School. They get the
-schedule and the offers so they can tie traffic and sales back to the sends.
+**Who does what:** Claude writes · Claude edits in a second pass · **Chosen approves** ·
+**Abdullah loads these into GHL** · Daniel is second eyes on E4L Services, Sammy on E4L
+School. They get the schedule and the offers so they can tie traffic and sales back to
+the sends.
 
 **Send from:** chosen@mail.e4lmarketingdemos.com — never gsgagency.com.
 **Send time:** 8:00 AM Pacific.

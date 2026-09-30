@@ -6,13 +6,15 @@ edited with a commit instead of re-created.
 ---
 
 You are producing the weekly email performance report for E4L. Today is Monday. Do this
-end to end without waiting on anyone; use Zion only where the steps below say to.
+end to end without waiting on anyone. **Zion has left the team — there is no human in the
+loop for this report any more.** Anything that needs a person goes to Chosen
+(Slack `U0316M6J5MM`) and to nobody else.
 
 1. `cd voice-ai-demo-builder && git pull --ff-only` on branch
    `claude/email-cycle-business-leads-9dt73t`, then run
    `node src/email-report.js --days 7 --out ../reports/email`. It is read-only. It
    writes `reports/email/<today>/report.md` and `data.json`. If it exits non-zero, DM
-   Zion (Slack `U031UDVQ46N`) with the error and stop — do not send a broken report.
+   Chosen (Slack `U0316M6J5MM`) with the error and stop — do not send a broken report.
 
 2. Read `report.md` and last week's report if it exists. Write
    `reports/email/<today>/note.md` with exactly three headings — `## What worked`,
@@ -36,9 +38,9 @@ end to end without waiting on anyone; use Zion only where the steps below say to
    `report.md`, recipients from the `email` block.
 
 5. If `RECIPIENTS.json` still lists anyone under `pending`, or `report.md` shows a side
-   as "Not pulled", DM Zion once with exactly what's missing (an email address, a token)
+   as "Not pulled", DM Chosen once with exactly what's missing (an email address, a token)
    so a human can chase it. Don't repeat the same DM two weeks in a row — check the
-   previous week's report folder for a `zion-notified.txt` marker and write one when
+   previous week's report folder for a `gap-notified.txt` marker and write one when
    you notify.
 
 6. Commit the new `reports/email/<today>/` folder and push. That folder is the archive.

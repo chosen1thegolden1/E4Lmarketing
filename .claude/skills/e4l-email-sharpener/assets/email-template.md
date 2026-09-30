@@ -1,6 +1,6 @@
 # Output shape — what goes in the review doc
 
-Every email in the batch uses exactly this. Zion reviews it; the formatter hyperlinks
+Every email in the batch uses exactly this. The editor pass works on it; the builder hyperlinks
 it; Daniel and Sammy load it. If it doesn't look like this, it stalls.
 
 ```
@@ -41,7 +41,7 @@ Yo [First Name],
 P.S. I gotta question: <one-line-answerable question>
 ```
 
-*Notes:* <anything Zion needs — a date that expires, a claim to eyeball, a swap>
+*Notes:* <anything the next person needs — a date that expires, a claim to eyeball, a swap>
 *Source:* <the actual story URL, dated>
 ```
 
@@ -90,6 +90,7 @@ Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA 90301
 
 ## Batch header (top of the doc)
 
-Send-from address · the gsgagency.com wall · cadence · footer · review chain (Chosen +
-Zion → Daniel and Sammy; Abdullah for GHL) · research date · anything time-sensitive.
+Send-from address · the gsgagency.com wall · cadence · footer · the chain (Claude writes →
+Claude edits → **Chosen approves** → Daniel and Sammy → Abdullah loads) · research date ·
+anything time-sensitive.
 See `docs/BROADCAST_WEEK_2026-09-14.md` for the shape already in use.

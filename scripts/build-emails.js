@@ -302,9 +302,10 @@ function main() {
 
 Built by \`scripts/build-emails.js\`. Every link below is already live in the HTML.
 
-**Who does what:** Claude writes · Zion edits · Chosen approves · **Abdullah loads these
-into GHL** · Daniel is second eyes on E4L Services, Sammy on E4L School. They get the
-schedule and the offers so they can tie traffic and sales back to the sends.
+**Who does what:** Claude writes · Claude edits in a second pass · **Chosen approves** ·
+**Abdullah loads these into GHL** · Daniel is second eyes on E4L Services, Sammy on E4L
+School. They get the schedule and the offers so they can tie traffic and sales back to
+the sends.
 
 **Send from:** ${FROM} — never gsgagency.com.
 **Send time:** 8:00 AM Pacific.
@@ -328,7 +329,7 @@ ${emails.filter((e) => e.bench).length ? `## Bench — not scheduled\n\n${emails
 
   fs.writeFileSync(path.join(outDir, 'SCHEDULE.md'), schedule);
 
-  // One page Zion can scroll to QA the whole week.
+  // One page Chosen can scroll to read the whole week before he approves it.
   const qa = `<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>E4L Broadcast — week of ${week}</title>
 <style>
@@ -346,7 +347,7 @@ header{padding:16px 20px;border-bottom:1px solid var(--line);}
 iframe{width:100%;height:640px;border:0;display:block;background:#f4f4f2;}
 </style></head><body><main>
 <h1>Broadcast QA — week of ${week}</h1>
-<p style="margin:0;color:var(--muted);">Claude writes · Zion edits · Chosen approves · Abdullah loads into GHL · Daniel and Sammy watch what it drives. Links are live: click every one.</p>
+<p style="margin:0;color:var(--muted);">Claude writes · Claude edits · Chosen approves · Abdullah loads into GHL · Daniel and Sammy watch what it drives. Links are live: click every one.</p>
 <div style="overflow-x:auto;"><table style="border-collapse:collapse;width:100%;font-size:14px;">
 <caption style="text-align:left;font-weight:600;padding-bottom:8px;">Send schedule — 8:00 AM Pacific, from ${FROM}</caption>
 <thead><tr>${['Send', 'Day', 'Side', 'Subject', 'Sells'].map((h) => `<th style="text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);color:var(--muted);font-weight:600;">${h}</th>`).join('')}</tr></thead>

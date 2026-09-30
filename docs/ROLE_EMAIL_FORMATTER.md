@@ -1,8 +1,16 @@
-# Role: Broadcast Email Formatter
+# Role: Broadcast Email Formatter — RETIRED 2026-09-30
 
-Short-term contract role. One doc a week. Proofread, format, hyperlink, hand back.
+> ⚠️ **This role no longer exists and nobody should be hired into it.** Zion held it and
+> has left. The formatting and hyperlinking it describes is now done by
+> `scripts/build-emails.js`, which renders paste-ready HTML with the links already live,
+> and the proofreading is a Claude editor session that runs every Tuesday against
+> `.claude/skills/e4l-email-sharpener/references/formatting.md`.
+>
+> Kept only as a record of what the job was, and because the hiring test and the SOP below
+> are a decent description of what "correct" means for a batch. The live chain is in
+> `docs/EMAIL_OPERATING_CADENCE.md`.
 
-**Where it sits in the chain:** Claude writes the copy → Chosen + Zion review the substance
+**What the chain used to be:** Claude writes the copy → Chosen + Zion review the substance
 → **this person formats and proofs** → Daniel and Sammy load and send → Abdullah for GHL
 support if needed.
 

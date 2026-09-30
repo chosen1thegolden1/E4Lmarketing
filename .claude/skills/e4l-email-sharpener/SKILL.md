@@ -22,7 +22,7 @@ sounding like Chosen and sounding like a copywriter doing Chosen.
 | For a specific reader | `references/audiences.md` — the seven segments |
 | A subject line, a headline, a bullet | `references/sauce.md` — formulas that already work |
 | Deciding what to send this week | `references/cadence.md` — rhythm, wheel, sequences |
-| The final doc for Zion | `assets/email-template.md` — the exact output shape |
+| The output shape | `assets/email-template.md` — the exact format |
 
 ## What "aggressive" means here
 
@@ -145,14 +145,14 @@ Anything the editor can't fix inside those rules goes in the notes rather than g
 
 ## Output
 
-Deliver into the review doc format Zion and the formatter already use — see
+Deliver into the review format the editor pass and the builder expect — see
 `assets/email-template.md`. Subject, preview text, body with `(LINK: url?utm…)` markers,
 a Notes line, a Source line. Batches go in `docs/BROADCAST_WEEK_<date>.md` and get
 published as the Google Doc.
 
 Then run the builder. It writes `docs/broadcasts/<date>/` — one HTML file per email
 with live links, a `SCHEDULE.md` with the send dates and the load checklist, and an
-`index.html` Zion scrolls to QA the whole week. That folder is what Daniel and Sammy
+`index.html` Chosen scrolls to read the whole week. That folder is what Daniel and Sammy
 paste from, so the batch isn't handed off until it exists.
 
 A standing batch is eight emails plus two bench. The bench exists so a claim that dies
