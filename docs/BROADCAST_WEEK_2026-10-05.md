@@ -64,9 +64,9 @@ winning (A-2 and S-D) and the rest of the list overhears.
 
 ## A1 — Monday
 
-**Subject:** Your CRM just got a new user, and it isn't you
+**Subject:** Meta just gave your business a free employee
 
-**Preview text:** Meta wired a free AI into the tools you already pay for.
+**Preview text:** It plugs into your QuickBooks. And your Stripe.
 
 **Reader:** A-2 (growing, profitable, reads fast) · **Angle:** Paradigm Shift · **Spoke:** front end → the call
 
@@ -128,9 +128,9 @@ newsroom, 2026-09-29)
 
 ## A2 — Wednesday
 
-**Subject:** You don't have to learn the dashboard
+**Subject:** You're never going to finish that course
 
-**Preview text:** Microsoft just described your next hire. It isn't a person.
+**Preview text:** Good news. Microsoft says you don't have to.
 
 **Reader:** A-3 (closes anybody, can't make the tools run) · **Angle:** Best Way Without · **Spoke:** front end → the call
 
@@ -193,9 +193,9 @@ email spends.
 ---
 ## A3 — Friday
 
-**Subject:** 52% of them asked an AI first
+**Subject:** Half your customers asked a robot about you last month
 
-**Preview text:** Up from 9% a year ago. Same question, one answer.
+**Preview text:** It was 9% the year before. What did it say about you?
 
 **Reader:** A-1 (wants more sales) · **Angle:** Worst Way · **Spoke:** front end → the call
 
@@ -262,33 +262,43 @@ writing up its own 2026 Local Discovery Index)
 
 ## A-SUN — Sunday
 
-**Subject:** The four-minute version
+**Subject:** How many people did you ghost last quarter?
 
-**Preview text:** No pitch. Just the thing I'd look at first.
+**Preview text:** Not on purpose. That's what makes it expensive.
 
 **Reader:** A-1 (wants more sales) · **Angle:** the direct one · **Spoke:** front end → the call
 
 ```
 Hey [First Name],
 
-It's Sunday, so I'll get to the point.
+It's Sunday, so here's one thing to sit with instead of a
+pitch.
 
-If we got on a call, the first thing I'd do isn't pitch you.
-It's open your CRM and look at one number: how many people
-contacted you in the last ninety days and never heard back.
+Somewhere in your business there's a list of people who reached
+out once and never heard back.
 
-It's almost never zero. Most owners don't know the number,
-which is *the actual problem*. 👀
+Not because anybody meant to ignore them. Somebody got busy. A
+form went to an inbox nobody checks. A call came in during a
+job. Normal week, normal business.
 
-**That number is the cheapest money in your business.** Those
-people already raised their hand. You already paid to get
-them. Then nothing happened.
+**That list is the cheapest money you have.** Those people
+already raised their hand. You already paid to put yourself in
+front of them. Nothing else in marketing starts that far ahead.
 
-Twenty minutes. I'll share my screen and we'll find yours.
+Most owners have never counted it.
 
-If it turns out to be small, **I'll say so and we're done** —
-that means you have a lead problem, not a follow-up problem,
-and that's a different conversation.
+That's the part that gets me. Not that the number is bad — that
+it's *unknown*.
+
+**So count it.** Pull the last ninety days of people who
+contacted you and find the ones where the conversation stopped
+after your first reply, or never started. 👀
+
+Whatever that number is, it's the first thing worth fixing, and
+it costs nothing to find out.
+
+If you want a hand turning it into follow-up that runs whether
+you remember or not, that's what I do.
 
 👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=ASUN-2026-10-05)
 
@@ -297,29 +307,25 @@ Eat 4 Life
 AI Marketing Made Easy
 
 P.S. I gotta question: what's your guess at the number, before
-we look?
+you go and look?
 ```
 
-*Notes:* No news hook and no scarcity — Sunday is the shortest, most direct send of the
-week, and invented scarcity is the fastest way to lose an A-2 reader. Nothing here claims a
-statistic about other people's CRMs; it says most owners don't know their own number, which
-is a judgement, not a stat.
-
-⚠️ **Needs Chosen's confirmation before this sends.** The email promises "I'll share my
-screen and we'll find yours" and that the call opens by looking at their CRM rather than
-pitching. That was raised on Sept 20 and never confirmed. If that is not genuinely how the
-Game Plan Call runs, this email writes a cheque the call doesn't cash — say so at the GO and
-it gets rewritten, not quietly softened.
+*Notes:* Rewritten 2026-09-30. The earlier version promised Chosen would share his screen
+and open the reader's CRM on the call; he says the Game Plan Call does not run that way, so
+**every claim about what happens on the call is gone.** This version makes the reader do the
+counting themselves and the CTA asks for nothing more than a conversation. No news hook, no
+scarcity — Sunday is the shortest, most direct send of the week.
 *Source:* none — no factual claim is made.
 
 ---
+
 # STUDENT SIDE
 
 ## S1 — Monday
 
-**Subject:** Meta just gave away the thing you could charge for
+**Subject:** Meta just handed you something to sell
 
-**Preview text:** It's free. The shop owner won't set it up. You will.
+**Preview text:** It's free. The barbershop won't touch it. You will.
 
 **Reader:** S-A (just found out digital careers exist) · **Angle:** Best Way Without · **Spoke:** front end → the book
 
@@ -384,9 +390,9 @@ https://www.meta.com/help/artificial-intelligence/1331373868832401/
 
 ## S2 — Wednesday
 
-**Subject:** The degree didn't save them either
+**Subject:** They had the degree. They're working retail.
 
-**Preview text:** The Census Bureau put a number on it. It's ugly.
+**Preview text:** The Census Bureau counted. It wasn't you either.
 
 **Reader:** S-C (tried and failed) · **Angle:** Worst Way + forgive their faults · **Spoke:** front end → the book
 
@@ -454,9 +460,9 @@ https://hiringlab.indeed.com/2026/09/17/ai-exposure-isnt-squeezing-advertised-pa
 
 ## S3 — Friday
 
-**Subject:** Microsoft said the quiet part out loud
+**Subject:** You're charging like a freelancer
 
-**Preview text:** "Outside the realm of developers alone." Read it twice.
+**Preview text:** Microsoft just made that job free. Read this before you quote anybody.
 
 **Reader:** S-D (made some money, now capped) · **Angle:** 80/20 · **Spoke:** front end → the book
 
@@ -518,9 +524,9 @@ repeated. The five jobs are translated, never named as the book's roles.
 
 ## S-SUN — Sunday
 
-**Subject:** It's not a collapse. It's a re-sort.
+**Subject:** The layoffs aren't coming for you
 
-**Preview text:** Quick one before Monday.
+**Preview text:** 123 economists said who they are coming for.
 
 **Reader:** S-B (believes Chosen, not yet themselves) · **Angle:** the deposit · **Spoke:** front end → the book
 
@@ -577,9 +583,9 @@ Two spares so a claim that dies mid-week costs a swap instead of a skipped send.
 
 ### B1 — student, the robot count
 
-**Subject:** Five million robots. Double what it was seven years ago.
+**Subject:** Five million robots clocked in this year
 
-**Preview text:** Nobody has ten years in a job that's two years old.
+**Preview text:** Nobody has ten years' experience in a two-year-old job.
 
 **Reader:** S-A / S-B · **Angle:** Story + Paradigm Shift · **Spoke:** front end → the book
 
@@ -631,9 +637,9 @@ Federation of Robotics, 2026-09-24 — the body that produces the World Robotics
 
 ### B2 — agency, the Google rollout ⚠️ dies after Wed Oct 7
 
-**Subject:** If your leads dipped, this is probably why
+**Subject:** If your phone went quiet, Google did it
 
-**Preview text:** Google's still rolling it out. Don't change anything yet.
+**Preview text:** Don't touch your website yet. Here's why.
 
 **Reader:** A-1 · **Angle:** Miyagi (soft teach) · **Spoke:** front end → the call
 

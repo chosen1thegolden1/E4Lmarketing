@@ -13,14 +13,14 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 
 | Send date | Day | Side | File | Subject | Preview text | Sells |
 |---|---|---|---|---|---|---|
-| 2026-10-05 | Monday | agency | `A1.html` | Your CRM just got a new user, and it isn't you | Meta wired a free AI into the tools you already pay for. | Game Plan Call (agency front end) |
-| 2026-10-05 | Monday | student | `S1.html` | Meta just gave away the thing you could charge for | It's free. The shop owner won't set it up. You will. | From Xbox to Executive (book, free + $9.95 shipping) |
-| 2026-10-07 | Wednesday | agency | `A2.html` | You don't have to learn the dashboard | Microsoft just described your next hire. It isn't a person. | Game Plan Call (agency front end) |
-| 2026-10-07 | Wednesday | student | `S2.html` | The degree didn't save them either | The Census Bureau put a number on it. It's ugly. | From Xbox to Executive (book, free + $9.95 shipping) |
-| 2026-10-09 | Friday | agency | `A3.html` | 52% of them asked an AI first | Up from 9% a year ago. Same question, one answer. | Game Plan Call (agency front end) |
-| 2026-10-09 | Friday | student | `S3.html` | Microsoft said the quiet part out loud | "Outside the realm of developers alone." Read it twice. | From Xbox to Executive (book, free + $9.95 shipping) |
-| 2026-10-11 | Sunday | agency | `A-SUN.html` | The four-minute version | No pitch. Just the thing I'd look at first. | Game Plan Call (agency front end) |
-| 2026-10-11 | Sunday | student | `S-SUN.html` | It's not a collapse. It's a re-sort. | Quick one before Monday. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-10-05 | Monday | agency | `A1.html` | Meta just gave your business a free employee | It plugs into your QuickBooks. And your Stripe. | Game Plan Call (agency front end) |
+| 2026-10-05 | Monday | student | `S1.html` | Meta just handed you something to sell | It's free. The barbershop won't touch it. You will. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-10-07 | Wednesday | agency | `A2.html` | You're never going to finish that course | Good news. Microsoft says you don't have to. | Game Plan Call (agency front end) |
+| 2026-10-07 | Wednesday | student | `S2.html` | They had the degree. They're working retail. | The Census Bureau counted. It wasn't you either. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-10-09 | Friday | agency | `A3.html` | Half your customers asked a robot about you last month | It was 9% the year before. What did it say about you? | Game Plan Call (agency front end) |
+| 2026-10-09 | Friday | student | `S3.html` | You're charging like a freelancer | Microsoft just made that job free. Read this before you quote anybody. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-10-11 | Sunday | agency | `A-SUN.html` | How many people did you ghost last quarter? | Not on purpose. That's what makes it expensive. | Game Plan Call (agency front end) |
+| 2026-10-11 | Sunday | student | `S-SUN.html` | The layoffs aren't coming for you | 123 economists said who they are coming for. | From Xbox to Executive (book, free + $9.95 shipping) |
 
 ## Load checklist — tick each one
 
@@ -33,5 +33,5 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 
 ## Bench — not scheduled
 
-- `B1.html` — Five million robots. Double what it was seven years ago.
-- `B2.html` — If your leads dipped, this is probably why
+- `B1.html` — Five million robots clocked in this year
+- `B2.html` — If your phone went quiet, Google did it

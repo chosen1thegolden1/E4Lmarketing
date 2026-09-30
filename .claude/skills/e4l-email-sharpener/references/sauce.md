@@ -64,6 +64,68 @@ Sub-headline restates the offer *specifically* and says exactly how it arrives.
 - The truth about Y — "the dirty truth about…"
 - Have you been doing X wrong? (And does it matter?)
 
+## Why our subject lines keep coming out correct and boring
+
+Chosen's read on the Oct 5 batch: *"these emails are cool but not interesting enough… we
+need to have more interesting headlines and sub headlines."* Same note he gave on the first
+batch through this skill. It keeps happening for one reason, so it gets its own section.
+
+**The failure mode is writing like a journalist instead of like Chosen.** A headline
+summarises. Chosen's subject lines *react*. Look at his own two originals:
+
+> ChatGPT just went NUTS
+> No seriously-it's insane
+
+That is not a summary of anything. It's a person who cannot keep something to themselves.
+Now look at what this skill produced before the rewrite: "Microsoft said the quiet part out
+loud." "It's not a collapse. It's a re-sort." Both accurate. Both written by someone being
+clever *about* the news rather than someone who just saw it.
+
+### The test
+Read the subject out loud. If it sounds like a headline on a news site, it's wrong. If it
+sounds like a text from a friend who is annoyed, thrilled, or about to tell you something
+they probably shouldn't — it's right.
+
+### What actually moves it
+- **Put a person in it.** "You're never going to finish that course" beats "You don't have
+  to learn the dashboard." One accuses the reader; the other describes a feature.
+- **Say the uncomfortable thing.** "How many people did you ghost last quarter?" "They had
+  the degree. They're working retail." Discomfort is interest. Politeness is invisible.
+- **Make it physical and specific.** "Half your customers asked a robot about you last
+  month" beats "52% of them asked an AI first." Same fact. One is a scene, one is a stat.
+- **Fragments are fine.** So are questions the reader can't answer, and flat declaratives
+  with no hedge.
+- **No colons, no "here's why," no "the one thing."** Those are content-marketing tells and
+  the inbox has learned to skip them.
+
+### The preview text is not a subtitle
+Its job is to *add a second beat*, never to restate the subject. Three shapes that work:
+
+| Shape | Subject | Preview |
+|---|---|---|
+| Twist the knife | How many people did you ghost last quarter? | Not on purpose. That's what makes it expensive. |
+| Add the detail that makes it real | Meta just gave your business a free employee | It plugs into your QuickBooks. And your Stripe. |
+| Answer with a bigger question | Half your customers asked a robot about you last month | It was 9% the year before. What did it say about you? |
+
+A preview that paraphrases the subject wastes the only other line you get in the inbox.
+
+### Before and after, from the Oct 5 batch
+Keep these as the reference for what the note meant.
+
+| Before (correct, boring) | After |
+|---|---|
+| Your CRM just got a new user, and it isn't you | Meta just gave your business a free employee |
+| You don't have to learn the dashboard | You're never going to finish that course |
+| 52% of them asked an AI first | Half your customers asked a robot about you last month |
+| The degree didn't save them either | They had the degree. They're working retail. |
+| Microsoft said the quiet part out loud | You're charging like a freelancer |
+| It's not a collapse. It's a re-sort. | The layoffs aren't coming for you |
+
+**One caution from Chosen, same message:** *"our open rates seem to be cool."* So the
+current subjects are not failing — this is about making a working thing hit harder, not
+rescuing a broken one. Don't trade a clear subject for a cryptic one chasing edge. Curiosity
+plus benefit still wins; it just has to sound like a person.
+
 ## The 50 power words (Raelyn Tan)
 
 Game-changing · Amazing · Dominate · Unforgettable · Behind-the-scenes · Insider ·

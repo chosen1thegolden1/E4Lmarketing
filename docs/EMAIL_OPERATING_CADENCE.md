@@ -77,6 +77,13 @@ what it flagged, rebuilds, pushes, and publishes the rendered batch as a page.
 If Tuesday's write never landed, the editor writes the batch itself rather than reporting
 a gap. A missed week is the one outcome worth breaking role boundaries over.
 
+### How the preview link travels
+The editor publishes the rendered batch as a private page and writes that URL into
+`docs/broadcasts/<Monday>/PREVIEW.txt`, one line, nothing else. That file is the only way
+Wednesday's session knows the link, because it runs in a fresh container that never saw the
+publish. No `PREVIEW.txt` means Daniel and Sammy get a GitHub path instead of something
+they can read on a phone.
+
 ### Tuesday → Wednesday — Chosen approves
 The editor sends a **push notification** and a Slack DM with the page link and the eight
 subject lines. Nothing moves until Chosen replies.
@@ -211,7 +218,7 @@ The Monday report Routine has the same gap, and has had it since Sept 17.
 | The voice, audiences, frameworks | `.claude/skills/e4l-email-sharpener/` |
 | The editor's rulebook | `.claude/skills/e4l-email-sharpener/references/formatting.md` |
 | Weekly reports | `reports/email/<Monday>/` |
-| Per-week state | `docs/broadcasts/<Monday>/` — `EDITED.md`, `APPROVED.txt`, `DISTRIBUTED.txt` |
+| Per-week state | `docs/broadcasts/<Monday>/` — `PREVIEW.txt`, `EDITED.md`, `APPROVED.txt`, `DISTRIBUTED.txt` |
 | Week of Sept 21 preview | https://claude.ai/artifact/RtK5yZCQ34N5ZzfQLJ2nuj |
 | Who gets the report | `reports/email/RECIPIENTS.json` |
 

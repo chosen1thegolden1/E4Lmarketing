@@ -75,6 +75,11 @@ Speaker, not the Teacher, not the Used Car Salesman.
    (Billy Gene's list — one in five sends, not every send) and headline formulas.
    Chosen's rule: when the subject is written, 80 cents of the dollar is spent. The
    "jugular objection" the subject raises has to be answered in the body.
+   **Then read it out loud.** If it sounds like a headline on a news site, it is wrong and
+   you have to do it again — that is the single most repeated note Chosen has given this
+   skill. The preview text adds a second beat; it never restates the subject. The section
+   "Why our subject lines keep coming out correct and boring" in `sauce.md` has the test,
+   the three preview shapes, and a before-and-after table. Read it every time.
 6. **Write it like a text to one person.** Chosen's note: the perfect email is ~135
    words with a line break every one or two sentences. Broadcasts can run to ~200 if
    the story needs it. Sequences run shorter. The nine-word re-engagement is nine words.
