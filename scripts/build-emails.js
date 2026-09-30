@@ -48,6 +48,9 @@ function offerFor(links, meta) {
 
 const errors = [];
 const warnings = [];
+let archived = false;
+/** A style rule: enforced on live work, reported but not fatal on an archived file. */
+const style = (id, msg) => (archived ? warn(id, `${msg} (archived, not enforced)`) : fail(id, msg));
 const fail = (id, msg) => errors.push(`${id}: ${msg}`);
 const warn = (id, msg) => warnings.push(`${id}: ${msg}`);
 
@@ -78,7 +81,24 @@ function inline(escaped) {
 const LINK_LINE = /^(\s*)(.*?)\s*(?:→|:)\s*\(LINK:\s*([^)\s]+)\)\s*$/;
 const LEADING_DECOR = /^((?:[^\w\[(]|\s)*)(.*)$/u;
 
-function renderBody(raw, id) {
+/**
+ * An editor writing `**bold**` over copy that is hard-wrapped at 60 characters will
+ * routinely straddle a line break. That wrap is cosmetic — reflow removes it anyway —
+ * but emphasis is applied per line, so a straddling marker would never close and the
+ * asterisks would ship. Pull those markers onto one line first. A marker containing a
+ * blank line is malformed, not wrapped, so it is left alone to fail the build.
+ */
+function joinWrappedEmphasis(raw) {
+  const unwrap = (inner) => inner.replace(/\n[ \t]*/g, ' ');
+  return raw
+    .replace(/\*\*(?=\S)((?:[^*]|\*(?!\*))*?\S)\*\*/g,
+      (m, inner) => (/\n[ \t]*\n/.test(inner) ? m : `**${unwrap(inner)}**`))
+    .replace(/(^|[^*\n])\*(?=\S)([^*]*?\S)\*(?!\*)/g,
+      (m, pre, inner) => (/\n[ \t]*\n/.test(inner) ? m : `${pre}*${unwrap(inner)}*`));
+}
+
+function renderBody(rawIn, id) {
+  const raw = joinWrappedEmphasis(rawIn);
   const links = [];
   const html = raw.split('\n').map((line) => {
     const m = line.match(LINK_LINE);
@@ -196,7 +216,20 @@ function parse(md, week) {
     const { html, links } = renderBody(raw, key);
     const strays = (html.match(/\*/g) || []).length;
     if (strays) fail(key, `${strays} leftover asterisk(s) — an unclosed **bold** or *italic* would ship literally`);
-    const side = h.id.startsWith('A') ? 'agency' : 'student';
+
+    // A1/S1 carry their side in the ID. A bench email does not — B2 can be agency and
+    // B1 student — so its side comes from the segment code on the Reader line, and a
+    // bench email without one is a failure rather than a guess: guessing here would
+    // cross an agency email onto the student list, which is the worst outcome we have.
+    const readerSide = { A: 'agency', S: 'student' }[(meta.match(/^\s*([AS])-/) || [])[1]];
+    let side;
+    if (bench) {
+      if (!readerSide) { fail(key, 'bench email has no "**Reader:** A-n / S-x" line, so its list is unknown'); return; }
+      side = readerSide;
+    } else {
+      side = h.id.startsWith('A') ? 'agency' : 'student';
+      if (readerSide && readerSide !== side) fail(key, `Reader says ${readerSide} but the ID says ${side}`);
+    }
     if (side === 'agency' && /^\s*Yo\b/m.test(raw)) fail(key, 'agency email opens with "Yo" — agency opens with "Hey"');
     if (side === 'student' && /^\s*Hey\s+\[/m.test(raw)) warn(key, 'student email opens with "Hey" — student opens with "Yo"');
     links.forEach((u) => {
@@ -204,6 +237,14 @@ function parse(md, week) {
       if (med && med !== side) fail(key, `utm_medium=${med} on a ${side} email`);
     });
     if (!links.length && !/S-SUN/.test(h.id)) warn(key, 'no links at all — deliberate?');
+
+    // formatting.md: no emoji in the opening sentence. The first line has to earn
+    // attention before it spends any, and an emoji there reads as marketing before the
+    // reader has decided to trust it. Checked on the paragraph after the greeting.
+    const firstPara = (raw.split(/\n{2,}/)[1] || '');
+    if (/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}]/u.test(firstPara)) {
+      style(key, 'emoji in the opening sentence — move it to a later beat (formatting.md)');
+    }
 
     emails.push({
       id: h.id, key, side, day, bench, proposed, subject, preview, meta,
@@ -230,6 +271,12 @@ function main() {
   // A batch normally sends the week its filename names. A batch that got held
   // sends a later week, and every send date has to follow it there, so an
   // explicit `**Send week:** YYYY-MM-DD` in the header overrides the filename.
+  // A batch that already sent, or one kept only for the record, should not start
+  // failing because a style rule was written after it. Correctness rules — UTMs, crossed
+  // lists, unreadable link markers, stray asterisks — are never waived; only style is.
+  archived = /^\*\*Style checks:\*\*\s*archived/m.test(md);
+  if (archived) console.log('style checks relaxed: this file is marked archived');
+
   const declared = (md.match(/^\*\*Send week:\*\*\s*(\d{4}-\d{2}-\d{2})\s*$/m) || [])[1];
   const week = declared || (path.basename(src).match(/(\d{4}-\d{2}-\d{2})/) || [])[1];
   if (!week) { console.error('filename must carry the week-of Monday date'); process.exit(2); }

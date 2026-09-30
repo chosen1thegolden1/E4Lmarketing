@@ -94,6 +94,18 @@ email in one dense block does not get read on a phone.
 
 ---
 
+## What the builder enforces for you
+
+You do not have to remember all of this. `scripts/build-emails.js` fails the build on:
+a leftover asterisk, a missing UTM tag, a crossed list, an unreadable link marker, an
+agency email opening with "Yo", a bench email that doesn't say which list it's for, and
+**an emoji in the opening sentence**. Emoji counts, bold counts and paragraph length are
+still yours to judge.
+
+A file marked `**Style checks:** archived` gets style rules as warnings instead of
+failures, so a rule written today never retroactively fails a batch that already sent.
+Correctness rules are never waived.
+
 ## How the markup reaches the email
 
 Write `**bold**` and `*italic*` in the markdown. `scripts/build-emails.js` renders them

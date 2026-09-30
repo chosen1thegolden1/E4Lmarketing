@@ -6,6 +6,8 @@ a first reply; these keep a list that already knows Sebastian warm.
 
 **Send week:** 2026-09-21
 
+**Style checks:** archived — sent as written the week of Sept 21, before the formatting spec existed. Correctness checks still apply.
+
 **Research date: 2026-09-10. Re-dated for a Sept 21 send on 2026-09-20.** This batch
 was written for the week of Sept 14 and held. Chosen's call (Sept 20): these are the
 ones Zion already formatted, so these are the ones that go out. Every relative date was
@@ -585,6 +587,8 @@ those topics should run both ways, or as swaps for S2/S3.
 
 **Preview text:** Here's why that's good news for you.
 
+**Reader:** S-A (just found out this exists) · **Angle:** Worst Way · **Spoke:** front end → the book
+
 ```
 Yo [First Name],
 
@@ -669,6 +673,8 @@ it disappeared in 14 days?
 **Subject:** Everybody's emails sound the same now
 
 **Preview text:** That's your opening.
+
+**Reader:** S-C (tried and failed) · **Angle:** Paradigm Shift · **Spoke:** front end → the book
 
 ```
 Yo [First Name],

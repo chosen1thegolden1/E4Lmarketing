@@ -12,6 +12,8 @@ Wednesday the 23rd or not at all.
 
 **Send week:** 2026-09-28
 
+**Style checks:** archived — superseded and never sent; kept for the record. Correctness checks still apply.
+
 ⚠️ **This batch was displaced.** Chosen's call (Sept 20): the Sept 14 batch, the one Zion
 already formatted, is what sends the week of Sept 21. This one moves to the week of
 Sept 28 — and it does not survive the move intact. **A2 and B1 are dead**: their whole
