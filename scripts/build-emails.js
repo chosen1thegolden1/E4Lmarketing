@@ -57,6 +57,20 @@ function esc(s) {
 }
 
 /**
+ * Inline emphasis the editor pass adds: `**bold**` and `*italic*`, nothing else.
+ *
+ * Runs on already-escaped text, so a stray `<` in the copy can never become a
+ * tag. Bold goes first, because it would otherwise be eaten as two italics.
+ * Underscores are deliberately NOT emphasis — they show up inside real words and
+ * URLs, and silently italicising half a sentence is worse than no italics.
+ */
+function inline(escaped) {
+  return escaped
+    .replace(/\*\*(?=\S)([\s\S]*?\S)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(?=\S)([^*\n]*?\S)\*/g, '<em>$1</em>');
+}
+
+/**
  * A link marker is `visible text → (LINK: url)` or `👉 visible text: (LINK: url)`.
  * Anchor the visible text, keep any leading emoji outside the anchor so the
  * arrow or pointer still reads as decoration rather than part of the link.
@@ -70,7 +84,7 @@ function renderBody(raw, id) {
     const m = line.match(LINK_LINE);
     if (!m) {
       if (line.includes('(LINK')) fail(id, `link marker the builder could not read: ${line.trim()}`);
-      return esc(line);
+      return inline(esc(line));
     }
     const [, indent, textRaw, url] = m;
     if (!/^https?:\/\//.test(url)) fail(id, `link is not a real URL: ${url}`);
@@ -79,7 +93,8 @@ function renderBody(raw, id) {
     links.push(url);
     const [, decor, text] = textRaw.match(LEADING_DECOR);
     if (!text.trim()) fail(id, `link has no visible text: ${line.trim()}`);
-    return `${esc(indent)}${esc(decor)}<a href="${url}" style="color:#2a78d6;font-weight:600;">${esc(text)}</a>`;
+    // Emphasis is applied to the visible text only — never to the URL.
+    return `${esc(indent)}${inline(esc(decor))}<a href="${url}" style="color:#2a78d6;font-weight:600;">${inline(esc(text))}</a>`;
   }).join('\n');
   return { html, links };
 }
@@ -179,6 +194,8 @@ function parse(md, week) {
     if (!bench && !proposed && !day) fail(key, 'no send day in the heading');
 
     const { html, links } = renderBody(raw, key);
+    const strays = (html.match(/\*/g) || []).length;
+    if (strays) fail(key, `${strays} leftover asterisk(s) — an unclosed **bold** or *italic* would ship literally`);
     const side = h.id.startsWith('A') ? 'agency' : 'student';
     if (side === 'agency' && /^\s*Yo\b/m.test(raw)) fail(key, 'agency email opens with "Yo" — agency opens with "Hey"');
     if (side === 'student' && /^\s*Hey\s+\[/m.test(raw)) warn(key, 'student email opens with "Hey" — student opens with "Yo"');

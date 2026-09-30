@@ -123,6 +123,20 @@ Speaker, not the Teacher, not the Used Car Salesman.
   day is pinned and stated in the doc header. See `cadence.md`.
 - **Every link carries UTMs and a `(LINK: …)` marker.** No marker, no attribution, and
   the Monday report can't see the sale. Format is in `assets/email-template.md`.
+- **The editor pass never changes a fact, a link, or the greeting.** It changes how the
+  email reads and looks. See `references/formatting.md`.
+
+## Editor mode — a separate pass, not part of writing
+
+When the task is to **proofread and format** an existing batch rather than write one,
+read `references/formatting.md` and follow it instead of the procedure above. It is a
+deliberately narrow job: typos, clumsy sentences, bold, italics, emoji and spacing, and
+nothing that touches the argument, a number, a story, a link or the greeting.
+
+The reason it's separate: the writer is busy making the argument work, so the reader's
+thumb is the last thing on their mind. A second pass with only that job does it properly.
+Anything the editor can't fix inside those rules goes in the notes rather than getting
+"improved" into a different claim.
 
 ## Output
 
