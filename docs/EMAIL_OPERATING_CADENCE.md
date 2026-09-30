@@ -77,6 +77,35 @@ what it flagged, rebuilds, pushes, and publishes the rendered batch as a page.
 If Tuesday's write never landed, the editor writes the batch itself rather than reporting
 a gap. A missed week is the one outcome worth breaking role boundaries over.
 
+### Why the loop does not depend on git
+
+Scheduled sessions in this environment have not been able to push. Three weeks of Routine
+runs reported success while committing nothing: the writer did its work, hit a 403, and the
+batch died with the container. That is a GitHub access problem and it is being fixed
+separately — but the weekly loop must not wait on it, because a loop with a single point of
+failure is what produced those three empty weeks.
+
+**So the batch travels by artifact, and git is the archive.** Every scheduled session has
+the Artifact tool; none of them reliably has push. Three hand-offs, each with a fallback:
+
+| Hand-off | First choice | Fallback |
+|---|---|---|
+| Writer → Editor | the branch | a page titled `E4L batch handoff — week of <Monday>`, holding the markdown in a `<pre>` |
+| Editor → Chosen | — | the preview page, titled `E4L Broadcast — week of <Monday>` |
+| Editor → Wednesday | `PREVIEW.txt` in the repo | that same preview page, found by title |
+
+Those titles are load-bearing. A session that cannot pull finds the previous step's output by
+listing artifacts and matching the title exactly, so changing the wording breaks the chain.
+
+Every session still commits and pushes at the end. A 403 there is expected, is recorded, and
+is never worked around: no force push, no pushing to another branch, no opening a pull
+request. When GitHub access is fixed, the archive fills back in on its own and nothing else
+has to change.
+
+**The double-send guard moved too.** `DISTRIBUTED.txt` cannot be trusted when pushes fail, so
+Wednesday's session checks its own Slack history with Daniel and Sammy before sending. If
+either already has this week's batch, it stops.
+
 ### How the preview link travels
 The editor publishes the rendered batch as a private page and writes that URL into
 `docs/broadcasts/<Monday>/PREVIEW.txt`, one line, nothing else. That file is the only way
