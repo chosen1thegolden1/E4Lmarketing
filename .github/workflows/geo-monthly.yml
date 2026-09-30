@@ -11,8 +11,8 @@ name: GEO Monthly Loop
 #                       tab needed — editing the file IS the trigger.
 #   workflow_dispatch — manual re-run of the whole roster from the Actions tab
 on:
-  schedule:
-    - cron: "0 15 1 * *" # 1st of the month, 8am PT
+ # schedule:
+  #  - cron: "0 15 1 * *" # 1st of the month, 8am PT
   push:
     paths:
       - "geo/clients.json"
@@ -29,7 +29,7 @@ jobs:
     # branch shouldn't spend an hour auditing or commit evidence there.
     if: github.event_name != 'push' || github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 350
     defaults:
       run:
         working-directory: geo
