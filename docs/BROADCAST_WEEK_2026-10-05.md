@@ -94,9 +94,10 @@ the workflow, wire the automation, name the pipeline stages.
 **That part is going to zero.** Free, as of last Tuesday.
 
 What doesn't go to zero: knowing which fifteen percent of your
-customer list is about to quietly leave. Knowing why last month
-was slow and this one wasn't. Deciding what should happen at
-all.
+customer list is about to quietly leave.
+
+Knowing why last month was slow and this one wasn't. Deciding
+what should happen at all.
 
 **The AI will happily build the wrong follow-up sequence,
 perfectly, forever.**
@@ -206,9 +207,10 @@ A report came out late last month with a number I had to read
 twice.
 
 SOCi surveyed more than a thousand US consumers about how they
-find local businesses. The share who used an AI tool to do it
-in the previous thirty days went from 9% to 52% in a single
-year.
+find local businesses.
+
+The share who used an AI tool to do it in the previous thirty
+days went from 9% to 52% in a single year.
 
 **Not "will." Did. Last month.**
 
@@ -333,16 +335,19 @@ scarcity — Sunday is the shortest, most direct send of the week.
 Yo [First Name],
 
 Last week Meta put out a free AI assistant built for small
-businesses. Not a chatbot you ask questions. It plugs into the
-stuff a business already runs on — their Shopify, their
-QuickBooks, their Instagram.
+businesses.
+
+Not a chatbot you ask questions. It plugs into the stuff a
+business already runs on — their Shopify, their QuickBooks,
+their Instagram.
 
 You give it a goal. It goes and does it. 👀
 
 Here's the part nobody's saying out loud: the barber is not
-going to set that up. Neither is the roofer, or the lady with
-the nail salon on the corner. They're busy being a barber, a
-roofer, a nail tech.
+going to set that up.
+
+Neither is the roofer, or the lady with the nail salon on the
+corner. They're busy being a barber, a roofer, a nail tech.
 
 *Somebody* has to sit down and wire it up for them.
 
@@ -405,6 +410,7 @@ I want to say something about the course you didn't finish.
 
 The Census Bureau put out a working paper last month. They
 looked at people who graduated in the majors AI hit hardest.
+
 First-year earnings came in thirteen percent lower. The
 researchers said that's about the same damage as graduating
 straight into a big recession. 👀
@@ -419,14 +425,17 @@ Four years. The loans. The whole plan.
 
 So when you bought a course, watched half of it, made nothing,
 and decided you're just not the type who follows through —
-look at who else didn't make it. People with degrees and a
-career services office didn't make it either.
+look at who else didn't make it.
+
+People with degrees and a career services office didn't make
+it either.
 
 Nobody's system worked. Yours just cost less. 😅
 
 Read the paper → (LINK: https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.html?utm_source=email&utm_medium=student&utm_campaign=S2-2026-10-05)
 
 Now the honest part, because I'd rather you hear it from me.
+
 Indeed's research team says advertised pay in AI-heavy jobs is
 up about 46% since 2021. Real money. They also say at entry
 level that gap is still almost nothing.
@@ -478,6 +487,7 @@ Here's the sentence that should change how you price.
 On September 25 Microsoft shipped a rebuild of Copilot. In
 their own announcement they wrote that it moves
 solution-building "outside the realm of developers alone."
+
 Describe an app, a tracker, a dashboard — it builds it. 🤖
 
 Microsoft. In writing. Saying that **building software is no
@@ -492,10 +502,11 @@ who can fill it don't exist yet in numbers.
 
 So stop selling the task.
 
-You're not "the guy who makes websites." Every business needs
-five things handled — getting attention, turning attention into
-conversations, closing, delivering, and keeping people happy.
-Most of them are running two. Badly.
+You're not "the guy who makes websites."
+
+Every business needs five things handled — getting attention,
+turning attention into conversations, closing, delivering, and
+keeping people happy. Most of them are running two. Badly.
 
 **You don't need more clients.** You need to own one of those
 five for somebody, and charge like it. 💼
@@ -541,9 +552,10 @@ checked whether recent graduates got wiped out this summer.
 They didn't. Unemployment didn't spike.
 
 Second: when Indeed asked 123 economists where AI pressure is
-actually landing, they pointed at college-educated workers. For
-people without a degree, they expected no real pressure either
-way.
+actually landing, they pointed at college-educated workers.
+
+For people without a degree, they expected no real pressure
+either way.
 
 Read that again. 👀
 
@@ -659,7 +671,7 @@ It's still going.
 
 Three things worth doing while it settles.
 
-**1. Don't change anything yet.**
+1. Don't change anything yet.
 Rankings move around *mid-rollout*. People panic, rewrite half
 their site, and then can't tell which change caused what.
 

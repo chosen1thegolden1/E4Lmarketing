@@ -69,3 +69,35 @@ Three real bugs surfaced while building this batch, all fixed:
   builder, as a style check — which means it fails live work and only warns on a file
   marked archived, so a rule written today cannot retroactively fail mail that already
   sent.
+
+---
+
+# Second editor pass — 2026-09-30 (separate session)
+
+Independent read of the whole batch against `formatting.md`. The first pass had the bold,
+italics and emoji counts right, so this one was about the reader's thumb.
+
+## What changed
+
+- **Ten paragraphs ran past three lines** and were split at the sentence break, no words
+  added or removed: A1, A3, S1 (two), S2 (three), S3 (two), S-SUN. Every email now
+  has a short paragraph after a longer one instead of a block.
+- **B2's numbered list had one bold headline and two plain ones.** Bold on item 1 came off,
+  so the email carries one bold, on the turn in the opener.
+- Emoji recount: agency 2 each, student 4 each, none in an opening sentence, `👉` on every CTA.
+  Bold 1–2 and italics 1–2 per email. All in range, so nothing to change.
+
+## Subject lines
+
+Read all eight aloud against the sauce.md test. None rewritten: the previous session's
+rewrites already sound like a person, not a news site. Preview text adds a second beat in
+every case and none restates its subject.
+
+## Flagged, not fixed
+
+1. **A3 subject says "Half your customers."** The survey found 52% of *consumers* had used AI
+   to find a local business. It is a vendor survey (SOCi), not their customers. It's a
+   scene-not-stat rewrite on purpose, but it is the loosest claim in the batch.
+2. **S3 preview is the longest of the eight** and may truncate on a phone before "quote anybody."
+3. Earlier flags stand: jobs report around Oct 2 vs S-SUN, B2 dies after Oct 7, no moment of
+   Chosen's own in any email.
