@@ -94,5 +94,40 @@
   "name": "Wirth Plastic Surgery",
   "city": "Newport Beach, CA",
   "niche": "med-spa"
-}
+},
+  {
+    "name": "Royal Air Houston",
+    "city": "Houston, TX",
+    "niche": "hvac"
+  },
+  {
+    "name": "billyGO Air Conditioning & Plumbing",
+    "city": "Flower Mound, TX",
+    "niche": "hvac"
+  },
+  {
+    "name": "Air Therm LLC",
+    "city": "Savannah, GA",
+    "niche": "hvac"
+  },
+  {
+    "name": "Gold Mech",
+    "city": "Augusta, GA",
+    "niche": "hvac"
+  },
+  {
+    "name": "Cardwell HVAC & Plumbing",
+    "city": "Cherry Hill, NJ",
+    "niche": "hvac"
+  },
+  {
+    "name": "Wm. Prescott Roofing",
+    "city": "Carnegie, PA",
+    "niche": "roofing"
+  },
+  {
+    "name": "Paragon Roofing USA",
+    "city": "Nashville, TN",
+    "niche": "roofing"
+  }
 ]
