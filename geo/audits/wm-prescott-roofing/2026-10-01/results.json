@@ -1,0 +1,348 @@
+{
+  "subject": "Wm. Prescott Roofing",
+  "city": "Carnegie, PA",
+  "niche": "roofing",
+  "label": "Roofing",
+  "date": "2026-10-01",
+  "startedAt": "2026-10-01T17:02:07.994Z",
+  "finishedAt": "2026-10-01T17:25:17.994Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "2/21",
+  "named": 2,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency roofer near Carnegie, PA",
+      "askedAt": "2026-10-01T17:02:08.147Z",
+      "ok": false,
+      "screenshot": "screenshots/wm-prescott-roofing_chatgpt_q1_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable roofing company in Carnegie, PA",
+      "askedAt": "2026-10-01T17:05:26.966Z",
+      "ok": false,
+      "screenshot": "screenshots/wm-prescott-roofing_chatgpt_q2_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "roofer that answers the phone Carnegie, PA",
+      "askedAt": "2026-10-01T17:08:45.594Z",
+      "ok": false,
+      "screenshot": "screenshots/wm-prescott-roofing_chatgpt_q3_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed roofer near me Carnegie, PA",
+      "askedAt": "2026-10-01T17:12:05.196Z",
+      "ok": false,
+      "screenshot": "screenshots/wm-prescott-roofing_chatgpt_q4_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "roofing company Carnegie, PA free estimate",
+      "askedAt": "2026-10-01T17:15:22.771Z",
+      "ok": false,
+      "screenshot": "screenshots/wm-prescott-roofing_chatgpt_q5_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call for a roof leak in Carnegie, PA",
+      "askedAt": "2026-10-01T17:18:41.314Z",
+      "ok": false,
+      "screenshot": "screenshots/wm-prescott-roofing_chatgpt_q6_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "roofer open now Carnegie, PA",
+      "askedAt": "2026-10-01T17:21:59.824Z",
+      "ok": false,
+      "screenshot": "screenshots/wm-prescott-roofing_chatgpt_q7_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency roofer near Carnegie, PA",
+      "askedAt": "2026-10-01T17:02:08.148Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_gemini_q1_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Mighty Dog Roofing of West Pittsburgh"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Mighty Dog Roofing of West Pittsburgh"
+      ],
+      "note": "Recommended only Mighty Dog Roofing of West Pittsburgh, not Wm. Prescott Roofing.",
+      "answerChars": 797
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable roofing company in Carnegie, PA",
+      "askedAt": "2026-10-01T17:02:29.278Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_gemini_q2_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Prescott Roofing & Masonry",
+        "Mighty Dog Roofing of West Pittsburgh"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Mighty Dog Roofing of West Pittsburgh"
+      ],
+      "note": "Recommended two local roofers, naming a close variant of the subject's name alongside one competitor.",
+      "answerChars": 1115
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "roofer that answers the phone Carnegie, PA",
+      "askedAt": "2026-10-01T17:02:56.736Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_gemini_q3_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Wm. Prescott Roofing & Remodeling, Inc.",
+        "Mighty Dog Roofing of West Pittsburgh",
+        "O'Donnell/Dean Exteriors",
+        "Joe Thornton Roofing",
+        "Kinnee Brothers Roofing"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Mighty Dog Roofing of West Pittsburgh",
+        "O'Donnell/Dean Exteriors",
+        "Joe Thornton Roofing",
+        "Kinnee Brothers Roofing"
+      ],
+      "note": "Listed five local Carnegie, PA roofing contractors including the subject as the first option with contact details.",
+      "answerChars": 1474
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed roofer near me Carnegie, PA",
+      "askedAt": "2026-10-01T17:03:20.026Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_gemini_q4_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Prescott Roofing & Masonry",
+        "Mighty Dog Roofing of West Pittsburgh",
+        "Big Fish Roofing",
+        "McClellands Contracting and Roofing, LLC",
+        "MY Pittsburgh Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Prescott Roofing & Masonry",
+        "Mighty Dog Roofing of West Pittsburgh",
+        "Big Fish Roofing",
+        "McClellands Contracting and Roofing, LLC",
+        "MY Pittsburgh Roofing"
+      ],
+      "note": "Recommended five local roofers, none matching the exact audit subject 'Wm. Prescott Roofing' despite a similarly named competitor.",
+      "answerChars": 2480
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "roofing company Carnegie, PA free estimate",
+      "askedAt": "2026-10-01T17:03:45.941Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_gemini_q5_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Joe Thornton Roofing",
+        "Kinnee Brothers Roofing",
+        "Mighty Dog Roofing",
+        "MHI Roofing",
+        "Pittsabana Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Joe Thornton Roofing",
+        "Kinnee Brothers Roofing",
+        "Mighty Dog Roofing",
+        "MHI Roofing",
+        "Pittsabana Roofing"
+      ],
+      "note": "Recommended five local roofing companies near Carnegie, PA, none of which was Wm. Prescott Roofing.",
+      "answerChars": 1728
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call for a roof leak in Carnegie, PA",
+      "askedAt": "2026-10-01T17:04:09.781Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_gemini_q6_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Joe Thornton Roofing",
+        "Mighty Dog Roofing of West Pittsburgh",
+        "HHI Contracting",
+        "Pittsabana Roofing",
+        "MHI Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Joe Thornton Roofing",
+        "Mighty Dog Roofing of West Pittsburgh",
+        "HHI Contracting",
+        "Pittsabana Roofing",
+        "MHI Roofing"
+      ],
+      "note": "Recommended five local roofing contractors for leak repair in Carnegie, PA, but did not mention Wm. Prescott Roofing.",
+      "answerChars": 2192
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "roofer open now Carnegie, PA",
+      "askedAt": "2026-10-01T17:04:32.895Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_gemini_q7_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Mighty Dog Roofing of West Pittsburgh",
+        "Prescott Roofing & Masonry",
+        "Absolute Roofing",
+        "Big Fish Roofing",
+        "Ken Burns Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Mighty Dog Roofing of West Pittsburgh",
+        "Prescott Roofing & Masonry",
+        "Absolute Roofing",
+        "Big Fish Roofing",
+        "Ken Burns Roofing"
+      ],
+      "note": "Recommended five Carnegie-area roofers, none exactly matching 'Wm. Prescott Roofing' (a similarly named but distinct 'Prescott Roofing & Masonry' appeared instead).",
+      "answerChars": 2382
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency roofer near Carnegie, PA",
+      "askedAt": "2026-10-01T17:02:08.148Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_perplexity_q1_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was returned; the page only prompted sign-up with no business recommendations.",
+      "answerChars": 170
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable roofing company in Carnegie, PA",
+      "askedAt": "2026-10-01T17:04:54.118Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_perplexity_q2_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a prompt to sign up with no recommendations given.",
+      "answerChars": 181
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "roofer that answers the phone Carnegie, PA",
+      "askedAt": "2026-10-01T17:07:39.529Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_perplexity_q3_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only prompted the user to sign up and repeat the request.",
+      "answerChars": 178
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed roofer near me Carnegie, PA",
+      "askedAt": "2026-10-01T17:10:25.309Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_perplexity_q4_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a sign-up prompt with no recommendations.",
+      "answerChars": 239
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "roofing company Carnegie, PA free estimate",
+      "askedAt": "2026-10-01T17:11:28.489Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_perplexity_q5_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a prompt to sign up and repeat the request.",
+      "answerChars": 178
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call for a roof leak in Carnegie, PA",
+      "askedAt": "2026-10-01T17:14:13.570Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_perplexity_q6_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only prompted sign-up with no recommendations.",
+      "answerChars": 247
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "roofer open now Carnegie, PA",
+      "askedAt": "2026-10-01T17:14:39.318Z",
+      "ok": true,
+      "screenshot": "screenshots/wm-prescott-roofing_perplexity_q7_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned a login prompt error in German with no actual answer or business recommendations.",
+      "answerChars": 175
+    }
+  ]
+}

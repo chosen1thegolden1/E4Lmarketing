@@ -1,0 +1,353 @@
+{
+  "subject": "Gold Mech",
+  "city": "Augusta, GA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-10-01",
+  "startedAt": "2026-10-01T16:15:50.518Z",
+  "finishedAt": "2026-10-01T16:38:58.695Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "0/21",
+  "named": 0,
+  "total": 21,
+  "failedAsks": 8,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Augusta, GA",
+      "askedAt": "2026-10-01T16:15:50.686Z",
+      "ok": false,
+      "screenshot": "screenshots/gold-mech_chatgpt_q1_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Augusta, GA",
+      "askedAt": "2026-10-01T16:19:09.074Z",
+      "ok": false,
+      "screenshot": "screenshots/gold-mech_chatgpt_q2_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Augusta, GA",
+      "askedAt": "2026-10-01T16:22:27.124Z",
+      "ok": false,
+      "screenshot": "screenshots/gold-mech_chatgpt_q3_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Augusta, GA",
+      "askedAt": "2026-10-01T16:25:45.745Z",
+      "ok": false,
+      "screenshot": "screenshots/gold-mech_chatgpt_q4_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Augusta, GA free estimate",
+      "askedAt": "2026-10-01T16:29:04.436Z",
+      "ok": false,
+      "screenshot": "screenshots/gold-mech_chatgpt_q5_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Augusta, GA",
+      "askedAt": "2026-10-01T16:32:21.941Z",
+      "ok": false,
+      "screenshot": "screenshots/gold-mech_chatgpt_q6_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Augusta, GA",
+      "askedAt": "2026-10-01T16:35:40.585Z",
+      "ok": false,
+      "screenshot": "screenshots/gold-mech_chatgpt_q7_2026-10-01.jpg",
+      "error": "no answer appeared within 90s of submitting"
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Augusta, GA",
+      "askedAt": "2026-10-01T16:15:50.686Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_gemini_q1_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Duggan's One Hour Heating & Air Conditioning",
+        "Sig Cox Heating & Air Conditioning",
+        "Doc Savage Heating and Air Conditioning, Inc.",
+        "Bailey's Comfort Services"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Duggan's One Hour Heating & Air Conditioning",
+        "Sig Cox Heating & Air Conditioning",
+        "Doc Savage Heating and Air Conditioning, Inc.",
+        "Bailey's Comfort Services"
+      ],
+      "note": "Recommended four HVAC companies for emergency AC repair near Augusta, GA, none of which was Gold Mech.",
+      "answerChars": 2765
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Augusta, GA",
+      "askedAt": "2026-10-01T16:16:19.364Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_gemini_q2_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Busby's Heating & Air Conditioning",
+        "Atlas Heating and Air Conditioning Inc",
+        "Bailey's Comfort Services",
+        "Sig Cox Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Busby's Heating & Air Conditioning",
+        "Atlas Heating and Air Conditioning Inc",
+        "Bailey's Comfort Services",
+        "Sig Cox Heating & Air Conditioning"
+      ],
+      "note": "Recommended four other local HVAC companies and did not mention Gold Mech at all.",
+      "answerChars": 2739
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Augusta, GA",
+      "askedAt": "2026-10-01T16:16:45.132Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_gemini_q3_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Yohe Plumbing, Heating & Air",
+        "Duggan's One Hour Heating & Air Conditioning",
+        "Doc Savage Heating & Air Conditioning",
+        "Busby's Heating & Air Conditioning",
+        "Rowell Heating, Air & Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Yohe Plumbing, Heating & Air",
+        "Duggan's One Hour Heating & Air Conditioning",
+        "Doc Savage Heating & Air Conditioning",
+        "Busby's Heating & Air Conditioning",
+        "Rowell Heating, Air & Plumbing"
+      ],
+      "note": "Recommended five local Augusta HVAC companies known for answering calls/24-7 service, none of which was Gold Mech.",
+      "answerChars": 1513
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Augusta, GA",
+      "askedAt": "2026-10-01T16:17:15.096Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_gemini_q4_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Atlas Heating and Air Conditioning Inc",
+        "Busby's Heating & Air Conditioning",
+        "Bailey's Comfort Services",
+        "Duggan's One Hour Heating & Air Conditioning®",
+        "Sig Cox Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Atlas Heating and Air Conditioning Inc",
+        "Busby's Heating & Air Conditioning",
+        "Bailey's Comfort Services",
+        "Duggan's One Hour Heating & Air Conditioning®",
+        "Sig Cox Heating & Air Conditioning"
+      ],
+      "note": "Recommended five local HVAC companies in Augusta, GA, none of which was Gold Mech.",
+      "answerChars": 2416
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Augusta, GA free estimate",
+      "askedAt": "2026-10-01T16:18:06.853Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_gemini_q5_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Busby's Heating & Air Conditioning",
+        "A Breeze LLC",
+        "Bailey's Comfort Services",
+        "The Home Depot"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Busby's Heating & Air Conditioning",
+        "A Breeze LLC",
+        "Bailey's Comfort Services",
+        "The Home Depot"
+      ],
+      "note": "Recommended four local HVAC providers/retailers for free estimates but never mentioned Gold Mech.",
+      "answerChars": 2728
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Augusta, GA",
+      "askedAt": "2026-10-01T16:18:31.665Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_gemini_q6_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Sig Cox Heating & Air Conditioning",
+        "Duggan's One Hour Heating & Air Conditioning",
+        "Bailey's Comfort Services",
+        "Doc Savage Heating & Air Conditioning",
+        "Harris Refrigeration HVAC Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Sig Cox Heating & Air Conditioning",
+        "Duggan's One Hour Heating & Air Conditioning",
+        "Bailey's Comfort Services",
+        "Doc Savage Heating & Air Conditioning",
+        "Harris Refrigeration HVAC Inc."
+      ],
+      "note": "Recommended five local HVAC companies with phone numbers and troubleshooting tips, but did not mention Gold Mech.",
+      "answerChars": 2048
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Augusta, GA",
+      "askedAt": "2026-10-01T16:18:56.256Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_gemini_q7_2026-10-01.jpg",
+      "answered": true,
+      "businesses": [
+        "Plunkett Heating & Air",
+        "Atlas Heating and Air Conditioning Inc",
+        "Bailey's Comfort Services",
+        "Doc Savage Heating and Air Conditioning, Inc.",
+        "Sig Cox Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Plunkett Heating & Air",
+        "Atlas Heating and Air Conditioning Inc",
+        "Bailey's Comfort Services",
+        "Doc Savage Heating and Air Conditioning, Inc.",
+        "Sig Cox Heating & Air Conditioning"
+      ],
+      "note": "Recommended five other local HVAC companies for furnace repair, none of which was Gold Mech.",
+      "answerChars": 2766
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Augusta, GA",
+      "askedAt": "2026-10-01T16:15:50.686Z",
+      "ok": false,
+      "screenshot": "screenshots/gold-mech_perplexity_q1_2026-10-01.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Augusta, GA",
+      "askedAt": "2026-10-01T16:16:59.306Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_perplexity_q2_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only prompted sign-up with no recommendations given.",
+      "answerChars": 176
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Augusta, GA",
+      "askedAt": "2026-10-01T16:19:44.690Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_perplexity_q3_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a sign-up prompt with no business recommendations.",
+      "answerChars": 182
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Augusta, GA",
+      "askedAt": "2026-10-01T16:23:08.639Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_perplexity_q4_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only shows a prompt to sign in/repeat the request.",
+      "answerChars": 243
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Augusta, GA free estimate",
+      "askedAt": "2026-10-01T16:24:12.053Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_perplexity_q5_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The page returned no actual answer, just a prompt to sign up and repeat the request.",
+      "answerChars": 227
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Augusta, GA",
+      "askedAt": "2026-10-01T16:24:37.130Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_perplexity_q6_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page shows only a sign-up prompt with no recommendations.",
+      "answerChars": 192
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Augusta, GA",
+      "askedAt": "2026-10-01T16:27:23.054Z",
+      "ok": true,
+      "screenshot": "screenshots/gold-mech_perplexity_q7_2026-10-01.jpg",
+      "answered": false,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "No actual answer was captured; the page only prompted the user to sign up and repeat the request.",
+      "answerChars": 166
+    }
+  ]
+}
