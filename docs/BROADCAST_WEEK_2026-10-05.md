@@ -607,8 +607,8 @@ Yo [First Name],
 The group that counts industrial robots for a living put out
 their 2026 numbers on September 24.
 
-Five million robots now working in factories worldwide. Their
-president said that's "more than double the number seven years
+Five million robots now working in factories worldwide. In
+their words, that's "more than double the number seven years
 ago." Factories added over six hundred thousand in a single
 year. 🤖
 
@@ -628,7 +628,7 @@ qualifications don't exist yet. 💼
 
 That window closes. They always do. 👀
 
-See the numbers → (LINK: https://ifr.org/ifr-press-releases/news/world-robotics-2026?utm_source=email&utm_medium=student&utm_campaign=B1-2026-10-05)
+See the numbers → (LINK: https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally?utm_source=email&utm_medium=student&utm_campaign=B1-2026-10-05)
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=B1-2026-10-05)
 
@@ -642,7 +642,7 @@ you grief about at the time?
 
 *Notes:* No deadline, so this one keeps. Swap it in for S3 or S-SUN if either breaks. The
 pro-gamer story is from the story bank and is true.
-*Source:* https://ifr.org/ifr-press-releases/news/world-robotics-2026 (International
+*Source:* https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally (International
 Federation of Robotics, 2026-09-24 — the body that produces the World Robotics dataset)
 
 ---
@@ -730,3 +730,28 @@ Recorded so the next batch doesn't re-litigate them.
   Not news. Fine as a supporting stat later.
 - **Yelp + Hatch voice AI (Sept 10)** — dead-on for restaurants and home services, three
   weeks old. Promote it next batch if the restaurant vertical matters.
+
+
+---
+
+## Friday freshness check
+
+**2026-10-02 (Fri), for the Oct 5 send week.** Every Source re-fetched at the primary.
+
+| Email | Result |
+|---|---|
+| A1 / S1 | Meta Muse post dated 2026-09-29; HighLevel, QuickBooks, Stripe, Klaviyo, Shopify, Slack all in its connector list. "Last week" / "last Tuesday" still correct on Mon Oct 5. Free-tier help page loads and confirms a usage limit. OK. |
+| A2 | Microsoft post 2026-09-25; Autopilot quote verbatim; usage-billing caveat holds. Dated "September 25", no relative date. OK. |
+| A3 | SOCi post 2026-09-24; 9% to 52% and 63% "walked away" both verbatim; sample "more than 1,000 U.S. consumers". "Late last month" is right for Fri Oct 9. OK. |
+| A-SUN | No factual claim. OK. |
+| S2 | Census CES-26-56 (September 2026): 13% earnings drop, about half from restaurants and retail. Indeed 46% and entry-level "modest 2-point gap" confirmed. "Last month" right for Oct 7. OK. |
+| S3 | Microsoft "outside the realm of developers alone" verbatim. Meta Enterprise Platform 2026-09-28, CJ Desai from MongoDB (CEO and President). "Three days later" holds. OK. |
+| S-SUN | NBER w35796 (no summer unemployment spike for recent grads) and Indeed survey (123 economists; downward real-wage pressure expected for college-educated, none for non-degree) both confirmed. "Last month" right for Oct 11. **See flag below.** |
+| B1 | **Changed.** The IFR link pointed at a page that is now the World Robotics *service robots* report (Sept 30), which does not contain the 5 million figure. Repointed to the IFR press release "Five Million Robots now Operate in Factories Globally" (2026-09-24, loads, quote and 600,000+ installs confirmed). Also dropped "Their president said": the release does not attribute that line to the president, so it now reads "In their words". |
+| B2 | Google status page still shows no completion entry for the Sept 24 spam update. Still sendable only Oct 5 or Oct 7. Not in the schedule, so no swap made. |
+
+**Links:** the Game Plan Call booking link and joineat4life.com/xboxtoexec both return 200. All source URLs above load.
+
+**Nothing dead, no swap needed.**
+
+**Flag for Chosen: the September jobs report printed Oct 2** (BLS): +29K payrolls against about 90K expected, unemployment 4.2% (up from 4.1%). S-SUN's claims are still true (they are about recent-grad unemployment and economists' wage outlook), but "Nothing is collapsing" now sits next to a weak headline some readers will have seen. Left as written; Chosen to decide whether to soften before Sunday.
