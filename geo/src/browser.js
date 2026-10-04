@@ -205,7 +205,12 @@ const PLATFORMS = {
       await page.keyboard.press('Enter');
       await page.waitForTimeout(5000);
       await killGoogleOneTap(page);
-      const text = await waitStable(page, 'main', { minChars: 200 });
+           const text = await waitStable(page, 'main', { minChars: 200 });
+      const loginWall =
+        /continue with (google|apple|email)|sign up|log in|sign in|create (an )?account|anmelden|registrieren|mit google fortfahren/i;
+      if (/login|signin|accounts\.google\.com/i.test(page.url()) || (text.length < 800 && loginWall.test(text))) {
+        throw new Error('sign-in required — Perplexity login wall');
+      }
       return text;
     },
   },
