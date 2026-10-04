@@ -1,0 +1,321 @@
+{
+  "subject": "Air Therm LLC",
+  "city": "Savannah, GA",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-10-04",
+  "startedAt": "2026-10-04T18:47:42.457Z",
+  "finishedAt": "2026-10-04T18:50:24.931Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "2/21",
+  "named": 2,
+  "total": 21,
+  "failedAsks": 14,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Savannah, GA",
+      "askedAt": "2026-10-04T18:47:43.663Z",
+      "ok": false,
+      "screenshot": "screenshots/air-therm-llc_chatgpt_q1_2026-10-04.jpg",
+      "error": "no answer appeared within 90s of submitting; API fallback failed: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Savannah, GA",
+      "askedAt": "2026-10-04T18:49:20.516Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: no answer appeared within 90s of submitting; API fallback failed: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Savannah, GA",
+      "askedAt": "2026-10-04T18:49:20.516Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: no answer appeared within 90s of submitting; API fallback failed: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Savannah, GA",
+      "askedAt": "2026-10-04T18:49:20.516Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: no answer appeared within 90s of submitting; API fallback failed: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Savannah, GA free estimate",
+      "askedAt": "2026-10-04T18:49:20.516Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: no answer appeared within 90s of submitting; API fallback failed: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Savannah, GA",
+      "askedAt": "2026-10-04T18:49:20.516Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: no answer appeared within 90s of submitting; API fallback failed: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Savannah, GA",
+      "askedAt": "2026-10-04T18:49:20.516Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: no answer appeared within 90s of submitting; API fallback failed: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Savannah, GA",
+      "askedAt": "2026-10-04T18:47:43.663Z",
+      "ok": true,
+      "screenshot": "screenshots/air-therm-llc_gemini_q1_2026-10-04.jpg",
+      "answered": true,
+      "businesses": [
+        "Westberry Heating & Air Conditioning",
+        "Aire Serv of Savannah",
+        "Service Experts Savannah"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Westberry Heating & Air Conditioning",
+        "Aire Serv of Savannah",
+        "Service Experts Savannah"
+      ],
+      "note": "Recommended three competing HVAC companies for emergency AC repair but did not mention Air Therm LLC.",
+      "answerChars": 1458
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Savannah, GA",
+      "askedAt": "2026-10-04T18:48:09.673Z",
+      "ok": true,
+      "screenshot": "screenshots/air-therm-llc_gemini_q2_2026-10-04.jpg",
+      "answered": true,
+      "businesses": [
+        "Air Therm Co. Inc.",
+        "McDevitt Air",
+        "Bolton Air",
+        "Byrd Heating & Air Conditioning",
+        "Platinum Air Repair LLC"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "McDevitt Air",
+        "Bolton Air",
+        "Byrd Heating & Air Conditioning",
+        "Platinum Air Repair LLC"
+      ],
+      "note": "Recommended five local HVAC companies, including the subject, with brief reputation highlights for each.",
+      "answerChars": 2112
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Savannah, GA",
+      "askedAt": "2026-10-04T18:48:32.521Z",
+      "ok": true,
+      "screenshot": "screenshots/air-therm-llc_gemini_q3_2026-10-04.jpg",
+      "answered": true,
+      "businesses": [
+        "Climatech Air",
+        "Aire Serv of Savannah",
+        "McDevitt Air",
+        "Service Experts Savannah"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Climatech Air",
+        "Aire Serv of Savannah",
+        "McDevitt Air",
+        "Service Experts Savannah"
+      ],
+      "note": "Recommended four competing HVAC companies in Savannah without mentioning Air Therm LLC.",
+      "answerChars": 1508
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Savannah, GA",
+      "askedAt": "2026-10-04T18:48:53.108Z",
+      "ok": true,
+      "screenshot": "screenshots/air-therm-llc_gemini_q4_2026-10-04.jpg",
+      "answered": true,
+      "businesses": [
+        "Savannah Air Factory",
+        "Air Therm LLC",
+        "Canady's Heating, Air, & Plumbing",
+        "Westberry Heating & Air Conditioning",
+        "Old Coast"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Savannah Air Factory",
+        "Canady's Heating, Air, & Plumbing",
+        "Westberry Heating & Air Conditioning",
+        "Old Coast"
+      ],
+      "note": "Listed five top-rated Savannah HVAC companies including Air Therm LLC as the second option.",
+      "answerChars": 2565
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Savannah, GA free estimate",
+      "askedAt": "2026-10-04T18:49:16.490Z",
+      "ok": true,
+      "screenshot": "screenshots/air-therm-llc_gemini_q5_2026-10-04.jpg",
+      "answered": true,
+      "businesses": [
+        "Polar Air",
+        "McDevitt Air",
+        "Stellar Air",
+        "Canady's Heating, Air, Plumbing & Electrical",
+        "Aire Serv of Savannah"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Polar Air",
+        "McDevitt Air",
+        "Stellar Air",
+        "Canady's Heating, Air, Plumbing & Electrical",
+        "Aire Serv of Savannah"
+      ],
+      "note": "Recommended five competing Savannah HVAC companies with free estimates but did not mention Air Therm LLC.",
+      "answerChars": 1901
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Savannah, GA",
+      "askedAt": "2026-10-04T18:49:38.586Z",
+      "ok": true,
+      "screenshot": "screenshots/air-therm-llc_gemini_q6_2026-10-04.jpg",
+      "answered": true,
+      "businesses": [
+        "Service Experts Savannah",
+        "Westberry Heating & Air Conditioning",
+        "Dyess Air & Plumbing",
+        "A.S.R.S., Inc. (Air Services & Refrigeration Specialties)",
+        "Byrd Heating and Air",
+        "Brunson",
+        "Canady's Heating & Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Service Experts Savannah",
+        "Westberry Heating & Air Conditioning",
+        "Dyess Air & Plumbing",
+        "A.S.R.S., Inc. (Air Services & Refrigeration Specialties)",
+        "Byrd Heating and Air",
+        "Brunson",
+        "Canady's Heating & Air"
+      ],
+      "note": "Recommended seven competing Savannah HVAC companies and DIY troubleshooting tips, without mentioning Air Therm LLC.",
+      "answerChars": 2001
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Savannah, GA",
+      "askedAt": "2026-10-04T18:50:01.965Z",
+      "ok": true,
+      "screenshot": "screenshots/air-therm-llc_gemini_q7_2026-10-04.jpg",
+      "answered": true,
+      "businesses": [
+        "Canady's Heating, Air, & Plumbing",
+        "Thompson & Thompson Service Group",
+        "Old Coast"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Canady's Heating, Air, & Plumbing",
+        "Thompson & Thompson Service Group",
+        "Old Coast"
+      ],
+      "note": "Recommended five HVAC listings (three unique businesses, one repeated multiple times) in Savannah without naming Air Therm LLC.",
+      "answerChars": 2005
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Savannah, GA",
+      "askedAt": "2026-10-04T18:47:43.663Z",
+      "ok": false,
+      "screenshot": "screenshots/air-therm-llc_perplexity_q1_2026-10-04.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Savannah, GA",
+      "askedAt": "2026-10-04T18:48:52.178Z",
+      "ok": false,
+      "screenshot": "screenshots/air-therm-llc_perplexity_q2_2026-10-04.jpg",
+      "error": "sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Savannah, GA",
+      "askedAt": "2026-10-04T18:49:13.063Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Savannah, GA",
+      "askedAt": "2026-10-04T18:49:13.064Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Savannah, GA free estimate",
+      "askedAt": "2026-10-04T18:49:13.064Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Savannah, GA",
+      "askedAt": "2026-10-04T18:49:13.064Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Savannah, GA",
+      "askedAt": "2026-10-04T18:49:13.064Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    }
+  ]
+}
