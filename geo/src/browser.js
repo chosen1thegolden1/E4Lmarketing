@@ -104,7 +104,7 @@ async function assertNotBlocked(page) {
 
 // Quota/bot walls that close a platform for the rest of a run.
 export const isPlatformUnavailable = (msg) =>
-  /sign-in required|anonymous chat limit|bot challenge/i.test(msg || '');
+  /sign-in required|anonymous chat limit|bot challenge|no answer appeared within/i.test(msg || '');
 
 const PLATFORMS = {
   chatgpt: {
