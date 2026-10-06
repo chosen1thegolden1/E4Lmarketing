@@ -105,7 +105,7 @@ one job you'd hire for tomorrow?
 
 ## A2 — Wednesday
 
-**Subject:** Stop wiring things together
+**Subject:** Your Zapier account is a monument
 
 **Preview text:** 27 more apps got a plug. Check if yours is one.
 
@@ -281,9 +281,9 @@ P.S. I gotta question: what's the date on yours?
 
 ## S1 — Monday
 
-**Subject:** Four out of five businesses haven't started
+**Subject:** The barbershop isn't lazy. It's busy.
 
-**Preview text:** That's not their problem. That's your job.
+**Preview text:** Four in five businesses haven't started on AI. Here's tonight's side quest.
 
 **Reader:** S-A (just found out digital careers exist) · **Angle:** Best Way Without · **Spoke:** front end → the book
 
@@ -312,8 +312,11 @@ So here's a side quest you can do tonight, on your phone,
 with nothing but a free AI chat. 🎮
 
 1. Pick a place you actually go. A gym, a taqueria, a salon.
+
 2. Look at their Google reviews. Find one nobody answered.
+
 3. Ask the AI to write a friendly reply in their voice.
+
 4. Screenshot it. Do three more. 💼
 
 That's a sample. A real one, for a real business, that you
@@ -442,7 +445,7 @@ Stop charging for the typing.
 Own one outcome for one client. More booked calls. Fewer
 missed leads. Charge a slice of what you cause. 💼
 
-That's not "more clients." It's a better one.
+That's not "more clients." It's a better one. 🎯
 
 See what they shipped → (LINK: https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs?utm_source=email&utm_medium=student&utm_campaign=S3-2026-10-12)
 
@@ -493,7 +496,7 @@ small thing like it was the big thing.
 You don't need to know more before you start.
 
 You need one small thing, done for one real person, and the
-nerve to let them see it. The first $200 comes from there.
+nerve to let them see it. The first $200 comes from there. 💰
 
 It's Sunday. Don't plan the whole thing. Pick the one boring
 step.
@@ -519,7 +522,7 @@ Two spares so a claim that dies mid-week costs a swap instead of a skipped send.
 
 ### B1 — student, the free classes
 
-**Subject:** Business owners are getting free AI classes
+**Subject:** Somebody's teaching your future clients AI for free
 
 **Preview text:** Who do you think they call when it gets confusing?
 
@@ -548,7 +551,7 @@ the job description.
 
 That's where somebody who isn't afraid of the tools comes in.
 You don't need to be an expert. You need to be the person who
-sat down and tried.
+sat down and tried. 🛠️
 
 Pick one owner and offer to do one thing. 💼
 
@@ -571,7 +574,7 @@ if you got ten minutes in that room?
 
 ### B2 — agency, where everyone starts
 
-**Subject:** Over half of the businesses using AI aim it at marketing
+**Subject:** Everybody points the AI at the same department
 
 **Preview text:** Fewer than one in five use it at all. That's the gap.
 

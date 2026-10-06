@@ -15,8 +15,8 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 | Send date | Day | Side | File | Subject | Preview text | Sells |
 |---|---|---|---|---|---|---|
 | 2026-10-12 | Monday | agency | `A1.html` | Nobody is hiring. Good. | The whole country added 29,000 jobs. You only need one. | Game Plan Call (agency front end) |
-| 2026-10-12 | Monday | student | `S1.html` | Four out of five businesses haven't started | That's not their problem. That's your job. | From Xbox to Executive (book, free + $9.95 shipping) |
-| 2026-10-14 | Wednesday | agency | `A2.html` | Stop wiring things together | 27 more apps got a plug. Check if yours is one. | Game Plan Call (agency front end) |
+| 2026-10-12 | Monday | student | `S1.html` | The barbershop isn't lazy. It's busy. | Four in five businesses haven't started on AI. Here's tonight's side quest. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-10-14 | Wednesday | agency | `A2.html` | Your Zapier account is a monument | 27 more apps got a plug. Check if yours is one. | Game Plan Call (agency front end) |
 | 2026-10-14 | Wednesday | student | `S2.html` | It's not your résumé | The whole country added 29,000 jobs in September. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-10-16 | Friday | agency | `A3.html` | A robot is going to call your shop | Google already does it. Here's the setting that decides. | Game Plan Call (agency front end) |
 | 2026-10-16 | Friday | student | `S3.html` | You're still billing by the hour | There are 43 pre-built workflows now. Which one did you sell? | From Xbox to Executive (book, free + $9.95 shipping) |
@@ -34,5 +34,5 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 
 ## Bench — not scheduled
 
-- `B1.html` — Business owners are getting free AI classes
-- `B2.html` — Over half of the businesses using AI aim it at marketing
+- `B1.html` — Somebody's teaching your future clients AI for free
+- `B2.html` — Everybody points the AI at the same department
