@@ -1,0 +1,436 @@
+{
+  "subject": "Royal Air Houston",
+  "city": "Houston, TX",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-10-06",
+  "startedAt": "2026-10-06T16:22:51.884Z",
+  "finishedAt": "2026-10-06T16:35:16.900Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "1/21",
+  "named": 1,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Houston, TX",
+      "askedAt": "2026-10-06T16:22:52.139Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_chatgpt_q1_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Abacus Plumbing, AC & Electrical",
+        "Super Comfort Heating & Cooling",
+        "Houston AirPros",
+        "Air City AC & Heating",
+        "Atlas AC & Heat",
+        "One Call Houston",
+        "House Pro"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Abacus Plumbing, AC & Electrical",
+        "Super Comfort Heating & Cooling",
+        "Houston AirPros",
+        "Air City AC & Heating",
+        "Atlas AC & Heat",
+        "One Call Houston",
+        "House Pro"
+      ],
+      "note": "Recommended 7 other local HVAC companies offering emergency AC repair but did not mention Royal Air Houston.",
+      "answerChars": 1800
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Houston, TX",
+      "askedAt": "2026-10-06T16:24:38.928Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_chatgpt_q2_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Air Tech of Houston (AC & Plumbing)",
+        "Richmond's Air",
+        "Mr. Reliable Heating & Air LLC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Air Tech of Houston (AC & Plumbing)",
+        "Richmond's Air",
+        "Mr. Reliable Heating & Air LLC"
+      ],
+      "note": "The answer gave generic advice on vetting HVAC companies and named a couple of other top-reviewed competitors, but did not mention Royal Air Houston.",
+      "answerChars": 2270
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Houston, TX",
+      "askedAt": "2026-10-06T16:26:28.419Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_chatgpt_q3_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Fireside Heating & Air Co.",
+        "TruFlo A/C & Heating",
+        "House Pro Air Conditioning",
+        "Super Comfort"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Fireside Heating & Air Co.",
+        "TruFlo A/C & Heating",
+        "House Pro Air Conditioning",
+        "Super Comfort"
+      ],
+      "note": "Recommended four other Houston HVAC companies known for answering calls 24/7, without mentioning Royal Air Houston.",
+      "answerChars": 1224
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Houston, TX",
+      "askedAt": "2026-10-06T16:28:12.968Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_chatgpt_q4_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Team Enoch",
+        "Hvac Heroes",
+        "Excel Air",
+        "Big Texas Comfort"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Team Enoch",
+        "Hvac Heroes",
+        "Excel Air",
+        "Big Texas Comfort"
+      ],
+      "note": "The answer recommended four other HVAC companies in Houston without mentioning Royal Air Houston.",
+      "answerChars": 1817
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Houston, TX free estimate",
+      "askedAt": "2026-10-06T16:30:02.087Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_chatgpt_q5_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Royal Air Houston",
+        "Patriot Air Systems",
+        "Allstar AC & Heating",
+        "Fireside Heating & Air Co. of Houston",
+        "Upfront AC",
+        "Houston Air Pros"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Patriot Air Systems",
+        "Allstar AC & Heating",
+        "Fireside Heating & Air Co. of Houston",
+        "Upfront AC",
+        "Houston Air Pros"
+      ],
+      "note": "Listed six Houston HVAC companies offering free estimates, including the subject business first, and asked for more details to narrow the list.",
+      "answerChars": 1421
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Houston, TX",
+      "askedAt": "2026-10-06T16:31:46.334Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_chatgpt_q6_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice about who to call (landlord, licensed HVAC contractor, warranty company) without naming any specific business, including the subject.",
+      "answerChars": 1509
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Houston, TX",
+      "askedAt": "2026-10-06T16:33:30.270Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_chatgpt_q7_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Super Comfort Heating & Cooling",
+        "Air Specialist",
+        "Alief Ultra Mechanical",
+        "Furnace Repairs of Houston",
+        "Arya Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Super Comfort Heating & Cooling",
+        "Air Specialist",
+        "Alief Ultra Mechanical",
+        "Furnace Repairs of Houston",
+        "Arya Air"
+      ],
+      "note": "Recommended 5 other Houston HVAC companies for 24/7 furnace repair, not naming Royal Air Houston.",
+      "answerChars": 1364
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Houston, TX",
+      "askedAt": "2026-10-06T16:22:52.139Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_gemini_q1_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Texas Same-Day Air Conditioning, Heating & Plumbing",
+        "Air Tech of Houston AC & Plumbing",
+        "24 Seven AC",
+        "One Hour Air Conditioning & Heating® of Houston",
+        "75 Degree AC- Houston"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Texas Same-Day Air Conditioning, Heating & Plumbing",
+        "Air Tech of Houston AC & Plumbing",
+        "24 Seven AC",
+        "One Hour Air Conditioning & Heating® of Houston",
+        "75 Degree AC- Houston"
+      ],
+      "note": "Recommended five other local HVAC companies for emergency AC repair but did not mention Royal Air Houston at all.",
+      "answerChars": 2989
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Houston, TX",
+      "askedAt": "2026-10-06T16:23:26.647Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_gemini_q2_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Air Tech of Houston AC & Plumbing",
+        "The Chill Brothers",
+        "John Moore Services",
+        "Abacus Plumbing, Air Conditioning, & Electrical"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Air Tech of Houston AC & Plumbing",
+        "The Chill Brothers",
+        "John Moore Services",
+        "Abacus Plumbing, Air Conditioning, & Electrical"
+      ],
+      "note": "Recommended four other Houston HVAC companies and did not mention Royal Air Houston at all.",
+      "answerChars": 2530
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Houston, TX",
+      "askedAt": "2026-10-06T16:23:53.970Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_gemini_q3_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "OneCall Houston",
+        "McCann Services Inc.",
+        "VoiceLink Communications",
+        "AfterHoursLine",
+        "ZeroStaff"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "OneCall Houston",
+        "McCann Services Inc.",
+        "VoiceLink Communications",
+        "AfterHoursLine",
+        "ZeroStaff"
+      ],
+      "note": "Recommended four other HVAC-related businesses (contractors and phone-answering services) without mentioning Royal Air Houston.",
+      "answerChars": 1553
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Houston, TX",
+      "askedAt": "2026-10-06T16:24:17.011Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_gemini_q4_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Air Tech of Houston AC & Plumbing",
+        "Mission Air Conditioning & Plumbing",
+        "Bellaire Air Conditioning",
+        "All Star A/C, Plumbing & Electrical",
+        "One Hour Air Conditioning & Heating® of Houston"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Air Tech of Houston AC & Plumbing",
+        "Mission Air Conditioning & Plumbing",
+        "Bellaire Air Conditioning",
+        "All Star A/C, Plumbing & Electrical",
+        "One Hour Air Conditioning & Heating® of Houston"
+      ],
+      "note": "Recommended 5 competing HVAC companies in Houston, none of which was Royal Air Houston.",
+      "answerChars": 2741
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Houston, TX free estimate",
+      "askedAt": "2026-10-06T16:24:40.773Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_gemini_q5_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Abacus Plumbing, Air Conditioning & Electrical",
+        "Patriot Air Systems",
+        "Houston Admiral",
+        "Hage Energy"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Abacus Plumbing, Air Conditioning & Electrical",
+        "Patriot Air Systems",
+        "Houston Admiral",
+        "Hage Energy"
+      ],
+      "note": "Recommended four other local HVAC companies for free estimates without mentioning Royal Air Houston.",
+      "answerChars": 1826
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Houston, TX",
+      "askedAt": "2026-10-06T16:25:07.799Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_gemini_q6_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "John Moore Services",
+        "The Chill Brothers",
+        "Air Tech of Houston AC & Plumbing",
+        "Vibrant Mechanical",
+        "68 Degrees HVAC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "John Moore Services",
+        "The Chill Brothers",
+        "Air Tech of Houston AC & Plumbing",
+        "Vibrant Mechanical",
+        "68 Degrees HVAC"
+      ],
+      "note": "Recommended five competing Houston HVAC companies and gave troubleshooting tips without mentioning Royal Air Houston.",
+      "answerChars": 2248
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Houston, TX",
+      "askedAt": "2026-10-06T16:25:32.656Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-air-houston_gemini_q7_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Air Tech of Houston AC & Plumbing",
+        "Bodensteiner Service Inc",
+        "Service Experts Houston",
+        "All Star A/C, Plumbing & Electrical",
+        "Mission Air Conditioning & Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Air Tech of Houston AC & Plumbing",
+        "Bodensteiner Service Inc",
+        "Service Experts Houston",
+        "All Star A/C, Plumbing & Electrical",
+        "Mission Air Conditioning & Plumbing"
+      ],
+      "note": "Recommended five Houston HVAC repair companies, none of which was Royal Air Houston.",
+      "answerChars": 2326
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Houston, TX",
+      "askedAt": "2026-10-06T16:22:52.139Z",
+      "ok": false,
+      "screenshot": "screenshots/royal-air-houston_perplexity_q1_2026-10-06.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Houston, TX",
+      "askedAt": "2026-10-06T16:24:00.553Z",
+      "ok": false,
+      "screenshot": "screenshots/royal-air-houston_perplexity_q2_2026-10-06.jpg",
+      "error": "sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Houston, TX",
+      "askedAt": "2026-10-06T16:24:59.176Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Houston, TX",
+      "askedAt": "2026-10-06T16:24:59.176Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Houston, TX free estimate",
+      "askedAt": "2026-10-06T16:24:59.176Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Houston, TX",
+      "askedAt": "2026-10-06T16:24:59.176Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Houston, TX",
+      "askedAt": "2026-10-06T16:24:59.176Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    }
+  ]
+}

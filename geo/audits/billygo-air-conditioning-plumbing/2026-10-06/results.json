@@ -1,0 +1,416 @@
+{
+  "subject": "billyGO Air Conditioning & Plumbing",
+  "city": "Flower Mound, TX",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-10-06",
+  "startedAt": "2026-10-06T16:35:17.312Z",
+  "finishedAt": "2026-10-06T16:47:51.909Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "5/21",
+  "named": 5,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Flower Mound, TX",
+      "askedAt": "2026-10-06T16:35:17.445Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_chatgpt_q1_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Family First Comfort",
+        "Highland Village Air Conditioning",
+        "Lone Star Air Mechanical",
+        "AC Genius",
+        "Comfort Land DFW"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Family First Comfort",
+        "Highland Village Air Conditioning",
+        "Lone Star Air Mechanical",
+        "AC Genius",
+        "Comfort Land DFW"
+      ],
+      "note": "Recommended five competing HVAC companies for emergency AC repair near Flower Mound, TX, without naming billyGO Air Conditioning & Plumbing.",
+      "answerChars": 1813
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Flower Mound, TX",
+      "askedAt": "2026-10-06T16:37:07.698Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_chatgpt_q2_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Calvin's Climate Air Conditioning & Heating",
+        "Triple A Heating, Plumbing & AC Repair"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Calvin's Climate Air Conditioning & Heating",
+        "Triple A Heating, Plumbing & AC Repair"
+      ],
+      "note": "Recommended two competitor HVAC companies and never mentioned billyGO Air Conditioning & Plumbing.",
+      "answerChars": 1725
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Flower Mound, TX",
+      "askedAt": "2026-10-06T16:39:04.741Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_chatgpt_q3_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Family First Comfort",
+        "billyGO",
+        "Koala-T Heating & Air",
+        "Berkeys"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Family First Comfort",
+        "Koala-T Heating & Air",
+        "Berkeys"
+      ],
+      "note": "Listed four Flower Mound HVAC companies with 24/7 phone coverage, including the subject billyGO.",
+      "answerChars": 1196
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Flower Mound, TX",
+      "askedAt": "2026-10-06T16:40:50.397Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_chatgpt_q4_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Calvin's Climate Air Conditioning & Heating Solutions",
+        "Frosty's HVAC",
+        "Team Enoch"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Calvin's Climate Air Conditioning & Heating Solutions",
+        "Frosty's HVAC",
+        "Team Enoch"
+      ],
+      "note": "The answer recommended three competitor HVAC companies by review ratings and did not mention billyGO Air Conditioning & Plumbing.",
+      "answerChars": 1078
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Flower Mound, TX free estimate",
+      "askedAt": "2026-10-06T16:42:35.496Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_chatgpt_q5_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Lone Star Air Mechanical",
+        "Family First Comfort",
+        "Peace Heating & Air",
+        "Highland Village Air Conditioning",
+        "Honest Home Services"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Lone Star Air Mechanical",
+        "Family First Comfort",
+        "Peace Heating & Air",
+        "Highland Village Air Conditioning",
+        "Honest Home Services"
+      ],
+      "note": "Recommended five competing HVAC companies offering free estimates in Flower Mound, TX, without mentioning billyGO Air Conditioning & Plumbing.",
+      "answerChars": 1556
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Flower Mound, TX",
+      "askedAt": "2026-10-06T16:44:18.842Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_chatgpt_q6_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on who to call for AC repair without naming any specific business, including the audit subject.",
+      "answerChars": 1824
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Flower Mound, TX",
+      "askedAt": "2026-10-06T16:46:05.914Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_chatgpt_q7_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "billyGO",
+        "Koala-T Heating & Air",
+        "Family First Comfort",
+        "One Hour Air Conditioning & Heating",
+        "Triple A Heating & Air Conditioning Repair"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Koala-T Heating & Air",
+        "Family First Comfort",
+        "One Hour Air Conditioning & Heating",
+        "Triple A Heating & Air Conditioning Repair"
+      ],
+      "note": "Listed billyGO first alongside four competitor HVAC companies as 24/7 furnace repair options near Flower Mound, TX.",
+      "answerChars": 1295
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Flower Mound, TX",
+      "askedAt": "2026-10-06T16:35:17.445Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_gemini_q1_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "CW Service Pros Plumbing, Heating & Air Conditioning",
+        "Prime AC and Heat",
+        "Berkeys Plumbing, A/C & Electrical",
+        "Southern Comfort Mechanical - Air Conditioning, Heating & Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "CW Service Pros Plumbing, Heating & Air Conditioning",
+        "Prime AC and Heat",
+        "Berkeys Plumbing, A/C & Electrical",
+        "Southern Comfort Mechanical - Air Conditioning, Heating & Plumbing"
+      ],
+      "note": "Recommended four competing HVAC companies for emergency AC repair near Flower Mound, TX, without mentioning billyGO Air Conditioning & Plumbing.",
+      "answerChars": 2183
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Flower Mound, TX",
+      "askedAt": "2026-10-06T16:35:43.500Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_gemini_q2_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Colony Air Conditioning & Heating",
+        "Goat Air Heating & Cooling",
+        "Aire Serv of Flower Mound",
+        "The Chill Brothers"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Colony Air Conditioning & Heating",
+        "Goat Air Heating & Cooling",
+        "Aire Serv of Flower Mound",
+        "The Chill Brothers"
+      ],
+      "note": "The answer recommended four competing HVAC companies in Flower Mound, TX and did not mention billyGO Air Conditioning & Plumbing.",
+      "answerChars": 2966
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Flower Mound, TX",
+      "askedAt": "2026-10-06T16:36:08.312Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_gemini_q3_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "billyGO Air Conditioning & Plumbing",
+        "Cold Factor Heating & Air Services",
+        "Honest Home Services",
+        "Christmas Air Conditioning and Plumbing",
+        "Aire Serv of Flower Mound"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Cold Factor Heating & Air Services",
+        "Honest Home Services",
+        "Christmas Air Conditioning and Plumbing",
+        "Aire Serv of Flower Mound"
+      ],
+      "note": "Listed billyGO as the top HVAC option in Flower Mound alongside four local competitors, each with ratings and service details.",
+      "answerChars": 3006
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Flower Mound, TX",
+      "askedAt": "2026-10-06T16:36:34.845Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_gemini_q4_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Triple A Heating, Plumbing & AC Repair",
+        "Christmas Air Conditioning and Plumbing",
+        "Cold Factor Heating & Air Services",
+        "Prime AC and Heat",
+        "Calvin's Climate Air Conditioning & Heating"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Triple A Heating, Plumbing & AC Repair",
+        "Christmas Air Conditioning and Plumbing",
+        "Cold Factor Heating & Air Services",
+        "Prime AC and Heat",
+        "Calvin's Climate Air Conditioning & Heating"
+      ],
+      "note": "Recommended five other local HVAC companies with high ratings but did not mention billyGO Air Conditioning & Plumbing.",
+      "answerChars": 2147
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Flower Mound, TX free estimate",
+      "askedAt": "2026-10-06T16:37:00.573Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_gemini_q5_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Calvin's Climate",
+        "Cold Factor Heating & Air Services",
+        "billyGO",
+        "Aire Serv of Flower Mound"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Calvin's Climate",
+        "Cold Factor Heating & Air Services",
+        "Aire Serv of Flower Mound"
+      ],
+      "note": "Listed four local HVAC companies offering free estimates, including billyGO as the subject alongside three competitors.",
+      "answerChars": 2169
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Flower Mound, TX",
+      "askedAt": "2026-10-06T16:37:28.761Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_gemini_q6_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Colony Air Conditioning & Heating",
+        "CW Service Pros",
+        "Honest Home Services LLC",
+        "Southern Comfort Mechanical",
+        "The Chill Brothers"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Colony Air Conditioning & Heating",
+        "CW Service Pros",
+        "Honest Home Services LLC",
+        "Southern Comfort Mechanical",
+        "The Chill Brothers"
+      ],
+      "note": "Recommended five local HVAC companies in Flower Mound, none of which was billyGO Air Conditioning & Plumbing.",
+      "answerChars": 2162
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Flower Mound, TX",
+      "askedAt": "2026-10-06T16:37:51.448Z",
+      "ok": true,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_gemini_q7_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "billyGO Air Conditioning & Plumbing",
+        "CW Service Pros Plumbing, Heating & Air Conditioning",
+        "Aire Serv of Flower Mound"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "CW Service Pros Plumbing, Heating & Air Conditioning",
+        "Aire Serv of Flower Mound"
+      ],
+      "note": "Listed billyGO as the top recommendation alongside two competitors for furnace repair in Flower Mound, TX.",
+      "answerChars": 1714
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Flower Mound, TX",
+      "askedAt": "2026-10-06T16:35:17.445Z",
+      "ok": false,
+      "screenshot": "screenshots/billygo-air-conditioning-plumbing_perplexity_q1_2026-10-06.jpg",
+      "error": "sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Flower Mound, TX",
+      "askedAt": "2026-10-06T16:38:39.834Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Flower Mound, TX",
+      "askedAt": "2026-10-06T16:38:39.835Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Flower Mound, TX",
+      "askedAt": "2026-10-06T16:38:39.835Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Flower Mound, TX free estimate",
+      "askedAt": "2026-10-06T16:38:39.835Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Flower Mound, TX",
+      "askedAt": "2026-10-06T16:38:39.835Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Flower Mound, TX",
+      "askedAt": "2026-10-06T16:38:39.835Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    }
+  ]
+}

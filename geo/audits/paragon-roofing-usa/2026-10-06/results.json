@@ -1,0 +1,411 @@
+{
+  "subject": "Paragon Roofing USA",
+  "city": "Nashville, TN",
+  "niche": "roofing",
+  "label": "Roofing",
+  "date": "2026-10-06",
+  "startedAt": "2026-10-06T17:38:06.900Z",
+  "finishedAt": "2026-10-06T17:50:35.687Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "0/21",
+  "named": 0,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency roofer near Nashville, TN",
+      "askedAt": "2026-10-06T17:38:07.026Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_chatgpt_q1_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "SERVPRO of Southeast Nashville",
+        "Terry Woodall Roofing",
+        "Storm Guard (Nashville)",
+        "Mr. GoodRoof",
+        "Nashville Roof Master",
+        "Pretty Quick Roofing (PQ Roofing)"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "SERVPRO of Southeast Nashville",
+        "Terry Woodall Roofing",
+        "Storm Guard (Nashville)",
+        "Mr. GoodRoof",
+        "Nashville Roof Master",
+        "Pretty Quick Roofing (PQ Roofing)"
+      ],
+      "note": "Recommended six local emergency roofing/storm-damage companies in Nashville, none of which was Paragon Roofing USA.",
+      "answerChars": 1737
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable roofing company in Nashville, TN",
+      "askedAt": "2026-10-06T17:39:53.853Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_chatgpt_q2_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Don Kennedy Roofing LLC",
+        "Elite Roofing Company of Nashville Inc",
+        "Archway Roofing LLC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Don Kennedy Roofing LLC",
+        "Elite Roofing Company of Nashville Inc",
+        "Archway Roofing LLC"
+      ],
+      "note": "Recommended three other Nashville roofing companies based on trust signals, never mentioning Paragon Roofing USA.",
+      "answerChars": 2154
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "roofer that answers the phone Nashville, TN",
+      "askedAt": "2026-10-06T17:41:44.253Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_chatgpt_q3_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Mr. GoodRoof",
+        "Four Corners Roofing & Restoration",
+        "Roof Nashville"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Mr. GoodRoof",
+        "Four Corners Roofing & Restoration",
+        "Roof Nashville"
+      ],
+      "note": "Recommended three Nashville roofers that advertise 24/7 phone response, none of which was Paragon Roofing USA.",
+      "answerChars": 1113
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed roofer near me Nashville, TN",
+      "askedAt": "2026-10-06T17:43:29.060Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_chatgpt_q4_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Pinaire Roofing",
+        "Glick Roofing Systems LLC",
+        "Elite Roofing Company of Nashville"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Pinaire Roofing",
+        "Glick Roofing Systems LLC",
+        "Elite Roofing Company of Nashville"
+      ],
+      "note": "Recommended three other Nashville roofers with review stats but did not mention Paragon Roofing USA.",
+      "answerChars": 1795
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "roofing company Nashville, TN free estimate",
+      "askedAt": "2026-10-06T17:45:19.287Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_chatgpt_q5_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic guidance on finding and vetting a Nashville roofer via Google Maps, without naming any specific businesses including Paragon Roofing USA.",
+      "answerChars": 1994
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call for a roof leak in Nashville, TN",
+      "askedAt": "2026-10-06T17:47:05.556Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_chatgpt_q6_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic category advice (roofer, restoration company, plumber) without naming any specific businesses, including the subject.",
+      "answerChars": 1621
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "roofer open now Nashville, TN",
+      "askedAt": "2026-10-06T17:48:50.703Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_chatgpt_q7_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Music City Exteriors",
+        "Mr. GoodRoof",
+        "Erie Home",
+        "Pine Knot Roofing",
+        "Revival Roofing & Restoration"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Music City Exteriors",
+        "Mr. GoodRoof",
+        "Erie Home",
+        "Pine Knot Roofing",
+        "Revival Roofing & Restoration"
+      ],
+      "note": "Recommended five other Nashville roofers advertising 24/7 service, without mentioning Paragon Roofing USA.",
+      "answerChars": 1414
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency roofer near Nashville, TN",
+      "askedAt": "2026-10-06T17:38:07.027Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_gemini_q1_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Mr. GoodRoof",
+        "Mr. Roof Nashville"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Mr. GoodRoof",
+        "Mr. Roof Nashville"
+      ],
+      "note": "Recommended two competing roofing companies for emergency service near Nashville, never mentioning Paragon Roofing USA.",
+      "answerChars": 1401
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable roofing company in Nashville, TN",
+      "askedAt": "2026-10-06T17:38:34.208Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_gemini_q2_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "MidSouth Construction",
+        "Bill Ragan Roofing Company",
+        "Tim Leeper Roofing",
+        "Sumner Roofing & Exteriors",
+        "H.E. Parmer Company, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "MidSouth Construction",
+        "Bill Ragan Roofing Company",
+        "Tim Leeper Roofing",
+        "Sumner Roofing & Exteriors",
+        "H.E. Parmer Company, Inc."
+      ],
+      "note": "The answer recommended five Nashville roofing companies but did not mention Paragon Roofing USA at all.",
+      "answerChars": 3236
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "roofer that answers the phone Nashville, TN",
+      "askedAt": "2026-10-06T17:39:00.232Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_gemini_q3_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Don Kennedy Roofing",
+        "Phoenix Roofing & Renovations",
+        "Mockingbird Roofing",
+        "Roofman"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Don Kennedy Roofing",
+        "Phoenix Roofing & Renovations",
+        "Mockingbird Roofing",
+        "Roofman"
+      ],
+      "note": "Recommended four Nashville roofing companies known for responsiveness, none of which was Paragon Roofing USA.",
+      "answerChars": 1565
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed roofer near me Nashville, TN",
+      "askedAt": "2026-10-06T17:39:22.850Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_gemini_q4_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Nashville Roofing Company",
+        "Bill Ragan Roofing Company",
+        "Southern Roofing Co.",
+        "Don Kennedy Roofing",
+        "Music City Roofers"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Nashville Roofing Company",
+        "Bill Ragan Roofing Company",
+        "Southern Roofing Co.",
+        "Don Kennedy Roofing",
+        "Music City Roofers"
+      ],
+      "note": "Listed 5 top-rated Nashville roofing companies with ratings and descriptions, none of which was Paragon Roofing USA.",
+      "answerChars": 2414
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "roofing company Nashville, TN free estimate",
+      "askedAt": "2026-10-06T17:39:45.394Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_gemini_q5_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Bone Dry Roofing",
+        "Nashville Roofing Co.",
+        "Southern Roofing Co.",
+        "Don Kennedy Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Bone Dry Roofing",
+        "Nashville Roofing Co.",
+        "Southern Roofing Co.",
+        "Don Kennedy Roofing"
+      ],
+      "note": "Recommended four Nashville roofing competitors offering free estimates, never mentioning Paragon Roofing USA.",
+      "answerChars": 2082
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call for a roof leak in Nashville, TN",
+      "askedAt": "2026-10-06T17:40:08.207Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_gemini_q6_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Mr. GoodRoof",
+        "Nashville Roofing Company",
+        "Jewell Roofing & Exteriors",
+        "Bill Ragan Roofing Company",
+        "Don Kennedy Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Mr. GoodRoof",
+        "Nashville Roofing Company",
+        "Jewell Roofing & Exteriors",
+        "Bill Ragan Roofing Company",
+        "Don Kennedy Roofing"
+      ],
+      "note": "Recommended five local Nashville roofing companies for leak repair, none of which was Paragon Roofing USA.",
+      "answerChars": 1873
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "roofer open now Nashville, TN",
+      "askedAt": "2026-10-06T17:40:31.785Z",
+      "ok": true,
+      "screenshot": "screenshots/paragon-roofing-usa_gemini_q7_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Don Kennedy",
+        "Music City Roofers",
+        "Mr. Roof Nashville",
+        "Centennial Roofing",
+        "MidSouth Construction"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Don Kennedy",
+        "Music City Roofers",
+        "Mr. Roof Nashville",
+        "Centennial Roofing",
+        "MidSouth Construction"
+      ],
+      "note": "Listed five roofing contractors open in Nashville but did not mention Paragon Roofing USA at all.",
+      "answerChars": 2455
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency roofer near Nashville, TN",
+      "askedAt": "2026-10-06T17:38:07.027Z",
+      "ok": false,
+      "screenshot": "screenshots/paragon-roofing-usa_perplexity_q1_2026-10-06.jpg",
+      "error": "sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable roofing company in Nashville, TN",
+      "askedAt": "2026-10-06T17:40:50.892Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "roofer that answers the phone Nashville, TN",
+      "askedAt": "2026-10-06T17:40:50.892Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed roofer near me Nashville, TN",
+      "askedAt": "2026-10-06T17:40:50.893Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "roofing company Nashville, TN free estimate",
+      "askedAt": "2026-10-06T17:40:50.893Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call for a roof leak in Nashville, TN",
+      "askedAt": "2026-10-06T17:40:50.893Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "roofer open now Nashville, TN",
+      "askedAt": "2026-10-06T17:40:50.893Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    }
+  ]
+}

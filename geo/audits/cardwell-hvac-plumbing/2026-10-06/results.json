@@ -1,0 +1,417 @@
+{
+  "subject": "Cardwell HVAC & Plumbing",
+  "city": "Cherry Hill, NJ",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-10-06",
+  "startedAt": "2026-10-06T17:13:00.428Z",
+  "finishedAt": "2026-10-06T17:25:28.852Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "6/21",
+  "named": 6,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:13:00.561Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_chatgpt_q1_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "One Hour Heating & Air Conditioning of Cherry Hill",
+        "Doctor HVACR",
+        "Davis Heating & Air",
+        "Shamrock Heating & Air Conditioning",
+        "Fresh Air Flow HVAC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "One Hour Heating & Air Conditioning of Cherry Hill",
+        "Doctor HVACR",
+        "Davis Heating & Air",
+        "Shamrock Heating & Air Conditioning",
+        "Fresh Air Flow HVAC"
+      ],
+      "note": "Recommended five local HVAC companies for emergency AC repair near Cherry Hill, NJ, none of which was the audit subject.",
+      "answerChars": 1578
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:14:48.156Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_chatgpt_q2_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Cardwell HVAC & Plumbing",
+        "Davis Heating & Air",
+        "Bob's Heating & Air Conditioning",
+        "Fresh Air Flow HVAC"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Davis Heating & Air",
+        "Bob's Heating & Air Conditioning",
+        "Fresh Air Flow HVAC"
+      ],
+      "note": "Named Cardwell HVAC & Plumbing first among four highly-rated local options, with criteria for choosing the best fit.",
+      "answerChars": 2217
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:16:37.338Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_chatgpt_q3_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Horizon Services",
+        "PSEG WorryFree",
+        "One Hour Heating & Air Conditioning",
+        "Bovio Heating, Plumbing, Air Conditioning & Insulation"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Horizon Services",
+        "PSEG WorryFree",
+        "One Hour Heating & Air Conditioning",
+        "Bovio Heating, Plumbing, Air Conditioning & Insulation"
+      ],
+      "note": "Recommended four competing HVAC companies near Cherry Hill, NJ and did not mention Cardwell HVAC & Plumbing.",
+      "answerChars": 1060
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:18:20.521Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_chatgpt_q4_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Cardwell HVAC & Plumbing",
+        "Fresh Air Flow HVAC",
+        "Allied Experts Heating & Air Conditioning",
+        "Hutchinson"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Fresh Air Flow HVAC",
+        "Allied Experts Heating & Air Conditioning",
+        "Hutchinson"
+      ],
+      "note": "Named Cardwell HVAC & Plumbing as the top pick along with three other competitor HVAC companies in Cherry Hill, NJ.",
+      "answerChars": 1436
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC Cherry Hill, NJ free estimate",
+      "askedAt": "2026-10-06T17:20:08.638Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_chatgpt_q5_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Cardwell HVAC & Plumbing",
+        "D'Auria & Son Heating and Air",
+        "Marty's Air",
+        "A&S Cooling",
+        "Campbell Comfort Systems",
+        "The Home Depot – Cherry Hill"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "D'Auria & Son Heating and Air",
+        "Marty's Air",
+        "A&S Cooling",
+        "Campbell Comfort Systems",
+        "The Home Depot – Cherry Hill"
+      ],
+      "note": "Listed six HVAC providers offering free estimates near Cherry Hill, NJ, including the audit subject as the first result.",
+      "answerChars": 1548
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:21:54.652Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_chatgpt_q6_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on who to call (911, licensed HVAC contractor, landlord, home warranty) without naming any specific businesses, including the subject.",
+      "answerChars": 2257
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:23:43.069Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_chatgpt_q7_2026-10-06.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Doctor HVACR",
+        "One Hour Heating & Air Conditioning of Cherry Hill",
+        "Fresh Air Flow",
+        "Instant Services"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Doctor HVACR",
+        "One Hour Heating & Air Conditioning of Cherry Hill",
+        "Fresh Air Flow",
+        "Instant Services"
+      ],
+      "note": "Recommended four 24/7 HVAC repair companies in Cherry Hill, NJ, none of which was the audit subject Cardwell HVAC & Plumbing.",
+      "answerChars": 1070
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:13:00.561Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_gemini_q1_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Allied Experts Heating & Air Conditioning",
+        "Service Experts Cherry Hill"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Allied Experts Heating & Air Conditioning",
+        "Service Experts Cherry Hill"
+      ],
+      "note": "Recommended two competitor HVAC companies for emergency AC repair without mentioning Cardwell HVAC & Plumbing.",
+      "answerChars": 1388
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:13:26.124Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_gemini_q2_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Allied Experts Heating & Air Conditioning",
+        "Cardwell HVAC & Plumbing",
+        "Lumen Heating & Cooling"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Allied Experts Heating & Air Conditioning",
+        "Lumen Heating & Cooling"
+      ],
+      "note": "Named three local HVAC companies including the subject, Cardwell HVAC & Plumbing, as a trusted zero-pressure option.",
+      "answerChars": 1434
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:13:50.323Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_gemini_q3_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Davis Heating & Air",
+        "One Hour Heating & Air Conditioning of Cherry Hill",
+        "Harris Plumbing, Heating, Air, & Electric",
+        "Doctor HVACR Electrical & Plumbing",
+        "Atmostemp Service Experts"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Davis Heating & Air",
+        "One Hour Heating & Air Conditioning of Cherry Hill",
+        "Harris Plumbing, Heating, Air, & Electric",
+        "Doctor HVACR Electrical & Plumbing",
+        "Atmostemp Service Experts"
+      ],
+      "note": "Recommended 5 other HVAC companies in Cherry Hill, NJ and did not mention Cardwell HVAC & Plumbing.",
+      "answerChars": 1573
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:14:20.346Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_gemini_q4_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Davis Heating & Air",
+        "Cardwell HVAC & Plumbing",
+        "Allied Experts Heating & Air Conditioning",
+        "Hutchinson - Air Conditioning, Plumbing & Heating",
+        "Fresh Air Flow HVAC"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Davis Heating & Air",
+        "Allied Experts Heating & Air Conditioning",
+        "Hutchinson - Air Conditioning, Plumbing & Heating",
+        "Fresh Air Flow HVAC"
+      ],
+      "note": "Listed 5 top-rated local HVAC companies including Cardwell HVAC & Plumbing, ranked second by rating.",
+      "answerChars": 2678
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC Cherry Hill, NJ free estimate",
+      "askedAt": "2026-10-06T17:14:46.866Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_gemini_q5_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Marty's Air Conditioning and Heating",
+        "A&S Cooling Inc.",
+        "Alber Service Company",
+        "Lumen Heating & Cooling"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Marty's Air Conditioning and Heating",
+        "A&S Cooling Inc.",
+        "Alber Service Company",
+        "Lumen Heating & Cooling"
+      ],
+      "note": "Recommended four competing HVAC companies in Cherry Hill, NJ but did not mention Cardwell HVAC & Plumbing.",
+      "answerChars": 2409
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:15:09.812Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_gemini_q6_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Davis Heating & Air",
+        "Harris Plumbing, Heating, Air & Electric",
+        "Wolfschmidt Plumbing, Heating & Cooling",
+        "One Hour Heating & Air Conditioning of Cherry Hill"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Davis Heating & Air",
+        "Harris Plumbing, Heating, Air & Electric",
+        "Wolfschmidt Plumbing, Heating & Cooling",
+        "One Hour Heating & Air Conditioning of Cherry Hill"
+      ],
+      "note": "Recommended four competing local HVAC companies with phone numbers and troubleshooting tips, but did not mention Cardwell HVAC & Plumbing.",
+      "answerChars": 2382
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:15:36.312Z",
+      "ok": true,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_gemini_q7_2026-10-06.jpg",
+      "answered": true,
+      "businesses": [
+        "Davis Heating & Air",
+        "Cardwell HVAC & Plumbing",
+        "Hutchinson - Air Conditioning, Plumbing & Heating",
+        "Laury Heating Cooling & Plumbing",
+        "Allied Experts Heating & Air Conditioning"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Davis Heating & Air",
+        "Hutchinson - Air Conditioning, Plumbing & Heating",
+        "Laury Heating Cooling & Plumbing",
+        "Allied Experts Heating & Air Conditioning"
+      ],
+      "note": "Listed 5 local HVAC contractors including the subject, ranked second among options for furnace repair in Cherry Hill, NJ.",
+      "answerChars": 2578
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:13:00.561Z",
+      "ok": false,
+      "screenshot": "screenshots/cardwell-hvac-plumbing_perplexity_q1_2026-10-06.jpg",
+      "error": "sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:15:44.636Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:15:44.636Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:15:44.636Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC Cherry Hill, NJ free estimate",
+      "askedAt": "2026-10-06T17:15:44.636Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:15:44.636Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now Cherry Hill, NJ",
+      "askedAt": "2026-10-06T17:15:44.636Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    }
+  ]
+}
