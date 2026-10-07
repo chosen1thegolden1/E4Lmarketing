@@ -139,7 +139,12 @@ Daniel** holding both batches, the agency four and the student four, in two clea
 labelled sections with the preview link. Daniel owns both sides now, so there is nothing
 to split. Nothing goes to Sammy.
 
-The DM says plainly: these are final, and get them to Abdullah for Friday's load. Then `DISTRIBUTED.txt` is written so a second firing can't send it twice.
+The DM carries the **edited, final** batch, sorted into two sections, **Agency** first and
+**Student** second. Each section lists its four emails with send date, subject line, and
+what the email sells (the call, or the book), plus the preview link. Only the edited
+version goes out, never the writer's draft.
+
+It says plainly: these are final, and get them to Abdullah for Friday's load. Then `DISTRIBUTED.txt` is written so a second firing can't send it twice.
 
 It fires Wednesday **and** Thursday because a Routine cannot sit and wait overnight for a
 reply. Thursday is the retry, not a second batch.
