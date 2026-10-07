@@ -105,9 +105,9 @@ one job you'd hire for tomorrow?
 
 ## A2 — Wednesday
 
-**Subject:** You're not bad at sales. You're leaking.
+**Subject:** Is your ship leaking?
 
-**Preview text:** The ad money is fine. It's the bucket.
+**Preview text:** Plug the hole...
 
 **Reader:** A-1 (wants more sales; the demon is "I need more leads") · **Angle:** Worst Way · **Spoke:** front end → the call
 
@@ -122,7 +122,7 @@ It's the call at 2pm that went to voicemail. The quote you meant to chase on Thu
 
 Every one of those was a customer you already paid to find.
 
-Here's what it does to your week. You work the same hours and the number at the end is smaller. You buy more ads to fill the bucket, and the bucket has a hole in it. You finish the month busy and somehow still broke.
+Here's what it does to your week. You work the same hours and the number at the end is smaller. You buy more ads to keep the boat afloat, and the boat has a hole in it. You finish the month busy and somehow still broke.
 
 And that's the *survivable* version.
 

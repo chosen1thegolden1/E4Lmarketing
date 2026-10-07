@@ -35,3 +35,5 @@ Kept: A1 "Nobody is hiring. Good.", A3 "A robot is going to call your shop", A-S
 - **Flag:** BLS Table 7 was read by the fetch tool only (BLS blocks scripted downloads). Friday's check should open the link and confirm 50.6% and 34.7%.
 - **S-SUN** still needs one true, specific moment from Chosen.
 - Anthropic flag now applies to S3 and B1 only. Build passes.
+
+- **A2 subject changed on Chosen's word** to "Is your ship leaking?" with preview "Plug the hole...". The body's bucket line became a boat line so the metaphor matches.

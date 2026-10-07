@@ -16,7 +16,7 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 |---|---|---|---|---|---|---|
 | 2026-10-12 | Monday | agency | `A1.html` | 29,000 jobs. In the whole country. | Everybody's freezing hiring. Here's what that gets wrong. | Game Plan Call (agency front end) |
 | 2026-10-12 | Monday | student | `S1.html` | The barbershop isn't lazy. It's busy. | Four in five businesses haven't started on AI. Here's tonight's side quest. | From Xbox to Executive (book, free + $9.95 shipping) |
-| 2026-10-14 | Wednesday | agency | `A2.html` | You're not bad at sales. You're leaking. | The ad money is fine. It's the bucket. | Game Plan Call (agency front end) |
+| 2026-10-14 | Wednesday | agency | `A2.html` | Is your ship leaking? | Plug the hole... | Game Plan Call (agency front end) |
 | 2026-10-14 | Wednesday | student | `S2.html` | It's not your résumé | The whole country added 29,000 jobs in September. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-10-16 | Friday | agency | `A3.html` | A robot is going to call your shop | Google already does it. Here's the setting that decides. | Game Plan Call (agency front end) |
 | 2026-10-16 | Friday | student | `S3.html` | You're still billing by the hour | There are 43 pre-built workflows now. Which one did you sell? | From Xbox to Executive (book, free + $9.95 shipping) |
