@@ -25,14 +25,14 @@ TIME-SENSITIVE: nothing in this batch has a hard expiry. Friday's check still re
 
 **2. A3 sits on an old announcement.** Google's business-calling feature was announced July 2025. It is not news. It earns a slot because it is live and the setting is real, and the email says "July 2025" in plain words rather than pretending otherwise. If Chosen wants only fresh news on Friday, B2 is the swap.
 
-**3. A2 and S3 are vendor claims.** The "more than 900,000 installs" and "43 workflows" figures are Anthropic's own numbers about its own product. The copy says so. A2 also says the AI is on paid plans, so nobody feels sold a free lunch.
+**3. S3 is a vendor claim.** The "43 workflows" figure is Anthropic's own number about its own product. The copy says so.
 
 ## Angle rotation this week
 
 | | Reader | Angle | Sells |
 |---|---|---|---|
 | A1 Mon | A-2 · growing, profitable, reads fast | Paradigm Shift | the call |
-| A2 Wed | A-3 · closes anybody, can't run the tools | Best Way Without | the call |
+| A2 Wed | A-1 · wants more sales, believes the answer is more leads | Worst Way | the call |
 | A3 Fri | A-1 · wants more sales | Worst Way | the call |
 | A-SUN | A-1 · the direct ask | Direct | the call |
 | S1 Mon | S-A · just found out this exists | Best Way Without | the book |
@@ -48,9 +48,9 @@ Per the 4% rule, Monday agency and Friday student are written to the readers alr
 
 ## A1 — Monday
 
-**Subject:** Nobody is hiring. Good.
+**Subject:** 29,000 jobs. In the whole country.
 
-**Preview text:** The whole country added 29,000 jobs. You only need one.
+**Preview text:** Everybody's freezing hiring. Here's what that gets wrong.
 
 **Reader:** A-2 (growing, profitable, reads fast) · **Angle:** Paradigm Shift · **Spoke:** front end → the call
 
@@ -75,7 +75,7 @@ dies. A business that stops adding capacity doesn't hold
 still either. It just gets quietly slower than whoever
 didn't stop.
 
-Nobody can hire their way to the next 20% right now. So the
+Hiring your way to the next 20% is a long shot right now. So the
 next 20% has to come from the same team doing more of the
 work that makes money, and less of the work that doesn't.
 
@@ -105,49 +105,36 @@ one job you'd hire for tomorrow?
 
 ## A2 — Wednesday
 
-**Subject:** Your Zapier account is a monument
+**Subject:** You're not bad at sales. You're leaking.
 
-**Preview text:** 27 more apps got a plug. Check if yours is one.
+**Preview text:** The ad money is fine. It's the bucket.
 
-**Reader:** A-3 (closes anybody, can't make the tools run) · **Angle:** Best Way Without · **Spoke:** front end → the call
+**Reader:** A-1 (wants more sales; the demon is "I need more leads") · **Angle:** Worst Way · **Spoke:** front end → the call
 
 ```
 Hey [First Name],
 
-You can close anybody in a room.
+How much money walked out of your business last month?
 
-You also have a tool you paid for that nobody ever finished
-connecting to the other tool you paid for. And a Zapier
-account that's a monument to good intentions.
+Not what you made. What *left*. I'd bet you can't say, and that's the problem.
 
-That's not a you problem. **The "wiring" was always the
-badly designed part.**
+It's the call at 2pm that went to voicemail. The quote you meant to chase on Thursday. The lead who filled out the form and heard nothing until they'd already hired someone else. 👀
 
-On September 15 Anthropic, the company that makes Claude,
-put out an update to its small business product. They added
-27 integrations in one go. Shopify. Square. Stripe. Zapier.
-Wix. Xero. Gusto. Salesforce. 👀
+Every one of those was a customer you already paid to find.
 
-They also added 43 workflows, and the ones worth reading are
-lead generation, proposal writing, and financial reporting.
+Here's what it does to your week. You work the same hours and the number at the end is smaller. You buy more ads to fill the bucket, and the bucket has a hole in it. You finish the month busy and somehow still broke.
 
-Notice what that list is. It isn't "learn this dashboard."
-It's *the jobs you already do*, with the connecting done for
-you.
+And that's the *survivable* version.
 
-Two honest notes so nobody sells you a dream.
+The U.S. Bureau of Labor Statistics followed private businesses that opened in 2013. About half were closed within five years. By year ten, about a third were left. 💼
 
-First, those are Anthropic's own numbers about its own
-product. Second, it's on their paid plans. It isn't free.
+I can't tell you what killed each one. But **a slow leak nobody plugs is enough to sink a business.**
 
-But the principle is free. You were never supposed to become
-the person who connects things. You're supposed to be in the
-room, closing.
+Here's a four-minute test. Pull last month's leads and count how many got a real reply within a day. That number is your leak.
 
-Read what they shipped → (LINK: https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-10-12)
+See the numbers → (LINK: https://www.bls.gov/bdm/us_age_naics_00_table7.txt?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-10-12)
 
-If you'd rather somebody else hold the tools, that's the
-whole point of the call.
+If you'd rather have somebody find the rest and plug it, that's the call.
 
 👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-10-12)
 
@@ -155,12 +142,11 @@ Sebastian
 Eat 4 Life
 AI Marketing Made Easy
 
-P.S. I gotta question: which two tools you pay for have never
-talked to each other?
+P.S. I gotta question: which leaks first at your place, the phone or the follow-up?
 ```
 
-*Notes:* Dated "September 15" because this sends Oct 14. Integration list is from Anthropic's post ("27 total", named: Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Gusto, Square, Stripe, Zapier, Notion, RingCentral, Apollo, Wix, Airwallex, MYOB, and others); the email names eight of them. "43 workflows," "lead generation, proposal writing, and financial reporting" are Anthropic's wording. "Available on every paid Claude plan" is on the page. The 900,000 install figure is deliberately left out of the copy. **Claude is made by Anthropic, the company this email cites — if Chosen thinks that reads as an endorsement, swap in the Meta Muse post or drop this email for B2.**
-*Source:* https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs (Anthropic, 2026-09-15)
+*Notes:* Replaced the Zapier / Anthropic email at Chosen's request (Oct 7). BLS Business Employment Dynamics, Table 7, survival of private sector establishments by opening year: for establishments that opened in the year ended March 2013, 79.6% survived one year, 50.6% five years, 34.7% ten years. So "about half closed within five years" and "about a third left at year ten" are accurate. BLS counts establishments (locations), not firms, and says nothing about why they closed. **The copy does not claim a leak caused the closures**: "I can't tell you what killed each one" and the bold line is an opinion, deliberately. Do not turn it into a statistic. The 2pm call, the unchased quote and the dead lead are scenes, not data. The page was read by the writer's fetch tool; BLS blocks scripted downloads, so **Friday's check should open the link and confirm the three percentages.**
+*Source:* https://www.bls.gov/bdm/us_age_naics_00_table7.txt (U.S. Bureau of Labor Statistics, Business Employment Dynamics, Table 7, 2013 cohort, read 2026-10-07)
 
 ---
 

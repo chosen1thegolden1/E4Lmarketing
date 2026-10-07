@@ -25,3 +25,13 @@ Kept: A1 "Nobody is hiring. Good.", A3 "A robot is going to call your shop", A-S
 
 ## Build
 `node scripts/build-emails.js docs/BROADCAST_WEEK_2026-10-12.md` passes (10 emails, 8 scheduled).
+
+---
+
+# Revision — Oct 7, after Chosen's notes
+
+- **A1 contradiction fixed.** Subject was "Nobody is hiring. Good." against a body saying the country added 29,000 jobs. Now **"29,000 jobs. In the whole country."** with preview "Everybody's freezing hiring. Here's what that gets wrong." Body line "Nobody can hire their way to the next 20%" softened to "Hiring your way to the next 20% is a long shot right now."
+- **A2 replaced.** The Zapier / Anthropic email is gone. New A2 is a revenue-leak email for A-1: **"You're not bad at sales. You're leaking."** Twists the knife on the day-to-day (same hours, smaller number, ads into a bucket with a hole), then the business (BLS: about half of 2013 openings closed within five years, about a third left at year ten). The copy says plainly it cannot say what killed them; the "leak" line is an opinion. Four-minute test, then the call.
+- **Flag:** BLS Table 7 was read by the fetch tool only (BLS blocks scripted downloads). Friday's check should open the link and confirm 50.6% and 34.7%.
+- **S-SUN** still needs one true, specific moment from Chosen.
+- Anthropic flag now applies to S3 and B1 only. Build passes.
