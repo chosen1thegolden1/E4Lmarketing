@@ -130,11 +130,11 @@ The U.S. Bureau of Labor Statistics followed private businesses that opened in 2
 
 I can't tell you what killed each one. But **a slow leak nobody plugs is enough to sink a business.**
 
-Here's a four-minute test. Pull last month's leads and count how many got a real reply within a day. That number is your leak.
+Here's how to find yours. The Revenue Leak Scorecard is free, takes two minutes, and you see your number without signing up.
 
-See the numbers → (LINK: https://www.bls.gov/bdm/us_age_naics_00_table7.txt?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-10-12)
+Get my leak number → (LINK: https://e4lmarketingdemos.com/scorecard?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-10-12)
 
-If you'd rather have somebody find the rest and plug it, that's the call.
+If you'd rather have somebody plug what it finds, that's the call.
 
 👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-10-12)
 
@@ -145,7 +145,7 @@ AI Marketing Made Easy
 P.S. I gotta question: which leaks first at your place, the phone or the follow-up?
 ```
 
-*Notes:* Replaced the Zapier / Anthropic email at Chosen's request (Oct 7). BLS Business Employment Dynamics, Table 7, survival of private sector establishments by opening year: for establishments that opened in the year ended March 2013, 79.6% survived one year, 50.6% five years, 34.7% ten years. So "about half closed within five years" and "about a third left at year ten" are accurate. BLS counts establishments (locations), not firms, and says nothing about why they closed. **The copy does not claim a leak caused the closures**: "I can't tell you what killed each one" and the bold line is an opinion, deliberately. Do not turn it into a statistic. The 2pm call, the unchased quote and the dead lead are scenes, not data. The page was read by the writer's fetch tool; BLS blocks scripted downloads, so **Friday's check should open the link and confirm the three percentages.**
+*Notes:* Replaced the Zapier / Anthropic email at Chosen's request (Oct 7). BLS Business Employment Dynamics, Table 7, survival of private sector establishments by opening year: for establishments that opened in the year ended March 2013, 79.6% survived one year, 50.6% five years, 34.7% ten years. So "about half closed within five years" and "about a third left at year ten" are accurate. BLS counts establishments (locations), not firms, and says nothing about why they closed. **The copy does not claim a leak caused the closures**: "I can't tell you what killed each one" and the bold line is an opinion, deliberately. Do not turn it into a statistic. The 2pm call, the unchased quote and the dead lead are scenes, not data. The body no longer links BLS (the scorecard replaced it, per Chosen), so the claim is attributed in the text and sourced here. BLS blocks scripted downloads and the figures were read through the fetch tool, so **Friday's check should open the BLS page and confirm the three percentages.** Scorecard link: https://e4lmarketingdemos.com/scorecard returned 200 on 2026-10-07, titled "The Revenue Leak Scorecard — Eat 4 Life Marketing", and says "Free · 2 minutes · no signup to see your number", which the copy repeats.
 *Source:* https://www.bls.gov/bdm/us_age_naics_00_table7.txt (U.S. Bureau of Labor Statistics, Business Employment Dynamics, Table 7, 2013 cohort, read 2026-10-07)
 
 ---

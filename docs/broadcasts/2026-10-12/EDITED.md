@@ -37,3 +37,5 @@ Kept: A1 "Nobody is hiring. Good.", A3 "A robot is going to call your shop", A-S
 - Anthropic flag now applies to S3 and B1 only. Build passes.
 
 - **A2 subject changed on Chosen's word** to "Is your ship leaking?" with preview "Plug the hole...". The body's bucket line became a boat line so the metaphor matches.
+- **A2 body link is now the Revenue Leak Scorecard** (https://e4lmarketingdemos.com/scorecard, UTM'd), replacing the four-minute test and the BLS link. Copy names it "the Revenue Leak Scorecard" and uses the page's own claim (free, two minutes, no signup to see your number). BLS is still named in the text.
+- **Flag:** `docs/OUTREACH_COPY_BANK.md` still says the /scorecard funnel isn't deployed. It is live as of today; that note is stale.
