@@ -19,8 +19,15 @@ Study the two originals at the bottom of this file. What's in them:
 - **Emoji as punctuation, not decoration.** 👀 😵‍💫 😂 🎮 💡 👉 — five or six per
   email, at the end of a line, never in the subject.
 - **"The part that excites me / gets me:"** — his pivot into the point.
-- **"I gotta question:"** — the P.S. Always a question, always answerable in one
-  line. That's what earns replies.
+- **The P.S. (or P.S.S.) is a note from a friend, not a formula.** Chosen's call,
+  2026-10-07: sometimes he uses P.S., sometimes P.S.S., and it is **not always a
+  question.** It can be a joke, a fact, a piece of advice, a question, or just the
+  thing a friend scribbles at the bottom before sealing the envelope. "I gotta
+  question:" is one flavor of it, not the rule. A question P.S. still earns the most
+  replies, so keep some, but across a batch of eight mix them. A batch where every P.S.
+  opens "I gotta question:" reads like a template, which is the opposite of the point.
+  A P.S.S. is a second afterthought, used when the first P.S. wasn't the last thing he
+  thought of. Never both in every email.
 - **Concrete, near, and cheap.** "6 MONTHS. Now 6 minutes." "Any room — 20 minutes."
   "Businesses will PAY you TODAY." Time and money, stated flat.
 - **Gaming as the handshake.** "We're still waiting on GTA 6…", "side quest", "Level

@@ -91,7 +91,7 @@ Delivered and bounced per subject line · form submissions per form (X2E opt-in,
 webinar signup, scorecard) · bookings per calendar · pipeline stage moves and $ ·
 email-attributed conversions (needs UTMs on every link) · opens and clicks once the
 token has the stats scope. Replies aren't in the report yet but they're the
-deliverability signal — the P.S. question is doing real work.
+deliverability signal — a P.S. question the reader can answer in one line does real work, so keep some in every batch even though not every P.S. is a question.
 
 If a subject line gets sent 30 times and produces nothing, the report will say so. The
 rotation exists so there's always a different angle to try next week.

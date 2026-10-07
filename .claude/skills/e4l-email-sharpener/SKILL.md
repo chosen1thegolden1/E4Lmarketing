@@ -93,10 +93,12 @@ Speaker, not the Teacher, not the Used Car Salesman.
    batch through this skill passed every structural check and Chosen called it boring —
    this step exists because of that. If you can't find the line, the email isn't done.
 8. **Land the CTA.** Bottom of the email or in the P.S. One link. The natural next
-   step of what you just said — never a bolted-on ad. Chosen's P.S. convention (a
-   question they can answer in one line) doubles as a reply CTA, which also feeds
-   deliverability. Both CTAs can coexist: link above the signature, question in the
-   P.S.
+   step of what you just said — never a bolted-on ad. The P.S. is
+   a friend's note: a question, a joke, a fact, a piece of advice, or just an
+   afterthought, and sometimes a P.S.S. It is **not always a question** (Chosen,
+   2026-10-07). A question P.S. the reader can answer in one line doubles as a reply
+   CTA and feeds deliverability, so keep several per batch, but vary them. Both CTAs
+   can coexist: link above the signature, note in the P.S.
 9. **Run the fourteen checks** in `jfsi.md` before it goes in the doc. If it passes
    ten, send it. Good-enough-and-sent beats perfect-and-drafted.
 10. **Build it.** `node scripts/build-emails.js docs/BROADCAST_WEEK_<date>.md`. It

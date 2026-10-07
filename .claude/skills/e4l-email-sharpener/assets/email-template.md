@@ -38,7 +38,7 @@ Yo [First Name],
 
 <signoff block — see below>
 
-P.S. I gotta question: <one-line-answerable question>
+P.S. <a note from a friend: a question, a joke, a fact, a piece of advice, or just an afterthought. Not always a question. Sometimes P.S.S. instead. Vary across the batch.>
 ```
 
 *Notes:* <anything the next person needs — a date that expires, a claim to eyeball, a swap>
