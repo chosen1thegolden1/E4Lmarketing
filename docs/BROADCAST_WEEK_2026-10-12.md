@@ -21,7 +21,7 @@ TIME-SENSITIVE: nothing in this batch has a hard expiry. Friday's check still re
 
 ## ⚠️ Things to settle before this sends
 
-**1. S-SUN has no news in it and wants a true moment from Chosen.** It runs on the brand-ambassador story from the story bank, told without invented detail. One real, specific line from his week (or from those gigs) would make it his instead of a competent imitation.
+**1. S-SUN now runs on Chosen's Best Buy story,** in his own words from Oct 7. Nothing was added beyond what he said.
 
 **2. A3 sits on an old announcement.** Google's business-calling feature was announced July 2025. It is not news. It earns a slot because it is live and the setting is real, and the email says "July 2025" in plain words rather than pretending otherwise. If Chosen wants only fresh news on Friday, B2 is the swap.
 
@@ -454,38 +454,34 @@ if you took one more thing off their plate?
 
 **Subject:** It's Sunday. Start the boring part.
 
-**Preview text:** The first paid thing is never the glamorous one.
+**Preview text:** A job I hated paid for the thing I loved.
 
 **Reader:** S-B (believes Chosen, not yet themselves) · **Angle:** the deposit · **Spoke:** front end → the book
 
 ```
 Yo [First Name],
 
-I'm going to tell you something about how I started, and I
-want you to hear the boring part.
+I'm going to tell you something about how I started, and I want you to hear the boring part.
 
-Before anything looked like a career, I was doing
-brand-ambassador gigs. Standing there, doing the thing,
-showing up. Then I moved across the country to LA.
+I worked at Best Buy. I *hated* it.
+
+I showed up anyway. 🎮
+
+That paycheck was how I got to gaming events, and the gaming events were how I made my way into the industry.
 
 Nobody posts that part.
 
-You've seen the highlight reel. Pro gamer. Books. The agency.
-And somewhere in your head you did the math and decided that
-worked for me because I had something you don't. 👀
+You've seen the highlight reel. Pro gamer. Books. The agency. And somewhere in your head you did the math and decided it worked for me because I had something you don't. 👀
 
-I didn't have a degree. I had a habit of showing up for the
-small thing like it was the big thing.
+I didn't have a degree. I had a job I hated and a reason to keep showing up for it.
 
-**That's the entry fee. That's all of it.** ✊🏾
+**The boring job was the entry fee. That's all of it.** ✊🏾
 
 You don't need to know more before you start.
 
-You need one small thing, done for one real person, and the
-nerve to let them see it. The first $200 comes from there. 💰
+You need a reason, and one small thing done for one real person. The first $200 comes from there. 💰
 
-It's Sunday. Don't plan the whole thing. Pick the one boring
-step.
+It's Sunday. Don't plan the whole thing. Pick the one boring step.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=SSUN-2026-10-12)
 
@@ -493,12 +489,11 @@ Sebastian
 Eat 4 Life
 Everybody Eats
 
-P.S. I gotta question: what's the one boring step you've been
-stepping around?
+P.S. I gotta question: what's your Best Buy? The boring thing you'd put up with to get to the thing you actually want?
 ```
 
-*Notes:* **Wants a true moment from Chosen.** Everything about Chosen here is from the story bank: brand-ambassador gigs, a move to LA, pro gamer before it was a career, no degree. Nothing was added. The line "I had a habit of showing up for the small thing like it was the big thing" paraphrases the Esports Unlocked quote about those gigs ("would be pointless if I didn't plan on showing up and doing my best every day") — Chosen should confirm it sounds like him, or swap in a real line of his. "First $200" is the S-B future state in the audiences file, not a promise of results. The email makes no income claim.
-*Source:* none — no factual claim is made; story from `references/voice.md`.
+*Notes:* Rewritten Oct 7 around Chosen's own words: "I remember showing up for Best Buy when I hated it. But I did it so I could have the money to go to gaming events and make my way into the industry." Nothing else about the job is stated (no role, length of time, or store); do not add any. "No degree" is from the story bank. The brand-ambassador and LA lines were cut to make room. "First $200" is the S-B future state in the audiences file, not a promise of results. The email makes no income claim.
+*Source:* Chosen, in his own words, 2026-10-07; story bank in `references/voice.md` for "no degree".
 
 ---
 

@@ -21,7 +21,7 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 | 2026-10-16 | Friday | agency | `A3.html` | A robot is going to call your shop | Google already does it. Here's the setting that decides. | Game Plan Call (agency front end) |
 | 2026-10-16 | Friday | student | `S3.html` | You're still billing by the hour | There are 43 pre-built workflows now. Which one did you sell? | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-10-18 | Sunday | agency | `A-SUN.html` | What's the oldest thing in your inbox? | Somebody's still waiting on it. | Game Plan Call (agency front end) |
-| 2026-10-18 | Sunday | student | `S-SUN.html` | It's Sunday. Start the boring part. | The first paid thing is never the glamorous one. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-10-18 | Sunday | student | `S-SUN.html` | It's Sunday. Start the boring part. | A job I hated paid for the thing I loved. | From Xbox to Executive (book, free + $9.95 shipping) |
 
 ## Load checklist — tick each one
 
