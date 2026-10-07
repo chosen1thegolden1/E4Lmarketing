@@ -11,7 +11,7 @@
 > `docs/EMAIL_OPERATING_CADENCE.md`.
 
 **What the chain used to be:** Claude writes the copy → Chosen + Zion review the substance
-→ **this person formats and proofs** → Daniel and Sammy load and send → Abdullah for GHL
+→ **this person formats and proofs** → Daniel loads and sends → Abdullah for GHL
 support if needed.
 
 They are the last set of eyes before the emails leave the doc. They are not a writer and
@@ -213,7 +213,7 @@ Copying formatted text out of Google Docs and pasting it into an email builder o
 drags along invisible junk — stray fonts, spans, inline styles — that can render badly in
 Outlook and some phone clients.
 
-So this is worth testing once, early: have Daniel or Sammy paste one formatted email into
+So this is worth testing once, early: have Daniel paste one formatted email into
 GHL and send a test to themselves before anyone builds a habit around it. If it comes
 through dirty, the fix is easy — paste as plain text into GHL, then re-apply the bold,
 italics and links there. Same spec, different place.

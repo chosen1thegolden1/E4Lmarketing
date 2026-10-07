@@ -15,7 +15,7 @@
 SEND FROM: chosen@mail.e4lmarketingdemos.com — never gsgagency.com.
 CADENCE: Mon / Wed / Fri / Sun. One agency, one student, each day.
 FOOTER on every send: Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA 90301 + a real unsubscribe link.
-CHAIN: Claude writes → Claude edits → **Chosen approves** → Daniel (agency) + Sammy (student) → Abdullah loads.
+CHAIN: Claude writes → Claude edits → **Chosen approves** → Daniel (both lists) → Abdullah loads.
 LINKS: already live in the built HTML. Every URL carries UTMs.
 TIME-SENSITIVE: nothing in this batch has a hard expiry. Friday's check still re-verifies every source.
 
@@ -610,9 +610,9 @@ you'd hand off to AI?
 
 The Oct 5 report's "Change this week" said to rewrite the subject lines and opening line of "The job path is outdated" and "You already have the obsession," the two highest-send emails with zero opens, and to delete the paused "Feb 4th" campaign.
 
-- **What I could do:** their bodies live in GHL and aren't in this repo, so I can write replacement subject and opening lines, not edit the emails. They're below as proposals for Chosen or Sammy to paste in. Neither is a broadcast and neither is in the build.
+- **What I could do:** their bodies live in GHL and aren't in this repo, so I can write replacement subject and opening lines, not edit the emails. They're below as proposals for Chosen or Daniel to paste in. Neither is a broadcast and neither is in the build.
 - **What I did to this batch:** none of the eight subjects uses the "outdated" or "obsession" framing. Every subject is a person talking to a person (accusation, fragment, or a flat number) rather than a noun phrase, which is the pattern the report suggests those two emails lacked.
-- **What I could not do:** deleting the paused "Feb 4th" campaign (1,227 queued contacts) needs GHL access this session doesn't have. It stays Chosen's or Sammy's to delete.
+- **What I could not do:** deleting the paused "Feb 4th" campaign (1,227 queued contacts) needs GHL access this session doesn't have. It stays Chosen's or Daniel's to delete.
 
 **Proposed replacements (subject and opening line only):**
 

@@ -8,7 +8,7 @@ The full operating system is `docs/EMAIL_OPERATING_CADENCE.md` in the repo. The 
 version, because it changes how you write:
 
 **The batch you are writing is next week's, not this week's.** Claude writes Tuesday,
-a second Claude session edits it Tuesday, Chosen approves, Daniel and Sammy get it, and
+a second Claude session edits it Tuesday, Chosen approves, Daniel gets it (he took over Sammy's role on Oct 7), and
 Abdullah loads it Friday for the following Monday. So a batch written Tuesday has its Monday
 email land six days later.
 

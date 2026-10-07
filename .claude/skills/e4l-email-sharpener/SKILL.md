@@ -154,8 +154,8 @@ published as the Google Doc.
 
 Then run the builder. It writes `docs/broadcasts/<date>/` — one HTML file per email
 with live links, a `SCHEDULE.md` with the send dates and the load checklist, and an
-`index.html` Chosen scrolls to read the whole week. That folder is what Daniel and Sammy
-paste from, so the batch isn't handed off until it exists.
+`index.html` Chosen scrolls to read the whole week. That folder is what Daniel
+pastes from, so the batch isn't handed off until it exists.
 
 A standing batch is eight emails plus two bench. The bench exists so a claim that dies
 mid-week costs a swap, not a skipped send.

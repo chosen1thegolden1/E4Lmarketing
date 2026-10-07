@@ -1,9 +1,8 @@
 {
-  "_comment": "Who gets the Monday report, and how. Delivery is a PDF in Google Drive + a Slack DM with the note inline and the PDF link. Email is the fallback if Slack is unavailable.",
+  "_comment": "Who gets the Monday report, and how. Sammy was removed 2026-10-07 when Daniel took over his role. Delivery is a PDF in Google Drive + a Slack DM with the note inline and the PDF link. Email is the fallback if Slack is unavailable.",
   "delivery": "slack + artifact link (option B, 2026-09-17)",
   "slack": {
     "Chosen": "U0316M6J5MM",
-    "Sammy": "U0C082R2RT3",
     "Daniel": "U0C0JE303KN"
   },
   "email": {

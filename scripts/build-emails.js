@@ -29,7 +29,7 @@ const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 
 /**
  * What each email is actually selling, read off its call-to-action link.
  *
- * Daniel and Sammy don't load these — they watch what the sends drive. That only
+ * Daniel doesn't load these — he watches what the sends drive. That only
  * works if they can see which offer each email points at, so the offer travels
  * with the schedule instead of living in someone's head.
  */
@@ -303,8 +303,8 @@ function main() {
 Built by \`scripts/build-emails.js\`. Every link below is already live in the HTML.
 
 **Who does what:** Claude writes · Claude edits in a second pass · **Chosen approves** ·
-**Abdullah loads these into GHL** · Daniel is second eyes on E4L Services, Sammy on E4L
-School. They get the schedule and the offers so they can tie traffic and sales back to
+**Abdullah loads these into GHL** · Daniel is second eyes on E4L Services and E4L School.
+He gets the schedule and the offers so he can tie traffic and sales back to
 the sends.
 
 **Send from:** ${FROM} — never gsgagency.com.
@@ -347,7 +347,7 @@ header{padding:16px 20px;border-bottom:1px solid var(--line);}
 iframe{width:100%;height:640px;border:0;display:block;background:#f4f4f2;}
 </style></head><body><main>
 <h1>Broadcast QA — week of ${week}</h1>
-<p style="margin:0;color:var(--muted);">Claude writes · Claude edits · Chosen approves · Abdullah loads into GHL · Daniel and Sammy watch what it drives. Links are live: click every one.</p>
+<p style="margin:0;color:var(--muted);">Claude writes · Claude edits · Chosen approves · Abdullah loads into GHL · Daniel watches what it drives. Links are live: click every one.</p>
 <div style="overflow-x:auto;"><table style="border-collapse:collapse;width:100%;font-size:14px;">
 <caption style="text-align:left;font-weight:600;padding-bottom:8px;">Send schedule — 8:00 AM Pacific, from ${FROM}</caption>
 <thead><tr>${['Send', 'Day', 'Side', 'Subject', 'Sells'].map((h) => `<th style="text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);color:var(--muted);font-weight:600;">${h}</th>`).join('')}</tr></thead>

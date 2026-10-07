@@ -1,7 +1,7 @@
 # Output shape — what goes in the review doc
 
 Every email in the batch uses exactly this. The editor pass works on it; the builder hyperlinks
-it; Daniel and Sammy load it. If it doesn't look like this, it stalls.
+it; Daniel loads it. If it doesn't look like this, it stalls.
 
 ```
 ## <ID> — <Day>            e.g. ## A1 — Monday   /   ## S2 — Wednesday
@@ -91,6 +91,6 @@ Eat 4 Life Marketing · 215 E Regent St, Inglewood, CA 90301
 ## Batch header (top of the doc)
 
 Send-from address · the gsgagency.com wall · cadence · footer · the chain (Claude writes →
-Claude edits → **Chosen approves** → Daniel and Sammy → Abdullah loads) · research date ·
+Claude edits → **Chosen approves** → Daniel → Abdullah loads) · research date ·
 anything time-sensitive.
 See `docs/BROADCAST_WEEK_2026-09-14.md` for the shape already in use.
