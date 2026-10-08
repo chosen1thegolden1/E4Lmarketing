@@ -29,8 +29,8 @@ CONFIG = {
     "LEAD_WEBHOOK_URL": "",      # contact / "talk to Malik's team" form
     "AUDIT_WEBHOOK_URL": "",     # free AI visibility audit form
     # GHL calendar: public booking link and the embed URL for the iframe.
-    "CALENDAR_URL": "",
-    "CALENDAR_EMBED_URL": "",
+    "CALENDAR_URL": "https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call",
+    "CALENDAR_EMBED_URL": "https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call",
     # Other destinations.
     "SCORECARD_URL": "/scorecard",
     "SCHOOL_URL": "https://eat4lifemarketing.com",
