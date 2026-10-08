@@ -334,7 +334,7 @@
 </style>
 </head>
 <body style="margin:0;background:#FFFFFF">
-<script>window.E4L_CONFIG={"ASSET_BASE": "https://chosen1thegolden1.github.io/E4Lmarketing/assets/", "LEAD_WEBHOOK_URL": "", "AUDIT_WEBHOOK_URL": "", "CALENDAR_URL": "https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call", "CALENDAR_EMBED_URL": "https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call", "SCORECARD_URL": "/scorecard", "SCHOOL_URL": "https://eat4lifemarketing.com", "EMAIL": "chosen1@gsgagency.com", "ELEVENLABS_AGENT_ID": "agent_3601m4czfzgrf8b9cnynhjzjqj8g", "SITE_NAME": "Eat 4 Life Marketing", "SHOW_PRICES": true};</script>
+<script>window.E4L_CONFIG={"ASSET_BASE": "https://chosen1thegolden1.github.io/E4Lmarketing/assets/", "LEAD_WEBHOOK_URL": "", "AUDIT_WEBHOOK_URL": "", "CALENDAR_URL": "https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call", "CALENDAR_EMBED_URL": "https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call", "SCORECARD_URL": "/scorecard", "SCHOOL_URL": "", "EMAIL": "chosen1@gsgagency.com", "ELEVENLABS_AGENT_ID": "agent_3601m4czfzgrf8b9cnynhjzjqj8g", "SITE_NAME": "Eat 4 Life Marketing", "SHOW_PRICES": true};</script>
 <div class="e4l">
 <nav class="nav" aria-label="Main">
   <div class="wrap">
@@ -484,8 +484,10 @@
         <li><a href="/scorecard" data-scorecard>Revenue Leak Scorecard</a></li>
         <li><a href="/book" data-cal>Book a Game Plan Call</a></li>
       </ul>
-      <h4 style="margin-top:20px">Want to learn it yourself?</h4>
-      <ul><li><a data-school href="https://eat4lifemarketing.com">E4L School</a></li></ul>
+      <div data-school-block hidden>
+        <h4 style="margin-top:20px">Want to learn it yourself?</h4>
+        <ul><li><a data-school href="">E4L School</a></li></ul>
+      </div>
     </div>
     <div class="legal">
       <span>© <span data-year></span> Eat 4 Life Marketing. All rights reserved.</span>
@@ -531,6 +533,7 @@
   root.querySelectorAll('[data-cal]').forEach(function(a){ if(C.CALENDAR_URL){a.href=C.CALENDAR_URL;a.target='_blank';a.rel='noopener';} });
   root.querySelectorAll('[data-email]').forEach(function(a){ if(C.EMAIL){a.href='mailto:'+C.EMAIL;a.textContent=a.textContent.trim()||C.EMAIL;} });
   root.querySelectorAll('[data-school]').forEach(function(a){ if(C.SCHOOL_URL){a.href=C.SCHOOL_URL;} });
+  root.querySelectorAll('[data-school-block]').forEach(function(b){ b.hidden=!C.SCHOOL_URL; });
   root.querySelectorAll('[data-scorecard]').forEach(function(a){ if(C.SCORECARD_URL){a.href=C.SCORECARD_URL;} });
 
   /* Hero video: play the loop when allowed, otherwise fall back to the still */

@@ -10,7 +10,7 @@ copy, the mascot rules, and the pricing stance.
 - `malik-agent/` – Malik's chat-agent persona (ElevenLabs) and how it is wired
 - `src/shared.css`, `src/shared.js` – styles (scoped under `.e4l`) and behaviour
 - `build.py` – config block + build. Run `python3 site/build.py`.
-- `dist/ghl/` – paste-ready pages for GoHighLevel (see `DEPLOY-GHL.md`)
+- `dist/ghl/` – paste-ready pages for GoHighLevel (see `ABDULLAH-START-HERE.md`, then `DEPLOY-GHL.md`)
 - `dist/preview/` – same pages with local links/images for a browser preview
 
 Images live in `../assets/malik/` (transparent Malik poses) and `../assets/brand/`.

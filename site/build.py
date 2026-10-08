@@ -33,7 +33,8 @@ CONFIG = {
     "CALENDAR_EMBED_URL": "https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call",
     # Other destinations.
     "SCORECARD_URL": "/scorecard",
-    "SCHOOL_URL": "https://eat4lifemarketing.com",
+    # E4L School public site. Leave empty until it exists; the footer link hides itself.
+    "SCHOOL_URL": "",
     "EMAIL": "chosen1@gsgagency.com",
     # Malik the chat agent (ElevenLabs Conversational AI). The widget loads on
     # every page when this is set; leave it empty to ship the site without it.

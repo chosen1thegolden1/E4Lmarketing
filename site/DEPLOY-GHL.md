@@ -8,6 +8,13 @@ things you type are URLs.
 Everything lives in the **E4L Services** sub-account. Never the school.
 Every asset you create is prefixed `CS-` per the mission brief.
 
+**Before you start, you need from Chosen:** the domain the site attaches to.
+That is it. The school link is intentionally blank for now (the footer hides
+it until a URL is added), the calendar is already wired, prices are approved
+as shown, and Malik's chat agent is already built. Budget about an hour.
+
+**Order of work:** 1 → 2 → 3 → 4 → 5, then 7 (Malik's webhook) last.
+
 ## 0. What you are deploying
 
 | Page | GHL path | File to paste |
@@ -27,16 +34,18 @@ The Scorecard stays at `/scorecard` as already deployed. The site links to it.
 
 The pages load Malik and the wordmark from a URL. Pick one:
 
-**Option A, GHL Media Library (recommended).** In E4L Services open
+**Option A, GHL Media Library (use this one).** In E4L Services open
 Media Storage, create a folder `CS-site`, and upload every file in
 `assets/malik/` and `assets/brand/` (including the hero animation `malik-wall-loop.mp4` and
 `malik-wall-loop.webm`, plus its poster `malik-wall-poster.jpg` and the still fallback `malik-wall-still.jpg`). Copy the URL of any one uploaded file;
 everything before the filename is your base URL. It must end with a slash.
 
-**Option B, GitHub Pages.** The `deploy-pages.yml` workflow already publishes
-`assets/` to the Pages site. The base URL is then
-`https://<your pages domain>/assets/` (for the default project site that is
-`https://chosen1thegolden1.github.io/E4Lmarketing/assets/`).
+**Option B, GitHub Pages (not live yet).** The `deploy-pages.yml` workflow
+publishes `assets/` to the Pages site, but Pages only deploys from the repo's
+default branch and this work is still on its own branch. Until it is merged,
+the Pages URLs return 404. Use Option A, and if the branch is merged later
+the base URL becomes
+`https://chosen1thegolden1.github.io/E4Lmarketing/assets/`.
 
 Note the base URL. You will paste it in step 3.
 
@@ -70,7 +79,7 @@ Open `site/build.py` and fill in the `CONFIG` block:
 "CALENDAR_URL":      "https://api.leadconnectorhq.com/widget/booking/...",
 "CALENDAR_EMBED_URL":"https://api.leadconnectorhq.com/widget/booking/...",
 "SCORECARD_URL":     "/scorecard",
-"SCHOOL_URL":        "https://...",                # the school's public site
+"SCHOOL_URL":        "",                           # leave blank; Chosen adds the school link later
 "SHOW_PRICES":       True,                         # False hides every dollar figure
 "ELEVENLABS_AGENT_ID": "agent_3601m4czfzgrf8b9cnynhjzjqj8g",  # Malik the chat agent; "" removes the widget
 ```
@@ -199,8 +208,9 @@ Malik → *Security*: add the services domain (and
 `chosen1thegolden1.github.io` while the preview is in use) to *Allowlist*.
 Leave *Enable authentication* off; the widget on the site needs the agent to
 be public, and the allowlist is what stops other sites from embedding him.
-In *Widget*, the avatar URL points at `malik-thumbs.png` on GitHub Pages;
-swap it for the Media Library URL from section 1 if you moved the images.
+In *Widget*, replace the avatar URL with the Media Library URL of
+`malik-thumbs.png` from section 1 (the GitHub Pages URL it holds now is not
+live, so the bubble shows a blank avatar until you do this).
 
 **Step 4. Confirm the embed is on the pages.** Every file in
 `site/dist/ghl/` already ends with the two embed lines (the

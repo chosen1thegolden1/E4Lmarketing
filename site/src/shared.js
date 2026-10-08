@@ -27,6 +27,7 @@
   root.querySelectorAll('[data-cal]').forEach(function(a){ if(C.CALENDAR_URL){a.href=C.CALENDAR_URL;a.target='_blank';a.rel='noopener';} });
   root.querySelectorAll('[data-email]').forEach(function(a){ if(C.EMAIL){a.href='mailto:'+C.EMAIL;a.textContent=a.textContent.trim()||C.EMAIL;} });
   root.querySelectorAll('[data-school]').forEach(function(a){ if(C.SCHOOL_URL){a.href=C.SCHOOL_URL;} });
+  root.querySelectorAll('[data-school-block]').forEach(function(b){ b.hidden=!C.SCHOOL_URL; });
   root.querySelectorAll('[data-scorecard]').forEach(function(a){ if(C.SCORECARD_URL){a.href=C.SCORECARD_URL;} });
 
   /* Hero video: play the loop when allowed, otherwise fall back to the still */
