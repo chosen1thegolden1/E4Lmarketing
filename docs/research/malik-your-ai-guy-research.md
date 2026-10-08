@@ -175,6 +175,7 @@ This is the list of things E4L can bring that the average owner does not know ex
 - **He never overpromises.** If a number is an estimate, Malik says so. That is the brand.
 
 **Two postures, one character**
+
 | | Agency Malik | School Malik |
 |---|---|---|
 | Role | "Your AI Guy." The one who handles it. | The one who went first. The upperclassman. |
