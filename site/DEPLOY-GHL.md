@@ -220,6 +220,9 @@ Setting it to `""` removes the bubble from every page.
 3. Ask "will this double my revenue". He must not promise results.
 4. Ask "are you a real person". He says he is an AI and a real person reads
    the chat.
+5. Read his replies for tone. He should sound like a professional
+   consultant: plain English, no slang. If slang creeps in, the fix is the
+   "How you talk" section of `site/malik-agent/system-prompt.md`.
 
 If anything in 2 fails, check the tool URL (step 2) first, then the
 workflow's trigger is published.
