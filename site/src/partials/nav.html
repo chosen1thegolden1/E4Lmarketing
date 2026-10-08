@@ -6,10 +6,16 @@
     </a>
     <button class="burger" aria-label="Menu" aria-expanded="false">≡</button>
     <ul>
-      <li><a href="{{LINK_SERVICES}}" class="{{ACTIVE_SERVICES}}">What we fix</a></li>
+      <li class="has-menu">
+        <button type="button" class="menu-btn {{ACTIVE_SYSTEMS}}{{ACTIVE_CREATIVE}}" aria-expanded="false" aria-haspopup="true">What we fix <span aria-hidden="true">▾</span></button>
+        <div class="menu" role="menu">
+          <a href="{{LINK_SYSTEMS}}" role="menuitem" class="{{ACTIVE_SYSTEMS}}"><b>Systems</b><span>Installed in your business. Answers, follows up, books. Flat monthly.</span></a>
+          <a href="{{LINK_CREATIVE}}" role="menuitem" class="{{ACTIVE_CREATIVE}}"><b>Creative</b><span>Produced in our studio. Video ads and content every month. Priced by output.</span></a>
+        </div>
+      </li>
       <li><a href="{{LINK_HOME}}#how">How it works</a></li>
       <li><a href="{{LINK_PRICING}}" class="{{ACTIVE_PRICING}}">Pricing</a></li>
-      <li><a href="{{LINK_HOME}}#ask">Ask Malik</a></li>
+      <li><a href="{{LINK_FAQ}}" class="{{ACTIVE_FAQ}}">Questions</a></li>
       <li><a href="{{LINK_BOOK}}" class="btn" data-cal>Book a call</a></li>
     </ul>
   </div>

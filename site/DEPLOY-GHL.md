@@ -13,7 +13,9 @@ Every asset you create is prefixed `CS-` per the mission brief.
 | Page | GHL path | File to paste |
 |---|---|---|
 | Home | `/` | `site/dist/ghl/home.html` |
-| What we fix | `/services` | `site/dist/ghl/services.html` |
+| Systems | `/systems` | `site/dist/ghl/systems.html` |
+| Creative | `/creative` | `site/dist/ghl/creative.html` |
+| Questions (FAQ) | `/faq` | `site/dist/ghl/faq.html` |
 | How pricing works | `/pricing` | `site/dist/ghl/pricing.html` |
 | Book a Game Plan Call | `/book` | `site/dist/ghl/book.html` |
 | Booking thank-you | `/thanks` | `site/dist/ghl/thanks.html` |
@@ -27,8 +29,8 @@ The pages load Malik and the wordmark from a URL. Pick one:
 
 **Option A, GHL Media Library (recommended).** In E4L Services open
 Media Storage, create a folder `CS-site`, and upload every file in
-`assets/malik/` and `assets/brand/` (including the hero animation `malik-lean-loop.mp4` and
-`malik-lean-loop.webm`, plus its poster `malik-lean-poster.jpg` and the still fallback `malik-lean-wall.jpg`). Copy the URL of any one uploaded file;
+`assets/malik/` and `assets/brand/` (including the hero animation `malik-wall-loop.mp4` and
+`malik-wall-loop.webm`, plus its poster `malik-wall-poster.jpg` and the still fallback `malik-wall-still.jpg`). Copy the URL of any one uploaded file;
 everything before the filename is your base URL. It must end with a slash.
 
 **Option B, GitHub Pages.** The `deploy-pages.yml` workflow already publishes
@@ -83,7 +85,7 @@ find-and-replace for the image base URL. It works, it's just more typing.)
 ## 4. Create the funnel and paste the pages (20 minutes)
 
 1. Funnels → New Funnel → `CS-Website`.
-2. Add six blank steps with the paths in the table above. Home is `/`.
+2. Add eight blank steps with the paths in the table above. Home is `/`.
 3. On each step: one full-width section, padding 0, background `#FFFFFF`.
    Add one **Custom Code** element. Paste the ENTIRE matching file from
    `site/dist/ghl/`.
@@ -100,7 +102,8 @@ find-and-replace for the image base URL. It works, it's just more typing.)
 
 ## 5. Test before anyone sees it
 
-- [ ] Every nav link lands on the right step (What we fix, Pricing, Ask Malik, Book).
+- [ ] Every nav link lands on the right step. The "What we fix" dropdown opens Systems and Creative as two separate pages.
+- [ ] On `/faq`, opening a question closes the others and Malik's bubble changes.
 - [ ] The hero Malik animates (a short silent loop). On phones with Low Power Mode or "reduce motion" on, the still image shows instead.
 - [ ] Malik appears on every page and his bubble shows on hover/tap.
 - [ ] On the home page, tap each term under *Ask Malik*. The answer changes.
@@ -118,6 +121,8 @@ find-and-replace for the image base URL. It works, it's just more typing.)
   promised results, every estimate carries its disclaimer.
 - **Prices.** Flip `SHOW_PRICES` to `False` to hide every dollar figure and
   keep pricing on the call. The pages still read correctly without them.
+- **The words on the wall.** They're live text in `site/src/pages/home.html` (the `wall-track` list, written twice so the loop is seamless). Edit, rebuild, re-paste.
+- **Adding FAQs.** Add a question to `site/src/data/faqs.json` (question, answer, and Malik's one-liner), rebuild, re-paste `/faq`.
 - **Malik poses.** Drop new transparent PNGs into `assets/malik/` with the same
   names (`malik-lean`, `malik-point`, `malik-thumbs`, `malik-peek`,
   `malik-arms`) and re-upload to the Media Library. No rebuild needed if the

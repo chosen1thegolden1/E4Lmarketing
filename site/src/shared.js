@@ -3,10 +3,25 @@
   var root=document.querySelector('.e4l'); if(!root) return;
   var C=window.E4L_CONFIG||{};
   var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function talk(m,ms){ m.classList.add('talk'); clearTimeout(m._t); m._t=setTimeout(function(){m.classList.remove('talk');},ms||3200); }
 
   /* mobile nav */
   var burger=root.querySelector('.burger'), menu=root.querySelector('.nav ul');
   if(burger&&menu){burger.addEventListener('click',function(){var o=menu.classList.toggle('open');burger.setAttribute('aria-expanded',o?'true':'false');});}
+
+  /* nav dropdown (touch + keyboard) */
+  root.querySelectorAll('.menu-btn').forEach(function(b){
+    var m=b.nextElementSibling;
+    b.addEventListener('click',function(e){ e.stopPropagation(); var o=!m.classList.contains('open'); m.classList.toggle('open',o); b.setAttribute('aria-expanded',o?'true':'false'); });
+    document.addEventListener('click',function(){ m.classList.remove('open'); b.setAttribute('aria-expanded','false'); });
+    b.addEventListener('keydown',function(e){ if(e.key==='Escape'){ m.classList.remove('open'); b.setAttribute('aria-expanded','false'); } });
+  });
+
+  /* FAQ: Malik comments on whatever you open */
+  var fm=root.querySelector('#faq-malik');
+  root.querySelectorAll('details.faq').forEach(function(d){
+    d.addEventListener('toggle',function(){ if(d.open){ root.querySelectorAll('details.faq[open]').forEach(function(o){ if(o!==d) o.open=false; }); if(fm){ var s=fm.querySelector('.say'); if(s&&d.dataset.say) s.textContent=d.dataset.say; talk(fm,2800); } } });
+  });
 
   /* calendar + email links */
   root.querySelectorAll('[data-cal]').forEach(function(a){ if(C.CALENDAR_URL){a.href=C.CALENDAR_URL;a.target='_blank';a.rel='noopener';} });
@@ -27,7 +42,6 @@
 
   /* Malik: reveal on scroll, say a line when he arrives, say lines on hover */
   var maliks=root.querySelectorAll('.malik');
-  function talk(m,ms){ m.classList.add('talk'); clearTimeout(m._t); m._t=setTimeout(function(){m.classList.remove('talk');},ms||3200); }
   if('IntersectionObserver' in window && !reduce){
     var io=new IntersectionObserver(function(es){es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); if(e.target.dataset.greet!=='no') setTimeout(function(){talk(e.target,3600);},500); io.unobserve(e.target);} });},{threshold:.35});
     maliks.forEach(function(m){io.observe(m);});

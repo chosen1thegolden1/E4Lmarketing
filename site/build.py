@@ -44,17 +44,36 @@ CONFIG = {
 PAGES = [
     # (source file, GHL path, preview filename, <title>)
     ("home.html",     "/",         "index.html",    "Eat 4 Life Marketing | Your AI Guy"),
-    ("services.html", "/services", "services.html", "Services | Eat 4 Life Marketing"),
+    ("systems.html",  "/systems",  "systems.html",  "Systems | Eat 4 Life Marketing"),
+    ("creative.html", "/creative", "creative.html", "Creative | Eat 4 Life Marketing"),
+    ("faq.html",      "/faq",      "faq.html",      "Questions | Eat 4 Life Marketing"),
     ("pricing.html",  "/pricing",  "pricing.html",  "How pricing works | Eat 4 Life Marketing"),
     ("book.html",     "/book",     "book.html",     "Book a Game Plan Call | Eat 4 Life Marketing"),
     ("thanks.html",   "/thanks",   "thanks.html",   "Locked in | Eat 4 Life Marketing"),
     ("404.html",      "/404",      "404.html",      "That page left | Eat 4 Life Marketing"),
 ]
 
-LINKS_GHL = {"home": "/", "services": "/services", "pricing": "/pricing",
-             "book": "/book", "thanks": "/thanks", "scorecard": CONFIG["SCORECARD_URL"]}
-LINKS_PREVIEW = {"home": "index.html", "services": "services.html", "pricing": "pricing.html",
-                 "book": "book.html", "thanks": "thanks.html", "scorecard": CONFIG["SCORECARD_URL"]}
+LINKS_GHL = {"home": "/", "systems": "/systems", "creative": "/creative", "faq": "/faq",
+             "pricing": "/pricing", "book": "/book", "thanks": "/thanks", "scorecard": CONFIG["SCORECARD_URL"]}
+LINKS_PREVIEW = {"home": "index.html", "systems": "systems.html", "creative": "creative.html", "faq": "faq.html",
+                 "pricing": "pricing.html", "book": "book.html", "thanks": "thanks.html", "scorecard": CONFIG["SCORECARD_URL"]}
+
+
+def faq_html():
+    """Render src/data/faqs.json into accordion markup. Add questions there."""
+    import html as H
+    groups = json.loads((SRC / "data" / "faqs.json").read_text(encoding="utf-8"))
+    out = []
+    n = 0
+    for g in groups:
+        out.append(f'<h2 class="faq-group" id="faq-{re.sub(r"[^a-z]+","-",g["group"].lower()).strip("-")}">{H.escape(g["group"])}</h2>')
+        for it in g["items"]:
+            n += 1
+            out.append(
+                f'<details class="faq" data-say="{H.escape(it.get("say",""), quote=True)}">'
+                f'<summary><span class="n">{n:02d}</span><span class="q">{H.escape(it["q"])}</span><span class="pm" aria-hidden="true"></span></summary>'
+                f'<div class="a"><p>{H.escape(it["a"])}</p></div></details>')
+    return "\n".join(out)
 
 
 def read(p):
@@ -108,7 +127,7 @@ def build():
         ):
             ctx = dict(CONFIG)
             ctx.update({"LINK_" + k.upper(): v for k, v in links.items()})
-            ctx.update({"ASSET": asset_base, "TITLE": title, "TARGET": target,
+            ctx.update({"ASSET": asset_base, "TITLE": title, "TARGET": target, "FAQ_ITEMS": faq_html(),
                         "SHARED_CSS": css, "SHARED_JS": js,
                         "CONFIG_JSON": json.dumps({k: v for k, v in CONFIG.items()}),
                         "ACTIVE_" + src.split(".")[0].upper(): "is-active"})

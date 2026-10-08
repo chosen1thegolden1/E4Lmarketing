@@ -1,0 +1,31 @@
+<header class="hero sub" style="padding-bottom:0">
+  <div class="wrap" style="grid-template-columns:1fr">
+    <div class="copy" style="padding-bottom:24px">
+      <div class="eyebrow">Questions</div>
+      <h1>The questions people <em>actually ask.</em></h1>
+      <p class="lede">Straight answers, in plain English. If yours isn't here, bring it to the call. We answer anything, including "do I even need this?"</p>
+    </div>
+  </div>
+</header>
+<section class="sec tight" style="border-top:0">
+  <div class="wrap">
+    <div class="faq-layout">
+      <aside class="faq-side">
+        <figure class="malik pop" id="faq-malik">
+          <img src="{{ASSET}}malik/malik-point.png" alt="Malik pointing at the questions" width="300" height="400">
+          <figcaption class="say tl">Pick one. I'll keep it short.</figcaption>
+        </figure>
+        <nav class="faq-jump" aria-label="Question groups">
+          <a href="#faq-getting-started">Getting started</a>
+          <a href="#faq-systems">Systems</a>
+          <a href="#faq-creative">Creative</a>
+          <a href="#faq-pricing">Pricing</a>
+        </nav>
+      </aside>
+      <div class="faq-list">
+        {{FAQ_ITEMS}}
+        <div class="card" style="margin-top:24px"><div class="k">Not here?</div><h3>Ask it on the call.</h3><p>Twenty minutes, no pitch deck. Or email <a data-email href="#" style="color:var(--deep);text-decoration:underline">{{EMAIL}}</a> and a real person answers.</p><div class="btn-row" style="margin-top:14px"><a class="btn" href="{{LINK_BOOK}}" data-cal>Book a Game Plan Call</a></div></div>
+      </div>
+    </div>
+  </div>
+</section>

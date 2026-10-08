@@ -12,12 +12,16 @@
     </div>
     <div class="stage">
       <figure class="malik pop video" id="hero-malik">
-        <video autoplay muted loop playsinline preload="auto" poster="{{ASSET}}malik/malik-lean-poster.jpg" aria-label="Malik, your AI guy, leaning on a gold wall that reads Content, Leads, Follow-up, Bookings, Sales, and glancing at the list">
-          <source src="{{ASSET}}malik/malik-lean-loop.mp4" type="video/mp4">
-          <source src="{{ASSET}}malik/malik-lean-loop.webm" type="video/webm">
+        <video autoplay muted loop playsinline preload="auto" poster="{{ASSET}}malik/malik-wall-poster.jpg" aria-label="Malik, your AI guy, leaning on a gold wall and pointing at the list of outcomes running down it">
+          <source src="{{ASSET}}malik/malik-wall-loop.mp4" type="video/mp4">
+          <source src="{{ASSET}}malik/malik-wall-loop.webm" type="video/webm">
         </video>
-        <img src="{{ASSET}}malik/malik-lean-wall.jpg" alt="Malik, your AI guy, leaning on a gold wall that reads Content, Leads, Follow-up, Bookings, Sales" width="720" height="960" fetchpriority="high">
-        <figcaption class="say tl">That's the list.</figcaption>
+        <img src="{{ASSET}}malik/malik-wall-still.jpg" alt="Malik, your AI guy, leaning on a gold wall and pointing at it" width="720" height="960" fetchpriority="high">
+        <div class="wall" aria-hidden="true"><ul class="wall-track">
+          <li>Content</li><li>Leads</li><li>Follow-up</li><li>Bookings</li><li>Sales</li><li>Reviews</li><li>Calls</li><li>Ads</li><li>AI search</li><li>Retention</li>
+          <li>Content</li><li>Leads</li><li>Follow-up</li><li>Bookings</li><li>Sales</li><li>Reviews</li><li>Calls</li><li>Ads</li><li>AI search</li><li>Retention</li>
+        </ul></div>
+        <figcaption class="say tr">That's the list.</figcaption>
       </figure>
     </div>
   </div>
@@ -29,40 +33,44 @@
   <div class="wrap">
     <div class="sec-head">
       <div class="eyebrow">What we fix</div>
-      <h2>Pick the result. <em>We'll handle the robots.</em></h2>
-      <p class="lede">Three systems that fix the three biggest leaks in any local business: calls nobody caught, leads nobody followed up, and a brand nobody sees. Each one runs on its own or stacks with the others.</p>
+      <h2>Two different things. <em>Pick one or both.</em></h2>
+      <p class="lede">Almost every problem in a business is one of these two. They're built by different teams, priced differently, and bought separately. We keep them separate on purpose so you always know exactly what you're paying for.</p>
     </div>
-    <div class="grid c3">
-      <article class="card">
-        <div class="k">AI Front Desk</div>
-        <h3>Your phone gets answered. Every call, even the 7pm one.</h3>
-        <p>Every missed call, DM, text, and form fill gets a reply in under 60 seconds, then gets followed up until they book. Your old lead list gets woken up too.</p>
-        <div class="how"><b>How:</b> a voice and text agent trained on your business, with a human on our team watching quality.</div>
-        {{#SHOW_PRICES}}<div class="price"><span>Flat monthly</span><span><b>from $500</b>/mo</span></div>{{/SHOW_PRICES}}
-      </article>
-      <article class="card">
-        <div class="k">The Content Engine</div>
-        <h3>Something new to post every week. You never film a thing.</h3>
-        <p>AI-produced video ads, social cuts, and branded motion, delivered on a schedule in your brand. You approve the script and the look before we produce anything.</p>
-        <div class="how"><b>How:</b> scripted, framed, shot, and cut by our producers, the way a crew would, without the crew.</div>
-        {{#SHOW_PRICES}}<div class="price"><span>Priced by output</span><span><b>from $497</b>/mo</span></div>{{/SHOW_PRICES}}
-      </article>
-      <article class="card">
-        <div class="k">Quiz Funnel Pages</div>
-        <h3>Leads that sort themselves and book.</h3>
-        <p>An interactive quiz pulls visitors in, learns what they need, routes them to the right offer, and captures their contact on the way. A fresh quiz per promo, tuned monthly.</p>
-        <div class="how"><b>How:</b> the same kind of page as our Revenue Leak Scorecard, built for your offer.</div>
-        {{#SHOW_PRICES}}<div class="price"><span>Flat monthly</span><span><b>from $500</b>/mo</span></div>{{/SHOW_PRICES}}
-      </article>
-    </div>
-    <div style="margin-top:28px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between">
-      <div>
-        <div class="eyebrow" style="color:var(--dim)">Add what you need{{#SHOW_PRICES}} · flat $750/mo each{{/SHOW_PRICES}}</div>
-        <div class="chips" style="margin-top:10px">
-          <span class="chip static">Ads / media buying</span><span class="chip static">AI search visibility</span><span class="chip static">Email + text workflows</span><span class="chip static">Voice AI</span><span class="chip static">Chatbot AI</span><span class="chip static">Content management</span><span class="chip static">Influencer management</span><span class="chip static">Website redesign</span>
-        </div>
+    <div class="halves">
+      <div class="half systems">
+        <div class="half-head"><span class="k">01 · Systems</span><h3>Installed in your business. Runs while you sleep.</h3><p>An AI that answers your phone and texts, a quiz funnel that captures leads, sequences that follow up until they book. Built once into your CRM, watched by a human on our team, improved monthly. <b>Flat monthly fee.</b></p></div>
+        <article class="card">
+          <div class="k">AI Front Desk</div>
+          <h3>Your phone gets answered. Every call, even the 7pm one.</h3>
+          <p>Every missed call, DM, text, and form fill gets a reply in under 60 seconds, then gets followed up until they book.</p>
+          {{#SHOW_PRICES}}<div class="price"><span>Flat monthly</span><span><b>from $500</b>/mo</span></div>{{/SHOW_PRICES}}
+        </article>
+        <article class="card">
+          <div class="k">Quiz Funnel Pages</div>
+          <h3>Leads that sort themselves and book.</h3>
+          <p>An interactive quiz learns what visitors need, routes them to the right offer, and captures their contact on the way.</p>
+          {{#SHOW_PRICES}}<div class="price"><span>Flat monthly</span><span><b>from $500</b>/mo</span></div>{{/SHOW_PRICES}}
+        </article>
+        <div class="chips"><span class="chip static">Voice AI</span><span class="chip static">Chatbot AI</span><span class="chip static">Email + text workflows</span><span class="chip static">AI search visibility</span><span class="chip static">Ads management</span><span class="chip static">+ 3 more</span></div>
+        <a class="btn" href="{{LINK_SYSTEMS}}">See the Systems</a>
       </div>
-      <a class="btn ghost" href="{{LINK_SERVICES}}">See everything we fix</a>
+      <div class="half creative">
+        <div class="half-head"><span class="k">02 · Creative</span><h3>Produced in our studio. Fresh every month.</h3><p>AI-produced video ads, social cuts, and branded motion, delivered on a schedule in your brand. You approve the script and the look before anything is made. <b>Priced by output.</b></p></div>
+        <article class="card">
+          <div class="k">The Content Engine</div>
+          <h3>Something new to post every week. You never film a thing.</h3>
+          <p>Your whole short-form video operation handled: ads, reels, motion graphics, a content calendar at the higher tiers.</p>
+          {{#SHOW_PRICES}}<div class="price"><span>Monthly, by output</span><span><b>from $497</b>/mo</span></div>{{/SHOW_PRICES}}
+        </article>
+        <article class="card">
+          <div class="k">Creative Packs</div>
+          <h3>Fuel for a campaign or a launch.</h3>
+          <p>One-time buys. Ads and the cutdowns that test against them, for when you're running a system and need something to feed it.</p>
+          {{#SHOW_PRICES}}<div class="price"><span>One-time</span><span><b>from $750</b></span></div>{{/SHOW_PRICES}}
+        </article>
+        <div class="chips"><span class="chip static">AI video ads</span><span class="chip static">Social cuts</span><span class="chip static">Motion graphics</span><span class="chip static">Hook variations</span></div>
+        <a class="btn" href="{{LINK_CREATIVE}}">See the Creative</a>
+      </div>
     </div>
   </div>
 </section>
@@ -122,7 +130,7 @@
       <div>
         <div class="chips" role="group" aria-label="Pick a term"></div>
         <div class="answer" aria-live="polite"></div>
-        <p class="fine" style="margin-top:12px">Got a question that isn't here? Bring it to the call. Malik's team answers anything, including "do I even need this?"</p>
+        <p class="fine" style="margin-top:12px">Got a real question? <a href="{{LINK_FAQ}}" style="color:var(--deep);text-decoration:underline">Read the questions people actually ask</a>, or bring it to the call.</p>
       </div>
       <div class="side">
         <figure class="malik pop" data-greet="no">
