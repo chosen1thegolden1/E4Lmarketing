@@ -27,8 +27,8 @@ The pages load Malik and the wordmark from a URL. Pick one:
 
 **Option A, GHL Media Library (recommended).** In E4L Services open
 Media Storage, create a folder `CS-site`, and upload every file in
-`assets/malik/` and `assets/brand/` (including `malik-lean-loop.mp4`, the
-hero animation, and its poster `malik-lean-poster.jpg`). Copy the URL of any one uploaded file;
+`assets/malik/` and `assets/brand/` (including the hero animation `malik-lean-loop.mp4` and
+`malik-lean-loop.webm`, plus its poster `malik-lean-poster.jpg`). Copy the URL of any one uploaded file;
 everything before the filename is your base URL. It must end with a slash.
 
 **Option B, GitHub Pages.** The `deploy-pages.yml` workflow already publishes

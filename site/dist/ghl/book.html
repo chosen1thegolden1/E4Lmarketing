@@ -368,7 +368,8 @@
     var v=m.querySelector('video'); if(!v) return;
     function still(){ m.classList.remove('video'); try{v.pause();}catch(e){} v.remove(); }
     if(reduce){ still(); return; }
-    v.addEventListener('error',still,true);
+    v.addEventListener('error',still);
+    var srcs=v.querySelectorAll('source'); if(srcs.length){ srcs[srcs.length-1].addEventListener('error',still); }
     var p=v.play&&v.play(); if(p&&p.catch){ p.catch(function(){ /* autoplay blocked: poster still shows */ }); }
     setTimeout(function(){ if(v.readyState<2 && v.networkState===3) still(); },4000);
   });

@@ -293,6 +293,7 @@
       <figure class="malik pop video" id="hero-malik">
         <video autoplay muted loop playsinline preload="auto" poster="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-lean-poster.jpg" aria-label="Malik, your AI guy, leaning against the wall and nodding">
           <source src="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-lean-loop.mp4" type="video/mp4">
+          <source src="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-lean-loop.webm" type="video/webm">
         </video>
         <img src="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-lean.png" alt="Malik, your AI guy, leaning against the wall in his Eat For Life hoodie" width="420" height="563" fetchpriority="high">
         <figcaption class="say tl">I got this one.</figcaption>
@@ -543,7 +544,8 @@
     var v=m.querySelector('video'); if(!v) return;
     function still(){ m.classList.remove('video'); try{v.pause();}catch(e){} v.remove(); }
     if(reduce){ still(); return; }
-    v.addEventListener('error',still,true);
+    v.addEventListener('error',still);
+    var srcs=v.querySelectorAll('source'); if(srcs.length){ srcs[srcs.length-1].addEventListener('error',still); }
     var p=v.play&&v.play(); if(p&&p.catch){ p.catch(function(){ /* autoplay blocked: poster still shows */ }); }
     setTimeout(function(){ if(v.readyState<2 && v.networkState===3) still(); },4000);
   });
