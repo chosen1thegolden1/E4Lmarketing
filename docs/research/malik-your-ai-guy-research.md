@@ -320,7 +320,8 @@ You are selling trust to people who feel about AI the way they feel about insura
 
 Generated October 8, 2026 from the Higgsfield element `Malik` (id `098c3fb7-8cdf-401e-9c58-09c9dd0742af`) with Nano Banana, prompt: confident full-body lean against a gold panel, hand in hoodie pocket, ankles crossed, calm smirk, white studio background.
 
-- `assets/malik/malik-lean-01.jpg` (all-black fit, recommended for the hero)
+- `assets/malik/malik-lean-01-e4l.jpg` (all-black fit with the white Eat For Life script on the hoodie, recommended for the hero; `-alt` is a near-identical second take)
+- `assets/malik/malik-lean-01.jpg` (same pose, original game-controller hoodie)
 - `assets/malik/malik-lean-02.jpg` (denim variant)
 
 Both still need background removal for use as transparent web cutouts.
