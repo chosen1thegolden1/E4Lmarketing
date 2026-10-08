@@ -46,7 +46,7 @@ CONFIG = {
 
 PAGES = [
     # (source file, GHL path, preview filename, <title>)
-    ("home.html",     "/",         "index.html",    "Eat 4 Life Marketing | Your AI Guy"),
+    ("home.html",     "/",         "index.html",    "Eat 4 Life Marketing | Your AI Guide"),
     ("systems.html",  "/systems",  "systems.html",  "Systems | Eat 4 Life Marketing"),
     ("creative.html", "/creative", "creative.html", "Creative | Eat 4 Life Marketing"),
     ("faq.html",      "/faq",      "faq.html",      "Questions | Eat 4 Life Marketing"),

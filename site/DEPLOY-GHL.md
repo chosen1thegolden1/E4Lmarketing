@@ -94,7 +94,7 @@ find-and-replace for the image base URL. It works, it's just more typing.)
    Add one **Custom Code** element. Paste the ENTIRE matching file from
    `site/dist/ghl/`.
 4. Page SEO for each step:
-   - Home: title `Eat 4 Life Marketing | Your AI Guy`, description
+   - Home: title `Eat 4 Life Marketing | Your AI Guide`, description
      `AI Marketing Made Easy. Malik and the E4L team install, run, and improve
      the systems that answer your phone, follow up with every lead, and keep
      you visible.`
@@ -155,7 +155,7 @@ chats, he just cannot save a lead.
 
 | Thing | Where |
 |---|---|
-| Agent | ElevenLabs → Agents → *Malik — Your AI Guy (E4L website)*, id `agent_3601m4czfzgrf8b9cnynhjzjqj8g` |
+| Agent | ElevenLabs → Agents → *Malik — Your AI Guide (E4L website)*, id `agent_3601m4czfzgrf8b9cnynhjzjqj8g` |
 | Test link (no site needed) | `https://elevenlabs.io/app/talk-to?agent_id=agent_3601m4czfzgrf8b9cnynhjzjqj8g` |
 | His persona and rules | `site/malik-agent/system-prompt.md` (same text as the agent's System prompt) |
 | Knowledge base | two text docs: *E4L Marketing - Services, pricing, and how it works* and *E4L Marketing - FAQ and plain-English AI glossary* |

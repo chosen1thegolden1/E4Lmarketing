@@ -1,6 +1,6 @@
 # E4L Marketing site
 
-Source for the Eat 4 Life Marketing website, built around Malik ("Your AI Guy").
+Source for the Eat 4 Life Marketing website, built around Malik ("Your AI Guide").
 Read `docs/research/malik-your-ai-guy-research.md` for the thinking behind the
 copy, the mascot rules, and the pricing stance.
 
