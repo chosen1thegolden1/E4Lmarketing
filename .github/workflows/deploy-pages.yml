@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - claude/build-eat4life-website-01V86jRtpmdCuFxu3he73xcf
-      - claude/keen-einstein-ik9e5s
       - main
     paths:
       - "voice-ai-demo-builder/demos/**"
