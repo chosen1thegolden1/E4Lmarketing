@@ -3,7 +3,7 @@
 Built by `scripts/build-emails.js`. Every link below is already live in the HTML.
 
 **Who does what:** Claude writes · Claude edits in a second pass · **Chosen approves** ·
-**Abdullah loads these into GHL** · Daniel is second eyes on E4L Services and E4L School.
+**Abdullah loads these into GHL** · Daniel is second eyes on E4L Services and Student.
 He gets the schedule and the offers so he can tie traffic and sales back to
 the sends.
 

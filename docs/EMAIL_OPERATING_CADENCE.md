@@ -9,7 +9,7 @@ week ahead. Nothing about that moves.
 
 > **Update, Oct 7, 2026 (Chosen): Sammy is no longer in this loop. Daniel has taken Sammy's
 > role.** Daniel is now the single router and watcher for **both** lists: the agency four
-> (E4L Services) and the student four (E4L School). Nothing goes to Sammy any more: no GO
+> (E4L Services) and the student four (Student). Nothing goes to Sammy any more: no GO
 > DM, no Monday report, no Friday copy. Everywhere below that once said "Daniel and Sammy"
 > now means Daniel alone.
 >
@@ -72,7 +72,7 @@ seat is now a Claude session, and the hand-off is Daniel (who took over Sammy's 
 | **Distributor** | Claude, on the GO | Wednesday or Thursday 8:30 AM |
 | **Router** | Daniel (agency and student) | He passes it to Abdullah |
 | **Loader** | Abdullah | Friday, for the week starting Monday |
-| **Watcher** | Daniel on E4L Services and E4L School | Standing |
+| **Watcher** | Daniel on E4L Services and Student | Standing |
 
 ### Tuesday 6:00 AM — Claude writes
 Runs the `e4l-email-sharpener` skill. Eight emails plus two bench. Each names its reader,
@@ -158,13 +158,13 @@ Abdullah gets the links whether or not Daniel already sent them. A duplicate
 link costs nothing; a lost batch costs the week.
 
 > ⚠️ **Abdullah's brief scopes him to E4L Services only** — "never touch the E4L School
-> sub-account, no reads, no writes." The student list lives in E4L School. So as written,
+> sub-account, no reads, no writes." (The brief says "E4L School"; the sub-account is actually called **Student**.) The student list lives in Student. So as written,
 > Abdullah can load the agency four and cannot load the student four. **Unresolved — see
 > the open question at the bottom of this doc.**
 
 ### Daniel — second pair of eyes on both sub-accounts
-**Daniel covers E4L Services and E4L School** (he took over E4L School from Sammy on
-Oct 7). Not just email: everything that runs inside those sub-accounts, and email is one
+**Daniel covers E4L Services and Student** (he already has access to the Student
+sub-account, and took over Sammy's role on Oct 7). There is no sub-account called "School"; the name is Student. Not just email: everything that runs inside those sub-accounts, and email is one
 of the things running inside them.
 
 Email reaches him twice a week:
@@ -182,7 +182,7 @@ Without that, the numbers are trivia.
 ### Where Daniel is headed
 Right now he routes and he watches. **After a couple of rounds, the format-and-link check
 moves to him**, inside each sub-account he now owns: the agency four in E4L Services,
-the student four in E4L School.
+the student four in Student.
 
 Checking that a link opens and a merge tag renders belongs to whoever owns the account it
 runs in, because they're the one who'll see it break. Judging whether a sentence lands is
@@ -272,17 +272,17 @@ The Monday report Routine has the same gap, and has had it since Sept 17.
 ## Open question — who loads the student side?
 
 Abdullah is the loader. His brief (`ABDULLAH_BRIEF.md`) scopes him to **E4L Services
-only** and says plainly: never touch the E4L School sub-account, no reads, no writes.
-The student list lives in E4L School. So as written he can load the agency four and not
+only** and says plainly: never touch the "E4L School" sub-account (the sub-account is actually called **Student**), no reads, no writes.
+The student list lives in Student. So as written he can load the agency four and not
 the student four.
 
 That wall was set deliberately, so it isn't Claude's to move. Two ways out:
 
-1. **Daniel loads the student side.** He now owns E4L School as well as E4L Services
+1. **Daniel loads the student side.** He already has access to Student as well as E4L Services
    (he took Sammy's role Oct 7), so this needs no new access and no change to Abdullah's
    brief. It does add a doing job to someone whose role here is checking, and a second
    sub-account to someone who had one, so it is worth naming rather than sliding into.
-2. **Widen Abdullah's scope** to cover loading broadcasts in E4L School, and amend his
+2. **Widen Abdullah's scope** to cover loading broadcasts in Student, and amend his
    brief so the wall carries a stated exception instead of being quietly ignored.
 
 Option 1 is the smaller change and the one the Friday routine assumes until told
