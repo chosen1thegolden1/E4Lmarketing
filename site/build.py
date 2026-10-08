@@ -86,7 +86,7 @@ def strip_doc(html):
     html = re.sub(r"<!DOCTYPE html>\s*<html[^>]*>\s*<head>\s*", "", html)
     html = re.sub(r"<meta charset=[^>]*>\s*", "", html)
     html = re.sub(r"<meta name=\"viewport\"[^>]*>\s*", "", html)
-    html = html.replace("</head>\n<body style=\"margin:0;background:#0B0B0B\">", "")
+    html = html.replace("</head>\n<body style=\"margin:0;background:#FFFFFF\">", "")
     html = html.replace("</body>\n</html>", "")
     return html
 

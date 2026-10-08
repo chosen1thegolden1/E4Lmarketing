@@ -27,7 +27,8 @@ The pages load Malik and the wordmark from a URL. Pick one:
 
 **Option A, GHL Media Library (recommended).** In E4L Services open
 Media Storage, create a folder `CS-site`, and upload every file in
-`assets/malik/` and `assets/brand/`. Copy the URL of any one uploaded file;
+`assets/malik/` and `assets/brand/` (including `malik-lean-loop.mp4`, the
+hero animation, and its poster `malik-lean-poster.jpg`). Copy the URL of any one uploaded file;
 everything before the filename is your base URL. It must end with a slash.
 
 **Option B, GitHub Pages.** The `deploy-pages.yml` workflow already publishes
@@ -83,7 +84,7 @@ find-and-replace for the image base URL. It works, it's just more typing.)
 
 1. Funnels → New Funnel → `CS-Website`.
 2. Add six blank steps with the paths in the table above. Home is `/`.
-3. On each step: one full-width section, padding 0, background `#0B0B0B`.
+3. On each step: one full-width section, padding 0, background `#FFFFFF`.
    Add one **Custom Code** element. Paste the ENTIRE matching file from
    `site/dist/ghl/`.
 4. Page SEO for each step:
@@ -100,6 +101,7 @@ find-and-replace for the image base URL. It works, it's just more typing.)
 ## 5. Test before anyone sees it
 
 - [ ] Every nav link lands on the right step (What we fix, Pricing, Ask Malik, Book).
+- [ ] The hero Malik animates (a short silent loop). On phones with Low Power Mode or "reduce motion" on, the still image shows instead.
 - [ ] Malik appears on every page and his bubble shows on hover/tap.
 - [ ] On the home page, tap each term under *Ask Malik*. The answer changes.
 - [ ] Submit the free audit form with `Test Lead` and a real email. The contact

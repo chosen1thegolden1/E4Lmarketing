@@ -14,6 +14,16 @@
   root.querySelectorAll('[data-school]').forEach(function(a){ if(C.SCHOOL_URL){a.href=C.SCHOOL_URL;} });
   root.querySelectorAll('[data-scorecard]').forEach(function(a){ if(C.SCORECARD_URL){a.href=C.SCORECARD_URL;} });
 
+  /* Hero video: play the loop when allowed, otherwise fall back to the still */
+  root.querySelectorAll('.malik.video').forEach(function(m){
+    var v=m.querySelector('video'); if(!v) return;
+    function still(){ m.classList.remove('video'); try{v.pause();}catch(e){} v.remove(); }
+    if(reduce){ still(); return; }
+    v.addEventListener('error',still,true);
+    var p=v.play&&v.play(); if(p&&p.catch){ p.catch(function(){ /* autoplay blocked: poster still shows */ }); }
+    setTimeout(function(){ if(v.readyState<2 && v.networkState===3) still(); },4000);
+  });
+
   /* Malik: reveal on scroll, say a line when he arrives, say lines on hover */
   var maliks=root.querySelectorAll('.malik');
   function talk(m,ms){ m.classList.add('talk'); clearTimeout(m._t); m._t=setTimeout(function(){m.classList.remove('talk');},ms||3200); }
