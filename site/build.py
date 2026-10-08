@@ -52,7 +52,7 @@ PAGES = [
     ("faq.html",      "/faq",      "faq.html",      "Questions | Eat 4 Life Marketing"),
     ("pricing.html",  "/pricing",  "pricing.html",  "How pricing works | Eat 4 Life Marketing"),
     ("book.html",     "/book",     "book.html",     "Book a Game Plan Call | Eat 4 Life Marketing"),
-    ("thanks.html",   "/thanks",   "thanks.html",   "Locked in | Eat 4 Life Marketing"),
+    ("thanks.html",   "/thanks",   "thanks.html",   "You're booked | Eat 4 Life Marketing"),
     ("404.html",      "/404",      "404.html",      "That page left | Eat 4 Life Marketing"),
 ]
 

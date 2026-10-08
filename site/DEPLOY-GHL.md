@@ -214,7 +214,7 @@ Setting it to `""` removes the bubble from every page.
    between systems and creative". He keeps them separate and ends with one
    next step. There is no call button and no mic: Malik is text only.
 2. Say "I want the free audit". He asks for business, city, trade, name and
-   email. Give test values and a real email. He says "Locked in." The contact
+   email. Give test values and a real email. He says "Done. A real person on the team will follow up." The contact
    appears in E4L Services with `cs-malik-lead` and `cs-audit-request`, in
    the pipeline, with the Slack alert.
 3. Ask "will this double my revenue". He must not promise results.

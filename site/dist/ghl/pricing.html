@@ -423,7 +423,7 @@
 <section class="sec" id="faq">
   <div class="wrap">
     <div class="split">
-      <div><div class="eyebrow">Still got questions?</div><h2 style="margin-top:12px">Contract? Ownership? <em>Guarantees?</em></h2><p class="lede">All answered in plain English, with Malik keeping it short.</p><div class="btn-row"><a class="btn ghost" href="/faq">Read the questions people actually ask</a></div></div>
+      <div><div class="eyebrow">Still have questions?</div><h2 style="margin-top:12px">Contract? Ownership? <em>Guarantees?</em></h2><p class="lede">All answered in plain English, with Malik keeping it short.</p><div class="btn-row"><a class="btn ghost" href="/faq">Read the questions people actually ask</a></div></div>
       <figure class="malik pop" data-greet="no" style="width:200px;justify-self:end">
         <img src="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-peek.png" alt="Malik peeking in">
         <figcaption class="say tl">Month to month. Yours. No.</figcaption>
@@ -561,7 +561,7 @@
       b.addEventListener('click',function(){ show(k); chips.querySelectorAll('.chip').forEach(function(c){c.classList.remove('on');c.setAttribute('aria-pressed','false');}); b.classList.add('on'); b.setAttribute('aria-pressed','true'); });
       chips.appendChild(b);
     });
-    function show(k){ var t=terms[k]; out.innerHTML='<div class="term">'+k+'</div><div class="plain">'+t.plain+'</div><div class="so"><b>Why you care:</b> '+t.so+'</div>'; if(side){ var s=side.querySelector('.say'); if(s){s.textContent=t.say||'Say less.';} talk(side,2600);} }
+    function show(k){ var t=terms[k]; out.innerHTML='<div class="term">'+k+'</div><div class="plain">'+t.plain+'</div><div class="so"><b>Why you care:</b> '+t.so+'</div>'; if(side){ var s=side.querySelector('.say'); if(s){s.textContent=t.say||'Pick a term.';} talk(side,2600);} }
     show(Object.keys(terms)[0]);
   }
 
@@ -577,7 +577,7 @@
       if(!url){ msg.className='msg err'; msg.textContent='This form is not wired yet (webhook URL missing). Email us instead: '+(C.EMAIL||''); return; }
       btn.disabled=true; var old=btn.textContent; btn.textContent='Sending…';
       fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
-        .then(function(r){ if(!r.ok) throw new Error(r.status); msg.className='msg ok'; msg.textContent=f.dataset.ok||'Got it. Check your inbox.'; f.reset(); var m=f.closest('section')&&f.closest('section').querySelector('.malik'); if(m){var s=m.querySelector('.say'); if(s) s.textContent='Locked in.'; talk(m,3000);} if(f.dataset.next){ setTimeout(function(){location.href=f.dataset.next;},900); } })
+        .then(function(r){ if(!r.ok) throw new Error(r.status); msg.className='msg ok'; msg.textContent=f.dataset.ok||'Got it. Check your inbox.'; f.reset(); var m=f.closest('section')&&f.closest('section').querySelector('.malik'); if(m){var s=m.querySelector('.say'); if(s) s.textContent='Received. A real person will follow up.'; talk(m,3000);} if(f.dataset.next){ setTimeout(function(){location.href=f.dataset.next;},900); } })
         .catch(function(){ msg.className='msg err'; msg.textContent='That didn\'t go through. Try again or email '+(C.EMAIL||'us')+'.'; })
         .finally(function(){ btn.disabled=false; btn.textContent=old; });
     });

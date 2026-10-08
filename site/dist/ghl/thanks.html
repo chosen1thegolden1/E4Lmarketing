@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Locked in | Eat 4 Life Marketing</title>
+<title>You're booked | Eat 4 Life Marketing</title>
 <meta name="description" content="AI Marketing Made Easy. Malik and the Eat 4 Life Marketing team install, run, and improve the systems that answer your phone, follow up with every lead, and keep you visible. You run your business.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 fill=%27%23FFC200%27/%3E%3Ctext x=%2732%27 y=%2744%27 font-family=%27Arial%27 font-weight=%27800%27 font-size=%2736%27 text-anchor=%27middle%27 fill=%27%23000%27%3EE%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -357,10 +357,10 @@
 <section class="center">
   <figure class="malik pop">
     <img src="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-thumbs.png" alt="Malik giving a thumbs up" width="260" height="347">
-    <figcaption class="say tl">Locked in.</figcaption>
+    <figcaption class="say tl">You're booked.</figcaption>
   </figure>
   <div class="eyebrow">You're booked</div>
-  <h1 style="margin-top:12px">Locked in. <em>I'll have your scorecard pulled up when we start.</em></h1>
+  <h1 style="margin-top:12px">You're booked. <em>I'll have your scorecard pulled up when we start.</em></h1>
   <p class="lede">Check your inbox for the confirmation. If you haven't run the free Revenue Leak Scorecard yet, do it before the call and we'll skip straight to the fix.</p>
   <div class="btn-row"><a class="btn" href="/scorecard" data-scorecard>Run the Scorecard</a><a class="btn ghost" href="/">Back home</a></div>
 </section>
@@ -475,7 +475,7 @@
       b.addEventListener('click',function(){ show(k); chips.querySelectorAll('.chip').forEach(function(c){c.classList.remove('on');c.setAttribute('aria-pressed','false');}); b.classList.add('on'); b.setAttribute('aria-pressed','true'); });
       chips.appendChild(b);
     });
-    function show(k){ var t=terms[k]; out.innerHTML='<div class="term">'+k+'</div><div class="plain">'+t.plain+'</div><div class="so"><b>Why you care:</b> '+t.so+'</div>'; if(side){ var s=side.querySelector('.say'); if(s){s.textContent=t.say||'Say less.';} talk(side,2600);} }
+    function show(k){ var t=terms[k]; out.innerHTML='<div class="term">'+k+'</div><div class="plain">'+t.plain+'</div><div class="so"><b>Why you care:</b> '+t.so+'</div>'; if(side){ var s=side.querySelector('.say'); if(s){s.textContent=t.say||'Pick a term.';} talk(side,2600);} }
     show(Object.keys(terms)[0]);
   }
 
@@ -491,7 +491,7 @@
       if(!url){ msg.className='msg err'; msg.textContent='This form is not wired yet (webhook URL missing). Email us instead: '+(C.EMAIL||''); return; }
       btn.disabled=true; var old=btn.textContent; btn.textContent='Sending…';
       fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
-        .then(function(r){ if(!r.ok) throw new Error(r.status); msg.className='msg ok'; msg.textContent=f.dataset.ok||'Got it. Check your inbox.'; f.reset(); var m=f.closest('section')&&f.closest('section').querySelector('.malik'); if(m){var s=m.querySelector('.say'); if(s) s.textContent='Locked in.'; talk(m,3000);} if(f.dataset.next){ setTimeout(function(){location.href=f.dataset.next;},900); } })
+        .then(function(r){ if(!r.ok) throw new Error(r.status); msg.className='msg ok'; msg.textContent=f.dataset.ok||'Got it. Check your inbox.'; f.reset(); var m=f.closest('section')&&f.closest('section').querySelector('.malik'); if(m){var s=m.querySelector('.say'); if(s) s.textContent='Received. A real person will follow up.'; talk(m,3000);} if(f.dataset.next){ setTimeout(function(){location.href=f.dataset.next;},900); } })
         .catch(function(){ msg.className='msg err'; msg.textContent='That didn\'t go through. Try again or email '+(C.EMAIL||'us')+'.'; })
         .finally(function(){ btn.disabled=false; btn.textContent=old; });
     });

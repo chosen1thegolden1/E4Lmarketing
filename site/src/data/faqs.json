@@ -3,7 +3,7 @@
    "items": [
     {"q": "Do I need to know anything about AI to work with you?",
      "a": "No. You tell us what's leaking (missed calls, slow follow-up, nothing to post) and we install the fix. You approve scripts and visuals for creative work and you read a monthly report. Everything else is ours.",
-     "say": "You need a guy. Not a degree."},
+     "say": "No. That is our job."},
     {"q": "What happens on the Game Plan Call?",
      "a": "Twenty minutes with Chosen. We pull up your Scorecard numbers (or run it live), find the biggest leak, map which system seals it, and give you straight answers on price in dollars. No pitch deck. If we're not the fit, we say so and you keep the map.",
      "say": "Twenty minutes. No pitch deck."},
@@ -57,9 +57,9 @@
      "say": "Dollars. Not credits."},
     {"q": "Do you guarantee results?",
      "a": "No, and be careful with anyone who does. Any estimate you see from us is built from industry benchmarks. What we promise is a number every month, in dollars and hours, showing what actually happened, and that we keep improving the system based on it.",
-     "say": "Numbers, not vibes."},
+     "say": "Numbers, not guesses."},
     {"q": "Who is Malik?",
      "a": "Eat 4 Life Marketing's animated mascot, made with the same AI tools we use for client content. He's a character, like the Gecko is a character. The people behind him are Chosen and the E4L team in Los Angeles, and a real person reads every message you send.",
-     "say": "I'm the guy. They're the team."}
+     "say": "I'm the character. They're the team."}
    ]}
 ]
