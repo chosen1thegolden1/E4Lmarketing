@@ -79,10 +79,12 @@
   clip-path:polygon(18% 0,100% 0,100% 100%,0 100%)}
 .e4l .hero .malik{position:relative;z-index:2;width:auto;max-width:100%;margin-bottom:0}
 .e4l .hero .malik img{height:clamp(420px,46vw,640px);width:auto;max-width:100%;margin:0 auto}
+.e4l .hero:not(.sub) .malik img{mix-blend-mode:multiply;filter:none}
 .e4l .hero.sub .malik img{height:clamp(300px,28vw,420px)}
 .e4l .hero .malik video{display:block;height:clamp(420px,46vw,640px);width:auto;max-width:100%;margin:0 auto;mix-blend-mode:multiply}
 .e4l .hero .malik.video img{display:none}
 .e4l .hero .stage:has(.malik.video) .panel{display:none}
+.e4l .hero .stage{align-self:center}
 @media (max-width:820px){.e4l .hero .malik video{height:min(380px,86vw)}}
 .e4l .hero.sub .stage{min-height:0;align-self:center;padding-bottom:24px}
 .e4l .hero .malik .say.tl{left:auto;right:calc(100% + 6px);top:36px;white-space:nowrap}
@@ -289,14 +291,13 @@
       <p class="fine" style="margin-top:18px">No contracts dressed up as discounts. No promised results. Real numbers every month.</p>
     </div>
     <div class="stage">
-      <div class="panel" aria-hidden="true"></div>
       <figure class="malik pop video" id="hero-malik">
-        <video autoplay muted loop playsinline preload="auto" poster="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-lean-poster.jpg" aria-label="Malik, your AI guy, leaning against the wall and nodding">
+        <video autoplay muted loop playsinline preload="auto" poster="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-lean-poster.jpg" aria-label="Malik, your AI guy, leaning on a gold wall that reads Content, Leads, Follow-up, Bookings, Sales, and glancing at the list">
           <source src="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-lean-loop.mp4" type="video/mp4">
           <source src="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-lean-loop.webm" type="video/webm">
         </video>
-        <img src="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-lean.png" alt="Malik, your AI guy, leaning against the wall in his Eat For Life hoodie" width="420" height="563" fetchpriority="high">
-        <figcaption class="say tl">I got this one.</figcaption>
+        <img src="https://chosen1thegolden1.github.io/E4Lmarketing/assets/malik/malik-lean-wall.jpg" alt="Malik, your AI guy, leaning on a gold wall that reads Content, Leads, Follow-up, Bookings, Sales" width="720" height="960" fetchpriority="high">
+        <figcaption class="say tl">That's the list.</figcaption>
       </figure>
     </div>
   </div>
