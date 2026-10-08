@@ -20,7 +20,7 @@ sub-account. Never the school. Every GHL asset you create starts with `CS-`.
 
 ## What you need before you start
 
-- From Chosen: the domain the site attaches to. Nothing else.
+- Nothing from anyone. The domain is `e4lagency.com`.
 - About an hour.
 
 ## The job, in order
@@ -38,10 +38,12 @@ sub-account. Never the school. Every GHL asset you create starts with `CS-`.
    blank. Run `python3 site/build.py`. No Python? The guide shows the
    find-and-replace alternative.
 5. **Funnel (20 min).** `CS-Website`, eight steps, one Custom Code element per
-   step, paste the matching file from `dist/ghl/`. Attach the domain. Publish.
-6. **Malik (10 min).** In ElevenLabs, paste the `CS-Malik-Intake` URL into the
-   `capture_lead` tool, add the domain to the agent's allowlist, and set the
-   widget avatar to the Media Library URL of `malik-thumbs.png`.
+   step, paste the matching file from `dist/ghl/`. Attach `e4lagency.com`
+   and `www.e4lagency.com`. Publish.
+6. **Malik (5 min).** In ElevenLabs, paste the `CS-Malik-Intake` URL into the
+   `capture_lead` tool and set the widget avatar to the Media Library URL of
+   `malik-thumbs.png`. The domain allowlist is already set. If you test on a
+   GHL preview link first, add that hostname to the allowlist temporarily.
 7. **Test (10 min).** Run the checklist in `DEPLOY-GHL.md` section 5. The two
    that matter most: the audit form creates a tagged contact, and telling
    Malik "I want the free audit" with a test email does the same.

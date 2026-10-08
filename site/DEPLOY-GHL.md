@@ -8,8 +8,8 @@ things you type are URLs.
 Everything lives in the **E4L Services** sub-account. Never the school.
 Every asset you create is prefixed `CS-` per the mission brief.
 
-**Before you start, you need from Chosen:** the domain the site attaches to.
-That is it. The school link is intentionally blank for now (the footer hides
+**Domain:** `e4lagency.com` (with `www`). It attaches to the `CS-Website`
+funnel in step 4. The school link is intentionally blank for now (the footer hides
 it until a URL is added), the calendar is already wired, prices are approved
 as shown, and Malik's chat agent is already built. Budget about an hour.
 
@@ -110,7 +110,8 @@ find-and-replace for the image base URL. It works, it's just more typing.)
    - Others: use the `<title>` inside each file.
    - Favicon: the EFL gold mark.
 5. Funnel settings → set `/404` as the 404 page if your GHL plan offers it.
-6. Attach the services domain (not the school's).
+6. Attach `e4lagency.com` (and `www.e4lagency.com`) to the funnel. Set `www`
+   to redirect to the bare domain, or the other way round, but pick one.
 7. Publish.
 
 ## 5. Test before anyone sees it
@@ -203,11 +204,12 @@ Agents → Malik → *Tools* → `capture_lead` → *URL*. Replace the placehold
 (`https://services.leadconnectorhq.com/hooks/REPLACE-WITH-CS-MALIK-INTAKE-WEBHOOK`)
 with the URL from step 1. Save. Method stays `POST`, body stays JSON.
 
-**Step 3. Lock the agent to our domain (2 minutes).** ElevenLabs → Agents →
-Malik → *Security*: add the services domain (and
-`chosen1thegolden1.github.io` while the preview is in use) to *Allowlist*.
-Leave *Enable authentication* off; the widget on the site needs the agent to
-be public, and the allowlist is what stops other sites from embedding him.
+**Step 3. Domain lock (already done, 1 minute to check).** The agent's
+allowlist already holds `e4lagency.com` and `www.e4lagency.com`, with
+*Enable authentication* off (the widget needs the agent public; the allowlist
+is what stops other sites from embedding him). If you test the chat on a GHL
+preview link before the domain is attached, add that preview hostname in
+ElevenLabs → Agents → Malik → *Security* → *Allowlist*, then remove it after.
 In *Widget*, replace the avatar URL with the Media Library URL of
 `malik-thumbs.png` from section 1 (the GitHub Pages URL it holds now is not
 live, so the bubble shows a blank avatar until you do this).
