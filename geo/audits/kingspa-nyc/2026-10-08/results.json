@@ -1,0 +1,417 @@
+{
+  "subject": "KingSpa NYC",
+  "city": "Bronx, NY",
+  "niche": "pet-grooming",
+  "label": "Pet Grooming",
+  "date": "2026-10-08",
+  "startedAt": "2026-10-08T22:33:28.011Z",
+  "finishedAt": "2026-10-08T22:45:59.776Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "2/21",
+  "named": 2,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best dog groomer in Bronx, NY",
+      "askedAt": "2026-10-08T22:33:28.125Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_chatgpt_q1_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "LUNA'S PAWS GROOMING",
+        "A Doggie Stylist",
+        "PimpiGroom",
+        "Lucky Dog Mobile Groomers",
+        "Jackelyn Home Grooming LLC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "LUNA'S PAWS GROOMING",
+        "A Doggie Stylist",
+        "PimpiGroom",
+        "Lucky Dog Mobile Groomers",
+        "Jackelyn Home Grooming LLC"
+      ],
+      "note": "Recommended five Bronx dog groomers (local and mobile) but did not mention KingSpa NYC.",
+      "answerChars": 1990
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "dog grooming near me Bronx, NY",
+      "askedAt": "2026-10-08T22:35:15.452Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_chatgpt_q2_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Petco Grooming – Throggs Neck",
+        "Petco Grooming – Gun Hill",
+        "Petco Grooming – Kingsbridge",
+        "Lucky Dog Mobile Groomers",
+        "Groomit",
+        "Bronx Tail"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Petco Grooming – Throggs Neck",
+        "Petco Grooming – Gun Hill",
+        "Petco Grooming – Kingsbridge",
+        "Lucky Dog Mobile Groomers",
+        "Groomit",
+        "Bronx Tail"
+      ],
+      "note": "Recommended six Bronx grooming businesses (Petco locations, mobile groomers, and a self-service dog wash) but did not mention KingSpa NYC.",
+      "answerChars": 1695
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "mobile dog grooming Bronx, NY",
+      "askedAt": "2026-10-08T22:37:02.461Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_chatgpt_q3_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Lucky Dog Mobile Groomers",
+        "Groomit",
+        "The Pawfection Palace",
+        "Caritas Felices Grooming"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Lucky Dog Mobile Groomers",
+        "Groomit",
+        "The Pawfection Palace",
+        "Caritas Felices Grooming"
+      ],
+      "note": "Recommended four mobile dog grooming businesses plus two directory/listing sites for the Bronx, without mentioning the audit subject.",
+      "answerChars": 1457
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "dog groomer open today Bronx, NY",
+      "askedAt": "2026-10-08T22:38:48.654Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_chatgpt_q4_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Crosby Pet Center",
+        "Petco Grooming (Throggs Neck)"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Crosby Pet Center",
+        "Petco Grooming (Throggs Neck)"
+      ],
+      "note": "Recommended two Bronx dog groomers open today, neither of which was KingSpa NYC.",
+      "answerChars": 805
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "groomer good with anxious dogs Bronx, NY",
+      "askedAt": "2026-10-08T22:40:31.599Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_chatgpt_q5_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Lucky Dog Mobile Groomers",
+        "Rosie's Love 4 Paws",
+        "Jackelyn Home Grooming LLC",
+        "Xclusive Pets"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Lucky Dog Mobile Groomers",
+        "Rosie's Love 4 Paws",
+        "Jackelyn Home Grooming LLC",
+        "Xclusive Pets"
+      ],
+      "note": "Recommended four Bronx mobile/in-home groomers for anxious dogs and suggested the Fear Free directory, without mentioning KingSpa NYC.",
+      "answerChars": 1975
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "cat grooming Bronx, NY",
+      "askedAt": "2026-10-08T22:42:24.315Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_chatgpt_q6_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on finding cat groomers in the Bronx without naming any specific businesses, including KingSpa NYC.",
+      "answerChars": 1853
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "dog groomer taking new clients Bronx, NY",
+      "askedAt": "2026-10-08T22:44:09.733Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_chatgpt_q7_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Lucky Dog Mobile Groomers",
+        "Oh My Dog!",
+        "Petco Grooming"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Lucky Dog Mobile Groomers",
+        "Oh My Dog!",
+        "Petco Grooming"
+      ],
+      "note": "The answer recommended booking platforms and a few mobile/chain groomers serving the Bronx but never mentioned KingSpa NYC.",
+      "answerChars": 2015
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best dog groomer in Bronx, NY",
+      "askedAt": "2026-10-08T22:33:28.125Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_gemini_q1_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Golden Paws Spa & Grooming",
+        "Fieldston Pets - Bash Dibra",
+        "Petco Grooming"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Golden Paws Spa & Grooming",
+        "Fieldston Pets - Bash Dibra",
+        "Petco Grooming"
+      ],
+      "note": "Recommended three Bronx dog groomers (Golden Paws Spa, Fieldston Pets, Petco Grooming) without mentioning KingSpa NYC.",
+      "answerChars": 1737
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "dog grooming near me Bronx, NY",
+      "askedAt": "2026-10-08T22:33:51.053Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_gemini_q2_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "LUNA'S PAWS GROOMING",
+        "Golden Paws Spa & Grooming",
+        "Jackelyn Home Grooming LLC",
+        "KingSpa NYC",
+        "Dogstar Grooming"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "LUNA'S PAWS GROOMING",
+        "Golden Paws Spa & Grooming",
+        "Jackelyn Home Grooming LLC",
+        "Dogstar Grooming"
+      ],
+      "note": "Listed five Bronx dog grooming businesses including KingSpa NYC as the fourth option.",
+      "answerChars": 2150
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "mobile dog grooming Bronx, NY",
+      "askedAt": "2026-10-08T22:34:12.939Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_gemini_q3_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Xclusive Pets",
+        "Groomit",
+        "Rapawzel Mobile Pet Grooming",
+        "Fur Heroes"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Xclusive Pets",
+        "Groomit",
+        "Rapawzel Mobile Pet Grooming",
+        "Fur Heroes"
+      ],
+      "note": "Recommended four mobile dog grooming providers for the Bronx, none of which was KingSpa NYC.",
+      "answerChars": 1646
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "dog groomer open today Bronx, NY",
+      "askedAt": "2026-10-08T22:37:25.722Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_gemini_q4_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "LUNA'S PAWS GROOMING",
+        "Zoo-Rama Pet Shop",
+        "Groomit",
+        "House Pet Grooming and Trainer",
+        "Crosby Pet Center Inc"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "LUNA'S PAWS GROOMING",
+        "Zoo-Rama Pet Shop",
+        "Groomit",
+        "House Pet Grooming and Trainer",
+        "Crosby Pet Center Inc"
+      ],
+      "note": "Recommended five Bronx-area pet grooming businesses open today, none of which was KingSpa NYC.",
+      "answerChars": 1679
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "groomer good with anxious dogs Bronx, NY",
+      "askedAt": "2026-10-08T22:37:46.836Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_gemini_q5_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Petco Grooming",
+        "Groomit",
+        "Xclusive Pets",
+        "WigglyMonsters"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Petco Grooming",
+        "Groomit",
+        "Xclusive Pets",
+        "WigglyMonsters"
+      ],
+      "note": "Recommended Petco Grooming locations plus mobile/specialized groomers for anxious dogs, without mentioning KingSpa NYC.",
+      "answerChars": 1898
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "cat grooming Bronx, NY",
+      "askedAt": "2026-10-08T22:38:07.614Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_gemini_q6_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "LUNA'S PAWS GROOMING",
+        "Jackelyn Home Grooming LLC",
+        "KingSpa NYC",
+        "House Pet Grooming and Trainer",
+        "Xclusive Pets"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "LUNA'S PAWS GROOMING",
+        "Jackelyn Home Grooming LLC",
+        "House Pet Grooming and Trainer",
+        "Xclusive Pets"
+      ],
+      "note": "Listed five Bronx pet grooming businesses including the subject KingSpa NYC with hours, ratings, and contact details.",
+      "answerChars": 2517
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "dog groomer taking new clients Bronx, NY",
+      "askedAt": "2026-10-08T22:38:29.369Z",
+      "ok": true,
+      "screenshot": "screenshots/kingspa-nyc_gemini_q7_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "LUNA'S PAWS GROOMING",
+        "Xclusive Pets",
+        "Petco Grooming"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "LUNA'S PAWS GROOMING",
+        "Xclusive Pets",
+        "Petco Grooming"
+      ],
+      "note": "Recommended three Bronx dog groomers but did not mention KingSpa NYC at all.",
+      "answerChars": 1506
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best dog groomer in Bronx, NY",
+      "askedAt": "2026-10-08T22:33:28.125Z",
+      "ok": false,
+      "screenshot": "screenshots/kingspa-nyc_perplexity_q1_2026-10-08.jpg",
+      "error": "sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "dog grooming near me Bronx, NY",
+      "askedAt": "2026-10-08T22:33:47.773Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "mobile dog grooming Bronx, NY",
+      "askedAt": "2026-10-08T22:33:47.773Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "dog groomer open today Bronx, NY",
+      "askedAt": "2026-10-08T22:33:47.773Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "groomer good with anxious dogs Bronx, NY",
+      "askedAt": "2026-10-08T22:33:47.773Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "cat grooming Bronx, NY",
+      "askedAt": "2026-10-08T22:33:47.773Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "dog groomer taking new clients Bronx, NY",
+      "askedAt": "2026-10-08T22:33:47.773Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    }
+  ]
+}

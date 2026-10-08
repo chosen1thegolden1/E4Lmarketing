@@ -1,0 +1,425 @@
+{
+  "subject": "Smile First Family Dental",
+  "city": "Chicago, IL",
+  "niche": "dental",
+  "label": "Dental",
+  "date": "2026-10-08",
+  "startedAt": "2026-10-08T22:46:00.093Z",
+  "finishedAt": "2026-10-08T22:58:34.730Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "0/21",
+  "named": 0,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best dentist in Chicago, IL",
+      "askedAt": "2026-10-08T22:46:00.206Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_chatgpt_q1_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Northwestern Medicine Oral Health Center",
+        "Northwestern Dental Center"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Northwestern Medicine Oral Health Center",
+        "Northwestern Dental Center"
+      ],
+      "note": "Recommended two Northwestern-affiliated dental practices and a WebMD directory, without mentioning Smile First Family Dental.",
+      "answerChars": 1804
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "emergency dentist near Chicago, IL",
+      "askedAt": "2026-10-08T22:47:46.820Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_chatgpt_q2_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Windy City Family Dental",
+        "EmergencyDentalChicago.net",
+        "24hrdentist.com",
+        "UIC College of Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Windy City Family Dental",
+        "EmergencyDentalChicago.net",
+        "24hrdentist.com",
+        "UIC College of Dentistry"
+      ],
+      "note": "Recommended four other emergency dental options in Chicago and did not mention Smile First Family Dental.",
+      "answerChars": 1832
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "Chicago, IL dentist good with anxious patients",
+      "askedAt": "2026-10-08T22:49:33.839Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_chatgpt_q3_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "UIC College of Dentistry – Inclusive Care Clinic",
+        "Chicago Dental 312",
+        "Forward Dental Studio",
+        "Comfort Family Dental",
+        "Howard Brown Health",
+        "Cityview Dental Arts"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "UIC College of Dentistry – Inclusive Care Clinic",
+        "Chicago Dental 312",
+        "Forward Dental Studio",
+        "Comfort Family Dental",
+        "Howard Brown Health",
+        "Cityview Dental Arts"
+      ],
+      "note": "Recommended six Chicago-area dental practices/clinics for anxious patients, none of which was the audit subject.",
+      "answerChars": 3033
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "invisalign Chicago, IL",
+      "askedAt": "2026-10-08T22:51:23.508Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_chatgpt_q4_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on finding Invisalign providers in Chicago without naming any specific businesses, including the subject.",
+      "answerChars": 2303
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "best cosmetic dentist Chicago, IL",
+      "askedAt": "2026-10-08T22:53:10.694Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_chatgpt_q5_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Dr. Kevin Landers",
+        "Benjamin S. Fiss, DDS",
+        "Strobel Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dr. Kevin Landers",
+        "Benjamin S. Fiss, DDS",
+        "Strobel Dentistry"
+      ],
+      "note": "Recommended three Chicago cosmetic dentists plus general vetting advice, without mentioning Smile First Family Dental.",
+      "answerChars": 2974
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "dentist taking new patients Chicago, IL",
+      "askedAt": "2026-10-08T22:55:02.453Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_chatgpt_q6_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Howard Brown Health – Dental (63rd St.)",
+        "UIC College of Dentistry",
+        "Modern Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Howard Brown Health – Dental (63rd St.)",
+        "UIC College of Dentistry",
+        "Modern Dental"
+      ],
+      "note": "Recommended three specific Chicago dental practices plus directories like Zocdoc and Delta Dental, but did not mention Smile First Family Dental.",
+      "answerChars": 1707
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "pediatric dentist near Chicago, IL",
+      "askedAt": "2026-10-08T22:56:48.451Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_chatgpt_q7_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Lurie Children’s – Pediatric Dentistry",
+        "Dentistry for Children",
+        "Smile Squad Pediatric Dentistry",
+        "Hyde Park Pediatric Dentistry",
+        "Super Teeth Pediatric Dentistry",
+        "Pine Dental Care"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Lurie Children’s – Pediatric Dentistry",
+        "Dentistry for Children",
+        "Smile Squad Pediatric Dentistry",
+        "Hyde Park Pediatric Dentistry",
+        "Super Teeth Pediatric Dentistry",
+        "Pine Dental Care"
+      ],
+      "note": "Recommended six pediatric dental practices in and near Chicago plus a Zocdoc search tool, without mentioning the audit subject.",
+      "answerChars": 1721
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best dentist in Chicago, IL",
+      "askedAt": "2026-10-08T22:46:00.206Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_gemini_q1_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Mitchell Dental Spa",
+        "The Chicago Dental Studio, River North",
+        "DentalQ – South Loop"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Mitchell Dental Spa",
+        "The Chicago Dental Studio, River North",
+        "DentalQ – South Loop"
+      ],
+      "note": "Recommended three other Chicago dental practices without mentioning Smile First Family Dental.",
+      "answerChars": 2164
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "emergency dentist near Chicago, IL",
+      "askedAt": "2026-10-08T22:46:23.086Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_gemini_q2_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Dental Group of Chicago Family & Emergency Dentistry",
+        "Augusta Dental Center",
+        "Trusted Dental Chicago",
+        "1800 Emergency Dentist 24 Hour",
+        "Emergency Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dental Group of Chicago Family & Emergency Dentistry",
+        "Augusta Dental Center",
+        "Trusted Dental Chicago",
+        "1800 Emergency Dentist 24 Hour",
+        "Emergency Dentistry"
+      ],
+      "note": "Recommended 5 other Chicago emergency dental clinics and did not mention Smile First Family Dental at all.",
+      "answerChars": 2517
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "Chicago, IL dentist good with anxious patients",
+      "askedAt": "2026-10-08T22:46:45.579Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_gemini_q3_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Marcus Dental Practice",
+        "Smile Science Chicago",
+        "Belmont Dental Care",
+        "Wrigleyville Dental",
+        "Sloop Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Marcus Dental Practice",
+        "Smile Science Chicago",
+        "Belmont Dental Care",
+        "Wrigleyville Dental",
+        "Sloop Dental"
+      ],
+      "note": "Recommended 5 other Chicago dental practices known for anxiety-friendly care, omitting Smile First Family Dental entirely.",
+      "answerChars": 3141
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "invisalign Chicago, IL",
+      "askedAt": "2026-10-08T22:47:09.763Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_gemini_q4_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "ORA Dental Studio",
+        "The Chicago Dental Studio",
+        "Wicker Park Orthodontics",
+        "North Ave Braces",
+        "Ganger Family Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ORA Dental Studio",
+        "The Chicago Dental Studio",
+        "Wicker Park Orthodontics",
+        "North Ave Braces",
+        "Ganger Family Dentistry"
+      ],
+      "note": "Named five competing Chicago Invisalign providers and gave general cost/tips guidance without mentioning Smile First Family Dental.",
+      "answerChars": 2848
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "best cosmetic dentist Chicago, IL",
+      "askedAt": "2026-10-08T22:47:32.441Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_gemini_q5_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Mitchell Dental Spa",
+        "The Chicago Dental Studio, River North",
+        "Enamel Dental Studio",
+        "Smile Science Chicago"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Mitchell Dental Spa",
+        "The Chicago Dental Studio, River North",
+        "Enamel Dental Studio",
+        "Smile Science Chicago"
+      ],
+      "note": "Recommended four other Chicago cosmetic dental practices and did not mention Smile First Family Dental.",
+      "answerChars": 3104
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "dentist taking new patients Chicago, IL",
+      "askedAt": "2026-10-08T22:47:55.507Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_gemini_q6_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "First Dental Center",
+        "Dental Group of Chicago Family & Emergency Dentistry",
+        "Lakeview Dental Arts",
+        "Miswak Dentistry",
+        "The Chicago Dental Studio Mayfair"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "First Dental Center",
+        "Dental Group of Chicago Family & Emergency Dentistry",
+        "Lakeview Dental Arts",
+        "Miswak Dentistry",
+        "The Chicago Dental Studio Mayfair"
+      ],
+      "note": "Recommended five Chicago dental practices, none of which was the audit subject, Smile First Family Dental.",
+      "answerChars": 2938
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "pediatric dentist near Chicago, IL",
+      "askedAt": "2026-10-08T22:48:18.088Z",
+      "ok": true,
+      "screenshot": "screenshots/smile-first-family-dental_gemini_q7_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Chicago Pediatric Dentistry & Orthodontics",
+        "Pediatric Dental Health Associates",
+        "Little Chompers Pediatric Dentistry",
+        "Children's Dental World",
+        "Smile Squad Pediatric Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Chicago Pediatric Dentistry & Orthodontics",
+        "Pediatric Dental Health Associates",
+        "Little Chompers Pediatric Dentistry",
+        "Children's Dental World",
+        "Smile Squad Pediatric Dentistry"
+      ],
+      "note": "Recommended 5 other pediatric dental practices in Chicago without mentioning Smile First Family Dental.",
+      "answerChars": 2578
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best dentist in Chicago, IL",
+      "askedAt": "2026-10-08T22:46:00.206Z",
+      "ok": false,
+      "screenshot": "screenshots/smile-first-family-dental_perplexity_q1_2026-10-08.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "emergency dentist near Chicago, IL",
+      "askedAt": "2026-10-08T22:47:08.713Z",
+      "ok": false,
+      "screenshot": "screenshots/smile-first-family-dental_perplexity_q2_2026-10-08.jpg",
+      "error": "sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "Chicago, IL dentist good with anxious patients",
+      "askedAt": "2026-10-08T22:47:28.789Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "invisalign Chicago, IL",
+      "askedAt": "2026-10-08T22:47:28.789Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "best cosmetic dentist Chicago, IL",
+      "askedAt": "2026-10-08T22:47:28.789Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "dentist taking new patients Chicago, IL",
+      "askedAt": "2026-10-08T22:47:28.789Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "pediatric dentist near Chicago, IL",
+      "askedAt": "2026-10-08T22:47:28.789Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    }
+  ]
+}

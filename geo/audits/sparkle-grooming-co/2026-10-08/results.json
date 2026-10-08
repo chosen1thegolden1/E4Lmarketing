@@ -1,0 +1,466 @@
+{
+  "subject": "Sparkle Grooming Co.",
+  "city": "Gilbert, AZ",
+  "niche": "pet-grooming",
+  "label": "Pet Grooming",
+  "date": "2026-10-08",
+  "startedAt": "2026-10-08T22:20:56.212Z",
+  "finishedAt": "2026-10-08T22:33:27.700Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+  ],
+  "score": "3/21",
+  "named": 3,
+  "total": 21,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best dog groomer in Gilbert, AZ",
+      "askedAt": "2026-10-08T22:20:56.306Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_chatgpt_q1_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Pretty Paws Dog Grooming",
+        "Gordie's Grooming",
+        "Doggy Daze – Gilbert Dog Grooming",
+        "Aardbark Grooming",
+        "Barkbus"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Pretty Paws Dog Grooming",
+        "Gordie's Grooming",
+        "Doggy Daze – Gilbert Dog Grooming",
+        "Aardbark Grooming",
+        "Barkbus"
+      ],
+      "note": "Recommended five named competitor groomers (salons and mobile) in Gilbert, AZ but did not mention Sparkle Grooming Co.",
+      "answerChars": 1668
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "dog grooming near me Gilbert, AZ",
+      "askedAt": "2026-10-08T22:22:42.900Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_chatgpt_q2_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Gordie’s Grooming",
+        "Aardbark Dog & Cat Grooming",
+        "Petco Grooming",
+        "PetSmart Grooming",
+        "AZ Pet Stylist",
+        "Soft Coats Mobile Grooming",
+        "Waggin’ Tails Dog Wash"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Gordie’s Grooming",
+        "Aardbark Dog & Cat Grooming",
+        "Petco Grooming",
+        "PetSmart Grooming",
+        "AZ Pet Stylist",
+        "Soft Coats Mobile Grooming",
+        "Waggin’ Tails Dog Wash"
+      ],
+      "note": "Recommended 7 local grooming options (salons, mobile, self-serve) in Gilbert, AZ but did not mention Sparkle Grooming Co.",
+      "answerChars": 1653
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "mobile dog grooming Gilbert, AZ",
+      "askedAt": "2026-10-08T22:24:35.210Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_chatgpt_q3_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Soft Coats Mobile Grooming",
+        "AZ Pet Stylist",
+        "Lucky Dog Mobile Groomers",
+        "The Wag Mobile Dog Salon",
+        "Prickly Pup Spa",
+        "ZoomGroom Mobile Pet Grooming"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Soft Coats Mobile Grooming",
+        "AZ Pet Stylist",
+        "Lucky Dog Mobile Groomers",
+        "The Wag Mobile Dog Salon",
+        "Prickly Pup Spa",
+        "ZoomGroom Mobile Pet Grooming"
+      ],
+      "note": "Recommended six competing mobile dog groomers serving Gilbert, AZ but did not mention Sparkle Grooming Co.",
+      "answerChars": 1249
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "dog groomer open today Gilbert, AZ",
+      "askedAt": "2026-10-08T22:26:18.837Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_chatgpt_q4_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "PetSmart Grooming (Gilbert)",
+        "Desert Dogs Mobile Grooming",
+        "AZ Pet Stylist",
+        "Soft Coats Mobile Grooming"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "PetSmart Grooming (Gilbert)",
+        "Desert Dogs Mobile Grooming",
+        "AZ Pet Stylist",
+        "Soft Coats Mobile Grooming"
+      ],
+      "note": "Recommended four other groomers open in Gilbert, AZ but did not mention Sparkle Grooming Co.",
+      "answerChars": 1441
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "groomer good with anxious dogs Gilbert, AZ",
+      "askedAt": "2026-10-08T22:28:04.360Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_chatgpt_q5_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "AZ Pet Stylist",
+        "Soft Coats Mobile Grooming",
+        "Paws R Us In-Home Mobile Grooming",
+        "Desert Dogs Mobile Grooming",
+        "Diamond Dogs Mobile Grooming",
+        "The Wag Mobile Dog Salon",
+        "Zoomin Groomin"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "AZ Pet Stylist",
+        "Soft Coats Mobile Grooming",
+        "Paws R Us In-Home Mobile Grooming",
+        "Desert Dogs Mobile Grooming",
+        "Diamond Dogs Mobile Grooming",
+        "The Wag Mobile Dog Salon",
+        "Zoomin Groomin"
+      ],
+      "note": "Recommended 7 mobile/in-home groomers in the Gilbert, AZ area for anxious dogs, none of which was Sparkle Grooming Co.",
+      "answerChars": 2468
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "cat grooming Gilbert, AZ",
+      "askedAt": "2026-10-08T22:29:54.330Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_chatgpt_q6_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Furry Beginnings Pet Grooming",
+        "Market Street Pet Place",
+        "AZ Pet Stylist",
+        "Soft Coats Mobile Grooming",
+        "Pawgo",
+        "PetSmart Grooming",
+        "Petco"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Furry Beginnings Pet Grooming",
+        "Market Street Pet Place",
+        "AZ Pet Stylist",
+        "Soft Coats Mobile Grooming",
+        "Pawgo",
+        "PetSmart Grooming",
+        "Petco"
+      ],
+      "note": "Listed seven cat grooming options in Gilbert, AZ (salons, mobile groomers, big-box stores) but did not mention Sparkle Grooming Co.",
+      "answerChars": 2112
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "dog groomer taking new clients Gilbert, AZ",
+      "askedAt": "2026-10-08T22:31:40.545Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_chatgpt_q7_2026-10-08.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Diamond Dogs Mobile Grooming",
+        "AZ Pet Stylist",
+        "Desert Dogs Mobile Grooming",
+        "Woofie's of Gilbert",
+        "Lucky Dog Mobile Groomers",
+        "The Wag Mobile Dog Salon",
+        "Pretty Paws Dog Grooming",
+        "PetSmart Grooming"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Diamond Dogs Mobile Grooming",
+        "AZ Pet Stylist",
+        "Desert Dogs Mobile Grooming",
+        "Woofie's of Gilbert",
+        "Lucky Dog Mobile Groomers",
+        "The Wag Mobile Dog Salon",
+        "Pretty Paws Dog Grooming",
+        "PetSmart Grooming"
+      ],
+      "note": "Recommended 8 other Gilbert-area dog groomers (mobile and in-salon) without mentioning Sparkle Grooming Co.",
+      "answerChars": 2130
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best dog groomer in Gilbert, AZ",
+      "askedAt": "2026-10-08T22:20:56.307Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_gemini_q1_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Sparkle Grooming Co.",
+        "Doggy Daze - Gilbert Dog Grooming",
+        "Paw Commons Pet Resort & Training Center - Gilbert"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Doggy Daze - Gilbert Dog Grooming",
+        "Paw Commons Pet Resort & Training Center - Gilbert"
+      ],
+      "note": "Listed three Gilbert dog groomers including the subject, Sparkle Grooming Co., alongside two competitors with brief descriptions.",
+      "answerChars": 2027
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "dog grooming near me Gilbert, AZ",
+      "askedAt": "2026-10-08T22:21:19.651Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_gemini_q2_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Doggy Daze - Gilbert Dog Grooming",
+        "Furry Beginnings Gilbert Pet Groomer",
+        "Pretty Paws Dog Grooming",
+        "Gordie's Grooming",
+        "Waggin' Tails Dog Wash"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Doggy Daze - Gilbert Dog Grooming",
+        "Furry Beginnings Gilbert Pet Groomer",
+        "Pretty Paws Dog Grooming",
+        "Gordie's Grooming",
+        "Waggin' Tails Dog Wash"
+      ],
+      "note": "Recommended 5 local dog groomers in Gilbert, AZ, none of which was Sparkle Grooming Co.",
+      "answerChars": 2069
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "mobile dog grooming Gilbert, AZ",
+      "askedAt": "2026-10-08T22:21:41.620Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_gemini_q3_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Paws R Us In-home Mobile Grooming",
+        "Desert Dog Spa Mobile",
+        "Soft Coats Mobile Grooming",
+        "Paws of Fame Mobile Dog Grooming",
+        "Sunny Days Mobile Grooming"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Paws R Us In-home Mobile Grooming",
+        "Desert Dog Spa Mobile",
+        "Soft Coats Mobile Grooming",
+        "Paws of Fame Mobile Dog Grooming",
+        "Sunny Days Mobile Grooming"
+      ],
+      "note": "Recommended five competing mobile dog groomers in the Gilbert, AZ area but never mentioned Sparkle Grooming Co.",
+      "answerChars": 2507
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "dog groomer open today Gilbert, AZ",
+      "askedAt": "2026-10-08T22:22:05.983Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_gemini_q4_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Doggy Daze - Gilbert Dog Grooming",
+        "Furry Beginnings Gilbert Pet Groomer",
+        "Pretty Paws Dog Grooming",
+        "Fancy Paws Pet Salon",
+        "Gordie’s Grooming"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Doggy Daze - Gilbert Dog Grooming",
+        "Furry Beginnings Gilbert Pet Groomer",
+        "Pretty Paws Dog Grooming",
+        "Fancy Paws Pet Salon",
+        "Gordie’s Grooming"
+      ],
+      "note": "Recommended five competing Gilbert, AZ dog groomers currently open, without mentioning Sparkle Grooming Co.",
+      "answerChars": 1916
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "groomer good with anxious dogs Gilbert, AZ",
+      "askedAt": "2026-10-08T22:25:18.581Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_gemini_q5_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Furry Beginnings Gilbert Pet Groomer",
+        "Sparkle Grooming Co.",
+        "AZ Pet Stylist",
+        "Paws R Us In-Home Mobile Grooming"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Furry Beginnings Gilbert Pet Groomer",
+        "AZ Pet Stylist",
+        "Paws R Us In-Home Mobile Grooming"
+      ],
+      "note": "Recommended four groomers for anxious dogs, including the subject, with detailed praise and alternative mobile options.",
+      "answerChars": 2286
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "cat grooming Gilbert, AZ",
+      "askedAt": "2026-10-08T22:28:34.506Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_gemini_q6_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "The Meow Mobile",
+        "Soft Coats Mobile Grooming",
+        "The Art of Grooming",
+        "Zoomin Groomin",
+        "Market Street Pet Place",
+        "PetSmart Grooming Salon"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "The Meow Mobile",
+        "Soft Coats Mobile Grooming",
+        "The Art of Grooming",
+        "Zoomin Groomin",
+        "Market Street Pet Place",
+        "PetSmart Grooming Salon"
+      ],
+      "note": "Recommended six competitor cat groomers/salons in Gilbert, AZ without mentioning Sparkle Grooming Co.",
+      "answerChars": 2648
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "dog groomer taking new clients Gilbert, AZ",
+      "askedAt": "2026-10-08T22:28:56.878Z",
+      "ok": true,
+      "screenshot": "screenshots/sparkle-grooming-co_gemini_q7_2026-10-08.jpg",
+      "answered": true,
+      "businesses": [
+        "Sparkle Grooming Co.",
+        "Doggy Daze - Gilbert Dog Grooming",
+        "Paw Commons Pet Resort & Training Center - Gilbert",
+        "Petco Grooming",
+        "Pretty Paws Dog Grooming"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Doggy Daze - Gilbert Dog Grooming",
+        "Paw Commons Pet Resort & Training Center - Gilbert",
+        "Petco Grooming",
+        "Pretty Paws Dog Grooming"
+      ],
+      "note": "Listed Sparkle Grooming Co. alongside four competitor groomers in Gilbert, AZ with brief descriptions of each.",
+      "answerChars": 2800
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best dog groomer in Gilbert, AZ",
+      "askedAt": "2026-10-08T22:20:56.307Z",
+      "ok": false,
+      "screenshot": "screenshots/sparkle-grooming-co_perplexity_q1_2026-10-08.jpg",
+      "error": "sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "dog grooming near me Gilbert, AZ",
+      "askedAt": "2026-10-08T22:23:39.734Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "mobile dog grooming Gilbert, AZ",
+      "askedAt": "2026-10-08T22:23:39.734Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "dog groomer open today Gilbert, AZ",
+      "askedAt": "2026-10-08T22:23:39.734Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "groomer good with anxious dogs Gilbert, AZ",
+      "askedAt": "2026-10-08T22:23:39.734Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "cat grooming Gilbert, AZ",
+      "askedAt": "2026-10-08T22:23:39.734Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "dog groomer taking new clients Gilbert, AZ",
+      "askedAt": "2026-10-08T22:23:39.734Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall"
+    }
+  ]
+}
