@@ -35,6 +35,9 @@ CONFIG = {
     "SCORECARD_URL": "/scorecard",
     "SCHOOL_URL": "https://eat4lifemarketing.com",
     "EMAIL": "chosen1@gsgagency.com",
+    # Malik the chat agent (ElevenLabs Conversational AI). The widget loads on
+    # every page when this is set; leave it empty to ship the site without it.
+    "ELEVENLABS_AGENT_ID": "agent_3601m4czfzgrf8b9cnynhjzjqj8g",
     "SITE_NAME": "Eat 4 Life Marketing",
     # Show "from $X" floors on the site. Set to false to hide every dollar
     # figure and keep pricing on the Game Plan Call only.
@@ -130,6 +133,8 @@ def build():
             ctx.update({"ASSET": asset_base, "TITLE": title, "TARGET": target, "FAQ_ITEMS": faq_html(),
                         "SHARED_CSS": css, "SHARED_JS": js,
                         "CONFIG_JSON": json.dumps({k: v for k, v in CONFIG.items()}),
+                        # the hosted artifact preview blocks third-party scripts, so no widget there
+                        "MALIK_CHAT": CONFIG["ELEVENLABS_AGENT_ID"] if target != "artifact" else "",
                         "ACTIVE_" + src.split(".")[0].upper(): "is-active"})
             for p in PAGES:
                 ctx.setdefault("ACTIVE_" + p[0].split(".")[0].upper(), "")
