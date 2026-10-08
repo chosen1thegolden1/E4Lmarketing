@@ -1,0 +1,15 @@
+{
+  "niche": "pet-grooming",
+  "label": "Pet Grooming",
+  "placeholders": ["city"],
+  "source": "home-services pattern, adapted for pet grooming (buying intent differs from veterinary: owners pick a groomer on availability and temperament, not on medical need)",
+  "questions": [
+    "best dog groomer in [city]",
+    "dog grooming near me [city]",
+    "mobile dog grooming [city]",
+    "dog groomer open today [city]",
+    "groomer good with anxious dogs [city]",
+    "cat grooming [city]",
+    "dog groomer taking new clients [city]"
+  ]
+}
