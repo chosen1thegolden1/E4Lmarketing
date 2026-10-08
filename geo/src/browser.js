@@ -210,7 +210,7 @@ const PLATFORMS = {
       await page.keyboard.press('Enter');
       await page.waitForTimeout(5000);
       await killGoogleOneTap(page);
-           const text = await waitStable(page, 'main', { minChars: 200 });
+      const text = await waitStable(page, 'main', { minChars: 200 });
       const loginWall =
         /continue with (google|apple|email)|sign up|log in|sign in|create (an )?account|anmelden|registrieren|mit google fortfahren/i;
       if (/login|signin|accounts\.google\.com/i.test(page.url()) || (text.length < 800 && loginWall.test(text))) {
@@ -233,6 +233,15 @@ export async function askQuestion(browser, platformKey, question, screenshotPath
     const { ctx, page } = await freshPage(browser);
     try {
       const answer = await platform.ask(page, question, { lastAttempt: attempt === retries });
+      // A bot interstitial can be served *after* the question is submitted,
+      // which the adapters' pre-submit check never sees. Perplexity did
+      // exactly this on 2026-10-08: a Cloudflare "verify you are human" page
+      // came back as the answer text, and would have been scored as "the
+      // business was not mentioned" — a false miss, evidenced by a
+      // screenshot of a verification box. Re-check before accepting an
+      // answer; "bot challenge" trips isPlatformUnavailable, so the platform
+      // is marked unavailable for the run instead of silently scoring zeros.
+      await assertNotBlocked(page);
       const answerText = typeof answer === 'string' ? answer : answer.text;
       const via = typeof answer === 'string' ? 'ui' : answer.via;
       await page
