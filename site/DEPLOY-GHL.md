@@ -144,8 +144,8 @@ find-and-replace for the image base URL. It works, it's just more typing.)
 
 ## 7. Malik chat agent (ElevenLabs) — do this last
 
-Malik also lives in a chat bubble on every page. He is an ElevenLabs
-Conversational AI agent; the site only carries a two-line embed, so nothing
+Malik also lives in a chat bubble on every page. He is a text-only
+chatbot built as an ElevenLabs agent; the site only carries a two-line embed, so nothing
 here changes when his answers change. He answers questions from a knowledge
 base built from the site copy, the FAQ, and the price sheet, and he hands
 leads to GHL through one webhook. Until that webhook is wired he still
@@ -210,9 +210,9 @@ Setting it to `""` removes the bubble from every page.
 
 **Step 5. Test (5 minutes).** On the live site:
 
-1. Open the bubble. The first line is Malik's. Switch to text (the keyboard
-   icon) and ask "what's the difference between systems and creative". He
-   keeps them separate and ends with one next step.
+1. Open the bubble. The first line is Malik's. Type "what's the difference
+   between systems and creative". He keeps them separate and ends with one
+   next step. There is no call button and no mic: Malik is text only.
 2. Say "I want the free audit". He asks for business, city, trade, name and
    email. Give test values and a real email. He says "Locked in." The contact
    appears in E4L Services with `cs-malik-lead` and `cs-audit-request`, in
@@ -224,8 +224,9 @@ Setting it to `""` removes the bubble from every page.
 If anything in 2 fails, check the tool URL (step 2) first, then the
 workflow's trigger is published.
 
-**Costs to know.** Each chat uses ElevenLabs minutes on the agency's plan
-(text chats are cheaper than voice). The agent's conversation log in
+**Costs to know.** Malik is text only (the agent's *Text only* setting is
+on), so chats are billed at the text rate and never as voice minutes. Keep it
+that way. The agent's conversation log in
 ElevenLabs → Agents → Malik → *Conversations* shows every chat and whether
 `capture_lead` fired, which is the first place to look when a lead is missing.
 
