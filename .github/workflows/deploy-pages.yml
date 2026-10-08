@@ -4,8 +4,12 @@ on:
   push:
     branches:
       - claude/build-eat4life-website-01V86jRtpmdCuFxu3he73xcf
+      - claude/keen-einstein-ik9e5s
+      - main
     paths:
       - "voice-ai-demo-builder/demos/**"
+      - "site/**"
+      - "assets/**"
   workflow_dispatch:
 
 permissions:
@@ -32,6 +36,11 @@ jobs:
         run: |
           mkdir -p _site
           rsync -a --exclude registry.json --exclude data.json --exclude processed-submissions.json voice-ai-demo-builder/demos/ _site/
+          # Marketing site preview + the Malik / brand images the GHL pages load
+          mkdir -p _site/site _site/assets
+          python3 site/build.py
+          rsync -a site/dist/preview/ _site/site/
+          rsync -a assets/ _site/assets/
 
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,0 +1,66 @@
+/* E4L site behaviour: nav, Malik, Ask Malik, forms, calendar links. */
+(function(){
+  var root=document.querySelector('.e4l'); if(!root) return;
+  var C=window.E4L_CONFIG||{};
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* mobile nav */
+  var burger=root.querySelector('.burger'), menu=root.querySelector('.nav ul');
+  if(burger&&menu){burger.addEventListener('click',function(){var o=menu.classList.toggle('open');burger.setAttribute('aria-expanded',o?'true':'false');});}
+
+  /* calendar + email links */
+  root.querySelectorAll('[data-cal]').forEach(function(a){ if(C.CALENDAR_URL){a.href=C.CALENDAR_URL;a.target='_blank';a.rel='noopener';} });
+  root.querySelectorAll('[data-email]').forEach(function(a){ if(C.EMAIL){a.href='mailto:'+C.EMAIL;a.textContent=a.textContent.trim()||C.EMAIL;} });
+  root.querySelectorAll('[data-school]').forEach(function(a){ if(C.SCHOOL_URL){a.href=C.SCHOOL_URL;} });
+  root.querySelectorAll('[data-scorecard]').forEach(function(a){ if(C.SCORECARD_URL){a.href=C.SCORECARD_URL;} });
+
+  /* Malik: reveal on scroll, say a line when he arrives, say lines on hover */
+  var maliks=root.querySelectorAll('.malik');
+  function talk(m,ms){ m.classList.add('talk'); clearTimeout(m._t); m._t=setTimeout(function(){m.classList.remove('talk');},ms||3200); }
+  if('IntersectionObserver' in window && !reduce){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); if(e.target.dataset.greet!=='no') setTimeout(function(){talk(e.target,3600);},500); io.unobserve(e.target);} });},{threshold:.35});
+    maliks.forEach(function(m){io.observe(m);});
+  } else { maliks.forEach(function(m){m.classList.add('in');}); }
+  maliks.forEach(function(m){ m.addEventListener('click',function(){talk(m,3000);}); });
+  /* safety net: never leave Malik hidden if the observer never fires */
+  setTimeout(function(){ maliks.forEach(function(m){m.classList.add('in');}); },1500);
+
+  /* Ask Malik glossary */
+  var ask=root.querySelector('[data-ask]');
+  if(ask){
+    var terms=JSON.parse(ask.querySelector('script[type="application/json"]').textContent);
+    var chips=ask.querySelector('.chips'), out=ask.querySelector('.answer'), side=ask.querySelector('.malik');
+    Object.keys(terms).forEach(function(k,i){
+      var b=document.createElement('button'); b.type='button'; b.className='chip'+(i===0?' on':''); b.textContent=k; b.setAttribute('aria-pressed',i===0?'true':'false');
+      b.addEventListener('click',function(){ show(k); chips.querySelectorAll('.chip').forEach(function(c){c.classList.remove('on');c.setAttribute('aria-pressed','false');}); b.classList.add('on'); b.setAttribute('aria-pressed','true'); });
+      chips.appendChild(b);
+    });
+    function show(k){ var t=terms[k]; out.innerHTML='<div class="term">'+k+'</div><div class="plain">'+t.plain+'</div><div class="so"><b>Why you care:</b> '+t.so+'</div>'; if(side){ var s=side.querySelector('.say'); if(s){s.textContent=t.say||'Say less.';} talk(side,2600);} }
+    show(Object.keys(terms)[0]);
+  }
+
+  /* forms -> GHL inbound webhook */
+  root.querySelectorAll('form[data-webhook]').forEach(function(f){
+    f.addEventListener('submit',function(ev){
+      ev.preventDefault();
+      var msg=f.querySelector('.msg'), btn=f.querySelector('button[type="submit"]');
+      var url=C[f.dataset.webhook]||'';
+      var data={}; new FormData(f).forEach(function(v,k){data[k]=v;});
+      data.source=f.dataset.source||'website'; data.page=location.pathname; data.submitted_at=new Date().toISOString();
+      if(!data.email||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(data.email)){ msg.className='msg err'; msg.textContent='Add a real email so we can send it to you.'; return; }
+      if(!url){ msg.className='msg err'; msg.textContent='This form is not wired yet (webhook URL missing). Email us instead: '+(C.EMAIL||''); return; }
+      btn.disabled=true; var old=btn.textContent; btn.textContent='Sending…';
+      fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+        .then(function(r){ if(!r.ok) throw new Error(r.status); msg.className='msg ok'; msg.textContent=f.dataset.ok||'Got it. Check your inbox.'; f.reset(); var m=f.closest('section')&&f.closest('section').querySelector('.malik'); if(m){var s=m.querySelector('.say'); if(s) s.textContent='Locked in.'; talk(m,3000);} if(f.dataset.next){ setTimeout(function(){location.href=f.dataset.next;},900); } })
+        .catch(function(){ msg.className='msg err'; msg.textContent='That didn\'t go through. Try again or email '+(C.EMAIL||'us')+'.'; })
+        .finally(function(){ btn.disabled=false; btn.textContent=old; });
+    });
+  });
+
+  /* booking embed */
+  var emb=root.querySelector('[data-cal-embed]');
+  if(emb){ if(C.CALENDAR_EMBED_URL){ var fr=document.createElement('iframe'); fr.src=C.CALENDAR_EMBED_URL; fr.title='Book a Game Plan Call'; fr.setAttribute('loading','lazy'); emb.innerHTML=''; emb.appendChild(fr); } }
+
+  /* year */
+  root.querySelectorAll('[data-year]').forEach(function(e){e.textContent=new Date().getFullYear();});
+})();
