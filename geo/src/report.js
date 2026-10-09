@@ -26,7 +26,7 @@ const esc = (s) =>
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 
-const PLATFORM_LABELS = { chatgpt: 'ChatGPT', gemini: 'Gemini', perplexity: 'Perplexity' };
+const PLATFORM_LABELS = { chatgpt: 'ChatGPT', gemini: 'Gemini', perplexity: 'Perplexity', claude: 'Claude' };
 const label = (p) => PLATFORM_LABELS[p] || p;
 
 const slugArg = process.argv[2];
@@ -312,6 +312,9 @@ ${proof.length ? `
     })()}${(() => {
       const api = rows.filter((r) => r.via === 'api' && r.platform === 'perplexity').length;
       return api ? `<li>${api} Perplexity answer(s) captured via the Perplexity API (fresh stateless sessions; perplexity.ai blocked the logged-out browser) — their screenshots are labeled evidence cards.</li>` : '';
+    })()}${(() => {
+      const api = rows.filter((r) => r.via === 'api' && r.platform === 'claude').length;
+      return api ? `<li>${api} Claude answer(s) captured via the Anthropic API with web search (fresh stateless sessions; claude.ai has no logged-out mode) — their screenshots are labeled evidence cards.</li>` : '';
     })()}
     <li>Next action: ${esc(nextAction)}.</li>
     <li>Full per-question log: <code>results.json</code> · every screenshot: <code>screenshots/</code>.</li>

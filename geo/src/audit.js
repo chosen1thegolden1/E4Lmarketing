@@ -5,14 +5,14 @@
 //
 //   --trade=X       fill [trade] (generic home-services template)
 //   --problem=X     fill [problem] (generic home-services template)
-//   --platforms=a,b limit platforms (default: chatgpt,gemini,perplexity)
+//   --platforms=a,b limit platforms (default: chatgpt,gemini,perplexity,claude)
 //   --ghl-email=X   also write the score to this contact's cs_geo_score
 //   --out=DIR       output root (default: geo/audits)
 //
 // Per question, per platform (fresh logged-out session, no history):
 // ask → capture answer text + screenshot → analyze (businesses named, in
 // order; subject named Y/N; competitors). Output: results.json + summary.md
-// + screenshots/, score X/21. GHL cs_geo_score written only when wired and
+// + screenshots/, score X/28. GHL cs_geo_score written only when wired and
 // an email is given — the audit never blocks on GHL.
 
 import fs from 'node:fs/promises';
@@ -204,6 +204,9 @@ ${(() => {
 })()}${(() => {
   const api = results.filter((r) => r.via === 'api' && r.platform === 'perplexity').length;
   return api ? `\n${api} Perplexity answer(s) captured via the Perplexity API (fresh stateless sessions) because perplexity.ai blocked the logged-out browser — evidence cards are labeled accordingly.` : '';
+})()}${(() => {
+  const api = results.filter((r) => r.via === 'api' && r.platform === 'claude').length;
+  return api ? `\n${api} Claude answer(s) captured via the Anthropic API with web search (fresh stateless sessions) because claude.ai has no logged-out mode — evidence cards are labeled accordingly.` : '';
 })()}
 ${failed.length ? `\n${failed.length} of ${total} asks failed (${[...new Set(failed.map((f) => platformLabel(f.platform)))].join(', ')}) — details in results.json.` : '\nAll asks completed.'}${(() => {
   const walls = [...new Set(results.filter((r) => r.skipped).map((r) => `${platformLabel(r.platform)} — ${r.error.replace('platform unavailable this run: ', '')}`))];
