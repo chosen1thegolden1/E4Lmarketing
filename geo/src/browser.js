@@ -15,6 +15,7 @@ import { chromium } from 'playwright';
 import { existsSync } from 'node:fs';
 import { askChatGptApi, evidenceCardHtml } from './chatgpt-api.js';
 import { askPerplexityApi, perplexityEvidenceCardHtml } from './perplexity-api.js';
+import { askClaudeApi, claudeEvidenceCardHtml } from './claude-api.js';
 
 // Prefer an explicitly provided binary, then the container's pre-installed
 // Chromium (its version may not match this Playwright's registry), then
@@ -241,6 +242,18 @@ const PLATFORMS = {
         throw new Error('sign-in required — Perplexity login wall');
       }
       return text;
+    },
+  },
+  claude: {
+    label: 'Claude',
+    // claude.ai has no logged-out mode, so there is no consumer page to
+    // open. Claude is always asked through the Anthropic API with web
+    // search on, and the screenshot is a labeled evidence card.
+    async ask(page, question) {
+      const { text, model, webSearch } = await askClaudeApi(question);
+      await page.setContent(claudeEvidenceCardHtml({ question, answerText: text, model, webSearch }));
+      await page.waitForTimeout(300);
+      return { text, via: 'api' };
     },
   },
 };
