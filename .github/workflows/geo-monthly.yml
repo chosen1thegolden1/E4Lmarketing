@@ -52,6 +52,7 @@ jobs:
           GHL_API_TOKEN: ${{ secrets.GHL_API_TOKEN }}
           GHL_LOCATION_ID: ${{ secrets.GHL_LOCATION_ID }}
           OPENAI_API_KEY: ${{ secrets.OPEN_API_KEY }}
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
         run: node src/run-roster.js ${{ github.event_name == 'push' && '--new-only' || '' }} | tee roster-run.log
 
       - name: Commit evidence
