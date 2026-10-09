@@ -14,6 +14,7 @@
 import { chromium } from 'playwright';
 import { existsSync } from 'node:fs';
 import { askChatGptApi, evidenceCardHtml } from './chatgpt-api.js';
+import { askPerplexityApi, perplexityEvidenceCardHtml } from './perplexity-api.js';
 
 // Prefer an explicitly provided binary, then the container's pre-installed
 // Chromium (its version may not match this Playwright's registry), then
@@ -191,7 +192,30 @@ const PLATFORMS = {
   },
   perplexity: {
     label: 'Perplexity',
-    async ask(page, question) {
+    async ask(page, question, { lastAttempt = true } = {}) {
+      try {
+        const text = await this.askUi(page, question);
+        // Perplexity can serve its bot interstitial after the question is
+        // submitted. Check here, inside the try, so that wall reaches the
+        // API fallback below instead of only failing the ask.
+        await assertNotBlocked(page);
+        return text;
+      } catch (err) {
+        // Same rule as ChatGPT: once the consumer site is walled or out of
+        // retries, ask via the API and render a labeled evidence card for
+        // the screenshot. Never disguised as a perplexity.ai capture.
+        if ((isPlatformUnavailable(err.message) || lastAttempt) && process.env.PERPLEXITY_API_KEY) {
+          const { text, model } = await askPerplexityApi(question).catch((apiErr) => {
+            throw new Error(`${err.message}; API fallback failed: ${apiErr.message}`);
+          });
+          await page.setContent(perplexityEvidenceCardHtml({ question, answerText: text, model }));
+          await page.waitForTimeout(300);
+          return { text, via: 'api' };
+        }
+        throw err;
+      }
+    },
+    async askUi(page, question) {
       await page.goto('https://www.perplexity.ai/', { waitUntil: 'domcontentloaded', timeout: 60000 });
       await page.waitForTimeout(5000);
       await assertNotBlocked(page);
