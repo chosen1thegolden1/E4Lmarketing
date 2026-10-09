@@ -54,6 +54,7 @@ Malik is Eat 4 Life Marketing's animated mascot and the site's AI guide. He is a
 | Role | Your AI Guide. The one who handles it. | The one who went first. The upperclassman. |
 | Stance | Leaning, pointing, thumbs-up on confirmation | Standing, at a whiteboard, walking ahead |
 | Palette | White ground, black type, gold accent | Yellow and black |
+| Logo | Full "Eat For Life" script wordmark, white or black | **Short E4L mark or the yellow version of the logo.** Never the full agency wordmark. |
 | Register | Reassuring, dry, concrete, professional | Encouraging, direct, more fire |
 | Tagline he can use | "AI Marketing Made Easy" | "Everybody Eats" |
 | Never | Sell fear, use jargon, mock the owner, say "Everybody Eats" | Talk down, promise income, skip the work |
@@ -125,6 +126,8 @@ Two to six words. Black pill, white text. One per image. Examples that are live 
 
 **School palette:** yellow (#FFC200) and black (#0B0B0B), swapped so yellow is the ground and black carries the type.
 
+**Logo rule (from Chosen, October 9):** whenever Malik is doing anything with students or on the school side, use the **short version of the E4L logo or the yellow version**, not the full "Eat For Life" script wordmark. The script wordmark is the agency mark. Malik's hoodie keeps the script because that is his outfit, but the logo placed in the layout next to him on school content is the short or yellow mark.
+
 **Type:** Rethink Sans (800 for headlines, 400 to 600 for body) and Space Mono (uppercase, letter-spaced, for labels and eyebrows). Both on Google Fonts.
 
 **Motifs**
@@ -159,7 +162,8 @@ Two to six words. Black pill, white text. One per image. Examples that are live 
 | `sheets/malik-turnaround.jpg` | Front, three-quarter, profile, back views | Reference for any new pose; proportions and outfit |
 | `sheets/malik-expressions.jpg` | Eight head-and-shoulders expressions | Picking a face; reference for reactions |
 | `sheets/malik-poses.jpg` | Six full-body poses (lean, point, on the phone, laptop, tablet, walking) | Reference and quick cutouts |
-| `brand/e4l-wordmark-white.png` / `-black.png` | The Eat For Life script wordmark | Logos on dark / light |
+| `brand/e4l-wordmark-white.png` / `-black.png` | The Eat For Life script wordmark | Agency-side logos on dark / light |
+| `brand/` short E4L mark and yellow logo | The school-side marks | Student and school content. Not in this pack yet; ask Chosen for the files. |
 
 PNGs are transparent cutouts. JPEGs are the same images on white for places that can't take transparency.
 
@@ -342,6 +346,7 @@ Before anything with Malik goes out:
 6. Systems and Creative named separately if both appear.
 7. Right tagline for the side (agency: AI Marketing Made Easy; school: Everybody Eats).
 8. White ground on the agency side, yellow on the school side.
+8a. Student or school content uses the short E4L mark or the yellow logo, never the full script wordmark.
 9. If someone could think he's real, the one-line disclosure is nearby.
 10. He's pointing at the thing he's talking about.
 
