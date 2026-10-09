@@ -638,3 +638,16 @@ Recorded so the next batch doesn't re-litigate them.
 - **Anthropic's Shopify/Stripe/Zoom trainer and HubSpot webinar items** — only seen through a trade-press blog and a search summary. Not fetched at a primary, so not used. The Oct 20 HubSpot webinar is also dated after this batch's send week.
 - **Google Business Profile help page on automated calls** — loaded and read, but it carries no publication date. Used in A3 only for the two facts on the page (free; opt-out setting), never as a news hook.
 - **Census BTOS data release pages and the Fed note on AI adoption** — real, but they repeat the 18% figure from the working paper that is already used.
+
+## Friday freshness check
+
+**Checked Fri 2026-10-09, against the primary sources. Result: no copy changed.**
+
+- **A1, S2 (BLS Employment Situation, Sept 2026):** page loads; released Oct 2, +29,000, unemployment 4.2%, July revised to -10,000, August to +133,000 (60,000 combined). Matches. "On October 2" is a pinned date, so it reads correctly on Oct 12 and Oct 14.
+- **A2 (BLS BED Table 7, 2013 cohort):** page loads; 79.6% / 50.6% / 34.7% at 1 / 5 / 10 years. Matches. Scorecard (e4lmarketingdemos.com/scorecard) loads, "no signup to see your number" still true.
+- **A3 (Google business calling, 2025-07-16):** page loads; copy already says "July 2025", no relative date. Still live.
+- **S1, B2 (Census CES-26-25):** page loads; 18% of firms using AI, Nov 2025 to Jan 2026. "Last November ... this January" still reads correctly on Oct 12.
+- **S3, B1 (Anthropic SMB post, 2026-09-15):** page loads; 43 workflows confirmed. Copy uses "September 15", not "last week". The post's HubSpot webinar (Oct 20) and SMB Tour workshops are not used in the copy.
+- **S-SUN, A-SUN:** no external claim.
+- **Links:** xboxtoexec page loads, free book + $9.95 total shown (matches "free + $9.95 shipping"). The GHL booking widget URL returns an empty shell to a scripted fetch (it renders client-side), so it could not be verified from here; Abdullah's test send must open it.
+- **Dead emails / swaps:** none. No deadline inside the send window.
