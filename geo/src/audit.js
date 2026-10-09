@@ -199,8 +199,11 @@ ${questions.map((q, i) => `| ${i + 1} | ${q} | ${platforms.map((p) => cell(p, i 
 
 ✓ = ${businessName} named · — = answered, not named · ✗ = ask failed (counts as not named)
 ${(() => {
-  const api = results.filter((r) => r.via === 'api').length;
+  const api = results.filter((r) => r.via === 'api' && r.platform === 'chatgpt').length;
   return api ? `\n${api} ChatGPT answer(s) captured via the OpenAI API (fresh stateless sessions) because chatgpt.com was rate-limited — evidence cards are labeled accordingly.` : '';
+})()}${(() => {
+  const api = results.filter((r) => r.via === 'api' && r.platform === 'perplexity').length;
+  return api ? `\n${api} Perplexity answer(s) captured via the Perplexity API (fresh stateless sessions) because perplexity.ai blocked the logged-out browser — evidence cards are labeled accordingly.` : '';
 })()}
 ${failed.length ? `\n${failed.length} of ${total} asks failed (${[...new Set(failed.map((f) => platformLabel(f.platform)))].join(', ')}) — details in results.json.` : '\nAll asks completed.'}${(() => {
   const walls = [...new Set(results.filter((r) => r.skipped).map((r) => `${platformLabel(r.platform)} — ${r.error.replace('platform unavailable this run: ', '')}`))];
