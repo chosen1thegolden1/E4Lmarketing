@@ -133,7 +133,5 @@
     { "name": "Grace Roofing & Sheet Metal", "city": "Coral Springs, FL", "niche": "roofing" },
   { "name": "Sparkle Grooming Co.",        "city": "Gilbert, AZ",       "niche": "pet-grooming" },
   { "name": "KingSpa NYC",                 "city": "Bronx, NY",         "niche": "pet-grooming" },
-  { "name": "Smile First Family Dental",   "city": "Chicago, IL",       "niche": "dental" }
-
-  
+  { "name": "Smile First Family Dental",   "city": "Chicago, IL",       "niche": "dental" }  
 ]
