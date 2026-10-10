@@ -1,0 +1,635 @@
+{
+  "subject": "Grace Roofing & Sheet Metal",
+  "city": "Coral Springs, FL",
+  "niche": "roofing",
+  "label": "Roofing",
+  "date": "2026-10-10",
+  "startedAt": "2026-10-10T17:03:44.044Z",
+  "finishedAt": "2026-10-10T17:16:08.170Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity",
+    "claude"
+  ],
+  "score": "0/28",
+  "named": 0,
+  "total": 28,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency roofer near Coral Springs, FL",
+      "askedAt": "2026-10-10T17:03:44.496Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_chatgpt_q1_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "RJ Chambers Roofing",
+        "Sandoval Roofing LLC",
+        "SERVPRO of East Parkland / East Coral Springs",
+        "Safetech Roofing & Windows"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "RJ Chambers Roofing",
+        "Sandoval Roofing LLC",
+        "SERVPRO of East Parkland / East Coral Springs",
+        "Safetech Roofing & Windows"
+      ],
+      "note": "Recommended four emergency roofing/restoration companies near Coral Springs, FL, none of which was the audit subject Grace Roofing & Sheet Metal.",
+      "answerChars": 1459
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable roofing company in Coral Springs, FL",
+      "askedAt": "2026-10-10T17:05:30.073Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_chatgpt_q2_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "D'Agostino Roofing",
+        "Blues Brothers Roofing Company",
+        "Petito Roofing",
+        "Pacific Coast Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "D'Agostino Roofing",
+        "Blues Brothers Roofing Company",
+        "Petito Roofing",
+        "Pacific Coast Roofing"
+      ],
+      "note": "The answer recommended four competing roofing companies based on BBB rating and reliability signals, never mentioning Grace Roofing & Sheet Metal.",
+      "answerChars": 1574
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "roofer that answers the phone Coral Springs, FL",
+      "askedAt": "2026-10-10T17:07:19.884Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_chatgpt_q3_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on finding a responsive roofer without naming any specific businesses, including the subject.",
+      "answerChars": 1630
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed roofer near me Coral Springs, FL",
+      "askedAt": "2026-10-10T17:09:04.270Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_chatgpt_q4_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "ABC Roofing Corp",
+        "D'Agostino Roofing",
+        "A2Z Roofing, Inc",
+        "Coral Springs Roofing Experts"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ABC Roofing Corp",
+        "D'Agostino Roofing",
+        "A2Z Roofing, Inc",
+        "Coral Springs Roofing Experts"
+      ],
+      "note": "Recommended four competing Coral Springs roofers with review stats, without mentioning Grace Roofing & Sheet Metal.",
+      "answerChars": 2360
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "roofing company Coral Springs, FL free estimate",
+      "askedAt": "2026-10-10T17:10:56.023Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_chatgpt_q5_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on finding a roofer via Google Maps, directories, and license checks without naming any specific businesses.",
+      "answerChars": 1396
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call for a roof leak in Coral Springs, FL",
+      "askedAt": "2026-10-10T17:12:39.042Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_chatgpt_q6_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on who to call for a roof leak without naming any specific businesses.",
+      "answerChars": 2060
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "roofer open now Coral Springs, FL",
+      "askedAt": "2026-10-10T17:14:24.718Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_chatgpt_q7_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Dr. Roofer (Roofer Coral Springs)",
+        "RJ Chambers Roofing",
+        "Roof Doctors – South Florida",
+        "Coral Springs Roofing Experts"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dr. Roofer (Roofer Coral Springs)",
+        "RJ Chambers Roofing",
+        "Roof Doctors – South Florida",
+        "Coral Springs Roofing Experts"
+      ],
+      "note": "Recommended four other local roofers advertising 24/7 emergency service, but did not mention Grace Roofing & Sheet Metal.",
+      "answerChars": 1057
+    },
+    {
+      "platform": "claude",
+      "question": 1,
+      "text": "emergency roofer near Coral Springs, FL",
+      "askedAt": "2026-10-10T17:03:44.498Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_claude_q1_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Roof Doctors",
+        "RE Builders FL LLC",
+        "SRG Roofing",
+        "Blue Roof Masters",
+        "All Phase Construction USA",
+        "Rainbow Roofing Solutions, LLC",
+        "Tiger Team Roofing Inc"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Roof Doctors",
+        "RE Builders FL LLC",
+        "SRG Roofing",
+        "Blue Roof Masters",
+        "All Phase Construction USA",
+        "Rainbow Roofing Solutions, LLC",
+        "Tiger Team Roofing Inc"
+      ],
+      "note": "Recommended 7 other local roofing companies for emergency service and did not mention Grace Roofing & Sheet Metal.",
+      "answerChars": 2993
+    },
+    {
+      "platform": "claude",
+      "question": 2,
+      "text": "most reliable roofing company in Coral Springs, FL",
+      "askedAt": "2026-10-10T17:03:59.293Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_claude_q2_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "ABC Roofing Corp",
+        "All Phase Construction USA",
+        "A2Z Roofing, Inc.",
+        "Mike McGilvary Roofing, Inc.",
+        "Whale Roofing & Construction",
+        "Roof Life Repairs, LLC",
+        "Petito Roofing",
+        "Blues Brothers Roofing Company",
+        "Sandoval Roofing",
+        "Dolphin Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ABC Roofing Corp",
+        "All Phase Construction USA",
+        "A2Z Roofing, Inc.",
+        "Mike McGilvary Roofing, Inc.",
+        "Whale Roofing & Construction",
+        "Roof Life Repairs, LLC",
+        "Petito Roofing",
+        "Blues Brothers Roofing Company",
+        "Sandoval Roofing",
+        "Dolphin Roofing"
+      ],
+      "note": "Recommended 10 competing roofing companies in Coral Springs without mentioning Grace Roofing & Sheet Metal at all.",
+      "answerChars": 3679
+    },
+    {
+      "platform": "claude",
+      "question": 3,
+      "text": "roofer that answers the phone Coral Springs, FL",
+      "askedAt": "2026-10-10T17:04:20.439Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_claude_q3_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Whale Roofing & Construction",
+        "Dr. Roofer Coral Springs",
+        "Coral Springs Roofing Experts",
+        "Broward Roofing Pros",
+        "Local Roofers Coral Springs",
+        "ABC Roofing Corp",
+        "Roof Doctors",
+        "RCU Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Whale Roofing & Construction",
+        "Dr. Roofer Coral Springs",
+        "Coral Springs Roofing Experts",
+        "Broward Roofing Pros",
+        "Local Roofers Coral Springs",
+        "ABC Roofing Corp",
+        "Roof Doctors",
+        "RCU Inc."
+      ],
+      "note": "Recommended eight competing Coral Springs roofing companies/services based on phone availability, without mentioning Grace Roofing & Sheet Metal.",
+      "answerChars": 2730
+    },
+    {
+      "platform": "claude",
+      "question": 4,
+      "text": "best-reviewed roofer near me Coral Springs, FL",
+      "askedAt": "2026-10-10T17:04:38.919Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_claude_q4_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "ABC Roofing Corp",
+        "Aastro Roofing Company",
+        "All Phase Construction USA",
+        "A2Z Roofing, Inc",
+        "ROOF LIFE REPAIRS, LLC",
+        "Sandoval Roofing",
+        "Top Construction and Roofing",
+        "Mike McGilvary Roofing, Inc.",
+        "Affordable Roofing and Repairs",
+        "Tiger Team Roofing",
+        "SafeGuard Roofing",
+        "Blitz Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ABC Roofing Corp",
+        "Aastro Roofing Company",
+        "All Phase Construction USA",
+        "A2Z Roofing, Inc",
+        "ROOF LIFE REPAIRS, LLC",
+        "Sandoval Roofing",
+        "Top Construction and Roofing",
+        "Mike McGilvary Roofing, Inc.",
+        "Affordable Roofing and Repairs",
+        "Tiger Team Roofing",
+        "SafeGuard Roofing",
+        "Blitz Roofing"
+      ],
+      "note": "The answer recommended multiple competing roofing contractors in Coral Springs but never mentioned Grace Roofing & Sheet Metal.",
+      "answerChars": 3309
+    },
+    {
+      "platform": "claude",
+      "question": 5,
+      "text": "roofing company Coral Springs, FL free estimate",
+      "askedAt": "2026-10-10T17:04:57.095Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_claude_q5_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "ABC Roofing Corp",
+        "Tiger Team Roofing",
+        "Allied Roofing and Sheet Metal",
+        "Blues Brothers Roofing Company",
+        "Dolphin Roofing",
+        "Alco Roofing Inc.",
+        "Roofing Recovery"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ABC Roofing Corp",
+        "Tiger Team Roofing",
+        "Allied Roofing and Sheet Metal",
+        "Blues Brothers Roofing Company",
+        "Dolphin Roofing",
+        "Alco Roofing Inc.",
+        "Roofing Recovery"
+      ],
+      "note": "Recommended seven other roofing companies in Coral Springs with free estimates, never mentioning Grace Roofing & Sheet Metal.",
+      "answerChars": 3579
+    },
+    {
+      "platform": "claude",
+      "question": 6,
+      "text": "who should I call for a roof leak in Coral Springs, FL",
+      "askedAt": "2026-10-10T17:05:12.666Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_claude_q6_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Ace Pro Roofing",
+        "Paul Bange Roofing",
+        "ABC Roofing Corp.",
+        "Kenan Roofing",
+        "Affordable Roofing and Repairs",
+        "RGR Rod Guy Roofer",
+        "Rainbow Roofing Solutions"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Ace Pro Roofing",
+        "Paul Bange Roofing",
+        "ABC Roofing Corp.",
+        "Kenan Roofing",
+        "Affordable Roofing and Repairs",
+        "RGR Rod Guy Roofer",
+        "Rainbow Roofing Solutions"
+      ],
+      "note": "Recommended seven competing local roofing companies with ratings and tips, but never mentioned Grace Roofing & Sheet Metal.",
+      "answerChars": 2918
+    },
+    {
+      "platform": "claude",
+      "question": 7,
+      "text": "roofer open now Coral Springs, FL",
+      "askedAt": "2026-10-10T17:05:30.217Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_claude_q7_2026-10-10.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Roofer Coral Springs",
+        "Coral Springs Roofing Experts",
+        "ABC Roofing Corp.",
+        "D'Agostino Roofing",
+        "Petito Roofing",
+        "Lowe's Roofing Installation",
+        "Allied Roofing & Sheet Metal",
+        "Hamilton Bros. Roofing",
+        "RJ Chambers Roofing",
+        "Dorado Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Roofer Coral Springs",
+        "Coral Springs Roofing Experts",
+        "ABC Roofing Corp.",
+        "D'Agostino Roofing",
+        "Petito Roofing",
+        "Lowe's Roofing Installation",
+        "Allied Roofing & Sheet Metal",
+        "Hamilton Bros. Roofing",
+        "RJ Chambers Roofing",
+        "Dorado Roofing"
+      ],
+      "note": "Listed ten roofing contractors open now in Coral Springs but did not mention Grace Roofing & Sheet Metal.",
+      "answerChars": 1954
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency roofer near Coral Springs, FL",
+      "askedAt": "2026-10-10T17:03:44.498Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_gemini_q1_2026-10-10.jpg",
+      "answered": true,
+      "businesses": [
+        "RJ Chambers Roofing Inc"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "RJ Chambers Roofing Inc"
+      ],
+      "note": "Recommended only a competitor (RJ Chambers Roofing Inc) for emergency roofing near Coral Springs, never mentioning Grace Roofing & Sheet Metal.",
+      "answerChars": 746
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable roofing company in Coral Springs, FL",
+      "askedAt": "2026-10-10T17:04:05.728Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_gemini_q2_2026-10-10.jpg",
+      "answered": true,
+      "businesses": [
+        "Coral Springs Roofing Experts",
+        "ABC Roofing Corp",
+        "A2Z Roofing, Inc",
+        "Sandoval Roofing",
+        "Paul Bange Roofing, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Coral Springs Roofing Experts",
+        "ABC Roofing Corp",
+        "A2Z Roofing, Inc",
+        "Sandoval Roofing",
+        "Paul Bange Roofing, Inc."
+      ],
+      "note": "Recommended five other roofing companies in or near Coral Springs without mentioning Grace Roofing & Sheet Metal at all.",
+      "answerChars": 2182
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "roofer that answers the phone Coral Springs, FL",
+      "askedAt": "2026-10-10T17:04:28.967Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_gemini_q3_2026-10-10.jpg",
+      "answered": true,
+      "businesses": [
+        "ABC Roofing Corp.",
+        "All Phase Construction USA",
+        "Heron Bay Roofing",
+        "Rooftec of Florida"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ABC Roofing Corp.",
+        "All Phase Construction USA",
+        "Heron Bay Roofing",
+        "Rooftec of Florida"
+      ],
+      "note": "Recommended four local roofing companies as responsive options, none of which was Grace Roofing & Sheet Metal.",
+      "answerChars": 1403
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed roofer near me Coral Springs, FL",
+      "askedAt": "2026-10-10T17:04:50.314Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_gemini_q4_2026-10-10.jpg",
+      "answered": true,
+      "businesses": [
+        "ABC Roofing Corp",
+        "A2Z Roofing, Inc",
+        "GH ROOFING CORP",
+        "Chase Roofing",
+        "Paul Bange Roofing, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ABC Roofing Corp",
+        "A2Z Roofing, Inc",
+        "GH ROOFING CORP",
+        "Chase Roofing",
+        "Paul Bange Roofing, Inc."
+      ],
+      "note": "Recommended five other local/regional roofers by rating and location, never mentioning Grace Roofing & Sheet Metal.",
+      "answerChars": 2278
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "roofing company Coral Springs, FL free estimate",
+      "askedAt": "2026-10-10T17:05:12.893Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_gemini_q5_2026-10-10.jpg",
+      "answered": true,
+      "businesses": [
+        "ABC Roofing Corp",
+        "M&M Roofing & Construction",
+        "Whale Roofing & Construction",
+        "Heron Bay Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ABC Roofing Corp",
+        "M&M Roofing & Construction",
+        "Whale Roofing & Construction",
+        "Heron Bay Roofing"
+      ],
+      "note": "Recommended four competing roofing companies in Coral Springs and never mentioned Grace Roofing & Sheet Metal.",
+      "answerChars": 2424
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call for a roof leak in Coral Springs, FL",
+      "askedAt": "2026-10-10T17:05:34.696Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_gemini_q6_2026-10-10.jpg",
+      "answered": true,
+      "businesses": [
+        "M&M Roofing & Construction",
+        "Innovative Roofing",
+        "Dorado Roofing",
+        "Coral Springs Roofing Experts",
+        "Michael Bange Roofing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "M&M Roofing & Construction",
+        "Innovative Roofing",
+        "Dorado Roofing",
+        "Coral Springs Roofing Experts",
+        "Michael Bange Roofing"
+      ],
+      "note": "Recommended five local roofing companies for emergency leak repair, none of which was the audit subject, Grace Roofing & Sheet Metal.",
+      "answerChars": 1452
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "roofer open now Coral Springs, FL",
+      "askedAt": "2026-10-10T17:05:56.458Z",
+      "ok": true,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_gemini_q7_2026-10-10.jpg",
+      "answered": true,
+      "businesses": [
+        "Coral Springs Roofing Experts",
+        "Roofing & Repair Pro's of Coral Springs"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Coral Springs Roofing Experts",
+        "Roofing & Repair Pro's of Coral Springs"
+      ],
+      "note": "Recommended two local 24/7 roofing companies, neither of which was Grace Roofing & Sheet Metal.",
+      "answerChars": 936
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency roofer near Coral Springs, FL",
+      "askedAt": "2026-10-10T17:03:44.498Z",
+      "ok": false,
+      "screenshot": "screenshots/grace-roofing-sheet-metal_perplexity_q1_2026-10-10.jpg",
+      "error": "sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable roofing company in Coral Springs, FL",
+      "askedAt": "2026-10-10T17:07:07.688Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "roofer that answers the phone Coral Springs, FL",
+      "askedAt": "2026-10-10T17:07:07.688Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed roofer near me Coral Springs, FL",
+      "askedAt": "2026-10-10T17:07:07.688Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "roofing company Coral Springs, FL free estimate",
+      "askedAt": "2026-10-10T17:07:07.688Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call for a roof leak in Coral Springs, FL",
+      "askedAt": "2026-10-10T17:07:07.688Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "roofer open now Coral Springs, FL",
+      "askedAt": "2026-10-10T17:07:07.688Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    }
+  ]
+}
