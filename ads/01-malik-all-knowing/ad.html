@@ -6,7 +6,7 @@
 <title>Malik All-Knowing Ad</title>
 <!--
   E4L Ad 01: "Malik knows it all"
-  Usage: open ad.html?fmt=feed|square|story&logos=1|0&hero=v1..v4
+  Usage: open ad.html?fmt=feed|square|story&logos=1|0&hero=m2 (or v1..v4 stock)
   feed = 1080x1350 (IG/FB 4:5), square = 1080x1080, story = 1080x1920 (Reels/Stories/TikTok)
   logos=0 renders the "ad-platform safe" version with no third-party logos.
 -->
@@ -103,7 +103,7 @@
 </head>
 <body>
 <div id="ad" class="ad">
-  <img id="hero" class="hero" alt="Malik smiling with the top of his head open as AI tools pour in">
+  <img id="hero" class="hero" alt="Malik, the E4L mascot, smiling with the top of his head open as AI tools pour in">
   <div class="haze"></div>
   <svg class="streams" id="streams"></svg>
   <div id="funnel"></div>
@@ -127,16 +127,17 @@
   const q = new URLSearchParams(location.search);
   const fmt = q.get('fmt') || 'feed';
   const showLogos = q.get('logos') !== '0';
-  const heroName = q.get('hero') || 'v4';
+  const heroName = q.get('hero') || 'm2';
 
   // Skull-opening position inside each 1280x720 render (measured by eye).
-  const OPEN = { v1: [638, 212], v2: [630, 226], v3: [655, 200], v4: [630, 228] };
+  // m* = real Malik (Higgsfield character), v* = early stock stand-ins.
+  const OPEN = { m2: [642, 290], v1: [638, 212], v2: [630, 226], v3: [655, 200], v4: [630, 228] };
 
   // Per-format layout: hero scale, where the opening lands, funnel top/width, headline sizes.
   const L = {
     feed:   { h: 1350, s: 1.25, ox: 540, oy: 530, top: 60,  half: 405, scale: 1.0,  h1: 132, h2: 86 },
     square: { h: 1080, s: 1.05, ox: 540, oy: 392, top: 46,  half: 425, scale: 0.78, h1: 104, h2: 68 },
-    story:  { h: 1920, s: 1.5,  ox: 540, oy: 820, top: 120, half: 400, scale: 1.12, h1: 140, h2: 92 },
+    story:  { h: 1920, s: 1.35, ox: 540, oy: 840, top: 120, half: 400, scale: 1.12, h1: 140, h2: 92 },
   }[fmt];
 
   const ad = document.getElementById('ad');
@@ -148,7 +149,7 @@
 
   const hero = document.getElementById('hero');
   const [hx, hy] = OPEN[heroName];
-  hero.src = `renders/malik-${heroName}.png`;
+  hero.src = heroName.startsWith('v') ? `renders-stock/malik-${heroName}.png` : `renders/malik-${heroName}.png`;
   hero.style.width = (1280 * L.s) + 'px';
   hero.style.left = (L.ox - hx * L.s) + 'px';
   hero.style.top = (L.oy - hy * L.s) + 'px';
