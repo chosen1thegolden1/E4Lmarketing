@@ -69,6 +69,19 @@ for l in leads:
         dropped.append((name, f"score {l.get('lead_score')} below {a.min_score}")); continue
     seen_dom.add(d); seen_name.add(norm(name)); kept.append(l)
 
+# tidy names: move parenthetical legal-entity notes out of company_name, blank "Not found" name parts
+for l in kept:
+    nm = l.get('company_name', '')
+    m = re.match(r'^(.*?)\s*[\(\[—-]\s*(legal.*|dba.*|CO domestic.*|entity.*)$', nm, flags=re.I | re.S)
+    if m and m.group(1).strip():
+        l['company_name'] = m.group(1).strip().rstrip(' ,;—-')
+        l['notes_for_chosen'] = (f"Legal entity note: {nm[len(m.group(1)):].strip(' ()[]—-')}. " + (l.get('notes_for_chosen') or '')).strip()
+    for k in ('owner_first_name', 'owner_last_name', 'owner_title'):
+        if str(l.get(k, '')).strip().lower() in ('not found', 'unknown', 'n/a'): l[k] = ''
+    fn = l.get('owner_first_name', '')
+    m2 = re.match(r'^([A-Za-z\'\.-]+)\s*[\(\[]', fn)
+    if m2: l['owner_first_name'] = m2.group(1)
+
 kept.sort(key=lambda x: -int(x.get('lead_score', 0)))
 final = kept[:a.max]
 overflow = kept[a.max:]
