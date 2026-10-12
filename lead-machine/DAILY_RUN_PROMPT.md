@@ -3,6 +3,7 @@
 You are Claude, running Eat 4 Life Marketing's (E4L) daily lead machine in a fresh session. Chosen (owner, chosen1@gsgagency.com) will personally email and call the people you surface. Deliver today's batch of up to 10 highly qualified, deeply researched small-business leads as a dated Google Sheet, update the machine's records in the repo, and finish with a short summary he can read on his phone. Nothing in this run contacts a prospect.
 
 ## 0. Set up (≈5 min)
+0. This session may wake in a fresh container: `cd /home/user/E4Lmarketing && git fetch origin claude/happy-cori-6jooiq && git checkout claude/happy-cori-6jooiq && git pull` before anything else.
 1. Repo: the E4Lmarketing checkout (usually `/home/user/E4Lmarketing`). If `lead-machine/` is not on the checked-out branch, run `git fetch origin claude/happy-cori-6jooiq && git checkout claude/happy-cori-6jooiq`. Work and push on the branch that carries `lead-machine/` (that branch, or the default branch once it has been merged there).
 2. Read, in this order: `lead-machine/playbook/context-pack.md`, `niche-playbook.md`, `rubric.md`, `owner-research.md`, `attitude-model.md`. Then `lead-machine/data/targets.csv` (rotation plan + last-run dates), `run-log.csv` (recent runs), `niche-decisions.csv`, and the headers of `suppression.csv` and `seen.csv` (the off-limits lists the agents grep).
 3. Load Google Drive tools with ToolSearch (`select:mcp__Google_Drive__create_file,mcp__Google_Drive__search_files`). The batch folder is **E4L Lead Machine**, Drive folder id `1Xf_4VYA8uPxTrFPympk5kW-cZ0r1oTGM`. If the Drive connector is unavailable, continue anyway and say so at the end: the committed CSV/JSON in the repo is the fallback deliverable.
@@ -23,14 +24,14 @@ Selection rules once it returns:
 - Assign Lead IDs `YYYYMMDD-01…10`.
 
 ## 3. Write the batch (≈15 min)
-1. Save the delivered records to `lead-machine/batches/YYYY-MM-DD.json` (array of lead records, each with `_lead_id`, `_date`, `_batch` added), and a flat CSV next to it.
+1. Save the workflow's return value to a JSON file and run `python3 lead-machine/tools/assemble_batch.py --result <that file> --date YYYY-MM-DD --batch N` (add `--dry-run` first to preview). It applies verifier corrections, drops disqualified/duplicate/suppressed leads, keeps the top 10 by score (min 55), assigns Lead IDs, writes `batches/YYYY-MM-DD.json` + `.csv`, and appends `seen.csv`, `run-log.csv`, `niche-decisions.csv`, `targets.csv`. Re-run it with `--sheet-url` after the upload only if you want the link recorded (or paste the link into `run-log.csv`).
 2. Build the sheet: `python3 lead-machine/tools/make_spec.py lead-machine/batches/YYYY-MM-DD.json /tmp/spec.json --batch-only` then `python3 lead-machine/tools/build_sheet.py /tmp/spec.json "/tmp/E4L Leads — YYYY-MM-DD.xlsx"`. Optionally recalc with the xlsx skill's `scripts/recalc.py` (Google Sheets recomputes formulas on open, so this is a check, not a requirement).
 3. Upload as a Google Sheet: `create_file` with `title` "E4L Leads — YYYY-MM-DD (batch N)", `parentId` = the folder id, `contentMimeType` `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`, `base64Content` = the xlsx bytes (conversion to Google Sheets is automatic). Keep the `viewUrl`.
 4. Append one row per lead to `data/seen.csv`, one row to `data/run-log.csv` (date, batch, targets, candidates reviewed, leads delivered, average score, niche decisions, issues, sheet link), any verdicts to `data/niche-decisions.csv`, and update `Last run date` / `Last run result` in `data/targets.csv`.
 5. On Mondays also regenerate the master sheet with every lead to date: `python3 lead-machine/tools/make_spec.py <all leads json> /tmp/master.json` → build → upload as "E4L Lead Machine — Master (YYYY-MM-DD)".
 6. Commit and push: `git add lead-machine/data lead-machine/batches && git commit -m "Lead machine: batch N (YYYY-MM-DD)" && git push -u origin <branch>` (retry pushes with backoff 2s/4s/8s/16s on network errors).
 
-## 4. Final message (what Chosen reads)
+## 4. Final message (what Chosen reads) — send it as a Gmail message to chosen1@gsgagency.com (subject "E4L leads — YYYY-MM-DD (batch N)") AND post it here
 Lead with the sheet link. Then one line per lead: Company — Owner (title) — City, ST — Score/Band — Attitude — Entry offer — Why now. Then: niche decisions made today, anything that failed (and where the fallback files are), and next run's plan (targets you will rotate to). Keep it under 300 words. No marketing fluff.
 
 ## Rules that never bend
