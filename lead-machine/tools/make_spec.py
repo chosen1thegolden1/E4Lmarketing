@@ -225,7 +225,7 @@ spec = {
   "readme": readme,
   "lead_columns": lead_columns,
   "score_column": "Lead Score", "band_column": "Score Band", "decision_column": "Review Decision",
-  "freeze": "I2", "lead_rows": 400 if batch_only else 2000,
+  "freeze": "I2", "lead_rows": 60 if batch_only else 300,
   "example_rows": rows,
   "ghl_map": ghl_map,
   "static_tabs": [sam_tab],
