@@ -133,7 +133,12 @@
     { "name": "Grace Roofing & Sheet Metal", "city": "Coral Springs, FL", "niche": "roofing" },
   { "name": "Sparkle Grooming Co.",        "city": "Gilbert, AZ",       "niche": "pet-grooming" },
   { "name": "KingSpa NYC",                 "city": "Bronx, NY",         "niche": "pet-grooming" },
-  { "name": "Smile First Family Dental",   "city": "Chicago, IL",       "niche": "dental" }
+  { "name": "Smile First Family Dental",   "city": "Chicago, IL",       "niche": "dental" },
+
+  { "name": "Day Family Dental", "city": "Lansing, MI", "niche": "dental" },
+{ "name": "Family 1st Dental", "city": "Norfolk, NE", "niche": "dental" },
+{ "name": "Royal Oak Dental Group", "city": "Cary, NC", "niche": "dental" },
+{ "name": "Amp Orthodontics & Kids Dental", "city": "Clemmons, NC", "niche": "dental" }
 
   
 ]
