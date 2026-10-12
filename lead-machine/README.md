@@ -19,7 +19,7 @@ Claude finds, qualifies, and researches 25 small-business leads per weekday for 
 | `data/seen.csv` | Every lead ever delivered (appended each run). |
 | `data/targets.csv` | Niche × metro rotation plan with last-run dates. |
 | `data/run-log.csv`, `data/niche-decisions.csv` | One row per run; one row per niche verdict. |
-| `data/recipients.txt` | Who gets the daily summary email (one address per line). Add Sam here. |
+| `data/recipients.txt` | Who gets the daily Slack DM with the sheet link (Slack user ID, name, role, email for Drive sharing). |
 | `batches/YYYY-MM-DD.json` | The delivered lead records per run (the sheet is generated from these). |
 
 ## Daily loop
@@ -27,7 +27,7 @@ Claude finds, qualifies, and researches 25 small-business leads per weekday for 
 2. `hunt_workflow.js` fans out: one scout per target → deep research of the top 1–2 → a skeptic verifies every deliverable lead against its cited pages.
 3. Top 25 by score (min 55) become `batches/<date>.json` → workbook → Google Sheet "E4L Leads — <date>" in the Drive folder.
 4. `seen.csv`, `run-log.csv`, `niche-decisions.csv`, `targets.csv` are appended; the batch is committed and pushed.
-5. Final message = sheet link + one line per lead.
+5. Delivery protocol: the sheet stays in the shared Drive folder; Sam and Daniel each get a Slack DM with the link + a one-line-per-lead summary; the same summary is the session's final message for Chosen.
 
 ## Working a batch (Sam)
 Open the **Sam Call Sheet** tab: best number, owner, timezone, best time to call, who answers the phone, a 20-second opener written for that business, the call angle, the likely objection. Cadence: call 1 the day the batch lands, call 2 two days later (voicemail), call 3 three days after that, then the email bridge; log every call in the outcome dropdowns and `Next Call Due` computes itself. Every call ends with ask #1 (Game Plan Call) or ask #2 (email for the free GEO audit).

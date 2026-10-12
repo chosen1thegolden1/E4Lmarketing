@@ -31,8 +31,11 @@ Selection rules once it returns:
 5. On Mondays also regenerate the master sheet with every lead to date: `python3 lead-machine/tools/make_spec.py <all leads json> /tmp/master.json` → build → upload as "E4L Lead Machine — Master (YYYY-MM-DD)".
 6. Commit and push: `git add lead-machine/data lead-machine/batches && git commit -m "Lead machine: batch N (YYYY-MM-DD)" && git push -u origin <branch>` (retry pushes with backoff 2s/4s/8s/16s on network errors).
 
-## 4. Final message (what Chosen reads) — send it as a Gmail message to chosen1@gsgagency.com (subject "E4L leads — YYYY-MM-DD (batch N)") AND post it here
-Lead with the sheet link. Then one line per lead: Company — Owner (title) — City, ST — best number — Score/Band — Attitude — Entry offer — Best time to call. Send it to every address in `lead-machine/data/recipients.txt`. Then: niche decisions made today, anything that failed (and where the fallback files are), and next run's plan (targets you will rotate to). Keep it under 450 words. No marketing fluff.
+## 4. Deliver (protocol): Slack DM Sam and Daniel, then post the summary here for Chosen
+The batch sheet stays in the Drive folder (shared with Sam and Daniel as writers, so the new file inherits access — confirm with `get_file_permissions` on the new file if in doubt). Then send ONE Slack DM to each person in `lead-machine/data/recipients.txt` (load `mcp__Slack__slack_send_message` via ToolSearch; `channel_id` = their Slack user ID): the sheet link on the first line, then the summary below. Sam gets the call-sheet framing ("25 new leads to call — start with the Sam Call Sheet tab"); Daniel gets the same message. Do not email unless Slack is unavailable (then fall back to Gmail to chosen1@gsgagency.com and say so).
+
+### The summary (same text in the DMs and in your final message here)
+Lead with the sheet link. Then one line per lead: Company — Owner (title) — City, ST — best number — Score/Band — Attitude — Entry offer — Best time to call.  Then: niche decisions made today, anything that failed (and where the fallback files are), and next run's plan (targets you will rotate to). Keep it under 450 words. No marketing fluff.
 
 ## Rules that never bend
 - Public, citable sources only. Never invent, infer, or pattern-guess an email, phone, name, or fact — "Not found" is the honest value. Nothing from behind a login or paywall. No sensitive attributes.

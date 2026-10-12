@@ -1,2 +1,6 @@
-chosen1@gsgagency.com
-# add Sam's address on its own line to include him in the daily summary email
+# Daily delivery protocol: the batch sheet lives in the Drive folder "E4L Lead Machine"
+# (id 1Xf_4VYA8uPxTrFPympk5kW-cZ0r1oTGM, shared with everyone below as writer, so each new
+# sheet inherits access). After upload, send each person below a Slack DM with the link + summary.
+# format: slack_user_id | name | role | email (for Drive sharing)
+U0C82AEE0M6 | Sam Mobeen | appointment setter (calls every lead) | mobeenaarib@gmail.com
+U0C0JE303KN | Daniel | project manager | fajuyidaniel4@gmail.com
