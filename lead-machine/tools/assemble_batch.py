@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 
 ap = argparse.ArgumentParser()
 ap.add_argument('--result', required=True); ap.add_argument('--date', required=True); ap.add_argument('--batch', required=True, type=int)
-ap.add_argument('--repo', default='/home/user/E4Lmarketing'); ap.add_argument('--min-score', type=int, default=55); ap.add_argument('--max', type=int, default=10)
+ap.add_argument('--repo', default='/home/user/E4Lmarketing'); ap.add_argument('--min-score', type=int, default=55); ap.add_argument('--max', type=int, default=25)
 ap.add_argument('--sheet-url', default=''); ap.add_argument('--issues', default=''); ap.add_argument('--dry-run', action='store_true')
 a = ap.parse_args()
 LM = os.path.join(a.repo, 'lead-machine'); DATA = os.path.join(LM, 'data'); BATCHES = os.path.join(LM, 'batches')

@@ -1,6 +1,6 @@
 # E4L Lead Machine
 
-Claude finds, qualifies, and researches ~10 small-business leads per weekday for Eat 4 Life Marketing's cold outreach, writes them to a dated Google Sheet in the **E4L Lead Machine** Drive folder, and keeps the machine's memory (who has been delivered, what was searched, which niches were judged) in this folder of the repo. Humans review the sheet and load approved rows into GoHighLevel. Nothing here contacts a prospect.
+Claude finds, qualifies, and researches 25 small-business leads per weekday for Eat 4 Life Marketing's cold outreach, writes them to a dated Google Sheet in the **E4L Lead Machine** Drive folder, and keeps the machine's memory (who has been delivered, what was searched, which niches were judged) in this folder of the repo. Sam calls every lead from the sheet's **Sam Call Sheet** tab and logs outcomes there; Chosen reviews and loads approved rows into GoHighLevel. Nothing here contacts a prospect.
 
 ## Layout
 | Path | What it is |
@@ -19,14 +19,18 @@ Claude finds, qualifies, and researches ~10 small-business leads per weekday for
 | `data/seen.csv` | Every lead ever delivered (appended each run). |
 | `data/targets.csv` | Niche × metro rotation plan with last-run dates. |
 | `data/run-log.csv`, `data/niche-decisions.csv` | One row per run; one row per niche verdict. |
+| `data/recipients.txt` | Who gets the daily summary email (one address per line). Add Sam here. |
 | `batches/YYYY-MM-DD.json` | The delivered lead records per run (the sheet is generated from these). |
 
 ## Daily loop
-1. Scheduled session reads the playbooks and data files, picks 8–10 niche × metro targets (rotating, seasonal, ~75% core / ~25% extend).
+1. Scheduled session reads the playbooks and data files, picks 14–16 niche × metro targets (rotating, seasonal, ~75% core / ~25% extend).
 2. `hunt_workflow.js` fans out: one scout per target → deep research of the top 1–2 → a skeptic verifies every deliverable lead against its cited pages.
-3. Top 10 by score (min 55) become `batches/<date>.json` → workbook → Google Sheet "E4L Leads — <date>" in the Drive folder.
+3. Top 25 by score (min 55) become `batches/<date>.json` → workbook → Google Sheet "E4L Leads — <date>" in the Drive folder.
 4. `seen.csv`, `run-log.csv`, `niche-decisions.csv`, `targets.csv` are appended; the batch is committed and pushed.
 5. Final message = sheet link + one line per lead.
+
+## Working a batch (Sam)
+Open the **Sam Call Sheet** tab: best number, owner, timezone, best time to call, who answers the phone, a 20-second opener written for that business, the call angle, the likely objection. Cadence: call 1 the day the batch lands, call 2 two days later (voicemail), call 3 three days after that, then the email bridge; log every call in the outcome dropdowns and `Next Call Due` computes itself. Every call ends with ask #1 (Game Plan Call) or ask #2 (email for the free GEO audit).
 
 ## Reviewing a batch (Chosen / Rozel)
 Open the sheet's **Leads** tab, set **Review Decision** (Approve / Hold / Reject) and notes, then on the **GHL Import** tab filter column A to Approve and download CSV → GHL Contacts → Import. Columns map 1:1 to GHL fields; `Tags` carries `cold-outreach, lead-machine, status:drafted, industry:<niche>, city:<city>, entry:<offer>, attitude:<type>`; the `LM *` columns are optional custom fields (create once as single-line text, or skip and paste into a note).

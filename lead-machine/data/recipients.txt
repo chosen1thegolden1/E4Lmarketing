@@ -1,0 +1,2 @@
+chosen1@gsgagency.com
+# add Sam's address on its own line to include him in the daily summary email

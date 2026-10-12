@@ -39,6 +39,11 @@ C = [
  ("Personalized First Line", 50, "bot", None, "personalized_first_line", "Opening sentence of the cold email"),
  ("Call Angle", 50, "bot", None, "call_angle", "For Sam / Chosen on the phone"),
  ("Likely Objection", 40, "bot", None, "likely_objection", None),
+ ("Call Opener (20 sec)", 55, "bot", None, "call_opener", "Sam's permission-based opener, tailored to this lead"),
+ ("Best Time to Call", 30, "bot", None, "best_time_to_call", None),
+ ("Business Hours", 24, "bot", None, "business_hours", None),
+ ("Timezone", 10, "bot", None, "timezone", None),
+ ("Gatekeeper Notes", 36, "bot", None, "gatekeeper_notes", "Who answers the phone and how to reach the owner"),
  ("Best Opening Moment", 40, "bot", None, "best_opening_moment", "The one thing to reference first"),
  ("Pain Signals", 50, "bot", None, "pain_signals", None),
  ("Trigger Events", 36, "bot", None, "trigger_events", None),
@@ -124,11 +129,16 @@ ghl_map = [
 
 readme = [
  {"heading": "What this is", "lines": [
-   "The review sheet for E4L's daily lead machine. Claude finds, qualifies, and researches ~10 small-business leads per run and writes them here. You review, approve, and load the approved rows into GoHighLevel (E4L Services sub-account). Nothing is emailed or called from this sheet.",
+   "The review sheet for E4L's daily lead machine. Claude finds, qualifies, and researches 25 small-business leads per weekday and writes them here. Sam works the Sam Call Sheet tab (calls + follow-ups); Chosen reviews the Leads tab, approves, and loads approved rows into GoHighLevel (E4L Services sub-account). Nothing is emailed or called from this sheet itself.",
    "Daily batches arrive as dated sheets in the same Drive folder ('E4L Leads — YYYY-MM-DD'). This master file holds the playbook tabs, the suppression list, and the run log so the whole system is readable in one place.",
  ]},
- {"heading": "Daily review in 5 steps (≈15 minutes for 10 rows)", "lines": [
-   "1. Open the Leads tab. Rows are sorted by Lead Score. Read Why Now, Attitude Type, Pain Signals, and the Personalized First Line.",
+ {"heading": "Sam: working the Call Sheet", "lines": [
+   "Open the Sam Call Sheet tab. Rows are sorted by Lead Score; every row has the best number, the owner's name and title, the timezone and best time to call, who answers the phone, a 20-second opener written for that business, the call angle, and the objection to expect.",
+   "Cadence: Call 1 on the day the batch lands (use Best Time to Call). Call 2 two days later, leave a voicemail. Call 3 three days after that. Then the email bridge. 'Next Call Due' computes itself from what you log.",
+   "Log every call the same day with the outcome dropdowns. Every call ends with ask #1 (Game Plan Call → log 'Game Plan Call booked' and the date) or ask #2 (email for the free GEO audit → log 'Email captured' and paste the address). 'Do not call' is permanent — those companies go on the Suppression tab.",
+ ]},
+ {"heading": "Chosen / Rozel: daily review in 5 steps (≈30 minutes for 25 rows)", "lines": [
+   "1. Open the Leads tab (full research). Rows are sorted by Lead Score. Read Why Now, Attitude Type, Pain Signals, and the Personalized First Line.",
    "2. Set Review Decision: Approve (load into GHL), Hold (good but not now), Reject (wrong fit — tell us why in Reviewer Notes so the rubric learns).",
    "3. Skim Owner Email Confidence. 'Confirmed' = seen on their own site/profile. 'Likely' = public but indirect. 'Not found' = call it (Sam) or use the generic inbox.",
    "4. Go to the GHL Import tab, filter column A to Approve, File → Download → CSV, then Contacts → Import in GHL. Map the columns 1:1 (the LM* columns are custom fields — create them once in GHL as single-line text, or skip them and paste the row into a contact note).",
@@ -172,6 +182,43 @@ att_rows += [["EVIDENCE RULE", "", att['evidence_rule'], "", "", "", ""]]
 supp = list(csv.DictReader(open(os.path.join(ROOT, 'data', 'suppression.csv'))))
 supp_rows = [[r['Company'], r['Domain'], r['Email'], r['City'], r['Niche'], r['Reason'], r['Added']] for r in supp]
 
+OUTCOMES = ["No answer", "Voicemail left", "Answering machine (no VM)", "Gatekeeper — owner not available", "Call back requested", "Not interested", "Disconnected / wrong number", "Email captured (GEO audit)", "Game Plan Call booked", "Do not call"]
+STOP = '{Call 1 Outcome}="Game Plan Call booked",{Call 1 Outcome}="Do not call",{Call 1 Outcome}="Not interested",{Call 1 Outcome}="Email captured (GEO audit)",{Call 2 Outcome}="Game Plan Call booked",{Call 2 Outcome}="Do not call",{Call 2 Outcome}="Not interested",{Call 2 Outcome}="Email captured (GEO audit)",{Call 3 Date}<>""'
+NEXT_DUE = '=IF({Lead ID}="","",IF(OR(' + STOP + '),"Done",IF({Call 2 Date}<>"",{Call 2 Date}+3,IF({Call 1 Date}<>"",{Call 1 Date}+2,"Call today"))))'
+HL = {"Game Plan Call booked": "C6EFCE", "Email captured (GEO audit)": "FFEB9C", "Not interested": "FFC7CE", "Do not call": "FFC7CE", "Disconnected / wrong number": "FFC7CE"}
+sam_tab = {"name": "Sam Call Sheet", "freeze": "D2", "spare_rows": 5, "row_height": 110, "columns": [
+  {"header": "Lead ID", "from": "Lead ID", "width": 13},
+  {"header": "Company", "from": "Company Name", "width": 26},
+  {"header": "Owner", "join": ["Owner First Name", "Owner Last Name"], "width": 18},
+  {"header": "Title", "from": "Owner Title", "width": 14},
+  {"header": "Best Number to Call", "coalesce": ["Owner Direct Phone", "Company Phone"], "width": 17, "note": "Owner's direct line when published, otherwise the company line"},
+  {"header": "Company Phone", "from": "Company Phone", "width": 17},
+  {"header": "City", "from": "City", "width": 13}, {"header": "ST", "from": "State", "width": 5}, {"header": "TZ", "from": "Timezone", "width": 7},
+  {"header": "Best Time to Call", "from": "Best Time to Call", "width": 28},
+  {"header": "Business Hours", "from": "Business Hours", "width": 20},
+  {"header": "Gatekeeper Notes", "from": "Gatekeeper Notes", "width": 30},
+  {"header": "Score", "from": "Lead Score", "width": 7},
+  {"header": "Attitude", "from": "Attitude Type", "width": 20},
+  {"header": "Entry Offer", "from": "Recommended Entry Offer", "width": 20},
+  {"header": "Call Opener (20 sec)", "from": "Call Opener (20 sec)", "width": 55},
+  {"header": "Call Angle", "from": "Call Angle", "width": 45},
+  {"header": "Likely Objection", "from": "Likely Objection", "width": 36},
+  {"header": "Best Opening Moment", "from": "Best Opening Moment", "width": 36},
+  {"header": "After-Hours Handling", "from": "After-Hours Handling", "width": 26},
+  {"header": "Call 1 Date", "kind": "input", "width": 11, "number_format": "yyyy-mm-dd"},
+  {"header": "Call 1 Outcome", "kind": "input", "options": OUTCOMES, "width": 22, "highlight": HL},
+  {"header": "Call 2 Date", "kind": "input", "width": 11, "number_format": "yyyy-mm-dd"},
+  {"header": "Call 2 Outcome", "kind": "input", "options": OUTCOMES, "width": 22, "highlight": HL},
+  {"header": "Call 3 Date", "kind": "input", "width": 11, "number_format": "yyyy-mm-dd"},
+  {"header": "Call 3 Outcome", "kind": "input", "options": OUTCOMES, "width": 22, "highlight": HL},
+  {"header": "Next Call Due", "formula": NEXT_DUE, "width": 12, "number_format": "yyyy-mm-dd", "note": "Computed: call 1 today, call 2 after 2 days, call 3 after 3 more; 'Done' once booked, email captured, not interested, or do-not-call"},
+  {"header": "Email Captured", "kind": "input", "width": 26, "note": "The address they gave for the free GEO audit"},
+  {"header": "Game Plan Call Date", "kind": "input", "width": 14, "number_format": "yyyy-mm-dd"},
+  {"header": "Sam Notes", "kind": "input", "width": 40},
+  {"header": "Website", "from": "Website", "width": 28},
+  {"header": "Owner Email", "from": "Owner Email", "width": 26},
+], "note": "Work top to bottom (sorted by score). Cadence: Call 1 the day the batch lands (use Best Time to Call), Call 2 two days later (leave a voicemail), Call 3 three days after that, then the email bridge. Log every call the same day. Every call ends with ask #1 (Game Plan Call) or ask #2 (email for the free GEO audit) — log 'Email captured' and put the address in Email Captured."}
+
 spec = {
   "title": "E4L Lead Machine — Review Sheet" if not batch_only else "E4L Leads — daily batch",
   "subtitle": "Eat 4 Life Marketing · AI Marketing Made Easy · built by Claude, reviewed by humans",
@@ -181,6 +228,7 @@ spec = {
   "freeze": "I2", "lead_rows": 400 if batch_only else 2000,
   "example_rows": rows,
   "ghl_map": ghl_map,
+  "static_tabs": [sam_tab],
   "reference_tabs": [] if batch_only else [
     {"name": "Niche Playbook", "headers": ["Niche", "Segment", "Fit (1–5)", "Entry offer", "Email reach", "Size sweet spot", "Why", "Primary pains", "Need signals (public)", "Disqualifiers", "Decision-maker titles", "Typical owner attitude", "Find-them queries ({city})"], "rows": niche_rows, "widths": [26, 9, 8, 22, 10, 40, 60, 60, 70, 60, 30, 50, 60], "note": "NICHE DECISION RULE for anything not listed:\n" + rules},
     {"name": "Scoring Rubric", "headers": ["Item", "Weight", "How to score / meaning", "Evidence sources"], "rows": rubric_rows, "widths": [34, 8, 90, 60]},
@@ -191,7 +239,7 @@ spec = {
     {"name": "Run Log", "headers": ["Run date", "Batch", "Targets (niche · metro)", "Candidates reviewed", "Leads delivered", "Avg score", "Niche decisions", "Issues / notes", "Sheet link"], "rows": [], "widths": [11, 8, 50, 10, 10, 8, 50, 60, 40]},
     {"name": "Niche Decisions", "headers": ["Date", "Niche", "Verdict", "Fit (1–5)", "Reasoning", "Entry offer", "Decided by"], "rows": [], "widths": [11, 26, 10, 8, 80, 22, 14], "dropdowns": [{"col": "Verdict", "options": ["core", "extend", "skip", "test batch"]}]},
   ],
-  "tab_order": ["README", "Leads", "GHL Import", "Niche Playbook", "Scoring Rubric", "Attitude Guide", "Suppression", "Run Log", "Niche Decisions"],
+  "tab_order": ["README", "Sam Call Sheet", "Leads", "GHL Import", "Niche Playbook", "Scoring Rubric", "Attitude Guide", "Suppression", "Run Log", "Niche Decisions"],
 }
 json.dump(spec, open(out_path, 'w'), indent=1)
 print(f"spec: {len(lead_columns)} lead columns, {len(rows)} lead rows, {len(niche_rows)} niches, {len(supp_rows)} suppression rows -> {out_path}")

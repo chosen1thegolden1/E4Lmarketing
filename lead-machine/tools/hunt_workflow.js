@@ -45,8 +45,9 @@ const LEAD_SCHEMA = { type: 'object', properties: {
   disqualifier_check: { type: 'string' }, lead_score: { type: 'integer', minimum: 0, maximum: 100 }, score_breakdown: { type: 'string' },
   recommended_entry_offer: { type: 'string' }, first_fit_tier: { type: 'string' }, suggested_subject_line: { type: 'string' },
   personalized_first_line: { type: 'string' }, call_angle: { type: 'string' }, likely_objection: { type: 'string' }, why_now: { type: 'string' },
-  evidence_links: { type: 'string' }, research_confidence: { type: 'string', enum: ['High', 'Medium', 'Low'] }, notes_for_chosen: { type: 'string' } },
-  required: ['qualified', 'company_name', 'niche', 'niche_segment', 'website', 'city', 'state', 'owner_first_name', 'owner_last_name', 'owner_email', 'owner_email_type', 'owner_email_confidence', 'attitude_type', 'attitude_evidence', 'pain_signals', 'lead_score', 'score_breakdown', 'recommended_entry_offer', 'first_fit_tier', 'suggested_subject_line', 'personalized_first_line', 'call_angle', 'why_now', 'evidence_links', 'research_confidence'] }
+  evidence_links: { type: 'string' }, research_confidence: { type: 'string', enum: ['High', 'Medium', 'Low'] }, notes_for_chosen: { type: 'string' },
+  business_hours: { type: 'string' }, timezone: { type: 'string' }, best_time_to_call: { type: 'string' }, call_opener: { type: 'string' }, gatekeeper_notes: { type: 'string' } },
+  required: ['qualified', 'company_name', 'niche', 'niche_segment', 'website', 'city', 'state', 'owner_first_name', 'owner_last_name', 'owner_email', 'owner_email_type', 'owner_email_confidence', 'attitude_type', 'attitude_evidence', 'pain_signals', 'lead_score', 'score_breakdown', 'recommended_entry_offer', 'first_fit_tier', 'suggested_subject_line', 'personalized_first_line', 'call_angle', 'why_now', 'evidence_links', 'research_confidence', 'best_time_to_call', 'call_opener'] }
 
 const VERIFY_SCHEMA = { type: 'object', properties: {
   verdict: { type: 'string', enum: ['deliver', 'deliver-with-fixes', 'drop'] },
@@ -82,6 +83,7 @@ Time-boxed to ~12 minutes:
 4. ATTITUDE READ (attitude-model.md): one type or "Unclear", with evidence; tag tech_adoption, marketing_sophistication, growth_stage, review_response_behavior.
 5. OPERATIONAL SIGNALS: after_hours_handling, online_booking, chat_or_text_on_site, vendors_detected, ads_running, ai_search_presence (2 quick web checks of the niche's money questions for this metro; "not checked" if impossible), pain_signals (quoted where possible), trigger_events.
 6. OUTREACH PREP in E4L's voice (context-pack.md; never promise results; no prices): suggested_subject_line, personalized_first_line, call_angle, likely_objection, why_now, notes_for_chosen.
+6b. FOR SAM'S CALL (he phones every lead): business_hours (from the site / Google Business Profile), timezone, best_time_to_call (a specific window with the reason, e.g. "Tue–Thu 7:30–8:30 AM MT before crews dispatch; reviews say the owner answers the office line"), call_opener (a 20-second permission-based cold-call opener in the E4L script style: name them, say it is a cold call, reference ONE specific thing you found about their business, deliver the hook that fits their pain — missed calls or AI search — and end with the 20-second ask; no prices, no promised results), gatekeeper_notes (who answers the phone per the site / reviews / job posts: office manager or dispatcher name if public, answering service, owner's cell if published; how to get through).
 7. evidence_links = every URL relied on, comma-separated, most important first.
 Leave "Not found" rather than guessing. Phones as +1 XXX-XXX-XXXX. Website as a clean URL.`
 

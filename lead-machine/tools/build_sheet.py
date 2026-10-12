@@ -188,6 +188,58 @@ def build(spec, out):
     ws2.auto_filter.ref = f"A1:{get_column_letter(len(gh))}{last_row}"
     ws2.cell(row=last_row + 2, column=1, value="How to export: filter column A (Review Decision) to Approve, then File → Download → CSV. Import that CSV in GHL (Contacts → Import). Columns map 1:1 to GHL fields; Tags are comma-separated.").font = NOTE_FONT
 
+    # ---------------- static tabs (values copied at build time, so sorting is safe) ----------------
+    for tab in spec.get("static_tabs", []):
+        wsx = wb.create_sheet(tab["name"])
+        tcols = tab["columns"]
+        for i, c in enumerate(tcols, 1):
+            cell = wsx.cell(row=1, column=i, value=c["header"])
+            if c.get("note"):
+                cell.comment = Comment(c["note"], "E4L Lead Machine")
+            wsx.column_dimensions[get_column_letter(i)].width = c.get("width", 18)
+        style_header(wsx, len(tcols))
+        letters = {c["header"]: get_column_letter(i) for i, c in enumerate(tcols, 1)}
+        exs = spec.get("example_rows", [])
+        last = max(len(exs) + 1, 2) + tab.get("spare_rows", 0)
+        clean = lambda v: "" if v is None or str(v).strip().lower() == "not found" else v
+        for r_i in range(2, last + 1):
+            ex = exs[r_i - 2] if r_i - 2 < len(exs) else None
+            for i, c in enumerate(tcols, 1):
+                if "from" in c:
+                    v = ex.get(c["from"], "") if ex else ""
+                elif "join" in c:
+                    v = " ".join(str(x) for x in (clean(ex.get(k, "")) for k in c["join"]) if x) if ex else ""
+                elif "coalesce" in c:
+                    v = next((ex.get(k) for k in c["coalesce"] if clean(ex.get(k, ""))), "") if ex else ""
+                elif "formula" in c:
+                    v = c["formula"].replace("{r}", str(r_i))
+                    for h, L in letters.items():
+                        v = v.replace("{" + h + "}", f"{L}{r_i}")
+                else:
+                    v = ""
+                cell = wsx.cell(row=r_i, column=i, value=v)
+                cell.border = BORDER
+                cell.alignment = WRAP
+                cell.font = Font(name=FONT, size=10, color=BLUE_INPUT) if c.get("kind") == "input" else BODY_FONT
+                if c.get("number_format"):
+                    cell.number_format = c["number_format"]
+            if ex:
+                wsx.row_dimensions[r_i].height = tab.get("row_height", 90)
+        for c in tcols:
+            if c.get("options"):
+                L = letters[c["header"]]
+                dv = DataValidation(type="list", formula1='"' + ",".join(c["options"]) + '"', allow_blank=True)
+                wsx.add_data_validation(dv)
+                dv.add(f"{L}2:{L}{last}")
+            if c.get("highlight"):
+                L = letters[c["header"]]
+                for val, color in c["highlight"].items():
+                    wsx.conditional_formatting.add(f"{L}2:{L}{last}", FormulaRule(formula=[f'{L}2="{val}"'], fill=PatternFill("solid", fgColor=color)))
+        wsx.freeze_panes = tab.get("freeze", "D2")
+        wsx.auto_filter.ref = f"A1:{get_column_letter(len(tcols))}{last}"
+        if tab.get("note"):
+            wsx.cell(row=last + 2, column=1, value=tab["note"]).font = NOTE_FONT
+
     # ---------------- reference tabs ----------------
     for tab in spec["reference_tabs"]:
         wsx = wb.create_sheet(tab["name"])
