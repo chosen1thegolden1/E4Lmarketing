@@ -8,7 +8,7 @@ const here = path.dirname(new URL(import.meta.url).pathname);
 const out = path.join(here, 'export');
 fs.mkdirSync(out, { recursive: true });
 const sizes = { feed: 1350, square: 1080, story: 1920 };
-const hero = process.argv[2] || 'm2';
+const hero = process.argv[2] || 'nb2';
 
 const browser = await chromium.launch();
 for (const [fmt, h] of Object.entries(sizes)) {

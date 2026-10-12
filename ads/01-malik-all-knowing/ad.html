@@ -78,6 +78,12 @@
     font: 700 22px/1 "Space Mono", monospace; letter-spacing: .18em; text-transform: uppercase;
     color: var(--gold); margin-bottom: 18px; padding-top: 70px;
   }
+  .lower { padding-top: 90px; }
+  .logo { height: 92px; width: auto; display: block; }
+  .brand { gap: 20px !important; }
+  .brand-name { border-left: 2px solid rgba(255,194,0,.7); padding-left: 20px; }
+  .square .lower { padding-top: 60px; }
+  .square .logo { height: 78px; }
   .headline { font-weight: 800; text-transform: uppercase; line-height: .9; letter-spacing: -.02em; }
   .headline .l1 { display: block; font-size: var(--h1, 132px); color: #fff; }
   .headline .l2 { display: block; font-size: var(--h2, 86px); color: var(--gold); text-shadow: 0 0 40px rgba(255,194,0,.35); margin-top: 8px; }
@@ -103,18 +109,17 @@
 </head>
 <body>
 <div id="ad" class="ad">
-  <img id="hero" class="hero" alt="Malik, the E4L mascot, smiling with the top of his head open as AI tools pour in">
+  <img id="hero" class="hero" alt="The E4L mascot smiling with the top of his head open as AI tools pour in">
   <div class="haze"></div>
   <svg class="streams" id="streams"></svg>
   <div id="funnel"></div>
   <div class="lower">
-    <div class="kicker">Meet Malik. He already learned every AI tool.</div>
     <h1 class="headline"><span class="l1">99 Problems</span><span class="l2">But AI Ain't One.</span></h1>
     <div class="rule"></div>
     <div class="foot">
       <div class="brand">
-        <div class="mark">E4L</div>
-        <div class="brand-name">Eat 4 Life Marketing<small>AI Marketing Made Easy.</small></div>
+        <img class="logo" src="brand/eat-for-life-logo-white.png" alt="Eat For Life">
+        <div class="brand-name">Marketing<small>AI Marketing Made Easy.</small></div>
       </div>
       <div class="cta">eat4lifemarketing.com</div>
     </div>
@@ -127,11 +132,11 @@
   const q = new URLSearchParams(location.search);
   const fmt = q.get('fmt') || 'feed';
   const showLogos = q.get('logos') !== '0';
-  const heroName = q.get('hero') || 'm2';
+  const heroName = q.get('hero') || 'nb2';
 
   // Skull-opening position inside each 1280x720 render (measured by eye).
-  // m* = real Malik (Higgsfield character), v* = early stock stand-ins.
-  const OPEN = { m2: [642, 290], v1: [638, 212], v2: [630, 226], v3: [655, 200], v4: [630, 228] };
+  // nb* = Malik, brain removed (current). m* = Malik with brain. v* = early stock stand-ins.
+  const OPEN = { nb2: [640, 290], m2: [642, 290], v1: [638, 212], v2: [630, 226], v3: [655, 200], v4: [630, 228] };
 
   // Per-format layout: hero scale, where the opening lands, funnel top/width, headline sizes.
   const L = {
