@@ -1,0 +1,653 @@
+{
+  "subject": "Family 1st Dental",
+  "city": "Norfolk, NE",
+  "niche": "dental",
+  "label": "Dental",
+  "date": "2026-10-12",
+  "startedAt": "2026-10-12T22:21:19.987Z",
+  "finishedAt": "2026-10-12T22:33:47.758Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity",
+    "claude"
+  ],
+  "score": "14/28",
+  "named": 14,
+  "total": 28,
+  "failedAsks": 4,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best dentist in Norfolk, NE",
+      "askedAt": "2026-10-12T22:21:20.148Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_chatgpt_q1_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Wood Duck Dental",
+        "Family First Dental",
+        "Langan Dental Health & Implant Center"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Wood Duck Dental",
+        "Langan Dental Health & Implant Center"
+      ],
+      "note": "Named three Norfolk, NE dental practices (including the audit subject under a slightly different name) and also pointed to Healthgrades for further comparison.",
+      "answerChars": 1840
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "emergency dentist near Norfolk, NE",
+      "askedAt": "2026-10-12T22:23:09.055Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_chatgpt_q2_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Aspen Dental",
+        "Midtown Health Center"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Aspen Dental",
+        "Midtown Health Center"
+      ],
+      "note": "Recommended two other Norfolk, NE dental options and did not mention Family 1st Dental at all.",
+      "answerChars": 1533
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "Norfolk, NE dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:24:53.870Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_chatgpt_q3_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Langan Dental Health & Implant Center",
+        "Norfolk Dental Group",
+        "Smiles Dental, P.C.",
+        "The Foleck Center"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Langan Dental Health & Implant Center",
+        "Norfolk Dental Group",
+        "Smiles Dental, P.C.",
+        "The Foleck Center"
+      ],
+      "note": "Recommended four Norfolk, NE dental practices with anxiety/sedation options, none of which was Family 1st Dental.",
+      "answerChars": 1840
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "invisalign Norfolk, NE",
+      "askedAt": "2026-10-12T22:26:40.758Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_chatgpt_q4_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic guidance and asked clarifying questions without naming any specific dental practices.",
+      "answerChars": 1327
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "best cosmetic dentist Norfolk, NE",
+      "askedAt": "2026-10-12T22:28:23.522Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_chatgpt_q5_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Langan Dental Health & Implant Center",
+        "Family 1st Dental of Norfolk",
+        "Smiles Dental P.C.",
+        "Norfolk Dental Group",
+        "Aspen Dental"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Langan Dental Health & Implant Center",
+        "Smiles Dental P.C.",
+        "Norfolk Dental Group",
+        "Aspen Dental"
+      ],
+      "note": "Named five local cosmetic dentistry options including the subject, with ratings and review counts, and asked follow-up questions to refine recommendations.",
+      "answerChars": 2681
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "dentist taking new patients Norfolk, NE",
+      "askedAt": "2026-10-12T22:30:17.123Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_chatgpt_q6_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Family 1st Dental – Taylor Avenue",
+        "Family 1st Dental – Norfolk (13th Street)",
+        "Hatfield Family Dentistry",
+        "Langan Dental Health & Implant Center",
+        "Dental Wellness Center",
+        "Norfolk Dental Group",
+        "Aspen Dental"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Hatfield Family Dentistry",
+        "Langan Dental Health & Implant Center",
+        "Dental Wellness Center",
+        "Norfolk Dental Group",
+        "Aspen Dental"
+      ],
+      "note": "Listed Family 1st Dental's two locations alongside five competitor dental practices as options accepting new patients in Norfolk, NE.",
+      "answerChars": 1634
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "pediatric dentist near Norfolk, NE",
+      "askedAt": "2026-10-12T22:32:03.892Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_chatgpt_q7_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Norfolk Children's Dental Clinic",
+        "Wood Duck Dental",
+        "Starwood Dental",
+        "Family 1st Dental"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Norfolk Children's Dental Clinic",
+        "Wood Duck Dental",
+        "Starwood Dental"
+      ],
+      "note": "Recommended four local dental practices, including the subject, for pediatric dental care near Norfolk, NE.",
+      "answerChars": 1305
+    },
+    {
+      "platform": "claude",
+      "question": 1,
+      "text": "best dentist in Norfolk, NE",
+      "askedAt": "2026-10-12T22:21:20.149Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_claude_q1_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Langan Dental Health & Implant Center",
+        "David C Schroeder, DDS",
+        "Dr. Wyley Wondercheck",
+        "Smiles Dental P.C.",
+        "Starwood Dental P.C.",
+        "Regency Family Dental Care",
+        "Aspen Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Langan Dental Health & Implant Center",
+        "David C Schroeder, DDS",
+        "Dr. Wyley Wondercheck",
+        "Smiles Dental P.C.",
+        "Starwood Dental P.C.",
+        "Regency Family Dental Care",
+        "Aspen Dental"
+      ],
+      "note": "Recommended six other Norfolk, NE dental practices and mentioned Aspen Dental, never naming Family 1st Dental.",
+      "answerChars": 3355
+    },
+    {
+      "platform": "claude",
+      "question": 2,
+      "text": "emergency dentist near Norfolk, NE",
+      "askedAt": "2026-10-12T22:21:37.976Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_claude_q2_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Aspen Dental",
+        "Langan Dental Health Center",
+        "Forestream Dental Care",
+        "Oral Surgery Center, P.C.",
+        "Anderson Erin R DDS",
+        "Karmazin Daniel J DDS",
+        "24hour-dentist.net",
+        "emergency-dental.org",
+        "emergency-dentist.org"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Aspen Dental",
+        "Langan Dental Health Center",
+        "Forestream Dental Care",
+        "Oral Surgery Center, P.C.",
+        "Anderson Erin R DDS",
+        "Karmazin Daniel J DDS",
+        "24hour-dentist.net",
+        "emergency-dental.org",
+        "emergency-dentist.org"
+      ],
+      "note": "Listed several Norfolk-area dental practices and referral networks for emergency care but never mentioned Family 1st Dental.",
+      "answerChars": 2766
+    },
+    {
+      "platform": "claude",
+      "question": 3,
+      "text": "Norfolk, NE dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:21:55.003Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_claude_q3_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Dental Wellness Center",
+        "Langan Dental Health & Implant Center",
+        "Smiles Dental P.C."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dental Wellness Center",
+        "Langan Dental Health & Implant Center",
+        "Smiles Dental P.C."
+      ],
+      "note": "Recommended three Norfolk, NE dentists known for treating anxious patients, none of which was Family 1st Dental.",
+      "answerChars": 2827
+    },
+    {
+      "platform": "claude",
+      "question": 4,
+      "text": "invisalign Norfolk, NE",
+      "askedAt": "2026-10-12T22:22:08.280Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_claude_q4_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Wagner, Kuntz, Grabouski & Kopf Orthodontics",
+        "Family 1st Dental – Norfolk (13th Street location)",
+        "Smiles Dental P.C.",
+        "Family First Dental – Taylor location",
+        "David C Schroeder, DDS",
+        "Langan Dental Health Center",
+        "Aspen Dental"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Wagner, Kuntz, Grabouski & Kopf Orthodontics",
+        "Smiles Dental P.C.",
+        "David C Schroeder, DDS",
+        "Langan Dental Health Center",
+        "Aspen Dental"
+      ],
+      "note": "Listed several Norfolk, NE Invisalign providers including both locations of the subject (Family 1st Dental) alongside five competitor practices, recommending callers compare the orthodontic specialist and the subject.",
+      "answerChars": 2486
+    },
+    {
+      "platform": "claude",
+      "question": 5,
+      "text": "best cosmetic dentist Norfolk, NE",
+      "askedAt": "2026-10-12T22:22:22.965Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_claude_q5_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Langan Dental Health & Implant Center",
+        "Regency Family Dental Care PC",
+        "Dental Wellness Center",
+        "Aspen Dental",
+        "Family 1st Dental"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Langan Dental Health & Implant Center",
+        "Regency Family Dental Care PC",
+        "Dental Wellness Center",
+        "Aspen Dental"
+      ],
+      "note": "Listed five cosmetic dentistry options in Norfolk, NE, including the audit subject, with brief descriptions of each.",
+      "answerChars": 2655
+    },
+    {
+      "platform": "claude",
+      "question": 6,
+      "text": "dentist taking new patients Norfolk, NE",
+      "askedAt": "2026-10-12T22:22:36.768Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_claude_q6_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Langan Dental Health & Implant Center",
+        "Family 1st Dental – Norfolk (13th Street)",
+        "Family 1st Dental – Norfolk (Taylor Ave)",
+        "Dental Wellness Center",
+        "Hatfield Family Dentistry",
+        "Aspen Dental",
+        "Smiles Dental PC",
+        "Midtown Health Center Inc"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Langan Dental Health & Implant Center",
+        "Dental Wellness Center",
+        "Hatfield Family Dentistry",
+        "Aspen Dental",
+        "Smiles Dental PC",
+        "Midtown Health Center Inc"
+      ],
+      "note": "Listed eight Norfolk, NE dentists accepting new patients, including both Family 1st Dental locations alongside six competitors.",
+      "answerChars": 2774
+    },
+    {
+      "platform": "claude",
+      "question": 7,
+      "text": "pediatric dentist near Norfolk, NE",
+      "askedAt": "2026-10-12T22:22:53.238Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_claude_q7_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Norfolk Children's Dental Clinic",
+        "Starwood Dental PC",
+        "Smiles Dental",
+        "Aspen Dental",
+        "Pedersen Dental",
+        "Schuyler Dental Clinic",
+        "Kaitlynn Harvey, DDS",
+        "Smile Station Pediatric Dentistry",
+        "Children's Dental Specialists"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Norfolk Children's Dental Clinic",
+        "Starwood Dental PC",
+        "Smiles Dental",
+        "Aspen Dental",
+        "Pedersen Dental",
+        "Schuyler Dental Clinic",
+        "Kaitlynn Harvey, DDS",
+        "Smile Station Pediatric Dentistry",
+        "Children's Dental Specialists"
+      ],
+      "note": "Recommended several Norfolk-area dental practices and nearby alternatives but never mentioned Family 1st Dental.",
+      "answerChars": 2913
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best dentist in Norfolk, NE",
+      "askedAt": "2026-10-12T22:21:20.149Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_gemini_q1_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Langan Dental Health & Implant Center, PC",
+        "Regency Family Dental Care",
+        "Family First Dental of Norfolk",
+        "Norfolk Dental Group"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Langan Dental Health & Implant Center, PC",
+        "Regency Family Dental Care",
+        "Norfolk Dental Group"
+      ],
+      "note": "Listed five local dental practices (including two locations of the subject under a slightly different name) with ratings and brief descriptions.",
+      "answerChars": 2705
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "emergency dentist near Norfolk, NE",
+      "askedAt": "2026-10-12T22:21:45.890Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_gemini_q2_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Aspen Dental - Norfolk, NE",
+        "Midtown Health Center",
+        "Regency Family Dental Care",
+        "Family First Dental of Norfolk"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Aspen Dental - Norfolk, NE",
+        "Midtown Health Center",
+        "Regency Family Dental Care"
+      ],
+      "note": "Recommended four local dental/health providers for urgent care, including a close-name match to the audit subject (Family First Dental of Norfolk).",
+      "answerChars": 1994
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "Norfolk, NE dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:22:08.440Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_gemini_q3_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Langan Dental Health & Implant Center, PC",
+        "Regency Family Dental Care",
+        "Norfolk Dental Group",
+        "Family First Dental of Norfolk"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Langan Dental Health & Implant Center, PC",
+        "Regency Family Dental Care",
+        "Norfolk Dental Group"
+      ],
+      "note": "Recommended four Norfolk dental practices for anxious patients, including the audit subject (as 'Family First Dental of Norfolk') ranked last with a lower rating.",
+      "answerChars": 2683
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "invisalign Norfolk, NE",
+      "askedAt": "2026-10-12T22:22:34.309Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_gemini_q4_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Aspen Dental",
+        "Family 1st Dental of Norfolk",
+        "Langan Dental Health & Implant Center"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Aspen Dental",
+        "Langan Dental Health & Implant Center"
+      ],
+      "note": "Named three local providers including the subject, with contact details and general clear-aligner consultation info.",
+      "answerChars": 1771
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "best cosmetic dentist Norfolk, NE",
+      "askedAt": "2026-10-12T22:22:57.792Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_gemini_q5_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Langan Dental Health & Implant Center, PC",
+        "Norfolk Dental Group",
+        "Hatfield Family Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Langan Dental Health & Implant Center, PC",
+        "Norfolk Dental Group",
+        "Hatfield Family Dentistry"
+      ],
+      "note": "Recommended three competing Norfolk, NE dental practices for cosmetic dentistry, not mentioning Family 1st Dental.",
+      "answerChars": 2348
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "dentist taking new patients Norfolk, NE",
+      "askedAt": "2026-10-12T22:23:23.489Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_gemini_q6_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Norfolk Dental Group",
+        "Hatfield Family Dentistry",
+        "Aspen Dental",
+        "Smiles Dental P.C.",
+        "Wood Duck Dental",
+        "Family First Dental of Norfolk"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Norfolk Dental Group",
+        "Hatfield Family Dentistry",
+        "Aspen Dental",
+        "Smiles Dental P.C.",
+        "Wood Duck Dental"
+      ],
+      "note": "Listed 7 Norfolk dentists (including two locations of the subject, Family First Dental of Norfolk) accepting new patients, with brief service highlights for each.",
+      "answerChars": 2775
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "pediatric dentist near Norfolk, NE",
+      "askedAt": "2026-10-12T22:23:51.762Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_gemini_q7_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Norfolk Childrens Dental Clinic",
+        "Dr. Gina D. Waite, DDS",
+        "Family First Dental of Norfolk",
+        "Starwood Dental P.C. Zachary A. Kopf DDS"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Norfolk Childrens Dental Clinic",
+        "Dr. Gina D. Waite, DDS",
+        "Starwood Dental P.C. Zachary A. Kopf DDS"
+      ],
+      "note": "Listed four local dental practices including a close variant of the subject's name (Family First Dental of Norfolk) alongside three competitors.",
+      "answerChars": 1604
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best dentist in Norfolk, NE",
+      "askedAt": "2026-10-12T22:21:20.149Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_perplexity_q1_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Dr. David Schroeder",
+        "Smiles Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dr. David Schroeder",
+        "Smiles Dental"
+      ],
+      "note": "Named two competing dentists (Dr. David Schroeder and Smiles Dental) but did not mention Family 1st Dental.",
+      "answerChars": 923
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "emergency dentist near Norfolk, NE",
+      "askedAt": "2026-10-12T22:21:45.715Z",
+      "ok": false,
+      "screenshot": "screenshots/family-1st-dental_perplexity_q2_2026-10-12.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "Norfolk, NE dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:22:54.491Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_perplexity_q3_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Langan Dental Health & Implant Center",
+        "Norfolk Dental Group",
+        "Dental Wellness Center",
+        "Family 1st Dental"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Langan Dental Health & Implant Center",
+        "Norfolk Dental Group",
+        "Dental Wellness Center"
+      ],
+      "note": "Listed four Norfolk dental practices for anxious patients, ranking Family 1st Dental last behind three competitors.",
+      "answerChars": 2540
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "invisalign Norfolk, NE",
+      "askedAt": "2026-10-12T22:23:22.784Z",
+      "ok": false,
+      "screenshot": "screenshots/family-1st-dental_perplexity_q4_2026-10-12.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "best cosmetic dentist Norfolk, NE",
+      "askedAt": "2026-10-12T22:24:31.674Z",
+      "ok": true,
+      "screenshot": "screenshots/family-1st-dental_perplexity_q5_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Family & Cosmetic Dentistry (Dr. David Schroeder)"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Family & Cosmetic Dentistry (Dr. David Schroeder)"
+      ],
+      "note": "The answer named only one local practice (Family & Cosmetic Dentistry) as a possible option and did not mention Family 1st Dental.",
+      "answerChars": 929
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "dentist taking new patients Norfolk, NE",
+      "askedAt": "2026-10-12T22:24:56.353Z",
+      "ok": false,
+      "screenshot": "screenshots/family-1st-dental_perplexity_q6_2026-10-12.jpg",
+      "error": "sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "pediatric dentist near Norfolk, NE",
+      "askedAt": "2026-10-12T22:25:18.928Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    }
+  ]
+}

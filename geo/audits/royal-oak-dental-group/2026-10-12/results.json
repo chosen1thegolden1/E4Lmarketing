@@ -1,0 +1,677 @@
+{
+  "subject": "Royal Oak Dental Group",
+  "city": "Cary, NC",
+  "niche": "dental",
+  "label": "Dental",
+  "date": "2026-10-12",
+  "startedAt": "2026-10-12T22:33:48.250Z",
+  "finishedAt": "2026-10-12T22:46:11.061Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity",
+    "claude"
+  ],
+  "score": "0/28",
+  "named": 0,
+  "total": 28,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best dentist in Cary, NC",
+      "askedAt": "2026-10-12T22:33:48.409Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_chatgpt_q1_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Zen Triangle Dentistry",
+        "Smiles of Cary",
+        "Pure Dental of Cary"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Zen Triangle Dentistry",
+        "Smiles of Cary",
+        "Pure Dental of Cary"
+      ],
+      "note": "Named three competing Cary dental practices with review stats but did not mention Royal Oak Dental Group.",
+      "answerChars": 1924
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "emergency dentist near Cary, NC",
+      "askedAt": "2026-10-12T22:35:35.437Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_chatgpt_q2_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "UNC REX Hospital",
+        "Duke University Hospital"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "UNC REX Hospital",
+        "Duke University Hospital"
+      ],
+      "note": "Asked clarifying questions and named only two hospital ERs, not the subject dental practice.",
+      "answerChars": 971
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "Cary, NC dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:37:16.639Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_chatgpt_q3_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Cary Family Dental",
+        "Signature Smiles",
+        "Parkside Family Dental",
+        "Goodall Family Dentistry",
+        "Preston Dental Loft",
+        "Stanley Dentistry",
+        "Stapleton Dentistry",
+        "Zen Triangle Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Cary Family Dental",
+        "Signature Smiles",
+        "Parkside Family Dental",
+        "Goodall Family Dentistry",
+        "Preston Dental Loft",
+        "Stanley Dentistry",
+        "Stapleton Dentistry",
+        "Zen Triangle Dentistry"
+      ],
+      "note": "Recommended eight competing Cary-area dental practices for anxious patients, without mentioning Royal Oak Dental Group.",
+      "answerChars": 2754
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "invisalign Cary, NC",
+      "askedAt": "2026-10-12T22:39:05.485Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_chatgpt_q4_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on finding Invisalign providers and asked clarifying questions without naming any specific businesses.",
+      "answerChars": 1572
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "best cosmetic dentist Cary, NC",
+      "askedAt": "2026-10-12T22:40:50.078Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_chatgpt_q5_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Cary Prosthodontics Implant & Cosmetic Dentistry",
+        "Cary Family Dental",
+        "Stanley Dentistry",
+        "Jeffrey S. Kearney, DDS"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Cary Prosthodontics Implant & Cosmetic Dentistry",
+        "Cary Family Dental",
+        "Stanley Dentistry",
+        "Jeffrey S. Kearney, DDS"
+      ],
+      "note": "Recommended four other Cary-area cosmetic dental practices and two directory sites, without mentioning Royal Oak Dental Group.",
+      "answerChars": 2559
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "dentist taking new patients Cary, NC",
+      "askedAt": "2026-10-12T22:42:39.066Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_chatgpt_q6_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "South Cary Dental",
+        "Kildaire Family & Cosmetic Dentistry",
+        "Millpond Family Dentistry",
+        "West Cary Dental",
+        "Alliance Dentistry",
+        "Crystal Smile Family Dentistry",
+        "Sninski & Schmitt Family Dentistry",
+        "Dr. Darren Koch, DDS"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "South Cary Dental",
+        "Kildaire Family & Cosmetic Dentistry",
+        "Millpond Family Dentistry",
+        "West Cary Dental",
+        "Alliance Dentistry",
+        "Crystal Smile Family Dentistry",
+        "Sninski & Schmitt Family Dentistry",
+        "Dr. Darren Koch, DDS"
+      ],
+      "note": "Listed 8 Cary dentists accepting new patients, none of which was Royal Oak Dental Group.",
+      "answerChars": 1784
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "pediatric dentist near Cary, NC",
+      "askedAt": "2026-10-12T22:44:24.921Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_chatgpt_q7_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Cary Pediatric Dentistry",
+        "Optimal Kids Pediatric Dental Medicine",
+        "Preston Corners Pediatric Dentistry",
+        "Pediatric Dentist at West Cary"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Cary Pediatric Dentistry",
+        "Optimal Kids Pediatric Dental Medicine",
+        "Preston Corners Pediatric Dentistry",
+        "Pediatric Dentist at West Cary"
+      ],
+      "note": "Recommended four local pediatric dental practices plus directory links, without mentioning Royal Oak Dental Group.",
+      "answerChars": 1592
+    },
+    {
+      "platform": "claude",
+      "question": 1,
+      "text": "best dentist in Cary, NC",
+      "askedAt": "2026-10-12T22:33:48.409Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_claude_q1_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Stanley Dentistry",
+        "Wake Dental Care",
+        "Darren G. Koch, D.D.S., P.A.",
+        "Dr. Edward Joseph Howard",
+        "Dr. Charles Ferzli (Smiles of Cary)",
+        "Dr. Allan Acton, DDS",
+        "Kildaire Family Dental",
+        "Triangle Endodontics",
+        "Parkside Family Dental",
+        "Signature Smiles"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Stanley Dentistry",
+        "Wake Dental Care",
+        "Darren G. Koch, D.D.S., P.A.",
+        "Dr. Edward Joseph Howard",
+        "Dr. Charles Ferzli (Smiles of Cary)",
+        "Dr. Allan Acton, DDS",
+        "Kildaire Family Dental",
+        "Triangle Endodontics",
+        "Parkside Family Dental",
+        "Signature Smiles"
+      ],
+      "note": "Recommended ten other Cary-area dentists/practices with ratings and reviews, never mentioning Royal Oak Dental Group.",
+      "answerChars": 2748
+    },
+    {
+      "platform": "claude",
+      "question": 2,
+      "text": "emergency dentist near Cary, NC",
+      "askedAt": "2026-10-12T22:34:05.336Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_claude_q2_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Cary Family Dental",
+        "Darren G. Koch, D.D.S., P.A. – Family & Cosmetic Dentistry",
+        "Kildaire Family & Cosmetic Dentistry",
+        "Parkside Family Dental",
+        "Signature Smiles",
+        "Cary Dental Rejuvenation",
+        "Emergency Dentist Cary NC (24-Hour Clinic)",
+        "Myers + Co. Family Dentistry",
+        "Legacy Dental Cary",
+        "Apex Smiles"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Cary Family Dental",
+        "Darren G. Koch, D.D.S., P.A. – Family & Cosmetic Dentistry",
+        "Kildaire Family & Cosmetic Dentistry",
+        "Parkside Family Dental",
+        "Signature Smiles",
+        "Cary Dental Rejuvenation",
+        "Emergency Dentist Cary NC (24-Hour Clinic)",
+        "Myers + Co. Family Dentistry",
+        "Legacy Dental Cary",
+        "Apex Smiles"
+      ],
+      "note": "Recommended 10 other local dental practices for emergency care near Cary, NC, without mentioning Royal Oak Dental Group.",
+      "answerChars": 3809
+    },
+    {
+      "platform": "claude",
+      "question": 3,
+      "text": "Cary, NC dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:34:21.864Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_claude_q3_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Preston Dental Loft",
+        "Genesis Dental",
+        "Signature Smiles",
+        "Dr. Darren G. Koch, DDS, PA",
+        "Gary W. Beavers, DDS",
+        "Crystal Smile Family Dentistry",
+        "Magnolia Way Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Preston Dental Loft",
+        "Genesis Dental",
+        "Signature Smiles",
+        "Dr. Darren G. Koch, DDS, PA",
+        "Gary W. Beavers, DDS",
+        "Crystal Smile Family Dentistry",
+        "Magnolia Way Dentistry"
+      ],
+      "note": "Recommended 7 other Cary-area dentists known for treating anxious patients, never mentioning Royal Oak Dental Group.",
+      "answerChars": 3618
+    },
+    {
+      "platform": "claude",
+      "question": 4,
+      "text": "invisalign Cary, NC",
+      "askedAt": "2026-10-12T22:34:36.615Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_claude_q4_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Preston Dental Loft",
+        "Preston Dental Center",
+        "Darren G. Koch, D.D.S., P.A.",
+        "Myers + Co. Family Dentistry",
+        "Signature Smiles",
+        "Alliance Dentistry",
+        "Zen Triangle Dentistry",
+        "Dr. Jeffrey Kearney"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Preston Dental Loft",
+        "Preston Dental Center",
+        "Darren G. Koch, D.D.S., P.A.",
+        "Myers + Co. Family Dentistry",
+        "Signature Smiles",
+        "Alliance Dentistry",
+        "Zen Triangle Dentistry",
+        "Dr. Jeffrey Kearney"
+      ],
+      "note": "Listed 8 other Cary dental practices offering Invisalign but never mentioned Royal Oak Dental Group.",
+      "answerChars": 2925
+    },
+    {
+      "platform": "claude",
+      "question": 5,
+      "text": "best cosmetic dentist Cary, NC",
+      "askedAt": "2026-10-12T22:34:51.366Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_claude_q5_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Darren G. Koch, D.D.S., P.A.",
+        "Dr. Allan Acton, DDS",
+        "Apex Smiles",
+        "Cary Prosthodontics",
+        "Wake Dental Care",
+        "Lowery Smiles"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Darren G. Koch, D.D.S., P.A.",
+        "Dr. Allan Acton, DDS",
+        "Apex Smiles",
+        "Cary Prosthodontics",
+        "Wake Dental Care",
+        "Lowery Smiles"
+      ],
+      "note": "Recommended six other Cary dental practices as top cosmetic dentists, never mentioning Royal Oak Dental Group.",
+      "answerChars": 3434
+    },
+    {
+      "platform": "claude",
+      "question": 6,
+      "text": "dentist taking new patients Cary, NC",
+      "askedAt": "2026-10-12T22:35:07.238Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_claude_q6_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Stanley Dentistry",
+        "Alliance Dentistry",
+        "South Cary Dental",
+        "Kildaire Family & Cosmetic Dentistry",
+        "Millpond Family Dental",
+        "Praus Dentistry",
+        "Sninski & Schmitt Family Dentistry",
+        "Cary Family Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Stanley Dentistry",
+        "Alliance Dentistry",
+        "South Cary Dental",
+        "Kildaire Family & Cosmetic Dentistry",
+        "Millpond Family Dental",
+        "Praus Dentistry",
+        "Sninski & Schmitt Family Dentistry",
+        "Cary Family Dental"
+      ],
+      "note": "Listed 8 Cary, NC dental practices accepting new patients, none of which was the audit subject Royal Oak Dental Group.",
+      "answerChars": 2885
+    },
+    {
+      "platform": "claude",
+      "question": 7,
+      "text": "pediatric dentist near Cary, NC",
+      "askedAt": "2026-10-12T22:35:22.060Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_claude_q7_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Preston Corners Pediatric Dentistry",
+        "High House Pediatric Dentistry",
+        "Growing Smiles Pediatric Dentistry",
+        "Pediatric Dentist at West Cary",
+        "Riccobene Dentistry for Kids",
+        "South Cary Dental",
+        "Holistic Dental Centers"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Preston Corners Pediatric Dentistry",
+        "High House Pediatric Dentistry",
+        "Growing Smiles Pediatric Dentistry",
+        "Pediatric Dentist at West Cary",
+        "Riccobene Dentistry for Kids",
+        "South Cary Dental",
+        "Holistic Dental Centers"
+      ],
+      "note": "Recommended seven pediatric dental practices in Cary, NC, none of which was Royal Oak Dental Group.",
+      "answerChars": 2790
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best dentist in Cary, NC",
+      "askedAt": "2026-10-12T22:33:48.409Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_gemini_q1_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Darren G. Koch, DDS, PA",
+        "Kildaire Family & Cosmetic Dentistry",
+        "Stapleton Dentistry",
+        "Cary Dental Center",
+        "Praus Dentistry of Cary"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Darren G. Koch, DDS, PA",
+        "Kildaire Family & Cosmetic Dentistry",
+        "Stapleton Dentistry",
+        "Cary Dental Center",
+        "Praus Dentistry of Cary"
+      ],
+      "note": "Recommended 5 local dental practices in Cary, NC, none of which was Royal Oak Dental Group.",
+      "answerChars": 3174
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "emergency dentist near Cary, NC",
+      "askedAt": "2026-10-12T22:34:14.835Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_gemini_q2_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Urgent Dental",
+        "Night & Day Dental",
+        "Dr. George Bochorishvili, DDS Emergency Dentist Apex 24 Hours",
+        "Emergency Dentist Raleigh 24Hr",
+        "Cary Family Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Urgent Dental",
+        "Night & Day Dental",
+        "Dr. George Bochorishvili, DDS Emergency Dentist Apex 24 Hours",
+        "Emergency Dentist Raleigh 24Hr",
+        "Cary Family Dental"
+      ],
+      "note": "Recommended five other emergency/general dental practices near Cary, NC without mentioning Royal Oak Dental Group.",
+      "answerChars": 2061
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "Cary, NC dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:34:37.489Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_gemini_q3_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Genesis Dental - Nathaniel Leedy, DMD",
+        "Gary Beavers, DDS",
+        "Hemlock Plaza Family Dental",
+        "Carl McMillan, DMD, PA: Holistic Dental Centers"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Genesis Dental - Nathaniel Leedy, DMD",
+        "Gary Beavers, DDS",
+        "Hemlock Plaza Family Dental",
+        "Carl McMillan, DMD, PA: Holistic Dental Centers"
+      ],
+      "note": "Recommended four other Cary-area dentists known for anxiety-friendly care, without mentioning Royal Oak Dental Group.",
+      "answerChars": 2625
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "invisalign Cary, NC",
+      "askedAt": "2026-10-12T22:35:01.617Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_gemini_q4_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Cary Family Dental",
+        "Darren G. Koch, DDS",
+        "Jeffrey S. Kearney, DDS",
+        "New Day Dental & Medical Aesthetics",
+        "MyOrthodontist"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Cary Family Dental",
+        "Darren G. Koch, DDS",
+        "Jeffrey S. Kearney, DDS",
+        "New Day Dental & Medical Aesthetics",
+        "MyOrthodontist"
+      ],
+      "note": "Recommended five competing Cary dental/orthodontic practices for Invisalign without mentioning Royal Oak Dental Group.",
+      "answerChars": 3525
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "best cosmetic dentist Cary, NC",
+      "askedAt": "2026-10-12T22:35:24.374Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_gemini_q5_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Darren G. Koch, DDS, PA",
+        "New Day Dental & Medical Aesthetics",
+        "Kildaire Family & Cosmetic Dentistry",
+        "Alliance Dentistry",
+        "Lisa N. Powell, DMD, MS, PA",
+        "Nouveau Smile Studio",
+        "Nu Image Surgical & Dental Implant Center",
+        "Cary Dental Rejuvenation"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Darren G. Koch, DDS, PA",
+        "New Day Dental & Medical Aesthetics",
+        "Kildaire Family & Cosmetic Dentistry",
+        "Alliance Dentistry",
+        "Lisa N. Powell, DMD, MS, PA",
+        "Nouveau Smile Studio",
+        "Nu Image Surgical & Dental Implant Center",
+        "Cary Dental Rejuvenation"
+      ],
+      "note": "Recommended 8 Cary-area cosmetic dentists with details, none of which was Royal Oak Dental Group.",
+      "answerChars": 5422
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "dentist taking new patients Cary, NC",
+      "askedAt": "2026-10-12T22:35:50.761Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_gemini_q6_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Alliance Dentistry",
+        "Stanley Dentistry",
+        "Zen Triangle Dentistry",
+        "New Day Dental & Medical Aesthetics",
+        "Praus Dentistry of Cary"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Alliance Dentistry",
+        "Stanley Dentistry",
+        "Zen Triangle Dentistry",
+        "New Day Dental & Medical Aesthetics",
+        "Praus Dentistry of Cary"
+      ],
+      "note": "Recommended five other Cary dental practices accepting new patients, without mentioning Royal Oak Dental Group.",
+      "answerChars": 2184
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "pediatric dentist near Cary, NC",
+      "askedAt": "2026-10-12T22:36:15.627Z",
+      "ok": true,
+      "screenshot": "screenshots/royal-oak-dental-group_gemini_q7_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Cary Pediatric Dentistry",
+        "High House Pediatric Dentistry",
+        "Growing Smiles Pediatric Dentistry - Cary",
+        "Pediatric Dentist at West Cary",
+        "Riccobene Associates Family Dentistry for Kids - Cary, NC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Cary Pediatric Dentistry",
+        "High House Pediatric Dentistry",
+        "Growing Smiles Pediatric Dentistry - Cary",
+        "Pediatric Dentist at West Cary",
+        "Riccobene Associates Family Dentistry for Kids - Cary, NC"
+      ],
+      "note": "Recommended 5 pediatric dental practices near Cary, NC, none of which was the audit subject Royal Oak Dental Group.",
+      "answerChars": 2447
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best dentist in Cary, NC",
+      "askedAt": "2026-10-12T22:33:48.409Z",
+      "ok": false,
+      "screenshot": "screenshots/royal-oak-dental-group_perplexity_q1_2026-10-12.jpg",
+      "error": "sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "emergency dentist near Cary, NC",
+      "askedAt": "2026-10-12T22:34:16.143Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "Cary, NC dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:34:16.143Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "invisalign Cary, NC",
+      "askedAt": "2026-10-12T22:34:16.143Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "best cosmetic dentist Cary, NC",
+      "askedAt": "2026-10-12T22:34:16.143Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "dentist taking new patients Cary, NC",
+      "askedAt": "2026-10-12T22:34:16.143Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "pediatric dentist near Cary, NC",
+      "askedAt": "2026-10-12T22:34:16.143Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    }
+  ]
+}

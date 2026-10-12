@@ -1,0 +1,751 @@
+{
+  "subject": "Day Family Dental",
+  "city": "Lansing, MI",
+  "niche": "dental",
+  "label": "Dental",
+  "date": "2026-10-12",
+  "startedAt": "2026-10-12T22:08:33.083Z",
+  "finishedAt": "2026-10-12T22:21:19.481Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity",
+    "claude"
+  ],
+  "score": "1/28",
+  "named": 1,
+  "total": 28,
+  "failedAsks": 4,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best dentist in Lansing, MI",
+      "askedAt": "2026-10-12T22:08:34.484Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_chatgpt_q1_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Michael J. Murphy, D.D.S. (Murphy Family Dentistry)",
+        "Oak Hill Dental Associates",
+        "Schaefer Dental Group",
+        "Dr. Paul L. Rashid, DMD",
+        "Implant Dentistry of Greater Lansing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Michael J. Murphy, D.D.S. (Murphy Family Dentistry)",
+        "Oak Hill Dental Associates",
+        "Schaefer Dental Group",
+        "Dr. Paul L. Rashid, DMD",
+        "Implant Dentistry of Greater Lansing"
+      ],
+      "note": "Recommended five other Lansing-area dental practices and did not mention Day Family Dental at all.",
+      "answerChars": 2353
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "emergency dentist near Lansing, MI",
+      "askedAt": "2026-10-12T22:10:32.356Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_chatgpt_q2_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Emergency Dentist Lansing",
+        "Derksen Dentistry",
+        "Cavanaugh Dental",
+        "Aspen Dental",
+        "McLaren Greater Lansing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Emergency Dentist Lansing",
+        "Derksen Dentistry",
+        "Cavanaugh Dental",
+        "Aspen Dental",
+        "McLaren Greater Lansing"
+      ],
+      "note": "Recommended four local emergency dental practices plus an ER for severe cases, but did not mention Day Family Dental.",
+      "answerChars": 1834
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "Lansing, MI dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:12:19.315Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_chatgpt_q3_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Schaefer Dental Group",
+        "Kenneth C. Ackley II, DDS",
+        "Kim Dentistry / Dr. Caroline Kim",
+        "Oak Hill Dental Associates",
+        "Derksen Dentistry",
+        "Healthy Smiles Dental Care of Lansing",
+        "Downtown Dental Studio",
+        "Lansing Elite Dental",
+        "Valley Dental Spa",
+        "Okemos Dental Care"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Schaefer Dental Group",
+        "Kenneth C. Ackley II, DDS",
+        "Kim Dentistry / Dr. Caroline Kim",
+        "Oak Hill Dental Associates",
+        "Derksen Dentistry",
+        "Healthy Smiles Dental Care of Lansing",
+        "Downtown Dental Studio",
+        "Lansing Elite Dental",
+        "Valley Dental Spa",
+        "Okemos Dental Care"
+      ],
+      "note": "Recommended 10 Lansing/Okemos-area dental practices known for anxiety/sedation care, but did not mention Day Family Dental.",
+      "answerChars": 3256
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "invisalign Lansing, MI",
+      "askedAt": "2026-10-12T22:14:12.386Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_chatgpt_q4_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Grubaugh Orthodontics",
+        "Zang-Bodis Orthodontics",
+        "Downtown Dental Studio",
+        "Campus Dental Care",
+        "Oak Bark Dental",
+        "Caroline Kim Cairns, DDS"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Grubaugh Orthodontics",
+        "Zang-Bodis Orthodontics",
+        "Downtown Dental Studio",
+        "Campus Dental Care",
+        "Oak Bark Dental",
+        "Caroline Kim Cairns, DDS"
+      ],
+      "note": "Listed six competing orthodontists/dentists offering Invisalign in the Lansing area without mentioning Day Family Dental.",
+      "answerChars": 1837
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "best cosmetic dentist Lansing, MI",
+      "askedAt": "2026-10-12T22:15:58.670Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_chatgpt_q5_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Dr. Gary Hubbard",
+        "Kim Dentistry",
+        "Evergreen Dental Center",
+        "Steven L. Atkinson, DDS"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dr. Gary Hubbard",
+        "Kim Dentistry",
+        "Evergreen Dental Center",
+        "Steven L. Atkinson, DDS"
+      ],
+      "note": "Recommended four named dental providers in/near Lansing based on credentials and reviews, but did not mention Day Family Dental.",
+      "answerChars": 2178
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "dentist taking new patients Lansing, MI",
+      "askedAt": "2026-10-12T22:17:45.655Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_chatgpt_q6_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Dyras Dental",
+        "Evergreen Dental Center",
+        "Destiny Dental Care",
+        "Aspen Dental",
+        "Mount Hope Dentistry",
+        "Painless Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dyras Dental",
+        "Evergreen Dental Center",
+        "Destiny Dental Care",
+        "Aspen Dental",
+        "Mount Hope Dentistry",
+        "Painless Dentistry"
+      ],
+      "note": "Recommended six Lansing-area dental practices and two directory tools, but did not mention Day Family Dental.",
+      "answerChars": 2378
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "pediatric dentist near Lansing, MI",
+      "askedAt": "2026-10-12T22:19:33.530Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_chatgpt_q7_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Pediatric Dentistry of East Lansing",
+        "Dr. Scott A. Dexter (Pediatric Dentistry)",
+        "Okemos Pediatric Dentistry, PC",
+        "Discover Smiles Pediatric Dentistry",
+        "Icy Dental",
+        "Mashni Dentistry",
+        "Mount Hope Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Pediatric Dentistry of East Lansing",
+        "Dr. Scott A. Dexter (Pediatric Dentistry)",
+        "Okemos Pediatric Dentistry, PC",
+        "Discover Smiles Pediatric Dentistry",
+        "Icy Dental",
+        "Mashni Dentistry",
+        "Mount Hope Dentistry"
+      ],
+      "note": "Recommended 7 local pediatric/family dental practices near Lansing, MI, none of which was Day Family Dental.",
+      "answerChars": 1725
+    },
+    {
+      "platform": "claude",
+      "question": 1,
+      "text": "best dentist in Lansing, MI",
+      "askedAt": "2026-10-12T22:08:34.484Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_claude_q1_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Derksen Dentistry",
+        "Holly Scott-Hetchler, DDS",
+        "Murphy Family Dentistry",
+        "Smile By Stone",
+        "Trillium Dental, PC",
+        "Katherine L. DeYoung, DDS",
+        "Oak Bark Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Derksen Dentistry",
+        "Holly Scott-Hetchler, DDS",
+        "Murphy Family Dentistry",
+        "Smile By Stone",
+        "Trillium Dental, PC",
+        "Katherine L. DeYoung, DDS",
+        "Oak Bark Dental"
+      ],
+      "note": "Listed seven top-rated Lansing dentists with reviews but did not mention Day Family Dental at all.",
+      "answerChars": 2747
+    },
+    {
+      "platform": "claude",
+      "question": 2,
+      "text": "emergency dentist near Lansing, MI",
+      "askedAt": "2026-10-12T22:08:49.615Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_claude_q2_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Cavanaugh Dental",
+        "Healthy Smiles Dental Care of Lansing",
+        "Downtown Dental Studio",
+        "Lansing Elite Dental",
+        "Implant Dentistry of Greater Lansing",
+        "Priority Emergency Dental Care",
+        "Derksen Dentistry",
+        "Icy Dental",
+        "Kim Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Cavanaugh Dental",
+        "Healthy Smiles Dental Care of Lansing",
+        "Downtown Dental Studio",
+        "Lansing Elite Dental",
+        "Implant Dentistry of Greater Lansing",
+        "Priority Emergency Dental Care",
+        "Derksen Dentistry",
+        "Icy Dental",
+        "Kim Dentistry"
+      ],
+      "note": "Listed 9 competing dental practices in Lansing/East Lansing area but never mentioned Day Family Dental.",
+      "answerChars": 3104
+    },
+    {
+      "platform": "claude",
+      "question": 3,
+      "text": "Lansing, MI dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:09:03.399Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_claude_q3_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Kim Dentistry",
+        "Derksen Dentistry",
+        "Healthy Smiles Dental of Lansing",
+        "Mashni Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Kim Dentistry",
+        "Derksen Dentistry",
+        "Healthy Smiles Dental of Lansing",
+        "Mashni Dentistry"
+      ],
+      "note": "Recommended four other Lansing-area dental practices for anxious patients, never mentioning Day Family Dental.",
+      "answerChars": 3054
+    },
+    {
+      "platform": "claude",
+      "question": 4,
+      "text": "invisalign Lansing, MI",
+      "askedAt": "2026-10-12T22:09:17.294Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_claude_q4_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Icy Dental",
+        "Kenneth Ackley, DDS",
+        "Grubaugh Orthodontics",
+        "Painless Dentistry & Implants",
+        "Downtown Dental Studio",
+        "Kim Dentistry (Dr. Caroline Kim)",
+        "Schaefer Dental Group",
+        "Thomas G. Faiver DDS",
+        "West Family Orthodontics"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Icy Dental",
+        "Kenneth Ackley, DDS",
+        "Grubaugh Orthodontics",
+        "Painless Dentistry & Implants",
+        "Downtown Dental Studio",
+        "Kim Dentistry (Dr. Caroline Kim)",
+        "Schaefer Dental Group",
+        "Thomas G. Faiver DDS",
+        "West Family Orthodontics"
+      ],
+      "note": "Listed nine competing Lansing-area dental/ortho practices offering Invisalign but never mentioned Day Family Dental.",
+      "answerChars": 2593
+    },
+    {
+      "platform": "claude",
+      "question": 5,
+      "text": "best cosmetic dentist Lansing, MI",
+      "askedAt": "2026-10-12T22:09:32.323Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_claude_q5_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Smile By Stone",
+        "Schaefer Dental",
+        "Trillium Dental, PC",
+        "Holly Scott-Hetchler, DDS",
+        "Derksen Dentistry",
+        "Dr. Caroline Kim, DDS",
+        "Dr. Kenneth Ackley II, DDS",
+        "Laura Dyras, DDS (Dyras Dental)"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Smile By Stone",
+        "Schaefer Dental",
+        "Trillium Dental, PC",
+        "Holly Scott-Hetchler, DDS",
+        "Derksen Dentistry",
+        "Dr. Caroline Kim, DDS",
+        "Dr. Kenneth Ackley II, DDS",
+        "Laura Dyras, DDS (Dyras Dental)"
+      ],
+      "note": "Recommended 7-8 other Lansing cosmetic dentists with ratings and tips, never mentioning Day Family Dental.",
+      "answerChars": 2515
+    },
+    {
+      "platform": "claude",
+      "question": 6,
+      "text": "dentist taking new patients Lansing, MI",
+      "askedAt": "2026-10-12T22:09:48.955Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_claude_q6_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Day Family Dental",
+        "Downtown Dental Studio",
+        "Derksen Dentistry",
+        "Oak Bark Dental",
+        "Kenneth C. Ackley II, DDS",
+        "Elan Dental Group",
+        "Dionise Dental PC",
+        "Anthony Spagnuolo"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Downtown Dental Studio",
+        "Derksen Dentistry",
+        "Oak Bark Dental",
+        "Kenneth C. Ackley II, DDS",
+        "Elan Dental Group",
+        "Dionise Dental PC",
+        "Anthony Spagnuolo"
+      ],
+      "note": "Listed Day Family Dental alongside several competing Lansing-area dentists all accepting new patients.",
+      "answerChars": 2187
+    },
+    {
+      "platform": "claude",
+      "question": 7,
+      "text": "pediatric dentist near Lansing, MI",
+      "askedAt": "2026-10-12T22:10:03.631Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_claude_q7_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Pediatric Dentistry of East Lansing",
+        "Discover Smiles Pediatric Dentistry",
+        "Okemos Pediatric Dentistry",
+        "Dr. Scott Alan Dexter",
+        "Dr. Neerrajah Ramaswami",
+        "Dr. Jacob E. Myers",
+        "Derksen Dentistry",
+        "Beyond Dental",
+        "Schaefer Dental Group",
+        "Implant Dentistry of Greater Lansing",
+        "Dr. Daniel K. Yoo",
+        "Dental Dreams"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Pediatric Dentistry of East Lansing",
+        "Discover Smiles Pediatric Dentistry",
+        "Okemos Pediatric Dentistry",
+        "Dr. Scott Alan Dexter",
+        "Dr. Neerrajah Ramaswami",
+        "Dr. Jacob E. Myers",
+        "Derksen Dentistry",
+        "Beyond Dental",
+        "Schaefer Dental Group",
+        "Implant Dentistry of Greater Lansing",
+        "Dr. Daniel K. Yoo",
+        "Dental Dreams"
+      ],
+      "note": "The answer listed numerous pediatric and family dental practices near Lansing, MI but never mentioned Day Family Dental.",
+      "answerChars": 3227
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best dentist in Lansing, MI",
+      "askedAt": "2026-10-12T22:08:34.484Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_gemini_q1_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Schaefer Dental Group",
+        "Cavanaugh Dental",
+        "Healthy Smiles Dental Care of Lansing",
+        "Painless Dentistry - Lansing",
+        "Dental Dreams - Lansing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Schaefer Dental Group",
+        "Cavanaugh Dental",
+        "Healthy Smiles Dental Care of Lansing",
+        "Painless Dentistry - Lansing",
+        "Dental Dreams - Lansing"
+      ],
+      "note": "Recommended five other Lansing dental practices and did not mention Day Family Dental.",
+      "answerChars": 2641
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "emergency dentist near Lansing, MI",
+      "askedAt": "2026-10-12T22:08:58.237Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_gemini_q2_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Priority Emergency Dental Care",
+        "Trillium Dental",
+        "Dr. Tyler Bennett Emergency Dentist East Lansing 24 Hours",
+        "Painless Dentistry - Lansing",
+        "Healthy Smiles Dental Care of Lansing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Priority Emergency Dental Care",
+        "Trillium Dental",
+        "Dr. Tyler Bennett Emergency Dentist East Lansing 24 Hours",
+        "Painless Dentistry - Lansing",
+        "Healthy Smiles Dental Care of Lansing"
+      ],
+      "note": "Recommended 5 competing emergency/general dentists near Lansing but did not mention Day Family Dental at all.",
+      "answerChars": 2716
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "Lansing, MI dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:09:20.456Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_gemini_q3_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Kim Dentistry",
+        "Lansing Elite Dental",
+        "Mashni Dentistry",
+        "Oakhill Dental Associates"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Kim Dentistry",
+        "Lansing Elite Dental",
+        "Mashni Dentistry",
+        "Oakhill Dental Associates"
+      ],
+      "note": "Recommended four other Lansing-area dental practices for anxious patients, never mentioning Day Family Dental.",
+      "answerChars": 2770
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "invisalign Lansing, MI",
+      "askedAt": "2026-10-12T22:09:43.809Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_gemini_q4_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Kim Dentistry (Dr. Caroline Kim)",
+        "Grubaugh Orthodontics",
+        "Beyond Dental",
+        "Dr. Thomas G. Faiver, DDS",
+        "Kenneth C. Ackley II, DDS"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Kim Dentistry (Dr. Caroline Kim)",
+        "Grubaugh Orthodontics",
+        "Beyond Dental",
+        "Dr. Thomas G. Faiver, DDS",
+        "Kenneth C. Ackley II, DDS"
+      ],
+      "note": "Recommended five other Lansing-area dental/orthodontic practices for Invisalign without mentioning Day Family Dental.",
+      "answerChars": 2515
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "best cosmetic dentist Lansing, MI",
+      "askedAt": "2026-10-12T22:10:07.589Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_gemini_q5_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Smile By Stone",
+        "Kenneth C. Ackley II, DDS",
+        "Scott-Hetchler Holly DDS",
+        "Oak Bark Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Smile By Stone",
+        "Kenneth C. Ackley II, DDS",
+        "Scott-Hetchler Holly DDS",
+        "Oak Bark Dental"
+      ],
+      "note": "Recommended four other Lansing dental practices for cosmetic dentistry, without mentioning Day Family Dental.",
+      "answerChars": 2788
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "dentist taking new patients Lansing, MI",
+      "askedAt": "2026-10-12T22:10:32.097Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_gemini_q6_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Schaefer Dental Group",
+        "Healthy Smiles Dental Care of Lansing",
+        "Derksen Dentistry",
+        "Cavanaugh Dental",
+        "Murphy Family Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Schaefer Dental Group",
+        "Healthy Smiles Dental Care of Lansing",
+        "Derksen Dentistry",
+        "Cavanaugh Dental",
+        "Murphy Family Dentistry"
+      ],
+      "note": "Recommended five Lansing-area dental practices accepting new patients, none of which was Day Family Dental.",
+      "answerChars": 2998
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "pediatric dentist near Lansing, MI",
+      "askedAt": "2026-10-12T22:10:57.242Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_gemini_q7_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Pediatric Dentistry of East Lansing",
+        "Discover Smiles Pediatric Dentistry",
+        "Dental Dreams - Lansing",
+        "Schaefer Dental Group",
+        "Dr. Jacob Myers"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Pediatric Dentistry of East Lansing",
+        "Discover Smiles Pediatric Dentistry",
+        "Dental Dreams - Lansing",
+        "Schaefer Dental Group",
+        "Dr. Jacob Myers"
+      ],
+      "note": "Recommended five other local dental practices for pediatric care without mentioning Day Family Dental.",
+      "answerChars": 2050
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best dentist in Lansing, MI",
+      "askedAt": "2026-10-12T22:08:34.484Z",
+      "ok": false,
+      "screenshot": "screenshots/day-family-dental_perplexity_q1_2026-10-12.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "emergency dentist near Lansing, MI",
+      "askedAt": "2026-10-12T22:09:43.460Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_perplexity_q2_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Priority Emergency Dental Care",
+        "Healthy Smiles Dental Care of Lansing",
+        "Downtown Dental Studio",
+        "Aspen Dental – Lansing West",
+        "Derksen Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Priority Emergency Dental Care",
+        "Healthy Smiles Dental Care of Lansing",
+        "Downtown Dental Studio",
+        "Aspen Dental – Lansing West",
+        "Derksen Dentistry"
+      ],
+      "note": "Recommended five other Lansing-area dental practices for emergency care; Day Family Dental was not mentioned.",
+      "answerChars": 1857
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "Lansing, MI dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:10:13.771Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_perplexity_q3_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Derksen Dentistry",
+        "Kim Dentistry",
+        "Implant Dentistry of Greater Lansing",
+        "Downtown Dental Studio",
+        "Healthy Smiles Dental Care of Lansing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Derksen Dentistry",
+        "Kim Dentistry",
+        "Implant Dentistry of Greater Lansing",
+        "Downtown Dental Studio",
+        "Healthy Smiles Dental Care of Lansing"
+      ],
+      "note": "Recommended five Lansing dental practices for anxious patients, but did not mention Day Family Dental at all.",
+      "answerChars": 2410
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "invisalign Lansing, MI",
+      "askedAt": "2026-10-12T22:10:44.185Z",
+      "ok": false,
+      "screenshot": "screenshots/day-family-dental_perplexity_q4_2026-10-12.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "best cosmetic dentist Lansing, MI",
+      "askedAt": "2026-10-12T22:11:52.970Z",
+      "ok": true,
+      "screenshot": "screenshots/day-family-dental_perplexity_q5_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Oakhill Dental Associates",
+        "Scott-Hetchler Holly DDS",
+        "Downtown Dental Studio",
+        "Implant Dentistry of Greater Lansing",
+        "Evergreen Dental Center"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Oakhill Dental Associates",
+        "Scott-Hetchler Holly DDS",
+        "Downtown Dental Studio",
+        "Implant Dentistry of Greater Lansing",
+        "Evergreen Dental Center"
+      ],
+      "note": "Recommended five other Lansing dental practices for cosmetic dentistry, never mentioning Day Family Dental.",
+      "answerChars": 2741
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "dentist taking new patients Lansing, MI",
+      "askedAt": "2026-10-12T22:14:39.923Z",
+      "ok": false,
+      "screenshot": "screenshots/day-family-dental_perplexity_q6_2026-10-12.jpg",
+      "error": "sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "pediatric dentist near Lansing, MI",
+      "askedAt": "2026-10-12T22:15:07.568Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "subject": "Amp Orthodontics & Kids Dental",
+  "city": "Clemmons, NC",
+  "niche": "dental",
+  "label": "Dental",
+  "date": "2026-10-12",
+  "startedAt": "2026-10-12T22:46:11.578Z",
+  "finishedAt": "2026-10-12T22:58:48.020Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity",
+    "claude"
+  ],
+  "score": "7/28",
+  "named": 7,
+  "total": 28,
+  "failedAsks": 4,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best dentist in Clemmons, NC",
+      "askedAt": "2026-10-12T22:46:11.763Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_chatgpt_q1_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Clemmons Village Smiles",
+        "Riccobene Associates Family Dentistry",
+        "Greenway Village Dental",
+        "University Dental Associates",
+        "Clemmons Family Dental",
+        "Anderson & Hewett"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Clemmons Village Smiles",
+        "Riccobene Associates Family Dentistry",
+        "Greenway Village Dental",
+        "University Dental Associates",
+        "Clemmons Family Dental",
+        "Anderson & Hewett"
+      ],
+      "note": "Recommended six other Clemmons-area dental practices without mentioning Amp Orthodontics & Kids Dental.",
+      "answerChars": 1836
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "emergency dentist near Clemmons, NC",
+      "askedAt": "2026-10-12T22:47:57.431Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_chatgpt_q2_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Blue Wolf Dental",
+        "Ideal Dental Winston Salem",
+        "Owens Dental",
+        "Blake Nelson, DDS"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Blue Wolf Dental",
+        "Ideal Dental Winston Salem",
+        "Owens Dental",
+        "Blake Nelson, DDS"
+      ],
+      "note": "Recommended four competing dental practices near Clemmons/Winston-Salem and did not mention Amp Orthodontics & Kids Dental.",
+      "answerChars": 1513
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "Clemmons, NC dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:49:48.253Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_chatgpt_q3_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice and screening tips for finding an anxiety-friendly dentist without naming any specific practices.",
+      "answerChars": 2253
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "invisalign Clemmons, NC",
+      "askedAt": "2026-10-12T22:51:36.757Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_chatgpt_q4_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on finding Invisalign providers without naming any specific businesses, including the audit subject.",
+      "answerChars": 1922
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "best cosmetic dentist Clemmons, NC",
+      "askedAt": "2026-10-12T22:53:22.208Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_chatgpt_q5_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Tanglewood Family Dentistry",
+        "Clemmons Village Smiles",
+        "Tom Anderson DDS"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Tanglewood Family Dentistry",
+        "Clemmons Village Smiles",
+        "Tom Anderson DDS"
+      ],
+      "note": "Recommended three competing Clemmons dental practices for cosmetic dentistry without mentioning Amp Orthodontics & Kids Dental.",
+      "answerChars": 2484
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "dentist taking new patients Clemmons, NC",
+      "askedAt": "2026-10-12T22:55:12.917Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_chatgpt_q6_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Tanglewood Family Dentistry",
+        "Riccobene Associates Family Dentistry – Clemmons",
+        "Clemmons Family Dental",
+        "Amp Orthodontics & Kids Dental",
+        "University Dental Associates Pediatrics"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Tanglewood Family Dentistry",
+        "Riccobene Associates Family Dentistry – Clemmons",
+        "Clemmons Family Dental",
+        "University Dental Associates Pediatrics"
+      ],
+      "note": "Listed several Clemmons-area dentists including the subject under a pediatric-focused subheading, alongside general family dental competitors.",
+      "answerChars": 2380
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "pediatric dentist near Clemmons, NC",
+      "askedAt": "2026-10-12T22:57:01.115Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_chatgpt_q7_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "University Dental Associates – Pediatrics",
+        "AMP Orthodontics & Kids Dental",
+        "Blue Wolf Dental",
+        "Shobe Pediatric Dentistry",
+        "Spangler, Lambert & Lipp Pediatric Dentistry"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "University Dental Associates – Pediatrics",
+        "Blue Wolf Dental",
+        "Shobe Pediatric Dentistry",
+        "Spangler, Lambert & Lipp Pediatric Dentistry"
+      ],
+      "note": "Listed five pediatric dental practices near Clemmons, including the audit subject, alongside a link to the ADA directory.",
+      "answerChars": 2091
+    },
+    {
+      "platform": "claude",
+      "question": 1,
+      "text": "best dentist in Clemmons, NC",
+      "askedAt": "2026-10-12T22:46:11.764Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_claude_q1_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Blue Wolf Dental",
+        "University Dental Associates",
+        "Dr. Taylor Lee Hewett",
+        "Clemmons Family Dental",
+        "Dr. Christian R. Anderson",
+        "Carolinas BioHealth Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Blue Wolf Dental",
+        "University Dental Associates",
+        "Dr. Taylor Lee Hewett",
+        "Clemmons Family Dental",
+        "Dr. Christian R. Anderson",
+        "Carolinas BioHealth Dentistry"
+      ],
+      "note": "Recommended several other Clemmons dental practices and dentists, never mentioning Amp Orthodontics & Kids Dental.",
+      "answerChars": 2982
+    },
+    {
+      "platform": "claude",
+      "question": 2,
+      "text": "emergency dentist near Clemmons, NC",
+      "askedAt": "2026-10-12T22:46:27.513Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_claude_q2_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Clemmons Comprehensive Dental Care",
+        "Clemmons Village Smiles",
+        "Greenway Village Dental",
+        "Tom Anderson DDS Family and Cosmetic Dentist",
+        "Blue Wolf Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Clemmons Comprehensive Dental Care",
+        "Clemmons Village Smiles",
+        "Greenway Village Dental",
+        "Tom Anderson DDS Family and Cosmetic Dentist",
+        "Blue Wolf Dental"
+      ],
+      "note": "Recommended five local dental practices for emergency care, none of which was the audit subject.",
+      "answerChars": 2530
+    },
+    {
+      "platform": "claude",
+      "question": 3,
+      "text": "Clemmons, NC dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:46:39.732Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_claude_q3_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Carolinas BioHealth Dentistry",
+        "Blue Wolf Dental",
+        "Clemmons Village Smiles",
+        "Lyndhurst Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Carolinas BioHealth Dentistry",
+        "Blue Wolf Dental",
+        "Clemmons Village Smiles",
+        "Lyndhurst Dental"
+      ],
+      "note": "Recommended four competing Clemmons-area dental practices with anxiety-friendly care, never mentioning Amp Orthodontics & Kids Dental.",
+      "answerChars": 2816
+    },
+    {
+      "platform": "claude",
+      "question": 4,
+      "text": "invisalign Clemmons, NC",
+      "askedAt": "2026-10-12T22:46:53.670Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_claude_q4_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Bisig + Chermak + Rudnicke Orthodontics",
+        "Amp Orthodontics & Kids Dental",
+        "Carolinas BioHealth Dentistry",
+        "Riccobene Associates Family Dentistry",
+        "Clemmons Comprehensive Dental Care",
+        "Salem Smiles Orthodontics",
+        "Tucker Orthodontics",
+        "Kingery & Kingery DDS",
+        "Jeff Rickabaugh DDS, MDS"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Bisig + Chermak + Rudnicke Orthodontics",
+        "Carolinas BioHealth Dentistry",
+        "Riccobene Associates Family Dentistry",
+        "Clemmons Comprehensive Dental Care",
+        "Salem Smiles Orthodontics",
+        "Tucker Orthodontics",
+        "Kingery & Kingery DDS",
+        "Jeff Rickabaugh DDS, MDS"
+      ],
+      "note": "Listed the subject as #2 among six named Invisalign providers plus four additional Yelp-sourced competitors.",
+      "answerChars": 2776
+    },
+    {
+      "platform": "claude",
+      "question": 5,
+      "text": "best cosmetic dentist Clemmons, NC",
+      "askedAt": "2026-10-12T22:47:09.135Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_claude_q5_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Kenneth R. Russell, DDS",
+        "Clemmons Comprehensive Dental Care",
+        "Carolinas BioHealth Dentistry",
+        "Clemmons Village Smiles",
+        "Tom Anderson DDS"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Kenneth R. Russell, DDS",
+        "Clemmons Comprehensive Dental Care",
+        "Carolinas BioHealth Dentistry",
+        "Clemmons Village Smiles",
+        "Tom Anderson DDS"
+      ],
+      "note": "Recommended five competing Clemmons-area dental practices without mentioning Amp Orthodontics & Kids Dental.",
+      "answerChars": 3467
+    },
+    {
+      "platform": "claude",
+      "question": 6,
+      "text": "dentist taking new patients Clemmons, NC",
+      "askedAt": "2026-10-12T22:47:23.799Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_claude_q6_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Tanglewood Family Dentistry",
+        "Greenway Village Dental",
+        "Clemmons Family Dental",
+        "Riccobene Associates Family Dentistry",
+        "Tom Anderson DDS",
+        "Blue Wolf Dental",
+        "Clemmons Village Smiles"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Tanglewood Family Dentistry",
+        "Greenway Village Dental",
+        "Clemmons Family Dental",
+        "Riccobene Associates Family Dentistry",
+        "Tom Anderson DDS",
+        "Blue Wolf Dental",
+        "Clemmons Village Smiles"
+      ],
+      "note": "Recommended seven local dental practices accepting new patients, none of which was the audit subject.",
+      "answerChars": 2749
+    },
+    {
+      "platform": "claude",
+      "question": 7,
+      "text": "pediatric dentist near Clemmons, NC",
+      "askedAt": "2026-10-12T22:47:37.745Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_claude_q7_2026-10-12.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "University Dental Associates Pediatrics – Clemmons/Lewisville",
+        "Amp Orthodontics & Kids Dental",
+        "Blue Wolf Dental",
+        "Triad Kids Dental",
+        "Winston Smiles Dentistry"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "University Dental Associates Pediatrics – Clemmons/Lewisville",
+        "Blue Wolf Dental",
+        "Triad Kids Dental",
+        "Winston Smiles Dentistry"
+      ],
+      "note": "Listed 5 pediatric dental options near Clemmons, NC, including the audit subject as the second result with positive description.",
+      "answerChars": 2855
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best dentist in Clemmons, NC",
+      "askedAt": "2026-10-12T22:46:11.764Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_gemini_q1_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Blue Wolf Dental",
+        "Thomas M. Anderson DDS",
+        "Clemmons Village Smiles",
+        "Riccobene Associates Family Dentistry",
+        "Clemmons Comprehensive Dental Care"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Blue Wolf Dental",
+        "Thomas M. Anderson DDS",
+        "Clemmons Village Smiles",
+        "Riccobene Associates Family Dentistry",
+        "Clemmons Comprehensive Dental Care"
+      ],
+      "note": "Recommended five local dental practices in Clemmons, NC, none of which was the audit subject.",
+      "answerChars": 2765
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "emergency dentist near Clemmons, NC",
+      "askedAt": "2026-10-12T22:46:37.599Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_gemini_q2_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Clemmons Village Smiles",
+        "Blue Wolf Dental",
+        "Clemmons Comprehensive Dental Care",
+        "Riccobene Associates Family Dentistry - Clemmons, NC",
+        "Greenway Village Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Clemmons Village Smiles",
+        "Blue Wolf Dental",
+        "Clemmons Comprehensive Dental Care",
+        "Riccobene Associates Family Dentistry - Clemmons, NC",
+        "Greenway Village Dental"
+      ],
+      "note": "Listed 5 local dental practices as emergency dentist options near Clemmons, NC, none of which was the audit subject.",
+      "answerChars": 1684
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "Clemmons, NC dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:47:00.657Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_gemini_q3_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Blue Wolf Dental",
+        "Clemmons Village Smiles",
+        "Clemmons Comprehensive Dental Care"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Blue Wolf Dental",
+        "Clemmons Village Smiles",
+        "Clemmons Comprehensive Dental Care"
+      ],
+      "note": "Recommended three local dental practices for anxious patients, none of which was the audit subject.",
+      "answerChars": 2089
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "invisalign Clemmons, NC",
+      "askedAt": "2026-10-12T22:47:25.023Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_gemini_q4_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Amp Orthodontics & Kids Dental",
+        "Bisig + Chermak + Rudnicke Orthodontics",
+        "Greenway Village Dental",
+        "Lyndhurst Dental Associates / Blue Wolf Dental"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Bisig + Chermak + Rudnicke Orthodontics",
+        "Greenway Village Dental",
+        "Lyndhurst Dental Associates / Blue Wolf Dental"
+      ],
+      "note": "Named the subject alongside three competing local dental/orthodontic practices offering Invisalign in Clemmons.",
+      "answerChars": 1674
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "best cosmetic dentist Clemmons, NC",
+      "askedAt": "2026-10-12T22:47:45.610Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_gemini_q5_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Thomas M. Anderson DDS",
+        "Clemmons Comprehensive Dental Care",
+        "Greenway Village Dental",
+        "Clemmons Village Smiles",
+        "Clemmons Family Dental: Drs Turner & Schofield",
+        "Riccobene Associates Family Dentistry - Clemmons, NC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Thomas M. Anderson DDS",
+        "Clemmons Comprehensive Dental Care",
+        "Greenway Village Dental",
+        "Clemmons Village Smiles",
+        "Clemmons Family Dental: Drs Turner & Schofield",
+        "Riccobene Associates Family Dentistry - Clemmons, NC"
+      ],
+      "note": "Recommended six local cosmetic dentistry practices in Clemmons, NC, none of which was the audit subject.",
+      "answerChars": 3953
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "dentist taking new patients Clemmons, NC",
+      "askedAt": "2026-10-12T22:48:13.774Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_gemini_q6_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Greenway Village Dental",
+        "Clemmons Family Dental, Drs. Turner, Chostner, Peoples and Schofield",
+        "Clemmons Family Dental: Drs Turner & Schofield",
+        "Clemmons Village Smiles",
+        "Clemmons Comprehensive Dental Care",
+        "Riccobene Associates Family Dentistry - Clemmons, NC",
+        "Tanglewood Family Dentistry",
+        "University Dental Associates Clemmons",
+        "Thomas M. Anderson DDS"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Greenway Village Dental",
+        "Clemmons Family Dental, Drs. Turner, Chostner, Peoples and Schofield",
+        "Clemmons Family Dental: Drs Turner & Schofield",
+        "Clemmons Village Smiles",
+        "Clemmons Comprehensive Dental Care",
+        "Riccobene Associates Family Dentistry - Clemmons, NC",
+        "Tanglewood Family Dentistry",
+        "University Dental Associates Clemmons",
+        "Thomas M. Anderson DDS"
+      ],
+      "note": "Listed nine competing Clemmons-area dental practices accepting new patients, never mentioning Amp Orthodontics & Kids Dental.",
+      "answerChars": 5336
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "pediatric dentist near Clemmons, NC",
+      "askedAt": "2026-10-12T22:48:41.422Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_gemini_q7_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "University Dental Associates Pediatrics Clemmons/Lewisville",
+        "Amp Orthodontics & Kids Dental",
+        "Shobe Pediatric Dentistry",
+        "Advance Pediatric Dentistry",
+        "Creative Kids Pediatric Dentistry"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "University Dental Associates Pediatrics Clemmons/Lewisville",
+        "Shobe Pediatric Dentistry",
+        "Advance Pediatric Dentistry",
+        "Creative Kids Pediatric Dentistry"
+      ],
+      "note": "Listed five pediatric dental practices near Clemmons, NC, including the audit subject, with location and rating details.",
+      "answerChars": 2458
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best dentist in Clemmons, NC",
+      "askedAt": "2026-10-12T22:46:11.764Z",
+      "ok": false,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_perplexity_q1_2026-10-12.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "emergency dentist near Clemmons, NC",
+      "askedAt": "2026-10-12T22:47:24.488Z",
+      "ok": false,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_perplexity_q2_2026-10-12.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "Clemmons, NC dentist good with anxious patients",
+      "askedAt": "2026-10-12T22:48:33.203Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_perplexity_q3_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Clemmons Village Smiles"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Clemmons Village Smiles"
+      ],
+      "note": "Recommended only Clemmons Village Smiles for sedation dentistry, not mentioning Amp Orthodontics & Kids Dental.",
+      "answerChars": 802
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "invisalign Clemmons, NC",
+      "askedAt": "2026-10-12T22:49:01.739Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_perplexity_q4_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Clemmons Comprehensive Dental Care",
+        "Amp Orthodontics & Kids Dental",
+        "Carolinas BioHealth Dentistry"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Clemmons Comprehensive Dental Care",
+        "Carolinas BioHealth Dentistry"
+      ],
+      "note": "Listed three Clemmons-area Invisalign providers including the subject, with contact info and a cost range from a directory source.",
+      "answerChars": 909
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "best cosmetic dentist Clemmons, NC",
+      "askedAt": "2026-10-12T22:49:27.136Z",
+      "ok": true,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_perplexity_q5_2026-10-12.jpg",
+      "answered": true,
+      "businesses": [
+        "Clemmons Village Smiles",
+        "Tanglewood Family Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Clemmons Village Smiles",
+        "Tanglewood Family Dentistry"
+      ],
+      "note": "Named two competing practices as cosmetic dentistry options and did not mention Amp Orthodontics & Kids Dental.",
+      "answerChars": 981
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "dentist taking new patients Clemmons, NC",
+      "askedAt": "2026-10-12T22:50:30.155Z",
+      "ok": false,
+      "screenshot": "screenshots/amp-orthodontics-kids-dental_perplexity_q6_2026-10-12.jpg",
+      "error": "sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "pediatric dentist near Clemmons, NC",
+      "askedAt": "2026-10-12T22:51:32.650Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    }
+  ]
+}
