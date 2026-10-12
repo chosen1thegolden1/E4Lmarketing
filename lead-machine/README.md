@@ -14,7 +14,9 @@ Claude finds, qualifies, and researches 25 small-business leads per weekday for 
 | `research/*.json` | The structured research the playbooks and sheet tabs are generated from. |
 | `tools/hunt_workflow.js` | The reusable Workflow script: Scout → Deep research → Verify. |
 | `tools/lead_schema.json` | The lead record every agent must return (= the sheet's columns). |
-| `tools/make_spec.py`, `tools/build_sheet.py` | Generate the review workbook (README, Leads, GHL Import, playbook tabs, Suppression, Run Log, Niche Decisions). |
+| `tools/make_spec.py`, `tools/build_sheet.py` | Generate the review workbook (README, Sam Call Sheet, Leads, GHL Import, playbook tabs, Suppression, Run Log, Niche Decisions). |
+| `tools/sheet_payloads.py` | Turns a spec into Google Sheets connector calls (tabs, chunked values/formulas, dropdowns, colors, freezes) — the daily upload path. |
+| `tools/assemble_batch.py` | Applies verifier corrections, dedupes, keeps the top 25, assigns Lead IDs, appends the record files. |
 | `data/suppression.csv` | Clients + everyone already on an E4L outreach list (1,160 rows at creation). Add a row to block a company forever. |
 | `data/seen.csv` | Every lead ever delivered (appended each run). |
 | `data/targets.csv` | Niche × metro rotation plan with last-run dates. |
@@ -34,6 +36,9 @@ Open the **Sam Call Sheet** tab: best number, owner, timezone, best time to call
 
 ## Reviewing a batch (Chosen / Rozel)
 Open the sheet's **Leads** tab, set **Review Decision** (Approve / Hold / Reject) and notes, then on the **GHL Import** tab filter column A to Approve and download CSV → GHL Contacts → Import. Columns map 1:1 to GHL fields; `Tags` carries `cold-outreach, lead-machine, status:drafted, industry:<niche>, city:<city>, entry:<offer>, attitude:<type>`; the `LM *` columns are optional custom fields (create once as single-line text, or skip and paste into a note).
+
+## One-time setup still needed
+Enable the **Google Sheets** connector for Claude (claude.ai → Settings → Connectors) so the daily run can write the formatted sheet (tabs, dropdowns, colors) directly. Until then the run falls back to one plain CSV-converted sheet per tab.
 
 ## Changing the machine
 - Block a company: add it to `data/suppression.csv` (or the Suppression tab of the master sheet and copy it over).
