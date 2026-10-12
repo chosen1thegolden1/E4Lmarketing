@@ -1,0 +1,3096 @@
+[
+ {
+  "niches": [
+   {
+    "niche": "Roofing",
+    "aliases": [
+     "roofer",
+     "roofing contractor",
+     "roof repair",
+     "roof replacement",
+     "storm damage roofing"
+    ],
+    "segment": "core",
+    "fit_score": 5,
+    "why": "Already E4L's most proven vertical (4 roofing clients in LA, GEO audits run on Modern Roofing). Lead flow is phone + 'free estimate' requests, tickets are large ($8k-$25k replacements, $500-$2k repairs), and owners are on roofs or at jobsites when the phone rings. One vendor analysis of 130k home-service calls put roofing's unanswered rate at 76.6% (vendor data, not independent; Invoca's cross-trade figure is ~27%). Storm seasons create call spikes no 3-person office can absorb. 'Emergency roofer near {city}' / 'roof leak who do I call' are exactly the AI-answer queries GEO targets.",
+    "primary_pains": [
+     "Estimate-request calls missed while crew is on a roof; caller hires the next roofer who answers",
+     "Storm/hail surge: 30-100 calls in days, office of 1-2 cannot keep up, leads rot",
+     "Paying $50-$200/lead on LSAs/Angi and then not answering the call that lead generates",
+     "Quoted-but-never-followed-up estimates (no cadence after the visit)",
+     "Not named when homeowners ask ChatGPT/Gemini 'best roofer near me'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Website CTA is 'Call for a free estimate' with no online scheduler/Calendly/ServiceTitan booking widget",
+     "Google Business Profile hours end 5pm or show 'Closed' weekends while site claims 24/7 or emergency service",
+     "1-3 star reviews mentioning 'never called back', 'couldn't get anyone on the phone', 'left 3 messages'",
+     "Running Google LSAs / Google Ads / Angi (visible 'Google Guaranteed' badge or ad in SERP) = paying for calls",
+     "Job posts on Indeed/Craigslist for 'office assistant', 'dispatcher', 'CSR', 'appointment setter'",
+     "Site has no FAQ schema / no service-area pages; GEO audit returns 'named in 0 of 28 answers'",
+     "Owner's name + photo on About page and a direct email (owner@ or firstname@) on site",
+     "Facebook page active but last website update stale (copyright year old)"
+    ],
+    "disqualifiers": [
+     "25+ locations, franchise or PE roll-up brand (Erie Home, Mr. Roof, Roof Maxx dealers, Power Home Remodeling, Storm Guard franchise, Long Home)",
+     "Commercial/industrial-only roofing (bid/RFP driven, no inbound homeowner calls)",
+     "Out-of-state storm-chaser with no permanent local address or license number on site",
+     "No website, or website is only a Facebook page",
+     "Already shows a chat/voice bot answering the main line (call and check)",
+     "New-construction roofing subcontractor to builders"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Operator",
+     "President",
+     "Founder",
+     "General Manager",
+     "Office Manager",
+     "Operations Manager",
+     "Sales Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Blunt, busy, usually in the field; has been burned by SEO and lead-gen vendors and hates 'marketing calls'. Responds to proof they can touch (a demo number trained on their own site) and to simple dollar math on missed calls, not to feature lists or agency talk.",
+    "find_them_queries": [
+     "roofing contractor {city}",
+     "roof repair {city}",
+     "emergency roof repair {city}",
+     "residential roofing company {city} \"free estimate\"",
+     "roofer near {city} family owned",
+     "site:yelp.com roofing {city}"
+    ],
+    "size_sweet_spot": "3-25 employees, 1-2 locations, 1-5 crews, 50-400 Google reviews, roughly $1M-$8M revenue; owner's name visible on the site; services both repair and replacement (repair = more inbound calls)."
+   },
+   {
+    "niche": "HVAC",
+    "aliases": [
+     "heating and air",
+     "air conditioning repair",
+     "heating and cooling",
+     "mechanical contractor (residential)",
+     "furnace repair"
+    ],
+    "segment": "core",
+    "fit_score": 5,
+    "why": "E4L's largest client vertical (8+ HVAC accounts across CA plus TX/GA/NJ/PA/FL/AZ). Demand is seasonal-emergency (no AC in July, no heat in January), after-hours calls are common, and tickets are strong ($300-$1,500 repairs, $8k-$15k replacements, plus maintenance agreements worth recurring revenue). Owners already think in 'booking rate' and 'call-to-booked' metrics, so the pitch lands in their own language. GEO money questions ('emergency AC repair near {city}', 'HVAC that answers the phone') are already built in the repo.",
+    "primary_pains": [
+     "After-hours and weekend emergency calls hit voicemail; customer calls the next company",
+     "Peak-season call volume outstrips 1-2 CSRs, hold times and abandoned calls spike",
+     "Low booking rate on calls that are answered (untrained CSR fails to convert)",
+     "Maintenance-plan renewals and tune-up reminders not followed up",
+     "Paying for LSAs/Yelp/Angi leads and not answering fast enough to win them"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Website advertises '24/7 emergency service' but GBP shows limited hours or calls go to voicemail after 5pm (bot can test-call)",
+     "Reviews mentioning 'nobody answered', 'took days to call back', 'scheduled then no-show'",
+     "Google Guaranteed / LSA badge present (they are buying calls)",
+     "Job posts for 'CSR', 'dispatcher', 'call center rep', 'appointment coordinator'",
+     "No online booking widget (ServiceTitan/Housecall Pro/Jobber scheduler absent) and no chat widget",
+     "Site lists both repair and installation plus a maintenance plan (recurring revenue to protect)",
+     "GEO audit: not recommended by ChatGPT/Gemini/Perplexity for 'AC repair near {city}'",
+     "Owner or GM named on About page; direct email on contact page"
+    ],
+    "disqualifiers": [
+     "Franchise or consolidator brand (One Hour Heating & Air, Aire Serv, ARS/Rescue Rooter, Service Experts, Sila, Apex Service Partners, Wrench Group, Horizon)",
+     "Commercial/industrial mechanical only, or new-construction subcontractor",
+     "25+ locations or listed in multiple states",
+     "No website",
+     "Already using a visible AI/virtual receptionist on the main line"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "President",
+     "General Manager",
+     "Service Manager",
+     "Operations Manager",
+     "Office Manager",
+     "Co-Owner"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "More operationally sophisticated than most trades; many run ServiceTitan or Housecall Pro and track booking rate. Wary of lead vendors but receptive to anything that increases booked calls from what they already pay for. Approach with numbers and a demo they can call, keep it short, offer to connect to their existing software.",
+    "find_them_queries": [
+     "HVAC contractor {city}",
+     "air conditioning repair {city}",
+     "heating and cooling company {city} family owned",
+     "furnace repair {city}",
+     "emergency AC repair {city}",
+     "\"heating and air\" {city} \"free estimate\""
+    ],
+    "size_sweet_spot": "5-40 employees, 2-12 trucks, 1-2 locations, 100-800 Google reviews, roughly $1.5M-$10M revenue; has a maintenance-agreement program and does both residential repair and install."
+   },
+   {
+    "niche": "Plumbing",
+    "aliases": [
+     "plumber",
+     "drain cleaning",
+     "water heater repair",
+     "sewer repair",
+     "emergency plumber"
+    ],
+    "segment": "core",
+    "fit_score": 5,
+    "why": "Purest emergency trade: burst pipes, backed-up sewers, dead water heaters happen at 2 a.m. and the job goes to whoever picks up. Tickets range from $150-$600 service calls to $1,500-$4,000 water heaters and $5k-$25k repipes/sewer lines. Owner is frequently still in the truck. Already on E4L's list with templates and GEO money questions; shares infrastructure with HVAC (NexGen and Home Comfort are HVAC+plumbing clients).",
+    "primary_pains": [
+     "Night/weekend emergency calls going to voicemail or an answering service that cannot book",
+     "Owner-operator answering while under a sink, losing the next caller",
+     "Drain/water-heater price-shoppers calling 3-5 plumbers; first live answer wins",
+     "Estimate follow-up on bigger jobs (repipe, sewer) never happens",
+     "Not surfaced in AI answers for 'emergency plumber near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "'24/7' or 'emergency' claim on site or GBP but no proof of live answer after hours (bot test-call outside hours)",
+     "Reviews citing 'no answer', 'voicemail full', 'never showed', 'took two days to call back'",
+     "LSA / Google Guaranteed badge, Yelp ads, or Angi listing = paying per lead",
+     "Job posts for 'dispatcher', 'CSR', 'office manager'",
+     "No online booking, generic contact form only",
+     "Site offers water heater, sewer, repipe (high-ticket) services alongside drain cleaning",
+     "Owner named on site, personal email on contact page"
+    ],
+    "disqualifiers": [
+     "Roto-Rooter, Mr. Rooter, Benjamin Franklin Plumbing, bluefrog, ARS, Neighborly brands, 25+ locations",
+     "Commercial/new-construction plumbing contractor only",
+     "No website",
+     "Already using an AI receptionist (test-call)"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Master Plumber",
+     "President",
+     "General Manager",
+     "Service Manager",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Owner-operators who personally feel every lost emergency call; practical, skeptical, time-starved. They want to know it will not embarrass them with a customer and that go-live is just call forwarding. Lead with the demo and the 2 a.m. scenario, not with 'AI'.",
+    "find_them_queries": [
+     "plumber {city}",
+     "emergency plumber {city}",
+     "plumbing company {city} family owned",
+     "water heater repair {city}",
+     "drain cleaning {city}",
+     "sewer repair {city} \"licensed\""
+    ],
+    "size_sweet_spot": "3-30 employees, 2-10 trucks, 1 location, 80-600 Google reviews, roughly $800k-$8M revenue; residential service focus, lists after-hours service."
+   },
+   {
+    "niche": "Electrical",
+    "aliases": [
+     "electrician",
+     "electrical contractor",
+     "panel upgrade",
+     "EV charger installer",
+     "generator installer"
+    ],
+    "segment": "core",
+    "fit_score": 4,
+    "why": "Proven (Sammy Electrical Services is a client). Less 24/7-emergency than plumbing, but panel upgrades, EV chargers, generators and rewires are $1,500-$15k tickets, and most electrical shops are 1-8 people where the owner answers from a ladder. One vendor call analysis showed electrical with the highest unanswered rate of any trade (~91%, vendor data). GEO money questions already exist in the repo. Scored 4 not 5 because call volume per shop is lower and many electricians are bid-driven subcontractors.",
+    "primary_pains": [
+     "Owner-electrician cannot answer while on a job; estimate calls lost",
+     "High-ticket panel/EV/generator inquiries not followed up after the quote",
+     "Small team, no office staff at all; voicemail is the receptionist",
+     "Not recommended in AI answers for 'electrician near {city}' / 'EV charger installer'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Site lists EV charger, panel upgrade, generator, or rewiring services (high-ticket, inbound)",
+     "No office phone separate from owner's cell; GBP phone is a mobile number",
+     "Reviews mentioning 'hard to reach' or 'took a week to get a quote'",
+     "No online booking; contact form only",
+     "Job posts for 'office admin' or 'apprentice electrician' (growing, stretched)",
+     "License number and owner name on site (legit, owner-operated)",
+     "Running LSAs for 'electrician'"
+    ],
+    "disqualifiers": [
+     "Mr. Electric, Mister Sparky, other franchises or 25+ locations",
+     "Commercial/industrial or new-construction subcontractor with no residential service line",
+     "No website",
+     "Solo operator with no reviews and no service-call pricing (too small to pay)"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Master Electrician",
+     "President",
+     "General Manager",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Technical, pragmatic, allergic to hype; will actually call the demo and try to break it. Smallest teams in the group, so price-sensitive; frame as 'never miss a $5k panel-upgrade call' and keep setup effort near zero.",
+    "find_them_queries": [
+     "electrician {city}",
+     "electrical contractor {city} residential",
+     "EV charger installation {city}",
+     "panel upgrade electrician {city}",
+     "emergency electrician {city}",
+     "licensed electrician {city} \"family owned\""
+    ],
+    "size_sweet_spot": "2-15 employees, 1-6 vans, 1 location, 40-300 Google reviews, roughly $500k-$4M revenue; residential service plus at least one high-ticket specialty (EV, panels, generators)."
+   },
+   {
+    "niche": "Landscaping / lawn care",
+    "aliases": [
+     "landscaper",
+     "lawn care",
+     "landscape design and install",
+     "hardscape",
+     "irrigation",
+     "sprinkler repair"
+    ],
+    "segment": "core",
+    "fit_score": 3,
+    "why": "On E4L's list with templates and GEO questions, but the niche splits in two. Lawn maintenance is route-based, low-ticket ($40-$80/visit), seasonal and price-shopped, with owners who do not want more calls. Landscape design/install, hardscape, irrigation and tree work are estimate-driven with $3k-$50k projects and a brutal spring surge where estimate requests pile up unanswered. The bot should prefer the design/install side. Email hit rate is lower than other trades because many small lawn companies have template sites with forms only.",
+    "primary_pains": [
+     "Spring rush: dozens of estimate requests, owner is on a mower, nobody responds for days",
+     "Quoted projects never followed up; homeowner picks the first contractor who sends a proposal",
+     "Seasonal staff turnover means no consistent phone coverage",
+     "Irrigation/sprinkler emergency calls missed in summer",
+     "Not surfaced in AI answers for 'landscaper near {city}' or 'hardscape contractor'"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "Site lists design/build, hardscape, pavers, retaining walls, irrigation (project work, not just mowing)",
+     "Contact form only, no scheduler; 'we will get back to you within 48 hours' language",
+     "Reviews citing 'never got the estimate', 'no response', 'took weeks'",
+     "Gallery/portfolio of projects (sells on visuals; follow-up is the gap)",
+     "Hiring posts for crew leads or office help in Feb-April",
+     "GBP category 'Landscape designer' or 'Landscaper' with 50+ reviews",
+     "Running Google Ads or Nextdoor/Facebook ads in spring"
+    ],
+    "disqualifiers": [
+     "Mowing-only or 'lawn care' route operators with per-visit pricing and no project work",
+     "Franchise (Lawn Doctor, TruGreen, Weed Man, Grounds Guys, BrightView, Davey)",
+     "Commercial-only grounds maintenance (HOA/property manager contracts)",
+     "No website or Facebook-only presence",
+     "Nurseries/garden centers (retail, not service)"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Operator",
+     "President",
+     "Landscape Designer / Owner",
+     "General Manager",
+     "Office Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Outdoors, seasonal, hands-on; margins are thin and they are suspicious of marketing spend. Design/build owners are proud of their work and respond to 'you're losing projects you already quoted'. Approach in late winter before the season, keep pricing simple.",
+    "find_them_queries": [
+     "landscape design and installation {city}",
+     "hardscape contractor {city}",
+     "landscaping company {city} \"free estimate\"",
+     "irrigation repair {city}",
+     "paver patio installer {city}",
+     "landscaper {city} -mowing -\"lawn care\""
+    ],
+    "size_sweet_spot": "4-25 employees, 1 location, project minimums of $2k+, 40-300 Google reviews, roughly $750k-$5M revenue; offers design/build or hardscape, not mowing-only."
+   },
+   {
+    "niche": "Garage door repair",
+    "aliases": [
+     "garage door company",
+     "garage door installation",
+     "overhead door",
+     "garage door spring repair"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "Emergency-flavored trade: broken spring, door stuck with car inside, opener dead. Price sensitivity is low in the moment and vendor data says ~78% of buyers hire the first company to respond. Tickets are $265-$600 for repairs and $2,500-$8,000 for installs; emergency leads cost $60-$150 each on paid channels. The category is also plagued by fake lead-gen listings (same pattern as locksmith), so legitimate independents are hungry for anything that wins the first-answer race. Already covered by the repo's generic home-services GEO pattern.",
+    "primary_pains": [
+     "Technician-owner misses the 'car is stuck' call while on another job; caller dials the next listing",
+     "Most emergencies arrive evenings/weekends when nobody is on the phone",
+     "Paying $60-$150 per emergency lead and not answering it fast enough",
+     "Competing with fake call-center listings that answer instantly",
+     "Install quotes ($2.5k-$8k) not followed up"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Site advertises 'same-day' or '24/7' repair; GBP hours contradict it",
+     "GBP phone is a mobile number; business address is a real shop or home (legit independent)",
+     "Reviews mentioning 'couldn't reach anyone', 'no call back', or praising 'came within an hour' (shows the market rewards speed)",
+     "License/contractor number and owner name on site (legit, not a lead-gen front)",
+     "Running LSAs; 'Google Guaranteed' badge present",
+     "No online booking widget",
+     "Offers both repair and new door installation"
+    ],
+    "disqualifiers": [
+     "Precision Door, A1 Garage, Overhead Door brand distributors, Neighborly/Sears Garage Solutions, 25+ locations",
+     "Lead-gen front: stock photos, no physical address, no license number, generic brand like 'Garage Door Repair {city}'",
+     "Commercial/industrial doors only (loading docks)",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Operator",
+     "President",
+     "General Manager",
+     "Service Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Scrappy owner-techs with 1-5 vans who live on Google LSAs and know exactly what a missed emergency call costs. Worried about fake listings stealing calls. Fast, direct pitch works: 'answer every spring call in 2 rings, even at 9pm'.",
+    "find_them_queries": [
+     "garage door repair {city}",
+     "garage door company {city} family owned",
+     "garage door spring repair {city}",
+     "garage door installation {city} \"licensed\"",
+     "emergency garage door repair {city}",
+     "site:yelp.com \"garage door\" {city}"
+    ],
+    "size_sweet_spot": "2-12 employees, 1-6 vans, 1 location, 50-500 Google reviews, roughly $400k-$3M revenue; does both repair and install."
+   },
+   {
+    "niche": "Pest control",
+    "aliases": [
+     "exterminator",
+     "pest control company",
+     "termite control",
+     "wildlife removal",
+     "bed bug treatment"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Recurring-revenue model (NPMA-cited ~85% of residential revenue is recurring; $200-$600/year per account, $1,500-$3,000 LTV at 82-87% retention), so every missed new-customer call is a lost multi-year contract, and termite/bed bug/wasp calls carry urgency. Phone remains the primary first contact. Scored 3 because the category is dominated by consolidators and franchises (Orkin, Terminix, Rentokil, Aptive, Rollins roll-ups, Mosquito Joe), so the pool of independents is thinner and many are tiny route operators.",
+    "primary_pains": [
+     "New-customer calls missed while techs are on route; the recurring account goes to a competitor",
+     "Urgent calls (bed bugs, termites, wasps, rodents) hit voicemail",
+     "Emergency callers not converted into recurring plans (industry conversion often under 10-25%)",
+     "Quote-but-no-signup follow-up never happens",
+     "Not named in AI answers for 'exterminator near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Site sells quarterly/bi-monthly plans (recurring revenue worth protecting)",
+     "Independent brand, owner named, state license number on site",
+     "GBP hours weekday-only though site mentions 'same-day'",
+     "Reviews citing 'hard to schedule', 'no callback', or 'had to call twice'",
+     "No online quote/booking widget (PestPac/FieldRoutes customer portal absent)",
+     "Job posts for 'route technician' or 'office/scheduling' roles",
+     "Running LSAs or Yelp ads"
+    ],
+    "disqualifiers": [
+     "Orkin, Terminix, Rentokil/Ehrlich/Presto-X, Aptive, Arrow, Massey, Mosquito Joe/Mosquito Squad, Truly Nolen franchises, 25+ locations",
+     "Commercial-only accounts (restaurants/warehouses) with no residential line",
+     "Solo operator with no plans, no reviews",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Operator",
+     "President",
+     "General Manager",
+     "Branch Manager",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Route-minded operators who think in accounts, retention and route density; used to selling plans so they understand sales. Approachable and numbers-driven. Pitch 'turn every missed call into a recurring account', mention they keep their existing routing software.",
+    "find_them_queries": [
+     "pest control {city} family owned",
+     "exterminator {city}",
+     "termite inspection {city} \"locally owned\"",
+     "pest control company {city} -orkin -terminix -aptive",
+     "bed bug treatment {city}",
+     "rodent control {city} licensed"
+    ],
+    "size_sweet_spot": "3-20 employees, 2-10 route trucks, 300-3,000 recurring accounts, 1 location, 80-600 Google reviews, roughly $500k-$5M revenue."
+   },
+   {
+    "niche": "Residential cleaning / maid service",
+    "aliases": [
+     "house cleaning",
+     "maid service",
+     "cleaning company",
+     "deep cleaning",
+     "move-out cleaning"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Recurring economics are good (biweekly clients worth $2k-$8k LTV, 75-85% retention), but per-clean tickets are small ($120-$250) and many companies already use online booking (ZenMaid, Launch27, BookingKoala), so phone is less central than in the trades. The real gap is quote-request follow-up and speed: first-clean conversion to recurring runs 35-55%, and no-shows/cancellations hurt. Speed-to-lead is the natural door, voice AI second. Franchise share is heavy, so filter hard.",
+    "primary_pains": [
+     "Quote requests via form and phone not answered quickly; prospect books another cleaner",
+     "Owner is cleaning or supervising, cannot answer the phone",
+     "First-clean customers not converted to recurring; no follow-up sequence",
+     "Cancellations and no-shows with no reminder/confirmation automation",
+     "Weak visibility in 'house cleaners near {city}' AI answers"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "Contact form or 'request a quote' with no instant online booking/pricing",
+     "GBP phone is a mobile, hours limited; reviews praising a named owner (owner-run)",
+     "Reviews mentioning 'never got a quote back' or 'hard to schedule'",
+     "Offers recurring plans (weekly/biweekly) on site",
+     "Active on Facebook/Nextdoor; website stale",
+     "Hiring posts for cleaners (growing, stretched)",
+     "Insured/bonded badge and owner name on site (legit independent)"
+    ],
+    "disqualifiers": [
+     "Molly Maid, Merry Maids, The Cleaning Authority, Two Maids, MaidPro, Maid Brigade, 25+ locations",
+     "Commercial janitorial only",
+     "Solo cleaner with no website, no reviews, gig-platform-only (Thumbtack/Handy)",
+     "Already using full online booking with instant pricing and automated reminders (little to add)"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Founder",
+     "Owner/Operator",
+     "Office Manager",
+     "Operations Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Often women-owned, home-office, very price-sensitive and responsive on Facebook/text more than email. Like plain, friendly, low-pressure outreach and get spooked by 'agency retainer' language. Show them the quote-follow-up gap and a small monthly price.",
+    "find_them_queries": [
+     "house cleaning service {city} \"locally owned\"",
+     "maid service {city}",
+     "residential cleaning company {city} -\"molly maid\" -\"merry maids\"",
+     "deep cleaning service {city}",
+     "recurring house cleaning {city}",
+     "move out cleaning {city}"
+    ],
+    "size_sweet_spot": "3-20 cleaners, 100-400 recurring clients, 1 location, 50-400 Google reviews, roughly $300k-$2.5M revenue; offers recurring plans, not just one-time gig work."
+   },
+   {
+    "niche": "Painting",
+    "aliases": [
+     "painting contractor",
+     "house painter",
+     "interior painting",
+     "exterior painting",
+     "residential painter"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Estimate-driven trade with meaningful tickets (about $1,100 per interior room, $3k-$15k exteriors, business-for-sale listings show $2.9k-$5.5k average projects) and 30-40% close rates, so each missed estimate request is worth roughly $1k in expected revenue. Google Business Profile is the top lead source (~40% per one benchmark), and the owner is usually on a ladder when it rings. Seasonal and referral-heavy, with CertaPro/Five Star/WOW 1 DAY franchises to filter. Solid extend, not core, because volume per shop is modest.",
+    "primary_pains": [
+     "Estimate calls and forms unanswered while the crew is painting",
+     "Quotes delivered but never followed up; homeowner goes with first proposal",
+     "Spring/summer exterior rush overwhelms a one-person office",
+     "Not surfaced in AI answers for 'painter near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "'Call for a free estimate' CTA, no scheduler",
+     "GBP phone is a mobile; owner named in reviews",
+     "Reviews citing 'never came to quote', 'no response to my request'",
+     "Portfolio/gallery site with contact form only",
+     "Running Google Ads/Facebook ads or Nextdoor in spring",
+     "Hiring painters (capacity growing)",
+     "Site has services pages but no FAQ/schema"
+    ],
+    "disqualifiers": [
+     "CertaPro, Five Star Painting, WOW 1 DAY, 360 Painting, Fresh Coat, 25+ locations",
+     "Commercial/industrial coating contractors",
+     "Solo painter with no website/reviews",
+     "New-construction subcontractor only"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Operator",
+     "President",
+     "Estimator",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Craftsman-owners who grew by referrals and are suspicious of marketing after bad Angi/HomeAdvisor experiences. Modest budgets. Respond to 'book more of the estimates you already get' and to a demo that sounds like a real receptionist. Keep it simple and seasonal.",
+    "find_them_queries": [
+     "painting contractor {city}",
+     "house painters {city} \"free estimate\"",
+     "exterior painting company {city}",
+     "residential painter {city} family owned",
+     "interior painting {city} licensed insured",
+     "painting company {city} -certapro -\"five star\""
+    ],
+    "size_sweet_spot": "3-15 painters, 1-4 crews, 1 location, 40-300 Google reviews, roughly $500k-$3M revenue; residential repaint focus."
+   },
+   {
+    "niche": "Fencing / decks",
+    "aliases": [
+     "fence company",
+     "fence installation",
+     "deck builder",
+     "deck contractor",
+     "fence and deck"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Project trade with $1,900-$4,800 fence installs (Angi average ~$3,275) and $5k-$25k decks, 30-40% close rates, and a strong spring/summer estimate rush. Crews are small (2-10) and the owner measures jobs in person, so estimate requests sit. Lower urgency than emergency trades, so voice AI is useful but not life-or-death; speed-to-lead and quote follow-up are the clearer needs. Extend with the same playbook as painting.",
+    "primary_pains": [
+     "Estimate requests (calls and forms) unanswered during build season",
+     "Quoted projects not followed up; competitor sends proposal first",
+     "Seasonal overload with no office staff",
+     "Weak presence in AI answers for 'fence company near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Contact form only, 'request an estimate' with no scheduling",
+     "Reviews mention slow quotes or no response",
+     "Owner named on site, license number listed",
+     "Running Google Ads in spring; Nextdoor recommendations",
+     "Hiring installers/crew leads",
+     "Offers both fence and deck/pergola (bigger tickets)"
+    ],
+    "disqualifiers": [
+     "Superior Fence & Rail, Archadeck, Decks Unlimited-type franchises, big-box installer programs (Lowe's/Home Depot subcontractors), 25+ locations",
+     "Commercial/agricultural fencing only",
+     "Fence supply yards (retail)",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Operator",
+     "President",
+     "Estimator",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Builder mindset, hands-on, modest marketing budgets, referral-reliant. Respond to concrete 'you got 40 estimate requests in April and answered 15' framing. Prefer short, plain emails and a demo they can call.",
+    "find_them_queries": [
+     "fence company {city}",
+     "fence installation {city} \"free estimate\"",
+     "deck builder {city}",
+     "fence and deck contractor {city}",
+     "vinyl fence installer {city}",
+     "deck contractor {city} licensed"
+    ],
+    "size_sweet_spot": "3-12 employees, 1-3 crews, 1 location, 30-250 Google reviews, roughly $500k-$3M revenue."
+   },
+   {
+    "niche": "Tree service",
+    "aliases": [
+     "tree removal",
+     "arborist",
+     "tree trimming",
+     "stump grinding",
+     "emergency tree service"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "Storm events create the most extreme call surges in home services (trade sources describe 40 calls in three days; vendors cite 100+ emergency calls in an evening), and the owner is the climber or the bucket-truck operator, so calls go unanswered exactly when they are worth most. Tickets are $500-$3,000 per removal and storm cleanups can invoice $9k+. Few franchises (Monster Tree Service is the main one), many owner-run crews, decent websites. A natural voice-AI story: 'never miss a storm call'.",
+    "primary_pains": [
+     "Storm surge calls missed while every crew is out; competitors take the emergency work",
+     "Routine estimate calls missed because owner is in the tree",
+     "No office staff; voicemail only",
+     "Quotes not followed up; homeowner takes first available crew",
+     "Not named in AI answers for 'emergency tree removal near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Site advertises '24/7 emergency tree removal' or 'storm damage'; GBP hours limited",
+     "GBP phone is a mobile number",
+     "Reviews praising fast storm response or complaining about no callback",
+     "ISA certified arborist / license and insurance listed (legit operator)",
+     "Bucket truck/crane photos (equipment investment = real business)",
+     "No online booking; contact form only",
+     "Hiring climbers/groundsmen"
+    ],
+    "disqualifiers": [
+     "Davey, Bartlett, SavATree, Asplundh/utility line clearance, Monster Tree Service franchise, 25+ locations",
+     "Municipal/utility contractors only",
+     "Solo guy with chainsaw, no website, no insurance listed",
+     "Nursery/landscape supply"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Arborist",
+     "President",
+     "General Manager",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Rugged, phone-first, low tech adoption, hate paperwork and sales calls. But they vividly remember the storm week they could not answer the phone. Pitch exactly that scenario, show the demo, promise zero setup effort.",
+    "find_them_queries": [
+     "tree service {city}",
+     "tree removal {city} \"emergency\"",
+     "arborist {city} \"certified\"",
+     "tree trimming company {city} family owned",
+     "stump grinding {city}",
+     "storm damage tree removal {city}"
+    ],
+    "size_sweet_spot": "3-15 crew, 1-3 bucket trucks, 1 location, 40-300 Google reviews, roughly $500k-$3M revenue; offers emergency/storm work."
+   },
+   {
+    "niche": "Concrete / paving",
+    "aliases": [
+     "concrete contractor",
+     "driveway contractor",
+     "asphalt paving residential",
+     "stamped concrete",
+     "concrete driveway"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Residential driveways, patios and walkways run $5k-$15k per job and arrive as phone/estimate requests the owner cannot take from a pour. Seasonal, estimate-driven, little franchise competition. Scored 3 because a large share of concrete companies are subcontractors to builders (no inbound homeowner calls), homeowners price-shop heavily, and much of the category's web presence is thin. Qualify hard for 'residential' and 'free estimate' language.",
+    "primary_pains": [
+     "Estimate calls missed during pours; homeowner calls the next contractor",
+     "Quotes delivered but no follow-up on $5k-$15k projects",
+     "Season-compressed demand with no office coverage",
+     "Weak visibility in AI answers for 'concrete contractor near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Site shows residential driveways/patios/stamped concrete with 'free estimate' CTA",
+     "GBP phone is a mobile; no scheduler",
+     "Reviews citing 'never got a quote' or 'did not return calls'",
+     "Owner named, license number and insurance listed",
+     "Running Google Ads or LSAs in spring/summer",
+     "Project gallery, contact form only"
+    ],
+    "disqualifiers": [
+     "Commercial/civil/municipal paving, ready-mix suppliers, highway contractors",
+     "Builder-subcontractor only (no homeowner services on site)",
+     "No website",
+     "Franchise or 25+ locations (rare, but e.g. national sealcoating brands)"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Operator",
+     "President",
+     "Estimator",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Blue-collar builder, usually not marketing-minded, spends little and expects referrals. Will respond to a demo that sounds credible and to a clear 'you are losing quoted jobs' angle, but needs the pitch short and jargon-free.",
+    "find_them_queries": [
+     "concrete contractor {city} residential",
+     "concrete driveway {city} \"free estimate\"",
+     "stamped concrete {city}",
+     "asphalt driveway paving {city} residential",
+     "concrete patio contractor {city}",
+     "concrete company {city} family owned"
+    ],
+    "size_sweet_spot": "3-15 employees, 1-3 crews, 1 location, 30-200 Google reviews, roughly $500k-$4M revenue; residential-facing with project gallery."
+   },
+   {
+    "niche": "Water damage / restoration (independent)",
+    "aliases": [
+     "water damage restoration",
+     "fire and water restoration",
+     "mold remediation",
+     "flood cleanup",
+     "disaster restoration"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "The purest 'whoever answers at 2 a.m. gets the job' niche: typical residential water jobs bill $3k-$8k (larger $15k-$25k), emergency leads cost $150-$400 each and LSA clicks $100-$200, so independents already spend heavily and feel every missed call. 24/7 intake is table stakes. Scored 4 rather than 5 only because the category is crowded with franchises (Servpro, ServiceMaster, Paul Davis, PuroClean, 911 Restoration, Restoration 1, BELFOR) that the bot must filter, and some independents live on insurance-adjuster and plumber referrals rather than inbound calls.",
+    "primary_pains": [
+     "After-hours emergency calls reaching voicemail or a generic answering service that cannot dispatch or qualify",
+     "Paying $150-$400 per emergency lead and losing it on response time",
+     "Insurance-driven jobs require fast intake capture (address, cause, carrier) that an untrained answerer misses",
+     "Mold/reconstruction upsell quotes not followed up",
+     "Not recommended in AI answers for 'water damage restoration near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Independent brand (not a franchise name), IICRC certification listed, owner named",
+     "'24/7 emergency' claim; bot test-call after hours to see if a human/dispatcher answers",
+     "Reviews praising 'arrived in an hour' (speed-driven market) or complaining 'nobody answered'",
+     "Running LSAs/Google Ads for 'water damage' (high CPC, high intent)",
+     "Site lists water, fire, mold and reconstruction (high-ticket mix)",
+     "Job posts for 'dispatcher', 'on-call technician', 'project manager'",
+     "No online intake form beyond a generic contact form"
+    ],
+    "disqualifiers": [
+     "Servpro, ServiceMaster Restore, Paul Davis, PuroClean, 911 Restoration, Restoration 1, BELFOR, ATI, DKI members with 25+ locations",
+     "Carpet-cleaning company that lists water damage as a side service",
+     "Commercial/large-loss only",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "President",
+     "General Manager",
+     "Operations Manager",
+     "Director of Business Development",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Operators fluent in insurance paperwork, call tracking and cost-per-lead; more sophisticated and more receptive than most trades because they already pay a lot for calls. Pitch 'capture more of the emergency calls you already pay for' with the demo and a dispatch handoff; they will ask about integration with their CRM.",
+    "find_them_queries": [
+     "water damage restoration {city} -servpro -servicemaster -\"paul davis\"",
+     "water damage company {city} family owned",
+     "mold remediation {city} IICRC",
+     "emergency water removal {city}",
+     "fire and water restoration {city} independent",
+     "flood cleanup {city} 24/7"
+    ],
+    "size_sweet_spot": "5-30 employees, 1-2 locations, 60-400 Google reviews, roughly $1M-$8M revenue; independent, IICRC-certified, residential + light commercial."
+   },
+   {
+    "niche": "Locksmith",
+    "aliases": [
+     "locksmith",
+     "lockout service",
+     "mobile locksmith",
+     "rekey"
+    ],
+    "segment": "skip",
+    "fit_score": 2,
+    "why": "Skip: sub-$250 lockout tickets, the owner already answers from the van because answering IS the job, and the category is saturated with fake lead-gen Maps listings (reporting documented thousands of phony locations per metro), which makes bot sourcing unreliable and legitimate shops too small to pay. Only exception worth a manual look: commercial/security locksmiths with a storefront and access-control work.",
+    "primary_pains": [
+     "Fake listings and call-center lead-gens steal calls",
+     "Thin tickets, price-shopped emergency calls"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "Physical storefront with commercial/access-control services (only case to consider)",
+     "ALOA membership or state locksmith license number on site"
+    ],
+    "disqualifiers": [
+     "Mobile-only lockout operator",
+     "No physical address or license number (likely lead-gen front)",
+     "Pop-A-Lock or other franchise",
+     "Tickets under $200 and no commercial line"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Operator"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Hyper-skeptical, burned by Google and lead-gens, answer their own phone from the road and see no gap for a receptionist. Not worth the batch slot.",
+    "find_them_queries": [
+     "commercial locksmith {city} storefront",
+     "locksmith {city} \"access control\" licensed",
+     "locksmith shop {city} ALOA"
+    ],
+    "size_sweet_spot": "Only consider 3+ employees with a storefront and commercial accounts; otherwise skip."
+   },
+   {
+    "niche": "Moving companies",
+    "aliases": [
+     "movers",
+     "moving company",
+     "local movers",
+     "residential moving",
+     "moving and storage"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Quote-driven and phone-heavy: local moves run roughly $1k-$5k, shared leads cost $6-$40 and exclusive leads $20-$100, and the same homeowner's request goes to 4-5 movers at once, so first response wins. Vendor estimates put missed calls at 30-50% during peak season because crews cannot answer. Strongly seasonal (May-Sept). Scored 3 because many small movers are thin-margin, lead-aggregator-dependent and churn quickly, and brokers/van-line agents muddy the list.",
+    "primary_pains": [
+     "Quote requests from aggregators and forms not answered within minutes; competitor books the move",
+     "Calls missed while crews are on a job; peak-season overflow",
+     "Estimates given but not followed up; price-shopper picks whoever calls back",
+     "Wasted spend on shared leads due to slow response"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "USDOT / state mover license number on site (legit carrier, not a broker)",
+     "Quote form on site with no instant-quote tool; 'we will contact you' language",
+     "Reviews citing 'never got a quote', 'no one called back', or praising 'quick response'",
+     "Listed on Yelp/Thumbtack/Angi (buying leads)",
+     "Hiring movers/drivers in spring",
+     "Owner named on site; direct email on contact page",
+     "Offers local + storage (recurring revenue)"
+    ],
+    "disqualifiers": [
+     "Two Men and a Truck, College Hunks, All My Sons, Bellhop, PODS, U-Haul, 25+ locations",
+     "Moving brokers (no trucks, no USDOT carrier number, 'nationwide' with no local address)",
+     "Interstate-only van line agent whose sales are corporate-relocation driven",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Operator",
+     "President",
+     "General Manager",
+     "Sales Manager",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Hustle-oriented and sales-driven, used to paying for leads and comparing cost per booked move. Numbers-first; they respond to 'you are paying for leads you answer too late'. Approach before peak season (Feb-April) with a clear price.",
+    "find_them_queries": [
+     "local movers {city} \"USDOT\"",
+     "moving company {city} family owned",
+     "residential movers {city} -\"two men\" -\"college hunks\"",
+     "moving and storage {city} licensed insured",
+     "apartment movers {city}",
+     "long distance movers {city} local company"
+    ],
+    "size_sweet_spot": "5-30 employees, 2-8 trucks, 1 location, 100-600 Google reviews, roughly $750k-$5M revenue; licensed carrier with its own trucks."
+   },
+   {
+    "niche": "Pool service",
+    "aliases": [
+     "pool cleaning",
+     "pool repair",
+     "pool equipment repair",
+     "pool maintenance",
+     "pool remodeling"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Weekly route service is recurring ($80-$150/month, 3-5 year tenure, ~$10k LTV) but new accounts come mostly from referrals and door hangers and many operators are solo lifestyle businesses with no office. The phone-driven money is in repair/equipment work (pump, heater, filter, leak detection, green-pool cleanups at $500-$5k) and in sunbelt markets (CA/AZ/TX/FL, which match E4L's client footprint). Extend only for service+repair companies; skip pure route guys.",
+    "primary_pains": [
+     "Repair/equipment calls ($1k-$5k) missed while the owner is on route",
+     "New-account calls not converted into recurring service",
+     "Seasonal spring opening rush (non-sunbelt) overwhelms scheduling",
+     "No follow-up on repair quotes"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Site lists repair, equipment installation, leak detection or remodel (not just weekly cleaning)",
+     "GBP phone is a mobile; hours weekday-only",
+     "Reviews praising a named owner-tech (owner-run) or citing 'hard to reach'",
+     "CPO certification / contractor license listed",
+     "No online booking; contact form only",
+     "Hiring route techs (growing beyond solo)"
+    ],
+    "disqualifiers": [
+     "Pool-cleaning-only solo route operator with no repair services or website",
+     "Franchise (ASP America's Swimming Pool Co., Pool Scouts, Pinch A Penny), Leslie's, 25+ locations",
+     "Pool builders only (long sales cycle, referral/showroom driven)",
+     "Retail pool supply stores"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Operator",
+     "President",
+     "Service Manager",
+     "Office Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Lifestyle-business owners focused on route density, not growth; low marketing spend, friendly and reachable but slow to adopt tools. Pitch the repair-call angle ('a missed heater call is a $3k job') and keep price low; many will not bite.",
+    "find_them_queries": [
+     "pool service and repair {city}",
+     "pool equipment repair {city}",
+     "pool cleaning company {city} \"repair\"",
+     "pool leak detection {city}",
+     "swimming pool service {city} licensed",
+     "pool maintenance {city} family owned -\"pinch a penny\""
+    ],
+    "size_sweet_spot": "3-15 employees, 200-1,500 route accounts, 1 location, 40-300 Google reviews, roughly $400k-$3M revenue; offers repair/equipment, located in a sunbelt metro."
+   },
+   {
+    "niche": "Solar installers (local)",
+    "aliases": [
+     "residential solar installer",
+     "solar company",
+     "solar and battery installer"
+    ],
+    "segment": "skip",
+    "fit_score": 2,
+    "why": "Skip for now: the federal 25D residential credit expired at the end of 2025 and 2026 residential installs are forecast down 15-33% (BNEF, Roth, SEIA), with installer bankruptcies (Freedom Forever, Purelight) and layoffs; survivors are cutting staff and pivoting to lease/TPO models, and their sales motion is outbound door-knocking and appointment setters, not inbound phone calls. Revisit in 2027 or treat roofers who also sell solar as roofing leads.",
+    "primary_pains": [
+     "Collapsing demand and financing, not missed calls"
+    ],
+    "best_entry_offer": "Revenue Leak Scorecard",
+    "need_signals": [
+     "Only exception: roofing company that also installs solar (score as roofing)"
+    ],
+    "disqualifiers": [
+     "Any pure-play residential solar sales/installation company in 2026",
+     "Dealer networks for Sunrun/Sunnova/Freedom Forever"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "CEO",
+     "Sales Director"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "In survival mode, cutting vendors, not adding monthly services. Do not spend batch slots here.",
+    "find_them_queries": [
+     "roofing and solar company {city} (score as roofing)"
+    ],
+    "size_sweet_spot": "N/A; skip unless the business is primarily a roofer."
+   },
+   {
+    "niche": "Handyman / remodeling / general contractors",
+    "aliases": [
+     "remodeling contractor",
+     "design-build remodeler",
+     "kitchen and bath remodeler",
+     "general contractor residential",
+     "handyman service",
+     "home improvement contractor"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Split niche. Remodelers and residential GCs carry large tickets (HomeAdvisor-relayed averages ~$12k bath, ~$27k kitchen; GC projects $15k-$100k+) and lose leads to slow response: HBR found average first response of 42 hours and 23% never responding, while MIT/InsideSales found 5-minute responders are ~100x more likely to connect. Owners are on job sites and estimate requests sit. Handymen, by contrast, run $150-$500 tickets as solo operators and are weak fits. Extend for design-build remodelers with $10k+ projects; skip pure handymen and custom home builders (referral/architect-driven).",
+    "primary_pains": [
+     "Estimate/consultation requests (forms and calls) answered days late or never",
+     "Owner-PM cannot take calls on site; no office staff",
+     "Long sales cycle with no automated follow-up between consultation and signed contract",
+     "Angi/HomeAdvisor lead spend wasted on slow response",
+     "Not recommended in AI answers for 'kitchen remodeler near {city}'"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "Site shows kitchen/bath/addition projects with 'schedule a consultation' form and no scheduler",
+     "Reviews citing 'took weeks to get an estimate' or 'never heard back'",
+     "License number, owner named, NARI/NAHB membership (legit, established)",
+     "Listed on Houzz/Angi (buying leads)",
+     "Project minimum stated ($10k+ = real remodeler)",
+     "Hiring project managers or office/admin staff",
+     "Instagram/Houzz portfolio active, website contact-form only"
+    ],
+    "disqualifiers": [
+     "Mr. Handyman, Ace Handyman, Re-Bath, Bath Fitter, Case Design, Dreamstyle, West Shore Home, 25+ locations",
+     "Solo handyman with sub-$500 tickets and no website",
+     "Commercial GCs, custom home builders, new-construction only",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "President",
+     "Founder",
+     "General Contractor / Owner",
+     "Project Manager",
+     "Office Manager",
+     "Director of Sales"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "See themselves as craftsmen and project managers; the sales conversation is consultative and they value professionalism. Burned by Angi/HomeAdvisor so skeptical of 'leads'; receptive to being shown their own slow response time and to automation that makes them look more professional to a $30k client.",
+    "find_them_queries": [
+     "kitchen remodeling contractor {city}",
+     "design build remodeler {city}",
+     "bathroom remodel {city} licensed contractor",
+     "home remodeling company {city} family owned -\"re-bath\" -\"bath fitter\"",
+     "general contractor {city} residential remodel",
+     "home additions contractor {city}"
+    ],
+    "size_sweet_spot": "4-25 employees, 1 location, project minimum $10k+, 30-250 Google reviews, Houzz profile, roughly $1M-$8M revenue; design-build or kitchen/bath specialist."
+   }
+  ],
+  "niche_decision_rule": "Score any niche on four observable tests. (1) PHONE = MONEY: does a stranger's first contact usually arrive as a phone call or an estimate/quote request that the owner or crew often cannot answer live (urgent, after-hours, or seasonal surge)? (2) TICKET: is one booked job worth at least ~$300, or does one new customer start a recurring account worth $1,500+ lifetime, so one saved call per month pays for E4L? (3) AI-ANSWER DEMAND: do customers search 'X near me' / 'emergency X in {city}' / 'best X in {city}' in a way an AI engine would answer with a short list (GEO value)? (4) OWNER-RUN: is the typical operator an owner with 2-40 staff, 1-2 locations, a website, and not a franchise/consolidator brand? Pass all four = core if E4L already has templates/clients there, otherwise extend. Fail (1) or (2) = skip, which covers referral-only trades, walk-in retail, pure online-checkout ecommerce, B2B bid/RFP-driven contractors, and price-shopped sub-$150 tickets. A niche in a documented market contraction or with heavy fake-listing pollution is a skip even if it passes on paper. For ecommerce specifically: extend only if the store sells high-ticket or consultative products ($500+ orders, custom, B2B wholesale) and lists a phone number for pre-sale questions; otherwise skip. Heavy franchise share (pest, cleaning, restoration) means extend with a strict brand blocklist, never core."
+ },
+ {
+  "niches": [
+   {
+    "niche": "Med spa / aesthetics",
+    "aliases": [
+     "medical spa",
+     "aesthetics clinic",
+     "injector",
+     "laser clinic",
+     "cosmetic clinic"
+    ],
+    "segment": "core",
+    "fit_score": 4,
+    "why": "Proven for E4L (existing med spa client, GEO template, demo-builder path). High ticket (Botox/filler $400-800 per visit, multi-year LTV in the thousands) and new-client questions still come in by phone while injectors are in treatment rooms; vendor data puts online booking at only ~22% of med spa appointments. Also one of the most GEO-sensitive niches ('best med spa in {city}', 'botox near {city}'). Only drawback is ~15% email reachability, which is why the demo-builder path exists.",
+    "primary_pains": [
+     "New-client calls going to voicemail while staff are in treatment rooms",
+     "Instagram DMs and website forms answered hours later, after the client booked elsewhere",
+     "Consult no-shows on high-ticket treatments",
+     "After-hours and weekend inquiries from social ads with no responder",
+     "Not named when AI tools answer 'best med spa / botox near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Website has only a contact form or 'DM us to book' (no online scheduler) and no email on site",
+     "Google Business Profile hours closed Sun/Mon or closing 5-6pm while Instagram shows ads/promos running",
+     "Reviews mentioning 'hard to get ahold of', 'never called back', 'phone goes to voicemail'",
+     "Active Instagram/TikTok with promos (proves they spend on acquisition) but a slow or absent reply workflow",
+     "Job posts for 'front desk coordinator' or 'patient care coordinator'",
+     "Running Google Ads or Meta ads for injectables/laser",
+     "Not named in any AI answer for the 7 med-spa money questions"
+    ],
+    "disqualifiers": [
+     "Chain or PE-backed (Ideal Image, LaserAway, Skin Laundry, Ever/Body, Sono Bello, AirSculpt, OrangeTwist)",
+     "More than 3 locations",
+     "No website at all (Instagram-only)",
+     "Hospital- or dermatology-group-owned",
+     "Fewer than ~20 Google reviews and no visible marketing spend (too early)"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Founder",
+     "Medical Director",
+     "Nurse Injector / Owner",
+     "Nurse Practitioner (NP-C) Owner",
+     "Practice Manager",
+     "Spa Director"
+    ],
+    "email_reachability": "low",
+    "typical_owner_attitude": "Image-first and brand-protective; they spend on Instagram, influencers and promos and are tired of 'agencies'. They buy when they see a polished demo on their own brand, so show rather than pitch, and expect DM/Instagram or a phone call to work better than cold email.",
+    "find_them_queries": [
+     "med spa {city}",
+     "botox clinic {city}",
+     "aesthetics clinic {city}",
+     "laser hair removal {city}",
+     "medical spa near {city}",
+     "nurse injector {city}"
+    ],
+    "size_sweet_spot": "1-2 locations, 3-15 staff (1 medical director + 2-6 injectors/estheticians), 50-500 Google reviews, roughly $800K-$5M revenue."
+   },
+   {
+    "niche": "Plastic surgery",
+    "aliases": [
+     "cosmetic surgeon",
+     "plastic surgeon",
+     "facial plastic surgery",
+     "cosmetic surgery center"
+    ],
+    "segment": "core",
+    "fit_score": 4,
+    "why": "Already in E4L's book (a plastic surgery practice is an existing client and GEO audit). Procedures run $5K-$15K+, so one recovered consult per month covers any E4L plan several times over. Intake is consult-driven via phone and forms handled by 1-2 patient coordinators who are frequently away from the desk, and the niche is intensely reputation/visibility driven, which makes the AI-visibility audit a natural first touch for a surgeon who will not hand the phone to a robot on day one.",
+    "primary_pains": [
+     "Consult-request forms and calls not answered within minutes while prospects submit to 3 surgeons at once",
+     "Consult no-shows and slow follow-up on quoted procedures",
+     "After-hours inquiries from Instagram/RealSelf traffic going unanswered",
+     "Being invisible when AI tools answer 'best rhinoplasty / breast augmentation surgeon in {city}'",
+     "Front desk tied up with post-op calls instead of new-patient calls"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "Solo or 2-surgeon practice website with 'request a consultation' form and no online booking",
+     "Active RealSelf and Instagram presence (proves lead flow and marketing budget)",
+     "Google Business Profile closes at 5pm with no after-hours number",
+     "Google Ads running on procedure keywords",
+     "Job posts for 'patient care coordinator' or 'front office coordinator'",
+     "Not named in AI answers for 'best plastic surgeon {city}' style questions",
+     "Reviews mentioning slow callbacks or unanswered consult requests"
+    ],
+    "disqualifiers": [
+     "Hospital-employed or academic practice",
+     "PE/chain brands (Sono Bello, AirSculpt, Athenix, Lipo Centers)",
+     "More than 3 surgeons or more than 2 locations",
+     "No website",
+     "Reconstructive/insurance-only practice (no elective cosmetic volume)"
+    ],
+    "decision_maker_titles": [
+     "Dr. / MD (Owner)",
+     "Practice Administrator",
+     "Practice Manager",
+     "Office Manager",
+     "Patient Care Coordinator",
+     "Director of Operations"
+    ],
+    "email_reachability": "low",
+    "typical_owner_attitude": "Prestige-driven and protective of their name; the surgeon delegates vendor screening to a practice administrator who gatekeeps hard. They respond to credentials, proof and a reputation/visibility angle, not to 'cheap leads' language; respect their time and lead with a finished audit, not a pitch.",
+    "find_them_queries": [
+     "plastic surgeon {city}",
+     "cosmetic surgery {city}",
+     "board certified plastic surgeon {city}",
+     "rhinoplasty surgeon {city}",
+     "breast augmentation {city}",
+     "facial plastic surgeon {city}"
+    ],
+    "size_sweet_spot": "1-2 surgeons, 1 location, 5-20 staff, 100+ reviews, roughly $2M-$8M revenue."
+   },
+   {
+    "niche": "Dental / orthodontics",
+    "aliases": [
+     "dentist",
+     "family dentistry",
+     "cosmetic dentist",
+     "orthodontist",
+     "dental office",
+     "pediatric dentist"
+    ],
+    "segment": "core",
+    "fit_score": 5,
+    "why": "Already an E4L client vertical with a GEO template. The phone is the booking channel: healthcare practices miss roughly 20-35% of business-hours calls, 'emergency dentist' searches convert on whoever answers, and a new patient is worth $1K-$3K+ in lifetime value. Front desks go dark at lunch, after 5pm and on Fridays, which is exactly what conditional call forwarding fixes. Email reachability is workable (40-50%).",
+    "primary_pains": [
+     "Missed new-patient and emergency calls at lunch, after 5pm and on Fridays",
+     "New-patient calls landing in voicemail that callers do not return",
+     "Form fills with no fast follow-up",
+     "No-shows and lapsed hygiene recall",
+     "Not named when AI answers 'emergency dentist near {city}' or 'dentist taking new patients {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Google Business Profile hours show closed Fri-Sun and/or a midday closure",
+     "'Emergency dentist' or 'same-day appointments' on site with no 24/7 line",
+     "No online scheduling (call-to-book only)",
+     "Reviews mentioning 'couldn't get through', 'left messages', 'phone'",
+     "Job posts for 'front desk', 'treatment coordinator', 'scheduling coordinator'",
+     "Google Ads or Invisalign/implant promos running (lead flow exists)",
+     "Not named in AI answers for the 7 dental money questions"
+    ],
+    "disqualifiers": [
+     "DSO or chain (Aspen, Pacific Dental, Western Dental, Heartland, Smile Brands, Bright Now, Kool Smiles)",
+     "More than 4 locations",
+     "Medicaid-only or FQHC community clinic",
+     "No website",
+     "Practice already advertising 24/7 answering"
+    ],
+    "decision_maker_titles": [
+     "Dr. (DDS/DMD) Owner",
+     "Practice Owner",
+     "Office Manager",
+     "Practice Manager",
+     "Treatment Coordinator",
+     "Practice Administrator"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Conservative, chairside all day and reliant on an office manager who gatekeeps vendors. They distrust pushy marketing calls but respond to peer proof and a no-risk demo they can call themselves; send to the office manager with a one-line ask and let the demo do the selling.",
+    "find_them_queries": [
+     "dentist {city}",
+     "family dentist {city}",
+     "emergency dentist {city}",
+     "cosmetic dentist {city}",
+     "orthodontist {city}",
+     "dental office near {city}"
+    ],
+    "size_sweet_spot": "1-2 locations, 1-3 dentists, 5-20 staff, 100-800 Google reviews, roughly $1M-$4M revenue."
+   },
+   {
+    "niche": "Chiropractic",
+    "aliases": [
+     "chiropractor",
+     "chiropractic clinic",
+     "spine and sports clinic",
+     "DC"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "Not on the current list but a near-clone of dental economics with easier access: solo-owned, new-patient calls are urgent ('back pain, can I come in today'), practices miss an estimated 20-35% of calls because one chiropractic assistant runs the whole front desk, and a new patient care plan is worth roughly $2K-$8K. Chiropractors are also unusually marketing-active (coached by practice-growth programs, run $49 new-patient specials), so they already buy tools and answer their own email.",
+    "primary_pains": [
+     "New-patient calls missed while the doctor is adjusting and the CA is checking someone out",
+     "Paid new-patient specials generating calls that hit voicemail",
+     "Care-plan no-shows and drop-offs",
+     "After-hours and weekend inquiries from Google/Facebook ads",
+     "Reactivating lapsed patients"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Solo DC website with 'call to schedule' and no online booking",
+     "Facebook/Google ads for a new-patient special or free consultation",
+     "Split hours on Google Business Profile (closed midday or afternoons)",
+     "Reviews mentioning phone, hold or callbacks",
+     "Job posts for 'chiropractic assistant' or 'front desk'",
+     "Auto-injury / PI-referral language on site (higher value cases)"
+    ],
+    "disqualifiers": [
+     "The Joint Chiropractic or other franchise",
+     "Hospital or multidisciplinary group with more than 3 locations",
+     "No website",
+     "Cash-only wellness practice with no inbound marketing"
+    ],
+    "decision_maker_titles": [
+     "Dr. (DC) Owner",
+     "Chiropractor / Owner",
+     "Clinic Director",
+     "Office Manager",
+     "Chiropractic Assistant (CA)"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Entrepreneurial and coached; they talk about 'new patients per month' and have usually been burned by a lead-gen vendor. They like direct, numbers-first outreach and a demo they can call in 60 seconds; the owner often reads and replies to email personally.",
+    "find_them_queries": [
+     "chiropractor {city}",
+     "chiropractic clinic {city}",
+     "sports chiropractor {city}",
+     "chiropractor near {city} open Saturday",
+     "spinal decompression {city}",
+     "auto injury chiropractor {city}"
+    ],
+    "size_sweet_spot": "1 location, 1-2 DCs, 2-8 staff, 50-400 Google reviews, roughly $400K-$1.5M revenue."
+   },
+   {
+    "niche": "Physical therapy",
+    "aliases": [
+     "physical therapy clinic",
+     "PT clinic",
+     "sports rehab",
+     "orthopedic rehab",
+     "DPT"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Real need but narrower economics. Private PT clinics lose patients between physician referral and the booked evaluation because one front-desk person handles insurance, billing and check-in while the phone rings (vendor data: ~62% of voicemail callers never call back), and a plan of care is worth roughly $600-$1,500. Margins are insurance-constrained and the sector is consolidating (ATI, Select, Athletico, Upstream), so the bot should target owner-operated, direct-access or cash-pay clinics where a recovered evaluation clearly covers the fee.",
+    "primary_pains": [
+     "Referral and form leads not contacted the same day",
+     "Missed calls during treatment sessions",
+     "Patients dropping out mid plan of care",
+     "No-shows on evaluations",
+     "Insurance-question calls tying up the one front-desk person"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "Independent 1-2 clinic website (not a national brand) with a 'request appointment' form and no online scheduling",
+     "'Direct access', 'no referral needed' or cash-pay/wellness programs on site",
+     "Job posts for 'front office coordinator' or 'patient care coordinator'",
+     "Reviews praising therapists but mentioning phone/scheduling friction",
+     "Google Ads for 'physical therapy {city}' or specialty (pelvic floor, sports)"
+    ],
+    "disqualifiers": [
+     "Hospital-owned or PE chain (ATI, Select, Athletico, Upstream, Ivy Rehab, CORA, Benchmark)",
+     "More than 3 locations",
+     "No website",
+     "Medicare/home-health-only operation with no inbound marketing"
+    ],
+    "decision_maker_titles": [
+     "Owner / PT",
+     "DPT Owner",
+     "Clinic Director",
+     "Practice Manager",
+     "Front Office Coordinator"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Clinician first, modest margins, skeptical of marketing spend. They respond to an operations framing ('stop leaking referrals you already earned') with concrete numbers, not growth hype; a short email to the owner/clinic director with a one-line ROI works better than a flashy pitch.",
+    "find_them_queries": [
+     "physical therapy {city}",
+     "physical therapy clinic {city}",
+     "sports physical therapy {city}",
+     "private practice physical therapy {city}",
+     "pelvic floor physical therapy {city}",
+     "direct access physical therapy {city}"
+    ],
+    "size_sweet_spot": "1-2 clinics, 2-6 PTs, 5-15 staff, roughly $700K-$3M revenue; cash-pay or direct-access component is a plus."
+   },
+   {
+    "niche": "Veterinary",
+    "aliases": [
+     "veterinarian",
+     "animal hospital",
+     "vet clinic",
+     "veterinary hospital"
+    ],
+    "segment": "core",
+    "fit_score": 4,
+    "why": "Already on E4L's list with a GEO template. Vet clinics are among the most phone-dependent local businesses: vendor data shows 20-30% of calls unanswered and after-hours volume dominated by FAQs (~42%) and scheduling (~25%), i.e. exactly what a trained voice agent handles. A pet household is worth thousands over the pet's life and staffing is chronically short. The constraint is consolidation: skip the corporate brands and target independent 1-2 DVM hospitals.",
+    "primary_pains": [
+     "Front desk overwhelmed, phones ringing while CSRs check in clients",
+     "After-hours calls (FAQ, scheduling, 'is this an emergency?') going to voicemail",
+     "New-client intake lost to the next clinic",
+     "No-shows and lapsed wellness/vaccine recalls",
+     "Not named when AI answers 'best vet near {city}' or 'emergency vet {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Independent single-location website (no corporate parent in footer)",
+     "'Call us' only, no online booking or request-form response promise",
+     "Google Business Profile closed Sundays / closes 6pm with no after-hours instructions",
+     "Reviews mentioning hold times, 'can't get through', 'left a message'",
+     "Job posts for 'veterinary receptionist' or 'client service representative'",
+     "Not named in AI answers for the veterinary money questions"
+    ],
+    "disqualifiers": [
+     "Corporate/PE brands (VCA, Banfield, BluePearl, NVA, Thrive, Petco Vetco, PetIQ, Mission Vet, MedVet)",
+     "24-hour emergency hospital (already staffed around the clock)",
+     "More than 3 locations",
+     "Mobile-only or house-call practice with no website",
+     "Shelter/nonprofit clinic"
+    ],
+    "decision_maker_titles": [
+     "DVM Owner",
+     "Practice Owner",
+     "Practice Manager",
+     "Hospital Manager",
+     "Hospital Administrator",
+     "Office Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Overworked, compassionate and staffing-strained; wary of anything that feels like it degrades client care. Frame the offer as relief for the front desk and a better client experience rather than 'more sales', and go through the practice manager with a calm, low-pressure note.",
+    "find_them_queries": [
+     "veterinarian {city}",
+     "animal hospital {city}",
+     "vet clinic {city}",
+     "veterinary clinic near {city}",
+     "independent veterinary hospital {city}",
+     "exotic pet vet {city}"
+    ],
+    "size_sweet_spot": "1-2 locations, 1-4 DVMs, 8-25 staff, 200+ Google reviews, roughly $1M-$4M revenue."
+   },
+   {
+    "niche": "Optometry",
+    "aliases": [
+     "optometrist",
+     "eye doctor",
+     "eye care center",
+     "vision center",
+     "eye exam"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Phone-driven booking (roughly half of practices still have no online booking) with a heavy load of insurance/eligibility questions that tie up staff, plus ~25% no-shows and recall leakage. Annual exam plus eyewear is a $200-$600 ticket that repeats yearly, so economics work but are thinner than dental. Independent ODs are owner-operated but squeezed by corporate optical, which makes the independent-only filter essential.",
+    "primary_pains": [
+     "Phones tied up answering insurance/VSP eligibility questions while exam bookings go to voicemail",
+     "Seasonal call spikes (back-to-school, open enrollment) that staff cannot absorb",
+     "No-shows and patients not returning for annual exams",
+     "Being invisible when AI answers 'eye doctor near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Private-practice website (Vision Source or independent branding) with 'call to schedule' and no online booking",
+     "1-2 ODs listed on the team page",
+     "Google Business Profile closed Sat afternoon/Sun",
+     "Reviews mentioning phone wait or insurance confusion",
+     "Job posts for 'optometric technician' or 'front desk / insurance coordinator'"
+    ],
+    "disqualifiers": [
+     "Corporate optical (LensCrafters, Pearle Vision, Visionworks, America's Best, MyEyeDr, Warby Parker, Stanton Optical, Target/Walmart/Costco Optical)",
+     "More than 3 locations",
+     "Practice located inside a big-box store",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "OD Owner",
+     "Optometrist / Owner",
+     "Practice Manager",
+     "Office Manager",
+     "Optical Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Retail-minded and margin-aware (eyewear sales), used to vendor reps from frame and lens companies, pragmatic rather than hype-driven. Lead with ROI per recovered exam booking plus the eyewear sale attached to it; email to the practice manager with a specific number lands.",
+    "find_them_queries": [
+     "optometrist {city}",
+     "eye doctor {city}",
+     "optometry {city}",
+     "eye exam {city}",
+     "family eye care {city}",
+     "independent optometrist {city}"
+    ],
+    "size_sweet_spot": "1 location, 1-2 ODs, 4-12 staff, roughly $700K-$2M revenue."
+   },
+   {
+    "niche": "Dermatology",
+    "aliases": [
+     "dermatologist",
+     "dermatology clinic",
+     "skin clinic",
+     "cosmetic dermatology",
+     "Mohs surgeon"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Demand-rich rather than lead-starved: most practices are still independently owned (PE held ~10-15% as of 2023) but their pain is phone capacity, not lead generation, and reviews across the specialty complain about being unable to get through. That makes an overflow/after-hours voice agent genuinely useful, but the practice is already full so urgency to buy is lower. The cosmetic-derm side (injectables, laser) competes with med spas and is where GEO and speed-to-lead matter. Fit is real but sales cycles are slower and gatekeeping is heavier.",
+    "primary_pains": [
+     "Chronic phone overload: patients cannot get through to schedule or ask questions",
+     "Cosmetic consult inquiries lost to med spas that answer faster",
+     "No-shows on long-wait appointments",
+     "Not named when AI answers 'best dermatologist / cosmetic dermatology {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Reviews repeatedly mentioning 'impossible to reach by phone', hold times or unreturned calls",
+     "Cosmetic services menu on site (injectables, laser) indicating competitive consult flow",
+     "Independent practice site with 1-3 providers and no online scheduling",
+     "Job posts for 'medical receptionist' or 'patient scheduler'",
+     "Google Business Profile closed Fridays or early afternoons"
+    ],
+    "disqualifiers": [
+     "PE platforms (Forefront, US Dermatology Partners, Schweiger, Advanced Dermatology & Cosmetic Surgery, Epiphany, Anne Arundel, Pinnacle, Golden State Dermatology, Dermatology Associates)",
+     "Hospital or academic department",
+     "More than 3 locations or 5+ providers",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "MD Owner",
+     "Dermatologist / Owner",
+     "Practice Administrator",
+     "Practice Manager",
+     "Office Manager"
+    ],
+    "email_reachability": "low",
+    "typical_owner_attitude": "Extremely busy, demand-rich and conservative about anything touching patient communication or HIPAA; the administrator screens every vendor. Approach the administrator with a compliance-ready, 'we take the overflow' angle and a demo number rather than a growth pitch.",
+    "find_them_queries": [
+     "dermatologist {city}",
+     "dermatology clinic {city}",
+     "cosmetic dermatology {city}",
+     "independent dermatology practice {city}",
+     "Mohs surgeon {city}",
+     "skin clinic {city} dermatologist"
+    ],
+    "size_sweet_spot": "1 location, 1-3 providers (MD plus PA/NP), 6-20 staff, roughly $1.5M-$5M revenue."
+   },
+   {
+    "niche": "Salons / barbershops",
+    "aliases": [
+     "hair salon",
+     "barbershop",
+     "hair studio",
+     "color specialist"
+    ],
+    "segment": "skip",
+    "fit_score": 2,
+    "why": "Skip for outbound: bookings happen on Booksy/Vagaro/Square and Instagram, tickets are $30-$150, email reachability is ~15%, and a $500+/month system cannot pay back on recovered haircuts. Only exception worth a manual look: upscale multi-chair salons (6+ chairs, extensions/color at $200+) where the GEO audit can open a conversation.",
+    "primary_pains": [
+     "Missed calls while stylists are with clients (low dollar value each)",
+     "No-shows on color/extension appointments"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "6+ stylists on team page with $150+ service pricing",
+     "No online booking and phone-only scheduling (rare)"
+    ],
+    "disqualifiers": [
+     "Any chain (Great Clips, Supercuts, Sport Clips, Fantastic Sams, Drybar)",
+     "Solo or booth-rental operations",
+     "Average ticket under $100",
+     "Instagram-only with no website"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Salon Owner",
+     "Salon Manager"
+    ],
+    "email_reachability": "low",
+    "typical_owner_attitude": "Creative, Instagram-native, budget-tight and solicited constantly by booking-app vendors; they respond to DMs, not email, and rarely to 'systems' pitches.",
+    "find_them_queries": [
+     "hair salon {city}",
+     "upscale salon {city}",
+     "hair extensions salon {city}",
+     "barbershop {city}"
+    ],
+    "size_sweet_spot": "Only 6+ chair salons with $150+ average tickets; everything smaller is a skip."
+   },
+   {
+    "niche": "Nail / lash studios",
+    "aliases": [
+     "nail salon",
+     "lash studio",
+     "lash extensions",
+     "brow bar"
+    ],
+    "segment": "skip",
+    "fit_score": 1,
+    "why": "Skip: $40-$150 tickets, booking via app or Instagram DM, mostly solo or booth-rental techs with no email and no budget for a monthly system.",
+    "primary_pains": [
+     "Missed DMs and walk-in overflow (not worth a monthly fee)"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "None reliable enough to justify outreach"
+    ],
+    "disqualifiers": [
+     "All, unless a multi-location brand with a website and a manager (then re-evaluate as a salon)"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Studio Owner"
+    ],
+    "email_reachability": "low",
+    "typical_owner_attitude": "Solo creatives running on Instagram and Booksy; any pitch beyond a free tool is ignored.",
+    "find_them_queries": [
+     "nail salon {city}",
+     "lash studio {city}"
+    ],
+    "size_sweet_spot": "N/A - skip."
+   },
+   {
+    "niche": "Massage / wellness",
+    "aliases": [
+     "massage therapy",
+     "wellness center",
+     "spa",
+     "bodywork",
+     "stretch studio"
+    ],
+    "segment": "skip",
+    "fit_score": 2,
+    "why": "Skip: $80-$150 tickets booked online (Vagaro/MindBody), solo practitioners, and the multi-therapist end of the market is dominated by franchises (Massage Envy, Hand & Stone, Elements) already in the chain filter. The only worthwhile subset is a med-spa-style wellness center (IV therapy, cryo, hormone clinics) with $200+ tickets, which should be scored as med spa.",
+    "primary_pains": [
+     "Missed booking calls during sessions (low value each)"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Medical wellness services (IV, hormone, weight loss) with $200+ tickets and a medical director listed"
+    ],
+    "disqualifiers": [
+     "Franchise (Massage Envy, Hand & Stone, Elements, Massage Heights, StretchLab)",
+     "Solo practitioner",
+     "Average ticket under $150"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Director",
+     "Clinic Manager"
+    ],
+    "email_reachability": "low",
+    "typical_owner_attitude": "Lifestyle businesses with thin margins; they book via apps and are not shopping for phone systems.",
+    "find_them_queries": [
+     "IV therapy clinic {city}",
+     "medical wellness center {city}",
+     "hormone clinic {city}"
+    ],
+    "size_sweet_spot": "Only medical wellness centers with $200+ tickets; treat as med spa."
+   },
+   {
+    "niche": "Fitness gyms / martial arts / yoga studios",
+    "aliases": [
+     "gym",
+     "martial arts school",
+     "boxing gym",
+     "CrossFit",
+     "pilates studio",
+     "yoga studio",
+     "personal training studio"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Template exists but the phone is not where the money is: members sign up via trial funnels and forms, and vendor data says automated follow-up lifts trial conversion (85% vs 71%) while response speed drives qualification. So the real E4L fit is speed-to-lead and reactivation, not voice AI, and only where LTV justifies it: martial arts schools (kids programs at $150-$200/mo for years), boxing/CrossFit/boutique studios with trial offers, and personal-training studios. Yoga/pilates class-pack studios and solo trainers rarely clear the fee.",
+    "primary_pains": [
+     "Free-trial and form leads not contacted within minutes",
+     "Trials that never convert for lack of follow-up",
+     "Cancelled/lapsed members never reactivated",
+     "Missed calls from parents asking about kids programs (martial arts)"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "Free trial / intro offer on site with a lead form and no automated reply",
+     "Paid Facebook/Instagram ads for trial offers",
+     "Martial arts school with kids/after-school programs and 'call to schedule a free class'",
+     "Reviews mentioning slow response to inquiries",
+     "Owner-operated (owner is the head coach) with 2-10 staff",
+     "Not named in AI answers for 'best gym / martial arts for kids near {city}'"
+    ],
+    "disqualifiers": [
+     "Big-box or franchise (Planet Fitness, LA Fitness, Anytime, Orangetheory, F45, CorePower, Crunch, 24 Hour)",
+     "Solo trainer with no studio",
+     "Yoga/pilates studio selling only class packs under $150/mo",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Head Coach / Owner",
+     "Studio Owner",
+     "General Manager",
+     "Program Director (martial arts)"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Coaches first, salespeople second; passionate, community-driven and allergic to anything that feels corporate. They respond to a peer-style message about 'trials that don't convert' and a quick setup, usually by text or DM rather than formal email.",
+    "find_them_queries": [
+     "martial arts school {city}",
+     "boxing gym {city}",
+     "CrossFit {city}",
+     "personal training studio {city}",
+     "kids karate {city}",
+     "boutique fitness studio {city}"
+    ],
+    "size_sweet_spot": "1-2 locations, 100-600 members, 2-10 staff, owner on site, roughly $300K-$1.5M revenue; martial arts and boutique strength/boxing first."
+   },
+   {
+    "niche": "Personal injury law",
+    "aliases": [
+     "PI attorney",
+     "car accident lawyer",
+     "injury law firm",
+     "accident attorney"
+    ],
+    "segment": "core",
+    "fit_score": 5,
+    "why": "Already on E4L's list with a GEO template, and the single highest value-per-call niche: a signed case is worth $5K-$100K+ in fees, Clio's testing found firms miss roughly a third of calls and only 40% answer live, and injured callers simply dial the next firm. After-hours and Spanish-speaking intake are routine needs. GEO is also decisive here ('best car accident lawyer in {city}'). Only caution: the big TV firms are out of reach and the small firms are heavily pitched, so proof and a working bilingual demo matter.",
+    "primary_pains": [
+     "Missed or slow-answered intake calls, especially after hours and weekends",
+     "Spanish-speaking callers not handled live",
+     "Web-form leads not called back within minutes",
+     "Intake staff overwhelmed on ad-driven call spikes",
+     "Not named when AI tools answer accident-lawyer questions for the city"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Solo to 10-attorney PI firm website with 'free consultation' and a form but no 24/7 live promise",
+     "Google Ads/LSA or billboard/TV presence in a mid-size market (spending on leads)",
+     "'Se habla espa\u00f1ol' with no bilingual after-hours coverage listed",
+     "Reviews mentioning 'never called back' or 'hard to reach'",
+     "Job posts for 'intake specialist' or 'legal receptionist'",
+     "Not named in AI answers for the PI money questions"
+    ],
+    "disqualifiers": [
+     "National/TV firms and mills (Morgan & Morgan and similar), more than 20 attorneys",
+     "Firm already advertising a 24/7 live intake center",
+     "No website",
+     "Defense-side or insurance-defense firms"
+    ],
+    "decision_maker_titles": [
+     "Managing Partner",
+     "Founding Attorney",
+     "Attorney at Law / Owner",
+     "Intake Manager",
+     "Director of Operations",
+     "Firm Administrator",
+     "Office Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Aggressive marketers who already spend big and are pitched daily; skeptical of agencies but very responsive to a demo they can call that handles a bilingual accident intake correctly. Go to the managing partner or intake director with a short note and the demo number; prove intake quality, never promise case volume.",
+    "find_them_queries": [
+     "personal injury lawyer {city}",
+     "car accident attorney {city}",
+     "injury law firm {city}",
+     "abogado de accidentes {city}",
+     "slip and fall lawyer {city}",
+     "truck accident lawyer {city}"
+    ],
+    "size_sweet_spot": "2-15 attorneys, 1-2 offices, visible ad spend, 100+ Google reviews, roughly $1M-$10M revenue."
+   },
+   {
+    "niche": "Family law",
+    "aliases": [
+     "divorce attorney",
+     "custody lawyer",
+     "family law firm",
+     "divorce lawyer"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "High urgency and high emotion: divorce and custody callers want a human-sounding answer now, and one published family-law case study found ~40% of calls unanswered during business hours with booked consultations rising just by fixing intake. Retainers run $3K-$10K and consult fees $200-$500, so one recovered consult per month pays for the system. Solo and small firms have no after-hours coverage, and clients often call in the evening. Needs an empathetic, no-legal-advice intake script, which E4L can build from the firm's site.",
+    "primary_pains": [
+     "Missed consult calls during court hours and after 5pm",
+     "Slow follow-up on consultation requests from the website",
+     "Paralegals pulled off billable work to answer phones",
+     "Consult no-shows",
+     "Not named when AI answers 'best divorce lawyer in {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Solo to 5-attorney firm with 'call for a consultation' and no online scheduler",
+     "Google Ads or Avvo/FindLaw profiles with reviews (lead flow exists)",
+     "Reviews mentioning responsiveness or unreturned calls",
+     "Job posts for 'legal intake specialist', 'receptionist' or 'legal assistant'",
+     "No stated after-hours or weekend availability"
+    ],
+    "disqualifiers": [
+     "More than 10 attorneys or multi-practice regional firm",
+     "Legal aid / nonprofit",
+     "No website",
+     "Firm already using a named 24/7 answering/intake service"
+    ],
+    "decision_maker_titles": [
+     "Managing Attorney",
+     "Founding Partner",
+     "Attorney / Owner",
+     "Office Manager",
+     "Firm Administrator",
+     "Paralegal (gatekeeper)"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Professional, risk-averse about confidentiality and bar rules, and protective of the client experience. Lead with compliance (intake only, no legal advice, consent language) and a demo that sounds compassionate; concise email to the managing attorney works, follow up by phone.",
+    "find_them_queries": [
+     "divorce attorney {city}",
+     "family law attorney {city}",
+     "child custody lawyer {city}",
+     "family law firm {city}",
+     "abogado de divorcio {city}",
+     "mediation attorney {city}"
+    ],
+    "size_sweet_spot": "1-5 attorneys, 1 office, 30+ Google reviews, roughly $500K-$3M revenue."
+   },
+   {
+    "niche": "Immigration law",
+    "aliases": [
+     "immigration attorney",
+     "abogado de inmigraci\u00f3n",
+     "visa lawyer",
+     "immigration law office"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "Very high call volume, often in Spanish and after working hours because clients cannot call from a job site; small firms route all of it through one bilingual receptionist. Consults are $100-$300 and cases $3K-$15K, so recovered calls pay back fast, and a bilingual voice agent is a differentiated demo. GEO fits too ('immigration lawyer near {city} who speaks Spanish'). Vendor-heavy data, but the structural need (bilingual, after-hours, volume) is clear.",
+    "primary_pains": [
+     "Missed and unreturned calls from Spanish- or other-language speakers",
+     "After-hours and weekend call volume with no coverage",
+     "Consult booking and reminders done manually",
+     "WhatsApp/text inquiries unanswered for hours",
+     "Not named when AI answers immigration-lawyer questions for the city"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Website in English and Spanish (or other languages) with 'll\u00e1manos' / 'se habla espa\u00f1ol'",
+     "WhatsApp click-to-chat links on site",
+     "Reviews mentioning unreturned calls or long waits",
+     "Job posts for 'bilingual receptionist' or 'intake coordinator'",
+     "Google Ads or heavy Facebook presence in immigrant communities",
+     "No online scheduler, phone-only consult booking"
+    ],
+    "disqualifiers": [
+     "Nonprofit legal aid or law-school clinic",
+     "More than 10 attorneys or a national brand with a call center",
+     "Non-attorney 'notario' or document-prep services (ethical risk)",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Attorney / Owner",
+     "Managing Attorney",
+     "Principal Attorney",
+     "Office Manager",
+     "Intake Coordinator",
+     "Legal Assistant"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Scrappy, high-volume, price-sensitive and often immigrant founders themselves; they live on phone and WhatsApp. They respond to a Spanish-capable demo and simple lead-volume math; be direct, bilingual if possible, and expect replies by text or WhatsApp over email.",
+    "find_them_queries": [
+     "immigration lawyer {city}",
+     "abogado de inmigraci\u00f3n {city}",
+     "immigration attorney near {city}",
+     "visa lawyer {city}",
+     "deportation defense attorney {city}",
+     "immigration law office {city}"
+    ],
+    "size_sweet_spot": "1-5 attorneys, 3-15 staff, bilingual site, 50+ reviews, roughly $400K-$3M revenue."
+   },
+   {
+    "niche": "Estate planning",
+    "aliases": [
+     "estate planning attorney",
+     "wills and trusts lawyer",
+     "elder law attorney",
+     "probate attorney"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Leads come from seminars, referrals and web forms more than urgent calls, and ticket size ($2K-$6K per plan, more for probate) is solid but the buying cycle is slow and emotionally delayed. The documented problem is follow-up: firms pay for leads that never become booked consults because no one calls back fast. That makes speed-to-lead the fit, with voice AI as a secondary fit for solo attorneys with no receptionist. Probate practices (grief-driven, time-sensitive) are the strongest sub-niche.",
+    "primary_pains": [
+     "Seminar and web-form leads not followed up within minutes/hours",
+     "Consult requests hitting voicemail at a solo practice",
+     "Consult no-shows and 'I'll get to it later' drop-off",
+     "Probate callers lost to firms that answer live"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "Seminar/webinar registration pages or lead magnets (guide downloads) on site",
+     "'Schedule a consultation' form with no online calendar",
+     "Solo or 2-attorney firm with no listed receptionist",
+     "Probate and trust-administration services (urgent cases)",
+     "Google Ads for 'estate planning attorney {city}'",
+     "Reviews mentioning slow responses"
+    ],
+    "disqualifiers": [
+     "Trusts & estates group inside a large firm (more than 10 attorneys)",
+     "Financial-advisor or insurance hybrids selling plans as a bundle",
+     "Online document mills",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Attorney / Owner",
+     "Founding Attorney",
+     "Managing Attorney",
+     "Office Manager",
+     "Client Services Coordinator"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Referral-driven, deliberate and low-hype; many are near retirement and dislike 'AI' buzz. A quiet, operational note ('your seminar leads are not getting called back') with a peer reference lands better than a flashy demo, and email is their native channel.",
+    "find_them_queries": [
+     "estate planning attorney {city}",
+     "wills and trusts lawyer {city}",
+     "probate attorney {city}",
+     "elder law attorney {city}",
+     "living trust attorney {city}",
+     "estate planning law firm {city}"
+    ],
+    "size_sweet_spot": "1-3 attorneys, 2-8 staff, runs seminars or ads, roughly $400K-$2M revenue; probate volume is a plus."
+   },
+   {
+    "niche": "CPA / tax firms",
+    "aliases": [
+     "CPA firm",
+     "tax preparer",
+     "enrolled agent",
+     "accounting firm",
+     "bookkeeping and tax"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Strongly seasonal need: January-April call volume roughly triples and one published case shows answered-call rate rising from 65% to 94% with engagements more than doubling once prospects reached a person. A new client is worth $2K-$5K in year one and recurs. Off-season demand is flat, so the bot should harvest these leads in October-December and May-August and tag them for pre-season outreach. Email reachability is high (CPAs publish emails).",
+    "primary_pains": [
+     "Tax-season call overflow with new-client inquiries going to voicemail",
+     "Consult booking and document-reminder follow-up done by hand",
+     "Prospects not reached in the two weeks before deadlines",
+     "After-hours inquiries from people who work during the day"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Solo/small CPA or EA firm site with 'call for an appointment' and no online scheduler",
+     "'Accepting new clients' or Google Ads for 'tax preparation {city}'",
+     "Job posts for seasonal admin/receptionist help",
+     "Reviews mentioning responsiveness during tax season",
+     "Advisory/bookkeeping services (recurring revenue makes leads more valuable)"
+    ],
+    "disqualifiers": [
+     "Franchise or national chains (H&R Block, Jackson Hewitt, Liberty Tax)",
+     "Regional/Big-4 firms (more than 25 staff)",
+     "'Not accepting new clients' on site",
+     "Back-office bookkeeping with no inbound phone flow"
+    ],
+    "decision_maker_titles": [
+     "CPA / Owner",
+     "Managing Partner",
+     "Principal",
+     "EA / Owner",
+     "Firm Administrator",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Analytical, risk-averse and allergic to hype; their first questions are data security (SSNs, bank details) and exact ROI. Send a short, numbers-first email with a security answer up front, and time it to the off-season when they will actually read it.",
+    "find_them_queries": [
+     "CPA firm {city}",
+     "tax preparation {city}",
+     "accountant {city} small business",
+     "enrolled agent {city}",
+     "tax accountant near {city}",
+     "bookkeeping and tax services {city}"
+    ],
+    "size_sweet_spot": "1-3 partners, 3-15 staff, 1 office, accepting new clients, roughly $500K-$3M revenue."
+   },
+   {
+    "niche": "Insurance agencies",
+    "aliases": [
+     "independent insurance agency",
+     "insurance agent",
+     "insurance broker",
+     "auto home insurance agency"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "Agencies are phone businesses: quotes, claims, billing and policy changes all ring the main line, vendor data puts business-hours misses around 22-30% and after-hours inquiries near half of total, and internet-lead conversion collapses after five minutes. A policyholder is worth $100-$1,500 a year in recurring commission with multi-year retention, so a handful of recovered quote calls covers the fee. Independent agencies are owner-operated and email-reachable; captive agents (State Farm, Allstate, Farmers) are owner-operated too but corporate-restricted on vendors, so treat them as lower priority.",
+    "primary_pains": [
+     "Quote requests from internet leads not called within minutes",
+     "Missed calls after 5pm and on weekends (quotes and claims)",
+     "CSRs tied up on service calls while new-business calls go to voicemail",
+     "Renewal and cross-sell follow-up never done",
+     "Not named when AI answers 'best insurance agency in {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "'We represent multiple carriers' / independent agency language with a 'get a quote' form",
+     "Google Business Profile hours 9-5 Mon-Fri with no after-hours instructions",
+     "Reviews mentioning 'never called back' or slow quotes",
+     "Job posts for 'CSR', 'account manager' or 'licensed sales producer'",
+     "Google Ads for 'auto insurance {city}' or 'home insurance {city}'",
+     "Multiple lines (personal, commercial, life) listed"
+    ],
+    "disqualifiers": [
+     "Direct writers and corporate offices (GEICO, Progressive, USAA)",
+     "Large brokers (Marsh, HUB, Brown & Brown, Acrisure, Gallagher) or more than 3 locations",
+     "Employee-benefits-only or commercial-only B2B brokers",
+     "Agencies advertising a national 24/7 call center",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Agency Owner",
+     "Agency Principal",
+     "Principal Agent",
+     "President",
+     "Owner / Agent",
+     "Agency Manager",
+     "Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Sales-minded and ROI-literal; they already buy leads (EverQuote, SmartFinancial) and run an AMS/CRM, so they understand speed-to-lead instantly. A quick demo call plus a one-paragraph email works; they will pick up the phone if you call during business hours.",
+    "find_them_queries": [
+     "independent insurance agency {city}",
+     "insurance agent {city}",
+     "auto insurance agency {city}",
+     "home insurance agent {city}",
+     "insurance broker near {city}",
+     "commercial insurance agency {city} small business"
+    ],
+    "size_sweet_spot": "1-2 locations, 3-15 staff, independent (multi-carrier), 50+ Google reviews, roughly $500K-$3M in commission revenue."
+   },
+   {
+    "niche": "Real estate agents & teams",
+    "aliases": [
+     "realtor",
+     "real estate team",
+     "brokerage",
+     "real estate agent",
+     "broker/owner"
+    ],
+    "segment": "core",
+    "fit_score": 3,
+    "why": "Already on E4L's list with a template and the easiest niche to reach by email (70-80%), and agents live by phone and the 5-minute lead rule. But fit is uneven: solo agents have inconsistent budgets, churn fast and already get CRM/follow-up tools from their brokerage, so the money is in teams and broker/owners who buy leads and need an ISA they do not have. The GEO audit ('best realtor in {city}') is a cheap, ego-driven door-opener that stands out among the vendors already pitching them.",
+    "primary_pains": [
+     "Zillow/portal and website leads not called within minutes",
+     "No ISA; team lead is the only one following up",
+     "Leads going cold after one touch",
+     "Sign calls and open-house inquiries missed while showing",
+     "Not named when AI answers 'best real estate agent in {city}'"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "Team website with 3+ agents and lead-capture forms/home-valuation tools",
+     "Zillow Premier Agent or Google Ads spend visible",
+     "20+ closed transactions per year per agent on Zillow/Realtor.com profiles",
+     "No ISA or 'inside sales' role on the team page but a 'join our team' page",
+     "Reviews mentioning responsiveness as a differentiator (shows they compete on it)",
+     "Not named in AI answers for the real estate money questions"
+    ],
+    "disqualifiers": [
+     "Solo part-time agents (fewer than 10 transactions/year) or no site beyond a brokerage profile page",
+     "Brokerage corporate offices (Compass, eXp, KW market centers, Redfin)",
+     "Commercial-only brokers",
+     "iBuyers and discount models"
+    ],
+    "decision_maker_titles": [
+     "Team Leader",
+     "Broker / Owner",
+     "Realtor",
+     "Principal Broker",
+     "Associate Broker",
+     "Director of Operations",
+     "Team Lead"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Salespeople who are pitched constantly and chase shiny objects; they decide fast and churn fast. Keep it short, social-proof heavy and screenshot-driven ('here is who ChatGPT recommends instead of you'); text, DM or phone beats a long email.",
+    "find_them_queries": [
+     "real estate team {city}",
+     "top realtor {city}",
+     "real estate agent {city}",
+     "broker owner {city} real estate",
+     "{city} real estate group",
+     "best realtor in {city}"
+    ],
+    "size_sweet_spot": "Teams of 3-15 agents or broker/owners with 5-30 agents, 40+ closed sides per year, visible lead spend, 50+ reviews."
+   },
+   {
+    "niche": "Property management",
+    "aliases": [
+     "property manager",
+     "residential property management",
+     "rental management company",
+     "HOA management"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "Among the most phone-dependent small businesses on this list: vendor data shows 35-50% of leasing/tenant calls unanswered (worse evenings/weekends), callers do not leave voicemail, and one missed leasing call is modeled at roughly $1,000 of rental income. The real money for E4L's client is new-owner leads: each managed door is $100-$200/month recurring, so a single landlord inquiry answered live is worth $1.5K-$3K a year. Owner-operated firms with 50-500 doors are drowning in maintenance and leasing calls, and GEO matters ('best property management company in {city}').",
+    "primary_pains": [
+     "Owner/landlord inquiries ('do you manage in {city}?') lost in tenant call volume",
+     "Leasing inquiries unanswered, vacancies sitting longer",
+     "After-hours maintenance calls hitting the same main line",
+     "Tenant call fatigue burning out a small office",
+     "Not named when AI answers property-management questions for the city"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "'Available rentals' page plus 'owner services' page (both tenant and owner inbound)",
+     "After-hours maintenance number is the main line or voicemail",
+     "Tenant reviews on Google complaining about unanswered phones",
+     "Job posts for 'leasing agent', 'maintenance coordinator' or 'property manager'",
+     "50-500 doors (listing count, 'we manage X properties' on site)",
+     "Single-family / small multifamily focus, uses AppFolio/Buildium/Rent Manager"
+    ],
+    "disqualifiers": [
+     "Large multifamily operators and REITs (Greystar, Lincoln, AvalonBay, Equity) or more than 1,000 doors",
+     "Franchise brands (Real Property Management, Property Management Inc., All County) unless clearly single-office locally owned",
+     "HOA/community-association-only management (board-driven sales cycle)",
+     "Commercial-only management",
+     "No website"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Broker / Owner",
+     "President",
+     "Principal",
+     "Director of Property Management",
+     "Operations Manager",
+     "Property Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Operationally stressed and tenant-call-fatigued; they value reliability and fewer 2am calls over growth hype, and they worry about tenant experience. Pitch 'stop the after-hours calls and never miss a landlord lead' with a demo trained on their site; email to the owner with a phone follow-up works.",
+    "find_them_queries": [
+     "property management company {city}",
+     "residential property management {city}",
+     "rental property management {city}",
+     "property manager {city} single family",
+     "{city} property management services landlords",
+     "apartment property management {city}"
+    ],
+    "size_sweet_spot": "1 office, 50-500 doors under management, 3-15 staff, 50+ Google reviews, roughly $500K-$3M revenue."
+   },
+   {
+    "niche": "Mortgage brokers",
+    "aliases": [
+     "mortgage broker",
+     "loan officer",
+     "mortgage company",
+     "home loans"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Speed-to-lead is the whole game (industry-cited: ~40% of leads never contacted, average response 19 hours, big lifts for sub-minute response) and a funded loan is worth $3K-$10K+, so the fit for automated follow-up is strong. But inbound is mostly web forms, referrals and the LO's own cell, not a ringing office line, so voice AI is secondary; the business is rate-cycle volatile, tool-saturated and bound by TCPA/NMLS rules on outbound texts and calls, which E4L must build around. Target small brokerages (2-10 LOs) rather than solo LOs or big retail branches.",
+    "primary_pains": [
+     "Web/portal leads not contacted within minutes while the borrower applies with 3 lenders",
+     "Pre-approval requests sitting overnight",
+     "Realtor-referral leads falling through without follow-up sequences",
+     "Past-client database never reactivated for refi/purchase",
+     "Not named when AI answers 'best mortgage broker in {city}'"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "Broker/brokerage site with 'apply now' or pre-qualification form and no instant-response promise",
+     "Google/Facebook ads for 'mortgage {city}' or first-time-buyer offers",
+     "Team page with 2-10 licensed LOs (NMLS numbers listed)",
+     "Zillow/Experience.com reviews mentioning responsiveness",
+     "Spanish-language pages (underserved borrowers)",
+     "No stated evening/weekend availability"
+    ],
+    "disqualifiers": [
+     "Big retail lenders and their branches (Rocket, UWM, loanDepot, Guaranteed Rate, bank branches)",
+     "Solo LO with no company site",
+     "More than 25 LOs",
+     "Lead-aggregator or rate-comparison sites",
+     "Hard-money/commercial-only lenders"
+    ],
+    "decision_maker_titles": [
+     "Broker / Owner",
+     "Branch Manager",
+     "Principal",
+     "President",
+     "Senior Loan Officer",
+     "Mortgage Broker"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Hustle-culture producers who are rate-cycle anxious, tool-saturated (BNTouch, Jungo, Total Expert) and quick to try and quit. Lead with response-speed math and compliance (consent-based texting), keep it to one screen, and expect text or phone replies.",
+    "find_them_queries": [
+     "mortgage broker {city}",
+     "mortgage company {city}",
+     "home loans {city} broker",
+     "first time home buyer loans {city}",
+     "mortgage lender near {city} independent",
+     "prestamos hipotecarios {city}"
+    ],
+    "size_sweet_spot": "2-10 LOs, 1 office, independent broker (not a retail branch), 50+ reviews, roughly $500K-$3M in revenue."
+   }
+  ],
+  "niche_decision_rule": "Score any niche on three yes/no gates, in order. (1) PHONE = MONEY: does a new customer typically call (or submit a form that must be called back within minutes) to buy, and is the business often unable to answer because the owner/staff are hands-on with customers, after hours, or at lunch? If no, skip. (2) ONE SAVE PAYS THE FEE: is one recovered customer per month worth more than roughly $500-$1,000 (E4L's AI Front Desk price floor) in first-year or lifetime value? If no, skip; if the ticket is under $150 and bookings live on an app or Instagram, skip without further research. (3) OWNER CAN SAY YES: is the typical operator an owner-operated business with 1-3 locations, a real website, and no corporate parent, franchise system or PE platform controlling vendors? If no, skip. All three yes plus E4L already has a client, template or demo in it = core. All three yes but unproven for E4L = extend, and pick the entry offer by how they buy: voice AI demo when the office phone rings for money, speed-to-lead when leads arrive as forms/portal leads, GEO audit when the owner is reputation-driven and has strong gatekeepers. Ecommerce and other non-phone businesses pass only if they run a sales line, booking line or high-ticket consult (B2B wholesale, custom/made-to-order, local delivery or showroom brands); pure cart-and-ship stores with no phone intent are a skip."
+ },
+ {
+  "niches": [
+   {
+    "niche": "ecommerce / DTC Shopify brands",
+    "aliases": [
+     "DTC brands",
+     "Shopify stores",
+     "online stores",
+     "direct-to-consumer",
+     "WooCommerce / BigCommerce stores",
+     "online retailers",
+     "considered-purchase ecommerce"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Honest read: the mass of small DTC (apparel, beauty, supplements, sub-$75 AOV) is a SKIP. They publish no phone number, support runs through Gorgias/Zendesk email and chat, abandoned-cart follow-up is already handled by Klaviyo, and 'speed-to-lead' has no lead to speed to; voice AI only earns its keep where a phone call precedes a purchase. That leaves a real but narrow sub-segment worth chasing: high-consideration, high-AOV stores (furniture, mattresses, e-bikes, hot tubs, appliances, fine/custom jewelry, medical and mobility equipment, auto parts/performance, instruments, made-to-order and B2B/wholesale lines with 'call for quote') that publish a phone number. Phone sales are a documented channel in these categories (Saatva built on it) and ecommerce conversion in home/furniture (~1.4%) and jewelry (~1%) is low enough that answering the 'I have a question' call moves revenue. The one near-universal ecommerce need is AI search visibility: ChatGPT/Perplexity now return 3\u20135 product cards instead of ten links, and vendor studies (StoreRank, Paz.ai; directional, vendor-sourced) claim 85\u201392% of Shopify stores never appear. E4L's GEO product has to be adapted for this (non-local 'best X for Y' money questions, Product + FAQ schema, review density); the local 'near me' template does not transfer as-is. Net: extend, gated hard on the sub-segment rules in disqualifiers; everything else is skip.",
+    "primary_pains": [
+     "High-AOV shoppers call before they buy and nobody answers after 5pm or on weekends, so the sale goes to Amazon or the competitor with a live line",
+     "Invisible in ChatGPT/Perplexity/Gemini product recommendations while Amazon, Wayfair and bigger brands hold the slots",
+     "Quote, consultation and wholesale requests sit in an inbox for days with no follow-up",
+     "Product pages carry no FAQ/Product schema or plain-language answers an AI engine can lift",
+     "Paying for Meta/Google traffic that leaks at the 'I have a question' moment"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "Phone number in the site header/footer, or a 'call to order', 'talk to an expert', 'book a consultation' CTA (the single most important gate: no phone = skip)",
+     "Visible price points with AOV at or above $150; financing offered (Affirm, Klarna, Shop Pay Installments) = considered purchase",
+     "Showroom, 'visit us', local pickup, white-glove delivery or installation pages",
+     "Not named when ChatGPT/Perplexity is asked 'best [product category] for [use case]' or '[product] store near {city}' while competitors or Amazon/Wayfair are",
+     "No FAQPage or Product JSON-LD in page source; chat widget absent or showing 'offline, leave a message'",
+     "Trustpilot/Google/Yotpo reviews mentioning 'couldn't reach anyone', 'took days to reply', 'no phone number'",
+     "Active ads in Meta Ad Library or Google Ads Transparency Center (spending on acquisition)",
+     "Job posts for customer service rep, phone sales, or showroom associate",
+     "Built on Shopify/BigCommerce/WooCommerce (not Amazon/Etsy-only) with 50\u20135,000 SKUs"
+    ],
+    "disqualifiers": [
+     "No phone number anywhere on the site",
+     "AOV under $75, consumables, subscription boxes, digital products, print-on-demand, dropship or general stores",
+     "Amazon-only, Etsy-only, or marketplace-dependent sellers",
+     "Venture-backed or 50+ employees (in-house CX and growth teams)",
+     "Already running Ringly, Gorgias Voice, Aircall AI or a named call center",
+     "Ships or sells outside the US only, no US phone"
+    ],
+    "decision_maker_titles": [
+     "Founder",
+     "Co-Founder",
+     "Owner",
+     "CEO",
+     "Head of Ecommerce",
+     "Director of Ecommerce",
+     "Head of Customer Experience",
+     "Ecommerce Manager",
+     "General Manager (showroom-backed stores)"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Digitally native, metric-driven (ROAS, CAC, LTV) and buried in cold pitches from Shopify-app vendors, so generic 'AI' outreach is deleted on sight. They respond to one specific observation about their own store (a missing schema, an unanswered after-hours call, a ChatGPT answer that named a competitor) and to proof, never to promises.",
+    "find_them_queries": [
+     "\"{city}\" furniture store \"shop online\" \"call us\" -wayfair -ashley",
+     "\"{city}\" e-bike shop \"shop online\" financing",
+     "\"{city}\" mattress store \"order online\" OR \"shop online\" -mattressfirm",
+     "site:myshopify.com \"{city}\" \"call us\" OR \"give us a call\"",
+     "\"{city}\" custom jewelry \"shop online\" \"book a consultation\"",
+     "\"{city}\" appliance OR \"hot tub\" OR \"mobility scooter\" store \"buy online\" phone"
+    ],
+    "size_sweet_spot": "$500K\u2013$5M annual revenue, 2\u201315 employees, AOV $150+, publishes a US phone number, Shopify/BigCommerce/WooCommerce store with 50\u20135,000 SKUs, often with a showroom or installation arm; not Amazon-dependent, not venture-backed."
+   },
+   {
+    "niche": "local retail boutiques",
+    "aliases": [
+     "boutique",
+     "gift shop",
+     "clothing boutique",
+     "specialty retail store",
+     "local retail shop"
+    ],
+    "segment": "skip",
+    "fit_score": 1,
+    "why": "Skip: revenue is walk-in and under $100 a ticket, the phone only rings for 'are you open / do you have this in stock', there is no lead funnel to fix, and margins cannot carry $500+/mo. The one exception (a boutique with a real online store and phone orders) is already covered by the ecommerce sub-segment rules.",
+    "primary_pains": [
+     "In-stock and hours questions going to voicemail",
+     "Little or no AI/search visibility for 'best [category] shop in {city}'"
+    ],
+    "best_entry_offer": "Revenue Leak Scorecard",
+    "need_signals": [
+     "Online store with phone number and AOV over $150 (then treat as ecommerce, not retail)",
+     "Reviews mentioning unanswered calls"
+    ],
+    "disqualifiers": [
+     "Walk-in only revenue",
+     "AOV under $100",
+     "No online store",
+     "Franchise or chain"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Shop Owner",
+     "Store Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Passion-driven, cash-tight, runs the register themselves and sees marketing as Instagram; receptive to friendly conversation but will not fund a monthly system.",
+    "find_them_queries": [
+     "boutique {city}",
+     "gift shop {city}",
+     "women's clothing boutique {city}",
+     "\"{city}\" boutique \"shop online\" \"call us\""
+    ],
+    "size_sweet_spot": "Only worth it with an online store doing $500K+ and phone orders; otherwise none."
+   },
+   {
+    "niche": "auto dealers (independent)",
+    "aliases": [
+     "used car dealer",
+     "independent dealership",
+     "buy here pay here",
+     "pre-owned auto sales",
+     "used car lot"
+    ],
+    "segment": "core",
+    "fit_score": 4,
+    "why": "Template exists and the leak is documented: Car Wars data (via DemandLocal) shows the average dealership connects with only ~65% of inbound callers; a 2026 Clearline mystery shop found an average first response to internet leads of 9 hours with only 13% responding within 5 minutes; a 2017 Dealer Control survey of 334 used-car dealers found only 19% answered their own website lead forms. Every 'is this car still available?' call is a $1,500\u2013$4,000 gross-profit moment and independents have no BDC to catch it.",
+    "primary_pains": [
+     "'Is the car still available?' calls going unanswered during test drives and deliveries",
+     "Website, Autotrader, Cars.com and Facebook Marketplace leads answered hours later or never",
+     "After-hours and Sunday inquiries lost entirely",
+     "No follow-up on unsold ups and financing applications",
+     "Service department (if any) missing booking calls"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Inventory listed on Cars.com/Autotrader/CarGurus/FB Marketplace with 20\u2013150 units",
+     "Website lead form with no chat, no text-us, no online appointment tool",
+     "Google reviews mentioning 'never called back', 'nobody answered', 'left a message'",
+     "GBP hours closed Sunday or after 6pm while inventory ads run 24/7",
+     "Job posts for 'BDC rep', 'internet sales', 'receptionist'",
+     "After-hours test call reaches voicemail or a full mailbox",
+     "Single location, no franchise brand in the name"
+    ],
+    "disqualifiers": [
+     "Franchise new-car dealer or dealer group (has a BDC and OEM marketing)",
+     "More than 3 locations",
+     "No website, Facebook-only lot",
+     "Already using a BDC/call-center vendor (CallRevu, Car Wars managed, DealerSocket BDC)",
+     "Wholesale-only or auction-only operations"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Dealer Principal",
+     "General Manager",
+     "Sales Manager",
+     "Internet Sales Manager",
+     "BDC Manager",
+     "Finance Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Hustlers who live on the lot, numbers-driven and already pitched daily by Cars.com and CarGurus reps, so they are skeptical of 'marketing' but react fast to proof that a buyer called and nobody picked up; they prefer a phone call or text over email and decide in days, not quarters.",
+    "find_them_queries": [
+     "used car dealer {city}",
+     "independent used car dealership {city} -carmax -autonation",
+     "buy here pay here {city}",
+     "pre-owned cars {city} \"family owned\"",
+     "\"{city}\" used cars \"call us\" site:*.com -cargurus -autotrader",
+     "used truck dealer {city}"
+    ],
+    "size_sweet_spot": "1\u20133 locations, 20\u2013150 units in stock, 3\u201315 staff, $2M\u2013$15M revenue, no BDC, independent (not franchised)."
+   },
+   {
+    "niche": "auto repair / body shops / detailing",
+    "aliases": [
+     "auto repair shop",
+     "mechanic",
+     "independent auto service",
+     "collision center",
+     "body shop",
+     "auto detailing",
+     "ceramic coating",
+     "transmission shop",
+     "tire shop"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "Nearly a home-services trade in behavior: Marchex reports up to 21% of automotive service calls go unanswered (its 2019 report put nearly a third of calls in 'missed revenue' categories including hold and voicemail abandons) and Auto Advisor Partners sees 20\u201330% missed during peak bay hours; AutoLeap data says ~80% of callers who hit voicemail do not leave a message. Tickets of $300\u2013$1,500 (repair) and $2,500+ (collision) make each miss expensive. Independent repair shops are the strongest sub-segment; body shops are weaker when insurer DRP programs assign the work; detailing is phone-heavy but lower ticket unless ceramic coating/PPF is the focus.",
+    "primary_pains": [
+     "Service calls missed while the advisor is under the hood or with a customer at the counter",
+     "After-hours and Saturday calls with no booking path",
+     "Estimate requests that never get a follow-up quote",
+     "No-shows on scheduled appointments",
+     "Not recommended when a driver asks ChatGPT for 'honest mechanic near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "GBP shows closed Sat afternoon/Sun with 100+ reviews (high volume, limited coverage)",
+     "Reviews mentioning 'phone rang forever', 'left a voicemail', 'never got my estimate'",
+     "Website has no online scheduler (no Shopmonkey/Tekmetric/AutoLeap booking widget)",
+     "After-hours test call hits voicemail instead of an answering service",
+     "Job posts for 'service advisor', 'front desk', 'CSR'",
+     "Shop runs Google Local Services Ads or Yelp ads (paying for calls it may miss)",
+     "2\u20138 bays visible in photos, 1 location",
+     "Detailers: ceramic coating/PPF pages with 'call for quote'"
+    ],
+    "disqualifiers": [
+     "Franchise or chain: Midas, Meineke, Jiffy Lube, Valvoline, Firestone, Pep Boys, Caliber, Gerber, Maaco, Crash Champions, Christian Brothers, Grease Monkey, Tuffy",
+     "Dealership service departments",
+     "Body shops that are 100% insurer-assigned DRP work with no retail estimates",
+     "Solo mobile detailer with no website or under $150K revenue",
+     "Already using a listed answering service or AI phone vendor"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Shop Owner",
+     "Owner/Operator",
+     "General Manager",
+     "Service Manager",
+     "Service Advisor (gatekeeper)",
+     "Office Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Hands-on, usually a former tech who hates admin and distrusts 'marketing guys', but feels the ringing-phone problem every day; wants a no-nonsense show-me-the-demo approach, prefers text or a quick call between 10am and 3pm, and will pay for something that visibly books cars.",
+    "find_them_queries": [
+     "auto repair shop {city} -midas -meineke -firestone -jiffy",
+     "independent mechanic {city} \"family owned\"",
+     "collision repair {city} -caliber -gerber -maaco",
+     "auto detailing ceramic coating {city}",
+     "transmission repair {city}",
+     "\"{city}\" auto repair \"ASE certified\" \"call us\""
+    ],
+    "size_sweet_spot": "2\u20138 bays, 3\u201312 employees, 1\u20132 locations, $500K\u2013$3M revenue (repair); body shops with a retail estimate flow; detailers doing ceramic/PPF with 2+ staff."
+   },
+   {
+    "niche": "restaurants / catering",
+    "aliases": [
+     "restaurant",
+     "cafe",
+     "caterer",
+     "catering company",
+     "private events restaurant",
+     "pizzeria",
+     "banquet"
+    ],
+    "segment": "core",
+    "fit_score": 3,
+    "why": "Template exists and phone still matters (Maple's 1M-call dataset says ~58% of reservations originate by phone; vendor studies put missed-call rates at 23\u201343% during rush), but the economics are mediocre: thin margins, owner never at a desk, email reachability only 30\u201340%, high churn, and a crowded field of restaurant-specific AI answering (Slang.ai, Popmenu, Toast). Chase it as a lower-priority core niche and tilt toward the catering/private-events side, where inquiries are form-driven, tickets run $1,000\u2013$10,000 and speed-to-lead decides the booking.",
+    "primary_pains": [
+     "Reservation and takeout calls missed during the 5\u20138pm rush",
+     "Catering and private-event inquiries answered a day late or never",
+     "Large-party and holiday bookings lost to the first place that picks up",
+     "Hours/menu/allergen questions eating staff time",
+     "Not named when someone asks ChatGPT 'best [cuisine] for a group in {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Catering or private-events page with a contact form and no instant confirmation",
+     "Reviews mentioning 'phone busy', 'couldn't get through', 'never heard back about our event'",
+     "No OpenTable/Resy/Toast online reservation link on GBP or site",
+     "GBP 'popular times' shows heavy peaks and the site has no online ordering",
+     "2\u20135 locations under one independent owner (has a GM and a budget)",
+     "Job posts for 'host', 'catering coordinator', 'events manager'",
+     "After-hours test call goes to a generic voicemail"
+    ],
+    "disqualifiers": [
+     "Franchise or chain (any brand with 25+ locations)",
+     "Ghost kitchens, food trucks, counter-service with no catering or reservations",
+     "Already on Slang.ai, Popmenu Answering, Toast AI or a reservation call center",
+     "No website (Instagram/Facebook only)",
+     "Single location with under 50 Google reviews"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Chef-Owner",
+     "General Manager",
+     "Director of Operations",
+     "Catering Director",
+     "Catering Manager",
+     "Events Manager"
+    ],
+    "email_reachability": "low",
+    "typical_owner_attitude": "Slammed and allergic to vendor pitches after being burned by Yelp and delivery-app reps; decides on gut, wants everything short and concrete, is reachable in person or by text between 2 and 4pm, and only cares if it fills seats or books events without adding work.",
+    "find_them_queries": [
+     "catering company {city}",
+     "restaurant private events {city}",
+     "\"{city}\" restaurant \"catering\" \"private dining\" -site:yelp.com",
+     "family owned restaurant {city} \"reservations\"",
+     "wedding catering {city}",
+     "corporate catering {city}"
+    ],
+    "size_sweet_spot": "1\u20133 locations, $1M\u2013$5M revenue, 15\u201360 staff, has a catering or private-events line with a named manager."
+   },
+   {
+    "niche": "event venues / wedding vendors",
+    "aliases": [
+     "wedding venue",
+     "event venue",
+     "banquet hall",
+     "wedding planner",
+     "DJ",
+     "event rentals",
+     "private event space",
+     "barn venue",
+     "winery venue"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "A pure speed-to-lead business with high tickets ($5K\u2013$50K per venue booking). WeddingPro reports average lead conversion of ~10% (closer to 5% for venues) and claims up to half of bookings go to the vendor that responds first; Perfect Venue data shows venues answering within an hour convert 2x those answering later the same day (40% vs 20%), while Indigo Digital pegs the industry's average venue response at 42 hours. Inquiries arrive evenings and weekends when the venue is running an event. GEO is a strong second lever: 'best wedding venue near {city}' is a classic AI question.",
+    "primary_pains": [
+     "Inquiry forms from The Knot/WeddingWire/Zola and the website answered a day or more later",
+     "Tour requests not booked while staff are on-site running an event",
+     "No follow-up sequence after the first reply, so couples go quiet",
+     "Weekend and evening calls hitting voicemail",
+     "Not named when couples ask ChatGPT for venues in {city}"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "Listed on The Knot/WeddingWire with a 'responds within 1 day' or slower badge",
+     "Website inquiry form with no instant auto-reply, no tour-booking calendar",
+     "Reviews praising the venue but mentioning slow replies during planning",
+     "Instagram active (posting events) but contact is a form only",
+     "Job posts for 'event coordinator', 'venue sales manager', 'wedding coordinator'",
+     "Pricing hidden behind 'request a quote' (quote-driven = follow-up gap)",
+     "Venue hosts 30+ events a year judging by review and photo volume"
+    ],
+    "disqualifiers": [
+     "Hotel-chain ballrooms, country clubs with corporate parents, city/park district venues",
+     "Venues with an in-house sales team larger than 5",
+     "Vendors with no website (Instagram-only) or under $100K revenue (solo DJs, hobby florists)",
+     "Already using an event CRM with instant response (Perfect Venue, Tripleseat with automation) and visible fast-response badges"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Venue Manager",
+     "Events Director",
+     "Director of Sales",
+     "Catering Sales Manager",
+     "Wedding Coordinator",
+     "Lead Planner / Owner",
+     "Owner/Operator (vendors)"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Relationship- and aesthetics-driven, protective of brand voice (they worry automation will feel cold to a bride) and tired of The Knot sales calls; they warm up to 'you are losing bookings to whoever replies first' with their own response-time evidence, and they want to see the tone of the messages before they trust it.",
+    "find_them_queries": [
+     "wedding venue {city}",
+     "event venue {city} \"private events\"",
+     "banquet hall {city} -hilton -marriott",
+     "barn wedding venue near {city}",
+     "wedding planner {city}",
+     "\"{city}\" venue \"request a quote\" wedding"
+    ],
+    "size_sweet_spot": "Venues: 1 location, 30\u2013150 events a year, 2\u201310 staff, $500K\u2013$3M revenue. Vendors (planners, DJs, rentals): $150K\u2013$1M revenue, owner plus 1\u20135."
+   },
+   {
+    "niche": "photographers",
+    "aliases": [
+     "wedding photographer",
+     "portrait studio",
+     "photography studio",
+     "family photographer",
+     "commercial photographer"
+    ],
+    "segment": "skip",
+    "fit_score": 2,
+    "why": "Skip: solo operators with $300\u2013$5,000 tickets, inquiry-form and Instagram-DM driven (not phone), and budgets that cannot carry $500+/mo even though speed-to-lead genuinely matters to them (vendors claim the first responder wins most wedding bookings). Only a staffed studio (newborn, school, sports or commercial with 3+ shooters) comes close, and those are rare enough to handle under wedding vendors.",
+    "primary_pains": [
+     "Inquiries answered hours later while couples contact 3\u20135 photographers at once",
+     "No follow-up after the first reply"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "Studio with staff and a booking calendar",
+     "Listed on The Knot with slow-response badge"
+    ],
+    "disqualifiers": [
+     "Solo operator",
+     "Under $150K revenue",
+     "No business phone",
+     "Instagram-only presence"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Photographer",
+     "Studio Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Creative, email-first, cost-sensitive and wary of anything that sounds like a sales system; friendly to talk to but rarely a buyer at E4L's price point.",
+    "find_them_queries": [
+     "photography studio {city}",
+     "wedding photographer {city}",
+     "newborn photography studio {city}",
+     "school portrait photographer {city}"
+    ],
+    "size_sweet_spot": "Only studios with 3+ staff and $500K+ revenue; otherwise none."
+   },
+   {
+    "niche": "pet grooming / boarding / daycare",
+    "aliases": [
+     "dog groomer",
+     "pet grooming salon",
+     "dog boarding",
+     "kennel",
+     "dog daycare",
+     "pet resort",
+     "cat boarding"
+    ],
+    "segment": "core",
+    "fit_score": 4,
+    "why": "Template exists and E4L already serves a pet grooming client. Staff have their hands on animals all day, so calls roll to voicemail during the busiest hours, and demand spikes around holidays and summer travel when every unanswered call is a multi-night booking ($45\u2013$75/night) or a recurring daycare membership. Vendor data (AgentZap, unverified) claims ~62% of pet-care callers who hit voicemail never call back; even at half that, the leak is large relative to a $500\u2013$997/mo system.",
+    "primary_pains": [
+     "Booking calls missed while grooming or walking dogs",
+     "Holiday boarding inquiries lost to voicemail",
+     "Vaccination/intake questions eating front-desk time",
+     "No-shows and last-minute cancellations with no waitlist backfill",
+     "Not named when a pet parent asks ChatGPT for 'dog boarding near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "No online booking (no Gingr/PetExec/MoeGo widget) and 'call to book' on the site",
+     "Reviews mentioning 'hard to reach', 'left messages', 'phone always busy'",
+     "GBP hours show closed Sundays or early evenings while reviews mention holiday demand",
+     "Job posts for 'front desk', 'receptionist', 'client care coordinator'",
+     "Boarding facility with 20+ runs or grooming shop with 2+ groomers visible in photos/staff page",
+     "After-hours test call reaches voicemail",
+     "Site has no FAQ (vaccines, pricing, intake) structured for AI"
+    ],
+    "disqualifiers": [
+     "Franchise: Dogtopia, Camp Bow Wow, PetSmart, Petco, Pet Supplies Plus grooming, Woofie's, Aussie Pet Mobile",
+     "Veterinary-attached boarding (the vet makes the decision)",
+     "Solo mobile groomer with no website",
+     "Rover/Wag-only sitters",
+     "Already using a pet-industry AI phone product"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Groomer",
+     "General Manager",
+     "Kennel Manager",
+     "Facility Director",
+     "Front Desk Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Animal-first, warm, small-staff operators who feel the phone problem acutely but worry an AI will mis-book a dog with special needs; approach with empathy and a simple demo that shows it capturing a Thanksgiving boarding call correctly, not with 'AI' buzzwords.",
+    "find_them_queries": [
+     "dog boarding {city} -petsmart -dogtopia -\"camp bow wow\"",
+     "pet grooming {city} \"family owned\"",
+     "dog daycare {city}",
+     "pet resort {city}",
+     "cat boarding {city}",
+     "\"{city}\" dog grooming \"call to book\""
+    ],
+    "size_sweet_spot": "3\u201315 staff, 1\u20132 locations, boarding/daycare with 20+ runs or grooming with 2+ groomers, $400K\u2013$2M revenue."
+   },
+   {
+    "niche": "daycare / preschools / tutoring",
+    "aliases": [
+     "childcare center",
+     "daycare center",
+     "preschool",
+     "early learning center",
+     "Montessori school",
+     "tutoring center",
+     "learning center"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "Childcare is a tour-booking funnel with huge per-lead value: one enrollment is roughly $12K\u2013$17K a year at $1,000\u2013$1,400/mo tuition. LineLeader reports about 25% of inquiries arrive by phone and that top centers book 85% of tours within 24 hours; vendors (unverified) claim 45\u201367% of parent calls are missed during drop-off, pick-up and classroom time. Directors are in classrooms, not at the desk, so voice AI plus tour booking plus a follow-up sequence fits exactly. Tutoring is the weak half: franchise-dominated (Kumon, Mathnasium, Sylvan) with lower tickets; treat independent tutoring centers as a 2.",
+    "primary_pains": [
+     "Parent inquiry calls missed during drop-off, pick-up and nap time",
+     "Tour requests booked days later or never, after the parent toured a competitor",
+     "Tuition and availability questions taking the director out of the classroom",
+     "Tour no-shows with no reminder sequence",
+     "Not named when parents ask ChatGPT for 'preschool near {city}'"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Website says 'call to schedule a tour' with no online tour calendar",
+     "Enrollment page lists openings or 'now enrolling' (capacity available)",
+     "Reviews mentioning 'hard to get someone on the phone', 'never called back about a tour'",
+     "State licensing record shows capacity 40\u2013150 with 1\u20133 sites",
+     "Job posts for 'director', 'assistant director', 'front office'",
+     "GBP hours 6am\u20136pm but after-hours test call hits voicemail (parents search at night)",
+     "No Procare/Brightwheel/LineLeader lead form with instant auto-response"
+    ],
+    "disqualifiers": [
+     "Franchise: Primrose, Goddard, KinderCare, The Learning Experience, Kiddie Academy, Lightbridge, Bright Horizons, Kumon, Mathnasium, Sylvan, Huntington",
+     "Full with a waitlist ('waitlist only' on site)",
+     "Home-based daycare (licensed capacity under 12)",
+     "Head Start, public pre-K, church- or nonprofit-subsidized programs with no budget authority",
+     "Already using an enrollment CRM with AI follow-up"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Director",
+     "Center Director",
+     "Executive Director",
+     "Assistant Director",
+     "Enrollment Coordinator",
+     "Head of School (Montessori)"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Mission-driven, regulation-minded and cautious about anything that touches parents and children; loyal to their childcare software and wary of 'AI', but highly receptive to 'never miss a parent's call during pickup' framed around safety, warmth and a booked tour; approach gently and in plain language.",
+    "find_them_queries": [
+     "preschool {city} \"now enrolling\" -kindercare -primrose -goddard",
+     "daycare center {city} \"schedule a tour\"",
+     "Montessori school {city} \"family owned\" OR \"locally owned\"",
+     "early learning center {city} -\"bright horizons\"",
+     "\"{city}\" childcare \"call us to schedule\"",
+     "tutoring center {city} -kumon -mathnasium -sylvan"
+    ],
+    "size_sweet_spot": "Licensed capacity 40\u2013150, 1\u20133 centers, 8\u201330 staff, tuition $900\u2013$2,000/mo, independently owned with openings."
+   },
+   {
+    "niche": "private schools",
+    "aliases": [
+     "independent school",
+     "private K-12 school",
+     "Christian school",
+     "private elementary school",
+     "private high school",
+     "academy"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Each enrollment is worth $8K\u2013$40K a year and admissions funnels leak badly (UPCEA's 2025 secret-shopper study of admissions offices found 44% of inquiries got no response, median response 3+ hours; private-K12 consultants cite inquiry-to-enrollment of only 3\u20135%). But buying is committee-driven and tied to the academic calendar, inquiries are form and tour based rather than phone-urgent, and admissions teams already run Blackbaud/FinalSite/SchoolAdmin. The fastest door is GEO: 'best private school near {city}' is a real AI question families ask, and schools care intensely about reputation. Chase in summer and fall for the next admissions cycle.",
+    "primary_pains": [
+     "Admissions inquiries unanswered or answered days later",
+     "Open-house and tour requests with no automated booking and reminders",
+     "Not recommended when families ask ChatGPT/Gemini for private schools in {city}",
+     "After-hours parent calls during admissions season going to voicemail",
+     "Website lacks structured FAQ (tuition, aid, curriculum) that AI engines can quote"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "Admissions page with a contact form and no instant reply or tour calendar",
+     "'Now accepting applications' or rolling admissions language (seats available)",
+     "Not named in ChatGPT/Perplexity answers for private school questions in the metro while peers are",
+     "No FAQPage schema on tuition/admissions pages",
+     "Staff directory lists Director of Admissions with email (reachable)",
+     "Job posts for 'admissions associate', 'enrollment coordinator'",
+     "Niche.com profile with low review count relative to competitors"
+    ],
+    "disqualifiers": [
+     "Diocesan or archdiocesan schools (central office decides marketing)",
+     "Public charters and district schools",
+     "Schools over 1,000 students or with in-house marketing teams",
+     "At capacity with a published waitlist",
+     "Boarding schools with national recruiting"
+    ],
+    "decision_maker_titles": [
+     "Head of School",
+     "Director of Admissions",
+     "Director of Enrollment Management",
+     "Director of Marketing and Communications",
+     "Business Manager",
+     "Principal (religious schools)"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Deliberate, reputation-conscious and vendor-wary; they buy on the academic calendar, value polish and references over hustle, and will read a well-written audit report but ignore a hard sell. Expect a multi-week, multi-person decision.",
+    "find_them_queries": [
+     "private school {city} \"now enrolling\" OR \"accepting applications\"",
+     "independent school {city} K-8",
+     "Christian school {city} admissions -diocese",
+     "private high school {city} \"schedule a tour\"",
+     "Montessori OR Waldorf school {city} admissions",
+     "\"{city}\" \"private school\" \"director of admissions\""
+    ],
+    "size_sweet_spot": "100\u2013600 students, 1 campus, independent governance, tuition $8K+ per year, openings in at least some grades."
+   },
+   {
+    "niche": "funeral homes",
+    "aliases": [
+     "funeral home",
+     "mortuary",
+     "cremation services",
+     "funeral director",
+     "funeral chapel"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "The original 24/7 phone business: deaths and hospice calls arrive at all hours (vendors citing NFDA claim 60\u201370% of first calls come outside 9\u20135, unverified but consistent with how the industry operates) and nearly every independent home already pays $200\u2013$600/mo for a live answering service, which proves both the need and the budget line. Each at-need case is $7K\u2013$12K and pre-need inquiries are a quieter, form-driven funnel. Cremation price shopping is exploding, which makes 'cremation cost in {city}' and 'funeral home near {city}' high-value AI money questions. Caveat: many directors will refuse AI on the first-call, so lead with the GEO audit and position voice AI for overflow, after-hours general inquiries and pre-need, with human escalation on at-need calls.",
+    "primary_pains": [
+     "After-hours first calls handled by a generic answering service that drops details or transfers slowly",
+     "Pre-need and cremation price inquiries answered late or lost",
+     "Losing cremation shoppers to corporate brands and online cremation societies that rank in AI answers",
+     "Website with no structured answers on pricing, process and what to do first",
+     "Review requests and follow-up with families done inconsistently"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "Not named when ChatGPT/Perplexity is asked 'cremation services near {city}' or 'affordable funeral home in {city}' while SCI/Dignity or a cremation society is",
+     "Site shows 'available 24/7' with a single phone number and no online pre-need form",
+     "General Price List (GPL) is a PDF only, no FAQ or pricing schema",
+     "Family-owned language ('serving families since 19xx'), 1\u20133 locations",
+     "Reviews mentioning slow callbacks on pre-need or price questions",
+     "Job posts for 'funeral assistant', 'office administrator', 'pre-need counselor'",
+     "Few or no Google reviews relative to corporate competitors nearby"
+    ],
+    "disqualifiers": [
+     "Corporate consolidators: SCI/Dignity Memorial, StoneMor, Carriage Services, Park Lawn, Foundation Partners, Legacy Funeral Group",
+     "Cemeteries only",
+     "National cremation brands (Neptune Society, Tulip, Smart Cremation)",
+     "Owners who state on their site that every call is answered by a licensed director personally (they will not accept AI on first call)"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Funeral Director",
+     "Owner/Licensed Funeral Director",
+     "Managing Funeral Director",
+     "General Manager",
+     "Pre-Need Counselor"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Conservative, multigenerational family operators obsessed with community reputation and compassion, who dislike anything that feels impersonal but are acutely aware of corporate competitors and cremation price shoppers; approach formally, respectfully and without hype, offer a report, and never pitch AI answering the death call itself.",
+    "find_them_queries": [
+     "funeral home {city} \"family owned\" -dignity -sci",
+     "cremation services {city} -neptune -tulip",
+     "mortuary {city} \"serving families since\"",
+     "funeral home {city} pre-need -\"dignity memorial\"",
+     "\"{city}\" funeral home \"available 24 hours\"",
+     "independent funeral home near {city}"
+    ],
+    "size_sweet_spot": "Independent, 1\u20133 locations, roughly 100\u2013400 cases a year, 3\u201315 staff, currently paying for a live answering service."
+   },
+   {
+    "niche": "storage facilities (independent)",
+    "aliases": [
+     "self storage",
+     "storage units",
+     "mini storage",
+     "RV and boat storage",
+     "independent storage operator"
+    ],
+    "segment": "extend",
+    "fit_score": 4,
+    "why": "Proven phone leak with a known dollar value: the Self Storage Association demand study (via Inside Self Storage) puts the industry call miss rate near 40% with a 13.6% loss of potential rentals; properties without a call center convert only ~25% of sales calls; Self Storage Management of California found its managers missed ~20 sales calls a month and a backup answering service added ~4 rentals a month. A rental is worth $1,100\u2013$1,600 over its life, the on-site manager is alone and often walking units, and 'storage units near {city}' is a core AI query. Independents already pay for XPS/OpenTech call centers, so the budget line exists and voice AI replaces it at lower cost.",
+    "primary_pains": [
+     "Rate and availability calls missed while the single manager is on a walk-through or at lunch",
+     "After-hours and Sunday inquiries lost to REIT competitors with 24/7 call centers",
+     "No reservation follow-up on quotes given over the phone",
+     "Unit-size and gate-access questions eating manager time",
+     "Not named when someone asks ChatGPT for storage near {city}"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Single on-site manager, office hours 9\u20135 or 9\u20136 with Sunday closed",
+     "Website has rates but no online rental/reservation (no SiteLink/storEDGE/Easy Storage widget) or only 'call for availability'",
+     "Reviews mentioning 'nobody in the office', 'phone not answered', 'had to come back'",
+     "Not an REIT or third-party-managed brand; local name, 1\u20135 facilities",
+     "Occupancy below ~90% inferred from 'move-in specials' or 'first month free' promos",
+     "After-hours test call hits voicemail rather than a call center",
+     "Not named in AI answers for storage queries in the city"
+    ],
+    "disqualifiers": [
+     "REITs and national brands: Public Storage, Extra Space, CubeSmart, Life Storage, U-Haul, StorageMart, SmartStop, Prime, SecurCare, Simply Self Storage",
+     "Facilities under third-party management programs (Extra Space/CubeSmart managed)",
+     "Fully unmanned kiosk sites that already have a contracted call center",
+     "Published occupancy above 95% or 'no units available'"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Property Owner",
+     "Managing Partner",
+     "Facility Manager",
+     "Property Manager",
+     "Regional Manager (2\u20135 sites)",
+     "Operations Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Real-estate investors who think in occupancy and cost-per-rental, are often absentee, and already understand the call-center concept; they buy on math (rentals recovered vs. monthly fee) and respond to email, while the on-site manager responds to a phone call but cannot sign.",
+    "find_them_queries": [
+     "self storage {city} -\"public storage\" -\"extra space\" -cubesmart -\"life storage\" -uhaul",
+     "mini storage {city} \"locally owned\"",
+     "storage units {city} \"call for availability\"",
+     "RV and boat storage {city}",
+     "\"{city}\" self storage \"family owned\"",
+     "storage facility near {city} \"move-in special\""
+    ],
+    "size_sweet_spot": "1\u20135 facilities, 200\u2013800 units each, single on-site manager, no contracted call center, occupancy under 92%."
+   },
+   {
+    "niche": "car washes",
+    "aliases": [
+     "car wash",
+     "express car wash",
+     "automatic car wash",
+     "unlimited wash club"
+    ],
+    "segment": "skip",
+    "fit_score": 1,
+    "why": "Skip: revenue is drive-in and sold at the pay station as an unlimited membership; the phone rings for complaints and damage claims, not sales, so there is no missed-call or speed-to-lead economics to fix. Detailing shops belong under auto detailing.",
+    "primary_pains": [
+     "Membership churn and local visibility"
+    ],
+    "best_entry_offer": "Revenue Leak Scorecard",
+    "need_signals": [
+     "Only if it also runs a full-service detail center with quoted jobs (then treat as detailing)"
+    ],
+    "disqualifiers": [
+     "Express or automatic wash with membership model",
+     "Franchise or multi-site operator",
+     "No quoted services"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "General Manager",
+     "Site Manager"
+    ],
+    "email_reachability": "low",
+    "typical_owner_attitude": "Operations-focused multi-site thinkers who spend on signage and local ads; little interest in phone or lead tooling.",
+    "find_them_queries": [
+     "car wash {city}",
+     "express car wash {city}",
+     "hand car wash and detail {city}",
+     "\"{city}\" car wash \"detailing\" \"call for a quote\""
+    ],
+    "size_sweet_spot": "None; only hand-wash/detail hybrids with quoted work qualify, under auto detailing."
+   },
+   {
+    "niche": "hotels / B&Bs (independent)",
+    "aliases": [
+     "boutique hotel",
+     "bed and breakfast",
+     "inn",
+     "independent hotel",
+     "lodge",
+     "motel (independent)"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Phone still converts in lodging (Revinate's 2024 benchmark of 4.6M calls, cited by Canary, shows ~50% conversion on inbound voice) and every missed call tends to become an OTA booking at 15\u201325% commission, which gives the pitch a built-in dollar hook. Vendors claim 40\u201360% of hotel calls go unanswered, but at an independent hotel the desk is staffed 24/7 (the issue is busy, not absent), and B&Bs are often 4\u201310 rooms run by owner-innkeepers with little budget. GEO is the stronger lever: travel is one of the top AI-assistant use cases and 'best boutique hotel in {city}' or 'pet-friendly inn near {city}' answers are being decided now.",
+    "primary_pains": [
+     "Direct-booking calls missed at check-in rush or after the desk closes, so the guest books on Expedia and the hotel pays commission",
+     "Not named when travelers ask ChatGPT/Gemini for places to stay in {city}",
+     "Group, wedding-block and event inquiries answered slowly",
+     "Website lacks structured answers on policies, pets, parking and packages",
+     "No post-stay review request or rebooking sequence"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "Not named in AI answers for lodging questions in the town while chains or OTAs are",
+     "Site has a booking engine (Cloudbeds, ThinkReservations, Little Hotelier) but the phone is the primary CTA",
+     "Front desk hours listed (B&Bs, inns) or reviews mentioning 'nobody answered the phone', 'had to book through Booking.com'",
+     "Independent name, 8\u201360 rooms, no brand flag",
+     "Wedding/event or group pages with a contact form only",
+     "Few FAQ pages or schema; policies buried in PDFs",
+     "Active on TripAdvisor with 200+ reviews (volume) but low Google review count"
+    ],
+    "disqualifiers": [
+     "Brand-flagged: Marriott, Hilton, IHG, Hyatt, Choice, Best Western, Wyndham and their soft brands",
+     "Run by a management company (Aimbridge, Davidson, etc.)",
+     "Airbnb/VRBO-only hosts with no website",
+     "Under 5 rooms",
+     "Seasonal properties closed 5+ months a year"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Innkeeper",
+     "Owner/Innkeeper",
+     "General Manager",
+     "Director of Sales",
+     "Revenue Manager",
+     "Front Office Manager"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Hospitality people who hate OTA commissions (the best hook), often owner-operators nearing retirement who are relationship-driven and tech-light; approach with the direct-booking math and a friendly, guest-centric tone rather than a software pitch.",
+    "find_them_queries": [
+     "boutique hotel {city} -marriott -hilton -hyatt -ihg",
+     "bed and breakfast {city}",
+     "inn {city} \"innkeeper\"",
+     "independent hotel {city} \"book direct\"",
+     "pet friendly inn near {city}",
+     "\"{city}\" hotel \"family owned\" \"call us\" rooms"
+    ],
+    "size_sweet_spot": "8\u201360 rooms, 1 independent property, $500K\u2013$5M revenue, own booking engine, year-round operation."
+   },
+   {
+    "niche": "travel agents",
+    "aliases": [
+     "travel agency",
+     "travel advisor",
+     "home-based travel agent",
+     "cruise planner",
+     "luxury travel advisor"
+    ],
+    "segment": "skip",
+    "fit_score": 1,
+    "why": "Skip: mostly solo, home-based advisors inside host networks (NEST, Travel Leaders) that already feed them leads, commission-based income with no missed-call economics, and marketing driven by social and referrals; there is no phone or inquiry leak worth $500+/mo.",
+    "primary_pains": [
+     "Visibility in AI travel-planning answers (interesting, but no budget behind it)"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "Storefront agency with 5+ advisors and group/corporate business (rare)"
+    ],
+    "disqualifiers": [
+     "Home-based or solo advisor",
+     "Host-agency affiliate",
+     "No storefront or team"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Agency Owner",
+     "Travel Advisor"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Friendly, social-media-driven solopreneurs who sell on relationships and have little budget for systems.",
+    "find_them_queries": [
+     "travel agency {city} -expedia",
+     "luxury travel advisor {city}",
+     "cruise travel agency {city}",
+     "corporate travel agency {city}"
+    ],
+    "size_sweet_spot": "None; only storefront agencies with 5+ advisors merit a look."
+   },
+   {
+    "niche": "home inspectors",
+    "aliases": [
+     "home inspection company",
+     "property inspector",
+     "real estate inspector",
+     "multi-inspector firm"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Booking is phone-driven and time-boxed: buyers must inspect inside a 7\u201310 day contingency window and agents book whoever answers first, while the inspector is on a roof or in a crawlspace (vendors claim 40\u201360% of calls missed; unverified but directionally right for solo operators). Tickets run $400\u2013$700 and agent referrals compound, so a system that books jobs and texts back missed calls pays for itself with 1\u20132 extra inspections a month. The limit is size: most firms are 1\u20133 inspectors with modest revenue, so target multi-inspector companies.",
+    "primary_pains": [
+     "Booking calls missed while on an inspection, lost to the next inspector on the agent's list",
+     "No instant text-back or online booking for agents",
+     "Quotes that need square footage and age answered hours later",
+     "No agent nurture or review-request follow-up",
+     "Not named when a buyer asks ChatGPT for a home inspector in {city}"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Website shows 'call to schedule' and no Spectora/ISN online scheduler",
+     "2\u20136 inspectors on the team page; services include radon, sewer scope, termite (higher ticket)",
+     "Reviews mentioning 'had to call twice', 'voicemail', 'booked last minute and they answered' (shows phone matters)",
+     "Daytime test call during inspection hours reaches voicemail",
+     "Job posts for 'scheduler', 'office coordinator', 'licensed inspector'",
+     "Google Local Services Ads running for home inspection",
+     "Serves a metro with high transaction volume"
+    ],
+    "disqualifiers": [
+     "Solo inspector doing under ~150 inspections a year or under $150K revenue",
+     "Franchise: Pillar To Post, AmeriSpec, HouseMaster, WIN, National Property Inspections, BrickKicker",
+     "Already using a scheduling call center (ISN answering, Inspector Call Center)",
+     "No website or no published phone"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Inspector",
+     "Lead Inspector",
+     "Office Manager",
+     "Scheduling Coordinator"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Practical ex-contractors who live on agent referrals, are price-sensitive but tool-friendly, and get the pitch instantly when framed as 'the call you missed while you were in the crawlspace'; text and short calls work, long emails do not.",
+    "find_them_queries": [
+     "home inspection {city} -\"pillar to post\" -amerispec -housemaster",
+     "home inspector {city} \"schedule online\" OR \"call to schedule\"",
+     "\"{city}\" home inspection \"our inspectors\" team",
+     "radon sewer scope home inspection {city}",
+     "multi-inspector home inspection company {city}",
+     "commercial and residential inspection {city}"
+    ],
+    "size_sweet_spot": "2\u20136 inspectors, 1 office, $300K\u2013$1.5M revenue, 400+ inspections a year, uses Spectora or ISN."
+   },
+   {
+    "niche": "security / alarm companies",
+    "aliases": [
+     "alarm company",
+     "security system installer",
+     "home security company",
+     "security integrator",
+     "low-voltage security",
+     "camera installation"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Quote-driven trade with recurring monitoring revenue (each residential account is worth $1,000+ in lifetime RMR), where consumers request several quotes and the local dealer wins on being reachable and fast against ADT/Vivint/SimpliSafe. Parks Associates put residential at ~56% of US dealer business; vendor guides price exclusive leads at $40\u2013$150 with 8\u201315% close rates, so a missed quote request is expensive. Behavior mirrors HVAC/electrical (owner-technician, phone and form inquiries), which is why it extends well; the drag is that many dealers skew commercial or fire integration with long RFP cycles.",
+    "primary_pains": [
+     "Quote requests from the website and Google answered hours later while the homeowner books ADT",
+     "Calls missed while techs are on installs",
+     "No follow-up sequence on open quotes",
+     "Service and false-alarm calls clogging the sales line",
+     "Not named when someone asks ChatGPT for a local alarm company in {city}"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "'Request a free quote' form with no instant response or scheduling",
+     "Residential pages (home security, cameras, smart home) plus 'locally owned since' language",
+     "Reviews mentioning slow quotes or 'had to follow up myself'",
+     "Monitoring offered (RMR business) with 5\u201330 employees on LinkedIn",
+     "Job posts for 'sales rep', 'security consultant', 'dispatcher'",
+     "Google Local Services Ads or Yelp ads running for security",
+     "After-hours test call hits voicemail rather than a monitoring-center handoff"
+    ],
+    "disqualifiers": [
+     "Authorized dealers of ADT, Vivint, Brinks, SimpliSafe (brand controls marketing)",
+     "Over 50 employees or multi-state",
+     "Pure commercial, fire or enterprise integrators (RFP sales cycles)",
+     "No website or no residential offering"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "President",
+     "General Manager",
+     "Sales Manager",
+     "Operations Manager",
+     "Director of Residential Sales"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Technical, trust-obsessed founders (often ex-technician or ex-law-enforcement) who sell against national brands on 'we are local and we answer the phone' and are embarrassed when shown they do not; they want concrete, no-hype proof and dislike agencies that talk in buzzwords.",
+    "find_them_queries": [
+     "home security company {city} -adt -vivint -brinks",
+     "alarm company {city} \"locally owned\"",
+     "security camera installation {city} residential",
+     "\"{city}\" security systems \"free quote\" \"monitoring\"",
+     "burglar alarm installer {city}",
+     "smart home security installer {city}"
+    ],
+    "size_sweet_spot": "5\u201330 employees, 1\u20132 offices, residential plus light commercial mix, own monitoring accounts (RMR base), $1M\u2013$8M revenue."
+   },
+   {
+    "niche": "IT / MSP services",
+    "aliases": [
+     "managed service provider",
+     "IT support company",
+     "IT consulting",
+     "computer support",
+     "cybersecurity services (SMB)"
+    ],
+    "segment": "skip",
+    "fit_score": 2,
+    "why": "Skip: B2B with 90-day to 12-month relationship-driven sales cycles (vendor cost-per-lead benchmarks $385\u2013$617), inbound phone calls are helpdesk tickets from existing clients rather than new business, and MSPs are sophisticated tech buyers who often sell 'AI' themselves and would rather build voice AI than buy it. The only angle is GEO for 'best IT support company in {city}', which is not enough on its own; treat MSPs as potential referral partners (they sell phone systems), not clients.",
+    "primary_pains": [
+     "Low visibility in AI answers for local IT support",
+     "Slow follow-up on inbound inquiries (rare)"
+    ],
+    "best_entry_offer": "Free GEO audit",
+    "need_signals": [
+     "Only if the MSP has a residential/break-fix storefront with phone-driven walk-in demand (then it behaves like a repair shop)"
+    ],
+    "disqualifiers": [
+     "Pure B2B managed services",
+     "Channel-partner marketing (Pax8, ConnectWise programs)",
+     "Sells VoIP or AI products themselves"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "President",
+     "CEO",
+     "Director of Sales"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Technical skeptics who dissect vendor claims, prefer peer referrals and long evaluations, and view marketing agencies as unsophisticated.",
+    "find_them_queries": [
+     "managed IT services {city}",
+     "IT support company {city} small business",
+     "computer repair shop {city} \"walk-in\"",
+     "cybersecurity services {city} small business"
+    ],
+    "size_sweet_spot": "None as a client niche; consider as referral partners."
+   },
+   {
+    "niche": "printing / sign shops",
+    "aliases": [
+     "sign shop",
+     "sign company",
+     "vehicle wraps",
+     "print shop",
+     "commercial printer",
+     "wide-format printing",
+     "banner printing"
+    ],
+    "segment": "extend",
+    "fit_score": 3,
+    "why": "Quote-driven and leaky: Carl Gerhardt (Printing Impressions) phone-shopped print shops and found only about 2 in 10 captured his name and number and almost none followed up, and wide-format buyers routinely send identical quote requests to several shops, so the first complete, followed-up quote wins. Signs, wraps and commercial signage carry $500\u2013$20,000 tickets, which justifies the system; copy-shop work does not. Owners are on the production floor, so phone and form inquiries pile up. A clear speed-to-lead fit; voice AI is secondary because callers often need to describe a job.",
+    "primary_pains": [
+     "Quote requests answered a day later or never",
+     "Callers' names and numbers not captured, so no follow-up ever happens",
+     "Sign and wrap inquiries lost while the owner is running the printer or installing",
+     "Open quotes never chased",
+     "Not named when a business owner asks ChatGPT for a sign company in {city}"
+    ],
+    "best_entry_offer": "Speed-to-lead automation",
+    "need_signals": [
+     "'Request a quote' form with no instant acknowledgment or scheduling",
+     "Services page emphasizes vehicle wraps, storefront signs, trade-show displays (higher ticket)",
+     "Reviews mentioning 'slow to quote', 'had to follow up', or praising a competitor's responsiveness",
+     "3\u201315 employees visible on LinkedIn/team page, 1 location",
+     "Job posts for 'customer service rep', 'estimator', 'sales'",
+     "Daytime test call reaches voicemail or a production-floor pickup with no capture",
+     "Independent name (not a franchise)"
+    ],
+    "disqualifiers": [
+     "Franchise: FASTSIGNS, Signarama, Image360, Minuteman Press, AlphaGraphics, Sir Speedy, PIP, Allegra, PostNet",
+     "Online-only print platforms",
+     "Copy/quick-print shops under $300K revenue",
+     "Commercial printers over 50 staff with a sales team"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "President",
+     "General Manager",
+     "Sales Manager",
+     "Production Manager",
+     "Estimator"
+    ],
+    "email_reachability": "high",
+    "typical_owner_attitude": "Craft- and production-minded, busy on the floor, competing on price in a crowded market and somewhat jaded about marketing, but they recognize 'quotes we never followed up on' instantly; be direct, practical and show their own quote-lag evidence.",
+    "find_them_queries": [
+     "sign company {city} -fastsigns -signarama -image360",
+     "vehicle wraps {city}",
+     "commercial signage {city} \"request a quote\"",
+     "wide format printing {city} \"locally owned\"",
+     "custom banners and signs {city}",
+     "\"{city}\" sign shop \"family owned\""
+    ],
+    "size_sweet_spot": "3\u201315 employees, 1 location, $500K\u2013$3M revenue, doing signs, wraps or wide-format (not just copies)."
+   },
+   {
+    "niche": "florists",
+    "aliases": [
+     "flower shop",
+     "florist",
+     "wedding florist",
+     "event florist",
+     "floral design studio"
+    ],
+    "segment": "skip",
+    "fit_score": 2,
+    "why": "Skip for now: phone orders still matter (a SAF Mother's Day survey put phone at ~45% of holiday orders), but shops run on thin margins, 16\u201330% of sales flow through FTD/Teleflora wire services that already provide order-taking and websites, volume spikes only around Valentine's and Mother's Day, and AOV is $60\u2013$120, so a monthly system does not pencil. The exception is a high-volume shop with wedding, event and corporate accounts ($750K+), which belongs under wedding vendors.",
+    "primary_pains": [
+     "Holiday order calls missed at peak",
+     "Wedding and event inquiries answered slowly"
+    ],
+    "best_entry_offer": "Voice AI live demo",
+    "need_signals": [
+     "Wedding/event/corporate pages with quote forms and $750K+ revenue signals (staff of 6+, delivery vans)",
+     "Reviews mentioning busy phones on holidays"
+    ],
+    "disqualifiers": [
+     "Wire-service-dependent retail shop",
+     "Under $500K revenue",
+     "Solo designer or home studio",
+     "Supermarket or chain floral"
+    ],
+    "decision_maker_titles": [
+     "Owner",
+     "Owner/Designer",
+     "Shop Manager",
+     "Events Manager"
+    ],
+    "email_reachability": "medium",
+    "typical_owner_attitude": "Artistic, cash-tight, seasonal operators who are friendly but spend on product and delivery rather than systems.",
+    "find_them_queries": [
+     "florist {city} -\"1-800-flowers\" -ftd",
+     "wedding florist {city}",
+     "event floral design {city} corporate",
+     "flower shop {city} \"family owned\""
+    ],
+    "size_sweet_spot": "Only event/wedding florists with 6+ staff and $750K+ revenue, handled under wedding vendors."
+   }
+  ],
+  "niche_decision_rule": "Ask three yes/no questions about any niche. (1) Does money arrive from a stranger by phone call or inquiry form, with a ticket of $300+ or a recurring lifetime value of $1,000+? (2) Is the person who should answer usually busy with their hands on the work (bay, roof, kennel, classroom, event, crawlspace), or is the desk unstaffed evenings and weekends? (3) Would a buyer plausibly ask ChatGPT or Perplexity for \"best [niche] near {city}\" or \"[niche] cost in {city}\"? Three yes = chase it (core if E4L has a template or client, otherwise extend at fit 4). Two yes = extend at fit 3: test a batch of 10 leads before adding a template. One or zero = skip. Hard skips regardless of score: revenue is walk-in or drive-in, tickets under $100, franchise- or REIT-dominated (25+ locations), buyer is a committee or B2B with a sales cycle over 60 days, or the business has no website or no published phone number. For ecommerce specifically, apply the same test to the individual store: publishes a phone number, AOV $150+, not marketplace-only = extend; otherwise skip."
+ }
+]

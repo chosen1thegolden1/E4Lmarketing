@@ -1,0 +1,473 @@
+{
+ "fields": [
+  {
+   "field": "Legal entity name, DBA(s), entity status, and registered officers (the anchor record)",
+   "why_it_matters_for_outreach": "Proves the bot is researching the right company (not a same-name shop two states away), gives the formal officer list that settles who actually owns it, flags dead/suspended entities before anyone spends a call on them, and supplies the exact legal name GHL and later invoicing will use. Every other field hangs off this anchor.",
+   "public_sources": [
+    "State Secretary of State / Division of Corporations entity search (CA bizfileonline.sos.ca.gov; TX Comptroller Taxable Entity Search (free) + SOSDirect; FL sunbiz.org; GA ecorp.sos.ga.gov; NJ njportal.com/DOR/BusinessNameSearch; PA file.dos.pa.gov; AZ ecorp.azcc.gov; NY apps.dos.ny.gov/publicInquiry; IL apps.ilsos.gov/businessentitysearch)",
+    "OpenCorporates.com (free aggregator; links back to the state record)",
+    "County fictitious-business-name / DBA index (e.g., LA County Registrar-Recorder FBN search)",
+    "BBB profile 'Alternate Business Name' and 'Incorporated' lines",
+    "Website footer, Terms, Privacy page (legal name, 'a DBA of', license number)",
+    "State contractor/professional license lookup (shows entity name, DBA, entity type)"
+   ],
+   "search_tactics": [
+    "Search the SOS by the exact footer/legal name first, then by the single most distinctive word in the name plus the city",
+    "site:opencorporates.com \"{BIZ}\" {STATE}",
+    "\"{BIZ}\" (\"LLC\" OR \"Inc\" OR \"Corp\" OR \"Co.\") {CITY} {STATE}",
+    "\"{BIZ}\" (\"DBA\" OR \"doing business as\" OR \"d/b/a\") {STATE}",
+    "Open /terms, /privacy and the footer of the website and grep for 'LLC', 'Inc', 'license', '#'",
+    "On the license lookup read the 'DBA' / 'Business Name' / 'Entity Type' fields",
+    "Record: entity type, formation date, status (active / suspended / forfeited / dissolved), officers or managers with titles, registered agent (ignore agent services such as Northwest, LegalZoom, CT Corporation, Registered Agents Inc.), principal and mailing address"
+   ],
+   "verification_rule": "CONFIRMED when the SOS record's principal/mailing address or registered-agent address matches the website/GBP address, OR an officer name on the record matches a name on the business's own website or social. Otherwise LIKELY. A suspended/forfeited/dissolved status is a DISQUALIFY flag for Rozel. Formation date is the entity date, not necessarily the founding date: store both in separate cells."
+  },
+  {
+   "field": "Owner / decision-maker full name (plus partners, with one marked PRIMARY)",
+   "why_it_matters_for_outreach": "Email to 'Owner' or info@ gets ignored; a correctly spelled first name in the subject line and a last name for the call ('is Mike Delgado in?') are the single biggest lift in reply and connect rates. It is also the key needed to find LinkedIn, interviews and background.",
+   "public_sources": [
+    "Business website: /about, /our-story, /team, /meet-the-owner, footer, license number",
+    "schema.org JSON-LD in the site HTML (LocalBusiness 'founder', 'employee', Person 'name')",
+    "State SOS officer/manager list",
+    "State license boards: CSLB (CA), TDLR (TX), DBPR (FL), AZ ROC, GA SOS Professional Licensing, NJ Division of Consumer Affairs HIC, PA Attorney General HIC registry; dental/medical/vet boards; state bar lookup; DRE (CA) / TREC (TX) for real estate",
+    "BBB profile: 'Business Management' and 'Principal Contacts'",
+    "Yelp business page owner/history section (shows owner first name + last initial and title, e.g. 'Mike D., Business Owner', when the owner filled it in)",
+    "Google Business Profile: signed 'Response from the owner' replies and the 'From the business' description",
+    "Facebook page About and posts signed with a name",
+    "Angi / HomeAdvisor ('Owner: Name'), Houzz pro profile, Thumbtack",
+    "Chamber of Commerce member directories; local news features and award pages",
+    "LinkedIn public profiles via Google and Bing X-ray (search-engine snippet and logged-out view only)"
+   ],
+   "search_tactics": [
+    "site:{DOMAIN} (owner OR founder OR \"our story\" OR \"meet the\" OR \"about us\")",
+    "Fetch the raw HTML of the home and about pages and grep for \"@type\":\"Person\", \"founder\", \"author\", \"name\"",
+    "\"{BIZ}\" owner {CITY}",
+    "\"{BIZ}\" (founder OR \"owned and operated\" OR \"family owned\" OR \"owner-operated\") {CITY}",
+    "\"{BIZ}\" \"owner\" (site:yelp.com OR site:bbb.org OR site:angi.com OR site:houzz.com OR site:thumbtack.com)",
+    "site:linkedin.com/in \"{BIZ}\"  (run on Google AND on bing.com; Bing indexes more public LinkedIn profiles and shows headline + location in the snippet)",
+    "site:linkedin.com/in (\"owner\" OR \"founder\" OR \"president\" OR \"CEO\") \"{BIZ}\" {CITY}",
+    "\"{BIZ}\" {CITY} (interview OR profile OR spotlight OR \"meet the owner\") -site:{DOMAIN}",
+    "site:facebook.com \"{BIZ}\" {CITY}  then read About + the 10 latest posts for a signature or first-person voice",
+    "For trades: find the license number on the site/truck photos, then look it up on the board and read 'Personnel' / 'Qualifying Individual' / 'RMO'",
+    "For dental, med spa, vet, law, real estate: search the state board/bar/DRE by business name to get the licensee of record"
+   ],
+   "verification_rule": "CONFIRMED = the full name appears in two independent sources and at least one is a government record (SOS/license) or a business-controlled page (own site, GBP reply, FB page, Yelp owner section). LIKELY = one credible source only. If Yelp or GBP gives only 'Mike D.', pair it with SOS/license to complete the surname and keep it LIKELY until two sources agree. Record every owner/partner found, mark PRIMARY the one who signs posts and replies. Never resolve a name by guessing from an email handle, a surname in the business name, or a photo."
+  },
+  {
+   "field": "Role / title, and owner-operator vs. hired manager vs. absentee owner",
+   "why_it_matters_for_outreach": "Decides who to pitch and the angle: an owner-operator buys on 'I am missing calls while I am on a roof'; a GM or office manager needs a demo they can forward upward. It also predicts whether the person who answers the main line can say yes.",
+   "public_sources": [
+    "SOS officer titles (CEO / President / Managing Member / Sole Proprietor vs. 'Manager' only)",
+    "License board qualifier type (RMO / qualifying partner usually = owner; RME = employee qualifier)",
+    "LinkedIn headline and current position (public snippet)",
+    "Website bio, BBB title, Yelp 'Business Owner' vs. 'Manager' label",
+    "Who signs review replies ('- Mike, Owner' vs. 'Customer Care Team')",
+    "Website /locations and /franchise pages; GBP listing count; footer 'independently owned and operated franchise'",
+    "Facebook About 'Founded by'"
+   ],
+   "search_tactics": [
+    "site:{DOMAIN} (franchise OR franchising OR \"locations\" OR \"independently owned\")",
+    "\"{BIZ}\" franchise  (a brand with a /franchising page or 25+ locations is OUT per the existing filter)",
+    "\"{FIRST} {LAST}\" (\"owner\" OR \"president\" OR \"founder\" OR \"CEO\" OR \"general manager\") \"{BIZ}\"",
+    "site:linkedin.com/in \"{BIZ}\" (\"general manager\" OR \"office manager\" OR \"operations\" OR \"practice manager\")",
+    "Search Google Maps for the exact business name and count distinct listings; note multi-location",
+    "For medical/dental: the state board record shows whether the licensee is the practice owner or an associate"
+   ],
+   "verification_rule": "Owner-operator CONFIRMED when a government record names the person as officer/qualifier AND one public profile uses an owner title, or when two independent business profiles agree. Hired manager CONFIRMED when the person's own stated title is non-owner and a different name holds the officer/qualifier record. One source only = LIKELY. 'Hands-on vs. absentee' is OBSERVED, based on who signs posts and replies, and must cite the URL."
+  },
+  {
+   "field": "Direct email, classified as personal vs. generic/role inbox vs. free-mail",
+   "why_it_matters_for_outreach": "Deliverability and reply rate. firstname@ reaches the decision-maker; info@/office@ reaches a gatekeeper and needs gatekeeper-friendly copy; a bounced address hurts E4L's sending domain reputation in GHL. Blank beats guessed.",
+   "public_sources": [
+    "Website Contact / About / Team / footer pages and mailto: links in the raw HTML (including hidden header/footer and Request-a-Quote pages)",
+    "schema.org JSON-LD 'email' property on the site",
+    "PDFs and brochures hosted on the site",
+    "Facebook page About -> Contact info",
+    "Yelp business info section; BBB profile (sometimes lists an email); Chamber of Commerce member directory",
+    "Angi / Houzz / Thumbtack pro profiles; press releases ('Media contact:'); award and sponsor listings",
+    "Wayback Machine copies of the Contact page (only to locate an address that can be re-verified on a current source)",
+    "Hunter.io / Apollo / RocketReach ONLY as pointers to a source URL that the bot then opens; the tool's own 'confidence' or pattern output is never accepted by itself",
+    "Public DNS MX lookup on the domain (confirms the domain accepts mail; not a mailbox check)"
+   ],
+   "search_tactics": [
+    "Fetch raw HTML of /, /contact, /about, /team, /careers and grep for mailto: and @{DOMAIN}",
+    "site:{DOMAIN} \"@{DOMAIN}\"",
+    "\"@{DOMAIN}\" -site:{DOMAIN}   (surfaces the address on directories, PDFs, press)",
+    "site:{DOMAIN} filetype:pdf",
+    "\"{FIRST}\" \"@{DOMAIN}\"  and  \"{FIRST} {LAST}\" \"{DOMAIN}\"",
+    "\"{BIZ}\" {CITY} (site:bbb.org OR site:chamberofcommerce.com OR site:*chamber*.com OR site:angi.com)",
+    "site:facebook.com \"{BIZ}\" \"{DOMAIN}\"",
+    "web.archive.org/web/*/{DOMAIN}/contact* -> if an older page shows firstname@{DOMAIN}, re-find it on a current public page before using",
+    "Classify: generic/role = info@, office@, contact@, hello@, sales@, service@, dispatch@, admin@, frontdesk@, team@, scheduling@; personal = firstname@, first.last@, flast@, firstnamelastname@; free-mail-as-business = name@gmail.com / yahoo / aol / icloud (common in trades; valid, but flag higher spam-filter risk)",
+    "Run an MX lookup (e.g. dig MX {DOMAIN} via public DNS) and record 'MX present yes/no'"
+   ],
+   "verification_rule": "CONFIRMED = the exact address is visible today on a business-controlled page (own website, FB About, Yelp, GBP) or a government record, AND the domain has an MX record; store the URL and capture date in the adjacent provenance cell. LIKELY = visible only on a third-party directory (BBB, Chamber, Angi, press) dated within 2 years. UNVERIFIED (never sent to) = only from an enrichment tool without an opened source URL, or any pattern-derived address. If nothing is found: leave blank, write 'form-only' in the channel cell and recommend call-first. Note for the builder: this is stricter than the parked rule in /home/user/E4Lmarketing/voice-ai-demo-builder/src/leads/hunter.js (accepts Hunter confidence >= 60), which can admit pattern-inferred addresses."
+  },
+  {
+   "field": "Phone numbers: main line, owner-direct/mobile (if published), and call-tracking detection",
+   "why_it_matters_for_outreach": "Phone-driven businesses buy an AI receptionist the moment they experience their own missed call. The main line is what Sam dials; a published owner-direct number lets Chosen bypass the gatekeeper. Line type also decides what is legally permitted (no automated, AI-voice, or text contact to a cell without consent).",
+   "public_sources": [
+    "Website header/footer/contact page (tel: links); 'call or text' wording",
+    "Google Business Profile phone; Yelp; Facebook About; BBB",
+    "State license record (CSLB and most boards show the business phone)",
+    "Angi / Thumbtack / Houzz profiles; Craigslist service ads",
+    "Truck-wrap, yard-sign and storefront photos on GBP, Yelp, Instagram",
+    "Owner review replies ('call me directly at ...'); Facebook posts ('text me at ...'); About page ('Mike's cell')"
+   ],
+   "search_tactics": [
+    "Fetch raw HTML and grep tel: links and 10-digit patterns; reload the page twice and compare numbers (a number that changes = dynamic call-tracking via CallRail/CTM/WhatConverts -> record 'uses call tracking', a buying signal: they already measure calls)",
+    "\"{BIZ}\" {CITY} phone",
+    "\"{BIZ}\" (\"call or text\" OR \"text us\" OR \"cell\" OR \"direct line\" OR \"mobile\")",
+    "\"{FIRST} {LAST}\" \"{BIZ}\" (cell OR direct OR mobile OR \"call me\")",
+    "site:craigslist.org \"{BIZ}\"",
+    "site:facebook.com \"{BIZ}\" (\"call me\" OR \"text me\" OR \"my cell\")",
+    "Compare GBP number vs. website number vs. license-record number; record each with its source",
+    "Do NOT infer mobile vs. landline from area code or prefix. If E4L's GHL/Twilio Lookup line-type check is available, record its result as 'line type per lookup' with the date; otherwise leave line type blank"
+   ],
+   "verification_rule": "Main line CONFIRMED when the same number appears on two business-controlled sources (website + GBP/Yelp/FB) or website + license record. Owner-direct CONFIRMED only when the source text explicitly ties the number to the named owner (quote the line and URL). Any number described as cell / text / 'call me' / 'mobile' is flagged CELL = manual human dial only, no SMS, no AI voice, no autodialer, until written consent exists. Never record a number from a people-search site or a residential listing."
+  },
+  {
+   "field": "LinkedIn profile URL (owner) and company page",
+   "why_it_matters_for_outreach": "Third touch channel, and the owner's headline/About section shows the exact words they use to describe themselves (the words to mirror). Work history reveals sophistication; recent posts give fresh openers; company-page follower count hints at marketing effort.",
+   "public_sources": [
+    "Google and Bing X-ray of linkedin.com/in and linkedin.com/company (search snippet + logged-out public view only)",
+    "LinkedIn icon href in the website footer or Facebook About (authoritative)",
+    "Speaker bios, Chamber directories, press quotes that link the profile"
+   ],
+   "search_tactics": [
+    "site:linkedin.com/in \"{FIRST} {LAST}\" \"{BIZ}\"",
+    "site:linkedin.com/in \"{FIRST} {LAST}\" {CITY} {STATE}",
+    "site:linkedin.com/in \"{FIRST} {LAST}\" (owner OR founder OR president) ({NICHE} OR {NICHE_SYNONYM})",
+    "site:linkedin.com/company \"{BIZ}\"",
+    "Run the same three queries on bing.com; Bing returns headline and location for more public profiles",
+    "\"{FIRST} {LAST}\" \"{BIZ}\" linkedin",
+    "Fetch raw HTML of the website and grep for linkedin.com/in or linkedin.com/company hrefs",
+    "Disambiguate by city + company + niche + a human-eye consistency check of the profile photo against the website photo (no face-matching tools). Record the vanity URL exactly (linkedin.com/in/first-last-1a2b3c)"
+   ],
+   "verification_rule": "CONFIRMED when the profile's current position names the business (or the website/FB links to that profile) AND the location matches the business metro. LIKELY when name + metro + niche match but the company name is absent or abbreviated. Only search-snippet and logged-out content is used; the bot never logs in, never uses Sales Navigator, never exports or scrapes. Chosen opens the profile himself when he reaches out."
+  },
+  {
+   "field": "Other social accounts and activity level (Facebook, Instagram, TikTok, YouTube, Nextdoor, X)",
+   "why_it_matters_for_outreach": "Shows whether anyone is actively marketing, which channel the owner personally runs (the truest mirror of their voice), and gives dated openers ('saw the kitchen reveal you posted Tuesday'). Dead accounts mean marketing is nobody's job, which is a classic E4L fit.",
+   "public_sources": [
+    "Website social icons (authoritative); GBP social profile links; Yelp business info",
+    "Facebook page About and Page Transparency box; Instagram bio and link-in-bio (linktr.ee, beacons)",
+    "YouTube channel About; TikTok profile; Nextdoor public business page; X/Twitter profile"
+   ],
+   "search_tactics": [
+    "Fetch raw HTML and grep hrefs for facebook.com, instagram.com, tiktok.com, youtube.com, x.com, twitter.com, nextdoor.com, linktr.ee",
+    "site:facebook.com \"{BIZ}\" {CITY}",
+    "site:instagram.com \"{BIZ}\"   and   site:instagram.com \"{CITY}\" {NICHE} \"{BIZ}\"",
+    "site:tiktok.com \"{BIZ}\"",
+    "site:youtube.com \"{BIZ}\"",
+    "site:nextdoor.com/pages \"{BIZ}\"",
+    "\"{BIZ}\" (instagram OR facebook OR tiktok) {CITY}",
+    "Per channel record: URL/handle, follower count as displayed, date of last post, posts in last 90 days, content type (job photos / promos / hiring / community / owner on camera), and owner-run vs. agency-run (first person + phone photos vs. stock imagery + hashtag blocks + scheduler footprints)"
+   ],
+   "verification_rule": "CONFIRMED when linked from the website/GBP or when the account shows the same phone, address or logo. LIKELY when only name and city match. Counts and dates are OBSERVED 'as of' the capture date; store the date."
+  },
+  {
+   "field": "Years in business, founding year, and founding story",
+   "why_it_matters_for_outreach": "'Congrats on 22 years' is a safe, warm opener and anniversaries are timely hooks. A long-tenured owner cares about reputation and legacy; a two-year-old shop cares about growth and cash. A gap between claimed and official dates can reveal a reorganization or a recent ownership change (a different pitch).",
+   "public_sources": [
+    "Website About ('since 1998', 'three generations'); schema.org 'foundingDate'",
+    "SOS formation date; license board original issue date",
+    "BBB 'Business Started', 'Incorporated', 'Accredited Since'",
+    "Yelp 'Established in YYYY'; Facebook Page Transparency creation date and About 'Founded'",
+    "GBP 'X+ years in business' badge when displayed; Angi 'In business since'",
+    "ICANN registration lookup (lookup.icann.org) domain creation date (public even when the registrant is redacted)",
+    "Wayback Machine (web.archive.org/web/*/{DOMAIN}) first capture and oldest About page",
+    "Local news ('celebrates 25 years'), anniversary posts, podcasts/interviews"
+   ],
+   "search_tactics": [
+    "\"{BIZ}\" (\"since 19\" OR \"since 20\" OR founded OR established OR \"years in business\" OR anniversary)",
+    "site:{DOMAIN} (since OR founded OR established OR \"years\")",
+    "site:facebook.com \"{BIZ}\" (anniversary OR \"years ago\" OR \"started\" OR \"back in\")",
+    "\"{BIZ}\" {CITY} (history OR \"our story\" OR \"how it started\" OR \"humble beginnings\")",
+    "\"{FIRST} {LAST}\" \"{BIZ}\" (started OR founded OR \"took over\" OR \"bought the business\" OR \"second generation\")",
+    "Open web.archive.org/web/2005*/{DOMAIN} (and 2010*, 2015*) and read the oldest About page",
+    "lookup.icann.org -> 'Registration date' for {DOMAIN}",
+    "License board -> 'Original issue date' / 'First licensed'"
+   ],
+   "verification_rule": "Founding year CONFIRMED when the website claim is within 2 years of a government, license or BBB date. If sources disagree by more than 2 years, store both with sources, label CONFLICT, and add a one-line hypothesis (sole prop -> LLC, ownership change, acquisition). Story elements are quoted verbatim with URL; never embellish or invent detail."
+  },
+  {
+   "field": "Owner background: prior career, military service, family business, trade school / apprenticeship, certifications",
+   "why_it_matters_for_outreach": "Lets Chosen speak their language: a former dispatcher cares about speed-to-lead, a second-generation owner cares about the family name, a veteran usually appreciates directness, an engineer wants specifics, a tradesperson wants a demo number to call. It also tells you how they will judge the word 'AI'.",
+   "public_sources": [
+    "Website bio / About; LinkedIn Experience and Education (search snippet or logged-out view)",
+    "Podcast and YouTube interviews; local news profiles; Chamber / BNI / Rotary member bios; speaker bios",
+    "Self-declared badges: 'veteran-owned', 'family-owned', 'woman-owned' on the site, GBP attributes, Yelp attributes",
+    "Trade school / community college alumni spotlights; union local mentions (IBEW, UA, SMART)",
+    "Manufacturer certified-dealer pages (GAF Master Elite, Owens Corning Preferred, Carrier, Lennox, Trane Comfort Specialist) that carry bios",
+    "Professional certifications (NATE, EPA 608, ABO, state board specialties)"
+   ],
+   "search_tactics": [
+    "\"{FIRST} {LAST}\" \"{BIZ}\" (veteran OR \"served in\" OR Marine OR Navy OR Army OR \"Air Force\" OR \"Coast Guard\")",
+    "\"{FIRST} {LAST}\" (apprentice OR journeyman OR \"master plumber\" OR \"master electrician\" OR \"trade school\" OR \"technical college\")",
+    "\"{BIZ}\" (\"family owned\" OR \"second generation\" OR \"third generation\" OR \"& Sons\" OR \"my father\" OR \"my dad\")",
+    "\"{FIRST} {LAST}\" (podcast OR interview OR episode OR guest)",
+    "site:podcasts.apple.com \"{FIRST} {LAST}\"   /   site:open.spotify.com \"{FIRST} {LAST}\"   /   site:youtube.com \"{FIRST} {LAST}\" {NICHE}",
+    "\"{FIRST} {LAST}\" {CITY} (\"before starting\" OR previously OR career OR \"left corporate\" OR \"worked for\")",
+    "\"{BIZ}\" (GAF OR \"Master Elite\" OR Carrier OR Lennox OR Trane OR \"Owens Corning\") dealer",
+    "site:linkedin.com/in \"{FIRST} {LAST}\" {CITY}  -> read the snippet's headline and past roles only"
+   ],
+   "verification_rule": "CONFIRMED when self-stated by the owner or the business (own site, own LinkedIn, own words in an interview). LIKELY when stated by a third party (news, award page, manufacturer page). Nothing is inferred from a name, surname, photo or accent; record only what the person has published about their professional life. Military service is recorded only when they publish it (e.g. 'veteran-owned')."
+  },
+  {
+   "field": "Personality, values and voice cues: how they write, what they brag about, community involvement, awards, media appearances",
+   "why_it_matters_for_outreach": "The email should sound like something the owner would say. A terse 'licensed, bonded, insured, no nonsense' owner gets three short lines; a 'we treat you like family' owner gets a warmer open. Awards and sponsorships are the safest compliments available, and media appearances show they like talking about the business.",
+   "public_sources": [
+    "Website home/About copy (taglines and bragging points: licensed-bonded-insured, 24/7, same-day, no subcontractors, A+ BBB, 5-star, honest pricing, women-owned, veteran-owned)",
+    "Facebook / Instagram captions (emoji, humor, crew shout-outs, pride in craftsmanship); YouTube/TikTok videos where the owner speaks",
+    "Review replies; Google Q&A answers",
+    "Award pages: 'Best of {CITY}', readers' choice, Angi Super Service, Nextdoor Neighborhood Fave, BBB Torch, Houzz Best of, local business journal lists",
+    "Sponsorships: Little League, school fundraisers, 5K runs, food drives, first-responder discounts",
+    "Chamber / Rotary / BNI member pages; podcasts and local TV segments",
+    "Hiring posts (how they describe their culture)"
+   ],
+   "search_tactics": [
+    "site:facebook.com \"{BIZ}\"  -> read the 10 most recent posts and the 5 most-commented; copy 3 verbatim lines that show voice",
+    "\"{BIZ}\" (award OR \"best of\" OR winner OR \"readers' choice\" OR \"top rated\" OR honored) {CITY}",
+    "\"{BIZ}\" (\"proud sponsor\" OR sponsor OR sponsors OR sponsored) {CITY}",
+    "\"{BIZ}\" (fundraiser OR charity OR donated OR \"giving back\" OR \"food drive\" OR \"toy drive\")",
+    "\"{BIZ}\" (podcast OR interview OR \"featured in\" OR \"as seen on\")",
+    "\"{FIRST} {LAST}\" \"{BIZ}\" (says OR said OR quote)",
+    "site:youtube.com \"{BIZ}\"   /   site:tiktok.com \"{BIZ}\"",
+    "\"{BIZ}\" (chamber OR rotary OR BNI OR \"networking\") {CITY}",
+    "Output: 3 verbatim voice lines with URLs; one tone label (terse / warm / salesy / technical / faith-forward-brand / humorous); 3 bragging points; up to 3 awards or community items with year and URL"
+   ],
+   "verification_rule": "These are OBSERVED, never CONFIRMED facts: every cue must be a verbatim quote or a dated URL. An award is CONFIRMED only if the awarding organization's page, or the business's own page naming the award and year, is found. Do not record politics, religion (beyond a brand-level statement the business itself makes, e.g. 'faith-based business'), family details, or anything about health or personal life."
+  },
+  {
+   "field": "Review profile and how the owner responds to reviews (including phone-related pain evidence)",
+   "why_it_matters_for_outreach": "Review replies are the owner's unguarded voice and a direct window into pain: 'sorry we missed your call', 'we were slammed', 'it went to voicemail' is E4L's exact pitch. Response rate and tone predict how they treat vendors: defensive repliers need a soft, evidence-first approach; silent owners usually need a phone call, not an email.",
+   "public_sources": [
+    "Google Business Profile reviews and 'Response from the owner'",
+    "Yelp reviews and owner replies (show name/initial + title)",
+    "Facebook Recommendations",
+    "BBB complaints and company responses (public, dated)",
+    "Vertical sites: Angi / HomeAdvisor (trades); Healthgrades / Zocdoc / RealSelf (dental, med spa); Avvo (law); Zillow / Realtor.com (real estate); DealerRater / Cars.com (auto); OpenTable / TripAdvisor (restaurants); Rover (pet); Mindbody / ClassPass listings (fitness)"
+   ],
+   "search_tactics": [
+    "Open the GBP and use the in-profile review keyword search for: call, phone, voicemail, answer, \"called back\", \"no response\", \"never heard back\", booked, scheduling, \"got back to me\", \"same day\"; repeat on Yelp review search",
+    "site:yelp.com \"{BIZ}\" {CITY}",
+    "site:bbb.org \"{BIZ}\" {CITY}  -> read the Complaints tab and the company's responses",
+    "\"{BIZ}\" reviews (\"never called\" OR \"no one answered\" OR voicemail OR \"didn't call back\" OR \"couldn't get through\")",
+    "\"{BIZ}\" \"response from the owner\"",
+    "Capture: total reviews, average rating, reviews in the last 90 days (velocity), share of the latest 20 reviews with an owner reply, typical reply lag where dates allow, tone toward 1-2 star reviews (apologetic / defensive / template / silent), who signs replies, and 2 verbatim excerpts that mention phones, follow-up or scheduling, each with URL"
+   ],
+   "verification_rule": "All metrics are OBSERVED with capture date and URL. Phone-pain evidence counts only when quoted verbatim from a public review. In outreach, never quote a negative review back to the owner word-for-word and never name a reviewer; summarize as a pattern ('a couple of reviews mention trouble getting through')."
+  },
+  {
+   "field": "Hiring activity, especially front-office roles (receptionist, CSR, dispatcher, office manager, scheduler)",
+   "why_it_matters_for_outreach": "A business hiring a receptionist, CSR or dispatcher is trying to solve the phone problem with headcount; that is the moment an AI receptionist demo lands. Hiring techs or installers means growth and capacity pressure. A marketing coordinator post means budget exists. Repeated front-office postings mean turnover, i.e. speed-to-lead keeps breaking.",
+   "public_sources": [
+    "Indeed company page and postings; ZipRecruiter; LinkedIn Jobs (public listings); Google Jobs cards",
+    "Craigslist jobs; Facebook / Instagram 'now hiring' posts; website /careers or /jobs",
+    "Glassdoor public job list only (not gated reviews)",
+    "Trade boards: HVAC Agent, PlumbingJobs, DentalPost, iHireVeterinary, Salon job boards"
+   ],
+   "search_tactics": [
+    "site:indeed.com/cmp \"{BIZ}\"",
+    "site:indeed.com \"{BIZ}\" {CITY}",
+    "site:ziprecruiter.com \"{BIZ}\"",
+    "site:linkedin.com/jobs \"{BIZ}\"",
+    "site:craigslist.org \"{BIZ}\" (hiring OR dispatcher OR receptionist OR \"office manager\" OR CSR OR scheduler)",
+    "site:facebook.com \"{BIZ}\" (\"now hiring\" OR \"we're hiring\" OR \"join our team\")",
+    "\"{BIZ}\" {CITY} (\"now hiring\" OR \"job opening\" OR careers) after:{DATE_90_DAYS_AGO}",
+    "site:{DOMAIN} (careers OR jobs OR hiring)",
+    "Record: role title, posting date, platform, URL, front-office yes/no, and count of distinct roles open"
+   ],
+   "verification_rule": "CONFIRMED when the posting is live on the platform with a date within the last 60 days. 'Past signal' when 60-365 days old. Ignore anything older. Always store the URL and the date seen."
+  },
+  {
+   "field": "Recent news, changes and advertising activity (last 90 days)",
+   "why_it_matters_for_outreach": "Timely openers ('saw the new Santa Clarita location') and momentum signals: new location, new fleet, award, acquisition, rebrand, or a new website means they are investing right now. Active paid ads prove they pay for leads they may not be capturing. A brand-new site is the best moment to pitch AI-readable structure and the GEO audit.",
+   "public_sources": [
+    "Google News tab; local papers, Patch, TV station sites; business journals",
+    "PR wires: prnewswire.com, prweb.com, einpresswire.com",
+    "GBP 'Updates' posts; Facebook / Instagram announcements; website blog or news page",
+    "Wayback Machine snapshots (site redesign / rebrand)",
+    "SOS filings (officer changes, new entity); license board status changes",
+    "Meta Ad Library (facebook.com/ads/library, search by page name; public, no login)",
+    "Google Ads Transparency Center (adstransparency.google.com, search by advertiser or domain; public, no login)",
+    "BBB alerts"
+   ],
+   "search_tactics": [
+    "\"{BIZ}\" {CITY} after:{DATE_90_DAYS_AGO}",
+    "\"{BIZ}\" (acquired OR acquires OR merger OR \"new ownership\" OR \"under new ownership\" OR rebrand OR \"formerly\")",
+    "\"{BIZ}\" (\"now open\" OR \"new location\" OR \"second location\" OR expansion OR \"grand opening\")",
+    "\"{BIZ}\" (site:prnewswire.com OR site:prweb.com OR site:einpresswire.com OR site:patch.com)",
+    "\"{BIZ}\" (award OR honored OR named OR \"top\") after:{CURRENT_YEAR}-01-01",
+    "Open web.archive.org/web/{CURRENT_YEAR}*/{DOMAIN} and compare with a snapshot 12 months earlier; note 'redesigned within 12 months' if the layout changed",
+    "Search the Meta Ad Library by page name: note active ads, start dates, and whether the CTA is 'Call now' (phone-driven) or a lead form",
+    "Search Google Ads Transparency Center by {DOMAIN}; note 'active search ads yes/no as of {DATE}'",
+    "Check the GBP Updates tab for the last post date"
+   ],
+   "verification_rule": "CONFIRMED only with a dated public source inside the window; record date and URL. Ad activity is OBSERVED 'as of' the capture date. Ownership/officer changes are taken from SOS filings only, never from rumor or a single review."
+  },
+  {
+   "field": "Attitude toward technology, marketing vendors and the phone (receptiveness read + recommended angle)",
+   "why_it_matters_for_outreach": "Some owners are agency-burned and allergic to 'marketing guys'; some already love tools and will call a demo number instantly; some are proud that 'a real person answers every call' and need the after-hours and missed-call angle rather than the AI angle. Choosing the angle before the first touch protects the one shot you get.",
+   "public_sources": [
+    "Website tech footprint: chat widgets (Podium, Birdeye, Tidio, Intercom), online booking (ServiceTitan, Housecall Pro, Jobber, Zenoti, Vagaro, Boulevard, Mindbody, NexHealth, LocalMed, Calendly, OpenTable), call tracking (CallRail, CTM, WhatConverts), form stacks (GoHighLevel/LeadConnector, HubSpot), analytics/pixels (gtag, fbq), schema (FAQPage, LocalBusiness)",
+    "Website age/quality and mobile usability; robots.txt rules for AI crawlers (GPTBot, ClaudeBot, PerplexityBot)",
+    "GBP: messaging enabled, booking button, hours, '24/7' or 'emergency' claims",
+    "Review replies and posts mentioning answering services, call centers, automation, spam calls, marketing agencies, or 'AI'",
+    "Hiring posts for marketing roles; Meta / Google ad activity; owner-on-camera video",
+    "Manufacturer dealer badges and software partner badges (tech-forward brands)"
+   ],
+   "search_tactics": [
+    "Fetch raw HTML and grep for: podium, birdeye, callrail, ctm, whatconverts, servicetitan, housecallpro, jobber, zenoti, vagaro, boulevard, mindbody, nexhealth, calendly, leadconnector, gohighlevel, hubspot, tidio, intercom, gtag, fbq, \"FAQPage\", \"LocalBusiness\"",
+    "site:{DOMAIN} (\"24/7\" OR \"after hours\" OR emergency OR \"text us\" OR \"book online\" OR \"live chat\")",
+    "\"{BIZ}\" (\"answering service\" OR \"call center\" OR automated OR robot OR \"AI\")  -> read hits in reviews and posts",
+    "site:facebook.com \"{BIZ}\" (marketing OR agency OR SEO OR \"spam calls\" OR solicitors OR \"stop calling\")",
+    "\"{BIZ}\" {CITY} \"AI\"",
+    "Fetch {DOMAIN}/robots.txt and note any Disallow for GPTBot / ClaudeBot / Google-Extended (possible AI skepticism, and a GEO talking point)",
+    "Record: tech stack found; after-hours promise vs. apparent coverage (24/7 claim with 3 staff = gap); agency-burned quotes (verbatim); AI-positive quotes (verbatim); phone-driven score 1-5; one recommended angle: (a) missed-call / speed-to-lead, (b) AI receptionist live demo, (c) GEO / AI-visibility free audit, (d) AI-readable website rebuild, (e) call-first / do not email"
+   ],
+   "verification_rule": "Tech footprint is CONFIRMED when the script or widget is present in the fetched HTML on the capture date. Attitude statements are OBSERVED and must be verbatim quotes with URLs. The recommended angle is a judgment and must list the 2-3 facts it rests on; Rozel can override it."
+  },
+  {
+   "field": "Gatekeeper and second-in-command (office manager, dispatcher, practice manager, GM, spouse-partner)",
+   "why_it_matters_for_outreach": "Sam's cold call reaches this person most of the time; knowing 'Dana, office manager' turns 'is the owner there?' into 'hi Dana, is Mike around this afternoon?'. In dental, med spa, vet and law the office or practice manager often owns the phone process and can champion the demo.",
+   "public_sources": [
+    "Website Team page",
+    "Review replies signed by a non-owner; GBP Q&A answered by staff",
+    "LinkedIn public profiles (X-ray)",
+    "Facebook posts tagging staff ('shout-out to our dispatcher Dana')",
+    "BBB 'Customer Contacts'",
+    "Hiring posts that name who the role reports to"
+   ],
+   "search_tactics": [
+    "site:linkedin.com/in \"{BIZ}\" (\"office manager\" OR dispatcher OR \"customer service\" OR \"operations manager\" OR \"general manager\" OR \"practice manager\" OR \"front desk\")",
+    "site:{DOMAIN} (team OR staff OR \"meet our\")",
+    "site:facebook.com \"{BIZ}\" (\"office manager\" OR dispatcher OR \"front desk\" OR \"shout out\")",
+    "Read the latest 20 review replies for a second signer",
+    "site:bbb.org \"{BIZ}\"  -> Customer Contacts line"
+   ],
+   "verification_rule": "CONFIRMED when the role is stated on the business's own site or social, or on BBB. LIKELY from a LinkedIn snippet alone. Record first name, role and source only; no personal details about staff."
+  },
+  {
+   "field": "Business basics for the sheet: address, locations, hours, service area, headcount band, phone-driven score",
+   "why_it_matters_for_outreach": "These are the qualification sanity checks and the GHL import fields: single location vs. multi, after-hours gap (missed calls), service area, headcount band (1-15 staff is the sweet spot), and whether the business lives on inbound calls. They also flag franchises and chains the existing filter is meant to block.",
+   "public_sources": [
+    "Google Business Profile (address, hours, service area, attributes, photo count, primary CTA)",
+    "Website; SOS address; license record address",
+    "BBB 'Number of Employees'; LinkedIn company page size band; Indeed company page size",
+    "Fleet photos on GBP / Yelp / Instagram (rough crew size)",
+    "Yelp business info"
+   ],
+   "search_tactics": [
+    "\"{BIZ}\" {CITY} (hours OR \"service area\" OR \"serving\" OR \"we serve\")",
+    "site:bbb.org \"{BIZ}\"  -> Number of Employees, Business Started",
+    "site:linkedin.com/company \"{BIZ}\"  -> company size",
+    "site:indeed.com/cmp \"{BIZ}\"  -> size band",
+    "Count trucks/vehicles in GBP photos; count distinct Maps listings for the exact name",
+    "Note whether the GBP primary CTA is 'Call' vs. 'Book online' and whether 'Open 24 hours' is claimed",
+    "Phone-driven score (OBSERVED, 1-5): urgent/emergency service + 'call now' everywhere + no online booking + reviews mention phoning = 5; online-booking-first or ecommerce = 1-2. For ecommerce niches, qualify on inbound phone/chat volume, abandoned-cart follow-up and support-call load, not on local search"
+   ],
+   "verification_rule": "Address and hours CONFIRMED when GBP and website agree; conflicts are flagged. Headcount is a band with its source. Phone-driven score is OBSERVED with the 2-3 facts behind it. 25+ locations or franchise language = DISQUALIFY."
+  },
+  {
+   "field": "Best-moment opener and recommended first touch (channel + time window)",
+   "why_it_matters_for_outreach": "The first line of the email and the first 10 seconds of the call are the only things that get read. The opener must be specific, recent, public, positive and about their business, so it proves a human looked and costs the owner nothing to engage with.",
+   "public_sources": [
+    "Synthesized only from CONFIRMED or OBSERVED items above, ranked: (1) a dated win in the last 90 days (award, anniversary, new location, feature article, big community event); (2) something the owner said themselves (interview, podcast, About page, a review reply); (3) a specific specialty they brag about ('the only GAF Master Elite in Conroe'); (4) a neutral observation about their phone process ('your site says 24/7; curious who picks up after 6'); (5) fallback: niche + city + a real review theme ('your reviews keep mentioning same-day service')"
+   ],
+   "search_tactics": [
+    "Rank candidate openers by recency x specificity x safety; pick one",
+    "Write the opener in Sebastian's voice in 25 words or fewer, then a one-line 'why this works' with the source URL",
+    "Output recommended channel (email / call / LinkedIn) based on: CONFIRMED personal email = email first; form-only or generic inbox = call first; active LinkedIn poster = LinkedIn second touch",
+    "Output best call window in the prospect's local time: trades 7:00-8:30am or 4:00-5:30pm; restaurants 2:00-4:00pm; dental, med spa, salon Tue-Thu 10am-12pm; law 9-11am; real estate 10am-1pm; auto service 10am-12pm; always inside business hours and never outside 8am-9pm local",
+    "If the opener rests on a review theme, phrase it as a pattern and never quote or name a reviewer",
+    "Pair the opener with the recommended angle from the attitude field (missed-call, AI receptionist demo, GEO audit, website, call-first)"
+   ],
+   "verification_rule": "The opener must cite one URL that Rozel can open and verify in under 30 seconds. Freshness: 90 days or less preferred, 12 months allowed, older only for anniversaries and years-in-business. Rejected openers: anything about family, kids, health, religion, politics, lawsuits, liens, a negative review quoted verbatim, or any dollar figure E4L has not measured (only the Scorecard's estimate, labelled as an estimate). No promises of rankings, results or revenue."
+  }
+ ],
+ "ordered_playbook": [
+  "Step 0 (0:00) Inputs and suppression gate: take business name, city/state, website, main phone and niche from the lead-finder stage. Open a new sheet row with a provenance column for every field (source URL + capture date). Check E4L's suppression list (opted-out emails, domains and phones; current clients; existing GHL contacts; the franchise/chain blocklist). Any hit = mark DO-NOT-CONTACT and stop.",
+  "Step 1 (0:00-2:00) Website pass: fetch /, /about, /team, /contact, /services, /careers, /locations, /terms, /privacy, robots.txt and sitemap.xml. Extract JSON-LD (founder, foundingDate, telephone, email, sameAs), mailto: and tel: links, social hrefs, license numbers, 'since YYYY', names and titles, tech-stack scripts, 24/7 and emergency claims, franchise language. Classify the site as email-published or form-only. No website = DISQUALIFY per E4L rules.",
+  "Step 2 (2:00-4:00) Government anchor: state SOS entity search (officers, formation date, status, addresses) and the relevant license board (qualifier name, original issue date, status, DBA). Match an address or a name to the website. Suspended, forfeited or expired = DISQUALIFY flag.",
+  "Step 3 (4:00-6:30) Business profiles: Google Business Profile (description, hours, attributes, Updates tab, photo count, primary CTA, owner replies, review keyword search for call/phone/voicemail/answer/booked), Yelp (owner section, established year, owner replies), BBB (Business Management, Business Started, employees, complaints and responses), Facebook About plus the 10 latest posts. Count Maps listings for the exact name.",
+  "Step 4 (6:30-7:30) Resolve the person: reconcile every name from Steps 1-3 into PRIMARY owner (plus partners), role, owner-operator vs. manager, and the gatekeeper. Assign a confidence label to each with its two best sources. If no name after Steps 1-3, run the LinkedIn/Bing X-ray and the Angi/Houzz/Chamber queries once, then accept NOT FOUND.",
+  "Step 5 (7:30-9:30) Contact channels: email hunt (raw HTML, site:{DOMAIN} \"@{DOMAIN}\", \"@{DOMAIN}\" -site:{DOMAIN}, filetype:pdf, FB About, BBB/Chamber/Angi, Wayback re-verified on a current page, MX lookup) and classify personal vs. generic vs. free-mail; phone sources (website, GBP, license record, Craigslist, truck photos, owner replies) and classify main line vs. owner-direct vs. call-tracking; flag any CELL. Enrichment tools only as pointers to a source URL you then open.",
+  "Step 6 (9:30-11:00) LinkedIn and socials: X-ray on Google and Bing for the owner and company page; verify by company + metro; capture the vanity URL; collect every social handle from the site footer and site: queries; record follower counts, last-post date, 90-day cadence, content type, owner-run vs. agency-run, and 3 verbatim voice lines.",
+  "Step 7 (11:00-13:00) History and background: reconcile founding year across site, SOS, license, BBB, Yelp, Facebook, ICANN registration date and Wayback; label CONFLICT if off by more than 2 years; quote the founding story verbatim; run the background queries (military, family business, trade school, prior career, podcasts/interviews, manufacturer dealer bios) and record only self-stated or clearly third-party-attributed facts.",
+  "Step 8 (13:00-14:30) Signals: hiring (Indeed, ZipRecruiter, LinkedIn Jobs, Craigslist, Facebook, /careers, with after: date filters; flag front-office roles), 90-day news (Google News, PR wires, Patch, awards), ad activity (Meta Ad Library by page name, Google Ads Transparency Center by domain), website redesign check via Wayback, ownership or officer changes via SOS.",
+  "Step 9 (14:30-15:30) Attitude and need read: tech stack from the HTML, after-hours promise vs. apparent coverage, call-tracking present, agency-burned or AI-positive quotes (verbatim), phone-driven score 1-5 with the facts behind it, niche-need check (for extended niches, including ecommerce, state in one line why the business would pay for an AI receptionist, speed-to-lead, or AI search visibility; if you cannot, mark 'weak need' for Rozel), and one recommended angle from the five.",
+  "Step 10 (15:30-16:30) Synthesize: tone label plus 3 voice quotes, 3 bragging points, up to 3 awards/community items, 2 phone-pain review excerpts with URLs, the best-moment opener (25 words or fewer, Sebastian's voice) with its 'why' and URL, recommended channel and local-time call window, gatekeeper line, and a one-line 'why this lead' and 'why not'. Apply disqualifiers: franchise or 25+ locations, no website, closed or suspended, out-of-niche with weak need.",
+  "Step 11 (16:30-17:30) Compliance gate: every cell has a source URL and capture date; CELL flags set and the SMS/AI-voice consent column defaults to 'no consent'; email is CONFIRMED or LIKELY with MX present or it is blank; suppression list re-checked; scan all free-text cells and delete anything about family, health, religion, politics, ethnicity, immigration, lawsuits, liens, finances or personal addresses; no promised results, rankings or revenue anywhere in the opener.",
+  "Step 12 (17:30-18:00) Write the row to the Google Sheet, mark Needs-Review on any CONFLICT, LIKELY-only contact field, or 'weak need' lead, log the queries that returned nothing, and stop. Hard stop at 20 minutes: write what you have with NOT FOUND labels; never pad, never guess. Repeat for the next lead until the daily batch of 10 is filled, then post the batch summary (count by niche, count with CONFIRMED email, count call-first) for Rozel and Chosen."
+ ],
+ "confidence_labels": [
+  {
+   "label": "CONFIRMED",
+   "definition": "Two independent public sources agree, or one government record (SOS, license board, bar, DRE) or one business-controlled page (own website, GBP, Facebook page, Yelp owner section) states it directly. Source URL and capture date are logged and the page was seen within the last 30 days. Safe to use in outreach and to load into GHL."
+  },
+  {
+   "label": "LIKELY",
+   "definition": "One credible public source only (a third-party directory, a news article, a LinkedIn snippet) with no contradicting source. Usable in outreach only with soft wording; contact details at this level are flagged Needs-Review for Rozel before any send."
+  },
+  {
+   "label": "OBSERVED",
+   "definition": "A subjective read (tone, attitude, phone-driven score, activity level, review metrics, recommended angle) backed by a verbatim quote or a dated URL. Never presented as a fact; may change on the next capture."
+  },
+  {
+   "label": "UNVERIFIED",
+   "definition": "Came only from an enrichment tool, an aggregator snippet, or a pattern, with no opened public source showing it. Stored for reference, never used in outreach, never loaded into GHL as a contact channel."
+  },
+  {
+   "label": "CONFLICT",
+   "definition": "Two credible sources disagree (founding year, owner name, phone). Both values and both URLs are stored with a one-line hypothesis; the field is Needs-Review and must not be used in an opener until resolved."
+  },
+  {
+   "label": "NOT FOUND",
+   "definition": "The playbook's searches for this field were run and logged and nothing public was found. The cell stays blank. Blank beats guessed."
+  },
+  {
+   "label": "STALE",
+   "definition": "The only source is more than 18 months old (old news item, archived page, dormant profile). Can inform background but must not be used as a timely opener or as a current contact channel without re-verification."
+  },
+  {
+   "label": "DO-NOT-USE",
+   "definition": "Found but barred: sensitive attribute, personal or home information, paywalled or logged-in data, private group content, a reviewer's identity, a cell number for automated channels without consent, or anything on the suppression list. Recorded only as the reason the lead or channel is blocked."
+  }
+ ],
+ "never_do": [
+  "Never guess or construct an email from a pattern (first@, first.last@, flast@) or accept an enrichment tool's 'confidence' score as proof; an address exists only if the bot opened a public page that shows it.",
+  "Never fabricate, round up, or infer any fact, name, number, date, title or quote. If it is not on a public page with a URL, the cell stays blank.",
+  "Never use paywalled, logged-in or export-only data: no LinkedIn login, Sales Navigator, Recruiter or connection exports; no ZoomInfo, Apollo, Clay, Lusha or RocketReach records without an opened public source; no Nextdoor feed, Glassdoor gated reviews, or Facebook content that requires an account.",
+  "Never scrape or read private or closed groups, DMs, members-only forums, Slack or Discord communities, or private Instagram accounts.",
+  "Never record sensitive attributes: race, ethnicity, national origin, religion (beyond a brand-level statement the business publishes itself), health, disability, sexual orientation, gender identity, age, immigration status, political views, union membership, criminal history, or financial distress (liens, bankruptcies, tax issues, lawsuits, divorces).",
+  "Never infer gender, ethnicity, age or background from a name, surname, photo, voice or accent.",
+  "Never use people-search or background-check sites (Spokeo, BeenVerified, TruePeopleSearch, Whitepages, Intelius, etc.), property records, voter rolls or court records to locate home addresses, relatives, ages or personal phone numbers.",
+  "Never run facial recognition or reverse-image search on a person; photo consistency is a human-eye check only.",
+  "Never pretext: no calls, texts, chats or form submissions pretending to be a customer to extract the owner's name, cell or email, and no fake accounts or sock puppets.",
+  "Never automate LinkedIn, Facebook, Instagram or Yelp actions (auto-connect, auto-DM, auto-follow, bulk profile views) or run scrapers against them; this violates their terms and risks the accounts used for real outreach.",
+  "Never bypass CAPTCHAs, rate limits, robots.txt disallow rules for the bot's own crawling, or IP blocks; back off and mark NOT FOUND.",
+  "Never record family members, children, spouses (beyond a co-owner listed on the business), home addresses, personal social accounts, or personal-life posts.",
+  "Never store a data point without its source URL and capture date, and never carry a value into GHL that lacks provenance.",
+  "Never list a number from a people-search site, a home listing, or a personal profile as a contact channel, and never text, autodial or AI-voice-call any number flagged CELL without documented prior express written consent.",
+  "Never quote a negative review back to the owner verbatim, name a reviewer, or lead with a complaint; summarize patterns only.",
+  "Never put a dollar loss figure, a ranking promise, a revenue promise or a 'guaranteed' result in an opener or note; only the Scorecard's own estimate, labelled as an estimate.",
+  "Never contact anyone on the suppression list, anyone who has opted out on any channel, or any franchise/chain with 25+ locations; never re-add a suppressed contact under a different email or number.",
+  "Never use 'Everybody Eats' in anything client-facing; the tagline is 'AI Marketing Made Easy'.",
+  "Never let time pressure turn a LIKELY or UNVERIFIED item into a CONFIRMED one; downgrade, flag Needs-Review, and move on."
+ ],
+ "legal_and_ethics_notes": [
+  "CAN-SPAM (US commercial email, B2B included): no opt-in is required, but every email must have accurate header and From information that identifies the real sender (a persona such as 'Sebastian, Your AI Guy' is acceptable only alongside the real company name and a monitored reply address), a non-deceptive subject line, a valid physical postal address for Eat 4 Life Marketing, a clear and working unsubscribe that is honored within 10 business days, and no selling or transferring of opted-out addresses. E4L is responsible for what any vendor sends on its behalf. The FTC's current maximum civil penalty is $53,088 per non-compliant email (January 2025 inflation adjustment; adjusted yearly).",
+  "TCPA (calls and texts): texts count as calls. No autodialed, prerecorded, artificial or AI-generated voice calls or texts to a cell phone without prior express consent (prior express written consent for marketing); the FCC's February 2024 ruling treats AI-generated voices as 'artificial' voices. A live human manually dialing a business line is the only cold-call method the bot's output may support; the AI receptionist demo number is something the prospect calls, never an outbound AI call. The FCC's revocation rule in effect since April 11, 2025 requires honoring an opt-out made by any reasonable means (words like stop, quit, unsubscribe) within 10 business days; E4L policy is same day.",
+  "Do Not Call: scrub against the National DNC Registry for any number that may be a personal cell (an owner's cell listed as the business line is ambiguous; treat it as personal). Keep an internal company-specific do-not-call list for 5 years and honor it across every channel. Call only 8am-9pm local time under federal rules; several states are narrower (Florida 8am-8pm) and some states (for example Florida, Oklahoma, Washington, Texas) have mini-TCPA or telemarketer-registration rules, so check the state before Sam dials into a new one.",
+  "Opt-outs are global: an unsubscribe, 'stop', 'remove me', 'do not call', or a reply of 'not interested' on any channel suppresses email, calls, SMS and LinkedIn for that person and that business. Log the date, channel and wording.",
+  "Privacy: the CCPA/CPRA B2B exemption expired January 1, 2023, so business contacts' personal data is covered when a business meets the law's thresholds; regardless of thresholds, keep a source log for every data point, honor deletion or 'what do you have on me' requests, store only what the playbook permits, and do not sell or share the sheet outside E4L.",
+  "Platform terms: LinkedIn, Facebook, Instagram, Yelp and Google prohibit automated scraping and fake accounts. Use search-engine snippets and logged-out public pages only, respect robots.txt, and keep the real human accounts (Chosen, Sebastian, Sam) clean for actual outreach.",
+  "Fair Credit Reporting Act: never use a consumer report, background-check product or credit data for prospecting; the playbook's background field is professional biography only.",
+  "Truth in offers: the 'free demo', 'free AI audit' and 'free Scorecard' must be free with no hidden conditions, and any statement about the prospect's AI visibility ('named in 0 of 28 answers') must come from an actual E4L audit run, dated and reproducible. No promises of rankings, results or revenue in any copy (FTC Act Section 5 and state UDAP laws).",
+  "Respect and proportionality: research the business and the owner's professional, public life only. If a fact would make the owner uncomfortable to learn it was collected (health, family, finances, home), it does not belong on the sheet.",
+  "Record-keeping for defense: keep per-lead provenance (URL + date), the suppression list, consent records (if any SMS/AI-voice consent is ever obtained, keep the exact wording and timestamp), and a copy of every email template with its unsubscribe link for at least 2 years."
+ ],
+ "time_box_advice": "Target 12 minutes of bot time per lead, hard stop at 20; ten leads a day is a 2-3.5 hour run, which fits the small-batch deliverability plan. Prioritize in this order and stop early when the earlier items are CONFIRMED: owner name > role/owner-operator > main line and email (with classification) > best-moment opener and angle > reviews and phone-pain quotes > LinkedIn > hiring/news/ads > background and story. Stop rules: two independent confirmations end the search for any factual field; if no owner name emerges after the website, SOS, license, BBB, Yelp and one LinkedIn/Bing X-ray pass (about 7 minutes), write NOT FOUND, mark the lead call-first and move on; spend no more than 2 minutes on email when the site is form-only (write 'form-only' and recommend a call); cap LinkedIn disambiguation at 3 minutes and leave it LIKELY; give founding-year reconciliation 2 minutes and label CONFLICT rather than digging. Reserve the last 90 seconds of every lead for the compliance gate and provenance check; a row without URLs and dates is not done. Run the batch early morning in the prospect's time zone so Sam can use the call windows the same day, and re-verify any CONFIRMED contact channel older than 30 days before reuse."
+}

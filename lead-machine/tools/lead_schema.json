@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "qualified": {"type": "boolean"},
+    "disqualified_reason": {"type": "string"},
+    "company_name": {"type": "string"}, "niche": {"type": "string"},
+    "niche_segment": {"type": "string", "enum": ["core", "extend"]},
+    "sub_services": {"type": "string"}, "website": {"type": "string"}, "company_phone": {"type": "string"},
+    "company_email_generic": {"type": "string"}, "street_address": {"type": "string"}, "city": {"type": "string"},
+    "state": {"type": "string"}, "zip": {"type": "string"}, "service_area": {"type": "string"}, "google_maps_url": {"type": "string"},
+    "google_rating": {"type": "string"}, "review_count": {"type": "string"}, "founded_or_years": {"type": "string"},
+    "team_size_estimate": {"type": "string"}, "locations_count": {"type": "string"},
+    "owner_first_name": {"type": "string"}, "owner_last_name": {"type": "string"}, "owner_title": {"type": "string"},
+    "owner_role_type": {"type": "string", "enum": ["Owner-operator", "Owner (absentee / multi-business)", "Manager / non-owner decision-maker", "Unknown"]},
+    "owner_email": {"type": "string"},
+    "owner_email_type": {"type": "string", "enum": ["Personal (named)", "Role (owner@/sales@)", "Generic (info@/office@)", "None found"]},
+    "owner_email_confidence": {"type": "string", "enum": ["Confirmed", "Likely", "Unverified", "Not found"]},
+    "owner_direct_phone": {"type": "string"}, "owner_linkedin": {"type": "string"}, "owner_other_socials": {"type": "string"},
+    "owner_background": {"type": "string"}, "owner_personality_cues": {"type": "string"}, "best_opening_moment": {"type": "string"},
+    "attitude_type": {"type": "string"}, "attitude_evidence": {"type": "string"}, "tech_adoption": {"type": "string"},
+    "marketing_sophistication": {"type": "string"}, "growth_stage": {"type": "string"}, "review_response_behavior": {"type": "string"},
+    "after_hours_handling": {"type": "string"}, "online_booking": {"type": "string"}, "chat_or_text_on_site": {"type": "string"},
+    "vendors_detected": {"type": "string"}, "ads_running": {"type": "string"}, "ai_search_presence": {"type": "string"},
+    "pain_signals": {"type": "string"}, "trigger_events": {"type": "string"}, "disqualifier_check": {"type": "string"},
+    "lead_score": {"type": "integer", "minimum": 0, "maximum": 100}, "score_breakdown": {"type": "string"},
+    "recommended_entry_offer": {"type": "string"}, "first_fit_tier": {"type": "string"},
+    "suggested_subject_line": {"type": "string"}, "personalized_first_line": {"type": "string"}, "call_angle": {"type": "string"},
+    "likely_objection": {"type": "string"}, "why_now": {"type": "string"}, "evidence_links": {"type": "string"},
+    "research_confidence": {"type": "string", "enum": ["High", "Medium", "Low"]}, "notes_for_chosen": {"type": "string"}
+  },
+  "required": ["qualified", "company_name", "niche", "niche_segment", "website", "city", "state", "owner_first_name", "owner_last_name", "owner_email", "owner_email_type", "owner_email_confidence", "attitude_type", "attitude_evidence", "pain_signals", "lead_score", "score_breakdown", "recommended_entry_offer", "first_fit_tier", "suggested_subject_line", "personalized_first_line", "call_angle", "why_now", "evidence_links", "research_confidence"]
+}

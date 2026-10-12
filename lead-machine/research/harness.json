@@ -1,0 +1,245 @@
+{
+ "findings": [
+  {
+   "topic": "Agent mode status (Oct 2026)",
+   "finding": "The standalone 'ChatGPT agent' / agent mode is retired. The help article now reads: 'ChatGPT agent is no longer available. Use ChatGPT Work for longer, multi-step tasks and finished deliverables.' ChatGPT Work launched July 9 2026 (Pro/Enterprise/Edu first, then Plus and Business). Any 'agent mode' instructions you find online that predate this are stale; the operator runs the bot in Work.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/11752874-chatgpt-agent"
+  },
+  {
+   "topic": "(1) Can scheduled/recurring tasks run Work with browsing today",
+   "finding": "Yes. The Work article states 'Work can also run once, repeat on a schedule or trigger, or monitor for changes through Scheduled Tasks.' The scheduled-tasks article says monitoring tasks 'can search the web and check connected apps for changes' and that event-triggered tasks 'run in Work'. Paid plans can recur up to once per hour with exact delivery times; Free is once per day. Tasks are created/managed at the Scheduled page (chatgpt.com/schedules) where you can pause, resume, edit, delete and use Run now.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+  },
+  {
+   "topic": "(1) Cloud browser behaviour in unattended runs",
+   "finding": "Work's cloud browser is available on paid plans (not Free/Go), runs on OpenAI's own computer, 'can continue in the background, but it pauses when it needs information, sign-in, or confirmation', and has its own sessions (it does not reuse logins from your device). Since Aug 25 2026 it can work on some signed-in websites, limited to Plus and Pro. Practical consequence: a daily lead run must only use public pages or sites you have already signed into inside the cloud browser, or it stalls.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt"
+  },
+  {
+   "topic": "(2) Google Sheets write capability (what is officially supported)",
+   "finding": "ChatGPT Work 'can create or edit documents, spreadsheets, presentations' and 'supports native Google Docs, Sheets, and Slides when the relevant Google Workspace app is enabled.' Sheets actions run through the unified Google Drive app; actions that create/update/move/share/delete need the full Drive write scope; 'ChatGPT may ask you to confirm an action before carrying it out.' Drive actions are ON by default for Business workspaces and OFF until an admin enables them for Enterprise/Edu (Workspace settings > Apps > Manage actions). No official page names an explicit 'append rows' action; writes are described as 'update the source file directly'. Availability 'depends on your ChatGPT plan, location, workspace settings, and Google Workspace policies'; personal Plus/Pro write-action toggles are not documented.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/20001278-creating-and-editing-documents-spreadsheets-and-presentations-with-chatgpt-work"
+  },
+  {
+   "topic": "(2) Google Drive app scopes and admin gating",
+   "finding": "Data-controls FAQ: 'Browsing and previewing Google Drive files requires read access. Actions that update a source file require the corresponding write access and must be enabled in ChatGPT.' If a scope is not approved 'a user may be able to view a file but see an authorization or permission error when trying to update it.' Google Docs/Sheets/Slides actions were unified under the Google Drive app (March 2026 release notes). This is the first thing to verify in a live chat before scheduling anything.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/10408842-google-app-for-chatgpt-data-controls-faq"
+  },
+  {
+   "topic": "(2) Official reason unattended writes stall: approval gating",
+   "finding": "Scheduled-tasks article: 'An action that sends a message or changes external data may require approval. If approval is required, the task pauses until you review it.' Default app permission is 'Important actions' which 'allows reading from apps automatically but asks before actions that may have a meaningful effect outside ChatGPT'. Per-app levels include Always ask / Allow read actions / Allow low-risk actions; an approval card appears before supported actions. Troubleshooting guidance: if a task stops, 'check Scheduled for a paused task or pending approval, and confirm that the required app account is still connected and authorized.' Inactive tasks may also pause automatically.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/20001495-managing-app-permissions-in-chatgpt"
+  },
+  {
+   "topic": "(2) Known failure: Sheets/Gmail writes blocked by safety checks in scheduled runs (Sep 30 - Oct 10 2026)",
+   "finding": "Community bug thread (posted Oct 4 2026, replies through Oct 10): scheduled tasks reach the write step and fail with 'This tool call was blocked by OpenAI's safety checks. Please double check what you're sending.' Affects Google Sheets write/batch-update, Gmail send, Trello card writes and GitHub writes. Reads, searches, labels and archives succeed; the identical prompt run interactively succeeds (e.g. 8/8 Trello writes). Single-cell Sheets writes sometimes pass while multi-cell writes are blocked, then 2/5/10-cell writes passed later, i.e. intermittent. One user found the UI showed 'Allow all actions' while the permission inspector reported 'Allow low-risk actions', and attempts to change it returned HTTP 404. Removing/reinstalling the connector and recreating tasks did not fix it. No OpenAI staff reply; unresolved as of Oct 10 2026. Workaround proposed in-thread: have the AI step write an approved action record and let a deterministic tool (Apps Script, Make, Power Automate) perform the write; several users moved automations to other vendors.",
+   "confidence": "reported-unofficial",
+   "source_url": "https://community.openai.com/t/regression-scheduled-tasks-safety-checks-block-authorized-gmail-sends-and-google-sheets-writes/1403242"
+  },
+  {
+   "topic": "(2) Known failure: multi-provider write failures tracked on GitHub (openai/codex #52872)",
+   "finding": "Opened Oct 10 2026, open, labels automations/bug/codex-web/safety-check/tool-calls. Reports unattended scheduled runs that read fine but fail to persist (GitHub create_file/update_file refused before the provider is called; Drive uploads missing file handoff; Docs inserts reporting success but corrupting adjacent text). Notes that failed writes 'can make hourly runs look like no work or cause duplicate writes on retry'. Cites OpenAI status incidents on Sep 29, Oct 5-6 and Oct 9 2026 without claiming causation. No maintainer reply.",
+   "confidence": "reported-unofficial",
+   "source_url": "https://github.com/openai/codex/issues/52872"
+  },
+  {
+   "topic": "(2) Known failure: tasks auto-disable after failed runs",
+   "finding": "Community report (Oct 9 2026): hourly recurring tasks flipped from enabled to disabled roughly 64-65 seconds after a failed execution, 'without user authorization', then missed later runs; re-enabling works but it recurs. Linked to the same safety-check write refusals. Escalated to OpenAI Support; no root cause. Operational consequence: check that the daily task is still enabled, do not assume silence means no leads.",
+   "confidence": "reported-unofficial",
+   "source_url": "https://community.openai.com/t/chatgpt-scheduled-tasks-fail-to-write-to-github-and-automatically-disable-themselves-after-failed-executions-without-user-authorization/1404882"
+  },
+  {
+   "topic": "(2) History: tasks could not touch connectors at all until mid-2026",
+   "finding": "June 2 2026 thread: scheduled task reading a Google Sheet failed with 'Google Sheets access failed' while the same sheet worked in chat. OpenAI Support (Sunny) replied: 'Scheduled Tasks currently can't read from or act on connected services when they run' and called it a product limitation. This has since been superseded (monitoring tasks now check connected apps), but it shows the scheduled runtime consistently lags the live-chat runtime, which is why every step must be tested in both modes.",
+   "confidence": "reported-unofficial",
+   "source_url": "https://community.openai.com/t/task-connection-google-sheets/1382361"
+  },
+  {
+   "topic": "(3) Usage limits: Astra in Work/Codex per plan",
+   "finding": "Work and Codex share one allowance with a 5-hour window and a weekly window; 'if both apply, you need remaining allowance in both.' Official estimate for GPT-6 Astra on Plus and on Business Standard seats: 5-45 local messages per 5-hour window, and 'cloud tasks may use more allowance than local messages.' Pro 100 / Pro 200 / Pro 500 'currently have no five-hour usage limit in Work and Codex' but keep a weekly allowance. Business Premium seats get 5x Standard with no 5-hour limit and predictable weekly resets. The allowance 'does not correspond to a fixed number of messages or tasks'; Plus/Pro can buy instant resets; Business can overflow to workspace credits if flexible pricing is enabled. A daily 10-lead browsing run is a long cloud task, so Plus is marginal and Pro or Business Premium is the safe choice.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex"
+  },
+  {
+   "topic": "(3) Usage limits: active scheduled task caps",
+   "finding": "Active task caps by plan: 3 (Free, Go), 5 (Plus), 10 (Business, Edu), 15 (Pro, Enterprise). When at the cap you must pause/delete a task or wait for one to finish. Event-triggered tasks (Gmail/Slack/GitHub) are Plus and above, off by default on Enterprise/Edu/Healthcare, and not in FedRAMP workspaces. Scheduled tasks do not support voice chats or GPTs.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt"
+  },
+  {
+   "topic": "(3) Usage limits: legacy agent-mode monthly counts (stale)",
+   "finding": "The retired agent article still lists Plus 40 / Pro 400 / Business and Enterprise 40 agent messages per month including scheduled agent runs. Because agent mode is retired, do not plan around these; the Work 5-hour/weekly allowance governs now.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/11752874-chatgpt-agent"
+  },
+  {
+   "topic": "GPT-6 Astra availability by surface",
+   "finding": "Astra launched Sep 3 2026 (limited) with rollout to Plus, Pro, Business and Enterprise over the following days. Help center: Plus gets Astra in ChatGPT Work and Codex (not the Chat tab); chat-based 'GPT-6 Pro' (Astra-powered) is limited to Pro $100/$200, Business and Enterprise with separate caps. Oct 7 2026: GPT-6 (Instant) with Intelligent UI rolled into the Chat tab; release notes say 'the models powering Work and Codex aren't changing with this release.' So the scheduled lead bot runs on Astra via Work on every paid plan.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt"
+  },
+  {
+   "topic": "(4) Custom GPTs are the wrong home: retirement and task incompatibility",
+   "finding": "Sep 11 2026 notice: custom GPTs retire Dec 11 2026 (Enterprise deferral to Feb 11 2027); new GPT creation ends Oct 26 2026 for affected Enterprise workspaces; migration path is to plugins; 'Migration does not transfer GPT custom actions.' Separately, 'Scheduled tasks do not support: Voice chats, GPTs.' A custom GPT cannot be scheduled and will be gone in two months.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq"
+  },
+  {
+   "topic": "(4) Projects are also a poor home for an unattended task",
+   "finding": "Project instructions apply only inside that project and override global custom instructions, but 'ChatGPT Work is not available in projects using project-only memory' (release notes Aug 14 2026) and 'a task created inside a project cannot access uploaded files or files stored in that project.' Project memory also isolates chats. So Project instructions/files cannot be relied on by a scheduled Work run; the master prompt must live in the task prompt itself (optionally mirrored in a Drive doc the task reads via the Google Drive app).",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/10169521-projects-in-chatgpt"
+  },
+  {
+   "topic": "(4) Dots (the 'DOT' the user mentioned): what they are and who gets them",
+   "finding": "Dots launched Sep 29 2026 (DevDay). A dot is an always-on agent on GPT-6 Astra with its own cloud computer; 'your first dot is included in your Pro or Business Premium plan at no extra cost'; rolling out to Pro users outside the EEA/Switzerland/UK and to Business Premium in all supported regions; Enterprise/Edu/Healthcare beta only if an admin enables it. For the next month dot usage does not count toward Pro/Business/Enterprise allowances. Created only on desktop web or desktop app. The dot 'starts with context from ChatGPT memory', 'can run reminders or recurring tasks you've scheduled', and scheduled work is reviewed in the dot's profile. Plugin permissions carry over across dots, ChatGPT, Work and Codex.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot"
+  },
+  {
+   "topic": "(4)/(2) Dots safety model limits unattended writes too",
+   "finding": "Dots FAQ: Auto-review checks planned actions against your instructions, Custom Rules and safety rules before they run; Custom Rules let you say 'which supported actions it can take independently, which require your approval, and which it should not take', but cannot switch off core safety requirements or Auto-review. Proactive background research tools 'can read from permitted sources and save private notes' but cannot 'send messages', 'change content through plugins' or 'control a browser or computer'; follow-up actions go through normal approval. Some recurring actions (e.g. recurring messages) can be approved in advance. Net: a dot can run the daily job and remember context, but Sheet appends still pass through the approval/safety layer; pre-approval via Custom Rules is the lever to test.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs"
+  },
+  {
+   "topic": "(5) Memory across runs: what is official",
+   "finding": "Monitoring tasks 'can use information from previous runs and stop when a defined end condition is met.' A shared task 'does not include... previous task results, saved memories, custom instructions, uploaded or local files, connected-app data'. For dots, 'each task has its own conversation and doesn't automatically receive every conversation you've had with your dot.' There is no documented durable store a task can write to and read back other than external files/apps, so the Sheet itself (read first, then write) is the only dependable dedupe store.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt"
+  },
+  {
+   "topic": "(5) Memory across runs: standalone vs in-chat tasks",
+   "finding": "OpenAI's learn docs (learn.chatgpt.com, an OpenAI-operated domain but not help.openai.com) state: 'Standalone tasks start a new chat each run. In-chat tasks return to an existing chat with its context.' The same page's prompt guidance: test the prompt manually in a regular chat first; make it durable by stating 'what to do each run, how to judge whether anything is worth reporting, and when to stop or ask for input'; scope narrowly; keep source material in an accessible service; use Run now and review the first few runs. In-chat mode gives continuity but the thread grows unbounded; third-party guidance recommends an external record of what was already handled.",
+   "confidence": "reported-unofficial",
+   "source_url": "https://learn.chatgpt.com/docs/automations"
+  },
+  {
+   "topic": "(6) Official Astra prompting guidance: action bias, persistence, approvals",
+   "finding": "'Using GPT-6' (developers.openai.com): Astra 'is more likely to ask the user a question when additional input could materially change the result', so prompt it to 'bias towards action and carry the user's intended task to completion' and to persist 'until the user's intended goal is complete' unless an action is clearly destructive or irreversible. 'Do not introduce unsolicited warnings, disclaimers, approval flows' for hypothetical risk; have the user approve 'a concrete, reviewable result' after authorized work is finished. Astra 'can be more sensitive to instructions contained in skills and other files, such as AGENTS.md' and OpenAI 'strongly recommends' auditing them; state that user instructions take precedence. Formatting: 'Default to using clear, concise paragraphs, each developing one main idea'; lists only when content is 'genuinely parallel, sequential, or easier to compare'; avoid slop words (delve, foster, leverage, it's worth noting, importantly), concluding summaries and 'X, not Y' framing. Delegate to sub-agents 'if it could save time or improve quality'.",
+   "confidence": "confirmed-official",
+   "source_url": "https://developers.openai.com/api/docs/guides/latest-model"
+  },
+  {
+   "topic": "(6) Official Astra guidance: define done, do not over-specify",
+   "finding": "'Rethinking skills and prompts for GPT-6 Astra' (Sep 2026): elaborate step-by-step recipes 'can now hinder results where it previously helped'; remove strong 'ask first' language written for older models because it 'can stop work that should continue'; Astra 'can be more tentative and may stop after a first implementation for review', so 'define completion up front' and, when you want exploration, 'state what to explore and where to stop'; keep skill descriptions short with an explicit 'Use when...' clause; use progressive disclosure (a root document that is 'a minimal router'). Translation for the lead bot: give a scoring rubric and a hard completion condition, not a 40-step recipe.",
+   "confidence": "confirmed-official",
+   "source_url": "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra"
+  },
+  {
+   "topic": "(6) Official agentic prompt structure and structured output",
+   "finding": "Prompt-engineering guide: GPT models 'benefit from precise instructions that explicitly provide the logic and data required to complete the task'; sample agentic preamble: 'keep going until the user's query is completely resolved, before ending your turn' and 'Only terminate your turn when you are sure that the problem is solved'; explain tool calls at key moments; 'Use a TODO list tool or rubric to enforce structured planning and avoid missed steps'; put content that repeats across requests at the start of the prompt. Structured-outputs guide: constrain shape with a JSON schema and check for truncation/refusal before parsing. For a ChatGPT task this means an explicit column list plus a CSV/JSON fallback block in the prompt.",
+   "confidence": "confirmed-official",
+   "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering"
+  },
+  {
+   "topic": "(7) Gmail fallback: sending is an approval-gated action; attachments unconfirmed",
+   "finding": "Apps article: sending an email is an 'important action' that can require approval while 'saving a private draft may proceed without asking'; release notes say Gmail/Outlook send is available on web for Plus, Pro, Business and Enterprise. In a scheduled task a send 'may require approval' and the task pauses. No official page confirms attachments on send; June 2026 third-party reviews say the send feature 'can't send attachments yet'. So email the CSV inline in the body (or a Drive link), not as an attachment, and expect it to be subject to the same unattended-write gate as Sheets.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/11487775-apps-in-chatgpt"
+  },
+  {
+   "topic": "(7) Zapier-inside-ChatGPT route depends on Developer mode plan rules",
+   "finding": "Developer mode / MCP apps: full MCP support including write/modify actions is 'rolling out in beta to ChatGPT Business, Enterprise, and Edu'; 'Pro users can connect MCPs with read/fetch permissions in developer mode' (writes not listed for Pro; Plus not listed at all). New actions on a connector are disabled by default and need approval; ChatGPT 'may ask for confirmation' on write actions and 'some high-risk actions may be blocked outright'; custom apps are unverified and the workspace owner must vet them. So calling a Zapier/Make webhook from inside the ChatGPT task via MCP is realistic only on Business+.",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt"
+  },
+  {
+   "topic": "(7) Zapier MCP mechanics",
+   "finding": "Zapier MCP connects to ChatGPT either as a workspace-installed Zapier plugin (Business/Enterprise/Edu) or via Developer mode by creating a plugin with server URL https://mcp.zapier.com/api/v1/connect and signing in with OAuth; the plugin stays private until a workspace owner publishes it. 'Each successful tool call uses two tasks from your Zapier plan.' ChatGPT does not auto-detect tool changes; refresh the connector manually. Zapier's docs do not state whether it works inside scheduled tasks.",
+   "confidence": "reported-unofficial",
+   "source_url": "https://docs.zapier.com/mcp/setup/chatgpt"
+  },
+  {
+   "topic": "(7) GHL inbound webhook (official GHL help, not OpenAI)",
+   "finding": "GoHighLevel's Inbound Webhook workflow trigger (an LC Premium Trigger) accepts POST, GET or PUT; 'JSON is the only supported data format'; keys must be single strings with no spaces (snake_case/CamelCase); an email or phone must be in the payload to find/create a contact; after saving the trigger you map fields in a Create/Update Contact action; if the payload shape changes you must re-select the mapping reference. Sub-accounts get 100 free premium executions, then per-execution charges apply (price not stated); agency must enable rebilling. If the URL leaks, delete and recreate the trigger. This is the cleanest 'push leads straight into GHL' endpoint for a Make/Zapier step.",
+   "confidence": "reported-unofficial",
+   "source_url": "https://help.gohighlevel.com/support/solutions/articles/48001237383"
+  },
+  {
+   "topic": "(7) Sheet-to-GHL loading patterns",
+   "finding": "Zapier: Google Sheets trigger 'New or Updated Spreadsheet Row' -> 'LeadConnector V2' (Zapier's white-label name for GoHighLevel) action 'Create or Update a Contact', mapping first/last name, email, phone and custom fields; polling latency typically 1-2 minutes. Make: template 'Webhook to Google Sheets with duplicate check' uses Search Rows on a request_id before Add a Row (Add a Row always appends to the bottom). Either tool can also be the deterministic writer that takes a CSV/JSON payload and appends to the sheet when ChatGPT's own write is blocked.",
+   "confidence": "reported-unofficial",
+   "source_url": "https://www.make.com/en/templates/19900-webhook-to-google-sheets-with-duplicate-check-by-flowpaja"
+  },
+  {
+   "topic": "Notifications and run status",
+   "finding": "Settings > Notifications lets you choose Push, Email or both for tasks; mobile push requires creating the task in a supported mobile app and granting permission; each task's completion notifications can be changed individually. Caveat: 'A Completed time-based schedule means it has no future runs scheduled; it does not confirm that an individual run completed the work successfully.' Before rerunning a task that sends messages or changes files, check run history because the earlier run may already have acted (duplicate-write risk).",
+   "confidence": "confirmed-official",
+   "source_url": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt"
+  },
+  {
+   "topic": "Third-party diagnosis of the scheduled runtime gap",
+   "finding": "Carly (Aug 10 2026) summarises why a connector that works live fails scheduled: the scheduled run may lack the live chat's app selection, account context, project files, and the ability to pause for approval; task created under a different account/workspace; app or write actions restricted by admin; stale authorization. Fixes it recommends: run the same read-only request live and scheduled to isolate the runtime; name the app and expected account explicitly in the task prompt; move data out of project files/GPTs; for writes needing approval use a review queue, an external automation tool, or a human-in-the-loop step; disconnect/reconnect and recreate the task.",
+   "confidence": "reported-unofficial",
+   "source_url": "https://www.usecarly.com/blog/chatgpt-scheduled-task-connector-unavailable/"
+  },
+  {
+   "topic": "Inferred: GET-webhook via the cloud browser as a last-resort write path",
+   "finding": "Both Zapier Catch Hook (listed as triggering 'when a POST, PUT, or GET request is made to a Zapier URL') and GHL's inbound webhook accept GET. In principle a Work run could 'open' a URL with query-string parameters in its cloud browser to deliver one lead without any connector write. This is untested, counts as an external action that may hit the same safety gate, and leaks data into URL logs; treat it as an experiment, not a plan.",
+   "confidence": "inferred",
+   "source_url": "https://zapier.com/apps/webhook/integrations/zoho-crm/152981/catch-new-webhooks-and-create-zoho-crm-module-entries"
+  }
+ ],
+ "recommended_setup_steps": [
+  "1. Pick the plan deliberately. Plus can run this (Astra in Work, 5 active tasks) but the official Astra estimate is only 5-45 local messages per 5-hour window and cloud tasks burn more, so a daily 10-lead browsing run risks hitting the cap mid-run. Pro ($100+) has no 5-hour limit in Work and 15 task slots; Business Premium has 5x usage, no 5-hour limit, Drive write actions on by default, and (like Pro) includes a dot. Recommend Pro or Business Premium.",
+  "2. Connect Google Drive once, with write scope. In ChatGPT open Plugins/Apps > Google Drive > Connect with the Google account that owns the lead sheet; accept the full Drive scope (not read-only). On Business, confirm Workspace settings > Apps > Google Drive > Manage actions has create/update enabled. Then set the Google Drive app permission level to the broadest option offered (Allow all actions if shown; otherwise Allow low-risk actions) and note what the UI says, because community reports show the displayed level and the enforced level can disagree.",
+  "3. Create the sheet by hand first (do not rely on the bot to create it). Name it 'E4L Lead Machine'. Tabs: Leads (the output schema, header row only), Niches (Allowed niches + a Candidate niches column the bot may propose into), Exclusions (domains/phones/emails never to contact, plus every domain already loaded into GHL), Config (daily_target=10, target_cities, min_score, owner_email for summaries), Run_Log (run_id, date, model, leads_found, leads_written, write_method, assumptions, errors). Copy the file's URL/ID; the prompt will reference it by name and ID.",
+  "4. Prove the write path in a live Work chat before scheduling. Open a new chat, switch to Work, paste the master prompt, and let it run end to end. Verify: it read Exclusions/Leads first, researched ~10 businesses, appended rows to Leads without touching existing rows, wrote a Run_Log row, and ended with the summary paragraph plus the CSV fallback block. If it asks a clarifying question, tighten the prompt until it does not. Do three clean live runs.",
+  "5. Create the daily task from the Scheduled page (chatgpt.com/schedules) or from the Work chat (clock icon / 'repeat daily'). Paste the full master prompt into the task prompt itself (tasks cannot use custom GPTs or Project files; Work is unavailable in project-only-memory projects). Set recurrence daily, exact time (e.g. 05:30 local) so leads are waiting in the morning. Under Settings > Notifications choose Push + Email and enable completion notifications on the task.",
+  "6. Optional 'prompt-as-doc' pattern for easy editing: also store the niche list, scoring rubric and ICP notes in a Google Doc in the same Drive folder and have step 0 of the task read that doc. Keep the schema, dedupe rule, completion condition and fallback rule inline in the task prompt so a Drive read failure cannot silently change behaviour.",
+  "7. First week in supervised mode: open Scheduled each morning. If a run shows 'pending approval' on the Sheets write, approve it and log that it needed approval. If any run reports 'blocked by OpenAI's safety checks' or ends with the CSV block instead of a confirmed append, paste the CSV into the sheet and switch to the fallback writer in step 9. Also confirm the task is still Enabled (reports of auto-disable after failed runs).",
+  "8. Dedupe is enforced by the sheet, not by memory: the prompt's first action every run is to read Leads!Domain, Leads!Phone, Leads!Owner_Email and Exclusions!*, and to skip any business matching on domain, phone, email or normalised name+city. Each row carries run_id and date_found so you can audit a day's batch.",
+  "9. Load into GHL with a deterministic bridge, not with ChatGPT: Zap 'Google Sheets: New or Updated Spreadsheet Row' (filter Status = Approved) -> 'LeadConnector V2: Create or Update a Contact', mapping Owner first/last name, email, phone, company, website, niche, score and the one-line angle into GHL custom fields; add tag e4l-bot-YYYYMMDD. Alternative: Make scenario with the same trigger, or GHL's Inbound Webhook trigger fed by Make. Manual alternative: weekly CSV import into GHL. You review rows and flip Status to Approved; nothing reaches GHL untouched.",
+  "10. If ChatGPT's own Sheets write proves unreliable, flip the primary writer: keep the task, change its last step to 'output the rows as a JSON array inside a fenced code block' and have a Make/Zapier scenario triggered by the task's completion email (Email Parser / Gmail trigger) or by a Zapier MCP call (Business+) append them to Leads with a Search Rows duplicate check on domain.",
+  "11. Upgrade path once stable (Pro or Business Premium): create a dot, give it the same master prompt as its responsibility, set Custom Rules so appending to 'E4L Lead Machine' is an independent action and sending email is approval-required, and schedule the daily run inside the dot. Keep the sheet-read dedupe step; the dot's memory is context, not a reliable ledger.",
+  "12. Weekly hygiene: cap Leads at the day's 10 so you never over-email; archive Approved rows to a 'Loaded' tab after GHL import; spot-check 2 rows per run for fabricated owner names or emails and feed corrections into the rubric."
+ ],
+ "prompt_structuring_advice": [
+  "Lead with the static parts in this order (static content first is official guidance and helps caching): role and mission, the sheet reference (file name, file ID, tab names, Google account email), the exact column list with types and allowed values, the qualification rubric, the run procedure, the completion condition, the output contract and fallback rule. Keep it as one task prompt; do not depend on custom GPT instructions or Project files.",
+  "Name the tool and account explicitly: 'Use the Google Drive app connected as <email>. Open spreadsheet \"E4L Lead Machine\" (ID ...). Read tab Exclusions and columns Domain, Phone, Owner_Email of tab Leads before any research. Append new rows only to tab Leads below the last non-empty row; never edit, reorder or delete existing cells.' Third-party and community guidance agree that unnamed app/account is the top cause of scheduled-run failures.",
+  "Define done as a measurable condition, per OpenAI's Astra guidance: 'The run is complete when exactly 10 new rows that pass the rubric (score >= min_score) and are not in Exclusions/Leads have been appended, a Run_Log row is written, and the summary is produced. If after a reasonable research budget fewer than 10 qualify, append what qualifies, record the shortfall and the reason in Run_Log, and stop. Never lower the bar to reach 10.'",
+  "Give Astra action bias and remove ask-first language: 'This is an unattended scheduled run. Do not ask clarifying questions. Make reasonable assumptions, record them in the Assumptions column, and continue until the completion condition is met. Do not add unsolicited warnings, disclaimers or approval requests.' Reserve approval for nothing in this task; the only external action is the sheet append.",
+  "Put a budget and retry policy in the prompt: max pages per business (e.g. 8), max total research time, retry transient tool failures at most twice, never repeat a write that already succeeded (re-read the sheet to confirm before retrying). This mirrors OpenAI's programmatic tool-calling guidance and prevents duplicate rows after a flaky write.",
+  "Replace recipes with judgment criteria. Instead of 40 micro-steps, give the scoring rubric (fit, pain signals, reachability, owner identifiability, attitude/tone read, ecommerce signals, red flags) with point values and examples, plus the rule for proposing a new niche ('qualify a niche if at least 3 of 5 need-signals are present; write proposals to Niches!Candidate with evidence, do not research it further this run'). OpenAI says over-specific step guidance now hinders Astra.",
+  "Make the output contract explicit and dual: the row must match the column list exactly (one line per column, with type and allowed values); and 'If the Sheets write fails or is blocked for any reason, output all rows as a CSV code block with the identical header, state clearly that the sheet was NOT updated, and stop.' This guarantees you still get the day's leads when the write path breaks.",
+  "Pin the dedupe keys: normalised domain (strip www/protocol), E.164 phone, lowercase email, and normalised business name + city. Tell it to treat a match on any key as 'already contacted' and to log skipped duplicates count in Run_Log.",
+  "Specify the summary style using OpenAI's formatting guidance: 'End with 2-3 plain paragraphs: how many leads, the two strongest and why, anything that needs my decision (e.g. proposed niche). No bullet lists, no closing summary line, no stock phrases.' Also tell it to flag any field it could not verify with a confidence marker rather than guessing (owner names and emails are the fabrication risk).",
+  "Include a self-check line before writing: 'Before appending, re-verify each row has a working website or phone, the owner field is sourced (cite the page), and no key matches Exclusions.' Astra responds well to a rubric used as a checklist rather than a mandatory TODO list.",
+  "Version the prompt: put 'PROMPT_VERSION: v1.0 (2026-10-12)' at the top and have the bot write it into Run_Log, so you can correlate behaviour changes with edits.",
+  "Test the exact text live in Work first, then schedule it unchanged. OpenAI's learn docs and every community thread say the live run is the control that tells you whether a failure is the prompt or the scheduled runtime."
+ ],
+ "sheet_write_strategy": "Primary: the scheduled Work task appends rows directly to the pre-built 'E4L Lead Machine' sheet via the Google Drive app, after reading Leads/Exclusions for dedupe. Supported officially (Work can create/edit native Sheets; writes need Drive write scope and may prompt for confirmation), but as of Oct 2026 multiple unresolved reports show unattended Sheets writes being paused for approval or blocked by safety checks while the same prompt works live. So run it as a layered strategy: (a) build the sheet and header by hand, never let the bot create files; (b) verify the append works in a live Work chat three times and set the Drive app permission to the broadest level; (c) schedule with the prompt's mandatory fallback: if the write fails or is blocked, emit the rows as a CSV code block with the same header and say the sheet was not updated; (d) for the first week approve any pending-approval card and paste any CSV fallback manually; (e) if more than 2 of 7 runs fall back, demote ChatGPT to 'research + emit JSON' and promote a deterministic writer (Make or Zapier triggered by the task completion email, or a Zapier MCP call on Business+) that appends with a Search-Rows duplicate check on domain; (f) GHL never reads the sheet directly from the bot: a separate Sheets-to-LeadConnector Zap or Make scenario loads only rows you mark Approved. Dedupe always comes from reading the sheet at the start of the run, not from ChatGPT memory.",
+ "fallbacks": [
+  "F1 CSV/JSON block in the task result (zero dependencies): the prompt requires it whenever the append fails. You copy it from the Scheduled inbox into the sheet. Always keep this on.",
+  "F2 Gmail connector email: have the task email you the CSV in the message body (not as an attachment; attachment support on send is unconfirmed) plus the summary. Sending is an approval-gated 'important action' and is reported as blocked in the same regression, so this is a convenience channel, not a guaranteed one.",
+  "F3 Make or Zapier as the writer: Make 'Gmail/Email Parser trigger -> Parse JSON -> Google Sheets Search Rows (domain) -> Add a Row', or Zapier equivalent. Triggered by the task's completion email or the F2 email. Deterministic, keeps dedupe, no ChatGPT write permission needed.",
+  "F4 Zapier MCP from inside ChatGPT (Business/Enterprise/Edu only for write actions; Pro is read-only in developer mode; Plus not supported): the task calls Zapier's Google Sheets 'Create Spreadsheet Row' tool. Costs 2 Zapier tasks per call and still passes through ChatGPT's action approval layer.",
+  "F5 GHL Inbound Webhook direct: a Make/Zapier step POSTs each approved lead as flat JSON (snake_case keys, email or phone required) to the GHL inbound webhook URL; GHL workflow maps to Create/Update Contact and tags it. 100 free premium executions per sub-account, then per-execution billing.",
+  "F6 Manual GHL CSV import: export Approved rows weekly and use GHL's bulk contact import. Lowest tech, zero automation risk.",
+  "F7 Move the daily job to a dot (Pro / Business Premium): same prompt as the dot's responsibility, Custom Rules pre-approving the sheet append, scheduled daily. Still subject to Auto-review; keep F1 in the prompt.",
+  "F8 Run it semi-manually: keep the task but set it to produce the research only; you press Run now in a live Work chat each morning and the write happens interactively, where it reliably works. Costs one minute a day and avoids the unattended-write gate entirely."
+ ],
+ "known_limits": [
+  "Unattended connector writes are unreliable right now: community and GitHub reports from Sep 30 to Oct 10 2026 show Sheets, Gmail, Trello and GitHub writes blocked by OpenAI safety checks in scheduled runs while the identical prompt succeeds live; no official acknowledgement or fix yet.",
+  "Scheduled tasks pause on any action that needs approval (official), and inactive or failing tasks can pause or disable themselves; a 'Completed' status does not mean the run succeeded. Someone must check the Scheduled page daily during the first weeks.",
+  "Scheduled tasks cannot use custom GPTs or Project files, and Work is unavailable in project-only-memory projects; custom GPTs retire Dec 11 2026. The master prompt must live in the task prompt (optionally mirrored in a Drive doc).",
+  "No durable per-task memory: standalone runs start a new chat each time; in-chat tasks keep context but the thread grows without bound. Dedupe has to be read from the sheet every run.",
+  "Usage: Plus and Business Standard get an estimated 5-45 Astra local messages per 5-hour window in Work, cloud tasks consume more, and weekly caps apply; a 10-lead browsing run can exhaust Plus. Pro and Business Premium remove the 5-hour cap but keep weekly limits.",
+  "Active task caps: 5 on Plus, 10 on Business, 15 on Pro/Enterprise. Recurrence is at most hourly on paid plans.",
+  "Cloud browser cannot sign into sites by itself in an unattended run, has its own sessions, and pauses when it needs confirmation; signed-in-site support is Plus/Pro only. Research must stay on public pages (Google Business profiles, websites, LinkedIn public pages, review sites) or the run stalls.",
+  "Google Drive write actions depend on plan, region, workspace admin settings and Google OAuth scopes; personal Plus/Pro write-action toggles are not documented, and there is no official 'append rows' action name, so behaviour when appending to an existing tab must be verified empirically.",
+  "Gmail send is approval-gated and attachments on send are not confirmed; use inline CSV in the body if you rely on email delivery.",
+  "Zapier MCP write actions inside ChatGPT are Business/Enterprise/Edu only (Pro read-only, Plus unsupported); external automation (Make/Zapier) is the robust path for both sheet writes and GHL loading.",
+  "Dots are Pro (non-EEA/UK/CH) and Business Premium only, desktop-created, one primary dot, and their proactive background research is read-only; writes still pass Auto-review. Dot usage terms after the first month are not yet published.",
+  "Owner research quality risk: Astra will produce plausible owner names/emails; the prompt must require a cited source per owner field and a confidence flag, and you should spot-check before loading into GHL.",
+  "Compliance: cold email/SMS from GHL is subject to CAN-SPAM/TCPA and state rules; the bot should capture consent-relevant facts (business vs personal contact, source of the email) but this research did not cover legal requirements.",
+  "Several official help pages could not be fetched directly from this environment (403); their content was taken from search-indexed excerpts of help.openai.com and should be re-read in a browser before relying on exact wording."
+ ]
+}
