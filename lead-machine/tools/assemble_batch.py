@@ -72,7 +72,7 @@ for l in leads:
 # tidy names: move parenthetical legal-entity notes out of company_name, blank "Not found" name parts
 for l in kept:
     nm = l.get('company_name', '')
-    m = re.match(r'^(.*?)\s*[\(\[]\s*((?:[^()\[\]]*?\b(?:legal|dba|d/b/a|llc|inc\b|entity|registry|footer|formerly|domestic|corp\b|l\.p\.|ltd)\b).*)$', nm, flags=re.I | re.S)
+    m = re.match(r'^(.*?)\s*[\(\[]\s*((?:[^()\[\]]*?\b(?:legal|dba|d/b/a|llc|inc\b|entity|registry|footer|formerly|domestic|corp\b|l\.p\.|ltd|firm name|name:|bar)\b).*)$', nm, flags=re.I | re.S)
     if m and m.group(1).strip():
         l['company_name'] = m.group(1).strip().rstrip(' ,;—-')
         l['notes_for_chosen'] = (f"Legal entity note: {nm[len(m.group(1)):].strip(' ()[]—-')}. " + (l.get('notes_for_chosen') or '')).strip()
