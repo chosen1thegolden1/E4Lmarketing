@@ -191,7 +191,7 @@ sam_tab = {"name": "Sam Call Sheet", "freeze": "D2", "spare_rows": 5, "row_heigh
   {"header": "Company", "from": "Company Name", "width": 26},
   {"header": "Owner", "join": ["Owner First Name", "Owner Last Name"], "width": 18},
   {"header": "Title", "from": "Owner Title", "width": 14},
-  {"header": "Best Number to Call", "coalesce": ["Owner Direct Phone", "Company Phone"], "width": 17, "note": "Owner's direct line when published, otherwise the company line"},
+  {"header": "Best Number to Call", "coalesce": ["Owner Direct Phone", "Company Phone"], "phone": True, "width": 17, "note": "Owner's direct line when published, otherwise the company line"},
   {"header": "Company Phone", "from": "Company Phone", "width": 17},
   {"header": "City", "from": "City", "width": 13}, {"header": "ST", "from": "State", "width": 5}, {"header": "TZ", "from": "Timezone", "width": 7},
   {"header": "Best Time to Call", "from": "Best Time to Call", "width": 28},

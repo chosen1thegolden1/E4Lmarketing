@@ -89,7 +89,7 @@ for tab in spec.get("static_tabs", []):
     tcols = tab["columns"]; th = [c["header"] for c in tcols]
     TL = {h: get_column_letter(i) for i, h in enumerate(th, 1)}
     rows = [th]
-    clean = lambda v: "" if v is None or str(v).strip().lower() == "not found" else v
+    clean = lambda v: "" if v is None or str(v).strip().lower().startswith("not found") else v
     for r_i, ex in enumerate(spec.get("example_rows", []), 2):
         row = []
         for c in tcols:

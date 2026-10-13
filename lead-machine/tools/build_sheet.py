@@ -6,6 +6,7 @@ The spec drives every column, dropdown, reference tab and example row so the
 workbook can be regenerated whenever the prompt's output schema changes.
 """
 import json
+import re
 import sys
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
@@ -201,7 +202,9 @@ def build(spec, out):
         letters = {c["header"]: get_column_letter(i) for i, c in enumerate(tcols, 1)}
         exs = spec.get("example_rows", [])
         last = max(len(exs) + 1, 2) + tab.get("spare_rows", 0)
-        clean = lambda v: "" if v is None or str(v).strip().lower() == "not found" else v
+        clean = lambda v: "" if v is None or str(v).strip().lower().startswith("not found") else v
+        PH = re.compile(r"\+?1?[\s.-]?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}")
+        phone = lambda v: (lambda m: ("+1 " + re.sub(r"\D", "", m.group(0))[-10:][:3] + "-" + re.sub(r"\D", "", m.group(0))[-10:][3:6] + "-" + re.sub(r"\D", "", m.group(0))[-10:][6:]) if m else "")(PH.search(str(v or "")))
         for r_i in range(2, last + 1):
             ex = exs[r_i - 2] if r_i - 2 < len(exs) else None
             for i, c in enumerate(tcols, 1):
@@ -210,7 +213,10 @@ def build(spec, out):
                 elif "join" in c:
                     v = " ".join(str(x) for x in (clean(ex.get(k, "")) for k in c["join"]) if x) if ex else ""
                 elif "coalesce" in c:
-                    v = next((ex.get(k) for k in c["coalesce"] if clean(ex.get(k, ""))), "") if ex else ""
+                    if c.get("phone"):
+                        v = next((phone(ex.get(k)) for k in c["coalesce"] if ex and clean(ex.get(k, "")) and phone(ex.get(k))), "") if ex else ""
+                    else:
+                        v = next((ex.get(k) for k in c["coalesce"] if clean(ex.get(k, ""))), "") if ex else ""
                 elif "formula" in c:
                     v = c["formula"].replace("{r}", str(r_i))
                     for h, L in letters.items():
