@@ -322,8 +322,8 @@ function gridContent(t, box) {
   const g = A.grid;
   const ox = box.x - g.x, oy = box.y - g.y;
   for (let i = 0; i < 14; i++) {
-    // Tiles pop in on 16ths starting at 10.0; tile 9 is picked by the cursor at 11.0.
-    const p = spring(t - (10.0 + i * 0.0625), 380, 26);
+    // Tiles pop in on 16ths, launched 60 ms early so tile 0 lands on the 10.0 downbeat; tile 9 is picked at 11.0.
+    const p = spring(t - (9.94 + i * 0.0625), 520, 30);
     if (p <= 0.001) continue;
     const pick = i === 9 ? spring(t - 11.0, 300, 26) : 0;
     const cx = ox + g.x + g.pad + (i % g.cols) * (g.tw + g.gap), cy = oy + g.y + g.pad + Math.floor(i / g.cols) * (g.th + g.gap);
