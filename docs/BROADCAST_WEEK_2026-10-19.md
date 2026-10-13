@@ -48,9 +48,9 @@ Per the 4% rule, Monday agency and Friday student are written to the readers alr
 
 ## A1 — Monday
 
-**Subject:** Google gave its AI an email address
+**Subject:** Google's new hire has an email address
 
-**Preview text:** And a calendar. And a seat in the company directory.
+**Preview text:** It's software. It also has a calendar and a seat in the company directory.
 
 **Reader:** A-2 (growing, profitable, reads fast) · **Angle:** Correlation · **Spoke:** front end → the call
 
@@ -66,8 +66,8 @@ in the post stopped me.
 email address, calendar, Drive, and presence in your company
 directory." 👀
 
-Read that again. Not a chatbot in a sidebar. A coworker with
-a login.
+Read that again. Not a chatbot in a sidebar. **A coworker with
+a login.**
 
 Google's post says it can also spin up temporary,
 job-specific agents, each with its own identity, and that
@@ -75,22 +75,24 @@ work "that takes hours or days keeps running after you close
 your laptop."
 
 I'll be straight about the fine print. That's Google
-describing its own product. The customers it names are PayPal,
-Shopify and BNP Paribas, not your shop. I'm not telling you to
-go buy it.
+describing its own product.
+
+The customers it names are PayPal, Shopify and BNP Paribas,
+not your shop. I'm not telling you to go buy it.
 
 Here's why I'm telling you anyway.
 
 When the first spreadsheet showed up, the owners who laughed
-at it kept their ledgers. The ones who handed the boring
-math to the machine had more hours for the part that makes
-money. 💼
+at it kept their ledgers.
+
+The ones who handed the boring math to the machine had more
+hours for the part that makes money. 💼
 
 The big companies just made the same bet again, with a
 login.
 
 You don't need Google's version to do it. You need to pick
-the three jobs in your business that are the same every day
+**the three jobs in your business that are the same every day**
 and hand them off. Follow-up. Reminders. The first reply.
 
 See Google's post → (LINK: https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?utm_source=email&utm_medium=agency&utm_campaign=A1-2026-10-19)
@@ -115,7 +117,7 @@ P.S. I gotta question: if your next hire were software, what would you name it?
 
 **Subject:** Your team is already using AI. You didn't pick it.
 
-**Preview text:** More than half of workers say so.
+**Preview text:** Census asked workers, not bosses. More than half said yes.
 
 **Reader:** A-1 (wants more sales; the demon is "we're fine") · **Angle:** Worst Way · **Spoke:** front end → the call
 
@@ -126,10 +128,11 @@ Quick question. Who decided how AI gets used in your business?
 
 If the answer is "nobody," that's still an answer. 👀
 
-The Census Bureau asked American workers about it. About 56%
+The Census Bureau asked American workers about it. About **56%**
 said they have used AI on the job for at least one of 11
-tasks. That's from a March 2026 survey of workers, published
-in August.
+tasks.
+
+That's from a March 2026 survey of workers, published in August.
 
 Writing messages and documentation. Searching for answers.
 Coming up with ideas.
@@ -141,15 +144,18 @@ Nobody did anything wrong. They're trying to keep up.
 
 But here's what happens when nobody decides. Your customer
 gets one voice from one person and a different voice from
-another. The quote goes out sounding like a robot wrote it,
-because one did, and nobody checked.
+another.
 
-**Not deciding is also a decision. You just don't get to
-see it.** 💼
+The quote goes out sounding like a robot wrote it, because
+one did, and nobody checked.
 
-The fix isn't a ban. A ban sends it underground. The fix is
-a decision: which jobs get handed to AI, in your voice, with
-your follow-up, and who watches the results.
+**Not deciding is also a decision.** You just don't get to
+see it. 💼
+
+The fix isn't a ban. A ban sends it underground.
+
+The fix is a decision: which jobs get handed to AI, in your
+voice, with your follow-up, and who watches the results.
 
 Read the Census story → (LINK: https://www.census.gov/library/stories/2026/08/ai-use-at-work.html?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-10-19)
 
@@ -161,7 +167,7 @@ Sebastian
 Eat 4 Life
 AI Marketing Made Easy
 
-P.S. Here's a free test. Ask your front desk what they typed into an AI tool this week. Watch their face. 😂
+P.S. Here's a free test. Ask your front desk what they typed into an AI tool this week. Watch their face.
 ```
 
 *Notes:* U.S. Census Bureau story "About a Third of Workers Who Used AI in the Last Week Said They Completed Tasks One to Two Hours Faster," published 2026-08-11 (figures revised 2026-09-24), by Renee Stepler. Source: Household Trends and Outlook Pulse Survey, March 2026. Verbatim: "About 56% of U.S. workers said they have used Artificial Intelligence (AI) on the job for at least one of 11 tasks." Top tasks: searching for information or technical help (37%), writing communications or documentation (32%), generating ideas (32%). The copy lists writing, searching and ideas, which match. **This is a survey of workers, not businesses, and says nothing about which tools or whether the employer knew.** The lines about inconsistent voice and the robot-sounding quote are the writer's illustration of what no policy looks like, not findings. Do not turn them into stats. The editor must not add a time-saved number: the article's time-saved percentages have an unclear denominator.
@@ -173,7 +179,7 @@ P.S. Here's a free test. Ask your front desk what they typed into an AI tool thi
 
 **Subject:** A cold email got me $4,000
 
-**Preview text:** A roofer. No pitch deck. Here's the part that mattered.
+**Preview text:** The roofer wasn't really buying emails.
 
 **Reader:** A-1 (wants more sales) · **Angle:** Results · **Spoke:** front end → the call
 
@@ -187,7 +193,7 @@ Emergency Roofing. They answered a cold email we sent.
 They closed with us for $1,000 up front and $1,000 a month
 for three months. 👀
 
-That's $4,000 from an email.
+That's **$4,000** from an email.
 
 I know what you're thinking. Cold email is dead. Everybody
 says so.
@@ -241,8 +247,8 @@ Don't be the owner. Be a stranger with a problem. Listen to
 what you hear. 👀
 
 Does it ring? How many times? Does anybody pick up?
-If it goes to voicemail, is the message one a stranger
-would leave a message on?
+
+If it goes to voicemail, would a stranger leave a message?
 
 Then fill out your own contact form. Wait.
 
@@ -275,9 +281,9 @@ P.S. Tell me how long it took. Hit reply. I read them. 💬
 
 ## S1 — Monday
 
-**Subject:** More than half of workers already use AI. Did anyone teach them?
+**Subject:** It's not magic. It's just a chat box.
 
-**Preview text:** Nobody taught you either. Here's tonight's side quest.
+**Preview text:** More than half of workers already use one. Tonight's side quest is free.
 
 **Reader:** S-A (just found out digital careers exist) · **Angle:** Best Way Without · **Spoke:** front end → the book
 
@@ -287,7 +293,7 @@ Yo [First Name],
 Here's a number that might change how you feel about this.
 
 The Census Bureau asked American workers if they'd used AI on
-the job. About 56% said yes, for at least one of 11 tasks.
+the job. About **56%** said yes, for at least one of 11 tasks.
 
 That's more than half. It was a March survey. 👀
 
@@ -298,7 +304,7 @@ Nobody's doing anything magic. They're asking a chat box for
 help with the stuff they were already doing.
 
 So you don't need a degree or a tech job. You need to
-get comfortable asking.
+get **comfortable asking**.
 
 Here's a side quest you can do tonight, on your phone, free. 🎮
 
@@ -337,7 +343,7 @@ P.S. I gotta question: what's one place you go to every week that has a confusin
 
 **Subject:** You didn't quit. You got sold a Notion template.
 
-**Preview text:** Same thing happened to me, in a different game.
+**Preview text:** Gamers know this one. Every no is just a lost round.
 
 **Reader:** S-C (tried and failed) · **Angle:** Worst Way + forgive their faults · **Spoke:** front end → the book
 
@@ -376,7 +382,7 @@ line: "I made these for you. Want more?"
 
 That's it. That's the whole round.
 
-Don't buy more content. Finish one thing. 💼
+Don't buy more content. **Finish one thing.** 💼
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S2-2026-10-19)
 
@@ -394,9 +400,9 @@ P.S. What's the last thing you finished? Reply and tell me. I'll go first next t
 
 ## S3 — Friday
 
-**Subject:** Your next client's AI is going to need a manager
+**Subject:** Stop charging for the typing
 
-**Preview text:** It has its own email address. Who's telling it what to do?
+**Preview text:** Google announced an agent with its own email address. Who does it report to?
 
 **Reader:** S-D (made some money, now capped) · **Angle:** Paradigm Shift · **Spoke:** front end → the book
 
@@ -420,14 +426,15 @@ Those are Google's own words about its own product, and the
 companies it names are big ones. So weigh it like that.
 
 But look at the direction. Big companies are starting to
-hire software. Software that needs someone to say what the
+hire software. 🤖 Software that needs someone to say what the
 job is, what good looks like, and when it's wrong.
 
-**That's not typing. That's judgment.**
+That's not typing. **That's judgment.**
 
-Here's the paradigm shift. If you charge for the typing,
-you're competing with something that has an email address.
-If you charge for the judgment, you're the one it reports to.
+If you charge for the typing, you're competing with something
+that has an email address.
+
+If you charge for the judgment, **you're the one it reports to.**
 
 Pick one client. Own one outcome. More booked calls. Fewer
 missed leads. Charge for what changes, not the hours. 💼
@@ -477,15 +484,15 @@ Because when people picture getting a first client, they
 picture a stage. A big pitch. Somebody finally "discovering"
 them.
 
-**It's usually a dinner table.** 👀
+It's usually **a dinner table.** 👀
 
 You've probably already got the thing. You just haven't said
 it out loud to the right person yet.
 
 You don't have to know everything before you start. You need
-to say one thing to one person who needs it.
+to say **one thing to one person** who needs it.
 
-It's Sunday. Don't plan the whole thing. Think of one person
+Don't plan the whole thing. Think of one person
 who runs something, and one thing you could do for them.
 That's your homework. ✊🏾
 
@@ -534,7 +541,7 @@ They've got a shop to run. Even if the tool is free, someone
 has to turn it on, read what it wrote, change what's wrong
 and keep doing it every week.
 
-**The tool is never the hard part. Sitting down and using
+The tool is never the hard part. **Sitting down and using
 it is.** 💼
 
 That's where somebody who isn't afraid of the tools comes in.
@@ -565,9 +572,9 @@ P.S. I gotta question: what's the last review you read before deciding to go som
 
 **Reader:** A-1 · **Angle:** Correlation · **Spoke:** front end → the call
 
-**Subject:** The smallest shops are the least likely to be using AI
+**Subject:** If you're not using AI, you're normal
 
-**Preview text:** Which means the gap is wide open on your block.
+**Preview text:** The smallest shops sit under 20%. The big ones are at 37%.
 
 ```
 Hey [First Name],
@@ -580,7 +587,7 @@ That's about one in five. 👀
 Now here's the part I'd put on a sticky note.
 
 Among firms with 250 or more employees, it's 37%. Among firms
-with four or fewer, it's under 20%.
+with four or fewer, it's **under 20%**.
 
 So the big players are pulling ahead, and the shop with a
 handful of people is mostly standing still.
@@ -592,7 +599,7 @@ Census also says between 20% and 23% of businesses expect to
 be using it within six months. Which means the gap is about
 to start closing.
 
-**The window where you're early is short.** 💼
+The window where you're early is **short.** 💼
 
 If you're not using it, you're normal. And right now,
 you're still early.
