@@ -78,6 +78,12 @@ for l in kept:
         l['notes_for_chosen'] = (f"Legal entity note: {nm[len(m.group(1)):].strip(' ()[]—-')}. " + (l.get('notes_for_chosen') or '')).strip()
     for k in ('owner_first_name', 'owner_last_name', 'owner_title'):
         if str(l.get(k, '')).strip().lower() in ('not found', 'unknown', 'n/a'): l[k] = ''
+    ot = str(l.get('owner_title', '') or '')
+    if len(ot) > 45:
+        short = re.split(r'\s*[\(;—]|\s+and\s+|,\s', ot, maxsplit=1)[0].strip(' ,;')
+        if short and short != ot:
+            l['owner_title'] = short
+            l['notes_for_chosen'] = (f"Title detail: {ot}. " + (l.get('notes_for_chosen') or '')).strip()
     fn = l.get('owner_first_name', '')
     m2 = re.match(r'^([A-Za-z\'\.-]+)\s*[\(\[]', fn)
     if m2: l['owner_first_name'] = m2.group(1)
