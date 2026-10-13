@@ -1,0 +1,8 @@
+node_modules/
+.env
+# Renders: keep only the deliverables.
+films/*/out/*
+!films/*/out/final*.mp4
+!films/*/out/poster.png
+!films/*/out/review_contact.png
+films/_starter/out/

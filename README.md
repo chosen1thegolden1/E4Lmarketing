@@ -66,6 +66,12 @@ White: #FFFFFF
 - Maintain 3x exclusion zone around logos
 - Never rotate, change colors, add effects, or alter proportions
 
+## Motion Studio
+
+`motion-studio/` makes launch videos, product ads and showreels in code (Playwright + ffmpeg + springs +
+a code-synthesized soundtrack). See [motion-studio/README.md](motion-studio/README.md). The first film,
+an 18 s promo for the Free AI Audit, is at `motion-studio/films/e4l-ai-audit/out/final.mp4`.
+
 ## File Structure
 
 ```
