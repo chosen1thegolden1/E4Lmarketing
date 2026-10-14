@@ -1,0 +1,61 @@
+name: Scorecard PDF
+
+# Revenue Leak Scorecard -> branded PDF -> back to GHL, within a minute or two
+# of the lead submitting the scorecard.
+#
+# GHL's CS-Scorecard-Intake workflow sends a repository_dispatch
+# (event_type: scorecard_submitted) with { contact_id, lead: {...} }.
+# scorecard/build-pdf.js builds the PDF, uploads it to the GHL media library,
+# writes contact.cs_scorecard_pdf_url and re-adds the cs-scorecard-pdf-ready
+# tag. GHL's tag-triggered workflow sends the email. See scorecard/README.md.
+#
+# Manual test: Actions -> Scorecard PDF -> Run workflow, paste a payload.
+# Leave "dry run" ticked to only build the PDF (download it from the run's
+# artifacts); untick it to also deliver to that GHL contact.
+on:
+  repository_dispatch:
+    types: [scorecard_submitted]
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: 'Payload JSON: {"contact_id":"...","lead":{"first_name":"...","email":"...","leak_monthly":"..."}}'
+        required: true
+      dry_run:
+        description: 'Dry run: build the PDF only, skip GHL'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scorecard
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build the PDF and hand it to GHL
+        env:
+          SCORECARD_PAYLOAD: ${{ github.event_name == 'repository_dispatch' && toJSON(github.event.client_payload) || inputs.payload }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+          GHL_API_TOKEN: ${{ secrets.GHL_API_TOKEN }}
+          GHL_LOCATION_ID: ${{ secrets.GHL_LOCATION_ID }}
+          SCORECARD_BOOKING_URL: ${{ vars.SCORECARD_BOOKING_URL }}
+        run: node scorecard/build-pdf.js
+
+      # The PDF holds the lead's numbers, so it is kept briefly, for debugging only.
+      - name: Keep the PDF for 3 days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scorecard-pdf
+          path: scorecard/out/*.pdf
+          retention-days: 3
+          if-no-files-found: ignore
