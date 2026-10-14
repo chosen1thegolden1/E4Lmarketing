@@ -15,6 +15,11 @@ const SUPP = `${LM}/data/suppression.csv`
 const SEEN = `${LM}/data/seen.csv`
 const TARGETS = (args && args.targets) || []
 if (!TARGETS.length) throw new Error('pass args.targets')
+// LEAN mode (default): cheaper model for scout + verify, tighter tool budgets. Override with args.scoutModel / args.model / args.verifyModel ('' = session default).
+const MODEL = (args && 'model' in args) ? args.model : ''
+const VMODEL = (args && 'verifyModel' in args) ? args.verifyModel : 'sonnet'
+const SMODEL = (args && 'scoutModel' in args) ? args.scoutModel : 'sonnet'
+const opt = (m, o) => (m ? { ...o, model: m } : o)
 
 const CANDIDATES_SCHEMA = { type: 'object', properties: {
   target_key: { type: 'string' }, searched_sources: { type: 'array', items: { type: 'string' } }, candidates_reviewed: { type: 'integer' },
@@ -66,7 +71,7 @@ ABSOLUTE RULES: public, citable sources only. Never invent, infer, or pattern-gu
 const scoutPrompt = (t) => `${COMMON}
 
 ## YOUR JOB: SCOUT — ${t.niche} in ${t.metro}
-Find 8–12 real, currently operating, owner-operated businesses in this niche and metro, pre-screen them, and return the TOP 3 ranked by fit for E4L (phone-driven revenue, size sweet spot, observable pain signals, reachable owner). Use web search broadly (Google Maps-style queries, "emergency"/"near me" variants, Yelp, BBB, Angi, Nextdoor, local "best of" lists, state license lookups, Facebook pages). For each candidate open the website and the Google Business Profile listing and note review count/rating, hours, "call now" vs online booking, after-hours claims, chat widgets, owner name on About, visible emails, ads (LSA badge / Yelp ads), hiring posts, and review complaints about unanswered calls or slow callbacks.
+BUDGET: at most ~25 tool calls; stop as soon as you have 3 solid candidates. Find 6–10 real, currently operating, owner-operated businesses in this niche and metro, pre-screen them, and return the TOP 3 ranked by fit for E4L (phone-driven revenue, size sweet spot, observable pain signals, reachable owner). Use web search broadly (Google Maps-style queries, "emergency"/"near me" variants, Yelp, BBB, Angi, Nextdoor, local "best of" lists, state license lookups, Facebook pages). For each candidate open the website and the Google Business Profile listing and note review count/rating, hours, "call now" vs online booking, after-hours claims, chat widgets, owner name on About, visible emails, ads (LSA badge / Yelp ads), hiring posts, and review complaints about unanswered calls or slow callbacks.
 Apply the rubric's HARD DISQUALIFIERS and the niche card's disqualifiers. Reject anything on the off-limits lists.
 Entry offer per Chosen's matrix: ${t.matrixEntry}. First-fit tier: ${t.tier}.
 Return the ranked top 3 with pre_score 0–100, concrete observed_signals (with URLs), owner name/email ONLY if actually seen, and a one-line niche_verdict. List rejections briefly. Time box ~10 minutes.`
@@ -76,7 +81,7 @@ const deepPrompt = (t, c) => `${COMMON}
 ## YOUR JOB: DEEP RESEARCH + QUALIFY one candidate (rank ${c.rank} from the ${t.key} scout)
 CANDIDATE: ${JSON.stringify(c)}
 Entry offer per Chosen's matrix: ${t.matrixEntry}. First-fit tier: ${t.tier}.
-Time-boxed to ~12 minutes:
+Time-boxed to ~8 minutes and at most ~30 tool calls. Sam's call fields (best number, hours, timezone, best time to call, 20-second opener, gatekeeper notes) and the owner's name come first; skip any dimension you cannot evidence quickly and write "Not found":
 1. CONFIRM identity + hard disqualifiers (rubric.md). If disqualified, qualified=false with disqualified_reason.
 2. SCORE every rubric dimension from evidence; score_breakdown = "Dimension: pts/weight — evidence" per dimension; lead_score = total; apply the minimum-evidence rule honestly.
 3. OWNER RESEARCH (owner-research.md): name, title, owner-operator vs absentee vs manager, email (type + confidence per the playbook), direct phone if published, LinkedIn, socials, background, personality/values cues, best opening moment. Only emails on a public page; otherwise "Not found".
@@ -87,26 +92,26 @@ Time-boxed to ~12 minutes:
 7. evidence_links = every URL relied on, comma-separated, most important first.
 Leave "Not found" rather than guessing. Phones as +1 XXX-XXX-XXXX. Website as a clean URL.`
 
-const verifyPrompt = (lead) => `You are the skeptic on Eat 4 Life Marketing's lead machine. A researcher produced this lead record. Your job is to try to REFUTE it: re-open the cited pages (WebFetch / web search) and check that the owner's name, title, email, phone, the company website/phone, and the single strongest pain signal are actually supported by those public sources. Also check the business is not a chain/franchise and is not on ${SUPP} or ${SEEN} (grep both).
+const verifyPrompt = (lead) => `You are the skeptic on Eat 4 Life Marketing's lead machine. A researcher produced this lead record. Your job is to try to REFUTE it, in at most ~12 tool calls: re-open the cited pages (WebFetch / web search) and check that the owner's name, title, email, phone, the company website/phone, and the single strongest pain signal are actually supported by those public sources. Also check the business is not a chain/franchise and is not on ${SUPP} or ${SEEN} (grep both).
 LEAD: ${JSON.stringify(lead)}
 Rules: a claim you cannot find on any cited (or newly found public) page is "not-found-on-source"; a claim the page contradicts is "contradicted". An unsupported email or owner name means verdict "deliver-with-fixes" with the field corrected to "Not found" (never substitute a guess), or "drop" if the company identity itself is wrong, it is a chain, or it is off-limits. Return corrected_fields only for fields you changed, an adjusted_score (lower it when key evidence failed), adjusted_confidence, and a one-line reason.`
 
 log(`Scouting ${TARGETS.length} targets`)
 const results = await pipeline(
   TARGETS,
-  (t) => agent(scoutPrompt(t), { label: `scout:${t.key}`, phase: 'Scout', schema: CANDIDATES_SCHEMA }),
+  (t) => agent(scoutPrompt(t), opt(SMODEL, { label: `scout:${t.key}`, phase: 'Scout', schema: CANDIDATES_SCHEMA })),
   async (scout, t) => {
     if (!scout || !scout.ranked || !scout.ranked.length) return { target: t.key, scout, leads: [] }
     const picks = scout.ranked.slice(0, t.deep || 1)
     const leads = await parallel(picks.map((c) => () =>
-      agent(deepPrompt(t, c), { label: `deep:${t.key}#${c.rank}`, phase: 'Deep research', schema: LEAD_SCHEMA })
+      agent(deepPrompt(t, c), opt(MODEL, { label: `deep:${t.key}#${c.rank}`, phase: 'Deep research', schema: LEAD_SCHEMA }))
         .then((lead) => (lead ? { ...lead, _target: t.key, _rank: c.rank } : null))))
     return { target: t.key, scout, leads: leads.filter(Boolean) }
   },
   async (r, t) => {
     if (!r || !r.leads) return r
     const verified = await parallel(r.leads.filter((l) => l.qualified).map((l) => () =>
-      agent(verifyPrompt(l), { label: `verify:${t.key}#${l._rank}`, phase: 'Verify', schema: VERIFY_SCHEMA })
+      agent(verifyPrompt(l), opt(VMODEL, { label: `verify:${t.key}#${l._rank}`, phase: 'Verify', schema: VERIFY_SCHEMA }))
         .then((v) => ({ ...l, _verify: v }))))
     return { ...r, leads: verified.filter(Boolean) }
   },
