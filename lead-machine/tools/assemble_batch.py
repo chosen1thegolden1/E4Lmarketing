@@ -69,8 +69,32 @@ for l in leads:
         dropped.append((name, f"score {l.get('lead_score')} below {a.min_score}")); continue
     seen_dom.add(d); seen_name.add(norm(name)); kept.append(l)
 
+# contact fields must be bare, dialable/mailable values; provenance goes to notes
+PHONE_RE = re.compile(r'\+?1?[\s.\-(]*(\d{3})[)\s.\-]*(\d{3})[\s.\-]*(\d{4})(?:\s*(?:ext\.?|x|extension)\s*(\d+))?', re.I)
+EMAIL_RE = re.compile(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}')
+def tidy_contacts(l):
+    """Reduce owner_direct_phone/company_phone/owner_email to a bare value. Returns list of (field, original)."""
+    moved = []
+    for k, rx, notes_key, label in (('owner_direct_phone', PHONE_RE, 'gatekeeper_notes', 'Owner direct phone detail'),
+                                    ('company_phone', PHONE_RE, 'gatekeeper_notes', 'Company phone detail'),
+                                    ('owner_email', EMAIL_RE, 'notes_for_chosen', 'Owner email detail')):
+        v = str(l.get(k, '') or '').strip()
+        if not v or v.lower().startswith('not found'):
+            if v.lower().startswith('not found') and len(v) > 9:
+                l[notes_key] = (f"{label}: {v}. " + (l.get(notes_key) or '')).strip(); l[k] = 'Not found'
+            continue
+        m = rx.search(v)
+        if not m: continue
+        bare = f"+1 {m.group(1)}-{m.group(2)}-{m.group(3)}" + (f" ext. {m.group(4)}" if rx is PHONE_RE and m.group(4) else '') if rx is PHONE_RE else m.group(0)
+        if bare != v:
+            l[k] = bare
+            l[notes_key] = (f"{label}: {v}. " + (l.get(notes_key) or '')).strip()
+            moved.append((k, v))
+    return moved
+
 # tidy names: move parenthetical legal-entity notes out of company_name, blank "Not found" name parts
 for l in kept:
+    tidy_contacts(l)
     nm = l.get('company_name', '')
     m = re.match(r'^(.*?)\s*[\(\[]\s*((?:[^()\[\]]*?\b(?:legal|dba|d/b/a|llc|inc\b|entity|registry|footer|formerly|domestic|corp\b|l\.p\.|ltd|firm name|name:|bar|site also|also known|aka\b|per bbb|per site)\b).*)$', nm, flags=re.I | re.S)
     if m and m.group(1).strip():
