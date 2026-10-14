@@ -59,6 +59,23 @@ One proper promo a month (5–7 days), maybe one 3–4 day mini. Every promo has
   one, link under every answer) → last-hours reminder sent only to last-7-day openers.
 - Two emails Saturday, three Sunday are allowed on the close — only to recent openers.
 
+## Standing direction: the student side is about *From Xbox to Executive* (Chosen, 2026-10-14)
+
+Starting with the batch for the week of Oct 26, the four student emails (S1, S2, S3, S-SUN)
+are built around the **subject matter of the book**, not around the week's AI news. Chosen's
+words: "Next week's batch needs to be more about the subject matter in Xbox to Executive on
+the student side."
+
+- Each student email teaches or dramatizes **one idea from the book**: the gamer-to-business
+  translation, tilt control (Ch. 2), the lessons in the story bank. The news hook becomes
+  optional garnish, not the spine. Cite a news source only if it truly serves the idea.
+- The CTA stays the book. The email now earns it by showing what is inside.
+- **Use only book material that is on file.** The book's text is not in this repo. Draw from
+  `voice.md` (story bank, tilt control, gaming-to-business) and anything under
+  `docs/book/` if it exists. Do not invent chapter titles, quotes or stories. If a chapter
+  idea is needed and not on file, flag it in the batch header for Chosen rather than guess.
+- Agency side is unchanged.
+
 ## Sequences (automations in GHL — write once, run forever)
 
 | Sequence | Trigger | Length | Notes |
