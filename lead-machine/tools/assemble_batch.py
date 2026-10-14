@@ -81,7 +81,7 @@ def tidy_contacts(l):
         v = str(l.get(k, '') or '').strip()
         if not v or v.lower().startswith('not found'):
             if v.lower().startswith('not found') and len(v) > 9:
-                l[notes_key] = (f"{label}: {v}. " + (l.get(notes_key) or '')).strip(); l[k] = 'Not found'
+                l[notes_key] = (f"{label}: {v}. " + (l.get(notes_key) or '')).strip(); l[k] = 'Not found'; moved.append((k, v))
             continue
         m = rx.search(v)
         if not m: continue
