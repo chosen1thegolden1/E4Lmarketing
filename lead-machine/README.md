@@ -15,7 +15,7 @@ Claude finds, qualifies, and researches 25 small-business leads per weekday for 
 | `tools/hunt_workflow.js` | The reusable Workflow script: Scout → Deep research → Verify. |
 | `tools/lead_schema.json` | The lead record every agent must return (= the sheet's columns). |
 | `tools/make_spec.py`, `tools/build_sheet.py` | Generate the review workbook (README, Sam Call Sheet, Leads, GHL Import, playbook tabs, Suppression, Run Log, Niche Decisions). |
-| `tools/sheet_payloads.py` | Turns a spec into Google Sheets connector calls (tabs, chunked values/formulas, dropdowns, colors, freezes) — the daily upload path. |
+| `tools/sheet_payloads.py` | Turns a spec into Google Sheets connector calls (tabs, chunked values/formulas, dropdowns, colors, freezes) — the daily upload path (connector enabled 2026-10-13; batch 1 was rebuilt with it, batch 2 onward uses it directly). |
 | `tools/assemble_batch.py` | Applies verifier corrections, dedupes, keeps the top 25, assigns Lead IDs, appends the record files. |
 | `data/suppression.csv` | Clients + everyone already on an E4L outreach list (1,160 rows at creation). Add a row to block a company forever. |
 | `data/seen.csv` | Every lead ever delivered (appended each run). |

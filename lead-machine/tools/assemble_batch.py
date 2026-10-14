@@ -87,6 +87,13 @@ for l in kept:
     fn = l.get('owner_first_name', '')
     m2 = re.match(r'^([A-Za-z\'\.-]+)\s*[\(\[]', fn)
     if m2: l['owner_first_name'] = m2.group(1)
+    # owner_last_name and city must be a bare value: strip any parenthetical/explanatory tail into notes
+    for k, label in (('owner_last_name', 'Last name detail'), ('city', 'City detail')):
+        v = str(l.get(k, '') or '')
+        m3 = re.match(r'^([^(\[;:]+?)\s*(?:[\(\[;:].*)$', v, flags=re.S)
+        if m3 and m3.group(1).strip() and m3.group(1).strip() != v.strip():
+            l[k] = m3.group(1).strip(' ,;—-')
+            l['notes_for_chosen'] = (f"{label}: {v}. " + (l.get('notes_for_chosen') or '')).strip()
 
 kept.sort(key=lambda x: -int(x.get('lead_score', 0)))
 final = kept[:a.max]
