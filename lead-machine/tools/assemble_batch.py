@@ -77,14 +77,18 @@ def tidy_contacts(l):
     moved = []
     for k, rx, notes_key, label in (('owner_direct_phone', PHONE_RE, 'gatekeeper_notes', 'Owner direct phone detail'),
                                     ('company_phone', PHONE_RE, 'gatekeeper_notes', 'Company phone detail'),
-                                    ('owner_email', EMAIL_RE, 'notes_for_chosen', 'Owner email detail')):
+                                    ('owner_email', EMAIL_RE, 'notes_for_chosen', 'Owner email detail'),
+                                    ('company_email_generic', EMAIL_RE, 'notes_for_chosen', 'Company email detail')):
         v = str(l.get(k, '') or '').strip()
         if not v or v.lower().startswith('not found'):
             if v.lower().startswith('not found') and len(v) > 9:
                 l[notes_key] = (f"{label}: {v}. " + (l.get(notes_key) or '')).strip(); l[k] = 'Not found'; moved.append((k, v))
             continue
         m = rx.search(v)
-        if not m: continue
+        if not m:
+            if rx is EMAIL_RE and k == 'company_email_generic' and v.lower() != 'not found':
+                l[notes_key] = (f"{label}: {v}. " + (l.get(notes_key) or '')).strip(); l[k] = 'Not found'; moved.append((k, v))
+            continue
         bare = f"+1 {m.group(1)}-{m.group(2)}-{m.group(3)}" + (f" ext. {m.group(4)}" if rx is PHONE_RE and m.group(4) else '') if rx is PHONE_RE else m.group(0)
         if bare != v:
             l[k] = bare
