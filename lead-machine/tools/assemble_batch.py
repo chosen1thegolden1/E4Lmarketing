@@ -93,8 +93,18 @@ def tidy_contacts(l):
     return moved
 
 # tidy names: move parenthetical legal-entity notes out of company_name, blank "Not found" name parts
+ENUMS = {k: v['enum'] for k, v in json.load(open(os.path.join(a.repo, 'lead-machine/tools/lead_schema.json'))).get('properties', {}).items() if isinstance(v, dict) and v.get('enum')}
+def tidy_enums(l):
+    for k, allowed in ENUMS.items():
+        v = str(l.get(k, '') or '').strip()
+        if not v or v in allowed: continue
+        pick = next((o for o in allowed if v.lower().startswith(o.lower())), None) or next((o for o in allowed if o.lower().split(' ')[0] in v.lower()), None) or allowed[-1]
+        l[k] = pick
+        l['notes_for_chosen'] = (f"{k.replace('_', ' ').capitalize()} detail: {v}. " + (l.get('notes_for_chosen') or '')).strip()
+
 for l in kept:
     tidy_contacts(l)
+    tidy_enums(l)
     nm = l.get('company_name', '')
     m = re.match(r'^(.*?)\s*[\(\[]\s*((?:[^()\[\]]*?\b(?:legal|dba|d/b/a|llc|inc\b|entity|registry|footer|formerly|domestic|corp\b|l\.p\.|ltd|firm name|name:|bar|site also|also known|aka\b|per bbb|per site)\b).*)$', nm, flags=re.I | re.S)
     if m and m.group(1).strip():
