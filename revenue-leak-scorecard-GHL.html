@@ -171,6 +171,7 @@ footer .e{color:var(--dim);font-size:11px;margin-top:4px}
     <div class="why">Tell us where to send the full breakdown — you’ll see it on screen right now, and we’ll email you a copy with the fixes ranked.</div>
     <div class="opts one" style="gap:10px">
       <input class="gatein" id="g-name" type="text" placeholder="First name" autocomplete="given-name">
+<input class="gatein" id="g-biz" type="text" placeholder="Business name" autocomplete="organization">
       <input class="gatein" id="g-email" type="email" placeholder="Email" autocomplete="email">
       <input class="gatein" id="g-phone" type="tel" placeholder="Phone" autocomplete="tel">
     </div>
@@ -287,7 +288,7 @@ function calc(){
   const pct=potential>0? total/potential : 0;
 
   $('s-val').textContent=money(total);
-  LAST={total,annual};
+  LAST={total,annual,leaks:{missed_calls:missedLeak,slow_response:speedLeak,dead_database:dbLeak,no_shows:noshowLeak,follow_up:fuLeak}};
   const renderAll=()=>{
   $('r-month').textContent=money(total);
   $('r-year').textContent=money(annual);
@@ -338,7 +339,8 @@ function calc(){
 
 document.getElementById('g-go').addEventListener('click',async()=>{
   const nm=$('g-name').value.trim(), em=$('g-email').value.trim(), ph=$('g-phone').value.trim();
-  if(!nm||!em||!em.includes('@')){ alert('Name and a real email — that’s all we need.'); return; }
+  const bz=$('g-biz')?$('g-biz').value.trim():'';
+if(!nm||!em||!em.includes('@')){ alert('Name and a real email — that’s all we need.'); return; }
   captured=true;
   $('gate').style.display='none';
   if(LAST&&LAST.render) LAST.render();
@@ -347,12 +349,14 @@ document.getElementById('g-go').addEventListener('click',async()=>{
     try{
       await fetch(WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},
         body:JSON.stringify({
-          first_name:nm,email:em,phone:ph,
+          first_name:nm,company_name:bz,email:em,phone:ph,
           industry:LAST.industry||'',
           customer_value:state.val,monthly_inquiries:state.vol,database_size:state.db,
           leak_monthly:Math.round(LAST.total),leak_annual:Math.round(LAST.annual),
           grade:LAST.grade||'',recommended_tier:LAST.tier||'',
-          source:'revenue-leak-scorecard'})});
+          leak_missed_calls:Math.round(LAST.leaks.missed_calls),leak_slow_response:Math.round(LAST.leaks.slow_response),
+leak_dead_database:Math.round(LAST.leaks.dead_database),leak_no_shows:Math.round(LAST.leaks.no_shows),leak_follow_up:Math.round(LAST.leaks.follow_up),
+source:'revenue-leak-scorecard'})});
     }catch(e){console.error('webhook',e);}
   }
 });
