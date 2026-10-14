@@ -1,0 +1,769 @@
+{
+  "subject": "The Chicago Dental Studio",
+  "city": "Chicago, IL",
+  "niche": "dental",
+  "label": "Dental",
+  "date": "2026-10-14",
+  "startedAt": "2026-10-14T09:36:28.422Z",
+  "finishedAt": "2026-10-14T09:49:09.317Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity",
+    "claude"
+  ],
+  "score": "7/28",
+  "named": 7,
+  "total": 28,
+  "failedAsks": 2,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "best dentist in Chicago, IL",
+      "askedAt": "2026-10-14T09:36:28.902Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_chatgpt_q1_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Chicago Style Smiles",
+        "Enamel Dental Studio",
+        "Comprehensive Dental & Implant Center",
+        "Dr. Alan Robbins",
+        "Bite Club Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Chicago Style Smiles",
+        "Enamel Dental Studio",
+        "Comprehensive Dental & Implant Center",
+        "Dr. Alan Robbins",
+        "Bite Club Dental"
+      ],
+      "note": "Recommended five other Chicago dental practices/providers and did not mention The Chicago Dental Studio.",
+      "answerChars": 2282
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "emergency dentist near Chicago, IL",
+      "askedAt": "2026-10-14T09:38:18.281Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_chatgpt_q2_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Northwestern Dental Center",
+        "Windy City Family Dental",
+        "24hr Dentist / Augusta Dental Center",
+        "EmergencyDentalChicago.net",
+        "UIC College of Dentistry",
+        "Northwestern Memorial Hospital Emergency Department"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Northwestern Dental Center",
+        "Windy City Family Dental",
+        "24hr Dentist / Augusta Dental Center",
+        "EmergencyDentalChicago.net",
+        "UIC College of Dentistry",
+        "Northwestern Memorial Hospital Emergency Department"
+      ],
+      "note": "Recommended several other emergency dental practices and a hospital ER, never mentioning The Chicago Dental Studio.",
+      "answerChars": 2279
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "Chicago, IL dentist good with anxious patients",
+      "askedAt": "2026-10-14T09:40:06.794Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_chatgpt_q3_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Marcus Dental Practice",
+        "Water Tower Dental Care",
+        "Lincoln Park Center for Dental Anesthesia",
+        "Lakeview Dental Arts",
+        "Comfort Family Dental",
+        "Forever Dental",
+        "SRB Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Marcus Dental Practice",
+        "Water Tower Dental Care",
+        "Lincoln Park Center for Dental Anesthesia",
+        "Lakeview Dental Arts",
+        "Comfort Family Dental",
+        "Forever Dental",
+        "SRB Dental"
+      ],
+      "note": "Recommended 7 other Chicago dental practices with anxiety/sedation focus, without mentioning The Chicago Dental Studio.",
+      "answerChars": 3173
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "invisalign Chicago, IL",
+      "askedAt": "2026-10-14T09:41:58.195Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_chatgpt_q4_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic guidance on finding Invisalign providers and pricing without naming any specific dental practices.",
+      "answerChars": 1821
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "best cosmetic dentist Chicago, IL",
+      "askedAt": "2026-10-14T09:43:46.046Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_chatgpt_q5_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic guidance and directory/review-site suggestions without naming any specific dental practices.",
+      "answerChars": 2070
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "dentist taking new patients Chicago, IL",
+      "askedAt": "2026-10-14T09:45:35.087Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_chatgpt_q6_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Howard Brown Health",
+        "Modern Dental",
+        "River Village Dental",
+        "3020 Dental Associates",
+        "UIC College of Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Howard Brown Health",
+        "Modern Dental",
+        "River Village Dental",
+        "3020 Dental Associates",
+        "UIC College of Dentistry"
+      ],
+      "note": "Recommended five other Chicago dental clinics plus Zocdoc as a search tool, never mentioning The Chicago Dental Studio.",
+      "answerChars": 2271
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "pediatric dentist near Chicago, IL",
+      "askedAt": "2026-10-14T09:47:22.322Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_chatgpt_q7_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Lurie Children’s Hospital – Dentistry",
+        "Dentistry for Children",
+        "Pine Dental Care",
+        "Tooth Buds Pediatric Dentistry",
+        "Smile Squad Pediatric Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Lurie Children’s Hospital – Dentistry",
+        "Dentistry for Children",
+        "Pine Dental Care",
+        "Tooth Buds Pediatric Dentistry",
+        "Smile Squad Pediatric Dentistry"
+      ],
+      "note": "Recommended five pediatric dental practices in Chicago neighborhoods, none of which was The Chicago Dental Studio.",
+      "answerChars": 1856
+    },
+    {
+      "platform": "claude",
+      "question": 1,
+      "text": "best dentist in Chicago, IL",
+      "askedAt": "2026-10-14T09:36:28.902Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_claude_q1_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Chicago Dental Studio",
+        "Lee Dental Clinic",
+        "Chicago Style Smiles",
+        "Gershenzon Dental",
+        "Always There Dental Care",
+        "Brighter Dental of Old Town",
+        "Downtown Dental Loop",
+        "Mitchell Dental Spa",
+        "Precision Dental Care",
+        "Dr. Richard Kaufman's practice"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Lee Dental Clinic",
+        "Chicago Style Smiles",
+        "Gershenzon Dental",
+        "Always There Dental Care",
+        "Brighter Dental of Old Town",
+        "Downtown Dental Loop",
+        "Mitchell Dental Spa",
+        "Precision Dental Care",
+        "Dr. Richard Kaufman's practice"
+      ],
+      "note": "Named the subject among several top-rated Chicago dental practices, plus specialty picks, with guidance to narrow by neighborhood/need.",
+      "answerChars": 3278
+    },
+    {
+      "platform": "claude",
+      "question": 2,
+      "text": "emergency dentist near Chicago, IL",
+      "askedAt": "2026-10-14T09:36:47.329Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_claude_q2_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Windy City Family Dental",
+        "Downtown Dental",
+        "Chicago Smile Design",
+        "Wicker Park Dental Group",
+        "Affinity Dental",
+        "Blooming Smiles Chicago",
+        "University Dental Professionals",
+        "Associates for Dental Care",
+        "Emergency Dentist of Chicago",
+        "All in One Dentistry",
+        "Lawn Dental Center",
+        "Total Care Dental",
+        "Emergency Dentist 24/7",
+        "Emergency Dental Pros"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Windy City Family Dental",
+        "Downtown Dental",
+        "Chicago Smile Design",
+        "Wicker Park Dental Group",
+        "Affinity Dental",
+        "Blooming Smiles Chicago",
+        "University Dental Professionals",
+        "Associates for Dental Care",
+        "Emergency Dentist of Chicago",
+        "All in One Dentistry",
+        "Lawn Dental Center",
+        "Total Care Dental",
+        "Emergency Dentist 24/7",
+        "Emergency Dental Pros"
+      ],
+      "note": "Listed 14 emergency dental practices and referral hotlines across Chicago neighborhoods, but did not mention The Chicago Dental Studio.",
+      "answerChars": 4507
+    },
+    {
+      "platform": "claude",
+      "question": 3,
+      "text": "Chicago, IL dentist good with anxious patients",
+      "askedAt": "2026-10-14T09:37:08.276Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_claude_q3_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Chicago Dental Arts",
+        "Smile Science Chicago",
+        "Chicago Smile Design",
+        "Vista Dental",
+        "Sonrisa Family Dental",
+        "Chicago Dental 312",
+        "Halsted Street Dental"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Chicago Dental Arts",
+        "Smile Science Chicago",
+        "Chicago Smile Design",
+        "Vista Dental",
+        "Sonrisa Family Dental",
+        "Chicago Dental 312",
+        "Halsted Street Dental"
+      ],
+      "note": "Recommended seven other Chicago dental practices with sedation options for anxious patients, never mentioning The Chicago Dental Studio.",
+      "answerChars": 3547
+    },
+    {
+      "platform": "claude",
+      "question": 4,
+      "text": "invisalign Chicago, IL",
+      "askedAt": "2026-10-14T09:37:25.057Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_claude_q4_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "ORA Dental Studio",
+        "Bubon Orthodontics",
+        "Chicago Loop Dentistry",
+        "North Dental Professionals",
+        "Tilden Dental Group",
+        "Confident Smiles",
+        "Dental Smiles of West Loop",
+        "Bright Dental of Logan Square",
+        "Allure Dental Chicago",
+        "North Pier Dental Associates",
+        "First Dental Center"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ORA Dental Studio",
+        "Bubon Orthodontics",
+        "Chicago Loop Dentistry",
+        "North Dental Professionals",
+        "Tilden Dental Group",
+        "Confident Smiles",
+        "Dental Smiles of West Loop",
+        "Bright Dental of Logan Square",
+        "Allure Dental Chicago",
+        "North Pier Dental Associates",
+        "First Dental Center"
+      ],
+      "note": "Listed 11 competing Chicago Invisalign providers with pricing details but never mentioned The Chicago Dental Studio.",
+      "answerChars": 3625
+    },
+    {
+      "platform": "claude",
+      "question": 5,
+      "text": "best cosmetic dentist Chicago, IL",
+      "askedAt": "2026-10-14T09:37:43.057Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_claude_q5_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Chicago Dental Studio",
+        "Chicago Style Smiles",
+        "Chicago Aesthetic Dentistry",
+        "Chicago Loop Dentistry",
+        "Gershenzon Dental",
+        "Mitchell Dental Spa",
+        "Strobel Dentistry",
+        "Smile Science Chicago"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Chicago Style Smiles",
+        "Chicago Aesthetic Dentistry",
+        "Chicago Loop Dentistry",
+        "Gershenzon Dental",
+        "Mitchell Dental Spa",
+        "Strobel Dentistry",
+        "Smile Science Chicago"
+      ],
+      "note": "Named and praised Chicago Dental Studio first among eight ranked cosmetic dentist options with ratings and details.",
+      "answerChars": 3576
+    },
+    {
+      "platform": "claude",
+      "question": 6,
+      "text": "dentist taking new patients Chicago, IL",
+      "askedAt": "2026-10-14T09:37:59.878Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_claude_q6_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Dr. Janice Choo, DMD",
+        "Dr. Raneem Alhakim, DMD / EVER Dental Studio",
+        "Dr. Alia Ahmed, DDS",
+        "Dr. Constance Hopkins, DDS / Dentologie",
+        "Chicago Loop Dentistry",
+        "Downtown Dental",
+        "Dental Professionals",
+        "Cityscape Dental",
+        "Chicago Dental Dream Team",
+        "Plaza Dental Group",
+        "Family Dental Care of Chicago",
+        "Quadrant Dental",
+        "Joyful Dental Care",
+        "Dentologie - Gold Coast"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dr. Janice Choo, DMD",
+        "Dr. Raneem Alhakim, DMD / EVER Dental Studio",
+        "Dr. Alia Ahmed, DDS",
+        "Dr. Constance Hopkins, DDS / Dentologie",
+        "Chicago Loop Dentistry",
+        "Downtown Dental",
+        "Dental Professionals",
+        "Cityscape Dental",
+        "Chicago Dental Dream Team",
+        "Plaza Dental Group",
+        "Family Dental Care of Chicago",
+        "Quadrant Dental",
+        "Joyful Dental Care",
+        "Dentologie - Gold Coast"
+      ],
+      "note": "Listed 13+ Chicago dentists/practices accepting new patients across neighborhoods, but never mentioned The Chicago Dental Studio.",
+      "answerChars": 3912
+    },
+    {
+      "platform": "claude",
+      "question": 7,
+      "text": "pediatric dentist near Chicago, IL",
+      "askedAt": "2026-10-14T09:38:21.630Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_claude_q7_2026-10-14.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Chicago Pediatric Dentistry & Orthodontics",
+        "Tooth Buds Pediatric Dentistry",
+        "Pediatric Dental Health Associates",
+        "Trooth Pediatric Dentistry",
+        "Tooth Fairy World",
+        "Brighton Park Dental",
+        "Healthy Teeth Beautiful Smile — Dr. Loretta A. Smith"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Chicago Pediatric Dentistry & Orthodontics",
+        "Tooth Buds Pediatric Dentistry",
+        "Pediatric Dental Health Associates",
+        "Trooth Pediatric Dentistry",
+        "Tooth Fairy World",
+        "Brighton Park Dental",
+        "Healthy Teeth Beautiful Smile — Dr. Loretta A. Smith"
+      ],
+      "note": "Recommended 7 pediatric dental practices in Chicago with addresses and phone numbers, none of which was the audit subject 'The Chicago Dental Studio'.",
+      "answerChars": 3363
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "best dentist in Chicago, IL",
+      "askedAt": "2026-10-14T09:36:28.902Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_gemini_q1_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Smile Science Chicago",
+        "Strobel Dentistry",
+        "Miswak Dentistry",
+        "East Village Dental Centre"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Smile Science Chicago",
+        "Strobel Dentistry",
+        "Miswak Dentistry",
+        "East Village Dental Centre"
+      ],
+      "note": "Recommended four other Chicago dental practices, none of which was The Chicago Dental Studio.",
+      "answerChars": 2351
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "emergency dentist near Chicago, IL",
+      "askedAt": "2026-10-14T09:36:54.553Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_gemini_q2_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Augusta Dental Center",
+        "1800 Emergency Dentist 24 Hour",
+        "Emergency Dentistry",
+        "Emergency Dentist of Chicago",
+        "Urgent Dentist Care Chicago"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Augusta Dental Center",
+        "1800 Emergency Dentist 24 Hour",
+        "Emergency Dentistry",
+        "Emergency Dentist of Chicago",
+        "Urgent Dentist Care Chicago"
+      ],
+      "note": "Recommended five other emergency dental practices across Chicago and did not mention The Chicago Dental Studio at all.",
+      "answerChars": 2067
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "Chicago, IL dentist good with anxious patients",
+      "askedAt": "2026-10-14T09:37:17.982Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_gemini_q3_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Chicago Dental 312",
+        "Belmont Dental Care",
+        "Marcus Dental Practice",
+        "Dental Sunshine"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Chicago Dental 312",
+        "Belmont Dental Care",
+        "Marcus Dental Practice",
+        "Dental Sunshine"
+      ],
+      "note": "Recommended four other Chicago dental practices for anxious patients, never naming The Chicago Dental Studio.",
+      "answerChars": 2466
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "invisalign Chicago, IL",
+      "askedAt": "2026-10-14T09:37:41.528Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_gemini_q4_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Dental Group Of Chicago"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dental Group Of Chicago"
+      ],
+      "note": "Gave generic Invisalign cost/provider guidance and cited one competing practice (Dental Group Of Chicago) without naming the audit subject.",
+      "answerChars": 1870
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "best cosmetic dentist Chicago, IL",
+      "askedAt": "2026-10-14T09:38:42.900Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_gemini_q5_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Mitchell Dental Spa",
+        "The Chicago Dental Studio, River North",
+        "The Chicago Dental Studio, West Loop",
+        "The Chicago Dental Studio, Lincoln Park",
+        "The Chicago Dental Studio, Lakeview",
+        "The Chicago Dental Studio Mayfair",
+        "Enamel Dental Studio",
+        "Smile Science Chicago"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Mitchell Dental Spa",
+        "Enamel Dental Studio",
+        "Smile Science Chicago"
+      ],
+      "note": "Listed multiple locations of The Chicago Dental Studio prominently alongside three competing cosmetic dental practices.",
+      "answerChars": 4536
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "dentist taking new patients Chicago, IL",
+      "askedAt": "2026-10-14T09:39:10.812Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_gemini_q6_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "First Dental Center",
+        "Dental Group of Chicago Family & Emergency Dentistry",
+        "Miswak Dentistry",
+        "Shoreline Dental Chicago",
+        "DentArt Chicago"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "First Dental Center",
+        "Dental Group of Chicago Family & Emergency Dentistry",
+        "Miswak Dentistry",
+        "Shoreline Dental Chicago",
+        "DentArt Chicago"
+      ],
+      "note": "Recommended five other Chicago dental practices but did not mention The Chicago Dental Studio.",
+      "answerChars": 2828
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "pediatric dentist near Chicago, IL",
+      "askedAt": "2026-10-14T09:39:33.241Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_gemini_q7_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Chicago Pediatric Dentistry & Orthodontics",
+        "Pediatric Dental Health Associates",
+        "Dentistry For Children and Families",
+        "Little Chompers Pediatric Dentistry",
+        "Little Teeth Big Teeth Pediatric Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Chicago Pediatric Dentistry & Orthodontics",
+        "Pediatric Dental Health Associates",
+        "Dentistry For Children and Families",
+        "Little Chompers Pediatric Dentistry",
+        "Little Teeth Big Teeth Pediatric Dentistry"
+      ],
+      "note": "Recommended five other pediatric dental practices in Chicago, none of which was The Chicago Dental Studio.",
+      "answerChars": 2514
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "best dentist in Chicago, IL",
+      "askedAt": "2026-10-14T09:36:28.902Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_perplexity_q1_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Chicago Loop Dentistry",
+        "The Chicago Dental Studio, River North",
+        "Dental Group of Chicago Family & Emergency Dentistry",
+        "Downtown Dental – Loop",
+        "West Loop Smile Studio",
+        "Premier Dentistry at Millennium Park"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Chicago Loop Dentistry",
+        "Dental Group of Chicago Family & Emergency Dentistry",
+        "Downtown Dental – Loop",
+        "West Loop Smile Studio",
+        "Premier Dentistry at Millennium Park"
+      ],
+      "note": "Listed six top-rated Chicago dentists with ratings and specialties, including The Chicago Dental Studio as a top pick for flexible hours.",
+      "answerChars": 3184
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "emergency dentist near Chicago, IL",
+      "askedAt": "2026-10-14T09:39:15.976Z",
+      "ok": false,
+      "screenshot": "screenshots/the-chicago-dental-studio_perplexity_q2_2026-10-14.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "Chicago, IL dentist good with anxious patients",
+      "askedAt": "2026-10-14T09:40:24.620Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_perplexity_q3_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Marcus Dental Practice",
+        "Chicago Smile Design",
+        "Smile Science Chicago",
+        "Family Dental Care of Chicago",
+        "West Loop Smile Studio",
+        "The Dental Standard",
+        "The Chicago Dental Studio"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Marcus Dental Practice",
+        "Chicago Smile Design",
+        "Smile Science Chicago",
+        "Family Dental Care of Chicago",
+        "West Loop Smile Studio",
+        "The Dental Standard"
+      ],
+      "note": "Listed 7 Chicago dental practices for anxious patients, including the subject with strong reviews, among several competitors offering sedation options.",
+      "answerChars": 3481
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "invisalign Chicago, IL",
+      "askedAt": "2026-10-14T09:43:12.923Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_perplexity_q4_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "UIC College of Dentistry Orthodontic Clinic",
+        "Chicago Dental Studio",
+        "Montrose Dental Group",
+        "Floss & Co.",
+        "Downtown Dental",
+        "JT Orthodontics",
+        "Vista Dental"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "UIC College of Dentistry Orthodontic Clinic",
+        "Montrose Dental Group",
+        "Floss & Co.",
+        "Downtown Dental",
+        "JT Orthodontics",
+        "Vista Dental"
+      ],
+      "note": "Listed seven Chicago Invisalign providers including the subject among several competitors, with cost and process details.",
+      "answerChars": 3131
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "best cosmetic dentist Chicago, IL",
+      "askedAt": "2026-10-14T09:46:37.406Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_perplexity_q5_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "Strobel Dentistry",
+        "Chicago Dental Studio",
+        "Chicago Style Smiles"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Strobel Dentistry",
+        "Chicago Style Smiles"
+      ],
+      "note": "Cited a directory ranking naming Strobel Dentistry first, with Chicago Dental Studio and Chicago Style Smiles also listed as highly rated options.",
+      "answerChars": 916
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "dentist taking new patients Chicago, IL",
+      "askedAt": "2026-10-14T09:47:02.204Z",
+      "ok": false,
+      "screenshot": "screenshots/the-chicago-dental-studio_perplexity_q6_2026-10-14.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "pediatric dentist near Chicago, IL",
+      "askedAt": "2026-10-14T09:48:10.916Z",
+      "ok": true,
+      "screenshot": "screenshots/the-chicago-dental-studio_perplexity_q7_2026-10-14.jpg",
+      "answered": true,
+      "businesses": [
+        "UIC College of Dentistry Pediatric Dentistry Clinics",
+        "Lurie Children's Pediatric Dentistry",
+        "Kids Plus Pediatric Dentistry"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "UIC College of Dentistry Pediatric Dentistry Clinics",
+        "Lurie Children's Pediatric Dentistry",
+        "Kids Plus Pediatric Dentistry"
+      ],
+      "note": "Recommended three pediatric dental clinics in Chicago, none of which was The Chicago Dental Studio.",
+      "answerChars": 867
+    }
+  ]
+}
