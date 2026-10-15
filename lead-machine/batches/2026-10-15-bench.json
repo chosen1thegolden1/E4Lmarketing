@@ -1,0 +1,924 @@
+[
+ {
+  "qualified": true,
+  "disqualified_reason": "None. No hard disqualifier fired. The band is WATCH: score 44 / PROVISIONAL. The blockers are D3 and D4 (no evidence) and D1 = 8 (no email or direct line). The GHL 'E4L Services' dedupe was not run.",
+  "disqualifier_check": "PASS on every check that could be run (checked 2026-10-15).\n- Chain/franchise: PASS. The site says 'independent and family owned venture since 1958'. There is no franchise or 'a [Group] company' language. It has 5 locations (Collierville HQ, Memphis showroom, Jackson TN, Oxford/Batesville MS, Jonesboro AR), well under 25. The other city pages (Hernando, Southaven, etc.) are service-area pages.\n- Website: PASS. choateshvac.com loads, is © 2026 and has SSL.\n- Live US business: PASS. TN entity CHOATE'S AIR CONDITIONING AND HEATING, INC. #000221761 is 'Active', with the 2025 annual report filed 25 Mar 2026 (OpenCorporates mirror of the TN SOS). The BBB is A+ and accredited since 1988-05-01.\n- Inbound channel: PASS. Phone plus a request-info form plus ServiceTitan online scheduling.\n- Competitor/non-buyer: PASS.\n- Already automated on both fronts: PASS. No AI phone agent was found in the page source. A review on the site mentions an unnamed 'answering service', which is a human service, so it is scored, not rejected.\n- Dedupe: PASS against suppression.csv and seen.csv (grep 'choate' returned nothing for name or domain). NOT run against the GHL 'E4L Services' sub-account or the Sent tab.",
+  "company_name": "Choate's Air Conditioning, Heating, Plumbing & Electrical (legal: Choate's Air Conditioning and Heating, Inc.)",
+  "niche": "HVAC (plus plumbing and electrical)",
+  "niche_segment": "core",
+  "website": "https://choateshvac.com",
+  "city": "Collierville",
+  "state": "TN",
+  "street_address": "236 S Mt. Pleasant Rd",
+  "zip": "38017",
+  "company_phone": "+1 901-755-4797",
+  "company_email_generic": "Not found. No mailto or email anywhere on the home, about, careers or HQ pages, in the JSON-LD, or on the BBB profile.",
+  "google_maps_url": "Not found (Google Maps not accessible in this run)",
+  "google_rating": "Not verified on Google. The scout saw 4.8 in a site image description. BBB rating is A+ (https://www.bbb.org/us/tn/collierville/profile/heating-and-air-conditioning/choates-air-conditioning-heating-plumbing-electrical-0543-11249).",
+  "review_count": "Google count: Not found. Customer Lobby shows 2,445 reviews, but the review text is no longer hosted (https://www.customerlobby.com/reviews/2975/choates-air-conditioning-heating--plumbing/). BBB shows 269 customer reviews and 20 complaints filed in the last 3 years.",
+  "founded_or_years": "1958, so 68 years. The About page says 'Joe Choate founded Choate's Air Conditioning and Heating Inc. in 1958'. BBB structured data gives foundingDate 1958-01-02, and it has been BBB accredited since 1988-05-01.",
+  "locations_count": "5, per the site: Collierville HQ (236 S Mt. Pleasant Rd), Memphis Showroom (2526 Sam Cooper Blvd), Jackson TN (3023 US-45 BYP #108), 'Oxford, MS' (address reads 28943 Hwy 6 East, Batesville, MS), and Jonesboro AR Showroom (4315 E. Johnson Ave).",
+  "team_size_estimate": "Not found (no headcount source). For scale: 5 locations, and 9 open production roles listed on /careers (service plumber, HVAC techs, installers, drain tech, plumbing trainer/process manager).",
+  "service_area": "Memphis, Collierville, Germantown, Arlington, Bartlett, Cordova, Lakeland, Jackson, Millington (TN); Olive Branch, Southaven, Horn Lake, Hernando, Oxford (MS); Jonesboro (AR). Source: https://choateshvac.com/",
+  "sub_services": "AC repair, install and maintenance; heating, furnace, boiler and heat pump repair; emergency heating; ductless mini-splits; zoning; insulation; duct cleaning; sheet metal shop; new home construction. Plumbing: emergency plumber, water heaters and tankless, drain cleaning, jetting, sewer camera and sewer line repair, gas lines, water filtration, winterization, kitchen and bath remodeling, real estate inspection. Electrical and whole-home generators. Commercial HVAC, plumbing and electrical. Online filter shop.",
+  "owner_first_name": "Chris",
+  "owner_last_name": "Choate",
+  "owner_title": "Co-Owner / V.P., per the BBB 'Principal contacts'. He is also the TN SOS registered agent, listed as 'CHRISTOPHER K CHOATE' at 236 S Mount Pleasant Rd. The name is CONFIRMED by 3 sources: the About page, the BBB, and the SOS record via OpenCorporates. The title comes from the BBB only, so it is LIKELY.",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found",
+  "owner_email_type": "None found",
+  "owner_email_confidence": "Not found",
+  "owner_direct_phone": "Not found. The BBB lists +1 901-250-1602 (fax 901-755-4803), which is different from the main line, but nothing ties it to Chris. The site lists +1 901-250-2225 on the AC maintenance card only.",
+  "owner_linkedin": "Not found (not checked; the web search budget was exhausted this run)",
+  "owner_other_socials": "Company only: https://www.facebook.com/choateshvac/ and https://www.instagram.com/choateshvac/ (both behind a login wall, so post recency was not checked). No personal owner handles found.",
+  "owner_background": "Third-generation family business. The About page says 'Choate's: 3 Generations Of Serving The Memphis Area'. Founder Joe Choate started it in 1958 after the U.S. Merchant Marines and International Harvester. 'Today, the Choate family, including Chris, Cindy, Brian, and Sol, along with their exceptional team... actively drive growth and success.' Milestones: renamed 1987, commercial work 1989, plumbing division 2001, new Collierville HQ 2022. Chris's personal tenure and prior career: Not found. Second decision-makers per the BBB: Cindy Choate (Office Manager) and Brian Choate (Manager); Sol Choate has no title listed.",
+  "owner_personality_cues": "These are brand-level cues; nothing owner-voiced was found.\n- Values-driven, legacy-proud copy: 'Let our family serve your family', '65+ years legacy', and core values on the About page.\n- Award-forward: Angi Super Service Award 2025, Memphis Business Journal Small Business Awards 2023, Nextdoor winner, BBB A+ accredited since 1988.\n- Community giving: Best Buddies, Asha's Refuge, Memphis Athletic Ministries.\n- Growth language: 'actively drive growth and success'.\n- The About page cites a faith-based founding value. Note it but never use it in outreach copy.",
+  "attitude_type": "Family-Legacy Pride Brand",
+  "attitude_evidence": "Fits Family-Legacy Pride Brand:\n- 'independent and family owned venture since 1958' and 'Founded by Joe Choate' (https://choateshvac.com/).\n- 'Choate's: 3 Generations Of Serving The Memphis Area' and the named family leadership (Chris, Cindy, Brian, Sol), plus a founder story and timeline (https://choateshvac.com/about/).\n- Surname in the business name; BBB accredited since 1988; community-giving page (https://choateshvac.com/giving-back/).\n\nThere is also a Tech-Forward overlay: ServiceTitan online scheduling and customer portal, 60-month financing, and the FAM Plan membership. So pitch after-hours and overflow coverage that protects the name, never replacing their office. Owner review-reply tone was not checked.",
+  "tech_adoption": "High:\n- ServiceTitan scheduling widget (se-widget) and customer portal (choateshvac.myservicetitan.com).\n- Online filter shop (shop.choateshvac.com).\n- Consumer financing ('60 MONTH NO INTEREST FINANCING').\n- Customer Lobby review program.\n- ADP Workforce Now for hiring.\n- WordPress + Yoast with HVACBusiness JSON-LD.\n- Google Tag Manager (GTM-P4TQWB6S, GTM-WH7P6JC), GA4 (G-CZFT079ZH4), Meta pixel (fbq).\n- No chat or text widget.",
+  "marketing_sophistication": "Medium-high:\n- Two GTM containers, GA4 and a Meta pixel.\n- A Google Guaranteed badge on the About page (LSA participation is self-claimed and was not verified in the LSA unit).\n- Running promos: 'America turns 250' and 'LIMITED TIME ONLY: EARLY BIRD A/C TUNE UP', the latter still on the homepage in mid-October.\n- Advertising and sponsorship pages, plus a blog.\n- No agency credit in the footer or page source, so no bundled vertical agency is detected. An in-house marketer may exist but was not confirmed.",
+  "growth_stage": "Established and expanding. 68 years old, 5 locations across TN, MS and AR, a new HQ in 2022, 9 open production roles (undated), and the About page says they 'actively drive growth and success'.",
+  "review_response_behavior": "Not found. Google and Yelp reviews were not accessible (Yelp returned 403), and BBB and Customer Lobby show no review text or replies. Sam or Chosen should read the 10 newest Google replies before calling.",
+  "after_hours_handling": "Partly evidenced:\n- 24/7 plumbing is claimed: 'Sewer Line Repair ... 24/7 plumbers since 1958', 'Drain Cleaning ... 24/7 service since 1958', and Emergency Plumber 'Call now for immediate help' (https://choateshvac.com/).\n- The Carrier dealer listing says 24-hour emergency service.\n- No hours are posted anywhere on the site, including the HQ page (https://choateshvac.com/our-locations/collierville-headquarters/).\n- A customer review on the site mentions an answering service: 'The technician and the answering service both were very professional' (Daimon Russell, undated, on the HQ page). It is unclear whether that service is in-house or outsourced, or whether it runs 24/7.\n- One main number, (901) 755-4797, is used for all 5 locations.\n\nTest-call after hours to log who answers (human service, IVR or voicemail).",
+  "online_booking": "Yes. 'Schedule Online' buttons use a ServiceTitan scheduling widget (se-widget-embed in the page source), and there is a customer portal at choateshvac.myservicetitan.com. The HQ page says 'For real time non-emergency availability click Schedule Online.'",
+  "chat_or_text_on_site": "None. No chat, 'text us' or SMS widget in the homepage source (scanned for podium, birdeye, tidio, intercom, drift, tawk, livechat, nicejob and others; none found).",
+  "vendors_detected": "ServiceTitan (scheduling and portal); Google Tag Manager x2; GA4; Meta pixel; WordPress + Yoast SEO; Customer Lobby (reviews); ADP Workforce Now (careers); Carrier Authorized Dealer; Rinnai, Bradford White and Wise Choice badges; an unnamed answering service (from one customer review). No call tracking (CallRail/CTM) and no AI voice vendor in the page source.",
+  "ads_running": "Not verified. Signals:\n- Google Guaranteed badge shown on the About page, which suggests LSA, but it was not checked in the LSA unit.\n- Meta pixel and GTM are installed.\n- Angi Super Service Award 2025 means an Angi listing exists.\n- Google Ads Transparency, the Sponsored-results check and the Meta Ad Library were not checked (no search budget; those pages are JS-only).",
+  "ai_search_presence": "Not checked. No AI platform was queried this run and the web search budget was exhausted. The site does have HVACBusiness (LocalBusiness subtype) JSON-LD on 5 location entries plus Yoast. Run 'emergency HVAC repair near Collierville, TN' and 'best-reviewed HVAC company in Memphis, TN' on ChatGPT and Perplexity before any GEO pitch.",
+  "pain_signals": "There is no verbatim missed-call complaint yet.\n1. An answering service handles some calls: 'The technician and the answering service both were very professional' (customer review on https://choateshvac.com/our-locations/collierville-headquarters/). This means calls are already being handed off.\n2. 24/7 plumbing is claimed ('24/7 plumbers since 1958') but no hours are posted anywhere, so the after-hours experience can't be verified (https://choateshvac.com/).\n3. One main line, (901) 755-4797, serves 5 locations in 3 states (https://choateshvac.com/).\n4. The homepage still promotes 'LIMITED TIME ONLY: EARLY BIRD A/C TUNE UP' in mid-October with no heating-season offer visible (https://choateshvac.com/).\n5. The BBB shows '20 complaints filed in last 3 years', but the text could not be read (https://www.bbb.org/us/tn/collierville/profile/heating-and-air-conditioning/choates-air-conditioning-heating-plumbing-electrical-0543-11249).\n\nNot found: front-office job posts (/careers lists production roles plus 'Inside sales' and 'Comfort Advisor sales', but no CSR or dispatcher role).",
+  "trigger_events": "No dated business-specific trigger within 60 days.\n- Heating season is opening now in Memphis (October). This comes from the vertical calendar; there is no heating promo on the site yet.\n- 'America turns 250' promo (2026) on the homepage.\n- 2025 annual report filed with TN SOS on 25 Mar 2026.\n- Hiring 9 production roles on /careers (undated).\n- Angi Super Service Award 2025.\n- Memphis Business Journal Small Business Awards 2023.\n- New Collierville HQ in 2022.",
+  "lead_score": 44,
+  "score_breakdown": "D1 Decision-maker: 8/20. Chris Choate is named on the About page ('the Choate family, including Chris, Cindy, Brian, and Sol'), as 'Co-Owner/V.P.' on the BBB, and as registered agent 'CHRISTOPHER K CHOATE' in the TN SOS record via OpenCorporates (#000221761). There is no email or direct line, so contact is the main line plus a form. This is the call-first route.\n\nD2 Phone gap: 9/15. The site is phone-first ('Call Us Today 901 755 4797' in the header) and HVAC/plumbing is an inherently urgent niche. But a human 'answering service' is mentioned in a customer review (not confirmed as 24/7), plumbing claims '24/7 service since 1958', and no hours are posted (https://choateshvac.com/our-locations/collierville-headquarters/).\n\nD3 Leak evidence: 0/15, NO EVIDENCE (partial null). Checked:\n- /careers: production and sales roles only, no CSR or dispatcher.\n- BBB complaints: 20 in 3 years, text not visible.\n- Customer Lobby: reviews no longer hosted.\n- Google and Yelp: not accessible (Yelp returned 403).\n- Booking friction: absent (ServiceTitan scheduling).\n\nD4 GEO: 0/10, NO EVIDENCE. No AI platform was checked. The site has HVACBusiness JSON-LD.\n\nD5 ICP / ability to pay: 10/15. Independent and family-owned since 1958, 5 owner-run locations (the 4-9 location rule applies), HVAC is on the core niche list. Proxies: 68 years; 2,445 Customer Lobby and 269 BBB reviews; 60-month financing; 24/7 plumbing; 15-city service area across 3 states; HVAC install ticket of $6-12k.\n\nD6 Buying signals: 7/15. No dated trigger within 60 days; the heating season is inferred from the vertical calendar. Spend groups found: (d) GTM x2 + GA4 + Meta pixel and (e) an Angi listing (Super Service Award 2025). The Google Guaranteed badge is self-displayed on the About page and was not verified in the LSA unit. If the LSA unit confirms it, D6 moves to 11. Ads Transparency and the Meta Ad Library were not checked.\n\nD7 Attitude / stack: 10/10. Positives: (b) © 2026 with SSL; (c) ServiceTitan scheduling and portal, financing, Customer Lobby; (e) hiring 9 roles, Angi 2025 and MBJ 2023 awards, new HQ 2022. No negatives seen and no bundled agency credit. Review-reply tone was not checked.\n\nTOTAL: 44 / PROVISIONAL, band WATCH. Missing dimensions: D3 and D4. GHL dedupe was not run. D2 has direct quotes but no GBP hours string.",
+  "recommended_entry_offer": "Voice AI live demo line built from choateshvac.com, framed as after-hours and overflow coverage for heating and plumbing emergencies across all 5 locations. It sits alongside their existing office and answering service and does not replace them. Back it up with a free AI Search Visibility audit once D4 is run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Choate's after-hours heating calls",
+  "personalized_first_line": "Chris, going from Joe Choate's shop in 1958 to five locations from Collierville to Jonesboro means a lot of no-heat calls are about to come in at night and on weekends, and I'm curious who picks those up for you.",
+  "call_angle": "Respect the 68-year, three-generation legacy. Then ask the qualifying question: 'Who's picking up the 9pm no-heat and burst-pipe calls across all five locations right now, your answering service or voicemail?' Position the AI receptionist as overflow and after-hours coverage trained on Choate's own story and services that takes the caller's details and books the appointment. It never replaces Cindy's office or their team. Proof lever: a demo line built from their website that they can call before paying anything. Ask: a 20-minute Game Plan Call with Sebastian.",
+  "likely_objection": "'We already have an answering service and an office team, and customers can book online.' Response: this covers only the overflow and after-hours calls. Let them call the demo and compare it with what their current service does with a no-heat call at 10pm. There is nothing to switch until they've heard it.",
+  "why_now": "Heating season is starting in the Memphis metro (mid-October). No-heat and frozen-pipe calls spike at nights and on weekends, and FAM Plan members expect priority service. The homepage still runs a spring 'Early Bird A/C tune up' offer with no heating offer visible. Caveat: the seasonal timing comes from the vertical calendar, not a dated company post.",
+  "notes_for_chosen": "PROVISIONAL / WATCH (44). Do not put this lead in the daily 10 until these gaps are closed:\n1. Run the GHL 'E4L Services' dedupe; only suppression.csv and seen.csv were checked.\n2. Read the Google reviews (newest and lowest) for call, phone and voicemail complaints and owner reply tone.\n3. Run 2 GEO money questions on ChatGPT and Perplexity.\n4. Confirm GBP hours and whether the Google Guaranteed badge shows in the LSA unit.\n\nContacts:\n- Owner: Chris (Christopher K.) Choate, Co-Owner/V.P. per the BBB and registered agent per the TN SOS.\n- Cindy Choate (Office Manager) and Brian Choate (Manager) are also listed. Cindy is the likely gatekeeper and a second decision-maker.\n- No email was found anywhere, so this is call-first (Sam). Do not guess an address.\n\nPhones (all different numbers; none tied to Chris):\n- +1 901-755-4797: main line.\n- +1 901-250-1602: listed on the BBB.\n- +1 901-250-2225: on the site's AC maintenance card.\n\nStack and copy:\n- They run ServiceTitan. Don't promise the demo books into it; say it 'books the appointment' until integration is confirmed.\n- A customer review on the site mentions an 'answering service', so the pitch is overflow and after-hours, not a missing receptionist.\n- The About page cites a faith-based founding value. Don't use it in copy.\n- Oxford, MS location: the site gives a Batesville, MS address. Don't cite that address.\n\nResearch limits: this was a time-boxed run with the web search budget exhausted. LinkedIn, the Meta Ad Library and Google Ads were not checked.",
+  "timezone": "Central Time (CT), Memphis metro",
+  "business_hours": "Not found. No hours on choateshvac.com (home, about or HQ pages, or the JSON-LD) or on the BBB profile. The site claims 24/7 for plumbing, and the Carrier dealer page lists 24-hour emergency service. Google Business Profile hours were not checked.",
+  "best_time_to_call": "Tue–Thu, 9:30–11:00 AM CT, after the morning truck dispatch and before the lunch rush. Ask for Chris Choate by name; if he's out, ask for Cindy Choate (Office Manager per the BBB). Avoid Monday mornings: with heating season starting, the weekend's no-heat call backlog lands then. This window is an inference from typical HVAC dispatch patterns; no Choate's-specific source says when Chris is in the office.",
+  "call_opener": "Hi, is this Chris Choate? Chris, this is Sam with Eat For Life Marketing. Honest heads-up, this is a cold call. Can I have 20 seconds, and you tell me if it's worth another minute? I saw Choate's has been family-run since 1958 and now covers five locations, Collierville to Jonesboro. Heating season's here, and those no-heat calls come in at night and on weekends. We build an AI receptionist trained on your own business that picks up the overflow and after-hours calls and books the appointment. We'd build you a demo line from your website you can call before you ever pay a dollar. Would a 20-minute call with our founder, Sebastian, be crazy?",
+  "gatekeeper_notes": "The main line +1 901-755-4797 serves all 5 locations. A customer review on the site mentions an 'answering service', so after hours (and maybe overflow) you may reach a third-party service. Call during business hours. The BBB lists Cindy Choate as Office Manager and Brian Choate as Manager; either may screen. Ask for 'Chris Choate' by full name. If screened, ask Cindy: 'Who handles decisions on your after-hours phones and marketing, Chris or you?' She may be the co-decision-maker. The BBB-listed number +1 901-250-1602 is an alternate office line (not confirmed as Chris's). No owner cell is published. Log who answered (human, service, IVR or voicemail) so D2 can be updated.",
+  "best_opening_moment": "The 68-year, three-generation legacy (founded 1958 by Joe Choate, now led by Chris, Cindy, Brian and Sol, with 5 locations) plus heating season starting now. Neutral phone-process observation: 'your site says 24/7 for plumbing; curious who picks up a no-heat call at 10pm' (https://choateshvac.com/about/, https://choateshvac.com/).",
+  "evidence_links": "https://choateshvac.com/about/, https://www.bbb.org/us/tn/collierville/profile/heating-and-air-conditioning/choates-air-conditioning-heating-plumbing-electrical-0543-11249, https://opencorporates.com/companies/us_tn/000221761, https://choateshvac.com/, https://choateshvac.com/our-locations/collierville-headquarters/, https://choateshvac.com/careers/, https://choateshvac.com/giving-back/, https://www.customerlobby.com/reviews/2975/choates-air-conditioning-heating--plumbing/, https://www.bbb.org/us/tn/collierville/profile/heating-and-air-conditioning/choates-air-conditioning-heating-plumbing-electrical-0543-11249/complaints, https://www.carrier.com/us/en/residential/dealers/tn/collierville/236-s.-mt.-pleasant-rd-85046-loc/air-conditioner-repair-service, https://choateshvac.myservicetitan.com, https://www.facebook.com/choateshvac/, https://www.instagram.com/choateshvac/",
+  "research_confidence": "Medium",
+  "_target": "hvac-memphis",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver",
+   "checks": [
+    {
+     "claim": "Owner name Chris Choate (About page, BBB, TN SOS registered agent Christopher K. Choate)",
+     "result": "confirmed",
+     "note": "About names Chris, Cindy, Brian, Sol with no titles. BBB lists Chris Choate. OpenCorporates shows registered agent Christopher K. Choate at 236 S Mount Pleasant Rd."
+    },
+    {
+     "claim": "Owner title Co-Owner/V.P. (BBB only)",
+     "result": "confirmed",
+     "note": "BBB principal contacts: Chris Choate, Co-Owner/V.P.; Cindy Choate, Office Manager; Brian Choate, Manager; Sol Choate, no title. Single-source, as the lead says."
+    },
+    {
+     "claim": "Owner email and owner direct phone are Not found",
+     "result": "confirmed",
+     "note": "No email on the home, about or HQ pages or the BBB listing. BBB phone (901) 250-1602 and the 901-250-2225 maintenance-card number are not tied to Chris, as the lead says."
+    },
+    {
+     "claim": "Company website/phone: choateshvac.com, +1 901-755-4797 main line",
+     "result": "confirmed",
+     "note": "901-755-4797 is on every location and the header. 901-250-2225 appears in the AC maintenance section as stated. BBB lists 901-250-1602 and fax 901-755-4803."
+    },
+    {
+     "claim": "Not a chain/franchise",
+     "result": "confirmed",
+     "note": "Homepage: 'independent and family owned venture since 1958'. About page: 'Family Owned and Operated since 1958'. No franchise language on either. TN entity is active, with the 2025 annual report filed 25 Mar 2026."
+    },
+    {
+     "claim": "Strongest pain signal: customer review mentions an 'answering service'",
+     "result": "confirmed",
+     "note": "Daimon Russell on the HQ page: 'The technician and the answering service both were very professional...'. No hours posted on the HQ page or homepage."
+    },
+    {
+     "claim": "24/7 plumbing claim with no posted hours",
+     "result": "confirmed",
+     "note": "Homepage says 'drain cleaning, upfront pricing, and 24/7 service since 1958'. No hours found. The HQ page itself has no 24/7 claim, which matches the lead citing the homepage."
+    },
+    {
+     "claim": "Homepage still shows Early Bird A/C tune-up promo",
+     "result": "confirmed",
+     "note": "Homepage: 'LIMITED TIME ONLY: EARLY BIRD A/C TUNE UP $68'."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Case-insensitive grep for 'choate' across both files returned no matches (exit 1). GHL dedupe was not run, as the lead discloses."
+    }
+   ],
+   "corrected_fields": {},
+   "adjusted_score": 44,
+   "adjusted_confidence": "Medium",
+   "reason": "Owner name, BBB title, phones, independent/family-owned status, answering-service pain signal and clean suppression/seen greps all verified. Email and direct phone are correctly Not found. The 44 WATCH score and Medium confidence stand, since D3, D4 and the GHL dedupe remain open."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passes every hard disqualifier: independent and single-location (a Bryant dealer is not a franchise), own working site, Active TN for-profit corporation (2026 annual report filed 18 Sep 2026), phone-first, not in suppression.csv or seen.csv. Score is 41, which is WATCH and below the 55 delivery floor. The row is PROVISIONAL because D4 was not checked and GHL dedupe (ghl-contacts.js) was not run.",
+  "company_name": "BryKo Heating & Air Conditioning Co.",
+  "niche": "HVAC",
+  "niche_segment": "core",
+  "website": "https://www.brykohvac.com",
+  "company_phone": "+1 901-386-2538",
+  "company_email_generic": "brykoheatandac@att.net (published in the site's HVACBusiness JSON-LD in the page source at https://www.brykohvac.com/. It is not shown as visible text, and the contact page lists no email.)",
+  "street_address": "5302 Crestview Rd (site and TN SOS mailing address). BBB and the SOS registered-agent record give 5302 Crestview Dr.",
+  "city": "Memphis",
+  "state": "TN",
+  "zip": "38134",
+  "timezone": "Central (America/Chicago, CDT until Nov 1, 2026)",
+  "business_hours": "Mon-Fri 7:30 AM-5:00 PM CT; Sat-Sun closed (site contact page and openingHoursSpecification in the schema). The site also claims '24/7 Emergency Services' and a '24/7 answering service and after-hours tech support'. GBP hours were not checked.",
+  "best_time_to_call": "Tue-Thu 7:30-8:15 AM CT. The office opens at 7:30 and the playbook's trades window is 7:00-8:30 AM, so this catches the office before the day's service calls stack up. Backup is 4:00-4:45 PM CT, before the 5:00 PM close. Do not call on weekends (closed; calls go to the answering service).",
+  "call_opener": "Hi, is this Eddie? ... Eddie, this is Sam with E4L. This is a cold call, so can I have 20 seconds to tell you why I'm calling, and then you tell me if it's worth a conversation? I saw BryKo has been family-owned since 1967, and your site promises 24/7 emergency service through an answering service. Here's the thing: when a homeowner with no heat at 9 PM gets a message-taker, a lot of them just call the next name on Google. We build an AI receptionist trained on your own company that answers those after-hours calls, sorts out the true emergencies and books the next-morning slot. We'll build you a demo line you can call yourself before you spend a dollar. Worth 20 minutes with our founder to hear it?",
+  "gatekeeper_notes": "BBB lists 'Ms. Leigh Holden, Office Manager', so she most likely answers the main line during business hours. Be friendly, and present the product as after-hours and overflow coverage only, never as a replacement for the office. Ask for 'Eddie Gelston' (BBB: 'Mr. Eddie W. Gelston, President'). If Eddie is not the current decision-maker, ask for Curtis Gelston, who is the TN registered agent at the business address (per OpenCorporates). Calls after 5 PM and on weekends go to the '24/7 answering service' (vendor not named). No owner cell or direct line is published. The BBB fax is +1 901-385-9811 (do not use). The only named technician is 'Matt' in a customer review.",
+  "owner_first_name": "Eddie",
+  "owner_last_name": "Gelston",
+  "owner_title": "President (per BBB Business Management; middle initial W.)",
+  "owner_role_type": "Unknown",
+  "owner_email": "Not found (only the business mailbox brykoheatandac@att.net exists, from the site schema)",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Likely",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found (not checked: the WebSearch budget for this run was used up)",
+  "owner_other_socials": "Company Facebook only: https://facebook.com/BrykoHeatingAirConditioningCo/ (linked from the site; content is behind the Facebook login and could not be read). No personal owner socials found.",
+  "owner_background": "Not found beyond the title. BBB names Eddie W. Gelston as President. The TN SOS record (via OpenCorporates) lists CURTIS J GELSTON as registered agent at 5302 Crestview Dr, which ties the Gelston family to the business. The company itself dates to 1967 (site 'Family-Owned Since 1967'; BBB founding date 1967-08-01; BBB accredited since 1976). Generation, years as owner and the relationship between Eddie and Curtis were not found.",
+  "owner_personality_cues": "These are brand-level statements on the site, not owner-signed: 'Honest people, honest pricing'; 'We repair whenever repair makes sense and only recommend replacement when it is truly in your best interest — not just the more profitable choice' (FAQ schema); 'Family-Owned & Locally Operated'. BBB: A+, accredited, 0 complaints in 3 years. No owner-signed review replies were found on the site's review page.",
+  "best_opening_moment": "Now: the Memphis heating season is starting (mid-October), and the site's own FAQ asks 'Do you offer emergency heating repair in Memphis?'. The first cold snap brings no-heat calls after 5 PM and on weekends, which go to the answering service. Lead with the 1967 family legacy and 'Honest people, honest pricing'.",
+  "attitude_type": "Family-Legacy Pride Brand (medium confidence)",
+  "attitude_evidence": "3 signals across 2 source categories. (1) Website: 'Family-Owned Since 1967' and 'Family-Owned & Locally Operated' (https://www.brykohvac.com/, /about-us). (2) Website copy on honesty: 'Honest people, honest pricing' and 'only recommend replacement when it is truly in your best interest — not just the more profitable choice' (homepage schema/FAQ). (3) BBB: Accredited Business since 1976, A+, 0 complaints in 3 years, founding date 1967-08-01 (https://www.bbb.org/us/tn/memphis/profile/heating-and-air-conditioning/bryko-heating-ac-company-0543-327). No contrary signals found. Approach: respect the legacy, frame the product as protecting the name after hours, use a personal and slightly formal tone, and never suggest replacing the office manager.",
+  "tech_adoption": "basic. Customer-facing: SSL, contact form, 'Make a Payment' page; no online booking, chat or text-us. FAQPage and HVACBusiness JSON-LD are present but appear vendor-built (Duda reseller site).",
+  "marketing_sophistication": "unknown, leaning agency_managed. The site is a Duda reseller build (body class 'dmResellerSite'; cdn-website.com/multiscreensite.com assets). It has monthly city-targeted blog posts (Apr 28 to Sep 25, 2026, on /resources), GA4 (G-9JVPJTCD4H) and a Xandr/AppNexus (adnxs) pixel. No agency is credited in the footer, and there is no call tracking or Meta pixel.",
+  "growth_stage": "established (since 1967; one location; active TN corp with annual reports filed every year 2019-2026)",
+  "review_response_behavior": "unknown. The site's review page shows 14 five-star excerpts with no owner replies. GBP reply rate was not checked.",
+  "after_hours_handling": "An unnamed answering service. The site says 'You'll appreciate our 24/7 answering service and after-hours tech support' and 'Bryko provides 24/7 emergency HVAC service... Call any time and a technician will respond promptly'. Office hours are Mon-Fri 7:30-5:00 and closed Sat-Sun. The contact page gives no after-hours instructions. Whether the service books jobs or only takes messages is unverified; Sam should find out by asking.",
+  "online_booking": "None. The contact page has a form ('We will get back to you as soon as possible.') and the site has a payment page, but there is no scheduler in the page source.",
+  "chat_or_text_on_site": "None (no chat or text widget scripts in the homepage source)",
+  "vendors_detected": "Duda website platform (reseller/agency build; agency not named); Google Analytics 4 via gtag (G-9JVPJTCD4H); Xandr/AppNexus adnxs pixel (px id 1913472); Bryant (official dealer). None found: CallRail, Podium, Birdeye, ServiceTitan, Housecall Pro, Jobber, Meta pixel, chat tools, financing partners.",
+  "ads_running": "Not confirmed. A Xandr/AppNexus (adnxs) pixel in the page source suggests programmatic display or retargeting, but no Google Ads (AW-) tag or call tracking is present. Google Sponsored results, LSA and the Meta Ad Library were not checked because the WebSearch budget was used up.",
+  "ai_search_presence": "Not checked: the WebSearch budget for this run was used up, and no AI platform could be queried. Note that the site already carries FAQPage plus HVACBusiness JSON-LD, so D4 would cap at 6 even if BryKo is named in 0 answers.",
+  "pain_signals": "(1) Hours gap: 'Mon - Fri 7:30 am - 5:00 pm / Sat - Sun Closed' alongside '24/7 Emergency Services', with after-hours handled by '24/7 answering service and after-hours tech support' (https://www.brykohvac.com/contact, homepage). (2) Booking friction: no online scheduling, chat or text; the contact form promises only 'We will get back to you as soon as possible.' (https://www.brykohvac.com/contact). Counter-evidence: reviews praise responsiveness, e.g. 'Came out the same day I called & fixed my AC' and 'I called and had a tech there within two hours' (https://www.brykohvac.com/reviews). No review complaints about missed calls were found, no receptionist job posts were found, and BBB shows 0 complaints.",
+  "trigger_events": "No dated business-specific trigger found. The vertical calendar puts the Memphis heating season opening now (October), and the site's FAQ and blog push heating ('How to vet a residential heating contractor in Memphis, TN'). Routine TN annual report filed 18 Sep 2026 (not a trigger). Steady monthly blog posting Apr-Sep 2026. No hiring, expansion, ownership change or new site found.",
+  "lead_score": 41,
+  "score_breakdown": "D1 Decision-maker: 8/20 — full name and role cited from BBB ('Mr. Eddie W. Gelston, President'), with the Gelston family corroborated by the TN SOS registered agent 'CURTIS J GELSTON' at 5302 Crestview Dr (OpenCorporates). The only email is the business mailbox brykoheatandac@att.net (site JSON-LD), plus a staffed main line. No owner email, cell or LinkedIn, so call-first. | D2 Phone gap: 4/15 — phone-first (click-to-call throughout, HVAC is an urgent niche, closed Sat-Sun and after 5 PM while claiming '24/7 Emergency Services'). Scored at 4 because the site credits a '24/7 answering service and after-hours tech support', which makes the pitch a cost-replacement/upgrade conversation: book the job instead of taking a message. | D3 Leak evidence: 5/15 — one signal type, booking friction (no online booking, chat or text; the form promises only 'as soon as possible'; checked in page source). Reviews on /reviews praise speed ('tech there within two hours'), BBB has 0 complaints, and no job posts were found; GBP reviews and reply rate were not checked. | D4 AI search: 0/10 — NO EVIDENCE (the WebSearch budget was used up and no AI platform was queried). The site has FAQPage and HVACBusiness JSON-LD, so the cap would be 6. | D5 ICP fit: 15/15 — independent, single location, family-owned (site); core HVAC niche; proxies: since 1967 (site and BBB 1967-08-01), a service area of 5+ cities (Memphis, Cordova, Bartlett, Germantown, Collierville), 24/7 emergency service, and full system installs (HVAC install $6-12k reference row; review: 'replaced both in and out units'). | D6 Buying signals: 3/15 — soft activity only: monthly blog posts Apr 28 to Sep 25, 2026 (/resources). Checked: footer (no agency credit), view-source (GA4 and an adnxs pixel; no AW- tag, CallRail or Meta pixel), no careers page. Not checked: Google Sponsored, LSA, Meta Ad Library. | D7 Attitude/stack: 6/10 — positives: a modern, maintained site (SSL, dynamic copyright, content updated Oct 2026) and BBB A+ since 1976. No negatives found. The site is a Duda reseller build with schema and SEO blog (some vendor manages content; not named, so no conflict flagged). Owner review replies and social activity were not observed. | TOTAL 41 / PROVISIONAL → WATCH. Missing: D4 evidence; GHL 'E4L Services' dedupe not run. Blockers: D4 and the D2 answering-service credit.",
+  "recommended_entry_offer": "Voice AI live demo built from brykohvac.com, framed as 'books the job instead of taking a message' after hours and on weekends. Keep the existing answering service optional and position the product as after-hours/overflow only. Seasonal urgency angle: heating season and no-heat nights. Secondary: a free AI-visibility check once D4 is run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "BryKo's no-heat calls after 5",
+  "personalized_first_line": "BryKo has been family-owned since 1967, and your site promises Memphis homeowners a 24/7 answering service for the nights the heat goes out.",
+  "call_angle": "After-hours booking, not just answering. They already pay for a 24/7 answering service, so the question is whether a no-heat caller at 8 PM or on Saturday gets a booked next-morning slot or just a message. Qualify with: 'Who picks up after 5 right now, and does that service book the job or take a message?' Offer the free demo line trained on BryKo's own site (legacy since 1967, Bryant dealer, 'Honest people, honest pricing') so they can compare it to their current service. Respect the family legacy, and never imply replacing the office manager.",
+  "likely_objection": "'We already have a 24/7 answering service' or 'We've done fine for 59 years.' Response: keep whatever works. The demo line costs nothing to try, so call it and your current service on the same night and judge which one gets the customer on the schedule.",
+  "why_now": "Mid-October starts the Memphis heating season. The first cold snaps bring no-heat emergencies that happen after the 5 PM close and on weekends, when the office is closed. The site's own FAQ ('Do you offer emergency heating repair in Memphis?') and heating blog show they are pushing heating work right now.",
+  "notes_for_chosen": "WATCH (41/PROVISIONAL); below the 55 floor, so not for today's batch unless you override by hand. Facts first: Owner name comes from BBB only ('Eddie W. Gelston, President'). The SOS registered agent is Curtis J Gelston at the same address, so the family is confirmed, but the current decision-maker may be Curtis. Sam should ask for either. The scout's main point (no after-hours coverage) is weaker than reported: the site explicitly claims a '24/7 answering service and after-hours tech support', so D2 dropped to 4. The only email is brykoheatandac@att.net, found in page-source schema (generic, not owner-named; not shown on the contact page), so email is weak and this lead is call-first. Reviews on the site praise fast response, and BBB shows 0 complaints, so there is no verbatim missed-call pain to quote. The site is a Duda reseller build with FAQ schema and monthly SEO blogs, so some vendor already handles their web content (unnamed). Address mismatch: Crestview Rd (site, SOS mailing) vs Crestview Dr (BBB, registered agent). To promote it: run 3 HVAC money questions for Memphis on 2 AI platforms (D4), check GBP reviews and reply rate plus LSA/Meta Ad Library, run GHL dedupe, and have Sam learn on the first call whether the answering service books jobs. Limitation: the WebSearch budget for this run was used up, so LinkedIn, GBP, LSA, ads and AI checks were not done. A follow-up run can finish them.",
+  "evidence_links": "https://www.brykohvac.com/, https://www.brykohvac.com/contact, https://www.bbb.org/us/tn/memphis/profile/heating-and-air-conditioning/bryko-heating-ac-company-0543-327, https://opencorporates.com/companies/us_tn/000004207, https://www.brykohvac.com/about-us, https://www.brykohvac.com/reviews, https://www.brykohvac.com/resources, https://maps.app.goo.gl/YuraZwbE73XSAB6U8, https://facebook.com/BrykoHeatingAirConditioningCo/",
+  "research_confidence": "Medium",
+  "google_maps_url": "https://maps.app.goo.gl/YuraZwbE73XSAB6U8 (linked from the site; not opened)",
+  "google_rating": "Not found",
+  "review_count": "Not found (the site's /reviews page shows 14 five-star excerpts; BBB lists 0 customer reviews; the GBP count was not checked)",
+  "founded_or_years": "1967 (site 'Family-Owned Since 1967'; BBB founding date 1967-08-01; BBB accredited since 1976), about 59 years",
+  "locations_count": "1 (5302 Crestview Rd, Memphis, TN 38134)",
+  "team_size_estimate": "Not found. Small family team: BBB names a President and an Office Manager, reviews name a technician 'Matt', and the site claims 'over 100 years of combined HVAC experience'.",
+  "service_area": "Memphis, Cordova, Bartlett, Germantown, Collierville and 'neighboring areas throughout the metro region' (site)",
+  "sub_services": "HVAC repairs, HVAC installations (official Bryant equipment), preventative HVAC maintenance, residential heating, residential air conditioning, 24/7 emergency service, warranty work on Bryant units, online bill payment",
+  "disqualifier_check": "PASS. Chain/franchise: no (single location, family-owned; a Bryant dealer is not a franchise unit). Own website: yes, loads on HTTPS. Live US business: TN for-profit corporation #000004207 'Active', annual report filed 18 Sep 2026 (OpenCorporates). Inbound channel: phone plus contact form. Competitor/non-buyer: no. Already automated on both fronts: no (unnamed human answering service; no AI receptionist found). E4L world: no match in suppression.csv or seen.csv by name or domain (grep 'bryko' returned nothing). GHL 'E4L Services' dedupe NOT run. No 'no solicitation' notice seen.",
+  "_target": "hvac-memphis",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "grep -i for bryko, gelston, brykohvac and the phone digits returned no hits in either file."
+    },
+    {
+     "claim": "Owner Eddie W. Gelston, President",
+     "result": "confirmed",
+     "note": "BBB lists Eddie W. Gelston, President, and Leigh Holden, Office Manager. The company's own site names no owner, so the name rests on BBB alone, as the lead says."
+    },
+    {
+     "claim": "Curtis J Gelston is the TN registered agent, company Active, 2026 annual report filed 18 Sep 2026",
+     "result": "confirmed",
+     "note": "OpenCorporates shows Active, agent CURTIS J GELSTON, 5302 CRESTVIEW DR, and a 2026 Annual Report filed 18 Sep 2026. The mailing address is Crestview Rd, as the lead says."
+    },
+    {
+     "claim": "Company phone +1 901-386-2538",
+     "result": "confirmed",
+     "note": "The homepage, the contact page and BBB all show (901) 386-2538. BBB fax 385-9811 also matches."
+    },
+    {
+     "claim": "Generic email brykoheatandac@att.net appears in the page-source JSON-LD only, not visible text",
+     "result": "confirmed",
+     "note": "curl of the homepage source finds brykoheatandac@att.net. WebFetch's markdown view shows no email, and the contact page lists none, which matches the lead's caveat. It is a business mailbox, not an owner email."
+    },
+    {
+     "claim": "Pain signal: Mon-Fri 7:30-5:00, closed weekends, alongside 24/7 emergency claims and a 24/7 answering service",
+     "result": "confirmed",
+     "note": "The homepage shows those hours and the quoted '24/7 answering service and after-hours tech support' and '24/7 Emergency Services'. The contact page shows the hours but does not mention 24/7, so the lead cites the wrong page for the 24/7 claim; the homepage does support it."
+    },
+    {
+     "claim": "No online booking, chat or text",
+     "result": "confirmed",
+     "note": "The contact page has a form and a phone number only, with no scheduler."
+    },
+    {
+     "claim": "Not a chain or franchise; single location; Family-Owned Since 1967",
+     "result": "confirmed",
+     "note": "The homepage says 'Family-Owned Since 1967', lists one address, and calls the company an official Bryant dealer, which is not a franchise. No multi-location language."
+    },
+    {
+     "claim": "Vendor and stack details (GA4 G-9JVPJTCD4H, adnxs pixel id 1913472)",
+     "result": "confirmed",
+     "note": "Both strings are present in the homepage source."
+    }
+   ],
+   "corrected_fields": {
+    "owner_email_confidence": "N/A (no owner email; only the generic business mailbox, which is call-first only)",
+    "owner_email_type": "Generic business mailbox (not owner-specific)"
+   },
+   "adjusted_score": 41,
+   "adjusted_confidence": "Medium",
+   "reason": "Core facts check out (phone, BBB owner and title, SOS status, single location, not suppressed); the only fixes are the owner-email confidence label, which implied an owner email that does not exist, and a mis-cited 24/7 page; the lead stays WATCH at 41, below the 55 floor."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passes every hard disqualifier: independent single-office LLC (not a franchise or PE-owned), working own-domain site, active license and good-standing LLC, phone plus form inbound, not a competitor, no AI receptionist seen, not in suppression.csv or seen.csv. Band caution: scores 51, which is WATCH. Two dimensions (D3 reviews, D4 AI search) could not be checked because this run's web-search budget was used up. Recommend Sam calls anyway (D2 = 15, named person, published mailbox) or a re-score after a Google review pass and AI spot-check.",
+  "company_name": "Fire and Ice Heating & Air, LLC",
+  "niche": "HVAC",
+  "niche_segment": "core",
+  "website": "https://fireandicebr.com",
+  "city": "Baton Rouge",
+  "state": "LA",
+  "street_address": "9152 Mammoth Ave (LSLBC lists it as 9152 Mammoth Avenue; BBB and Carrier list it as 9152 Mammoth Dr)",
+  "zip": "70814",
+  "company_phone": "+1 225-954-2312 is the main line. It is the same on the LSLBC license record, the BBB profile, the site About page, the site JSON-LD and the GBP data in the directory, so it is CONFIRMED. The site header and contact page show +1 225-378-2145, and the Carrier dealer page shows +1 225-339-4718. Those two may be tracking numbers, but that is not confirmed.",
+  "company_email_generic": "fireandicebr@gmail.com. It is published on the Louisiana State Licensing Board for Contractors record, a government record, for license CL.66202. No email is published on the website.",
+  "google_rating": "4.9 (from the serviceagent.ai directory, which says it was \"Pulled from Google Business Profile\"; not checked on Google directly)",
+  "review_count": "471 Google reviews (directory figure, not checked on Google directly). Carrier dealer page: 5.0 from 12 reviews. BBB: 0 reviews, 0 complaints.",
+  "founded_or_years": "Started 2013. BBB \"Business Started\" date is 11/20/2013, and the site says customers have trusted them \"since 2013\". LSLBC commercial license first issued 01/22/2018. The LLC (LA #41345537K) was formerly named \"Cajun R Investment, LLC\" and changed its name on 21 Sep 2016. That is about 12-13 years in business.",
+  "locations_count": "1 (one office at 9152 Mammoth Ave, Baton Rouge)",
+  "team_size_estimate": "About 6 employees per BBB. Reviews name tech/lead \"Nick\" and, in 2019, \"Byron\". The scale is small relative to 471 reviews and a 9-town service area.",
+  "service_area": "Baton Rouge, Zachary, Prairieville, Denham Springs, Baker, Gonzales, Brusly, Port Allen, Addis (LA)",
+  "sub_services": "Residential AC, furnace and heat pump repair, installation and annual maintenance. Advantage Agreement maintenance plan. Indoor air quality. Honeywell generators. Financing. Special offers. Carrier Factory Authorized Dealer, past Carrier President's Award winner (within the past 3 years), NATE dealer, Carrier IAQ Expert.",
+  "owner_first_name": "Nicholas",
+  "owner_last_name": "Robinson",
+  "owner_title": "Qualifying Party (Mechanical) on LSLBC license CL.66202. Ownership is NOT confirmed. The site calls the company \"woman-owned\", and the LLC's registered agent at the business address is Brittany Robinson (OpenCorporates mirror of LA SOS). The woman owner is likely Brittany Robinson, but no source names her as owner, so treat that as UNCONFIRMED. The 5 LLC officers are hidden behind a login.",
+  "owner_role_type": "Unknown",
+  "owner_email": "fireandicebr@gmail.com",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found (web search unavailable this run)",
+  "owner_other_socials": "Company accounts only, all linked from the site: facebook.com/fireandicebr, instagram.com/fireandicebr, twitter.com/fireandicebr. The Facebook page sits behind a login wall and was not read. No personal owner socials found.",
+  "owner_background": "Nicholas Robinson is the state-licensed mechanical qualifying party (LSLBC CL.66202, first issued 2018, active through 01/22/2028). Reviews describe \"Nick\" as the hands-on lead: \"Top quality service by Nick and his service techs... Nick is highly knowledgeable and easy to work with\" (Wayne L., site testimonial) and \"Nick went above and beyond to make sure our family was taken care of\" (Timothy, Carrier page, Apr 3 2025). Brittany Robinson is the registered agent. The business describes itself as woman-owned. No public statements found about marketing, phones or AI.",
+  "owner_personality_cues": "OBSERVED from the site copy: they stress honest upfront pricing, prompt and courteous techs, fully stocked trucks, and fixing it \"until the customer is satisfied\". Their identity is built on Carrier credentials (President's Award, NATE, Factory Authorized). Reviews show customers know Nick by first name, so he is hands-on and technical. Expect a practical, proof-first conversation.",
+  "best_opening_moment": "Heating season is opening now (mid-October). The site promises \"24/7 Emergency Response\" and \"day or night, 365 days a year\", but the contact page lists office hours of \"Monday through Friday 7:30 AM to 4:30 PM\". The first cold-night no-heat calls are the natural moment. Secondary warm hook: the Carrier President's Award shown on their Carrier dealer page.",
+  "attitude_type": "Growth-Minded Operator (low-medium confidence)",
+  "attitude_evidence": "Signs of an owner investing in growth: (1) they pay a home-services marketing agency (footer \"Website Designed by mta360\"; mta360 sells SEO, \"AI visibility\", lead systems and advertising per mta360.com); (2) GTM container GTM-KD3CVC3D plus GA4 in the page source; (3) three different phone numbers across their properties, consistent with call tracking; (4) a past Carrier President's Award within 3 years; (5) a 471-review base at 4.9; (6) a recurring Advantage Agreement plan and a financing page. Not verified: ad activity, review velocity, hiring (the careers page is a general form with no openings). No hostile or defensive signals found. Evidence is thin on ads, so treat the type as provisional.",
+  "tech_adoption": "Moderate. WordPress site with WP Rocket, LocalBusiness JSON-LD, GTM and GA4. Online booking goes through Carrier's dealer scheduler (dealerId 9004087). No chat, text-us or review widget in the page source. No field-software scheduler (ServiceTitan, Housecall Pro, Jobber) visible.",
+  "marketing_sophistication": "Medium. Site is run by agency mta360. LocalBusiness and Review schema are present, plus GTM and GA4. There appear to be several numbers per channel. No Meta pixel, CallRail or chat vendor was detected in the homepage source.",
+  "growth_stage": "Established small shop: 12-13 years, 1 office, about 6 employees (BBB), 471 reviews, 9-town service area, recurring maintenance program",
+  "review_response_behavior": "Not checked. Google reviews were not reachable, Yelp returned 403 and BBB has 0 reviews. No owner replies seen.",
+  "after_hours_handling": "Unclear. The site promises \"24/7 Emergency Response\" and \"24 Hour Emergency Service Available\", but office hours are \"Monday through Friday 7:30 AM to 4:30 PM\" (contact and About pages). GBP data in the directory shows \"Open 24 hours\" every day. Nothing names an answering service or an on-call process. Sam should note who or what picks up if he ever reaches the line after 4:30 PM.",
+  "online_booking": "Yes, partial. The \"Schedule Appointment\" button opens Carrier's dealer scheduling page (carrier.com find-a-dealer/schedule-now, dealerId 9004087). The site also has a contact form (Free Estimate / Schedule Service / Advantage Agreement) that only promises \"We'll get back to you as quickly as we can\".",
+  "chat_or_text_on_site": "None. No chat, text-us or messaging widget in the homepage source or on the contact page.",
+  "vendors_detected": "mta360 (web design and home-services marketing agency; footer credit). Google Tag Manager GTM-KD3CVC3D. GA4 G-31JWYV9TGX. WordPress with WP Rocket and an SEO plugin. Carrier dealer scheduler. No CallRail, Podium, Birdeye, ServiceTitan, Housecall Pro, Jobber, chat or AI-receptionist vendor detected.",
+  "ads_running": "Not checked. Google Ads, LSA and the Meta Ad Library could not be queried this run because web search was unavailable. The only indirect signal is several phone numbers across site and Carrier listing, possibly tracking numbers (unconfirmed).",
+  "ai_search_presence": "Not checked (no AI platform or web search available this run). The site already has LocalBusiness JSON-LD (no FAQPage schema seen). Their agency mta360 advertises \"AI visibility\", so GEO is a contested wedge. Lead with voice.",
+  "pain_signals": "(1) Hours gap: \"24/7 Emergency Response\" and \"day or night, 365 days a year\" (homepage) against office hours \"Monday through Friday 7:30 AM to 4:30 PM\" (contact page). (2) The contact form promises no response time: \"We'll get back to you as quickly as we can, thank you!\" (3) No chat or text-back on the site. (4) About 6 employees (BBB) serving 9 towns with 471 reviews, so a thin office during the heating and cooling peaks. (5) Three different phone numbers across the site, Carrier listing and license record, which could confuse callers. No review complaints about calls were found, but Google reviews were not checked. One 2023 Carrier review says the opposite: \"Return phones calls on a timely manner\" (Todd, Oct 12 2023).",
+  "trigger_events": "Seasonal: the heating season and winter no-heat call window opens now (mid-Oct 2026). This is a vertical-calendar inference, not a dated post by the business. Site JSON-LD dateModified is 2026-09-03 (recent site update). Past Carrier President's Award \"within the past three years\" (Carrier dealer page). No dated hiring post, new location or ownership change found. The last LA SOS officer-change filing was 11 Aug 2020.",
+  "lead_score": 51,
+  "score_breakdown": "D1 Decision-maker reach: 8/20. The full name Nicholas Robinson is cited from a government record (LSLBC CL.66202, Qualifying Party, Mechanical) and matches \"Nick\" in reviews. The only published channel is the generic company mailbox fireandicebr@gmail.com (LSLBC) plus the staffed main line. Ownership is not confirmed (woman-owned; registered agent Brittany Robinson).\nD2 Phone and after-hours gap: 15/15. Phone-first (number in header and hero). HVAC is inherently urgent. Office hours \"Monday through Friday 7:30 AM to 4:30 PM\" are narrower than the claimed \"24/7 Emergency Response\". No answering service or AI receptionist is mentioned anywhere on the site or in its source.\nD3 Lead-response leak: 0/15. NO EVIDENCE / partial null. Checked: site source for booking and chat vendors (Carrier online scheduler exists, so booking friction fails), careers page (general form, no CSR or dispatcher posting), BBB (0 complaints), Carrier reviews (one positive about returned calls). Google and Yelp reviews and reply rate were not reachable.\nD4 AI search gap: 0/10. NO EVIDENCE. No AI platform could be checked this run. The site has LocalBusiness JSON-LD and agency mta360 sells \"AI visibility\".\nD5 ICP fit: 15/15. Independent, 1 office, woman-owned, core HVAC. Proxies: since 2013 (BBB), 471 reviews, HVAC install ticket plus financing page, 9-town service area, 24/7 emergency claim.\nD6 Buying signals: 7/15. Only spend group (d): agency credit mta360 plus GTM and GA4. The seasonal window is inferred only. Google Ads, LSA and Meta were not checked.\nD7 Attitude and stack: 6/10. Positives: modern site (copyright 2026, modified 2026-09-03), tech adoption (online booking plus financing), recent Carrier President's Award. Incumbent: mta360 is a home-services marketing agency selling SEO, \"AI visibility\" and lead systems, so GEO is a conflict, not voice.\nTOTAL 51 = WATCH band. Evidence exists on 5 of 7 dimensions (D1, D2, D5, D6, D7), D1 has a positive citation and D2 has a direct hours quote, so the row is TRUSTED. The blockers are D3 and D4 because the tools were unavailable. A 2-minute Google review scan and one AI money question could lift it into QUALIFIED.",
+  "recommended_entry_offer": "Voice AI live demo (an AI receptionist built from fireandicebr.com) with the seasonal urgency angle: no-heat calls after 4:30 PM and on weekends this winter. Pair with missed-call text-back. Hold GEO, because their agency mta360 already sells \"AI visibility\".",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "No-heat calls after 4:30 at Fire and Ice",
+  "personalized_first_line": "Your site promises 24/7 emergency response from Zachary to Gonzales, while the office runs 7:30 to 4:30 on weekdays. With heating season starting, I'm curious who picks up when a furnace quits at 9 PM.",
+  "call_angle": "Seasonal emergency coverage. They promise 24/7, the office is staffed 7:30-4:30 weekdays, and the team is about 6 people across 9 towns. Ask the qualify question: \"Who answers after hours right now: you, voicemail, or an answering service?\" Then offer the proof lever: a demo line trained on their own website (Advantage Agreement, Carrier, financing, service area) that they can call before paying anything. Position it as overflow and after-hours only, so it protects the Carrier reputation they have built and does not replace the office. End with ask #1, the Game Plan Call with Sebastian.",
+  "likely_objection": "\"Our marketing company (mta360) handles all that,\" or \"calls forward to Nick's cell after hours, we never miss one.\" Response: mta360 runs the website and visibility. This only covers the phone after 4:30, when Nick is on a job or asleep, and it books into the schedule. They can call the demo line themselves and judge it.",
+  "why_now": "Mid-October is the start of the heating season. The first cold snaps bring no-heat emergency calls on nights and weekends, exactly when a 7:30-4:30 office is closed. The Advantage Agreement tune-up season also drives call volume now.",
+  "notes_for_chosen": "Strongest named contact is Nicholas \"Nick\" Robinson, the state license qualifying party (LSLBC CL.66202), whom customers praise by name. The site says woman-owned, and Brittany Robinson is the LLC's registered agent, so the likely owner is Brittany, but that is UNCONFIRMED: do not address her as owner in writing until verified (LA SOS officer list). The only published email is fireandicebr@gmail.com, a generic company mailbox from the license record, so use gatekeeper-friendly copy or route call-first through Sam.\n\nThree different numbers appear online. Dial +1 225-954-2312 (license, BBB, About page).\n\nTheir agency mta360 sells \"AI visibility\" and SEO, so do not lead with the GEO audit and do not knock the agency. Lead with the after-hours voice demo.\n\nScore 51 (WATCH) only because Google reviews and the AI spot-check could not be run this session (search budget exhausted). Re-check Google reviews for \"call/voicemail/never called back\" and run one \"emergency furnace repair Baton Rouge\" AI question before promoting. No prices in any outreach.",
+  "business_hours": "Office: Monday-Friday 7:30 AM-4:30 PM CT (site contact and About pages). \"24 Hour Emergency Service Available\" per the site. GBP data in the directory shows \"Open 24 hours\" daily. Closed weekends for the office per the site.",
+  "timezone": "Central (America/Chicago, CDT/CST)",
+  "best_time_to_call": "Tue-Thu 7:30-8:15 AM CT, right when the office opens and before techs dispatch, which is the best chance to catch Nick before he is in the field. Backup: 3:45-4:25 PM CT, before the 4:30 PM office close, when crews are returning. Stay inside office hours. Avoid Monday mornings during the first cold snap, when the phone is busiest.",
+  "call_opener": "Hi, is this Nick? This is Sam with E4L. Full honesty, this is a cold call. Can I take 20 seconds, and you tell me if it's worth another minute? I was on your site: Fire and Ice promises 24/7 emergency service, but the office runs 7:30 to 4:30. With heating season starting, those no-heat calls at 9 PM are the ones that go to whoever answers first. We build an AI receptionist trained on your own business that picks up those calls and books them, and we'll set up a demo line you can call yourself before you spend a dime. Worth 20 more seconds?",
+  "gatekeeper_notes": "No office manager or dispatcher is named on the site, BBB or the license record. The office is small (about 6 employees per BBB) and staffed Mon-Fri 7:30-4:30. Ask for Nick by first name. Nicholas Robinson is the licensed qualifying party, and customers praise \"Nick and his service techs\". If asked what it's about: \"it's about how after-hours emergency calls get answered this heating season, I'll be quick.\" Secondary name: Brittany Robinson, the LLC registered agent (likely the woman owner, unconfirmed). Ask the gatekeeper \"is Brittany or Nick the best person for how the phones are handled?\" rather than assuming her title. No owner cell is published. Do not use a people-search number. Main line is +1 225-954-2312, and +1 225-378-2145 is on the website header. Log who answers (human, service, IVR or voicemail) in Responses.",
+  "evidence_links": "https://fireandicebr.com/contact/, https://fireandicebr.com/, https://fireandicebr.com/about-us/, https://arlspublic.lslbc.louisiana.gov/Public/DetailedSearch/ByNumber (license 66202: Qualifying Party Nicholas Robinson, email fireandicebr@gmail.com, phone 225-954-2312), https://opencorporates.com/companies/us_la/41345537K, https://www.bbb.org/us/la/baton-rouge/profile/air-conditioning-contractor/fire-and-ice-heating-air-llc-0835-90029062, https://www.carrier.com/us/en/residential/dealers/la/baton-rouge/9152-mammoth-dr-9004087-loc, https://serviceagent.ai/directory/louisiana/baton-rouge/hvac/fire-and-ice-heating-air-llc/, https://fireandicebr.com/careers/, https://mta360.com/, https://www.buildzoom.com/contractor/fire-ice-heating-and-air (ruled out: the Dave Marghella listing is a different company in Youngwood, PA)",
+  "research_confidence": "Medium",
+  "_target": "hvac-batonrouge",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grep for fireandice, 'fire and ice', 225-954-2312 and robinson found only Robinson Dental (MI) and Robinson Heating & Air (Middletown OH). Both are different companies, so no match."
+    },
+    {
+     "claim": "Independent single-office business, not a chain or franchise",
+     "result": "confirmed",
+     "note": "BBB and Carrier list one address (9152 Mammoth Dr/Ave). OpenCorporates shows a local LLC, active and in good standing, formerly Cajun R Investment, LLC. No franchise signals. Carrier lists it as a single dealer."
+    },
+    {
+     "claim": "Company website fireandicebr.com is live and the business is in Baton Rouge at 9152 Mammoth Ave",
+     "result": "confirmed",
+     "note": "The contact page shows 9152 Mammoth Ave, Baton Rouge, LA 70814."
+    },
+    {
+     "claim": "Main phone +1 225-954-2312 is confirmed on BBB, the About page and the directory",
+     "result": "confirmed",
+     "note": "BBB lists (225) 954-2312. The About Us text lists it. The serviceagent.ai listing shows it. The LSLBC record and the JSON-LD could not be re-opened. The site header is (225) 378-2145 and the Carrier page is (225) 339-4718, matching the lead."
+    },
+    {
+     "claim": "Best pain signal: homepage promises 24/7 emergency response, contact page office hours are Mon-Fri 7:30-4:30",
+     "result": "confirmed",
+     "note": "The homepage says '24/7 Emergency Response' and 'day or night, 365 days a year'. The contact page gives hours Mon-Fri 7:30-4:30 and says '24 Hour Emergency Service Available'. The form text 'We'll get back to you as quickly as we can' is also on the contact page."
+    },
+    {
+     "claim": "Owner/qualifying party is Nicholas Robinson (LSLBC CL.66202)",
+     "result": "not-found-on-source",
+     "note": "The LSLBC ByNumber page is a blank search form and showed no record for 66202, even with a query parameter. No site page, BBB, OpenCorporates or Carrier page names Nicholas Robinson. The site only mentions 'Nick' inside a customer review. Web search was unavailable (budget exhausted), so no second source could be found."
+    },
+    {
+     "claim": "Email fireandicebr@gmail.com is published on the LSLBC license record",
+     "result": "not-found-on-source",
+     "note": "No email appears on the contact page, About page, homepage, BBB or serviceagent.ai. The one cited source, LSLBC, could not be reopened to show it."
+    },
+    {
+     "claim": "Woman-owned; registered agent Brittany Robinson",
+     "result": "confirmed",
+     "note": "The homepage heading says 'Your Local Woman-Owned HVAC Service Provider'. OpenCorporates lists registered agent Brittany Robinson at 9152 Mammoth Drive. The 5 officers are hidden. The About page does not mention woman-owned."
+    },
+    {
+     "claim": "Founded 2013, BBB ~6 employees, 0 reviews, 0 complaints",
+     "result": "confirmed",
+     "note": "BBB shows business started 11/20/2013, 6 employees, 0 reviews and 0 complaints in 3 years. The homepage says 'since 2013'."
+    },
+    {
+     "claim": "Google 4.9 / 471 reviews and Carrier President's Award",
+     "result": "confirmed",
+     "note": "serviceagent.ai shows 4.9 stars and 471 Google reviews, but the listing is 'not yet verified by business' and Google was not checked directly. The Carrier page shows 5.0 from 12 reviews and a President's Award within the past three years."
+    },
+    {
+     "claim": "Agency mta360 credit in the footer",
+     "result": "confirmed",
+     "note": "The homepage footer reads 'Designed by mta360'."
+    }
+   ],
+   "corrected_fields": {
+    "owner_first_name": "Not found",
+    "owner_last_name": "Not found",
+    "owner_title": "Not found. 'Nick' appears only in customer reviews. The company is woman-owned per the homepage. Registered agent Brittany Robinson (OpenCorporates) is the only name tied to the business on a re-opened page, and her ownership is unconfirmed.",
+    "owner_email": "Not found",
+    "owner_email_type": "Not found",
+    "owner_email_confidence": "Not found",
+    "company_email_generic": "Not found. No email is published on fireandicebr.com, BBB or the directory. The LSLBC claim could not be re-verified.",
+    "company_phone": "+1 225-954-2312 (BBB, About page, directory). The site header and contact page show +1 225-378-2145, and the Carrier page shows +1 225-339-4718.",
+    "lead_score": "43",
+    "score_breakdown": "D1 lowered from 8 to 2: the named contact and email rest only on an LSLBC record that could not be re-verified. Other dimensions unchanged. Total about 43, WATCH.",
+    "call_opener": "Hi, this is Sam with E4L. Full honesty, this is a cold call. Can I take 20 seconds? Who handles the phones and after-hours calls there? I was on your site: Fire and Ice promises 24/7 emergency service, but the office runs 7:30 to 4:30. (Do not address anyone as Nick or Nicholas until the contact is verified.)",
+    "gatekeeper_notes": "No owner, office manager or dispatcher is verified by name. 'Nick' appears only in customer reviews, and Brittany Robinson is the LLC registered agent (OpenCorporates). Ask who handles the phones and after-hours coverage. Dial +1 225-954-2312 (BBB and About page); +1 225-378-2145 is the site header number. Do not use a people-search number."
+   },
+   "adjusted_score": 43,
+   "adjusted_confidence": "Low",
+   "reason": "Business identity, phone, hours-gap pain signal and non-suppression all hold. The only support for Nicholas Robinson and the Gmail address was the LSLBC record, which I could not reopen (blank search form) and no other page confirms. Both are set to Not found, the score drops to 43, and Sam should call the main line cold."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. No hard disqualifier fired. Note: this row is PROVISIONAL and capped at WATCH. It is not disqualified, but it is not batch-ready until an owner is named.",
+  "disqualifier_check": "PASS (checked 2026-10-15). Chain/franchise: no. One address, 3935 O'Neal Lane, which the site describes as 'third-generation, family-owned' and 'founded in January 1951'. It is an 'American Standard dealer and Custom Care Dealer', which is a manufacturer dealer network and not a franchise. No /franchise or /locations page. Legal entity: TIGER AIR CONDITIONING SERVICES, INC (LA, #47065439D), 'Active In Good Standing' per OpenCorporates. Website: live, SSL, copyright 2026, homepage dateModified 2026-09-17. Live U.S. business: yes. Inbound channel: yes, phone plus appointment form, online estimate and chat. Competitor category: no. Already automated on both fronts: no. It runs a ZyraTalk website 'AI Chatbot' (chat only). No AI phone agent or answering service was found in the site or source. It does carry FAQPage and HVACBusiness JSON-LD, but no GEO vendor is credited and the AI spot-check was not run. Do-not-contact: no 'no solicitation' notice found. Dedupe: the domain tiger-air.com, both phones (225-577-6690 and 225-754-8687), the name 'Tiger Air' and 'O'Neal' are not in suppression.csv or seen.csv. The only partial match is the unrelated 'Tiger Team Roofing, Inc.' (Fort Lauderdale, FL). The GHL 'E4L Services' dedupe was not run from this agent.",
+  "company_name": "Tiger Air Conditioning Services",
+  "niche": "HVAC",
+  "niche_segment": "core",
+  "website": "https://tiger-air.com",
+  "company_phone": "+1 225-577-6690 (main line: site header, tel: link, JSON-LD and the contact page). Second line +1 225-754-8687: the site FAQ, the media contact on the July 2026 press release, and the number serviceagent.ai pulled from Google Business Profile.",
+  "street_address": "3935 O'Neal Lane",
+  "city": "Baton Rouge",
+  "state": "LA",
+  "zip": "70816",
+  "timezone": "Central (America/Chicago)",
+  "business_hours": "Contact page: 'Hours of Operation: Open 24/7' and 'Office Hours: Monday – Friday: 7AM – 5PM'. Site JSON-LD shows open 00:00–23:59, seven days. GBP shows 'Open 24 hours' every day (per serviceagent.ai, 'Pulled from Google Business Profile'). Sam should treat the staffed office window as Mon–Fri 7 AM–5 PM CT.",
+  "best_time_to_call": "Tue–Thu 7:10–8:15 AM CT, right after the office opens at 7 AM (contact page) and while techs are being dispatched. Backup window: 4:00–4:45 PM CT, before the office closes at 5 PM. Avoid Mondays, because overnight callbacks pile up then: a review says the CSR 'called me back as soon as they opened'. Dial +1 225-577-6690 first.",
+  "call_opener": "Hi, this is Sam with Eat 4 Life Marketing. Full honesty, this is a cold call. Can I take 20 seconds to tell you why I called, and you tell me if it's worth another minute? ... I was on Tiger Air's site. Seventy-five years and three generations on O'Neal Lane, and you promise 24/7 service, but the office runs 7 to 5. So when somebody's heat quits at 9 at night, who actually picks up? We build a demo line trained on Tiger Air's own website. It answers those after-hours and overflow calls, gets the details and books the job, and you can call it yourself before you spend a dime. Who's the right person to hear that, the owner? Is a 20-minute look with our founder this week fair?",
+  "gatekeeper_notes": "Expect a customer service rep or office staff to answer during 7–5. A Sep 12, 2024 review mentions a 'Customer service person' who called back and booked a tech. No office manager or dispatcher is named on the site, and no staff are listed on the About, Contact or Employment pages. The only named person found is Stewart Walters, the 'Contact name' on the company's paid press release (July 23, 2026), phone (225) 754-8687. His role is not stated. Ask 'Is Stewart Walters around?' or 'Who owns Tiger Air these days?' to get the owner's name. One technician, 'Austin', is named in a review and is not a decision-maker. No owner cell is published. No answering service is credited. Who answers after 5 PM is unknown, so Sam should log who picks up. Use the qualify question 'Who answers your phones after hours right now?' The site runs a ZyraTalk AI chatbot, so if they say 'we already have AI', clarify that that is website chat, not the phone line.",
+  "owner_first_name": "Not found",
+  "owner_last_name": "Not found",
+  "owner_title": "Not found. The site says only 'third-generation, family-owned'. OpenCorporates lists '3 officers' behind a login, not viewed.",
+  "owner_role_type": "Unknown",
+  "owner_email": "Not found",
+  "owner_email_type": "None found",
+  "owner_email_confidence": "Not found",
+  "company_email_generic": "Not found. The site is form-only: no mailto links on the home, contact, about or employment pages, and none in the press release.",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found (not searched; the web search budget for this run was exhausted)",
+  "owner_other_socials": "Company Facebook: https://www.facebook.com/profile.php?id=100064034918413 ('Tiger Air Conditioning Services | Baton Rouge LA'). It is linked from the site JSON-LD sameAs. Follower count and posts could not be seen logged out. No Instagram, LinkedIn or YouTube links on the site.",
+  "owner_background": "Not found for an individual. Business history from the site: 'founded in January 1951', 'third-generation company', 'over 75 years', 'American Standard dealer and Custom Care Dealer'. Legal entity is TIGER AIR CONDITIONING SERVICES, INC (Louisiana #47065439D), Active In Good Standing. Its registered agent is Northwest Registered Agent LLC, an agent service. Its head office address is 3935 Oneal Lane, St George, LA 70816 (OpenCorporates).",
+  "owner_personality_cues": "Business-level voice only (OBSERVED), since no owner voice was found. JSON-LD description: 'dedicated to redefining what customer service in our industry looks like for over 75 years' and 'a team that shares your urgency and goals'. Bragging points: since 1951, third-generation family-owned, 24/7 emergency service, American Standard Custom Care Dealer, complimentary estimates, financing. The tone is professional and legacy-proud. Reviews praise honesty ('They do things the correct way. No short cuts').",
+  "best_opening_moment": "The legacy plus the 24/7 promise: 75 years and three generations on O'Neal Lane, a site that promises 24/7, and office hours of Mon–Fri 7–5. A Sep 2024 review notes the CSR 'called me back as soon as they opened', which shows after-hours calls wait for morning. Use it as a pattern only and never quote it back. Seasonal timing: the first cold snaps in Baton Rouge mean no-heat calls start now.",
+  "attitude_type": "Family-Legacy Pride Brand (primary, medium confidence). Secondary: Tech-Forward Early Adopter.",
+  "attitude_evidence": "Family-Legacy: (1) Homepage: 'third-generation, family-owned', 'over 75 years' (https://tiger-air.com/). (2) About page: 'founded in January 1951' and 'third-generation company' (https://tiger-air.com/about-us). (3) The paid press release (2026-07-23) repeats 'since 1951' and 'third-generation, family-owned' (smb.panews.com). These come from 2 source categories: website and press. Tech-Forward (website source only, so secondary): an iframe titled 'AI Chatbot' from ZyraTalk ('zyratalk.com/contractorschatbot'), a Contractor Commerce 'Instant Online Estimate' plugin, a financing page, a Trustindex review widget, and FAQPage plus HVACBusiness JSON-LD (Yoast), all in the homepage source captured 2026-10-15. No owner review replies or social posts were read, so the review-reply tone is unknown. No defensive signals found.",
+  "tech_adoption": "advanced. Found: ZyraTalk AI chatbot (website chat), Contractor Commerce instant online estimate, Trustindex Google-review widget, FAQPage and HVACBusiness JSON-LD (Yoast SEO), Elementor/WordPress, Google Tag Manager GTM-PQVWZTZS, financing page. No booking software such as ServiceTitan or Housecall Pro, and no call tracking (CallRail/CTM), found in the homepage source.",
+  "marketing_sophistication": "unknown, leaning agency_managed. There is no footer agency credit, but the stack points to a managed contractor-marketing setup: GTM, Yoast schema with FAQPage, a ZyraTalk contractor chatbot, a Contractor Commerce plugin, shared badge assets from mgsites.net/mgstatic.net, and a paid press-release placement in July 2026.",
+  "growth_stage": "established. Since 1951; about 218 Google reviews at 5.0 (serviceagent.ai) and 169 at 4.95 on Experience.com. Single location. No production hiring confirmed: the employment page is a general application form with no listed openings.",
+  "review_response_behavior": "unknown. Google reviews and owner replies were not read; the GBP is not fetchable and the search budget was exhausted. Experience.com shows no business replies on the visible reviews.",
+  "after_hours_handling": "The site promises 24/7: 'We are available 24/7', '24/7 Emergency Service', 'After hours service is available'. The contact page lists 'Office Hours: Monday – Friday: 7AM – 5PM'. No answering service, AI receptionist or after-hours number is mentioned. Review evidence of the gap: Rachel G., Experience.com, Sep 12, 2024, 'Customer service person called me back as soon as they opened and was able to get a tech to us early'. This suggests calls outside office hours wait for a callback when the office opens. The mechanism (voicemail, on-call tech or service) is unconfirmed. Sam should note who answers.",
+  "online_booking": "Partial. There is a 'Request An Appointment' / /schedule-appointment form (with CAPTCHA) and a Contractor Commerce 'Instant Online Estimate' (/shop/). No real-time scheduler such as ServiceTitan, Housecall Pro or Jobber was detected.",
+  "chat_or_text_on_site": "Yes: a ZyraTalk website chatbot (script nowl.ink/1791z3115a loads the iframe 'AI Chatbot' from zyratalk.com/contractorschatbot). No 'text us' or SMS number found.",
+  "vendors_detected": "ZyraTalk (AI website chatbot for contractors); Contractor Commerce (instant online estimate plugin); Trustindex (review widget); Google Tag Manager (GTM-PQVWZTZS); Yoast SEO (FAQPage and HVACBusiness JSON-LD); WordPress plus Elementor 4.0.2; Font Awesome kit; badge assets from shared.mgsites.net/mgstatic.net (vendor unidentified); American Standard (dealer). No CallRail/CTM, Meta pixel (fbq), ServiceTitan, Housecall Pro, Podium or Birdeye found.",
+  "ads_running": "Not checked. The Google Ads Transparency Center, Meta Ad Library and LSA unit could not be run: they need JavaScript or search, and the web search budget for this run was exhausted. Homepage source checks: GTM present, no Meta pixel, no call-tracking number swap. Confirmed spend: a paid press-release placement on 2026-07-23 (labeled 'a paid placement').",
+  "ai_search_presence": "Not checked. No AI-platform access, and the web search budget for this run was exhausted, so neither money-question check ran. Named in ?/0 AI answers. Note: the site already carries FAQPage and HVACBusiness JSON-LD, which caps D4 at 6 when it is run.",
+  "pain_signals": "(1) Gap between the 24/7 promise and office hours. Site: 'We are available 24/7' and 'Offer 24/7 emergency heating and cooling services'. Contact page: 'Office Hours: Monday – Friday: 7AM – 5PM'. (2) Review, Sep 12, 2024 (Experience.com): 'Customer service person called me back as soon as they opened and was able to get a tech to us early'. The tone is positive, but it shows overnight callers wait for the office to open. (3) Two different public numbers (225-577-6690 on the site vs 225-754-8687 on GBP, FAQ and press) split the inbound calls. (4) The contact form promises only 'we will get in touch with you shortly', with no stated response time. No responsiveness complaints were found in the visible Experience.com reviews; Google reviews were not read.",
+  "trigger_events": "(1) Paid press release, 2026-07-23: 'Tiger Air Conditioning Services Delivers Trusted HVAC Solutions for Year-Round Comfort in Baton Rouge, LA'. It is 84 days old and self-paid, not earned press. (2) Homepage dateModified 2026-09-17 (JSON-LD) and new media uploads in 2026/04–2026/06 (logo, commercial photo): an active site refresh this year. (3) Seasonal: the heating season is opening in Baton Rouge (mid-October). This is inferred from the vertical calendar, with no business-specific ad evidence. No front-office job post found: /employment lists no openings.",
+  "google_rating": "5.0 (serviceagent.ai, 'Pulled from Google Business Profile'); 4.95 on Experience.com",
+  "review_count": "218 Google (serviceagent.ai); 169 on Experience.com (98% five-star)",
+  "google_maps_url": "Not found (the site links to a maps.app.goo.gl short link; the exact URL was not captured)",
+  "locations_count": "1 (3935 O'Neal Lane, Baton Rouge/St. George, LA 70816)",
+  "founded_or_years": "Founded January 1951 (about page): 75 years, third generation. Legal entity: TIGER AIR CONDITIONING SERVICES, INC, LA #47065439D, Active In Good Standing. The formation date is behind the OpenCorporates login.",
+  "team_size_estimate": "Not found",
+  "service_area": "'The greater Baton Rouge area' / 'Baton Rouge and Surrounding Areas' (site; /service-area page exists)",
+  "sub_services": "AC installation and repair, heating, furnace repair and replacement, ductless mini-splits, heat pumps, maintenance, indoor air quality, HVAC for new residential construction, commercial HVAC/mechanical (JSON-LD: 'HVAC & mechanical contractor'). Complimentary estimates, financing, and a $200 cash/check install offer (scout note).",
+  "lead_score": 43,
+  "score_breakdown": "D1 Decision-maker: 0/20. No owner, president or officer name found on the site or in public pages. The 3 SOS officers are behind the OpenCorporates login. No email published (form-only). The only named person is Stewart Walters, press-release 'Contact name', role unknown, phone 225-754-8687. That is not a decision-maker citation (https://smb.panews.com/article/...6a625fae6f8d55000253929a).\nD2 Phone gap: 15/15. Phone-first: '(225) 577-6690' in the header and a 'Call Today' CTA. HVAC is an inherently urgent niche. The site claims 'We are available 24/7', while the contact page says 'Office Hours: Monday – Friday: 7AM – 5PM'. No answering service or AI receptionist is mentioned anywhere on the site or in its source. A review notes a callback 'as soon as they opened' (https://tiger-air.com/contact-us, https://www.experience.com/reviews/tiger-22793864).\nD3 Lead-response leak: 0/15. Partial logged null. No responsiveness complaints in the visible Experience.com reviews. No front-office job post (/employment has no openings). No BBB profile found. There is no booking or chat friction, because a ZyraTalk chat and an online estimate exist. Google reviews and the reply rate were NOT checked.\nD4 AI search gap: 0/10. NO EVIDENCE: the AI spot-check was not run. FAQPage and HVACBusiness JSON-LD are present, so the cap is 6.\nD5 ICP fit: 15/15. Family-owned, single location, independent (an American Standard dealer, not a franchise). Core HVAC niche. Ability proxies: since 1951; 218 Google reviews; financing page plus HVAC install ticket; 24/7 emergency service claimed (https://tiger-air.com/, https://tiger-air.com/about-us).\nD6 Buying signals: 7/15. Spend is paid tools and media only: a paid PR placement on 2026-07-23, the ZyraTalk chatbot, Contractor Commerce, and GTM. The PR is 84 days old and self-paid, so it is not counted as an earned-press trigger; if Rozel counts it as a trigger, D6 becomes 11. Google Ads, LSA and Meta Ad Library were NOT checked.\nD7 Attitude/stack: 6/10. Positives: (b) modern site, © 2026, dateModified 2026-09-17; (c) tech adoption: AI chat, online estimate, financing, review widget. No negatives seen. Owner replies and social were not checked. No bundled vertical agency credited.\nTOTAL 43 = WATCH, PROVISIONAL (missing: a D1 decision-maker citation, D4 not run, D3 incomplete). Blocker: D1. Sam should make a 2-minute 'who owns Tiger Air?' call, then re-score.",
+  "recommended_entry_offer": "Voice AI live demo built from tiger-air.com, positioned as after-hours and overflow coverage that keeps the 24/7 promise without replacing the office CSR. Pair it with missed-call text-back. Hold the GEO audit until D4 is run (the site already has FAQ schema). Then a Game Plan Call.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Tiger Air's calls after 5 PM",
+  "personalized_first_line": "Seventy-five years and three generations on O'Neal Lane is a real run. Your site promises 24/7, but the office hours read 7 to 5.",
+  "call_angle": "After-hours and seasonal-emergency coverage that protects the family name. Tiger Air promises 24/7, but the staffed office is Mon–Fri 7–5, and overnight callers wait for a morning callback. As heating season opens, a no-heat caller at 9 PM dials the next company. Offer a demo line trained on Tiger Air's own site that answers after-hours and overflow calls, gets the caller's details and books the job, so their CSR starts the morning with booked jobs instead of a callback list. Position it as overflow only, never as replacing the CSR. Ask: 'Who answers after hours right now: an on-call tech, voicemail, or a service?' End with the Game Plan Call ask, or ask for the owner's name and email.",
+  "likely_objection": "'We already have 24/7 / our on-call tech handles that' or 'we already have an AI chat on the website'. Answer: the chat only covers people already on the site, and most no-heat emergencies come in by phone. The demo is free to hear before any commitment, and go-live is one call-forwarding rule for missed or busy calls only. Second likely objection: 'the owner isn't in / send something over'. Get the owner's name and email for the free demo.",
+  "why_now": "Heating season is opening in Baton Rouge (mid-October), when the first no-heat calls hit at night and on weekends, outside the 7–5 office hours. The company is visibly investing in visibility this year: a paid press release on 2026-07-23, a site refresh in Sept 2026, and new AI chat and online-estimate tools. It is already paying to attract inbound, so after-hours phone coverage is the missing piece.",
+  "notes_for_chosen": "PROVISIONAL / WATCH (43). The blocker is the owner's name. Route call-first to Sam; there is no email route, since the site is form-only. Sam's job on the first dial is to get the owner's name and email, and to log who answers after 5 PM. Re-score after that: if a named owner plus a staffed line comes back, D1 rises to 8+ and this row can move into QUALIFIED. 'Stewart Walters' (press-release contact, (225) 754-8687) is the only named person; his role is unknown, so do not treat him as the owner. Stack caution: the site runs a ZyraTalk 'AI Chatbot' for website chat. It is not a phone agent as far as the site shows, but Sam should confirm nobody AI-answers the phone. Do not pitch a chatbot. Two numbers are in public use: 577-6690 (site) and 754-8687 (GBP, FAQ, PR). Ask which one rings the office. Not checked this run, because the shared web-search budget was exhausted and the platforms need JS or a login: Google reviews and owner replies, LSA/Google Ads/Meta ads, the AI spot-check, the LA SOS officer list, the LSLBC license record (#5469, LA, shown on the site footer), BBB and LinkedIn. A follow-up research pass can fill these. Never quote the review back verbatim; frame it as 'after-hours calls wait for morning'. No prices in any outreach.",
+  "evidence_links": "https://tiger-air.com/, https://tiger-air.com/contact-us, https://www.experience.com/reviews/tiger-22793864, https://tiger-air.com/about-us, https://smb.panews.com/article/Tiger-Air-Conditioning-Services-Delivers-Trusted-HVAC-Solutions-for-Year-Round-Comfort-in-Baton-Rouge-LA/6a625fae6f8d55000253929a, https://serviceagent.ai/directory/louisiana/baton-rouge/hvac/tiger-air-conditioning-services/, https://opencorporates.com/companies/us_la/47065439D, https://tiger-air.com/employment, https://tiger-air.com/about-us/reviews, https://www.facebook.com/profile.php?id=100064034918413, https://www.bbb.org/search?find_text=Tiger%20Air%20Conditioning%20Services&find_loc=Baton%20Rouge%2C%20LA",
+  "research_confidence": "Medium",
+  "_target": "hvac-batonrouge",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner name/title/email/phone are Not found",
+     "result": "confirmed",
+     "note": "No owner name, title or email on home, contact, about, or press release pages. Stewart Walters is only a press-release contact (role unstated) and is correctly not treated as owner."
+    },
+    {
+     "claim": "Company phones 225-577-6690 (main) and 225-754-8687",
+     "result": "confirmed",
+     "note": "Homepage and contact page show 577-6690; homepage also lists 754-8687; press release lists 754-8687."
+    },
+    {
+     "claim": "Strongest pain signal: 24/7 promise vs Mon-Fri 7-5 office hours",
+     "result": "confirmed",
+     "note": "Contact page: Open 24/7, Office Hours Mon-Fri 7AM-5PM, 'After hours service is available'. Homepage: 'We are available 24/7'. Note the contact page says after-hours service IS available, so the gap is inferred, not proven."
+    },
+    {
+     "claim": "Review 'called me back as soon as they opened' (Rachel G., Sep 12 2024, 169 reviews, 4.95)",
+     "result": "confirmed",
+     "note": "Experience.com page matches the date, quote fragment, rating and count."
+    },
+    {
+     "claim": "Third-generation, family-owned, founded January 1951, American Standard dealer, single location",
+     "result": "confirmed",
+     "note": "Homepage says third-generation, family-owned. About page says founded January 1951, third-generation, locally owned and operated, American Standard dealer, one address, no franchise language."
+    },
+    {
+     "claim": "Website homepage contains an iframe titled 'AI Chatbot' (ZyraTalk)",
+     "result": "not-found-on-source",
+     "note": "Fetched homepage text did not mention an AI Chatbot. The text extractor likely drops iframes and script tags, so this stays unverified, not contradicted. The claim is secondary and already flagged as source-based."
+    },
+    {
+     "claim": "Not a chain; not in suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grep for tiger, tiger-air, both phones and O'Neal found only 'Tiger Team Roofing, Inc.' (Fort Lauderdale, tigerteamroofing.com) in suppression.csv. It is unrelated. Nothing in seen.csv."
+    },
+    {
+     "claim": "Press release is a paid placement dated 2026-07-23",
+     "result": "confirmed",
+     "note": "Page date is July 23, 2026, with contact Stewart Walters (225) 754-8687. The 'paid placement' label was not re-verified in the fetched text."
+    }
+   ],
+   "corrected_fields": {
+    "chat_or_text_on_site": "Unverified on re-check. A ZyraTalk website chatbot was reported from page source, but a text fetch of the homepage did not show it. Sam should not assert it on the call.",
+    "after_hours_handling": "The site promises 24/7 and the contact page says 'After hours service is available', with office hours Mon-Fri 7-5. The mechanism for after-hours calls is unconfirmed. The gap is inferred from one 2024 review only."
+   },
+   "adjusted_score": 42,
+   "adjusted_confidence": "Medium",
+   "reason": "The identity, phones, hours, history and dedupe checks all hold and there is no chain or suppression hit. The owner and email fields are correctly 'Not found', so the lead stays a WATCH, call-first row. The pain signal is inferred, not proven, because the contact page says after-hours service is available. The ZyraTalk chatbot claim could not be re-verified from the page text."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passed every hard disqualifier: independent single-location shop (not a franchise or chain), working own-domain website, live and BBB-accredited, phone and contact form both present, not a competitor, and no match in suppression.csv or seen.csv by domain, name or phone. The GHL 'E4L Services' dedupe (ghl-contacts.js) was NOT run from this agent, so that check is still open. Scores 45 / PROVISIONAL, which puts it in the WATCH band. It is not SEND TODAY eligible.",
+  "company_name": "The Pipefather Plumbing & Drain",
+  "niche": "Plumbing",
+  "niche_segment": "core",
+  "website": "https://thepipefather.com",
+  "city": "North Olmsted",
+  "state": "OH",
+  "zip": "44070",
+  "street_address": "Not found (service-area business; BBB lists only North Olmsted, OH 44070-4952; GBP shows no street address)",
+  "company_phone": "+1 440-640-7711",
+  "company_email_generic": "info@thepipefather.com (in the footer of every page and a mailto link on the homepage; domain has Google Workspace MX records)",
+  "google_maps_url": "https://business.google.com/v/the-pipefather-plumbing-drain/01142953465681771674/9bcc/_",
+  "google_rating": "5.0",
+  "review_count": "151 (GBP fetch 2026-10-15; the scout's other fetch showed 90; only 2 reviews were visible to read)",
+  "locations_count": "1 (service-area business based in North Olmsted; no other locations or franchise language)",
+  "founded_or_years": "CONFLICT (gap under 2 years): the About page says \"founded in 2025\"; BBB lists Founding date 2024-07-09; domain registered 2025-07-25 (RDAP). Roughly 1 to 2 years old.",
+  "service_area": "19 west-side and south Cleveland suburbs per GBP: Parma, Grafton, Lakewood, Brunswick, Brook Park, Berea, Medina, Mentor, Strongsville, Fairview Park, North Olmsted, Westlake, Avon Lake, North Ridgeville, Brecksville, Rocky River, North Royalton, Sheffield Lake, Broadview Heights",
+  "sub_services": "Drain clogs and drain cleaning (including hydro-jetting and main sewer lines), drain leak detection and repair (non-invasive and trenchless methods), pipe repair (leaks and burst pipes), water heater installation (per a GBP review), repiping or reconfiguring botched lines (per a site testimonial), free no-obligation estimates",
+  "team_size_estimate": "Small: owner plus a few people. The About page says \"Call Anthony and the team\"; no staff are named and no headcount is published (BBB lists none).",
+  "owner_first_name": "Anthony",
+  "owner_last_name": "Pollizze",
+  "owner_title": "Founder / Owner (site lists \"Founder\"; BBB principal contact lists \"Owner\")",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "info@thepipefather.com",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found. The main line +1 440-640-7711 is the only number published. The About page ties it to the owner (\"Call Anthony and the team at (440) 640-7711\"), but it is the business line, not a separate direct line.",
+  "owner_linkedin": "Not found (web search budget was used up this run, so the LinkedIn search could not be run)",
+  "owner_other_socials": "Company Facebook: https://www.facebook.com/profile.php?id=61578903983892 (linked from the site footer; content could not be read logged-out). BBB says Facebook and Instagram profiles exist, but no Instagram URL was captured. No personal owner socials found.",
+  "owner_background": "Self-stated on the About page: founded The Pipefather \"with years of hands-on experience and a passion for quality service\", described as a \"young ... entrepreneur\". Holds Ohio plumbing license #51828 per the site footer (not verified on the state board). BBB Accredited since 2026-08-27. BNI member per the site. Prior employer, training and years in the trade: Not found.",
+  "owner_personality_cues": "Playful, branded, family-themed voice: a Godfather-pun name, \"An Offer You Can't Refuse\" free-estimate headline, \"Don't let your plumbing be a tragedy\", \"Your Ohio Plumbing Family\", \"Welcome to the Family!\". Quality and honesty values: \"no shortcuts, no cheap materials, and no 'band-aid' fixes\", \"clear, honest communication\", and wants to be the plumbing partner \"for generations to come\". A networker (BNI member) who invests in trust badges (BBB accredited Aug 2026, licensed and insured). He puts himself front and center: his name is the one in the testimonials (\"Anthony is a top-level pro!\").",
+  "best_opening_moment": "His GBP description promises \"swift emergency plumbing solutions\" across 19 suburbs, but the listed hours end at 8 PM on weeknights and 5 PM on weekends. Open on that gap, plus the newly earned BBB accreditation (2026-08-27) and the 151 five-star reviews.",
+  "attitude_type": "Growth-Minded Operator (moderate confidence)",
+  "attitude_evidence": "A young shop, founded 2024/2025, already showing growth posture. It has 151 five-star Google reviews in about 15 months, which is high review velocity (GBP, 2026-10-15). It earned BBB accreditation dated 2026-08-27. It markets itself as a BNI member. It runs a custom-designed Squarespace site credited to Elvis Torres Design, with a strong brand voice. It covers a 19-city service area. Not confirmed: paid ads (not checked), hiring (not checked) and owner review replies (the 2 visible GBP reviews have no reply). No defensive or anti-marketing signals were found. If Sam hears \"it's just me on every job\", re-tag as Overwhelmed Owner-Operator.",
+  "tech_adoption": "basic. Has SSL, a Squarespace contact form, a claimed and verified GBP that posts its own updates, Facebook, and card payments. No online booking, chat, text-us, financing or review tool; page source shows no Calendly, Housecall Pro, Jobber, ServiceTitan, Podium or Birdeye. The site's structured data still carries the Squarespace placeholder name \"Your Site Title\", and its LocalBusiness block has empty address and openingHours.",
+  "marketing_sophistication": "diy, with a one-person designer: footer credits \"Site Design by Elvis Torres Design\", hosted on Squarespace. No Google Tag Manager, Meta pixel, CallRail or other call tracking in the page source, and no blog.",
+  "growth_stage": "establishing (about 1 to 2 years old with fast review velocity and recent BBB accreditation)",
+  "review_response_behavior": "unknown. Only 2 of 151 GBP reviews were visible and neither had an owner reply. Sample too small to classify.",
+  "after_hours_handling": "Not stated anywhere. GBP hours: \"Monday through Friday: 8 AM–8 PM; Saturday and Sunday: 8 AM–5 PM\". The GBP description advertises \"swift emergency plumbing solutions\" with no 24/7 claim. The site, GBP and page source mention no answering service and no AI receptionist. What happens to a call after 8 PM, or after 5 PM on weekends, is unknown, and that is the question for Sam.",
+  "online_booking": "No. The \"BOOK NOW\" and \"Get a free estimate\" buttons lead to a Squarespace form (Name, Email, Phone, Address, Message) that promises \"we will get back to you immediately to confirm your requested appointment\". No scheduler vendor appears in the page source.",
+  "chat_or_text_on_site": "No chat widget and no text-us option (page source checked; no Tidio, Podium, tawk or LiveChat).",
+  "vendors_detected": "Squarespace (site and forms); Elvis Torres Design (site designer credit); Google Workspace (MX records for thepipefather.com). No CRM, field-service, call-tracking, review or chat vendors detected.",
+  "ads_running": "Not checked. Web search budget was used up, so the Google Sponsored and LSA check and the Meta Ad Library check could not run. Page source has no gclid or UTM handling, no GTM, no Meta pixel and no call tracking, which points away from active paid campaigns but does not prove it.",
+  "ai_search_presence": "not checked. No AI platform or search could be run this session. Site schema finding: the WebSite JSON-LD name is the Squarespace placeholder \"Your Site Title\", and the LocalBusiness JSON-LD has empty address and openingHours. There is no FAQPage schema, so the site is weakly AI-readable, which works as a GEO audit wedge.",
+  "pain_signals": "No responsiveness complaints found. The visible reviews praise service: Nick Scarpitti (GBP, about 4 months ago) wrote \"From the moment I called to schedule the appointment\" it went smoothly; a site testimonial says \"they handled our plumbing issues asap after we contacted them\". The real gap is coverage. The emergency-plumbing claim (\"swift emergency plumbing solutions\") sits next to hours that close at 8 PM weekdays and 5 PM weekends, with no after-hours or answering coverage stated, in a 19-city service area run by an owner who is also the named point of contact (\"Call Anthony and the team\"). A further point of friction: the only booking path is a form, with no scheduler, chat or text. Not checked: job posts, the full review set and the owner reply rate.",
+  "trigger_events": "(1) BBB Accreditation granted 2026-08-27, 49 days ago (BBB profile). (2) Ohio's freeze and burst-pipe season starts in Nov–Dec, which is a vertical seasonal window with no business-specific evidence. (3) Review momentum: 151 reviews in about 15 months, though dated velocity was not measured. Not checked: hiring and new GBP date.",
+  "lead_score": 45,
+  "score_breakdown": "D1 Decision-maker reachable: 8/20 — full name Anthony Pollizze cited from two independent sources (thepipefather.com homepage \"ANTHONY POLLIZZE Founder\"; BBB principal contact \"Anthony Pollizze, Owner\"). Contact is the generic info@thepipefather.com (Confirmed on site, Google MX) plus the staffed main line. No personal email, no direct line and no owner LinkedIn found (search budget used up), so this scores 8, not 14. D2 Phone/after-hours gap: 9/15 — phone-first (CALL NOW and the number in the header on every page); plumbing is an inherently urgent niche; GBP hours \"Mon–Fri 8 AM–8 PM, Sat–Sun 8 AM–5 PM\" next to the GBP description \"swift emergency plumbing solutions\", with no 24/7, answering-service or AI claim anywhere. Because it is open 7 days with no 24/7 claim, the rubric caps this at 9. D3 Lead-response leak: 0/15 NO EVIDENCE — no responsiveness complaints in the 2 visible GBP reviews or the site testimonials (they praise responsiveness); BBB shows 0 complaints; the contact form promises an immediate response, so friction signal type 5 does not fire; job boards, the full review set and the reply rate could not be checked (search budget), so this is not a complete logged null. D4 AI search visibility: 0/10 NO EVIDENCE — no AI platform could be checked. Schema note: the LocalBusiness JSON-LD is empty and the WebSite name is \"Your Site Title\"; there is no FAQPage. D5 ICP fit/ability to pay: 15/15 — independent, single location, named owner; core niche (plumbing); proxies: 151 Google reviews (100+), a water-heater install and repipe/trenchless work (plumbing $1.5–5k ticket row), and a service area of 19 cities. Under 3 years old, so that proxy does not count. D6 Timing + spend: 7/15 — only spend groups (d)/(e): footer credit \"Site Design by Elvis Torres Design\", plus paid BBB accreditation (dated 2026-08-27, which is not a listed trigger type). Google Ads, LSA and Meta Ad Library were not checked; page source shows no GTM, pixel or call tracking. D7 Attitude/stack: 6/10 — net 2 positives: (b) a modern SSL site built 2025 with a © 2026 reference; (e) growth posture (BBB accreditation Aug 2026, BNI member, about 151 reviews in about 15 months). No visible review replies, no booking or chat tech, no negatives, and no incumbent bundled agency (Squarespace DIY plus a designer = greenfield). TOTAL 45 / PROVISIONAL. Evidence on 5 of 7 dimensions (D1, D2, D5, D6, D7); D2 has direct quoted hours evidence. It is PROVISIONAL because the GHL 'E4L Services' dedupe was not run here; only suppression.csv and seen.csv were checked, with no match. Band: WATCH. Blockers: D3 and D4 have no evidence. Re-score after one GEO money-question check and a review/job-board pass, or after Sam's first call records who answers.",
+  "recommended_entry_offer": "Voice AI live demo, emergency angle: build a demo line from thepipefather.com that answers burst-pipe and backed-up-drain calls after 8 PM weekdays and 5 PM weekends, qualifies the caller and books the job. Pair with missed-call text-back. Secondary hook: the free AI visibility audit, since the site schema still carries the placeholder \"Your Site Title\".",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Pipefather calls after 8pm",
+  "personalized_first_line": "Anthony, your Google profile promises swift emergency plumbing across 19 towns from Parma to Mentor, but the line closes at 8 on weeknights and 5 on weekends, and a burst pipe doesn't check the hours first.",
+  "call_angle": "Emergency coverage, call-first (D1 = 8, generic inbox only). Anthony is the named face of the business and the About page sends callers to \"Anthony and the team\". Ask Sam's qualify question: \"When a burst-pipe call comes in at 9 PM or Sunday evening, who picks up: you, voicemail, or nobody?\" Then offer the proof lever: a demo line trained on The Pipefather's own site that he can call before paying anything. Mirror his playful brand without overdoing it (\"an offer you can't refuse\" is his line, so let him use it). Ask #1 is a Game Plan Call with Sebastian. Ask #2 is his email for the free AI visibility audit.",
+  "likely_objection": "\"We already answer our phones, and the reviews say so.\" The reviews do praise responsiveness, and he is young and hands-on. Reframe: no one is saying he misses calls today. The question is after 8 PM, weekends after 5, and the moments he is under a sink in Medina while a Lakewood homeowner with water on the floor calls the next plumber. Go-live only forwards missed or busy calls, so nothing changes for calls he does pick up. A possible second objection is budget, since this is a shop about 1 to 2 years old; if so, offer the Revenue Leak Scorecard.",
+  "why_now": "Cleveland's freeze-and-burst-pipe season starts in the next 4 to 8 weeks, which brings the most after-hours emergency calls of the year to a shop whose posted hours end at 8 PM weekdays and 5 PM weekends. He also just earned BBB accreditation (2026-08-27) and is building fast (151 reviews), so he is investing in growth right now.",
+  "notes_for_chosen": "WATCH band (45 / PROVISIONAL), so do not slot into today's 10 unless the bench is short; handle as a manual override. The web search budget was used up this run, so D3 (reviews, jobs), D4 (AI spot-check), D6 ads and LinkedIn were not checked. Facts to rely on: owner Anthony Pollizze (site Founder plus BBB Owner); main line +1 440-640-7711; info@thepipefather.com; Ohio license #51828 (self-stated in the site footer, not verified on the state board); BBB A rating, accredited 2026-08-27; founding-year conflict (site says 2025, BBB says 2024-07-09). Customer reviews praise responsiveness, so do not open with a pain-from-reviews line; open with the hours-versus-emergency-claim gap. Branding is Godfather-themed (\"An Offer You Can't Refuse\"), and a light nod is fine. Route: Sam calls first with the demo number, and email to info@ only as a follow-up (it reaches a gatekeeper inbox). A second wedge for later: the site's structured data still reads \"Your Site Title\" with an empty LocalBusiness block, which makes a concrete opener for the free GEO audit. Compliance: no prices, no promised results.",
+  "business_hours": "Mon–Fri 8:00 AM–8:00 PM ET; Sat–Sun 8:00 AM–5:00 PM ET (Google Business Profile, checked 2026-10-15). The site lists no hours.",
+  "timezone": "America/New_York (Eastern Time)",
+  "best_time_to_call": "Tue–Thu 7:45–8:30 AM ET, right at the 8 AM open and before the first drain or water-heater job pulls Anthony under a sink. Backup: 6:30–7:30 PM ET on weekdays, when the line is still open until 8 PM but field work is usually wrapping up. Reason: the About page routes callers straight to the owner (\"Call Anthony and the team at (440) 640-7711\"), and no office manager or dispatcher is named, so the owner is most reachable at the edges of the day.",
+  "call_opener": "\"Hi, is this Anthony? Anthony, it's Sam with Eat 4 Life Marketing. I'll be honest, this is a cold call. Can I have 20 seconds, and then you tell me if it's worth another minute? ... I was looking at The Pipefather's Google profile. It says swift emergency plumbing across 19 towns, Parma to Mentor, but your hours end at 8 on weeknights and 5 on weekends. Burst pipes don't keep those hours, and when that call rings out, the homeowner just calls the next plumber on Google. We build an AI receptionist trained on your own website that answers those calls, gets the details and books the job, and we'll set you up a demo line you can call before you ever pay a dollar. So who's picking up your phone at 9 PM on a Saturday right now: you, voicemail, or nobody?\"",
+  "gatekeeper_notes": "No receptionist, office manager or dispatcher is named on the site, GBP or BBB. The About page tells customers to \"Call Anthony and the team at (440) 640-7711\", and a GBP review says \"From the moment I called to schedule the appointment\", so a person, likely Anthony or a team member, answers the main line during hours. No answering service or AI receptionist is mentioned anywhere. No owner cell is published. If someone else answers, ask for Anthony by first name (\"Is Anthony around? It's Sam, quick question about after-hours calls\"). If he is on a job, ask when he is usually back at the truck and call back then rather than leaving a pitch voicemail. Note who answers (human, voicemail or service) so D2 can be re-scored.",
+  "evidence_links": "https://thepipefather.com/, https://thepipefather.com/about, https://business.google.com/v/the-pipefather-plumbing-drain/01142953465681771674/9bcc/_, https://www.bbb.org/us/oh/north-olmsted/profile/plumbing-and-heating/the-pipefather-plumbing-drain-0312-92061411, https://thepipefather.com/contactus, https://thepipefather.com/services, https://thepipefather.com/reviews, https://www.facebook.com/profile.php?id=61578903983892, https://rdap.verisign.com/com/v1/domain/thepipefather.com, https://dns.google/resolve?name=thepipefather.com&type=MX",
+  "research_confidence": "Medium",
+  "_target": "plumbing-cleveland",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner Anthony Pollizze, Founder/Owner",
+     "result": "confirmed",
+     "note": "Homepage and About list Anthony Pollizze as Founder. The BBB profile lists him as principal contact, Owner."
+    },
+    {
+     "claim": "Email info@thepipefather.com",
+     "result": "confirmed",
+     "note": "Shown on the About page and homepage. It is a generic inbox, correctly typed as Generic. Google Workspace MX was not re-checked."
+    },
+    {
+     "claim": "Company phone (440) 640-7711 and 'Call Anthony and the team' quote",
+     "result": "confirmed",
+     "note": "The About page, homepage, BBB and GBP all show the number. The exact quote is on the About page."
+    },
+    {
+     "claim": "Website thepipefather.com, independent single-location, no franchise",
+     "result": "confirmed",
+     "note": "The About page says 'local plumbing company' with no franchise or chain language. No street address is listed anywhere. BBB lists North Olmsted OH 44070-4952."
+    },
+    {
+     "claim": "Strongest pain signal: GBP 'swift emergency plumbing solutions' vs hours Mon-Fri 8-8, Sat-Sun 8-5",
+     "result": "confirmed",
+     "note": "The GBP page shows those exact hours and the description wording. It also shows 151 reviews at 5.0 and the same 19 towns. The services page also says 'Facing a plumbing emergency?' The pain signal is an inference about a coverage gap, not a stated complaint, and the lead already says so."
+    },
+    {
+     "claim": "BBB accredited 2026-08-27, A rating, founded 2024-07-09, 0 complaints",
+     "result": "confirmed",
+     "note": "All of these appear on the BBB profile. The About page says founded 2025, so the founding-year conflict is real. The BBB profile does not list the website."
+    },
+    {
+     "claim": "Ohio license #51828",
+     "result": "confirmed",
+     "note": "The homepage and About page show '#51828 Licensed Ohio Plumber'. It is self-stated and not verified on the state board, as the lead notes."
+    },
+    {
+     "claim": "Owner is a BNI member (used in D7 and attitude_evidence)",
+     "result": "not-found-on-source",
+     "note": "The About and Services fetches found no BNI mention. The homepage fetch was not asked about BNI. Other pages were not fully checked, so this stays unverified."
+    },
+    {
+     "claim": "Footer credit Elvis Torres Design, Squarespace",
+     "result": "confirmed",
+     "note": "The homepage footer reads 'Site Design by Elvis Torres Design. Hosted with Squarespace.'"
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "A case-insensitive grep for pipefather, 640-7711, 6407711 and pollizze returned no matches in either file. The lead was also absent from targets.csv and run-log.csv. The GHL dedupe is still open, as the lead states."
+    },
+    {
+     "claim": "Water heater install and repipe sub-services (D5 ticket proxy)",
+     "result": "not-found-on-source",
+     "note": "The Services page text did not mention water heater or repipe. The lead cites a GBP review and a site testimonial for these, and I did not verify either. The fetched page was truncated."
+    }
+   ],
+   "corrected_fields": {
+    "tech_adoption": "basic. Has SSL, a Squarespace contact form, a claimed GBP and a Facebook page. (BNI membership is unverified: not found on the About, Services or Home pages.)",
+    "attitude_evidence": "A young shop (founded 2024/2025) with 151 five-star Google reviews in about 15 months. It earned BBB accreditation dated 2026-08-27. It has a custom-designed Squarespace site and a 19-city service area. BNI membership was claimed but not found on the site, so it is unverified and dropped from the evidence. No defensive signals found. Paid ads, hiring and review replies were not checked.",
+    "score_breakdown": "The original breakdown stands except for these changes. D7 drops from 6/10 to 4/10 because the BNI growth signal is unverified. Revised TOTAL 43 / PROVISIONAL, WATCH band. D2, D5 and D6 are unchanged. The GHL 'E4L Services' dedupe is still open."
+   },
+   "adjusted_score": 43,
+   "adjusted_confidence": "Medium",
+   "reason": "Owner name, generic email, phone, hours and the emergency-vs-hours gap are all supported by public pages, and the lead is not a chain or on either list. The BNI claim and the water heater/repipe detail could not be found on the site, so D7 drops by 2 points (score 43), and the lead stays WATCH/PROVISIONAL."
+  }
+ },
+ {
+  "qualified": true,
+  "company_name": "Pitch Perfect Roofing, LLC",
+  "niche": "Roofing",
+  "niche_segment": "core",
+  "website": "https://pitchperfectroofingllc.com/",
+  "street_address": "20 Sugar Creek Rd",
+  "city": "North Little Rock",
+  "state": "AR",
+  "zip": "72116",
+  "company_phone": "+1 501-940-8001",
+  "company_email_generic": "info@pitchperfectroofingllc.com (on own homepage; domain has an MX record)",
+  "google_maps_url": "https://www.google.com/maps?q=34.804544,-92.240036 (coordinates from the ServiceAgent GBP-derived listing; the GBP place URL itself was not found)",
+  "google_rating": "4.9 (Google, via ServiceAgent GBP-derived listing); Facebook 4.9/36 and Yelp 5.0/1 per Expertise.com",
+  "review_count": "85 Google reviews (GBP-derived, ServiceAgent). BestProsInTown shows 4.8/65, which is older data. The testimonials page on the site stops at Sept 23, 2021.",
+  "locations_count": "1 (single address, 20 Sugar Creek Rd; no locations page; no franchise language)",
+  "founded_or_years": "Not stated on site. Footer copyright is \"2015-2026\", the earliest dated testimonial is Mar 26, 2016, and gallery uploads are from 2016, so the business has about 10 years of public activity. AR SOS formation date not found. Expertise.com lists license 345440520, not verified with the ACLB.",
+  "team_size_estimate": "Owner-operator plus field crew; size not published. Reviews say \"Bryan and his crew\". No office staff, dispatcher or office manager named anywhere.",
+  "service_area": "North Little Rock / central Arkansas. No service-area page; the site lists only \"N. Little Rock, AR\".",
+  "sub_services": "Residential and commercial roof replacement, repair, inspection (free inspection offered), hail and storm damage repair with insurance-claim and adjuster coordination, gutters, skylights. Shingle/metal/tile/shake per Expertise.com. Holds CertainTeed ShingleMaster per Expertise.com. 5-year labor warranty, \"no money upfront\", licensed/insured/bonded (documentation on request).",
+  "owner_first_name": "Bryan",
+  "owner_last_name": "Reifeiss",
+  "owner_title": "Owner/Operator",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found (only the generic info@pitchperfectroofingllc.com is published)",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found. No number on any page is explicitly tied to Bryan as a cell or direct line. Reviews suggest he answers the main line himself (2019: \"I called Bryan after my insurance company came out\"), but that does not make it a confirmed owner-direct number.",
+  "owner_linkedin": "Not found (searched \"Bryan Reifeiss\" and \"Reifeiss\" roofing Arkansas; no profile surfaced)",
+  "owner_other_socials": "Company Facebook https://www.facebook.com/pitchperfectroofingllc/ is linked from the site (behind a login wall; post recency not readable). No owner personal socials found.",
+  "owner_background": "Not found beyond the site. The site names him \"Owner/Operator - Bryan Reifeiss, N. Little Rock, AR\". Reviews from 2016-2021 consistently describe him as hands-on and on the jobsite (\"Bryan was personally on the worksite every day\", Jan 2021) and as the person who handles insurance adjusters (\"Bryan even handled all the disputes with the insurance adjusters\", Feb 2017). The name also appears misspelled as \"Brian\" and \"Reifreiss\" in some reviews. SOS officer record not checked: AR SOS search was not reachable in budget.",
+  "owner_personality_cues": "From reviews on the company site (curated, 2016-2021): \"Bryan is truthful and dependable\" (Aug 2016). \"returned all my calls, text, email within a few hours\" and \"he will pick up the phone to answer any questions you may have\" (Jul 30, 2016). \"always available for questions\" (May 2018). \"found a couple of errors on the insurance adjustors report\" (Jul 2019). Read: detail-oriented insurance advocate who takes pride in personally answering. No public statements about marketing, phones or AI found.",
+  "best_opening_moment": "Use his own reputation: reviews say he is personally on the worksite every day and fights the insurance adjusters himself. That is exactly when a new hail-damage call goes unanswered. Source: https://pitchperfectroofingllc.com/reviews/",
+  "attitude_type": "Unclear (leans Overwhelmed Owner-Operator)",
+  "attitude_evidence": "Fewer than 3 independent signals across 2 source categories, so no type is assigned. Signals pointing toward the Overwhelmed Owner-Operator: one-man front office (only Bryan is named, no office staff); reviews say he is on the worksite daily (Jan 5, 2021, https://pitchperfectroofingllc.com/reviews/); and a storm backlog shows in a review: \"because of all the jobs he had lined up due of the recent storm... he called in a couple of days\" (Mar 4, 2018). Signals against: older reviews praise his responsiveness (\"returned all my calls... within a few hours\", 2016), and no reachability complaints were found. GBP owner replies and Facebook posts could not be read.",
+  "tech_adoption": "basic: SSL, a contact form with a math captcha, and a Facebook page. No booking, chat, text-us or review tool seen on the rendered pages. Raw page source could not be pulled (the direct fetch was blocked), so vendor scripts were not verified.",
+  "marketing_sophistication": "diy / light vendor: a local web vendor is credited in the footer (\"Powered by Green Dragon Labs\"). No ads, blog or landing pages seen. The on-site rating widget shows a placeholder \"5.0 based on 12,345 ratings\" next to \"5 out of 5 based on 40 reviews\", which suggests the site is not closely maintained.",
+  "growth_stage": "established: about 10 years of activity (2015 copyright, reviews since 2016), 85 Google reviews. Review velocity is unknown; site testimonials stop at 2021. No hiring or expansion found.",
+  "review_response_behavior": "unknown: Google owner replies could not be accessed. The site's testimonials page shows no owner replies.",
+  "business_hours": "The website says \"7am to 10pm\" (https://pitchperfectroofingllc.com/). The Google Business Profile, via ServiceAgent, shows \"Open 24 hours\" Mon-Sun (https://serviceagent.ai/directory/arkansas/north-little-rock/roofing/pitch-perfect-roofing-llc/). The two sources conflict.",
+  "timezone": "Central Time (America/Chicago)",
+  "best_time_to_call": "Tue-Thu, 7:00-7:45 AM CT, before he heads to the jobsite. Reviews say Bryan is \"personally on the worksite every day\", and the site lists hours from 7am. Fallback is 6:00-7:30 PM CT after crews wrap; the site lists hours to 10pm. Avoid midday, when he is likely on a roof or meeting adjusters.",
+  "call_opener": "\"Hi, is this Bryan? Bryan, this is Sam with Eat 4 Life Marketing. I'll be upfront, this is a cold call. I was reading your reviews, and customer after customer says you were on the jobsite every day and handled the insurance adjusters yourself. The catch with that is when a hail call comes in while you're up on a roof, that homeowner usually just calls the next roofer on Google. We build a phone line trained on Pitch Perfect's own website that picks up those missed calls and books the free inspection, and you can call it and hear it before you pay anything. Can I take 20 seconds to explain how it works, and you tell me if it's worth a look?\"",
+  "gatekeeper_notes": "Probably no gatekeeper. No office manager, dispatcher, receptionist or answering service is named on the site, and none was found in directories. Reviews indicate Bryan answers 501-940-8001 himself (\"I called Bryan after my insurance company came out\", Apr 2019; \"he will pick up the phone\", Jul 2016). If someone else answers, ask for Bryan by first name and say it's about calls coming in while he's on jobs. If it hits voicemail, leave one short message and do not text: the number is not confirmed as a cell, so it carries no SMS/AI-voice consent. Note the GBP shows \"Open 24 hours\", so callers at night expect an answer. Sam should record who answers (human, voicemail or service) to update D2.",
+  "after_hours_handling": "Not stated. The site lists hours of 7am-10pm and the GBP shows \"Open 24 hours\". No answering service, AI receptionist or after-hours/emergency line is mentioned anywhere: site, ServiceAgent (\"24/7 emergency service: Not advertised\") or Expertise.com. It is most likely the owner's own phone or voicemail; Sam's call would confirm.",
+  "online_booking": "None. The CTA is \"Contact Us Today!\" leading to a Name/Email/Message form with a math captcha, which gives no response-time promise or auto-confirmation. A free inspection is offered by call or form. (Rendered page only; raw source not scanned.)",
+  "chat_or_text_on_site": "None seen (no chat, text-us or click-to-text on the rendered homepage, gallery or reviews pages)",
+  "vendors_detected": "Green Dragon Labs (footer \"Powered by Green Dragon Labs\", web vendor). Shingle brands shown on the site: Malarkey, Owens Corning, Atlas, IKO, GAF, CertainTeed, TAMKO. No CRM, call tracking, review tool or booking vendor detected; raw HTML could not be pulled to confirm.",
+  "ads_running": "Not checked. Google Ads Transparency, the LSA unit and Meta Ad Library were not reachable in budget. Two web searches (\"best emergency roofer North Little Rock AR\", \"best reviewed roofing company North Little Rock hail damage insurance\") showed no sponsored or ad placement for this business. No Angi/HomeAdvisor listing for it surfaced in those searches.",
+  "ai_search_presence": "Not checked on ChatGPT, Perplexity or Gemini, so this is NO EVIDENCE for D4. As a web proxy only, two money-question searches were run. On \"best emergency roofer North Little Rock AR roof leak repair\", the ServiceAgent emergency page ranks Pitch Perfect #2 behind Little Rock Roofing, with Total Eclipse, P.I. Roofing and Fraley also named; the HomeAdvisor results named J&Z Roofing, Integrity Roofing and Scott Roofing, not Pitch Perfect. On \"best reviewed roofing company North Little Rock hail damage insurance claim\", Pitch Perfect was not named; J&Z, Scott's Roofing, Titan and Mighty Dog were. FAQ content exists at /gallery/#faqs. Schema/JSON-LD not verified.",
+  "pain_signals": "1) No booking, no chat or text, and a plain contact form with no response-time promise (https://pitchperfectroofingllc.com/). 2) Hours conflict: the site says \"7am to 10pm\" while the GBP shows \"Open 24 hours\", so night-time storm callers expect an answer; no after-hours coverage is mentioned anywhere. 3) Storm-surge backlog in a review: \"because of all the jobs he had lined up due of the recent storm... he called in a couple of days\" (Mar 4, 2018, https://pitchperfectroofingllc.com/reviews/). 4) A one-man front office: the owner is \"personally on the worksite every day\" (Jan 5, 2021) and no office staff is named. No recent reviews complaining about responsiveness were found; older reviews praise his call-backs.",
+  "trigger_events": "None found. No hiring posts, new location, ownership change, press or award turned up. A search for North Little Rock/Pulaski County hail or severe weather in Sept-Oct 2026 returned nothing recent. The site's copyright was updated to 2026, but no redesign evidence was found.",
+  "disqualifier_check": "PASS on every check that could be run. Not in suppression.csv or seen.csv (grep for pitchperfect / \"pitch perfect\" / pitch-perfect returned no hits). Single location with no franchise or parent language; \"locally owned\" per Expertise.com. Own-domain site loads with current copyright 2015-2026. GBP-derived listing active with 85 reviews; not closed. Phone and form present. Not a competitor category. No AI receptionist or GEO vendor credited. No no-solicitation notice. Not done: GHL 'E4L Services' dedupe (no access from here) and AR SOS / ACLB status check (not reachable in budget). License 345440520 is unverified, from Expertise.com.",
+  "disqualified_reason": "None (no hard disqualifier fired)",
+  "lead_score": 45,
+  "score_breakdown": "Band WATCH (35-54): 45/100. D4 has no evidence, and the GHL dedupe plus AR SOS check were not run.\n\nD1 Decision-maker: 8/20. The full name and role \"Owner/Operator - Bryan Reifeiss\" are cited on his own site (https://pitchperfectroofingllc.com/), and reviews corroborate it. The only email is the generic info@, and no LinkedIn, owner direct line or second channel was found. That makes this a call-first route.\n\nD2 Phone gap: 9/20. The phone is in the header and the free inspection is by call, but the primary button is the contact form. Hours are extended (\"7am to 10pm\" on the site) with no 24/7 claim and no answering service mentioned. Roofing is an urgent niche. The GBP's \"Open 24 hours\" conflicts with the site.\n\nD3 Leak evidence: 5/15. Exactly one signal type: booking friction (no scheduler, no chat or text, the form gives no response promise; rendered page only). Google reply rate, Yelp response, job posts and BBB were not accessible or not found. No responsiveness complaints were found; older on-site reviews praise call-backs.\n\nD4 AI search: 0/10. NO EVIDENCE: no AI platform was checked. The web proxy showed the business on the ServiceAgent emergency list but absent from HomeAdvisor and hail/insurance results.\n\nD5 ICP fit: 10/15. Passes (a) locally owned, single location, named owner, and (b) roofing is core. Two ability proxies: 3+ years (copyright 2015, reviews since Mar 2016) and roofing ticket of $8-15k. Missing: recent 90-day review velocity unknown and only 85 total reviews; no 3+ city service area cited.\n\nD6 Buying signals: 7/15. The only spend signal is group (d), the web vendor credited in the footer (\"Powered by Green Dragon Labs\"). No dated trigger found (storm and news search for Sept-Oct 2026 empty; no job posts). The Google Ads, LSA and Meta Ad Library checks were not completed.\n\nD7 Attitude: 6/10. One positive: a current site with SSL and copyright 2015-2026. No listed negatives found, but there are passive signs: on-site testimonials stop in 2021 and the ratings widget shows a placeholder. No bundled agency conflict.\n\nEvidence present in 6 of 7 dimensions. The score is PROVISIONAL until the GHL dedupe and SOS check are run.",
+  "recommended_entry_offer": "Voice AI live demo: a demo line built from pitchperfectroofingllc.com that answers missed and busy calls, qualifies storm/leak/insurance-claim callers and books the free inspection, paired with missed-call text-back. Route call-first (Sam), since only a generic mailbox exists. He is a solo owner-operator, so expect a smaller budget; consider the solo voice agent if Recover is too much.",
+  "first_fit_tier": "Recover (fallback: à la carte solo voice agent, since this is a one-man front office of unknown size)",
+  "suggested_subject_line": "Calls that come in while you're up on a roof",
+  "personalized_first_line": "Bryan, your reviews keep saying the same thing: you were on the jobsite every day and you went toe-to-toe with the insurance adjusters yourself.",
+  "call_angle": "Missed-call angle, relief-first. His reputation is that he personally picks up and personally handles the insurance claim, but he is also on the roof every day with no office staff named. After a hail storm, a call that rings out goes to the next roofer on Google. Offer a demo line trained on his own site that only answers what he would miss and books the free inspection; go-live is conditional forwarding of missed/busy calls, so he still answers everything he can. Qualify with: \"Who picks up when you're on a roof or it's 9 at night: you, voicemail, or nobody?\" Close with ask #1, the Game Plan Call.",
+  "likely_objection": "\"I answer my own phone. My customers get me directly, that's why my reviews are good.\" Answer: keep it that way. This only picks up the calls that already ring out while he's on a roof or with an adjuster, and he can hear it on the demo line before deciding anything.",
+  "why_now": "No business-specific dated trigger was found. The real reason now is the Google listing: it shows \"Open 24 hours\", but the site says 7am-10pm and no after-hours coverage is mentioned, so storm-night callers expect someone to pick up. Fall is also a quieter stretch to set this up before the next storm surge, and his own 2018 review shows how a storm backlog delays callbacks by days. That timing is an inference from the season and an old review, not a dated trigger.",
+  "notes_for_chosen": "WATCH / PROVISIONAL at 45. The blocker is D4 (AI search not checked), plus thin D3 and no trigger.\n\nStrengths: a real owner-operator with a confirmed name on his own site, a strong insurance-claim specialty, 4.9 stars on 85 Google reviews, and about 10 years in business. He looks like exactly the \"owner is on the roof\" buyer.\n\nWeaknesses: he is not findable beyond his own site (no LinkedIn, no SOS record checked). Email is info@ only. The testimonials feed stops in Sept 2021, and the site's rating widget shows a \"12,345 ratings\" placeholder, so the site is lightly maintained. Older reviews praise his responsiveness, so do not open by implying he misses calls; frame it as the calls that come in while he's on a job.\n\nNext steps to promote the lead:\n1. Run 3 roofing money questions for North Little Rock on ChatGPT and Perplexity.\n2. Have Sam make a first call to record who answers.\n3. Check AR SOS and the ACLB for license 345440520 (unverified, from Expertise.com).\n\nUse \"Bryan\" (not \"Brian\"). Never text the main line; it is not a confirmed cell and there is no consent.",
+  "evidence_links": "https://pitchperfectroofingllc.com/, https://pitchperfectroofingllc.com/reviews/, https://serviceagent.ai/directory/arkansas/north-little-rock/roofing/pitch-perfect-roofing-llc/, https://serviceagent.ai/directory/arkansas/north-little-rock/roofing/emergency/, https://pitchperfectroofingllc.com/gallery/, https://www.expertise.com/home-improvement/roofing/arkansas/little-rock, https://www.facebook.com/pitchperfectroofingllc/, https://www.bestprosintown.com/ar/north-little-rock/roofing/, https://www.homeadvisor.com/c.Roofing.North_Little Rock.AR.-12061.html, https://www.google.com/maps?q=34.804544,-92.240036",
+  "research_confidence": "Medium",
+  "_target": "roofing-littlerock",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner Bryan Reifeiss, Owner/Operator",
+     "result": "confirmed",
+     "note": "Homepage and reviews page both list Bryan Reifeiss, Owner/Operator."
+    },
+    {
+     "claim": "Company phone 501-940-8001, address 20 Sugar Creek Rd, North Little Rock AR 72116",
+     "result": "confirmed",
+     "note": "Homepage footer and ServiceAgent both show the same number and address. It is the only number published."
+    },
+    {
+     "claim": "Generic email info@pitchperfectroofingllc.com on homepage",
+     "result": "confirmed",
+     "note": "Shown on the homepage. No owner-specific email found. The MX record was not re-checked."
+    },
+    {
+     "claim": "owner_email_confidence = Confirmed",
+     "result": "contradicted",
+     "note": "owner_email is 'Not found' and only the generic info@ exists, so a 'Confirmed' confidence for an owner email is inconsistent."
+    },
+    {
+     "claim": "Strongest pain signal: reviews say Bryan is on the jobsite daily and handles adjusters himself",
+     "result": "confirmed",
+     "note": "Reviews page: 'personally on the worksite every day' (Steve Metzer, Jan 5 2021) and 'handled all the disputes with the insurance adjusters' (Rick Spencer, Feb 6 2017). The storm backlog quote (Charlotte, Mar 4 2018) and 'I called Bryan after my insurance company came out' (Apr 20 2019) also check out. The latest testimonial is Sept 23 2021."
+    },
+    {
+     "claim": "Site hours 7am-10pm vs GBP 'Open 24 hours'",
+     "result": "confirmed",
+     "note": "Homepage says 7am to 10pm. ServiceAgent shows Open 24 hours Mon-Sun and notes the listing is unverified by the business."
+    },
+    {
+     "claim": "85 Google reviews, 4.9 rating, coordinates 34.804544,-92.240036",
+     "result": "confirmed",
+     "note": "ServiceAgent shows 4.9 and 85 reviews. The coordinates come from its directions link."
+    },
+    {
+     "claim": "No booking/chat, contact form with math captcha, Green Dragon Labs footer credit, copyright 2015-2026",
+     "result": "confirmed",
+     "note": "All present on the homepage."
+    },
+    {
+     "claim": "Single location, not a chain or franchise",
+     "result": "confirmed",
+     "note": "No franchise language on the site. Expertise.com calls it locally owned."
+    },
+    {
+     "claim": "Expertise.com: license 345440520, CertainTeed ShingleMaster, Facebook 4.9/36, Yelp 5.0/1",
+     "result": "confirmed",
+     "note": "All four match the Expertise.com listing."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Case-insensitive grep for pitch perfect, pitch-perfect, reifeiss and the phone digits returned no hits in either file."
+    },
+    {
+     "claim": "Owner direct phone / LinkedIn not found",
+     "result": "could-not-open",
+     "note": "Web search budget was exhausted, so this could not be re-checked. The homepage lists only the main number, which is consistent with the lead."
+    }
+   ],
+   "corrected_fields": {
+    "owner_email_confidence": "Not found (no owner-specific email published; only the generic info@ mailbox exists)"
+   },
+   "adjusted_score": 45,
+   "adjusted_confidence": "Medium",
+   "reason": "Owner name and title, company phone, generic email, address, hours conflict, pain-signal quotes and non-chain status all check out against the cited pages, and the lead is on neither the suppression nor the seen list. The one fix is owner_email_confidence, which said 'Confirmed' for an owner email that is 'Not found'. The WATCH score of 45 stands."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passes every hard disqualifier: independent family-owned LLC, 1 location, live own-domain site, phone + quote form, roofing (core niche), no AI receptionist or answering service found, not in suppression.csv or seen.csv (checked domain, name, phone, 'Franco'). Scores 47 = WATCH band: D3 has no leak evidence (reviews praise responsiveness) and D4 could not be run on an AI platform. GHL 'E4L Services' dedupe was not run from this session; the orchestrator needs to run it.",
+  "company_name": "Solid Roofing LLC",
+  "niche": "Roofing",
+  "niche_segment": "core",
+  "website": "https://solidroofing.com",
+  "street_address": "119 Poplar Point Dr, STE H-10",
+  "city": "Mooresville",
+  "state": "NC",
+  "zip": "28117",
+  "timezone": "America/New_York (Eastern)",
+  "company_phone": "+1 704-765-6588",
+  "company_email_generic": "info@solidroofing.com (mailto on site header/footer and /about)",
+  "google_maps_url": "https://www.google.com/maps?cid=1338180712788979954 (taken from the Maps embed on solidroofing.com/contact; the GBP itself was not opened)",
+  "google_rating": "Not found (site shows only a Trustindex '5 Star' badge; no numeric Google average found)",
+  "review_count": "223 Google reviews per the Trustindex badge on solidroofing.com. The About page says 'almost 200 Five Stars Google Reviews'. BBB: 14 customer reviews. ComplaintsBoard: 13 reviews, 5.0.",
+  "founded_or_years": "Founded fall 2017. BBB: Business Started 8/10/2017, BBB Accredited since 4/4/2018 (about 9 years). The founder claims 25+ years in construction.",
+  "locations_count": "1 (Mooresville office). City landing pages for Charlotte, Gastonia, Matthews, Monroe, Hickory, Statesville and Denver are service-area pages, not branches.",
+  "team_size_estimate": "8 employees (BBB). The About page names 6 staff: Office Manager Carolina Archila; Assistant Manager Laura Vanessa; Account Managers Lee Hoffman, Zach Justice, Marvin Chavez; Superintendent/Crew Leader David Mencia. Reviews also name Juan (account manager 'Juan Peralta' per ComplaintsBoard) and Eric.",
+  "service_area": "About a 60-mile radius of Charlotte (FAQ): Charlotte, Mooresville, Hickory, Matthews, Denver, Statesville, Monroe, Gastonia NC. The insurance page also lists Clayton and Raleigh.",
+  "sub_services": "Residential shingle and metal roofs, metal roof restoration, commercial roofing / TPO / coatings / flat roofs, solar roofing, gutters, repairs and maintenance, insurance claim assistance, siding, windows. Free inspection and free storm damage assessment, '$1,000 OFF' full replacement, 10-year workmanship warranty, financing (helloratescommercial.com). CertainTeed Certified per HomeGuide.",
+  "business_hours": "Phone: Mon-Fri 8:00 AM-5:00 PM ET. Emergency: 'Available Via Text From 06am - 10pm' (solidroofing.com/contact). The footer on every page also says 'Emergency: Text Us / Available 24/7'. GBP hours not verified.",
+  "owner_first_name": "John",
+  "owner_last_name": "Franco",
+  "owner_title": "President (BBB Business Management: 'Mr. John Franco, President')",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "info@solidroofing.com (generic company mailbox; no owner-direct email published anywhere checked)",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found. One ComplaintsBoard reviewer says the owner 'is available by text and cell', but no cell number is published.",
+  "owner_linkedin": "Not found",
+  "owner_other_socials": "Not found for the owner personally. Company pages: https://www.facebook.com/solidroofing8, https://www.instagram.com/solidroofing.nc (not opened).",
+  "owner_background": "From the first-person founder story on solidroofing.com/about (the founder is not named there): 'a General Contractor with more than 25 years of experience in the construction industry'; 'For over 18 years I worked in the stone industry supplying and installing marble and granite for large projects, Miami International Airport, The Ivy, Mint, Opera Tower, Palace at Weston'. He started Solid Roofing after his own roof leaked and he 'found out that there are not many trustworthy roofers in my area'. He claims 'More than 2,800 residential roofs and 1,500 commercial jobs'. Holds NC GC License #103392 (on site; the license board record was not checked). BBB names him John Franco, President. The 'founder = John Franco' link rests on the BBB principal listing plus reviews naming 'John' as the person who inspects and quotes; no second government source was found. Rate it LIKELY.",
+  "owner_personality_cues": "Hands-on, and personally answers customers. Reviews: 'John came over and inspected my roof and quoted a fair price. Within days he sent his crew over'; 'John impressed us with his prompt responses to our calls'; 'John called in advance and delayed a roof inspection due to rain'; 'He is available by text and cell'. Values integrity and trust: he founded the company because 'there are not many trustworthy roofers'. He is proud of scale and craft (Miami high-rise stone work, 2,800+ roofs) and of family culture: 'We really practice and preach the family mentality here at Solid Roofing'. His mission statement stresses 'clear communication'. Insurance-claim savvy. No public statements on marketing or AI found.",
+  "best_opening_moment": "Early weekday morning (8:00-8:45 AM ET), before John leaves for inspections. Reviews show he personally does inspections and quotes, so midday he is likely on roofs. A second window is 4:15-5:00 PM ET, as the office winds down at its 5 PM phone close. Fall storm and hurricane-tail season is the natural backdrop: the site posted hail-damage, wind-damage and 'commercial roof leak emergency' articles between Oct 8 and Oct 15, 2026.",
+  "attitude_type": "Growth-Minded Operator (low-to-moderate confidence)",
+  "attitude_evidence": "For this type: a scheduled weekly blog (121 posts in post-sitemap.xml, latest 2026-10-15 'commercial-roof-leak-emergency', author 'jeremy'); city landing pages across 8 cities; consumer financing; '$1,000 OFF' promo; Trustindex Google-review widget; a 6-person named office team plus crew lead; BBB accredited since 2018 with 0 complaints. Against Overwhelmed Owner-Operator: reviews praise responsiveness and there is a staffed office. No paid-ads, hiring or owner-voiced social evidence was verified, so confidence is limited.",
+  "tech_adoption": "modern. 'Call or Text' plus a text-us QR code, financing link, quote form, Trustindex review widget, WordPress/Elementor site with SSL and © 2026 footer, GTM (GTM-W8N288S). No online booking, chat widget or field-software scripts found in source.",
+  "marketing_sophistication": "agency_managed or in-house content (unclear). A weekly scheduled blog by author 'jeremy', Yoast SEO, FAQPage JSON-LD, 8 city landing pages and GTM point to someone running SEO content. No agency footer credit and no call-tracking or Meta pixel found in page source.",
+  "growth_stage": "established (founded 2017, about 9 years; 200+ reviews; stable 8-person team per BBB)",
+  "review_response_behavior": "unknown. The GBP review list could not be opened. ComplaintsBoard shows no owner responses. BBB shows 0 complaints.",
+  "after_hours_handling": "Claims 'Available 24/7' with 'Emergency: Text Us' in the footer. The contact page says phone hours are 'Mon - Fri: 08am - 05pm' and 'Emergency Available Via Text From 06am - 10pm'. No answering service, call center or AI receptionist mentioned on the site or in page source. What happens to a voice call after 5 PM or on weekends is unknown (no test call made, per rules). Sam should ask.",
+  "online_booking": "None. 'BOOK A CALL' is a tel: link and 'Request A Quote' is a form. No scheduler scripts (Calendly, ServiceTitan, Jobber, Housecall Pro, LeadConnector) found in source.",
+  "chat_or_text_on_site": "No chat widget. Texting is offered via 'Call or Text (704) 765-6588' and a 'Scan to text Solid Roofing' QR code. Emergency is by text, 6 AM-10 PM.",
+  "vendors_detected": "WordPress + Elementor, Yoast SEO, FlyingPress, Google Tag Manager (GTM-W8N288S), Trustindex (Google reviews widget), HelloRates financing (helloratescommercial.com). No CallRail, Meta pixel, Podium, Birdeye, GHL/LeadConnector, chat or AI-voice vendor found.",
+  "ads_running": "Not verified. Page source shows GTM only: no Google Ads conversion tag (AW-), Meta pixel or call tracking. Google Ads, LSA and Meta Ad Library could not be checked in this session (logged null, incomplete).",
+  "ai_search_presence": "No AI platform could be checked (ChatGPT, Perplexity and Gemini were not reachable): NO EVIDENCE for the 'Named in X of Y' line. As a proxy, two web checks: 'best emergency roofer Mooresville NC' named Solid Roofing as one of 5 (with Race City Roofing, Hidden Cove Construction, RISE Roofing & Restoration, Tidd's Roofing); 'best roofing company Lake Norman Mooresville NC storm damage' did not name it (named Race City Roofing, RISE, Quality Home Solutions, Tidd's, Signature Exteriors, Silver Line). The site already has FAQPage JSON-LD and a long FAQ, which weakens the GEO-schema pitch.",
+  "pain_signals": "After-hours gap, quoted: footer 'Emergency: Text Us / Available 24/7' versus contact page 'Mon - Fri: 08am - 05pm' with emergency 'Available Via Text From 06am - 10pm'. A homeowner who calls about a leak on an evening or weekend has no stated voice coverage. Phone-first site: header 'Call (704) 765-6588', primary CTA 'BOOK A CALL' (tel link), 'Free Estimate: Call Us'. The owner personally inspects and quotes per reviews, so he is on roofs during the day. No review complaints about responsiveness were found; reviews praise it ('Prompt with phone calls', 'very responsive to your calls'). No receptionist or CSR job post found.",
+  "trigger_events": "No dated hard trigger found (no hiring post, new location, ownership change or award). Soft only: weekly storm-season blog content (hail damage 2026-10-08, wind damage 2026-10-08, commercial roof leak emergency 2026-10-15) shows them marketing storm and leak work right now. Copyright © 2026.",
+  "lead_score": 47,
+  "score_breakdown": "D1 Decision-maker: 8/20 — BBB names 'Mr. John Franco, President' (https://www.bbb.org/us/nc/mooresville/profile/roofing-contractors/solid-roofing-0473-618513), but contact is generic info@solidroofing.com plus the staffed main line only. No owner LinkedIn, direct email or cell published. Call-first route. | D2 Phone gap: 15/15 — phone-first (header 'Call (704) 765-6588', 'BOOK A CALL' tel CTA); roofing is an urgent niche; phone hours 'Mon - Fri: 08am - 05pm' are narrower than the footer's 'Available 24/7' claim, with emergencies text-only 6am-10pm (https://solidroofing.com/contact); no answering service or AI found in site or source. | D3 Leak evidence: 0/15 — logged null. Reviews praise responsiveness ('John impressed us with his prompt responses to our calls', 'Prompt with phone calls' on solidroofing.com; 'very responsive to your calls' on ComplaintsBoard). BBB has 0 complaints. No receptionist/CSR job post found in web search. A text-us option exists, so the booking-friction signal does not qualify. GBP owner reply rate could not be checked. | D4 AI visibility: 0/10 — NO EVIDENCE; no AI platform could be checked. Web-search proxy named them in 1 of 2 queries. FAQPage JSON-LD is present on the site. | D5 ICP fit: 15/15 — independent family-owned LLC, 1 location, roofing core niche. Proxies: founded 8/10/2017 (BBB); 223 Google reviews (site badge); 6+ named staff and 8 employees (BBB); roofing ticket $8-15k; financing offered; 8+ city service area. | D6 Buying signals: 3/15 — soft activity only: weekly blog cadence, latest post 2026-10-15. No spend signal in page source (GTM only; no AW-, fbq or CallRail). Google Ads, LSA and Meta Ad Library could not be checked. | D7 Attitude: 6/10 — positives: modern SSL site © 2026 (b); tech adopted, text-us and financing (c). No negatives or incumbent agency found. Review replies and social recency not verified. TOTAL 47 = WATCH. Status: PROVISIONAL until GHL dedupe runs (D4 has no evidence; 6 of 7 dimensions have evidence).",
+  "recommended_entry_offer": "Voice AI live demo: a demo line built from solidroofing.com (storm/leak urgency, insurance-claim intake, free inspection booking) paired with missed-call text-back for after-5 PM and weekend calls. Back-up: free AI visibility audit, since no AI platform was checked.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Your 24/7 line after 5 PM",
+  "personalized_first_line": "John, your site says 'Available 24/7,' but the contact page lists the phone Monday to Friday 8 to 5, with emergencies by text, so I'm curious who picks up when a homeowner with a leak calls on a Saturday.",
+  "call_angle": "Missed-call / after-hours angle, framed as protecting a reputation he built on answering. Reviews say John personally responds fast, and his mission statement promises 'clear communication'. But voice coverage stops at 5 PM on weekdays while the site promises 24/7, and he is on roofs doing inspections during the day. Offer the proof lever: a demo line trained on Solid Roofing's own site (free inspections, storm damage assessment, insurance claim help, the 60-mile service area) that he can call himself, which answers, qualifies and books the inspection when the office is closed or busy. Go-live is one conditional call-forward rule. Qualify with: 'Who answers the phones after 5 or on weekends right now: you, voicemail, or nobody?' Ask #1: a 20-minute Game Plan Call with Sebastian. Ask #2: the email for a free AI visibility audit.",
+  "likely_objection": "'We're already responsive. Customers text us, I answer my cell, and Carolina handles the office.' Reviews back this up, so don't argue it. Agree, then narrow the question to voice calls outside 8-5 Mon-Fri and to calls that come in while John and the account managers are on roofs. Offer the demo line as a no-cost way to hear it for himself. Secondary: 'We already have someone doing our marketing' (weekly blog by 'jeremy'). Position E4L as phones and speed-to-lead, not content.",
+  "why_now": "Fall storm season. Solid Roofing published hail-damage, wind-damage and 'commercial roof leak emergency' posts between Oct 8 and Oct 15, 2026, so leak and storm calls are what they are actively courting. The site promises 24/7 while phone hours end at 5 PM weekdays, and those after-hours leak calls are the ones a competitor (Race City Roofing advertises someone answering phones 24 hours) is set up to catch.",
+  "notes_for_chosen": "Score 47, WATCH, PROVISIONAL. The pain is a clean hours gap (24/7 claim versus Mon-Fri 8-5 phones, text-only emergencies) on a phone-first site. But reviews consistently praise responsiveness, so there is no quoted missed-call complaint to open with. Lead with the demo line, not with criticism. Owner identity: BBB names John Franco, President. The About page's unnamed first-person founder (ex-Miami marble/granite contractor, 18 years) matches the 'John' reviewers say inspects and quotes, but only one authoritative source names him; no SOS or license-board record was opened. No owner email or LinkedIn: call-first (Sam), with info@ as the only mailbox. Before upgrading the score, run: GHL dedupe, GBP review/reply check, Meta Ad Library and an LSA check, the NC Licensing Board for General Contractors lookup for #103392 (qualifier name), and one AI-platform money question. A sharp-looking weekly blog suggests someone ('jeremy') is doing SEO content, so the GEO pitch may meet an incumbent. Keep GEO as a secondary offer. Never promise results; no prices on the call.",
+  "best_time_to_call": "Tue-Thu 8:00-8:45 AM ET. The office phone opens at 8 AM (contact page: Mon-Fri 8am-5pm), and reviews say John personally does inspections and quotes, so he is most likely off the roof before crews and inspections start. Fallback: 4:15-4:55 PM ET, before the 5 PM phone close. Avoid Mondays (storm backlog) and midday.",
+  "call_opener": "Hi, is this John? John, this is Sam with E4L. Full honesty, it's a cold call. Can I take 20 seconds to tell you why I called, and you tell me if it's worth another minute? I was on solidroofing.com. Your footer says 'Available 24/7,' but the contact page has the phone Monday to Friday, 8 to 5, with emergencies by text. When a homeowner with a leak calls at 7 PM or on a Saturday, that call usually goes to the next roofer on Google. We build an AI receptionist trained on your own website that picks up those calls, gets the address and the damage details, and books the inspection. We'll build you a demo line you can call yourself before you spend a dime. Who's answering your phones after 5 right now?",
+  "gatekeeper_notes": "The main line +1 704-765-6588 (call or text) is most likely answered by the office: Office Manager Carolina Archila or Assistant Manager Laura Vanessa (named on solidroofing.com/about). Account managers Lee Hoffman, Zach Justice and Marvin Chavez (plus 'Juan', per reviews) handle customers and insurance. Ask for 'John' by first name, since reviewers refer to him as John; if pressed, say it is about after-hours calls coming into the office line. If John is out, ask Carolina when he is usually back at the office, or whether she handles phone and vendor decisions (likely champion). No owner cell or direct line is published, and no answering service or IVR was found on the site. One reviewer says the owner is 'available by text and cell', but that number is not public. Do not text the main line as an outreach channel.",
+  "evidence_links": "https://solidroofing.com/contact, https://www.bbb.org/us/nc/mooresville/profile/roofing-contractors/solid-roofing-0473-618513, https://solidroofing.com/about, https://solidroofing.com, https://www.complaintsboard.com/solid-roofing-b180839, https://solidroofing.com/post-sitemap.xml, https://solidroofing.com/commercial-roof-leak-emergency/, https://patch.com/north-carolina/mooresville/business/listing/433390/solid-roofing, https://homeguide.com/nc/huntersville/roof-repair/solid-roofing--llc-6iAE5-myI, https://www.homeadvisor.com/c.Roofing.mooresville.NC.-12061.html, https://racecityroofing.wordjack.com/, https://www.facebook.com/solidroofing8, https://www.instagram.com/solidroofing.nc",
+  "research_confidence": "Medium",
+  "_target": "roofing-charlotte",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner is John Franco, President",
+     "result": "confirmed",
+     "note": "BBB lists Mr. John Franco, President, as the only person. solidroofing.com/about does not name the founder, so the founder = Franco link rests on BBB plus reviews that name John. The lead already rates this LIKELY."
+    },
+    {
+     "claim": "Email info@solidroofing.com (generic, no owner-direct email)",
+     "result": "confirmed",
+     "note": "Only mailto on /about and /contact is info@solidroofing.com. No owner email found."
+    },
+    {
+     "claim": "Company phone +1 704-765-6588 and address 119 Poplar Point Dr STE H-10, Mooresville NC 28117",
+     "result": "confirmed",
+     "note": "Matches site /contact and the BBB listing. BBB spells the street 'Poplar Pointe'."
+    },
+    {
+     "claim": "Pain signal: footer 'Available 24/7' vs phone 'Mon-Fri 08am-05pm' and emergency text 6am-10pm",
+     "result": "confirmed",
+     "note": "The /contact page shows the footer 'Emergency: Text Us / Available 24/7', phone 'Mon - Fri: 08am - 05pm' and 'Available Via Text From 06am - 10pm'. No answering service or chat is mentioned."
+    },
+    {
+     "claim": "Independent, single location, not a chain or franchise",
+     "result": "confirmed",
+     "note": "BBB lists no other locations or franchise. The homepage says 'We are a family-owned and operated business.' The 8 cities on /about are service-area pages. The lead's 'LLC' is not shown on the pages I checked."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grepped both for solidroofing, 'solid roofing', 765-6588 and franco. The only hit is an unrelated Austin botox clinic row in suppression.csv (jfranco@morebeautifulyou.com). Solid Roofing is not listed."
+    },
+    {
+     "claim": "Owner personally responsive and 'available by text and cell' (ComplaintsBoard)",
+     "result": "contradicted",
+     "note": "The ComplaintsBoard review (D. Hahn) says 'He is available by text and cell' about account manager Juan Peralta, not John. The site review 'John impressed us with his prompt responses to our calls' is real. The lead's owner_direct_phone, personality-cue and gatekeeper-note references to the owner being available by cell should be dropped."
+    },
+    {
+     "claim": "Trustindex 223 Google reviews, About page 'almost 200 Five Stars', BBB 8 employees / 14 reviews / 0 complaints, ComplaintsBoard 13 reviews at 5.0",
+     "result": "confirmed",
+     "note": "All match the pages I opened. The homepage badge shows no numeric average, as the lead says."
+    },
+    {
+     "claim": "Blog post commercial-roof-leak-emergency dated 2026-10-15, author 'jeremy'",
+     "result": "confirmed",
+     "note": "The post is dated October 15, 2026, 6:34 am. The page text I got named no author, so 'jeremy' is unverified. The date supports the storm-season why_now."
+    },
+    {
+     "claim": "John Franco = unnamed first-person founder on /about",
+     "result": "not-found-on-source",
+     "note": "/about does not contain 'John Franco' or any founder name. Only BBB ties the name to the business, so keep it LIKELY."
+    }
+   ],
+   "corrected_fields": {
+    "owner_direct_phone": "Not found (the 'available by text and cell' ComplaintsBoard quote refers to account manager Juan Peralta, not the owner)",
+    "owner_personality_cues": "Remove the 'He is available by text and cell' quote, which describes Juan Peralta. Keep the supported cues: reviews say John inspects, quotes and responds promptly ('John impressed us with his prompt responses to our calls'; 'John came over and inspected my roof and quoted a fair price'), plus the 'family mentality' language on /about.",
+    "gatekeeper_notes": "Delete the sentence 'One reviewer says the owner is available by text and cell'. That reviewer was describing account manager Juan Peralta. No owner cell or direct line is published. The rest is unchanged: main line 704-765-6588, Carolina Archila (Office Manager) and Laura Vanessa (Assistant Manager) as likely front desk.",
+    "owner_background": "Add: solidroofing.com/about never names the founder. 'John Franco, President' comes only from the BBB listing, so founder = Franco is LIKELY, not confirmed."
+   },
+   "adjusted_score": 46,
+   "adjusted_confidence": "Medium",
+   "reason": "Company, phone, generic info@ email, John Franco (BBB President), the 24/7 vs 8-5 hours-gap pain signal, independent status and the suppression check all hold up. One misattribution needs fixing: the 'available by text and cell' quote is about Juan Peralta, not the owner. Founder = Franco is supported only by BBB, so keep it LIKELY. Web search budget ran out, so I did not re-run the AI-visibility proxy searches. Score trimmed from 47 to 46."
+  }
+ }
+]
