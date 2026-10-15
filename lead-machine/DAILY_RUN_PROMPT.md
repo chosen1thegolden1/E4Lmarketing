@@ -4,7 +4,7 @@
 >
 > Lean run, start to finish:
 > 1. Targets: 13 niche × metro targets, all core trades (roofing, HVAC, plumbing, electrical) plus at most 1 other core niche; `deep` = 2 each (≈26 candidates). No extend-niche experiments unless Chosen asks.
-> 2. Hunt: split into two parallel `hunt_workflow.js` runs (scout and verify run on the cheaper model by default). Do not watch them; wait for the completion notices.
+> 2. Hunt: split into two parallel `hunt_workflow.js` runs (verify runs on the cheaper model by default; scout stays on the session model because the cheaper scout returned empty metros on 2026-10-15). If the two runs yield fewer than ~22 deliverable leads, launch a third run right away with 6–7 fresh targets instead of waiting. Do not watch them; wait for the completion notices.
 > 3. Assemble: merge the two results plus `batches/<previous>-bench.json`, run `assemble_batch.py --min-score 49` (the assembler cleans phones/emails/names automatically). Save overflow as the new bench file.
 > 4. Sheet: `export_csvs.py` → take only the Sam Call Sheet CSV → ONE `create_file` call (`contentMimeType: text/csv`, parent folder `1Xf_4VYA8uPxTrFPympk5kW-cZ0r1oTGM`, title "E4L Leads — YYYY-MM-DD (batch N)"). That converts to a Google Sheet. Do it yourself; no subagent. If the CSV is too large for one call, drop the long text columns (Call Angle, Likely Objection, Best Opening Moment, After-Hours Handling, Business Hours) rather than splitting.
 > 5. Deliver: ONE Slack DM each to Sam (U0C82AEE0M6) and Daniel (U0C0JE303KN): sheet link, then 25 lines "N. Company — Owner — City ST — number — call window". Commit + push. Final message to Chosen: the same list in under 150 words.

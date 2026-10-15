@@ -18,7 +18,7 @@ if (!TARGETS.length) throw new Error('pass args.targets')
 // LEAN mode (default): cheaper model for scout + verify, tighter tool budgets. Override with args.scoutModel / args.model / args.verifyModel ('' = session default).
 const MODEL = (args && 'model' in args) ? args.model : ''
 const VMODEL = (args && 'verifyModel' in args) ? args.verifyModel : 'sonnet'
-const SMODEL = (args && 'scoutModel' in args) ? args.scoutModel : 'sonnet'
+const SMODEL = (args && 'scoutModel' in args) ? args.scoutModel : ''  // scout on the session model: the cheaper model under-produced on 2026-10-15
 const opt = (m, o) => (m ? { ...o, model: m } : o)
 
 const CANDIDATES_SCHEMA = { type: 'object', properties: {
@@ -71,7 +71,7 @@ ABSOLUTE RULES: public, citable sources only. Never invent, infer, or pattern-gu
 const scoutPrompt = (t) => `${COMMON}
 
 ## YOUR JOB: SCOUT — ${t.niche} in ${t.metro}
-BUDGET: at most ~25 tool calls; stop as soon as you have 3 solid candidates. Find 6–10 real, currently operating, owner-operated businesses in this niche and metro, pre-screen them, and return the TOP 3 ranked by fit for E4L (phone-driven revenue, size sweet spot, observable pain signals, reachable owner). Use web search broadly (Google Maps-style queries, "emergency"/"near me" variants, Yelp, BBB, Angi, Nextdoor, local "best of" lists, state license lookups, Facebook pages). For each candidate open the website and the Google Business Profile listing and note review count/rating, hours, "call now" vs online booking, after-hours claims, chat widgets, owner name on About, visible emails, ads (LSA badge / Yelp ads), hiring posts, and review complaints about unanswered calls or slow callbacks.
+BUDGET: at most ~40 tool calls; stop as soon as you have 3 solid candidates (named owner + working phone + own website). Keep every string in your final JSON short and plain (no backslashes, no line breaks) so it parses. Find 6–10 real, currently operating, owner-operated businesses in this niche and metro, pre-screen them, and return the TOP 3 ranked by fit for E4L (phone-driven revenue, size sweet spot, observable pain signals, reachable owner). Use web search broadly (Google Maps-style queries, "emergency"/"near me" variants, Yelp, BBB, Angi, Nextdoor, local "best of" lists, state license lookups, Facebook pages). For each candidate open the website and the Google Business Profile listing and note review count/rating, hours, "call now" vs online booking, after-hours claims, chat widgets, owner name on About, visible emails, ads (LSA badge / Yelp ads), hiring posts, and review complaints about unanswered calls or slow callbacks.
 Apply the rubric's HARD DISQUALIFIERS and the niche card's disqualifiers. Reject anything on the off-limits lists.
 Entry offer per Chosen's matrix: ${t.matrixEntry}. First-fit tier: ${t.tier}.
 Return the ranked top 3 with pre_score 0–100, concrete observed_signals (with URLs), owner name/email ONLY if actually seen, and a one-line niche_verdict. List rejections briefly. Time box ~10 minutes.`
