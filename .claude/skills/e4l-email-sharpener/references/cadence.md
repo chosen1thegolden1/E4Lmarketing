@@ -28,6 +28,20 @@ It renders each email to paste-ready HTML with live links and fails the build on
 missing UTM, a crossed list, a broken link marker, or an agency email that opens with
 "Yo". If the builder fails, the batch is not done.
 
+## Before you write: pay what the list is owed
+
+Read `docs/PROMISES_OWED.md` first. When an email promises something in a later email —
+"I'll go first next time", "more on that Friday", "I'll show you the numbers" — that
+promise is recorded there, and clearing it is the first call on next week's slots.
+
+A broken promise is worse than a boring email. The reader does not know the system behind
+it; they know they replied and nothing came back. Every unpaid promise makes the next P.S.
+that asks for a reply land softer, and the reply rate is the deliverability signal.
+
+If a row is owed and only Chosen can pay it — a story from his life, a number from his
+books — ask him. Never invent the payoff, and never quietly drop the row and hope nobody
+remembers.
+
 ## Weekly rhythm (broadcasts)
 
 **Floor: Monday / Wednesday / Friday, both lists, every week.** Held for months. Add
