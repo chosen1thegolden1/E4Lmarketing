@@ -1,0 +1,19 @@
+2026-10-15 — sent by hand from the live session, not by the GO routine.
+
+Daniel (U0C0JE303KN) — BOTH batches, agency four and student four, in one DM:
+  https://goldstandardgaming.slack.com/archives/D0C195HRBLY/p1792121627269129
+
+Nothing sent to Sammy. Daniel took over the router role on Oct 7 and owns both lists.
+
+WHY BY HAND: Chosen's GO landed at 20:28 PDT Thursday. The GO routine's last firing of
+the week was 16:30 PDT Thursday, so no firing ever saw the approval, and the next one was
+not until Wednesday Oct 21 — two days after this batch starts sending. The same miss
+happened on Sept 30. The routine's schedule has been changed to every six hours on
+Wednesday, Thursday and Friday so a GO given at any hour is picked up before Friday's
+load, rather than only twice a day.
+
+Daniel's DM history was read first and confirmed clear of this batch, so he did not
+receive it twice.
+
+THE GO ROUTINE MUST NOT SEND THIS AGAIN. Its guard is a read of the Slack history with
+Daniel, which now shows the batch delivered.
