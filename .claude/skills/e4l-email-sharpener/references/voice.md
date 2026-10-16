@@ -233,3 +233,99 @@ Eat 4 Life
 
 P.S. I gotta question: If you could build your own game… what would it be?
 ```
+
+### Student — the gold standard (Chosen, 2026-10-15)
+
+Chosen wrote this one himself and called it perfect for his voice *and* for the subject
+matter he wants hitting the student list: **relatable, very now, very his.** It is the
+model for every student email from here on. When a student email doesn't feel like this
+one, it isn't done.
+
+The cleaned, fact-checked version shipped as S1 for the week of 2026-10-19 — read it in
+`docs/BROADCAST_WEEK_2026-10-19.md`. His original draft, kept so the voice survives:
+
+```
+Subject: 5 Things wrong with this viral AI INDIE game
+Preview text: A $6 game nobody will put their name on. And it's printing money.
+
+Yo [First Name],
+
+A $6 game from a studio nobody knows just hit 15,000 players at once on Steam. 👀
+
+It's called Hood Warfare 2.
+
+My boy Malik Forté (a well known gaming savant) broke it down →
+
+Here's what's wrong with it:
+
+#1: It's a cheap COD re-skin remade with AI with every mode renamed in hood slang.
+
+Terms that kids shouldn't be saying casually when it relates to violence. (I'm not the
+police but I'm sayinnnn)
+
+#2: [the map — a real, dangerous Chicago neighborhood sold as a $5.99 level]
+
+#3: Nobody knows who made it. "Trapstar Games." No names. 🤫
+
+And here's what pisses me off most… it's working.
+
+A few people nobody's heard of shipped a real shooter. No publisher. No 13 years.
+
+But crazy enough….it also excites me about where we're going as independent creatives…
+
+In From Xbox to Executive I say it like this:
+
+You're not a single hero anymore. ❌
+You're a whole team in one chair. ✅
+AI covers the parts that used to take a whole staff.
+
+Trapstar proved it. They just aimed it at the wrong thing.
+
+So here's my one rule: if you wouldn't put your real name on it, don't build it.
+
+You can still get creative. You can still get paid. Just be smooth with it.
+
+The gatekeepers just LOST the keys. 🔑 If you've been waiting on somebody to say yes…
+stop waiting.
+
+The book shows you how to start with ONE skill and get paid for it inside 90 days.
+
+👉 Get From Xbox to Executive: HERE →
+
+Holla Back – Get ya Dolla Back. ✊🏾
+Sebastian
+Eat 4 Life
+
+P.S. I gotta question: do you KNOW who made Hood Warfare 2?
+```
+
+**What to copy from it — the student playbook:**
+
+1. **Subject matter: what the reader's feed is arguing about this week.** A viral game, a
+   drop, a gaming/culture moment with a real number attached. Not a survey, not a vendor
+   announcement. The reader should already half-know the story before they open.
+2. **Have an opinion — two of them.** Pick it apart honestly first (numbered, with real
+   heat: "I'm not the police but I'm sayinnnn"), then flip it: "And here's what pisses me
+   off most… it's working." Mad at it and impressed by it at the same time is the voice.
+3. **Culture and responsibility, said straight.** He'll name what's wrong for the
+   community — kids, violence, who profits off the hood — without preaching. One beat,
+   then move.
+4. **The flip lands on the reader's opportunity.** The gatekeepers lost the keys; AI
+   makes one person a whole team. The story is proof the door is open.
+5. **The book shows up as his own words, not an ad.** Quote a line from From Xbox to
+   Executive (the ❌/✅ contrast pair is a signature), link the title, then the 👉 CTA.
+6. **One rule the reader can repeat.** "If you wouldn't put your real name on it, don't
+   build it." Bold it.
+7. **The P.S. reopens the hook** and invites a one-line reply. "I gotta question:" is his
+   phrasing — keep it.
+8. **Signature lines:** "Yo", "My boy", "I'm sayinnnn", "pisses me off", "crazy enough",
+   "Just be smooth with it", "The gatekeepers just LOST the keys", CAPS on the one word
+   that carries the beat, `…` for the pause.
+
+**The one thing the original got wrong, and the rule it taught:** his draft repeated
+details that had spread online but didn't check out (mode names, the map, the studio's
+city, "made with AI"), and the subject promised five things with three in the body.
+Viral stories are exactly where bad facts travel fastest. Every detail gets checked at
+the primary source (the Steam store page, SteamDB, the developer's own posts); anything
+unconfirmed is either cut or said as "the internet's calling it…". The number in the
+subject matches the number in the body.

@@ -63,8 +63,11 @@ not emphasis.
 Emoji are how this voice breathes. They mark a beat the way a pause would out loud. Used
 as garnish they make the email look like every other broadcast in the inbox.
 
-- **Agency: two or three. Student: four or five.** That gap is the voice difference
-  between the lists, and it's the whole reason to treat them separately.
+- **Agency: two or three. Student: five to seven.** That gap is the voice difference
+  between the lists, and it's the whole reason to treat them separately. Student was
+  four or five until Chosen's own Hood Warfare 2 email (2026-10-15, the student gold
+  standard in `voice.md`) ran seven and he called it perfect. A ❌/✅ contrast pair and
+  the ✊🏾 in the signoff are part of his voice, not decoration.
 - `👉` marks the CTA. Always. It is the one fixed convention in this document and it is
   the reader's cue that the ask is coming.
 - A reveal can carry `👀`. A list headline can end on a beat: `⚡`, `🤖`, `💼`.

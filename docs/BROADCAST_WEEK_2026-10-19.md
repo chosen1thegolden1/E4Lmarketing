@@ -6,6 +6,8 @@
 
 **Research date: 2026-10-13.** Each fact below was fetched and read at its primary source (Google Cloud's own blog, the Census Bureau's own pages). Nothing came from an aggregator or a roundup.
 
+**S1 replaced 2026-10-15** with Chosen's own Hood Warfare 2 email, fact-checked the same night. See its Notes.
+
 **Send order:** Mon Oct 19 / Wed Oct 21 / Fri Oct 23 / Sun Oct 25. One agency, one student each day, 8:00 AM Pacific.
 
 ---
@@ -25,7 +27,7 @@ TIME-SENSITIVE: nothing in this batch has a hard expiry. Friday's check still re
 
 **2. A1 and S3 are vendor claims.** Everything about the Gemini agent is Google's own description of its own product, and the customers Google names are large companies (PayPal, Shopify, BNP Paribas). The copy says so and does not claim a small business can buy it today.
 
-**3. A2 and S1 use a household survey, not a business survey.** The 56% figure is workers who said they used AI on the job in March 2026 (Census HTOPS). The copy says "workers said", not "businesses use".
+**3. A2 uses a household survey, not a business survey.** The 56% figure is workers who said they used AI on the job in March 2026 (Census HTOPS). The copy says "workers said", not "businesses use".
 
 ## Angle rotation this week
 
@@ -35,7 +37,7 @@ TIME-SENSITIVE: nothing in this batch has a hard expiry. Friday's check still re
 | A2 Wed | A-1 · wants more sales | Worst Way | the call |
 | A3 Fri | A-1 · wants more sales | Results | the call |
 | A-SUN | A-1 · the direct ask | Direct | the call |
-| S1 Mon | S-A · just found out this exists | Best Way Without | the book |
+| S1 Mon | S-A · just found out this exists | Correlation (Hood Warfare 2 → your name on it) | the book |
 | S2 Wed | S-C · tried and failed | Worst Way + forgive | the book |
 | S3 Fri | S-D · made money, now capped | Paradigm Shift | the book |
 | S-SUN | S-B · believes Chosen, not themselves | The deposit | the book |
@@ -281,61 +283,75 @@ P.S. Tell me how long it took. Hit reply. I read them. 💬
 
 ## S1 — Monday
 
-**Subject:** It's not magic. It's just a chat box.
+**Subject:** 3 things wrong with this viral indie game
 
-**Preview text:** More than half of workers already use one. Tonight's side quest is free.
+**Preview text:** A $6 game nobody will put their name on. And it's printing money.
 
-**Reader:** S-A (just found out digital careers exist) · **Angle:** Best Way Without · **Spoke:** front end → the book
+**Reader:** S-A (just found out digital careers exist) · **Angle:** Correlation (culture news → the lesson) · **Spoke:** front end → the book
 
 ```
 Yo [First Name],
 
-Here's a number that might change how you feel about this.
+A $6 game from a studio nobody's heard of pulled over **15,000 players** at once on Steam last week.
 
-The Census Bureau asked American workers if they'd used AI on
-the job. About **56%** said yes, for at least one of 11 tasks.
+It's called Hood Warfare 2.
 
-That's more than half. It was a March survey. 👀
+My boy Malik Forté (a well-known gaming savant) broke it down → (LINK: https://lnkd.in/e_mBpcFe?utm_source=email&utm_medium=student&utm_campaign=S1-2026-10-19)
 
-Then I looked at what they were doing. Writing messages.
-Searching for answers. Coming up with ideas.
+Here's what's wrong with it:
 
-Nobody's doing anything magic. They're asking a chat box for
-help with the stuff they were already doing.
+#1: It's a cheap COD knockoff with every mode renamed in hood slang.
 
-So you don't need a degree or a tech job. You need to
-get **comfortable asking**.
+"Turf War." "Hit A Lick." "Chain Snatch." Plus one I'm not putting in your inbox. 👀
 
-Here's a side quest you can do tonight, on your phone, free. 🎮
+Terms kids shouldn't be saying casually when it comes to violence. (I'm not the police, but I'm sayinnnn.)
 
-1. Pick a local business you actually go to.
+#2: It's set in Chicago. One of the maps is literally called "The Trenches."
 
-2. Open their website or their Instagram. Find one thing
-that's confusing or out of date. Hours. A menu. A bio.
+Real neighborhoods where real kids are growing up Black in America… sold as a $5.99 level.
 
-3. Paste it into any free AI chat and say: "Rewrite this
-so a first-time customer understands it in ten seconds." 💡
+#3: Nobody knows who made it.
 
-4. Screenshot the before and after.
+"Trapstar Games." No names. No faces. No city. 🤫
 
-That's a sample. A real one, for a real business, made in
-twenty minutes.
+And here's what pisses me off most… it's working.
 
-A sample isn't a sale. Some people will say no. Show the next one.
+A few people nobody's heard of shipped a real shooter. No publisher. No 13 years. No billion-dollar budget like GTA 6.
 
-See the Census story → (LINK: https://www.census.gov/library/stories/2026/08/ai-use-at-work.html?utm_source=email&utm_medium=student&utm_campaign=S1-2026-10-19)
+The internet's calling it vibe-coded with AI. Nobody's proven it either way. And I'm not even sure anybody FROM the culture made it, because their credentials are all hidden.
+
+But crazy enough… it also gets me *excited* about where we're going as independent creatives.
+
+It's the whole point of From Xbox to Executive → (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S1-2026-10-19&utm_content=inline)
+
+In the book I say it like this:
+
+You're not a single hero anymore. ❌
+You're a whole team in one chair. ✅
+AI covers the parts that used to take a whole staff.
+
+Trapstar proved it. They just aimed it at the wrong thing.
+
+So here's my one rule: **if you wouldn't put your real name on it, don't build it.**
+
+You can still get creative. You can still get paid. Just be smooth with it.
+
+The gatekeepers just LOST the keys. 🔑 If you've been waiting on somebody to say yes… stop waiting.
+
+The book shows you how to start with ONE skill and get paid for it inside 90 days.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S1-2026-10-19)
 
+Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
 Eat 4 Life
 Everybody Eats
 
-P.S. I gotta question: what's one place you go to every week that has a confusing website?
+P.S. I gotta question: do you KNOW who made Hood Warfare 2? Hit reply if you do.
 ```
 
-*Notes:* Same Census story as A2: published 2026-08-11 (revised 2026-09-24), HTOPS March 2026, "About 56% of U.S. workers said they have used Artificial Intelligence (AI) on the job for at least one of 11 tasks." The email says "workers" and "March survey" and makes no claim about businesses. Top tasks (writing, searching, ideas) match the article's list. No time-saved number is used. The side quest is the writer's exercise, nothing is promised about results.
-*Source:* https://www.census.gov/library/stories/2026/08/ai-use-at-work.html (U.S. Census Bureau, 2026-08-11, revised 2026-09-24)
+*Notes:* Replaces the original S1 (Census "chat box" email) at Chosen's request, 2026-10-15; his own draft, cleaned and fact-checked. Facts verified 2026-10-15: SteamDB all-time peak 15,258 concurrent on 2026-10-14 (so "last week" is true on the Oct 19 send); Steam store lists $5.99 (intro 10% off), developer and publisher Trapstar Games, released 2026-10-08, modes Turf War / GangBang / Chaos / Hit A Lick / Destroy The Block / Chain Snatch, maps Downtown / Suburbs / The Trenches / Chicago Mall; no AI-content disclosure on the store page and no developer names or location published. Removed from his draft because they did not check out: the mode names "Twin / Switch / Opps", O'Block as the main map, Detroit as the studio's home (Detroit was the setting of the 2023 first game), the flat claim it was made with AI (now framed as what the internet is saying), and the "$2 billion" GTA 6 figure (an estimate, softened to "billion-dollar"). "13 years" = GTA V 2013 to GTA 6's Nov 19, 2026 date. Malik Forté's LinkedIn link could not be opened from here (LinkedIn blocks fetches) — click it on the test send, and confirm the UTM tail doesn't break the lnkd.in redirect; if it does, drop that line's link rather than the UTMs on the book links. Friday check: re-read SteamDB and the Steam page.
+*Source:* https://steamdb.info/app/5155360/charts/ (SteamDB, peak 2026-10-14) · https://store.steampowered.com/app/5155360/Hood_Warfare_2/ (Steam store page, read 2026-10-15) · https://www.dexerto.com/gaming/hood-warfare-2-steam-game-going-viral-with-call-of-duty-comparisons-3418013/ (Dexerto, 2026-10-12)
 
 ---
 

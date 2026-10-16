@@ -15,7 +15,7 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 | Send date | Day | Side | File | Subject | Preview text | Sells |
 |---|---|---|---|---|---|---|
 | 2026-10-19 | Monday | agency | `A1.html` | Google's new hire has an email address | It's software. It also has a calendar and a seat in the company directory. | Game Plan Call (agency front end) |
-| 2026-10-19 | Monday | student | `S1.html` | It's not magic. It's just a chat box. | More than half of workers already use one. Tonight's side quest is free. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-10-19 | Monday | student | `S1.html` | 3 things wrong with this viral indie game | A $6 game nobody will put their name on. And it's printing money. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-10-21 | Wednesday | agency | `A2.html` | Your team is already using AI. You didn't pick it. | Census asked workers, not bosses. More than half said yes. | Game Plan Call (agency front end) |
 | 2026-10-21 | Wednesday | student | `S2.html` | You didn't quit. You got sold a Notion template. | Gamers know this one. Every no is just a lost round. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-10-23 | Friday | agency | `A3.html` | A cold email got me $4,000 | The roofer wasn't really buying emails. | Game Plan Call (agency front end) |

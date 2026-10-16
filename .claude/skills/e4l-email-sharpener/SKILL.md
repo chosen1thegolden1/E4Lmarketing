@@ -18,6 +18,7 @@ sounding like Chosen and sounding like a copywriter doing Chosen.
 | When you're writing… | Read first |
 |---|---|
 | Anything at all | `references/voice.md` — his voice, his story bank, the walls |
+| Any student email | The **student gold standard** at the end of `references/voice.md` — the model for subject matter and voice on that list |
 | A broadcast, a sequence, a promo | `references/jfsi.md` — the operating system |
 | For a specific reader | `references/audiences.md` — the seven segments |
 | A subject line, a headline, a bullet | `references/sauce.md` — formulas that already work |
