@@ -17,3 +17,10 @@ receive it twice.
 
 THE GO ROUTINE MUST NOT SEND THIS AGAIN. Its guard is a read of the Slack history with
 Daniel, which now shows the batch delivered.
+
+CORRECTION, same evening: S1 was replaced with Chosen's own Hood Warfare 2 email at
+23:13 EDT, fifteen minutes before the hand-off DM went out, so that DM carried a stale
+Monday student subject line. A correction naming only that row followed immediately:
+  https://goldstandardgaming.slack.com/archives/D0C195HRBLY/p1792121676926999
+Monday student is "3 things wrong with this viral indie game", not "It's not magic.
+It's just a chat box." The other seven are unchanged.
