@@ -656,3 +656,21 @@ The Oct 12 report's "Change this week" said to find why about 1 in 6 broadcast r
 - **Lilach Bullock, HelloGrowth, Enterprise Times, aiweekly.co, Fox News live blog, TechCrunch roundups** — aggregators and secondary coverage. Used only to find which primary sources to check. None are cited.
 - **Gemini agent availability timing ("GA late October or early November")** — came from an analyst note on Constellation Research, not from Google's post, which gives no date. Left out.
 - **The 8% course-completion figure** in `audiences.md` — no source on file. Not used.
+
+## Friday freshness check
+
+**Run Fri 2026-10-16 (send week starts Mon 2026-10-19). Result: no copy changed, no email swapped for a bench email.**
+
+| Source / claim | Checked | Result |
+|---|---|---|
+| Google Cloud, "Welcome to Gemini at Work 2026" (A1, A3, S3) | WebFetch | Loads; dated 2026-10-08; the "own Workspace account, including an email address, calendar, Drive, and presence in your company directory" quote is still verbatim. The only "preview / coming soon" language is for Financial Services and Legal (in preview) and Government, Healthcare, Retail (coming soon), which no email claims. |
+| Census, "AI use at work" (A2) | WebFetch | Loads; ~56% of workers used AI for at least one of 11 tasks; 37% / 32% / 32% top tasks unchanged. Page footer says revised Sept 23, the note says Sept 24; the figures are unaffected. |
+| Census BTOS, May 26 story (B2, bench) | WebFetch | Loads; 19.8% as of May 3, 2026. |
+| Google Gemini for business (B1, bench) | WebFetch | Loads; dated 2026-06-10; review-reply drafting still described as a capability. |
+| Steam store page, Hood Warfare 2 (S1) | WebFetch | Loads; $5.99, released 2026-10-08, developer and publisher Trapstar Games. |
+| SteamDB peak 15,258 on 2026-10-14 (S1) | WebFetch | Returned 403. Not re-verified today. The peak can only rise, so "over 15,000 players at once" stays true. **"Last week" is still correct on Mon Oct 19** (Oct 14 falls in the prior calendar week). |
+| Dexerto, 2026-10-12 (S1) | WebFetch | Loads; confirms the Oct 12 date, Trapstar Games and the ~$5 price. |
+| GTA 6 date Nov 19, 2026 (S1) | WebSearch | Still the official date; no further delay found. |
+| Links: Game Plan Call booking, joineat4life.com/xboxtoexec, lnkd.in/e_mBpcFe | curl | All return 200. The lnkd.in link still needs a click on the test send, since LinkedIn may bounce the UTM tail. |
+
+Relative dates: every email states calendar dates, and the only relative phrase ("last week" in S1) reads correctly on the send date. Nothing with a deadline falls before Oct 25.
