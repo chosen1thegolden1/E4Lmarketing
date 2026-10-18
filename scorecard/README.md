@@ -13,6 +13,9 @@ scorecard page ──> GHL CS-Scorecard-Intake ──(repository_dispatch)──
                          GHL "Scorecard PDF email" workflow (tag added) ──> sends the email with the PDF link
 ```
 
+
+> **One email only.** Every lead gets the same follow-up email with their PDF link. There is no "no-PDF" version and no fallback email. Do not build one.
+
 ## GHL setup (one time)
 
 1. **Custom field:** create a contact custom field, single-line text, named
