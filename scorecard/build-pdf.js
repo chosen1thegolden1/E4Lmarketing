@@ -106,20 +106,27 @@ const LEAKS = [
   },
 ];
 
-function tierCopy(tier, dbSize, industry) {
-  const db = dbSize.toLocaleString('en-US');
-  const note = INDUSTRY_NOTES[industry] || 'businesses like yours';
-  switch (tier) {
-    case 'OWN':
-      return `You're leaking on every front at real volume. <b>Own</b> puts an AI voice agent on every call, a chatbot on every message, monthly reactivation on your database of ${db}, and revenue attribution so you can see every recovered dollar. We run the entire front of house.`;
-    case 'ACCELERATE':
-      return `Your biggest money is the follow-up gap and the ${db} contacts sitting cold. <b>Accelerate</b> adds 24/7 chat capture, quarterly database reactivation, and automated estimate-chasing on top of the full Recover system. This is where most ${note} land.`;
-    case 'RECOVER':
-      return `Your leak is concentrated where it always starts: the phone and the follow-up. <b>Recover</b> installs the catch-net: an AI voice agent on every call, 60-second response on every inquiry, automated booking and no-show chase. Stop the bleeding first.`;
-    default:
-      return '';
-  }
-}
+// Start every lead on ONE small a la carte service, matched to their biggest leak.
+// No packages and no prices here: pricing happens on the Game Plan Call, upsell later.
+const STARTERS = {
+  front_desk: {
+    name: 'AI Front Desk',
+    why: 'Your biggest leak is at the front door: calls and inquiries that never get answered fast enough. The <b>AI Front Desk</b> answers every call 24/7, texts back every missed caller and new inquiry within 60 seconds, and books the appointment for you.',
+  },
+  follow_up: {
+    name: 'Follow-Up Autopilot',
+    why: 'Your biggest leak is what happens after the first conversation. <b>Follow-Up Autopilot</b> chases every quote and lead with a five-plus touch sequence, and sends reminders and a reschedule chase for every booking, so nobody slips away.',
+  },
+  reactivation: {
+    name: 'Reactivation Campaign',
+    why: 'Your fastest money is already in your contact list: past customers and old leads nobody is talking to. A one-time <b>Reactivation Campaign</b> wakes them up with a reason to come back, usually the quickest win in any business.',
+  },
+};
+const STARTER_FOR_LEAK = {
+  missed_calls: 'front_desk', slow_response: 'front_desk',
+  follow_up: 'follow_up', no_shows: 'follow_up',
+  dead_database: 'reactivation',
+};
 
 function gradeClass(grade) {
   if (/TIGHT/i.test(grade)) return 'good';
@@ -134,7 +141,6 @@ export function renderHtml({ lead, date = new Date() }) {
   const monthly = num(lead.leak_monthly);
   const annual = num(lead.leak_annual) || monthly * 12;
   const grade = clean(lead.grade).toUpperCase();
-  const tier = clean(lead.recommended_tier).toUpperCase();
   const dbSize = num(lead.database_size);
 
   const leaks = LEAKS.map((l) => ({ ...l, amount: num(lead[`leak_${l.key}`]) }));
@@ -157,7 +163,9 @@ export function renderHtml({ lead, date = new Date() }) {
     })
     .join('');
 
-  const tierText = tierCopy(tier, dbSize, industry);
+  // Starter = the service that fixes their #1 leak (front desk if we have no breakdown).
+  const topKey = hasBreakdown ? ranked[0].key : 'missed_calls';
+  const starter = STARTERS[STARTER_FOR_LEAK[topKey] || 'front_desk'];
 
   return `<!DOCTYPE html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -226,7 +234,7 @@ export function renderHtml({ lead, date = new Date() }) {
     </div>
     <div class="side">
       ${grade ? `<div class="chip ${gradeClass(grade)}"><div class="l">Grade</div><div class="v">${esc(grade)}</div></div>` : ''}
-      ${tier ? `<div class="chip tier"><div class="l">Recommended system</div><div class="v">E4L ${esc(tier)}</div></div>` : ''}
+      <div class="chip tier"><div class="l">Start with</div><div class="v">${esc(starter.name)}</div></div>
     </div>
   </div>
 
@@ -234,9 +242,10 @@ export function renderHtml({ lead, date = new Date() }) {
   <p class="sub">${hasBreakdown ? 'Each line is a fix. Start at the top: that is where the fastest money is.' : 'These are the five places businesses lose the most. Your total above is spread across them.'}</p>
   <table>${leakRows}</table>
 
-  ${tierText ? `<div class="rec"><div class="t">The system that seals it</div>
-    <div class="name">E4L <span>${esc(tier)}</span></div><p>${tierText}</p>
-    ${annual > 0 ? `<p>Sealing even <b>half</b> of this leak would be worth roughly <b>${money(annual / 2)}</b> a year to you.</p>` : ''}</div>` : ''}
+  <div class="rec"><div class="t">Your starting move</div>
+    <div class="name"><span>${esc(starter.name)}</span></div><p>${starter.why}</p>
+    <p>You don't need to fix everything at once. Start with this one, and add more only once it's paying for itself.</p>
+    ${annual > 0 ? `<p>Sealing even <b>half</b> of this leak would be worth roughly <b>${money(annual / 2)}</b> a year to you.</p>` : ''}</div>
 
   <div class="call">
     <div class="tx">

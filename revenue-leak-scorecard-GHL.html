@@ -313,19 +313,19 @@ function calc(){
       <div class="amt ${a<50?'zero':''}">${a<50?'✓ sealed':money(a)+'/mo'}</div>
     </div>`).join('');
 
-  // tier recommendation
-  const bigDb = state.db>=500;
-  const heavyMiss = state.miss>=0.45 || state.speed>=0.35;
-  let name,why;
-  if(pct>=0.30 || (bigDb&&heavyMiss) || state.vol>=400){
-    name='OWN'; why=`You're leaking on every front at real volume. <b>Own</b> puts an AI voice agent on every call, a chatbot on every message, monthly reactivation on that database of ${state.db.toLocaleString()}, and revenue attribution so you can see every recovered dollar. We run the entire front of house.`;
-  } else if(bigDb || state.fu>=0.25 || pct>=0.15){
-    name='ACCELERATE'; why=`Your biggest money is the follow-up gap and the ${state.db.toLocaleString()} contacts sitting cold. <b>Accelerate</b> adds 24/7 chat capture, quarterly database reactivation, and automated estimate-chasing on top of the full Recover system. This is where most ${INDUSTRIES[state.ind].note} land.`;
-  } else {
-    name='RECOVER'; why=`Your leak is concentrated where it always starts: the phone and the follow-up. <b>Recover</b> installs the catch-net — an AI voice agent on every call, 60-second response on every inquiry, automated booking and no-show chase. Stop the bleeding first.`;
-  }
-  $('r-rec').innerHTML=`<div class="t">The system that seals it</div>
-    <div class="name">E4L <span>${name}</span></div><p>${why}</p>
+  // starting move: ONE small a la carte service matched to the #1 leak (no packages, no prices)
+  const STARTERS={
+    front_desk:{name:'AI Front Desk',why:'Your biggest leak is at the front door: calls and inquiries that never get answered fast enough. The <b>AI Front Desk</b> answers every call 24/7, texts back every missed caller and new inquiry within 60 seconds, and books the appointment for you.'},
+    follow_up:{name:'Follow-Up Autopilot',why:'Your biggest leak is what happens after the first conversation. <b>Follow-Up Autopilot</b> chases every quote and lead with a five-plus touch sequence, and sends reminders and a reschedule chase for every booking, so nobody slips away.'},
+    reactivation:{name:'Reactivation Campaign',why:'Your fastest money is already in your contact list: past customers and old leads nobody is talking to. A one-time <b>Reactivation Campaign</b> wakes them up with a reason to come back, usually the quickest win in any business.'}
+  };
+  const MAP={missed_calls:'front_desk',slow_response:'front_desk',follow_up:'follow_up',no_shows:'follow_up',dead_database:'reactivation'};
+  const topKey=Object.entries(LAST.leaks).sort((x,y)=>y[1]-x[1])[0][0];
+  const st=STARTERS[MAP[topKey]||'front_desk'];
+  const name=st.name;
+  $('r-rec').innerHTML=`<div class="t">Your starting move</div>
+    <div class="name"><span>${name}</span></div><p>${st.why}</p>
+    <p style="margin-top:8px">You don't need to fix everything at once. Start with this one, and add more only once it's paying for itself.</p>
     <p style="margin-top:8px">Sealing even <b>half</b> of this leak would be worth roughly <b>${money(annual/2)}</b> a year to you.</p>`;
 
   LAST.tier=name;
