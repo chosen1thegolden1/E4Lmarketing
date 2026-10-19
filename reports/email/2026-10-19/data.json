@@ -1,0 +1,368 @@
+[
+  {
+    "side": "Students (school)",
+    "locationId": "zSBqmFrgOtGwd4ALyIsD",
+    "window": {
+      "since": "2026-10-12T14:11:59.216Z",
+      "until": "2026-10-19T14:11:59.216Z",
+      "days": 7
+    },
+    "gaps": [
+      "Opens and clicks are NOT in these numbers: the per-message status field only records delivery. Bulk-campaign opens/clicks need the email-stats scope; workflow-email opens are UI-only."
+    ],
+    "hygiene": [
+      "Paused campaign still holding 1227 queued contacts: \"Feb 4th - The day you stop trading time for money\" (2026-01-28)",
+      "Pipeline \"Chris Power dialer\": source is split by casing — \"11 Digital Careers - Sales Funnel\" vs \"11 digital careers - sales funnel\" — attribution counts are being divided.",
+      "Pipeline \"E4L\": 3 opportunities sit in a paid stage with $0 recorded — revenue from email can't be reported until values are entered.",
+      "Pipeline \"E4L\": 338 of 368 (91.8%) still at \"New Lead (Ebook/ads/etc)\" — the pipeline isn't being worked, so stage-based conversion will read as zero.",
+      "Pipeline \"E4L\": source is split by casing — \"11 Digital Careers - Sales Funnel\" vs \"11 digital careers - sales funnel\" — attribution counts are being divided.",
+      "Pipeline \"E4L\": source is split by casing — \"Xbox to Executive - Optin Form\" vs \"xbox to executive - optin form\" — attribution counts are being divided."
+    ],
+    "locationName": "Eat 4 Life Students",
+    "campaigns": [],
+    "workflowEmails": [
+      {
+        "subject": "You already have the obsession",
+        "source": "workflow",
+        "sent": 4,
+        "byStatus": {
+          "delivered": 4
+        },
+        "delivered": 4,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The mental block that's keeping you broke (it's not what you think)",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Bad credit is costing you thousands",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "That failure you're embarrassed about?",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Welcome to Eat For Life",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Motivation is a scam",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "You didn't start a business to become an employee again",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "People aren't buying because they're confused",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The day you stop trading time for money",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "You don't need more time. You need a clone.",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "They didn't reject you…",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The richest people in 2026 won't be the hardest workers",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Nobody is coming to pick you",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "failed": 2,
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 2,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Stop explaining your dreams",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Stop memorizing. Start leveraging.",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "AI won't take your job—but someone using AI will",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "\"No\" just means \"not yet\"",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "3 things wrong with this viral indie game",
+        "source": "app",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The job path is outdated",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      }
+    ],
+    "workflowEmailsTotal": 49,
+    "hasEngagement": false,
+    "appointments": [],
+    "appointmentsTotal": 0,
+    "forms": [],
+    "formsTotal": 0,
+    "formsKnown": [
+      "Activate AI Income form*",
+      "Voice AI Demo Request",
+      "Free Eat 4 Life Training Sign Up ",
+      "Event Marketing",
+      "V2 - A2P Compliant Optin Form ",
+      "Xbox to Executive - Optin Form",
+      "11 Digital Careers - Sales Funnel"
+    ],
+    "pipelines": [
+      {
+        "name": "Chris Power dialer",
+        "total": 1000,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": []
+      },
+      {
+        "name": "E4L",
+        "total": 368,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": [
+          "Paid Ebook -X-box- Purchased",
+          "Paid Ebook -0-880- Purchased (upsell)",
+          "Course Purchased",
+          "Coaching Enrolled"
+        ]
+      },
+      {
+        "name": "E4L Students",
+        "total": 0,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": [
+          "Closed"
+        ]
+      },
+      {
+        "name": "Wilbert Power dialer",
+        "total": 1000,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": []
+      },
+      {
+        "name": "Ad campaign",
+        "total": 0,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": [
+          "Enrolled"
+        ]
+      },
+      {
+        "name": "Reactivation",
+        "total": 0,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": [
+          "Enrolled"
+        ]
+      }
+    ]
+  },
+  {
+    "side": "Agency (E4L Services)",
+    "locationName": "cVjZYdYSOnOs4rZPrzcs",
+    "unavailable": "no API token configured for this sub-account"
+  }
+]
