@@ -106,27 +106,48 @@ const LEAKS = [
   },
 ];
 
-// Start every lead on ONE small a la carte service, matched to their biggest leak.
-// No packages and no prices here: pricing happens on the Game Plan Call, upsell later.
+// Start every lead on ONE small a la carte service, matched to their #1 leak.
+// Five versions, one per leak. Every one starts at the same entry price; upsell later.
+const START_PRICE = Number(process.env.SCORECARD_START_PRICE || 749);
 const STARTERS = {
-  front_desk: {
+  missed_calls: {
     name: 'AI Front Desk',
-    why: 'Your biggest leak is at the front door: calls and inquiries that never get answered fast enough. The <b>AI Front Desk</b> answers every call 24/7, texts back every missed caller and new inquiry within 60 seconds, and books the appointment for you.',
+    why: 'Missed calls are your biggest leak. Every unanswered call is a customer dialing the next business on the list.',
+    what: 'An AI receptionist answers every call 24/7, answers questions, and books the appointment straight onto your calendar.',
+    impact: 'No more lost callers after hours, at lunch, or while you are on a job.',
+  },
+  slow_response: {
+    name: 'Instant Text-Back',
+    why: 'Slow response is your biggest leak. Most customers hire whoever gets back to them first.',
+    what: 'Every new lead, missed call, and DM gets a text back in under 60 seconds, day or night.',
+    impact: 'You are the first to answer, every time, without picking up your phone.',
+  },
+  dead_database: {
+    name: 'Reactivation Campaign',
+    why: 'Your fastest money is already in your contact list: past customers and old leads nobody is talking to.',
+    what: 'We send your list a short text and email campaign with a reason to come back, and route every reply to you to book.',
+    impact: 'Revenue from people who already know you, usually the quickest win in any business.',
   },
   follow_up: {
     name: 'Follow-Up Autopilot',
-    why: 'Your biggest leak is what happens after the first conversation. <b>Follow-Up Autopilot</b> chases every quote and lead with a five-plus touch sequence, and sends reminders and a reschedule chase for every booking, so nobody slips away.',
+    why: 'Follow-up is your biggest leak. Most sales happen after touch number five, and most businesses stop at one.',
+    what: 'Every quote and lead gets a five-plus touch text and email sequence that runs itself until they book or say no.',
+    impact: 'Deals you already paid to get stop slipping through the cracks.',
   },
-  reactivation: {
-    name: 'Reactivation Campaign',
-    why: 'Your fastest money is already in your contact list: past customers and old leads nobody is talking to. A one-time <b>Reactivation Campaign</b> wakes them up with a reason to come back, usually the quickest win in any business.',
+  no_shows: {
+    name: 'No-Show Shield',
+    why: 'No-shows are your biggest leak. That is booked revenue walking out before it ever walks in.',
+    what: 'Automated reminders before every appointment, plus a reschedule chase for anyone who misses.',
+    impact: 'More of your calendar turns into paid appointments instead of empty chairs.',
   },
 };
-const STARTER_FOR_LEAK = {
-  missed_calls: 'front_desk', slow_response: 'front_desk',
-  follow_up: 'follow_up', no_shows: 'follow_up',
-  dead_database: 'reactivation',
-};
+
+function returnLine(amount) {
+  if (!(amount > 0)) return 'Built to pay for itself fast. We will show you the math on your call.';
+  const pct = Math.ceil((START_PRICE / amount) * 100);
+  if (pct <= 60) return `This leak costs you about <b>${money(amount)} a month</b>. Win back just <b>${pct}%</b> of it and the starting price is covered. Everything after that is profit.`;
+  return `This leak costs you about <b>${money(amount)} a month</b>. It is built to pay for itself, and we will show you exactly how on your call.`;
+}
 
 function gradeClass(grade) {
   if (/TIGHT/i.test(grade)) return 'good';
@@ -165,7 +186,8 @@ export function renderHtml({ lead, date = new Date() }) {
 
   // Starter = the service that fixes their #1 leak (front desk if we have no breakdown).
   const topKey = hasBreakdown ? ranked[0].key : 'missed_calls';
-  const starter = STARTERS[STARTER_FOR_LEAK[topKey] || 'front_desk'];
+  const starter = STARTERS[topKey] || STARTERS.missed_calls;
+  const topAmount = hasBreakdown ? ranked[0].amount : 0;
 
   return `<!DOCTYPE html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -175,14 +197,14 @@ export function renderHtml({ lead, date = new Date() }) {
   body { margin: 0; font-family: 'Rethink Sans', 'Segoe UI', Arial, sans-serif; color: #111; background: #fff;
          -webkit-print-color-adjust: exact; print-color-adjust: exact; font-size: 12px; line-height: 1.45; }
   .page { padding: 0 0 16px; }
-  header { background: #000; color: #fff; padding: 24px 44px 20px; border-bottom: 6px solid #FFC200; }
+  header { background: #000; color: #fff; padding: 20px 44px 16px; border-bottom: 6px solid #FFC200; }
   .brand { color: #FFC200; font-weight: 800; letter-spacing: .14em; font-size: 11px; }
   h1 { margin: 6px 0 2px; font-size: 27px; line-height: 1.05; font-weight: 800; letter-spacing: -.01em; }
   h1 em { font-style: normal; color: #FFC200; }
   .meta { color: #bbb; font-size: 12px; }
   .meta b { color: #fff; font-weight: 600; }
   main { padding: 0 44px; }
-  .hero { display: flex; gap: 20px; align-items: stretch; margin-top: 20px; }
+  .hero { display: flex; gap: 20px; align-items: stretch; margin-top: 14px; }
   .big { flex: 1.3; background: #000; color: #fff; border-radius: 14px; padding: 16px 22px; }
   .big .l { color: #FFC200; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
   .big .n { font-size: 40px; font-weight: 800; line-height: 1.05; margin-top: 4px; }
@@ -195,24 +217,33 @@ export function renderHtml({ lead, date = new Date() }) {
   .chip .v { font-size: 20px; font-weight: 800; margin-top: 2px; }
   .chip.good .v { color: #138a36; } .chip.warn .v { color: #b86e00; } .chip.bad .v { color: #c0261d; }
   .chip.tier { background: #FFC200; border-color: #FFC200; }
-  h2 { font-size: 15px; font-weight: 800; margin: 18px 0 2px; letter-spacing: -.005em; }
+  h2 { font-size: 15px; font-weight: 800; margin: 12px 0 2px; letter-spacing: -.005em; }
   .sub { color: #555; margin: 0 0 4px; }
   table { width: 100%; border-collapse: collapse; line-height: 1.35; }
-  td { vertical-align: top; padding: 6px 6px; border-bottom: 1px solid #e6e6e6; }
+  td { vertical-align: top; padding: 4px 6px; border-bottom: 1px solid #e6e6e6; }
   td.rank { width: 30px; font-weight: 800; color: #FFC200; font-size: 15px; -webkit-text-stroke: .4px #000; }
   .ln { font-weight: 700; font-size: 13.5px; }
   .lw { color: #555; }
   .lf { margin-top: 3px; }
-  td.amt { text-align: right; white-space: nowrap; font-weight: 800; font-size: 16px; width: 120px; }
+  td.amt { text-align: right; white-space: nowrap; font-weight: 800; font-size: 13px; width: 1px; }
   td.amt small { font-size: 11px; color: #777; font-weight: 500; }
   .sealed { color: #138a36; font-size: 13px; }
   tr.is-sealed .ln { color: #777; }
-  .rec { margin-top: 14px; border-left: 6px solid #FFC200; background: #fafafa; padding: 10px 16px; border-radius: 0 12px 12px 0; }
+  .rec { margin-top: 10px; border-left: 6px solid #FFC200; background: #fafafa; padding: 8px 16px; border-radius: 0 12px 12px 0; }
   .rec .t { font-size: 10.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #555; }
   .rec .name { font-size: 18px; font-weight: 800; margin: 2px 0 4px; }
   .rec .name span { background: #FFC200; padding: 0 6px; border-radius: 4px; }
   .rec p { margin: 4px 0 0; }
-  .call { margin-top: 14px; background: #000; color: #fff; border-radius: 14px; padding: 14px 20px; display: flex; gap: 20px; align-items: center; }
+  .rec .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .rec .price { text-align: right; background: #111; color: #fff; border-radius: 10px; padding: 6px 12px; }
+  .rec .price .l { font-size: 9.5px; letter-spacing: .12em; text-transform: uppercase; color: #FFC200; font-weight: 700; }
+  .rec .price .v { font-size: 20px; font-weight: 800; }
+  .rec .ir { display: flex; gap: 12px; margin-top: 6px; }
+  .rec .ir > div { flex: 1; background: #fff; border: 1px solid #eee; border-radius: 10px; padding: 6px 10px; }
+  .rec .ir .k { font-size: 10px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #b38600; }
+  .rec .ir p { margin: 2px 0 0; font-size: 11.5px; }
+  .rec .small { font-size: 11px; color: #555; margin-top: 5px; }
+  .call { margin-top: 10px; background: #000; color: #fff; border-radius: 14px; padding: 10px 20px; display: flex; gap: 20px; align-items: center; }
   .call .tx { flex: 1; }
   .call .h { color: #FFC200; font-weight: 800; font-size: 15px; }
   .call p { margin: 4px 0 0; color: #ddd; }
@@ -242,10 +273,17 @@ export function renderHtml({ lead, date = new Date() }) {
   <p class="sub">${hasBreakdown ? 'Each line is a fix. Start at the top: that is where the fastest money is.' : 'These are the five places businesses lose the most. Your total above is spread across them.'}</p>
   <table>${leakRows}</table>
 
-  <div class="rec"><div class="t">Your starting move</div>
-    <div class="name"><span>${esc(starter.name)}</span></div><p>${starter.why}</p>
-    <p>You don't need to fix everything at once. Start with this one, and add more only once it's paying for itself.</p>
+  <div class="rec">
+    <div class="top"><div><div class="t">Our recommendation</div>
+      <div class="name"><span>${esc(starter.name)}</span></div></div>
+      <div class="price"><div class="l">Starting at</div><div class="v">${money(START_PRICE)}</div></div></div>
+    <p>${esc(starter.why)} ${esc(starter.what)}</p>
+    <div class="ir">
+      <div><div class="k">Impact</div><p>${esc(starter.impact)}</p></div>
+      <div><div class="k">Return</div><p>${returnLine(topAmount)}</p></div>
     </div>
+    <p class="small">No big package, no big upfront cost. One fix first. Add more once it is making you money.</p>
+  </div>
 
   <div class="call">
     <div class="tx">
