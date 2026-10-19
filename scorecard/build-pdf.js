@@ -109,6 +109,10 @@ const LEAKS = [
 // Start every lead on ONE small a la carte service, matched to their #1 leak.
 // Five versions, one per leak. Every one starts at the same entry price; upsell later.
 const START_PRICE = Number(process.env.SCORECARD_START_PRICE || 749);
+// Content add-on, offered only where content makes the starter work harder
+// (Reactivation, Follow-Up). Never on the front-door fixes: more attention
+// into a leaky front door just leaks more.
+const CONTENT_PACK = { name: 'Spark Content Pack', price: Number(process.env.SCORECARD_CONTENT_PRICE || 500) };
 const STARTERS = {
   missed_calls: {
     name: 'AI Front Desk',
@@ -127,12 +131,14 @@ const STARTERS = {
     why: 'Your fastest money is already in your contact list: past customers and old leads nobody is talking to.',
     what: 'We send your list a short text and email campaign with a reason to come back, and route every reply to you to book.',
     impact: 'Revenue from people who already know you, usually the quickest win in any business.',
+    pair: 'Woken-up customers check your page first. Fresh posts and short videos every month give them a reason to come back, long after the campaign ends.',
   },
   follow_up: {
     name: 'Follow-Up Autopilot',
     why: 'Follow-up is your biggest leak. Most sales happen after touch number five, and most businesses stop at one.',
     what: 'Every quote and lead gets a five-plus touch text and email sequence that runs itself until they book or say no.',
     impact: 'Deals you already paid to get stop slipping through the cracks.',
+    pair: 'Follow-up works when you have something worth sending. Monthly posts and short videos give every touch real value, not just \"checking in.\"',
   },
   no_shows: {
     name: 'No-Show Shield',
@@ -196,7 +202,7 @@ export function renderHtml({ lead, date = new Date() }) {
   * { box-sizing: border-box; }
   body { margin: 0; font-family: 'Rethink Sans', 'Segoe UI', Arial, sans-serif; color: #111; background: #fff;
          -webkit-print-color-adjust: exact; print-color-adjust: exact; font-size: 12px; line-height: 1.45; }
-  .page { padding: 0 0 16px; }
+  .page { padding: 0 0 8px; }
   header { background: #000; color: #fff; padding: 20px 44px 16px; border-bottom: 6px solid #FFC200; }
   .brand { color: #FFC200; font-weight: 800; letter-spacing: .14em; font-size: 11px; }
   h1 { margin: 6px 0 2px; font-size: 27px; line-height: 1.05; font-weight: 800; letter-spacing: -.01em; }
@@ -204,7 +210,7 @@ export function renderHtml({ lead, date = new Date() }) {
   .meta { color: #bbb; font-size: 12px; }
   .meta b { color: #fff; font-weight: 600; }
   main { padding: 0 44px; }
-  .hero { display: flex; gap: 20px; align-items: stretch; margin-top: 14px; }
+  .hero { display: flex; gap: 20px; align-items: stretch; margin-top: 12px; }
   .big { flex: 1.3; background: #000; color: #fff; border-radius: 14px; padding: 16px 22px; }
   .big .l { color: #FFC200; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
   .big .n { font-size: 40px; font-weight: 800; line-height: 1.05; margin-top: 4px; }
@@ -218,8 +224,8 @@ export function renderHtml({ lead, date = new Date() }) {
   .chip.good .v { color: #138a36; } .chip.warn .v { color: #b86e00; } .chip.bad .v { color: #c0261d; }
   .chip.tier { background: #FFC200; border-color: #FFC200; }
   h2 { font-size: 15px; font-weight: 800; margin: 12px 0 2px; letter-spacing: -.005em; }
-  .sub { color: #555; margin: 0 0 4px; }
-  table { width: 100%; border-collapse: collapse; line-height: 1.35; }
+  .sub { color: #555; margin: 0 0 2px; }
+  table { width: 100%; border-collapse: collapse; line-height: 1.28; }
   td { vertical-align: top; padding: 4px 6px; border-bottom: 1px solid #e6e6e6; }
   td.rank { width: 30px; font-weight: 800; color: #FFC200; font-size: 15px; -webkit-text-stroke: .4px #000; }
   .ln { font-weight: 700; font-size: 13.5px; }
@@ -242,6 +248,12 @@ export function renderHtml({ lead, date = new Date() }) {
   .rec .ir > div { flex: 1; background: #fff; border: 1px solid #eee; border-radius: 10px; padding: 6px 10px; }
   .rec .ir .k { font-size: 10px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #b38600; }
   .rec .ir p { margin: 2px 0 0; font-size: 11.5px; }
+  .rec .pair { display: flex; gap: 12px; align-items: center; margin-top: 6px; background: #fff7d6; border: 1px solid #FFC200; border-radius: 10px; padding: 6px 10px; }
+  .rec .pair .pt { white-space: nowrap; }
+  .rec .pair .k { font-size: 9.5px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #b38600; }
+  .rec .pair .pn { font-weight: 800; font-size: 13px; }
+  .rec .pair .pp { font-size: 11px; font-weight: 700; }
+  .rec .pair p { margin: 0; font-size: 11.5px; }
   .rec .small { font-size: 11px; color: #555; margin-top: 5px; }
   .call { margin-top: 10px; background: #000; color: #fff; border-radius: 14px; padding: 10px 20px; display: flex; gap: 20px; align-items: center; }
   .call .tx { flex: 1; }
@@ -249,7 +261,7 @@ export function renderHtml({ lead, date = new Date() }) {
   .call p { margin: 4px 0 0; color: #ddd; }
   .btn { display: inline-block; background: #FFC200; color: #000; font-weight: 800; text-decoration: none; padding: 11px 16px; border-radius: 10px; white-space: nowrap; }
   .call .ph { color: #bbb; font-size: 11.5px; margin-top: 6px; text-align: center; }
-  .fine { color: #777; font-size: 9.5px; margin-top: 10px; line-height: 1.45; }
+  .fine { color: #777; font-size: 8.5px; margin-top: 6px; line-height: 1.35; }
 </style></head><body><div class="page">
 <header>
   <div class="brand">EAT 4 LIFE MARKETING · AI MARKETING MADE EASY</div>
@@ -282,6 +294,7 @@ export function renderHtml({ lead, date = new Date() }) {
       <div><div class="k">Impact</div><p>${esc(starter.impact)}</p></div>
       <div><div class="k">Return</div><p>${returnLine(topAmount)}</p></div>
     </div>
+    ${starter.pair ? `<div class="pair"><div class="pt"><div class="k">Pairs well with</div><div class="pn">${esc(CONTENT_PACK.name)}</div><div class="pp">Starting at ${money(CONTENT_PACK.price)}/mo</div></div><p>${esc(starter.pair)}</p></div>` : ''}
     <p class="small">No big package, no big upfront cost. One fix first. Add more once it is making you money.</p>
   </div>
 
@@ -295,7 +308,18 @@ export function renderHtml({ lead, date = new Date() }) {
 
   <div class="fine">These figures are directional estimates built from your answers and published industry benchmarks (missed-call rates, lead response decay, reactivation and no-show averages). They are not a guarantee of results; they're a flashlight. The call is where we look at your real numbers. Eat 4 Life Marketing · chosen1@gsgagency.com · ${esc(PHONE)}</div>
 </main>
-</div></body></html>`;
+</div>
+<script>
+  // Always one page: if the content runs past Letter height, shrink it to fit.
+  function fit() {
+    document.body.style.zoom = 1;
+    var h = document.body.scrollHeight, max = 1050;
+    if (h > max) document.body.style.zoom = (max / h).toFixed(3);
+  }
+  fit();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+  window.addEventListener('load', fit);
+</script></body></html>`;
 }
 
 // ---- PDF -------------------------------------------------------------------
