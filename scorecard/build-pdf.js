@@ -153,7 +153,7 @@ export function renderHtml({ lead, date = new Date() }) {
   const leakRows = ranked
     .map((l, i) => {
       const sealed = hasBreakdown && l.amount < 50;
-      const amt = !hasBreakdown ? '' : sealed ? '<span class="sealed">✓ sealed</span>' : `${money(l.amount)}<small>/mo</small>`;
+      const amt = !hasBreakdown ? '' : sealed ? '<span class="sealed">✓ sealed</span>' : '';
       return `<tr class="${sealed ? 'is-sealed' : ''}">
         <td class="rank">${hasBreakdown ? String(i + 1).padStart(2, '0') : '•'}</td>
         <td><div class="ln">${esc(l.name)}${hasBreakdown ? '' : ` <span class="lw" style="font-weight:400">· ${esc(l.what)}</span>`}</div>${hasBreakdown ? `<div class="lw">${esc(l.what)}</div>` : ''}
@@ -245,7 +245,7 @@ export function renderHtml({ lead, date = new Date() }) {
   <div class="rec"><div class="t">Your starting move</div>
     <div class="name"><span>${esc(starter.name)}</span></div><p>${starter.why}</p>
     <p>You don't need to fix everything at once. Start with this one, and add more only once it's paying for itself.</p>
-    ${annual > 0 ? `<p>Sealing even <b>half</b> of this leak would be worth roughly <b>${money(annual / 2)}</b> a year to you.</p>` : ''}</div>
+    </div>
 
   <div class="call">
     <div class="tx">
