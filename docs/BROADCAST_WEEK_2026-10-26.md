@@ -52,9 +52,9 @@ Per the 4% rule, Monday agency and Friday student are written to the readers alr
 
 ## A1 — Monday
 
-**Subject:** This AI model costs a tenth of the old one
+**Subject:** "Too expensive" just lost a zero
 
-**Preview text:** Anthropic's new small model, new price. What's your excuse now?
+**Preview text:** $1.00 down to $0.10. Not your bill, but watch where it points.
 
 **Reader:** A-2 (growing, profitable, reads fast) · **Angle:** Correlation · **Spoke:** front end → the call
 
@@ -76,16 +76,19 @@ Output: $0.50. The last one: $5.00.
 
 **A tenth.** Same kind of work, at a tenth of the list price.
 
-I'll be straight about the fine print. That's what developers
+I'll be straight about the fine print.
+
+That's what developers
 pay to build with it. It's not a bill you'll ever get. Your
 tools will set their own prices.
 
 Here's why I'm telling you anyway.
 
 Remember when long-distance calls were billed by the minute?
-You watched the clock. Then it got cheap enough that nobody
-counted, and what an ordinary business could afford to do
-changed with it. 📞
+You watched the clock.
+
+Then it got cheap enough that nobody counted, and what an
+ordinary business could afford to do changed with it. 📞
 
 AI is on that road. The "it costs too much to answer every
 lead in minutes" excuse is getting thinner every month.
@@ -114,9 +117,9 @@ P.S. Next time anybody sells you an "AI add-on," ask which model is under it and
 
 ## A2 — Wednesday
 
-**Subject:** 534,947 filings. 29,022 businesses.
+**Subject:** Everyone's panicking about the wrong number
 
-**Preview text:** Census counts the paperwork and the payroll separately. The gap is the story.
+**Preview text:** 534,947 filed. Census projects 29,022 get to payroll. Read the second one.
 
 **Reader:** A-1 (wants more sales; the demon is "we're fine") · **Angle:** Paradigm Shift · **Spoke:** front end → the call
 
@@ -125,7 +128,7 @@ Hey [First Name],
 
 Here are two numbers from the Census Bureau.
 
-In September, Americans filed **534,947** applications to
+In September, Americans filed 534,947 applications to
 start a business. That's seasonally adjusted, and up 0.5%
 from August. 👀
 
@@ -139,18 +142,20 @@ That's about 5 in 100. The other 95 never reached payroll.
 Most people read the first number and panic. More
 competition.
 
-I read the second one. Because it says the hard part isn't
+I read the *second* one. Because it says the hard part isn't
 starting.
 
 **It's the follow-through.** The second email. The call
 back. The quote that actually goes out. 💼
 
-That gap is true in your business too. Count how many people
+That gap is true in your business too.
+
+Count how many people
 asked you for something last month. Then count how many
 heard from you a second time.
 
-I'd bet your gap is bigger than 5 in 100. Most owners'
-are, and nobody checks.
+I'd bet your gap is bigger than 5 in 100. Most are,
+and nobody checks.
 
 Read the Census release → (LINK: https://www.census.gov/econ/bfs/current/index.html?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-10-26)
 
@@ -191,10 +196,12 @@ no. 👀
 
 They're asking a question they didn't say out loud.
 
-Is this worth it? Will it work for me? Is now the time?
+*Is this worth it? Will it work for me? Is now the time?*
 
 People have questions. The move isn't to argue with the
-question. It's to **restate the value and show them what it
+question.
+
+It's to **restate the value and show them what it
 looks like in use.** Then do it again, a little differently.
 
 When people see what works, they WANT it.
@@ -251,10 +258,10 @@ Now answer one question for each.
 
 Once? Twice? Not at all?
 
-Write the numbers down. Don't fix anything yet.
+Write the numbers down. *Don't fix anything yet.*
 
 Nobody did this on purpose. You built a business to serve
-people, and the week got loud.
+people, and *the week got loud*.
 
 But those five already raised their hands. They're the
 warmest list you own, and they cost you nothing to talk to.
@@ -280,9 +287,9 @@ P.S. Pick the one you like best and send them a note tonight. One line is enough
 
 ## S1 — Monday
 
-**Subject:** 3 things about the $1.7 billion Roblox paid out
+**Subject:** Roblox creators pulled $1.7 billion in 12 months
 
-**Preview text:** Not to Roblox. To the people who built stuff on it.
+**Preview text:** Most people won't see a billion. Here's what I'd do instead.
 
 **Reader:** S-A (just found out digital careers exist) · **Angle:** Paradigm Shift (culture news → the lesson) · **Spoke:** front end → the book
 
@@ -294,7 +301,7 @@ On September 11, Roblox said something wild.
 Creators on the platform earned about **$1.7 billion** in
 the past 12 months. 👀
 
-That's through June 30. And since 2013? More than **$5 billion**.
+That's through June 30. And since 2013? More than $5 billion.
 
 Roblox's own post → (LINK: https://about.roblox.com/newsroom/2026/09/rdc-2026-the-world-needs-more-play?utm_source=email&utm_medium=student&utm_campaign=S1-2026-10-26)
 
@@ -306,13 +313,15 @@ Somebody built something. Other people played it. A check showed up. That's the 
 
 #2: The post gives ONE total. No split.
 
-I'd bet it's nowhere near even. (That's my guess, not their number.) Most people won't see a billion. Don't build your whole life on a lottery ticket.
+I'd bet it's nowhere near even. *(That's my guess, not their number.)*
+
+Most people won't see a billion. Don't build your whole life on a lottery ticket.
 
 #3: The money follows whoever FINISHES.
 
 Not whoever has permission. Not whoever has a degree. Whoever ships. 💡
 
-And here's what gets me… the tools to finish keep getting cheaper.
+*And here's what gets me…* the tools to finish keep getting cheaper.
 
 In From Xbox to Executive I say it like this: AI covers the parts that used to take a whole staff. → (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S1-2026-10-26&utm_content=inline)
 
@@ -320,7 +329,9 @@ So here's my one rule: **if one platform signs your check, learn a skill that wo
 
 Then it doesn't matter who's paying this year.
 
-The gatekeepers just LOST the keys. 🔑 Pick ONE skill and get paid for it inside 90 days.
+The gatekeepers just LOST the keys. 🔑
+
+Pick ONE skill and get paid for it inside 90 days.
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S1-2026-10-26)
 
@@ -369,11 +380,13 @@ don't either.
 That's the same gap I walked into. And it's wide open.
 
 You don't need to be an expert. You need to be the person who
-sat down and tried it.
+*sat down and tried it*.
 
-So here's a side quest. Open any free AI chat. Ask it to
+So here's a side quest.
+
+Open any free AI chat. Ask it to
 explain what a "lead" is in a business, like you're ten.
-Then ask it to explain how a business gets one.
+Then ask it how a business gets one.
 
 Fifteen minutes. That's your first level. 💡
 
@@ -397,7 +410,7 @@ P.S. What's something you're into that nobody around you takes seriously yet? Hi
 
 ## S3 — Friday
 
-**Subject:** 534,947 people filed to start a business
+**Subject:** Your next client filed paperwork in September
 
 **Preview text:** Somebody has to build their first page and write their first email.
 
@@ -407,19 +420,23 @@ P.S. What's something you're into that nobody around you takes seriously yet? Hi
 Yo [First Name],
 
 You made some money. A client, a few hundred, maybe a grand.
+
 Now you're stuck doing everything by hand and chasing the
-next client.
+next client. 💰
 
-Read this next part twice.
+*Read this next part twice.*
 
-In September, Americans filed **534,947** applications to
-start a business. That's the Census Bureau's number, and it
-was published October 14. 👀
+In September, Americans filed 534,947 applications to
+start a business.
+
+That's the Census Bureau's number, published October 14. 👀
 
 Not every one becomes a real business. Census itself projects
 **29,022** will have payroll within four quarters.
 
-But look at what that is. Tens of thousands of new
+But look at what that is.
+
+Tens of thousands of new
 employers out of ONE month of filings. Most of them
 figuring it out as they go.
 
@@ -431,7 +448,7 @@ You already know how to do some of that.
 So stop chasing the biggest client. **Go find one of these.**
 
 A brand new owner is the easiest "yes" there is. They don't
-have a vendor. They don't have a habit. They have a to-do list.
+have a vendor. They don't have a habit. They have a to-do list. 🎯
 
 Pick one outcome. More booked calls. Fewer missed leads. Charge
 for what changes, not the hours.
@@ -445,7 +462,7 @@ Sebastian
 Eat 4 Life
 Everybody Eats
 
-P.S. Do you know anybody who just started something? Think about it. Then text them.
+P.S. Do you know anybody who just started something? Think about it. Then text them. 📲
 ```
 
 *Notes:* U.S. Census Bureau, Business Formation Statistics release CB26-163, 2026-10-14. Same release as A2; verbatim figures in A2's notes: 534,947 business applications for September 2026 (seasonally adjusted, +0.5% vs August) and 29,022 projected formations with payroll within 4 quarters. "Tens of thousands of new employers out of ONE month of filings" is 29,022 (a projection for the September cohort) described plainly; **editor: do not say "every month"**, the release covers one month. "Most of them figuring it out as they go" is the writer's opinion; the release says nothing about the owners' experience (applications include existing owners starting another business), so do not upgrade it to "have never run a business". "A brand new owner is the easiest yes" and "they have a to-do list" are the writer's opinion. The "chasing the next client" opening matches the S-D profile in `audiences.md`. "Charge for what changes, not the hours" matches the audiences-file pricing frame; no percentage appears.
@@ -455,9 +472,9 @@ P.S. Do you know anybody who just started something? Think about it. Then text t
 
 ## S-SUN — Sunday
 
-**Subject:** The boring gig that moved me to LA
+**Subject:** Nobody was clapping when I moved to LA
 
-**Preview text:** Nobody posts about this part.
+**Preview text:** Before the agency and the books, there was a job you'd scroll past.
 
 **Reader:** S-B (believes Chosen, not yet themselves) · **Angle:** the deposit · **Spoke:** front end → the book
 
@@ -467,14 +484,14 @@ Yo [First Name],
 It's Sunday, so I want to tell you about the part nobody posts.
 
 Before the agency, before the books, I did brand ambassador
-gigs. 🎮
+gigs. 💼
 
-Then I moved across the country to LA.
+Then I moved across the country to LA. 🌴
 
 Nobody was clapping. It wasn't glamorous. It was a job you'd
 scroll past.
 
-But I wrote something about those gigs, and I still believe it:
+But I wrote something about those gigs, and I *still* believe it:
 
 "Those gigs would be pointless if I didn't plan on showing up
 and doing my best every day."
@@ -487,7 +504,9 @@ on-ramp.**
 You don't have to feel ready. You have to show up the same
 way again tomorrow.
 
-So here's one small thing for tonight. Think of the least
+So here's one small thing for tonight.
+
+Think of the least
 exciting thing standing between you and what you want. A
 dull task. An awkward message. A first step nobody will see.
 
@@ -513,7 +532,7 @@ P.S. What's the boring thing you keep skipping? Hit reply. I won't judge. 😅
 
 **Reader:** S-A · **Angle:** Correlation · **Spoke:** front end → the book
 
-**Subject:** Over half of workers already used AI on the job
+**Subject:** Over half your coworkers have already used AI
 
 **Preview text:** Your boss's boss probably did too. So what are you waiting for?
 
@@ -553,7 +572,7 @@ Sebastian
 Eat 4 Life
 Everybody Eats
 
-P.S. I gotta question: what's the last thing you asked an AI to help you with?
+P.S. I gotta question: what's the last thing you asked an AI to help you with? 💬
 ```
 
 *Notes:* Swap for S2 or S3. U.S. Census Bureau story, "About a Third of Workers Who Used AI in the Last Week Said They Completed Tasks One to Two Hours Faster," published 2026-08-11, figures revised 2026-09-24. Verbatim: "About 56% of U.S. workers said they have used Artificial Intelligence (AI) on the job for at least one of 11 tasks." Source is the Household Trends and Outlook Pulse Survey, March 2026: **a survey of workers, not businesses.** Top tasks (37% searching, 32% writing, 32% ideas) are in the Oct 19 batch's notes and were re-read 2026-10-20; the email lists them without percentages. Your boss's boss line in the **preview** is the writer's joke, not a finding; editor may cut it. This 56% was already used in the Oct 19 A2; if that email's audience overlaps, prefer another swap. The time-saved percentages from the article are deliberately not used.
@@ -565,9 +584,9 @@ P.S. I gotta question: what's the last thing you asked an AI to help you with?
 
 **Reader:** A-2 · **Angle:** Results (vendor claim) · **Spoke:** front end → the call
 
-**Subject:** Google says clean data beat bigger budgets
+**Subject:** Google's got a 20% number. Read the fine print.
 
-**Preview text:** A 20% number from Google itself. Read the fine print first.
+**Preview text:** It's their analysis of their product. The part that matters is your customer list.
 
 ```
 Hey [First Name],

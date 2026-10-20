@@ -14,14 +14,14 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 
 | Send date | Day | Side | File | Subject | Preview text | Sells |
 |---|---|---|---|---|---|---|
-| 2026-10-26 | Monday | agency | `A1.html` | This AI model costs a tenth of the old one | Anthropic's new small model, new price. What's your excuse now? | Game Plan Call (agency front end) |
-| 2026-10-26 | Monday | student | `S1.html` | 3 things about the $1.7 billion Roblox paid out | Not to Roblox. To the people who built stuff on it. | From Xbox to Executive (book, free + $9.95 shipping) |
-| 2026-10-28 | Wednesday | agency | `A2.html` | 534,947 filings. 29,022 businesses. | Census counts the paperwork and the payroll separately. The gap is the story. | Game Plan Call (agency front end) |
+| 2026-10-26 | Monday | agency | `A1.html` | "Too expensive" just lost a zero | $1.00 down to $0.10. Not your bill, but watch where it points. | Game Plan Call (agency front end) |
+| 2026-10-26 | Monday | student | `S1.html` | Roblox creators pulled $1.7 billion in 12 months | Most people won't see a billion. Here's what I'd do instead. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-10-28 | Wednesday | agency | `A2.html` | Everyone's panicking about the wrong number | 534,947 filed. Census projects 29,022 get to payroll. Read the second one. | Game Plan Call (agency front end) |
 | 2026-10-28 | Wednesday | student | `S2.html` | People laughed. Then it stopped being funny. | I was a pro gamer before anybody called that a career. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-10-30 | Friday | agency | `A3.html` | "I'll think about it" is a question | The sales floor taught me this. Your follow-up probably hasn't. | Game Plan Call (agency front end) |
-| 2026-10-30 | Friday | student | `S3.html` | 534,947 people filed to start a business | Somebody has to build their first page and write their first email. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-10-30 | Friday | student | `S3.html` | Your next client filed paperwork in September | Somebody has to build their first page and write their first email. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-11-01 | Sunday | agency | `A-SUN.html` | The five who went quiet | Ten minutes tonight. Before the week starts. | Game Plan Call (agency front end) |
-| 2026-11-01 | Sunday | student | `S-SUN.html` | The boring gig that moved me to LA | Nobody posts about this part. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-11-01 | Sunday | student | `S-SUN.html` | Nobody was clapping when I moved to LA | Before the agency and the books, there was a job you'd scroll past. | From Xbox to Executive (book, free + $9.95 shipping) |
 
 ## Load checklist — tick each one
 
@@ -34,5 +34,5 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 
 ## Bench — not scheduled
 
-- `B1.html` — Over half of workers already used AI on the job
-- `B2.html` — Google says clean data beat bigger budgets
+- `B1.html` — Over half your coworkers have already used AI
+- `B2.html` — Google's got a 20% number. Read the fine print.
