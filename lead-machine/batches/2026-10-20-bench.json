@@ -124,5 +124,812 @@
    "adjusted_confidence": "Medium",
    "reason": "Core facts check out (phone, BBB owner and title, SOS status, single location, not suppressed); the only fixes are the owner-email confidence label, which implied an owner email that does not exist, and a mis-cited 24/7 page; the lead stays WATCH at 41, below the 55 floor."
   }
+ },
+ {
+  "qualified": true,
+  "company_name": "J. Adams Roofing",
+  "niche": "Roofing (residential + commercial; repair, leak repair, maintenance, inspection, replacement; shingle/metal/tile)",
+  "niche_segment": "core",
+  "website": "https://jadamsroofing.com",
+  "city": "St. Augustine",
+  "state": "FL",
+  "street_address": "1589 Old Moultrie Rd (site footer + JSON-LD). One directory lists 1605 Old Moultrie Rd; the site value is the one used.",
+  "zip": "32084",
+  "company_phone": "+1 904-814-6454",
+  "company_email_generic": "Not found. No info@/office@ address was published. Staff mailbox karen@jadamsroofing.com is on the Jobs page (for sending resumes).",
+  "google_maps_url": "Not found",
+  "google_rating": "Not found (Google Business Profile not reachable in budget). Porch lists J Adams Roofing Inc at 4.79, review count not captured.",
+  "review_count": "Not found",
+  "locations_count": "1 (single St. Augustine office; no locations or franchise page)",
+  "founded_or_years": "Founded 2005, about 21 years (About page: \"Joe founded J. Adams Roofing in 2005\"; Joe switched to roofing in 1996). The FL DBPR license CCC1330867 (Gary Joseph Adams) shows \"Licensed since 2022\" on StateCreds, which does not match a 2005 founding. Likely a re-licensing or entity change, but that is unconfirmed: Needs-Review. BuildZoom also lists a separate \"J Adams Roofing Unlimited\" with no active license; the active license is the individual one, CCC1330867.",
+  "service_area": "St. Augustine, St. Johns, Ponte Vedra, Palm Coast, Elkton, Hastings and other NE Florida areas listed in the site nav",
+  "sub_services": "Roof repair, leak repair, roof maintenance, roof inspection, roof replacement, commercial roofing, metal roofing; shingle, metal and tile; financing page; insurance-claim jobs (testimonial mentions \"the aggravation of insurance\")",
+  "business_hours": "Mon–Fri 8:00 AM–5:00 PM per the site's own JSON-LD (\"openingHours\":[\"Mo,Tu,We,Th,Fr 08:00-17:00\"]). No weekend, after-hours or 24/7 line is mentioned. GBP hours not verified.",
+  "timezone": "America/New_York (ET)",
+  "best_time_to_call": "Tue–Thu 8:00–8:45 AM ET, right after the office opens at 8 per the site schema, to catch Joe before he leaves for jobs. Fallback is 4:00–4:45 PM ET before the 5 PM close. Florida rules: dial only 8 AM–8 PM local, no more than 3 calls in 24h on the same subject, manual dial only.",
+  "call_opener": "\"Hi, is this Joe? Joe, this is Sam with E4L. This is a cold call. Can I have 20 seconds to tell you why I'm calling, and then you tell me if it's worth another minute? ... One of the testimonials on your site says a homeowner called you because the other roofer never called back. That's how you won that roof. It works the other way too: on weekends, after five, or when the office is on another line, that homeowner calls the next roofer on Google. We build a phone line trained on your own website that answers those calls and books the estimate, and you can call it and hear it before you spend anything. Worth another 20 seconds?\" Then ask: \"Who picks up your phones after 5 and on weekends right now: you, voicemail, or nobody?\" Close with a Game Plan Call or ask for an email to send the demo number.",
+  "gatekeeper_notes": "Main line +1 904-814-6454 (site header, footer, JSON-LD and the July 2026 press release all show the same number; no call-tracking swap seen). A testimonial on the site's Reviews page names \"office staff Karen and Diana\" as the people who answer calls. Karen also has a published mailbox, karen@jadamsroofing.com, on the Jobs page (her title is not stated). \"Matt\" is named in another testimonial as a field contact (role not stated). Reviews say Joe is hands-on (\"Mr Adams was very friendly and helpful during the whole process\"; \"Owner of the company, Joe is extremely concerned about doing the best job\"). No answering service, no owner cell, no direct line published. To get through, use first names: \"Hi Karen, is Joe around this morning?\" If he is on a roof, ask when he is usually back in the office and offer to email the demo to joe@.",
+  "owner_first_name": "Joe",
+  "owner_last_name": "Adams",
+  "owner_title": "Founder / Owner (About page \"About The Owner\": \"Joe founded J. Adams Roofing in 2005\"). License qualifier of record is Gary Joseph Adams, Certified Roofing Contractor, CCC1330867, active, expires Aug 31, 2028.",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "joe@jadamsroofing.com",
+  "owner_email_type": "Personal (named)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found",
+  "owner_other_socials": "Company accounts from the site JSON-LD sameAs (activity not checked): Facebook https://m.facebook.com/people/J-Adams-Roofing-Inc/100077255210824/ ; X https://twitter.com/@jadamsroofing ; YouTube https://www.youtube.com/user/jadamsroofing. No personal owner socials found.",
+  "owner_background": "Self-stated on the About page: \"Joe Adams started working as a welder straight out of high school before making the decision to switch to roofing in 1996. After spending nearly a decade learning about the industry and improving his skills, Joe founded J. Adams Roofing in 2005.\" Legal name on the FL license is Gary Joseph Adams; he goes by Joe. 30 years in roofing.",
+  "owner_personality_cues": "Verbatim from the About page: \"Joe still attends the largest roofing expos and seminars in America to make sure he is on the cutting edge of both technology and customer service\" (open to tech: a good sign for a demo). \"Joe's personal guarantee to all our customers is simple: We'll get it done right the first time at a fantastic price.\" \"We treat all our customers like family.\" Values are listed as Reliable/Dependable/Helpful/Friendly/Honest. Community work: St. Augustine Foundation and the Shrine Circus (Shriners Children's Hospitals). The Jobs page says: \"We live by a culture of a local family-owned business who takes care of their employees as the top priority.\" Tone: warm, plain-spoken, customer-service proud.",
+  "attitude_type": "Growth-Minded Operator (medium confidence); secondary: Family-Legacy Pride Brand",
+  "attitude_evidence": "Growth: Jobs page says \"J. Adams Roofing has been a growing business in St. Augustine since 2005\" and is recruiting roofers/installers (https://jadamsroofing.com/jobs/). Paid press release dated Jul 17, 2026 via Get Featured, page says \"This is a paid placement\", Joe Adams named as contact (smb.americanpress.com). Google Tag Manager (GTM-P66KL52), GA4 (G-ZPVRLM5V0C) and a Meta pixel (fbq) on every page, so he invests in tracking. Financing page. About page: Joe attends \"the largest roofing expos and seminars… on the cutting edge of both technology and customer service.\" Family-legacy: owner's name in the business name, founder story, \"local family-owned business\", \"treat all our customers like family\", community giving (St. Augustine Foundation, Shrine Circus). No hostile or anti-AI or anti-marketing statements found. Review-reply behavior could not be checked (GBP not reachable), so confidence stays medium.",
+  "tech_adoption": "basic. SSL, WordPress/Divi site with dynamic copyright year, RoofingContractor/Organization JSON-LD, GTM + GA4 + Meta pixel, WPForms estimate form, reCAPTCHA. No online booking, chat, text-us or review widget in page source. Note: the scout's \"Roofr script\" was a false positive; the match was an image filename (\"Professionalroofrepairandmaintenance\").",
+  "marketing_sophistication": "diy (leaning agency-light). Tracking pixels and a paid press placement (Get Featured, Jul 2026), but no agency footer credit, no call-tracking numbers and no FAQ content found.",
+  "growth_stage": "established (founded 2005, 21 years; hiring crew; self-described \"growing business\"). BuildZoom shows 153 roofing projects for J Adams Roofing Inc.",
+  "review_response_behavior": "unknown (GBP reviews and owner replies not reachable in budget)",
+  "after_hours_handling": "No after-hours coverage found. Site schema hours are Mon–Fri 08:00–17:00. No 24/7, emergency line, answering service or AI receptionist mentioned in site copy or page source. The only phone is the main office line (904) 814-6454, which reviews say office staff answer.",
+  "online_booking": "None. \"Request estimate\" WPForms form and \"CALL TODAY\" CTA only; no Calendly, Housecall Pro, Jobber, ServiceTitan or other scheduler in page source.",
+  "chat_or_text_on_site": "None found in page source (no Podium, Birdeye, Tidio, tawk, LiveChat, LeadConnector or text-us widget). There is a \"Get Ready for Hurricane Season\" popup with a Contact Us button.",
+  "vendors_detected": "WordPress + Divi (child theme), WPForms, Google Tag Manager GTM-P66KL52, GA4 G-ZPVRLM5V0C, Meta pixel (fbq), Google reCAPTCHA, Google Workspace mail (MX aspmx.l.google.com), Get Featured paid press distribution (Comtex). No call tracking, CRM or answering vendor detected.",
+  "ads_running": "Not verified. The Meta pixel and GTM suggest some paid or retargeting setup, but the Meta Ad Library and Google Ads Transparency Center were not checked (login/JS-gated in this environment). A paid press-release placement ran Jul 17, 2026 (labelled \"This is a paid placement\").",
+  "ai_search_presence": "Not checked on ChatGPT, Perplexity or Gemini (no AI platform reachable from this environment), so D4 = NO EVIDENCE. Two Google web checks were run as a proxy only. \"best roofer St. Augustine FL emergency roof repair\" surfaced Fidus Roofing (GAF MasterElite, \"Best of St. Augustine\"), Big A Roofing, Universal Roof & Contracting and 1 Roof LLC, but not J. Adams. \"roofer that answers the phone St. Augustine FL roof leak repair\" surfaced J. Adams only through its own paid press release, alongside Neal Strickland Roofing, Southeastern Roofers and RoofCrafters. The site has RoofingContractor/Organization JSON-LD but no FAQPage schema or FAQ section. Good candidate for the free 28-answer audit.",
+  "pain_signals": "Phone-first business: the hero and every page footer say \"GET YOUR FREE QUOTE CALL TODAY! (904) 814-6454\". Office hours are Mon–Fri 08:00–17:00 only (site JSON-LD), with no weekend, after-hours or 24/7 answering, in an inherently urgent niche (leaks, hurricane season; the site runs a \"Get Ready for Hurricane Season!\" popup). No online booking, chat or text-back. The estimate form gives no stated response-time promise (none seen). Roofing ticket sizes are large. One testimonial on their Reviews page shows the exact dynamic E4L sells: a homeowner hired J. Adams because a competitor \"told me to call the estimator on his cell phone. I called him three times leaving a message to phone me back. No response.\" That is a competitor's miss, not a complaint about J. Adams. Counter-signal: their own testimonials praise the office (\"Karen and Diana were very helpful and very courteous every time we called\"). No public responsiveness complaints about J. Adams were found (GBP/Yelp not reachable).",
+  "trigger_events": "1) Paid press release published Jul 17, 2026 (\"Trusted Roofer in St. Augustine FL…\", Get Featured, \"This is a paid placement\"), 95 days old. 2) Jobs page actively recruiting roofers/installers, \"a growing business\" (undated). 3) Atlantic hurricane season runs to Nov 30, and the site is actively promoting hurricane-season repairs via its popup (seasonal, inferred). 4) FL license CCC1330867 renewed through Aug 2028 (StateCreds, synced Oct 4, 2026).",
+  "lead_score": 62,
+  "score_breakdown": "D1 Decision-maker: 14/20. Full name and role from two sources: About page \"Joe founded J. Adams Roofing in 2005\" plus FL DBPR license CCC1330867 held by Gary Joseph Adams, active (StateCreds). Personal email joe@jadamsroofing.com is published on every page and in JSON-LD, and MX is present (Google). No owner LinkedIn, cell or second line found, so no secondary channel for 20.\nD2 Phone coverage gap: 15/15. Phone-first (\"GET YOUR FREE QUOTE CALL TODAY! (904) 814-6454\" hero/footer). Hours string \"Mo,Tu,We,Th,Fr 08:00-17:00\" in site JSON-LD, closed weekends, in roofing (an inherently urgent niche). No 24/7, answering service or AI receptionist mentioned anywhere in copy or source.\nD3 Lead-response leak: 5/15. One signal type: (5) booking and contact friction, with no scheduler, chat or text widget verified in page source and no response-time promise seen. No responsiveness complaints about J. Adams found; their testimonials praise the office. Job post is for roofers, not front office. GBP/Yelp/BBB reply rate not checkable.\nD4 AI search visibility: 0/10 (NO EVIDENCE). No AI platform could be checked. Web proxy searches did not surface them organically, and there is no FAQPage schema. This is the free-audit seed.\nD5 ICP fit / ability to pay: 15/15. Independent and family-owned, single location, core niche. Proxies: since 2005 (21 yrs); roofing ticket $8–15k; service area of 6+ NE FL cities; 3+ named staff (Karen, Diana, Matt); financing offered; BuildZoom shows 153 roofing projects.\nD6 Buying signals: 7/15. Only weak spend signals (GTM + Meta pixel; paid Get Featured press placement Jul 17, 2026, 95 days old). Meta Ad Library, Google Ads Transparency and LSA not checked. No dated trigger within 60 days; hurricane season is inferred. Could be 11 if the paid press release counts as a 61–180-day trigger plus a spend signal.\nD7 Attitude / receptivity: 6/10. Net 2 positives: (c) financing and a modern tracking stack; (e) growth posture (hiring, \"growing business\", paid PR). About-page tech/expo language is positive. No negatives, no incumbent agency credit. Review replies and social recency not checked.\nTOTAL 62 = QUALIFIED band. Status: 6 of 7 dimensions evidenced, D1 positive, D2 direct, D5 evidenced, so TRUSTED pending the GHL \"E4L Services\" dedupe (not run from here). suppression.csv and seen.csv were checked with no match.",
+  "disqualifier_check": "PASS. Not a chain or franchise (single office, \"local family-owned business\"). Own working domain with SSL. Live U.S. business with FL license CCC1330867 active to Aug 31, 2028 (StateCreds, synced Oct 4, 2026). Inbound channel exists (phone + estimate form). Right category (roofing contractor). No AI receptionist or GEO vendor detected. No match by domain or name in data/suppression.csv or data/seen.csv. No \"no solicitation\" notice. Still to do: GHL \"E4L Services\" contact dedupe (ghl-contacts.js) before load. Sunbiz entity lookup was blocked by a Cloudflare challenge and was not bypassed. Note the separate \"J Adams Roofing Unlimited\" entity shows no active license on BuildZoom; the active license is the individual one.",
+  "disqualified_reason": "",
+  "recommended_entry_offer": "Voice AI live demo: a demo line built from jadamsroofing.com that answers after-hours and weekend calls, qualifies leak/storm/insurance callers and books the free estimate, paired with missed-call text-back. Follow up with a free AI Search Visibility audit (D4 is the open question).",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Joe, the calls after 5 at J. Adams",
+  "personalized_first_line": "Joe, one of the testimonials on your site says a homeowner called you because the other roofer never called back, which is a good way to win a roof, and it made me wonder who picks up your line after 5 and on weekends.",
+  "call_angle": "Missed-call / speed-to-lead, using his own site as the proof. His testimonials show homeowners hire whoever calls back. His office is staffed Mon–Fri 8–5 only, the niche is urgent (leaks, hurricane season), and there is no after-hours coverage, booking or text-back. Offer a demo line trained on his own site that he can call himself. Frame it as covering only what already goes to voicemail, never as replacing Karen and Diana. Lead with customer service rather than \"AI\", which matches his \"Always at your service\" values. His expo/\"cutting edge of technology\" line on the About page means the demo should land.",
+  "likely_objection": "\"My office ladies answer the phone, we don't miss calls.\" Response: agree, they clearly do a great job (customers say so). This only covers after 5, weekends, and when both lines are busy during a storm week, and he can hear it on a demo line before deciding anything. A secondary objection is \"I've been burned by marketing guys / I get these calls every day\": answer with nothing to buy and a live demo to call first.",
+  "why_now": "Hurricane season runs through Nov 30 and his site is actively promoting hurricane-season repairs. Storm weeks are when an 8–5 office can't absorb the call surge. He is hiring roofers and calls himself \"a growing business\", and he paid for a press placement in July 2026, so he is spending to get found right now. More inbound calls make every after-hours miss more expensive.",
+  "notes_for_chosen": "Top-up lead verified 2026-10-20, held for the next batch. QUALIFIED, 62, call-first by Sam plus email to joe@jadamsroofing.com (Confirmed: on every page and in JSON-LD, Google MX). Owner is Joe Adams; his legal name on the FL license is Gary Joseph Adams (CCC1330867, active), so use \"Joe\". Ex-welder, roofing since 1996, founded 2005. Office staff Karen and Diana answer the phone per testimonials; karen@ is published on the Jobs page. Corrections to the scout: (1) the \"Roofr script\" was a false positive (an image filename); (2) the \"never called back\" testimonial is about a competitor, not about J. Adams, so use it as a compliment, not a pain point. Open questions before Rozel's QA: GHL dedupe; GBP rating, review count and reply behavior; Meta Ad Library / LSA check; the license \"since 2022\" vs founded 2005 gap (don't use the founding year as a hook until reconciled; \"30 years in roofing since 1996\" is self-stated and safe); a real AI-platform spot-check for D4 (would likely lift the score toward 70). Florida calling rules: 8 AM–8 PM, max 3 calls/24h, manual dial only. Never quote prices.",
+  "best_opening_moment": "The About page founder story (\"started working as a welder straight out of high school… switch to roofing in 1996… founded J. Adams Roofing in 2005\") plus his line about attending \"the largest roofing expos and seminars… on the cutting edge of both technology and customer service\". Open with 30 years in roofing and his customer-service promise, then the after-5/weekend question. https://jadamsroofing.com/about-our-roofing-company/",
+  "team_size_estimate": "Not found as a headcount. Named staff: Joe (owner), Karen and Diana (office), Matt (field, role not stated), plus roofing crews; actively hiring roofers. Band estimate is 5–15 (observed, not sourced).",
+  "evidence_links": "https://jadamsroofing.com/about-our-roofing-company/, https://www.statecreds.com/license/fl/roofer/adams-gary-joseph-ccc1330867, https://jadamsroofing.com/, https://jadamsroofing.com/jobs/, https://jadamsroofing.com/reviews/, https://smb.americanpress.com/article/Trusted-Roofer-in-St-Augustine-FL-J-Adams-Roofing-offers-Experienced-Roofing-Professionals-to-Help-Homeowners-Protect-Their-Investment/6a5a5129f61bc7000248dd2f, https://dns.google/resolve?name=jadamsroofing.com&type=MX, https://www.buildzoom.com/contractor/j-adams-roofing-unlimited, https://www.buildzoom.com/saint-augustine-fl/roofers, https://pro.porch.com/st-augustine-fl/roofers/j-adams-roofing-inc-/pp, https://m.facebook.com/people/J-Adams-Roofing-Inc/100077255210824/, https://www.gaf.com/en-us/roofing-contractors/residential/fidus-roofing-construction-llc-1001670, https://nealstricklandroofing.com/roof-repair-st-augustine-fl",
+  "research_confidence": "Medium",
+  "_target": "roofing-jacksonville",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver",
+   "checks": [
+    {
+     "claim": "Owner Joe Adams, founder/owner; welder, roofing since 1996, founded 2005",
+     "result": "confirmed",
+     "note": "About page, 'About The Owner': 'Joe Adams started working as a welder... switch to roofing in 1996... Joe founded J. Adams Roofing' (fetched live)."
+    },
+    {
+     "claim": "Owner email joe@jadamsroofing.com",
+     "result": "confirmed",
+     "note": "Found on home, about, reviews and jobs pages, and in the site JSON-LD 'email' field."
+    },
+    {
+     "claim": "karen@jadamsroofing.com on the Jobs page",
+     "result": "confirmed",
+     "note": "Present on /jobs/."
+    },
+    {
+     "claim": "Company phone (904) 814-6454",
+     "result": "confirmed",
+     "note": "JSON-LD telephone, page footers and the press release all show the same number."
+    },
+    {
+     "claim": "Address 1589 Old Moultrie Rd, St. Augustine FL 32084; hours Mo-Fr 08:00-17:00",
+     "result": "confirmed",
+     "note": "Both are in the JSON-LD (streetAddress, postalCode, openingHours)."
+    },
+    {
+     "claim": "Strongest pain signal: Mon-Fri 8-5 hours, no after-hours or booking, phone-first",
+     "result": "confirmed",
+     "note": "Hours string confirmed. No chat, Podium, Tidio, LiveChat or LeadConnector strings found in the home page source. The pain is inferred from hours, not a complaint about J. Adams, and the researcher says so."
+    },
+    {
+     "claim": "Testimonial about a competitor who never called back, plus Karen and Diana praised",
+     "result": "confirmed",
+     "note": "Reviews page: competitor estimator 'called him three times... No response', then the homeowner called J Adams. Also 'office staff Karen and Diana were very helpful'."
+    },
+    {
+     "claim": "Jobs page: growing business since 2005, family-owned culture",
+     "result": "confirmed",
+     "note": "Quoted text matches the Jobs page."
+    },
+    {
+     "claim": "FL license CCC1330867, Gary Joseph Adams, active to Aug 31, 2028; 'Licensed since 2022'",
+     "result": "confirmed",
+     "note": "StateCreds shows these exact values, last synced Oct 4, 2026. The 2022 vs 2005 gap is already flagged by the researcher."
+    },
+    {
+     "claim": "Paid press release Jul 17, 2026 naming Joe Adams as contact",
+     "result": "confirmed",
+     "note": "smb.americanpress.com: 'Friday, July 17, 2026', contact Joe Adams (904) 814-6454, 'This is a paid placement'."
+    },
+    {
+     "claim": "Not a chain or franchise; single location",
+     "result": "confirmed",
+     "note": "No 'franchise' string on the home or about pages. Single office address in the schema."
+    },
+    {
+     "claim": "Not in data/suppression.csv or data/seen.csv",
+     "result": "confirmed",
+     "note": "Grepped both for jadams, adams roofing, the phone number and 'adams' (no hits in either file). The only 'augustine' hit is an unrelated HVAC lead in seen.csv."
+    },
+    {
+     "claim": "'Roofr script' was a false positive",
+     "result": "confirmed",
+     "note": "No 'Roofr' string in the home page source."
+    }
+   ],
+   "corrected_fields": {},
+   "adjusted_score": 62,
+   "adjusted_confidence": "Medium",
+   "reason": "Owner name, joe@ email, phone, hours, license and press-release claims all verified live, with no chain flag and no suppression or seen match. The only weakness is that the pain signal is inferred from office hours, not a complaint, and the researcher already disclosed that."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Hard-disqualifier pass: PASS. It is independent and family-owned with one Orange Park showroom, no franchise or parent-company language, a live own-domain site (© 2026), a published phone and estimate CTAs, and residential homeowner calls, so it is not commercial-only. Its domain and name are not in suppression.csv or seen.csv. GHL 'E4L Services' dedupe was NOT run from this session; Rozel should run ghl-contacts.js before loading.",
+  "disqualifier_check": "Chain/franchise: none. The site calls it 'a family owned business' with one showroom at 830 Kingsley Ave, Orange Park. Website: live, © 2026. Live US business: 8 Google reviews dated 18 Jul to 14 Aug 2026 are shown on its own site. Inbound channel: phone 904-396-1889 plus 'Request a Free Estimate'. Not a competitor. No AI receptionist found in page source: only Trustindex, GTM and GA4 loaded. No 'no solicitation' notice seen. suppression.csv and seen.csv: no match for 'dubo', 'duboroofing' or 'dubo.net'. Not done: GHL dedupe, Sunbiz entity status and DBPR license status, because Sunbiz and OpenCorporates were bot-blocked.",
+  "company_name": "DUBO Roofing and Construction (DUBO Roofing and Construction, Inc. per CertainTeed profile)",
+  "niche": "Roofing",
+  "niche_segment": "core",
+  "website": "https://duboroofing.com",
+  "street_address": "830 Kingsley Ave",
+  "city": "Orange Park",
+  "state": "FL",
+  "zip": "32073",
+  "timezone": "America/New_York (Eastern)",
+  "company_phone": "+1 904-396-1889",
+  "company_email_generic": "duboroofing@dubo.net (in the site's JSON-LD on the home and About pages and on the CertainTeed profile; the dubo.net MX record points to Microsoft 365)",
+  "business_hours": "Mon to Fri, 8 am to 4 pm per the site footer ('Mon – Fr: 8 am – 4 pm'). No weekend or evening hours listed. GBP hours not checked directly.",
+  "google_rating": "4.6 per the Trustindex widget on its own site ('Google rating score: 4.6 of 5, based on 107 reviews'). CertainTeed profile shows 4.67 from 67 reviews. Google Maps not checked directly.",
+  "review_count": "107 Google per the site widget; 67 on CertainTeed",
+  "founded_or_years": "'25 Years of Service' on the home page; the About page says '20+ years'. The CertainTeed profile says 'ShingleMaster PREMIER Since 2014'. A review says DUBO did the reviewer's roof 'in the early 2000's'. Sunbiz formation date not found (site was blocked).",
+  "locations_count": "1 (showroom and office at 830 Kingsley Ave, Orange Park)",
+  "service_area": "Orange Park, Fleming Island, Green Cove Springs, Middleburg, Mandarin, Jacksonville and St. Johns County. The site has pages for Clay County, Jacksonville and St. Johns County.",
+  "sub_services": "Residential and commercial roofing: shingle (GAF and CertainTeed), metal, Flintlastic modified, TPO and Duro-Last PVC flat roofs. Also roof repair, inspections and maintenance, storm, flood and fire reconstruction, siding (Hardie board, per a Jul 2026 review), insurance-claim help, financing and military rebates.",
+  "team_size_estimate": "Small family crew plus office staff. Named in reviews on its own site: Duke (owner), Noah (son, project manager / site supervisor) and Mike (sales rep, 'Mike Shelton' in a Feb 2023 review). A Dan Cunningham review says 'Duke his 2 son's and his wife deliver'. Prospeo lists 1-10 employees (unverified aggregator).",
+  "owner_first_name": "Duke",
+  "owner_last_name": "Duncan",
+  "owner_title": "Owner. Customer Google reviews republished on duboroofing.com call him owner: 'The owner of Dubo Roofing, Duke Duncan' and 'Duke, the owner'. Prospeo lists him as President (third-party, unverified). Name confidence: LIKELY, because no government record was checked (Sunbiz and DBPR blocked).",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found (no personal owner email on any public page). Company mailbox: duboroofing@dubo.net",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found",
+  "owner_other_socials": "Company only: https://www.facebook.com/DUBORoofingFL and https://www.instagram.com/duboroofing/ (both linked from the site). Facebook content could not be read logged out. No owner personal socials found.",
+  "owner_background": "Runs a family business that has served Clay County for 20+ years. The About page says 'our family has been part of Clay County, Florida for more than 20 years. Our children were raised here.' Reviews show him working hands-on in sales and estimating: 'We worked with Duke for our pricing and colors' (Ryan Davis, Feb 2026). He has filled out customers' insurance forms ('Their owner Duke, even filled out many of our insurance forms', Jim C, Jul 2026) and attended evening HOA meetings. The company holds GAF Master Elite and CertainTeed Select ShingleMaster status. Prior business, years as owner and press: not found. Second decision-makers in the family: Noah (son, project lead). The site's analytics dataLayer names 'Zachary Duncan' as page author, likely a family member who runs the website (unverified).",
+  "owner_personality_cues": "Honest, educational and patient. Reviews say: 'Duke first told me what they offered, then kindly told me what my other roofing quotes would be and everything he told me was the truth' (Dan Cunningham, Feb 2023). 'patiently answered my roofing system and warranty related questions.' 'Every owner had a one on one contact with Duke Duncan before their roof replacement began.' Values in the site's own words: 'honest, transparent and dependable service', 'clear communication, professional integrity', and community sponsorships ('investing in our community'). A Jul 2026 reviewer chose them over companies 'that did the community solicitation or had the pushy sales gimmicks', so pushy pitches will bounce.",
+  "best_opening_moment": "The site advertises '24/7 Emergency Roofing Services Available' (clock-icon alt text on the home and About pages), but the only posted hours are Mon to Fri, 8 am to 4 pm. Pair it with the GAF Master Elite plus CertainTeed Select certification, which he is clearly proud of. Hurricane season runs through Nov 30, so storm and leak calls are timely now.",
+  "attitude_type": "Family-Legacy Pride Brand",
+  "attitude_evidence": "The site says 'As a family-owned business' and 'our family has been part of Clay County, Florida for more than 20 years. Our children were raised here'. It mentions sponsoring 'various events, clubs, teams'. Reviews name family members: 'One of the family sons, Noah, becomes your project lead' (Jul 2026) and 'Duke his 2 son's and his wife deliver' (Feb 2023). Reputation-first copy: 'honest, transparent and dependable service'. There are also growth-minded cues (awards, a showroom, expansion into reconstruction), but family legacy dominates.",
+  "tech_adoption": "Moderate. WordPress/Divi site (© 2026) with a Trustindex Google-review widget, GTM (GTM-NG2R5K8X) and GA4 (G-1YWTKS8FVN). FAQ content and FAQPage-style JSON-LD are present. Financing is offered. No online booking, chat, text-us widget, call tracking or Meta pixel in the page source.",
+  "marketing_sophistication": "Low to moderate. Basic SEO pages per county, a blog, FAQ schema and a review widget. No paid-ads tags (no Google Ads conversion tag, Meta pixel or CallRail) in the home page source. No agency credit; the site appears to be maintained in-house (dataLayer page author 'Zachary Duncan').",
+  "growth_stage": "Established and stable. 25 years in business, 107 Google reviews, and a cluster of 8 reviews between 18 Jul and 14 Aug 2026. Expanded into reconstruction and siding. Single location.",
+  "review_response_behavior": "Not checked. The owner's reply rate on Google could not be verified because Google Maps was not opened; the on-site widget shows only curated 4 to 5 star reviews without replies.",
+  "after_hours_handling": "No after-hours coverage stated. The footer lists 'Mon – Fr: 8 am – 4 pm', yet the home and About pages carry an image with alt text '24/7 Emergency Roofing Services Available'. No answering service, AI receptionist or after-hours line is mentioned anywhere on the pages checked or in the page source. Who actually answers after 4 pm is not verified; Sam should note who picks up.",
+  "online_booking": "None. CTAs are 'CALL NOW' and 'Request a Free Estimate' (form). The 3-step process reads 'Call us or fill out a contact form on our website. We'll answer any questions you may have.' No response-time promise. No Calendly, Jobber, Housecall Pro, ServiceTitan, Roofr or similar in the page source.",
+  "chat_or_text_on_site": "None. No chat, text-us, Podium, Birdeye or LeadConnector widget in the page source. Only a 'Call Now Button' click-to-call.",
+  "vendors_detected": "WordPress + Divi theme, Trustindex (Google review widget), Google Tag Manager GTM-NG2R5K8X, GA4 G-1YWTKS8FVN, YouTube embed, Google Fonts. Manufacturer programs: GAF Master Elite, CertainTeed Select ShingleMaster ('ShingleMaster PREMIER Since 2014'), Duro-Last. The financing partner is not named on the pages checked.",
+  "ads_running": "Not found in the site source: no Google Ads conversion tag, Meta pixel or call-tracking number swap. The Google Ads Sponsored unit, LSA badge and Meta Ad Library were NOT checked live. Logged as a partial null.",
+  "ai_search_presence": "Not checked on ChatGPT, Perplexity or Gemini (no logged-out AI session available). Proxy only: one web search for 'best roofer Orange Park FL emergency roof repair Jacksonville' did not name DUBO. It surfaced Beaver Home Services (a press release claiming 24/7 emergency repairs in Orange Park), Action Roofing, Alan Taylor Roofing, Mike Boucher Roofing and Wofford Roofing. The site already has FAQ content with FAQPage-style JSON-LD. For the free audit: named in 0 of 0 AI answers (not run).",
+  "pain_signals": "1) Hours gap. The site advertises '24/7 Emergency Roofing Services Available' (image alt text, https://duboroofing.com/), but the posted hours are 'Mon – Fr: 8 am – 4 pm' (https://duboroofing.com/about-us/). That means no posted coverage on evenings or weekends in a storm-exposed metro. 2) Phone-first: 'CALL NOW' is the primary CTA and the number sits in the header. 3) Booking and contact friction: no online scheduling, no chat or text, and the contact form makes no response-time promise (page source checked). 4) The owner personally handles pricing, colors, insurance forms and HOA meetings ('We worked with Duke for our pricing and colors'), so he is often away from the phone. Counter-signal: reviews praise responsiveness ('Their staff is always quick to respond and help!' Aug 2025; 'DUBO roofing called me back first thing in the morning', Mar 2022). No missed-call complaints found in the curated on-site reviews; Google's lowest-rated reviews were not checked.",
+  "trigger_events": "Atlantic hurricane season runs through Nov 30 (inferred from the vertical calendar, not business-specific). Review cluster of 8 Google reviews dated 18 Jul to 14 Aug 2026 shown on the site (positive, not a complaint spike). No job posts, new location, ownership change or new site found. Indeed and Facebook Jobs were searched with no DUBO results.",
+  "lead_score": 56,
+  "score_breakdown": "Total 56/100. Band: QUALIFIED. Route: call-first (Sam); D1 = 8, so no email slot is spent. Status: TRUSTED with caveats; 6 of 7 dimensions have evidence. Caveats: GHL dedupe and the SOS/license check are still pending.\n\nD1 Decision-maker: 8/20. Full name 'Duke Duncan' as owner, cited from customer Google reviews republished on duboroofing.com. Prospeo (third-party) lists him as President. Contact is the generic mailbox duboroofing@dubo.net (site JSON-LD, MX = Outlook) plus the staffed main line. No personal email, direct line or LinkedIn found.\n\nD2 Phone and after-hours gap: 15/15. Phone-first ('CALL NOW' is the primary CTA, number in the header). Roofing is an inherently urgent niche. The site claims '24/7 Emergency Roofing Services Available' while the hours are 'Mon – Fr: 8 am – 4 pm'. No answering service or AI receptionist mentioned anywhere (https://duboroofing.com/, https://duboroofing.com/about-us/).\n\nD3 Lead-response leak: 5/15. One signal type, booking and contact friction: no scheduling, chat or text vendor in the page source, and the form gives no response-time promise. No missed-call review complaints found; on-site reviews praise responsiveness. Google lowest-rated reviews and reply rate not checked. No job posts found.\n\nD4 AI search gap: 0/10. NO EVIDENCE: no AI platform was checked. The FAQPage-style JSON-LD on the site is noted.\n\nD5 ICP fit: 15/15. (a) Family-owned, 1 location. (b) Roofing is core. Proxies: 25 years in business; 107 Google reviews; roofing ticket $8-15k; financing offered; service area of 3+ counties (Clay, Duval, St. Johns); 3 named staff.\n\nD6 Buying signals: 3/15. Only soft activity: a steady review inflow (8 reviews in Jul to Aug 2026). Seasonal storm window inferred. Spend checks: no Ads, Meta pixel or call tracking in the source, no agency credit, no paid directories seen. Live Sponsored/LSA and Meta Ad Library not checked.\n\nD7 Attitude and stack: 10/10. Positives: modern site (© 2026, maintained in-house); tech adoption (financing, Trustindex review widget); growth posture (GAF Master Elite + CertainTeed Select awards, a showroom, expansion into reconstruction). No negatives found. No incumbent agency conflict. Review-reply tone not checked.",
+  "recommended_entry_offer": "Voice AI live demo: a demo line trained on duboroofing.com (services, Kingsley Ave showroom, financing and military rebates, GAF/CertainTeed certifications, insurance-claim help) that answers after-hours and storm leak calls and books the inspection. Pair it with missed-call text-back. Position it as after-hours and overflow coverage only, never as replacing the office.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Who picks up DUBO's 24/7 line after 4?",
+  "personalized_first_line": "Duke, your site promises 24/7 emergency roofing, but the posted office hours are Monday to Friday, 8 to 4, so I'm curious who picks up when a leak call comes in on a Saturday night during a storm.",
+  "call_angle": "Family-legacy relief angle, not growth. Start by respecting 25 years in Clay County and the GAF Master Elite plus CertainTeed Select status. Then raise the gap: the site says 24/7 emergency service, but the office closes at 4 on weekdays and isn't open weekends, and Duke personally handles estimates, insurance paperwork and HOA meetings, so after-hours leak calls likely go to voicemail. Offer a demo line already trained on their own website that he can call himself: it answers in DUBO's name, gets the address, roof type and whether it is an insurance claim, and books the inspection for the office the next morning. Frame it as protecting the reputation they built ('callers still reach DUBO'), covering only the calls the office can't take. Ask: 'Who answers your phone after 4 or on a Saturday right now: you, voicemail, or nobody?' Close on the 20-minute Game Plan Call with Sebastian, or the email to send the demo number to.",
+  "likely_objection": "'We already call everyone back first thing in the morning; our customers love our service.' Reviews do praise their responsiveness. Answer: 'Agreed, your reviews say exactly that. This is only for the storm-night caller who won't wait until morning and dials the next roofer on Google. Your office still handles everything during the day, and you can hear it yourself on the demo line before deciding anything.' Secondary: 'We don't do robots or marketing companies' (they value no 'pushy sales gimmicks'). Keep it low-pressure and proof-first.",
+  "why_now": "Atlantic hurricane season is still open through Nov 30, and Northeast Florida storm nights are when leak calls spike outside 8 to 4 weekday hours. The site already advertises 24/7 emergency service, so every unanswered after-hours call is a promise not kept. Eight new Google reviews in Jul to Aug 2026 show active job flow worth protecting.",
+  "notes_for_chosen": "Top-up lead verified 2026-10-20, held for the next batch. Call-first lead for Sam; there is no personal owner email, so don't spend an email slot unless Sam gets one on the call. Only the generic duboroofing@dubo.net is published (Microsoft 365 MX).\n\nOwner name 'Duke Duncan' comes from customer reviews on their own site plus a Prospeo listing. 'Duke' may be a nickname, so let Sam confirm on the call. Sunbiz and DBPR were blocked here; Rozel should check that the entity is active and the license holder before loading, and run the GHL dedupe.\n\nDo NOT use Prospeo's revenue ($427,775) or its Jacksonville HQ address (5300 Emerson St); both conflict with the site and are unverified.\n\nFamily business: the sons (Noah is the project manager) and his wife are involved, so the next-generation family member may be the champion. Also check who built the site ('Zachary Duncan' is the dataLayer author).\n\nTone: personal, slightly formal, honest. Reviewers praise 'no pushy sales gimmicks', so no hype and no pressure. Never imply their service is slow; reviews praise their responsiveness. Pitch after-hours and storm overflow only.\n\nPre-build the demo from duboroofing.com, since D2 = 15. Run one AI spot-check (e.g. 'emergency roofer near Orange Park, FL') before the call so the D4 line can be filled in. Beaver Home Services is a local competitor publicly advertising 24/7 emergency repairs in Orange Park.",
+  "best_time_to_call": "Tue to Thu, 8:00 to 8:45 AM ET, right after the office opens at 8 and before Duke heads out to estimates. Reviews show he personally does pricing and site visits ('We worked with Duke for our pricing and colors'). Backup window: 3:15 to 3:50 PM ET, before the 4 pm close. Avoid Mondays (storm backlog) and any day after a named storm.",
+  "call_opener": "Hi, is this Duke? Duke, this is Sam with E4L. Full disclosure, this is a cold call. Can I have 20 seconds to tell you why I called, and then you can tell me to get lost? I was on your site: 25 years in Orange Park, GAF Master Elite and CertainTeed Select, which is rare up here. Your site says 24/7 emergency roofing, but the office hours are 8 to 4 weekdays. So when a homeowner's ceiling is dripping at 9 at night during a storm, who answers? We build a phone receptionist trained on your own company that picks up those after-hours calls, gets the address and the leak details, and books the inspection for your office the next morning. We'll build you a demo line from your website that you can call yourself before you spend anything. Worth 20 minutes with our founder to hear it?",
+  "gatekeeper_notes": "The main line +1 904-396-1889 goes to the office during Mon to Fri, 8 to 4. A Feb 2026 review credits 'the office with all their help', but no office manager is named publicly. Other people named in reviews: Noah (son, project manager / site supervisor) and Mike (sales rep, 'Mike Shelton' per a 2023 review). Ask for Duke by first name ('Is Duke in?'); reviews show he handles estimates and pricing personally, so he may be out in the field. If he's out, ask when he's usually back in the office, or whether Noah handles new estimate calls. No owner cell is published, and no answering service or AI on the line was seen. Sam should record who answers (human, voicemail or IVR) and test once after 4 pm to confirm the gap.",
+  "research_confidence": "Medium",
+  "evidence_links": "https://duboroofing.com/, https://duboroofing.com/about-us/, https://www.certainteed.com/profiles/duboroofing, https://prospeo.io/c/dubo-roofing-revenue, https://www.facebook.com/DUBORoofingFL, https://www.instagram.com/duboroofing/, https://markets.financialcontent.com/clarkebroadcasting.mymotherlode/article/getfeatured-2025-10-16-beaver-home-services-a-top-rated-roofing-company-in-orange-park-fl-offers-247-emergency-roof-repairs, https://www.statecreds.com/license/fl/roofer/city/orange-park, https://dns.google/resolve?name=dubo.net&type=MX",
+  "_target": "roofing-jacksonville",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver",
+   "checks": [
+    {
+     "claim": "Owner is Duke Duncan, titled Owner",
+     "result": "confirmed",
+     "note": "duboroofing.com home page carries customer reviews reading 'The owner of Dubo Roofing, Duke Duncan' and 'Duke, the owner'. Only customer-review text supports it; no government record, and the web search found no independent confirmation. The lead already marks it LIKELY."
+    },
+    {
+     "claim": "Company phone +1 904-396-1889",
+     "result": "confirmed",
+     "note": "tel:904-396-1889 and tel:+19043961889 appear on both the home and About pages."
+    },
+    {
+     "claim": "Generic email duboroofing@dubo.net",
+     "result": "confirmed",
+     "note": "Present in the page source of both pages. The lead correctly records no personal owner email."
+    },
+    {
+     "claim": "Strongest pain signal: '24/7 Emergency Roofing Services Available' vs. posted hours Mon-Fri 8am-4pm",
+     "result": "confirmed",
+     "note": "The 24/7 text is the alt text of clock.webp on the home and About pages. The footer on both pages reads 'Mon - Fr: 8 am - 4 pm'. The gap is real, but it comes from image alt text, which a caller may never see."
+    },
+    {
+     "claim": "Independent, family-owned, single location at 830 Kingsley Ave, Orange Park (not a chain)",
+     "result": "confirmed",
+     "note": "The site says 'family-owned business' and lists one address, 830 Kingsley Ave Orange Park FL 32073. No franchise or parent-company language found."
+    },
+    {
+     "claim": "Google rating 4.6 from 107 reviews; '25 Years of Service'",
+     "result": "confirmed",
+     "note": "The home page contains '4.6' and '107 reviews'; '25 Years of Service' is also on the home page. The search shows CertainTeed at 4.66 from 64 reviews, close to the lead's 4.67 from 67."
+    },
+    {
+     "claim": "No ads tags or call tracking in the page source",
+     "result": "confirmed",
+     "note": "Grep for Google Ads, fbq and CallRail returned nothing on the home page."
+    },
+    {
+     "claim": "Not in suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grep for dubo, duncan and kingsley in both files found no DUBO entry. The only hits were three unrelated 'Duncan' contact or city matches in suppression.csv (Precision Air, Scottie Ballantyne Roofing, Alto Vista Roofing). seen.csv had no hits."
+    },
+    {
+     "claim": "Zachary Duncan as page author (dataLayer)",
+     "result": "confirmed",
+     "note": "The string 'Zachary Duncan' appears in the home page source. The lead already treats it as unverified."
+    }
+   ],
+   "corrected_fields": {},
+   "adjusted_score": 56,
+   "adjusted_confidence": "Medium",
+   "reason": "The owner name, phone, generic email, hours gap, independent single-location status and clean suppression and seen checks all hold up against the live site. The owner name rests on customer reviews alone, and the GHL dedupe plus Sunbiz/DBPR checks are still pending, as the lead already states."
+  }
+ },
+ {
+  "qualified": true,
+  "company_name": "Stars and Pipes Plumbing Atlanta, LLC",
+  "niche": "Plumbing (residential service, emergency, water heaters, repipes, gas lines)",
+  "niche_segment": "core",
+  "website": "https://www.starsandpipesatl.com/",
+  "street_address": "625-A Beaver Ruin Rd, Suite 5",
+  "city": "Lilburn",
+  "state": "GA",
+  "zip": "30047",
+  "timezone": "America/New_York (ET)",
+  "company_phone": "+1 770-398-7827 (770-398-STAR). This is the only tel: link on the site and is the number in its JSON-LD, on the BBB profile and on the EIN Presswire media contact. The 770-798-3827 number in the press release's About blurb appears nowhere on the site and looks like a typo, so do not dial it.",
+  "company_email_generic": "Not found (the only email published is the owner's named address, sean@starsandpipesatl.com)",
+  "google_maps_url": "https://www.google.com/maps/place/Stars+and+Pipes+Plumbing+Atlanta",
+  "google_rating": "Not found (could not verify on GBP; the site claims 5.0)",
+  "review_count": "Not verified on Google (the site claims \"200+ Five-Star Reviews on Google\"). Angi/HomeAdvisor: 5.0 from 6 reviews. Trustpilot: 0. BBB: 0 reviews and 0 complaints.",
+  "business_hours": "Open 24/7, Monday–Sunday, holidays \"Available\" (site Contact page: \"Open 24/7 - every day, including holidays\"). The BBB profile agrees: open 24 hours Mon–Sun.",
+  "locations_count": "1. The office moved to 625-A Beaver Ruin Rd Ste 5, Lilburn, in June 2026. An older Bradford White listing shows 1014 Parkview Way SW, Lilburn, which looks like the previous address.",
+  "founded_or_years": "Sources conflict. BBB lists \"Business Started 8/31/2024 (started locally 1/9/2023)\" and \"Years in Business: 2\". The site footer and JSON-LD foundingDate say \"since 2024\", but the homepage claims \"11+ Years\". The press release says \"more than a decade\". The decade claim most likely means Sean's own trade experience (a 5-year Local 519 apprenticeship, then crew leadership in Snellville and Doraville), not the age of the LLC.",
+  "service_area": "Gwinnett, DeKalb and Fulton counties. Named areas: Lilburn, Lawrenceville, Snellville, Norcross, Tucker, Loganville, Grayson, Doraville, Sandy Springs, Dunwoody, Peachtree Corners, Stone Mountain, Duluth, Buford and Suwanee. The FAQ also names Marietta, Alpharetta, Roswell, Johns Creek and Buckhead.",
+  "sub_services": "24/7 emergency plumbing, water heater repair and replacement, leak detection, drain clearing, sewer video inspection and trenchless repair, repiping, gas line installation and repair (stoves, dryers, generators, whole-home), fixture installs. Financing through Wisetack. No service-call fee. $50 discount for veterans, military, teachers, first responders and seniors.",
+  "team_size_estimate": "2–5 (low confidence). The About page says \"Sean and his wife Alexandra run the shop themselves\". The press release mentions \"our team of highly skilled plumbers\" but gives no number.",
+  "owner_first_name": "Sean",
+  "owner_last_name": "Nelson",
+  "owner_title": "Owner and Georgia Master Plumber (License MP211014). He is also a US Army veteran; the contractormag article (June 13, 2025) describes him as a Sergeant First Class in the Army Reserve and a plumbing instructor at Fort Jackson, SC.",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "sean@starsandpipesatl.com",
+  "owner_email_type": "Personal (named)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found. No number on any public page is tied to Sean personally; the business line is +1 770-398-7827.",
+  "owner_linkedin": "https://www.linkedin.com/in/sean-nelson-848797375 (Confirmed: it is in the owner's sameAs in the site's own JSON-LD). Company page: https://www.linkedin.com/company/stars-and-pipes-plumbing-atlanta",
+  "owner_other_socials": "Business accounts, all linked from the site: facebook.com/starsandpipesplumbingatlanta, instagram.com/starsandpipesatl, tiktok.com/@starsandpipesatl, youtube.com/@StarsandPipesPlumbingAtlanta, yelp.com/biz/stars-and-pipes-plumbing-lilburn-6. Yelp blocked the fetch. No personal handles found.",
+  "owner_background": "From the About page: \"After serving in the US Army, he completed a full five-year apprenticeship with Plumbers Local Union 519 in Miami\" doing commercial plumbing. He moved to Georgia in 2020 and ran crews as a Lead Technician Supervisor in Snellville, then as a Technical Field Manager in Doraville. He then started the Lilburn shop with Alexandra \"on a simple promise: diagnose it honestly, price it upfront, and fix it right.\"\n\nContractormag (June 13, 2025) calls him an Army Reserve Sergeant First Class and plumbing instructor at Fort Jackson, SC, and quotes him: \"It keeps me sharp and reminds me why doing every job with excellence matters.\"\n\nPress: an EIN Presswire release (May 2026) announced the company as plumbing contractor for the City of Snellville Police Department. The June 11, 2026 release covers the new office. The press releases name the Gwinnett Chamber and the Lilburn Business Association as memberships.\n\nSecond decision-maker: Alexandra, Sean's wife, who co-runs the shop per the About page. Her surname is not published.",
+  "owner_personality_cues": "He leads with values and his military background. From the About page: \"show up on time, do it right the first time, own the outcome - are the standard on every call, not a slogan.\" He positions the shop as honest and anti-upsell: \"If a repair will hold, we won't upsell you a replacement.\" He stresses that a person answers: \"When you call, you reach the people whose name is on the truck - not a national call center.\" He promotes the business visibly (two paid press releases in 2026 and a \"Hear it straight from Sean\" owner video on the About page).\n\nHis June 2026 quotes are warm and community-minded: \"We've got a new home.\" and \"Thank you for supporting local.\" Expect a direct, disciplined, no-fluff listener who will reject anything that sounds like a robot replacing his family's personal touch.",
+  "best_opening_moment": "The new office at 625-A Beaver Ruin Rd (EIN Presswire, June 11, 2026), together with his own promise that callers \"reach the people whose name is on the truck.\" That promise gets harder to keep as he grows, and the Snellville PD contract (May 2026) is also adding work.",
+  "attitude_type": "Growth-Minded Operator",
+  "attitude_evidence": "He is visibly investing in growth:\n- Moved into a dedicated office in June 2026 (einpresswire.com/article/918968003).\n- Paid press releases in May 2026 (Snellville PD contract) and June 2026 (new office), plus a June 2025 GetFeatured release.\n- Wisetack financing (/financing-and-discounts/).\n- Housecall Pro online-booking script on the homepage (online-booking.housecallpro.com/script.js?orgName=Stars-and-Pipes-Plumbing).\n- Custom-built 2026 site with GA4 (G-JJ9CNQ4FQF), a Meta pixel (24775716462098917), gclid/gbraid capture in the forms, and FAQPage + LocalBusiness schema.\n- Active on five social platforms.\n\nThere is also a strong family-pride streak (\"The name still belongs to the family that answers the phone\"), so lead with protecting that promise rather than replacing it. No hostile or anti-marketing signals were found.",
+  "tech_adoption": "Modern, close to advanced. The site uses Housecall Pro online booking, Wisetack financing, FAQPage/LocalBusiness/Plumber JSON-LD, GA4, a Meta pixel and click-ID attribution capture. There is no chat or text-us widget.",
+  "marketing_sophistication": "DIY but sophisticated, with no agency credit in the footer or source. Evidence: a custom Astro site with attribution scripts, paid press releases (EIN Presswire, GetFeatured), an approved Angi/HomeAdvisor listing and 5 social channels. A comment in the site's own code reads \"Phone taps are most of this business's leads; count every tel: link sitewide,\" so whoever built the site tracks calls as the main lead source.",
+  "growth_stage": "New to establishing. The LLC dates from 2024 (BBB: business started 8/31/2024, accredited 12/16/2024). The move into a new office in June 2026 and a municipal contract in May 2026 show it scaling up its footprint.",
+  "review_response_behavior": "Unknown. Google reviews and Yelp could not be accessed in budget (Yelp returned 403). The one visible Angi review (AJ H., Feb 2025) praises Sean as \"available over the phone\".",
+  "after_hours_handling": "The site claims the owners answer live 24/7: \"If it can't wait, we answer the phone 24/7,\" and \"Sean and his wife Alexandra run the shop themselves. When you call, you reach the people whose name is on the truck - not a national call center.\" No answering service or AI receptionist was found in the site text or page source. With a two-person family operation and the owner often on jobs, that 24/7 live-answer promise is the structural gap; Sam should confirm on the call who picks up when Sean is on a job.",
+  "online_booking": "Yes. The Housecall Pro online-booking script is loaded on the homepage (token for orgName=Stars-and-Pipes-Plumbing) behind the \"Schedule Service\" CTA. There is also a \"Request a Quote\" form.",
+  "chat_or_text_on_site": "None. The homepage source has no chat or text widget (no Podium, Birdeye, Tidio, Intercom, Drift, Tawk, LiveChat or LeadConnector). The \"Drift\" match in the source is only a CSS animation name.",
+  "vendors_detected": "Housecall Pro (online booking), Wisetack (financing), Google Analytics 4 (G-JJ9CNQ4FQF via gtag), Meta pixel (24775716462098917), a custom first-party form script that captures gclid/gbraid/wbraid and referrer, Google Workspace email (MX aspmx.l.google.com), the Astro site framework, and an Angi/HomeAdvisor approved-pro listing. Paid PR: EIN Presswire and GetFeatured. No CallRail or other call tracking found.",
+  "ads_running": "Not confirmed. The site is set up to track ad clicks (it captures gclid/gbraid/wbraid and runs a Meta pixel), but no Sponsored or LSA result was observed for the business and the Meta Ad Library was not checked (it needs a JS session). Paid placements that were confirmed: the press releases and the Angi/HomeAdvisor approved-pro listing.",
+  "ai_search_presence": "The check was AI-assisted web search only; ChatGPT, Perplexity and Gemini were not checked. Result: named in 0 of 3 answers.\n- \"best emergency plumber Lilburn GA 24/7\" named Roto-Rooter, Go-Rooter, Benjamin Franklin, Allgood and Mike Folsom.\n- \"plumber that answers the phone 24/7 Lawrenceville GA\" named Benjamin Franklin, Roto-Rooter, Anthony Wimpey and Drain Genie.\n- \"most reliable water heater repair plumber Gwinnett County GA\" named Keep Smiling, Bardi, Benjamin Franklin and Estes.\nThe site already has FAQPage + LocalBusiness JSON-LD. Audit line: \"Named in 0 of 3 AI answers (AI web search; competitors named: Roto-Rooter, Benjamin Franklin, Go-Rooter, Allgood, Mike Folsom, Anthony Wimpey, Drain Genie, Keep Smiling, Bardi).\"",
+  "pain_signals": "No complaint reviews were found; the one visible Angi review praises availability by phone. The pain is structural, not quoted:\n1. A two-person family shop promises live 24/7 answering (\"If it can't wait, we answer the phone 24/7\"; \"Sean and his wife Alexandra run the shop themselves\"), so emergency calls that come in while Sean is on a job depend on whoever is free.\n2. The owner has outside commitments: contractormag (June 2025) reports he is an Army Reserve plumbing instructor at Fort Jackson, SC.\n3. The site says the phone is the main lead source. Its code comment reads \"Phone taps are most of this business's leads; count every tel: link sitewide.\"\n4. The workload is growing: the new office (June 2026) and the City of Snellville PD contract (May 2026).\n5. Paying for visibility: two paid press releases this year.",
+  "trigger_events": "1. New office at 625-A Beaver Ruin Rd Ste 5, Lilburn. EIN Presswire, 2026-06-11 (131 days ago), quoting Sean: \"We've got a new home.\"\n2. Named plumbing contractor for the City of Snellville Police Department. Press release, May 2026 (~150+ days ago).\n3. Site updated in 2026 (Contact page dateModified 2026-07-07; copyright 2026).\nNo receptionist or dispatcher job post was found (/careers returns 404).",
+  "disqualifier_check": "PASS on every disqualifier I could check, but this is not yet fully TRUSTED: the GHL 'E4L Services' dedupe was not run in this session and needs to be done before any outreach.\n- Chain/franchise: none. Independent LLC, one location, and the site says it is \"not a national chain\".\n- Own-domain site: live (200, SSL, © 2026).\n- Live US business: BBB A rating, Accredited since 12/16/2024, 0 complaints; new office announced June 2026.\n- Inbound channel: phone, quote form and Housecall Pro booking all present.\n- Competitor category: not one.\n- Automation: no AI receptionist found.\n- No-solicitation notice: none.\n- Off-limits lists: no match in suppression.csv or seen.csv by domain, company name, phone 770-398-7827, or owner email. Grep hits on \"Nelson\" and \"Lilburn\" were unrelated businesses (Service Champions, Puppy Loft, Tebo Dental).",
+  "disqualified_reason": "None",
+  "lead_score": 57,
+  "score_breakdown": "Band: QUALIFIED (55–74). Status: TRUSTED pending the GHL dedupe.\n\nD1 Decision-maker: 20/20. Sean Nelson is named as Owner on the site (/about-us/, homepage), on the BBB profile (\"Mr. Sean Nelson, Owner\") and in the EIN Presswire media contact. His direct email, sean@starsandpipesatl.com, is published as a mailto link and in the site JSON-LD, and the domain's MX points to Google. Secondary channel: owner LinkedIn linkedin.com/in/sean-nelson-848797375, linked from the site's own JSON-LD.\n\nD2 Phone gap: 0/15. Phone-first and an urgent niche, but the rubric's 0-rule applies because the site says its own staff answer live 24/7: \"If it can't wait, we answer the phone 24/7\" and \"When you call, you reach the people whose name is on the truck - not a national call center\" (/contact/, /about-us/). The voice angle is still overflow coverage for a two-person shop, not a cost replacement.\n\nD3 Response leak: 0/15. Logged null: no reachability complaints found (Angi review praises phone availability), no job posts (/careers 404), BBB has 0 complaints, Housecall Pro online booking exists so there is no booking friction. Google and Yelp could not be read (Yelp 403).\n\nD4 AI visibility: 6/10. Named in 0 of 3 AI-assisted web-search answers (one platform only). FAQPage + LocalBusiness JSON-LD already on the site.\n\nD5 ICP fit: 10/15. (a) Independent, veteran-owned and family-operated with one location: pass. (b) Plumbing is a core niche: pass. (c) Two ability proxies: per-customer value ≥$1,000 (repiping, water heaters, gas lines, with Wisetack financing), and a 3-county service area plus 24/7 service. Years in business is not counted because BBB says 2 years while the site claims \"11+\".\n\nD6 Triggers and spend: 11/15. Triggers 61–180 days old: the new office (2026-06-11) and the Snellville PD contract (May 2026). Spend signals: Meta pixel and GA4 with gclid capture, an Angi/HomeAdvisor approved-pro listing and paid press releases. No Sponsored or LSA result was verified and the Meta Ad Library was not checked.\n\nD7 Attitude: 10/15... (weight 10) 10/10. Positives: (b) modern site, © 2026, updated 2026-07; (c) Housecall Pro booking, Wisetack, schema; (e) new office, press quotes, municipal contract. No negatives and no bundled-agency conflict.\n\nTotal: 57.",
+  "recommended_entry_offer": "A live Voice AI demo line built from starsandpipesatl.com, framed as overflow and backup that only picks up the calls Sean or Alexandra can't get to, through conditional forwarding on missed or busy calls, plus missed-call text-back. Secondary: the free AI visibility audit, since he was named in 0 of 3 AI answers.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "When Sean's under a sink at 2 a.m.",
+  "personalized_first_line": "Sean, congrats on the new Beaver Ruin Road office. Your About page promises that anyone who calls Stars and Pipes reaches you or Alexandra, not a call center, and that's a promise worth protecting for the calls that come in while you're both on a job.",
+  "call_angle": "Keep the family promise, don't replace it. He sells \"the people whose name is on the truck,\" so pitch the AI as the backup that only answers when Sean and Alexandra physically can't: mid-repipe, driving, or at 2 a.m. It books the job or texts the caller back in under a minute, and real calls still ring them first. The proof lever is a demo line trained on his own site that he can call before paying anything. Qualifying question: \"When you're both tied up on a burst-pipe job, who picks up the next call right now?\" Avoid anything that sounds like a robot replacing the family, and don't open with reviews (there are no complaints to cite).",
+  "likely_objection": "\"We answer our own phones 24/7. Our customers want a real person, not a robot.\" (This is his brand promise, word for word, on the site.) Response: it only picks up what would otherwise ring out or hit voicemail. A conditional-forward rule on missed or busy calls is the only change, and one dial code turns it off. He can judge it himself by calling the demo line trained on his business.",
+  "why_now": "The shop just moved into a dedicated office (June 2026) and picked up the City of Snellville PD contract (May 2026). The workload is growing, but the \"we answer the phone 24/7\" promise still rests on two people. Late fall and winter (freezing pipes, water-heater failures) is plumbing's emergency season, so the overnight calls are coming either way.",
+  "notes_for_chosen": "Top-up lead verified 2026-10-20, held for the next batch. Strong reach: a confirmed personal email (sean@starsandpipesatl.com, Google Workspace MX) and a LinkedIn profile the site itself links to. Email-first is valid (D1 = 20), then a Sam call within 48 hours.\n\nThe score is held to QUALIFIED because the rubric zeroes D2 when a site claims its own staff answer live 24/7, and no reachability complaints could be cited. The real wedge is structural: a husband-and-wife shop promising 24/7 live answering while growing.\n\nFacts to keep straight:\n- Do not cite \"11+ years\" or \"200+ Google reviews\". Neither is verified, and BBB shows the business started 8/31/2024.\n- Do not dial 770-798-3827 (an apparent typo in the press release).\n- Do not reference his Army Reserve teaching unless he brings it up; you may thank him for his service since he publicizes being a veteran.\n- His values are honesty, no upselling and owning the outcome. Mirror his plain, disciplined tone and keep the email to 55–90 words.\n\nBefore outreach:\n- Run the GHL 'E4L Services' dedupe; it was not done in this session.\n- Check the voice demo pool for an existing build.\n\nGEO secondary: named in 0 of 3 AI-assisted searches, with Roto-Rooter and Benjamin Franklin (both franchises) dominating. That makes the \"your local veteran-owned shop vs the national chains AI recommends\" audit a good follow-up hook.",
+  "best_time_to_call": "Tue–Thu, 10:00–11:30 AM ET. Reasons:\n- The business runs 24/7, so avoid evenings and weekends, when the line is the emergency line.\n- Avoid Monday mornings, the weekend-backlog rush.\n- Mid-morning is after first dispatch, when Sean or Alexandra is most likely free to talk. The About page says they answer the business line themselves.\nIf Alexandra answers and Sean is on a job, ask for a callback window rather than pitching her cold.",
+  "call_opener": "\"Hi, is this Sean? Sean, this is Sam with Eat 4 Life Marketing. Full honesty, this is a cold call. Can I have 20 seconds, and then you tell me if it's worth another minute? ... I was on your About page, and you promise people who call Stars and Pipes get you or Alexandra, never a call center. When you're both tied up on a job, those emergency calls usually ring out, and that homeowner calls the next plumber on Google. We build an AI receptionist trained on your own website that picks up only the calls you can't, books the job, and texts back any missed call in under a minute. We'll build you a demo line for your business you can call before you ever pay a dime. Fair to grab 20 minutes with our founder this week so you can hear it?\"",
+  "gatekeeper_notes": "There is no third-party gatekeeper. The About page says \"Sean and his wife Alexandra run the shop themselves. When you call, you reach the people whose name is on the truck - not a national call center.\" No answering service, dispatcher or office manager is named anywhere (no job posts; /careers is 404). Expect Sean or Alexandra to answer +1 770-398-7827, possibly from the field with job noise in the background.\n\nIf Alexandra answers: be respectful, give the 10-second version, ask the best time to catch Sean, and log her as the second decision-maker. Her surname is not published, so use her first name only.\n\nIf Sean is mid-job, offer to call back at a time he names. No owner cell is published, so do not hunt for one. Do not dial 770-798-3827 (an unverified typo from the press release).",
+  "evidence_links": "https://www.starsandpipesatl.com/about-us/, https://www.starsandpipesatl.com/, https://www.starsandpipesatl.com/contact/, https://www.bbb.org/us/ga/lilburn/profile/plumber/stars-and-pipes-plumbing-atlanta-llc-0443-91842033, https://www.einpresswire.com/article/918968003?promo=4400, https://www.linkedin.com/in/sean-nelson-848797375, https://www.starsandpipesatl.com/financing-and-discounts/, https://www.contractormag.com/training/article/55297170/soldier-and-plumbing-instructor-helps-bring-service-members-into-the-trades, https://kdhnews.com/online_features/press_releases/stars-and-pipes-plumbing-atlanta-selected-as-plumbing-contractor-for-the-city-of-snellville-police/article_e16a1dbc-a6e0-527f-90c8-800b75d2de8a.html, https://homeadvisor.com/tloc/Lilburn-GA/Gas-Piping, https://www.trustpilot.com/review/starsandpipesatl.com, https://contractorfinder.bradfordwhite.com/contractors/stars-and-pipes-plumbing-atlanta-47526-lilburn-ga, https://www.google.com/maps/place/Stars+and+Pipes+Plumbing+Atlanta, https://www.rotorooter.com/lilburnga/, https://www.benjaminfranklinplumbing.com/lawrenceville-dacula/, https://www.expertise.com/home-improvement/plumbing/georgia/lilburn, https://dns.google/resolve?name=starsandpipesatl.com&type=MX",
+  "research_confidence": "Medium",
+  "_target": "plumbing-atlanta",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver",
+   "checks": [
+    {
+     "claim": "Owner is Sean Nelson, Owner and Georgia Master Plumber (MP211014)",
+     "result": "confirmed",
+     "note": "About page names Sean Nelson, US Army veteran, Georgia Master Plumber MP211014. BBB lists Mr. Sean Nelson, Owner. EIN Presswire gives his title as Owner."
+    },
+    {
+     "claim": "Owner email sean@starsandpipesatl.com",
+     "result": "confirmed",
+     "note": "Present as a mailto link in the raw HTML of the homepage and /contact/, and shown in the WebFetch of /contact/. The About page text fetch did not list it, which does not matter."
+    },
+    {
+     "claim": "Company phone +1 770-398-7827, and 770-798-3827 in the press release is a typo",
+     "result": "confirmed",
+     "note": "tel:+17703987827 on the site, matching BBB and the EIN media contact. The press release About blurb does show (770) 798-3827, which differs from every other source."
+    },
+    {
+     "claim": "Address 625-A Beaver Ruin Rd Ste 5, Lilburn GA 30047, with the new-office press release dated 2026-06-11",
+     "result": "confirmed",
+     "note": "EIN Presswire 918968003 dated June 11, 2026, with Sean quoted \"We've got a new home\" and the same address. Site contact page matches."
+    },
+    {
+     "claim": "Not a chain or franchise, single location",
+     "result": "confirmed",
+     "note": "The site says \"not a national chain\". The About page shows family-operated, no franchise mention. BBB shows one LLC."
+    },
+    {
+     "claim": "Not in suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grep for starsandpipes, stars and pipes, 770-398 and sean@ gave no match in seen.csv. Suppression hits were only unrelated Sean Lilly Roofing, Crawford Family Dental and Fitzgerald Family Dental."
+    },
+    {
+     "claim": "Strongest pain signal: two-person shop promises live 24/7 answering, with the phone as main lead source",
+     "result": "confirmed",
+     "note": "Raw HTML contains \"answer the phone 24/7\" and \"name is on the truck\", and the code comment \"Phone taps are most of this business's leads\". The Contractormag quote, dated June 13, 2025, confirms Sean is an Army Reserve SFC and plumbing instructor at Fort Jackson. The signal is structural and inferred, not a customer complaint, and the record says so."
+    },
+    {
+     "claim": "Founded and years in business conflict (BBB 2024, site \"11+ Years\")",
+     "result": "confirmed",
+     "note": "BBB: started 8/31/2024 (locally 1/9/2023), 2 years, accredited 12/16/2024, rating A, 0 complaints. The site homepage has \"11+ Years\" and also foundingDate 2024. The record handles this correctly by advising Sam not to cite either figure."
+    },
+    {
+     "claim": "Owner LinkedIn linkedin.com/in/sean-nelson-848797375",
+     "result": "confirmed",
+     "note": "Present in the homepage JSON-LD. The profile page itself was not opened, because LinkedIn blocks fetches."
+    },
+    {
+     "claim": "Google rating, review count and GHL dedupe",
+     "result": "not-found-on-source",
+     "note": "The record already marks these as unverified. The \"200+ five-star reviews\" claim is on the site but was not checked against Google. The GHL dedupe is still pending and is flagged in the record."
+    }
+   ],
+   "corrected_fields": {},
+   "adjusted_score": 57,
+   "adjusted_confidence": "Medium",
+   "reason": "Owner name, title, email, business phone, address, non-chain status and the 24/7 family-answering pain signal are all supported by the cited pages, and the lead is on neither off-limits list; the unverified items (Google reviews, GHL dedupe) are already flagged in the record."
+  }
+ },
+ {
+  "qualified": true,
+  "company_name": "Head's Plumbing Sales and Service, Inc.",
+  "niche": "Plumbing",
+  "niche_segment": "core",
+  "website": "https://www.headsplumbing.com/",
+  "city": "Atlanta",
+  "state": "GA",
+  "street_address": "4381 Campbellton Road SW",
+  "zip": "30331",
+  "timezone": "America/New_York (ET)",
+  "company_phone": "+1 678-203-8627 (site header, contact page and JSON-LD telephone). Alternate: +1 404-696-3175, which is the GBP-sourced number on the serviceagent.ai directory. The site number may be the new site's tracking or main line. Not resolved.",
+  "company_email_generic": "appointment@headsplumbing.com (on the contact page, footer, careers page and JSON-LD; it is also the job-application inbox)",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Head%27s+Plumbing+Sales+and+Service&query_place_id=ChIJbYijWgAc9YgRGSZKKbbzIXw",
+  "google_rating": "4.7",
+  "review_count": "345 per the site's own claim (home, about and careers pages). 304 per the GBP-sourced serviceagent.ai directory. I could not open the GBP directly.",
+  "locations_count": "1 (southwest Atlanta, serving about 13+ metro cities)",
+  "founded_or_years": "Founded 1981, 45 years (\"A family business, since 1981. Three generations strong.\" on the About page). GA SOS formation date not checked because OpenCorporates was blocked by a browser check.",
+  "team_size_estimate": "About 12 employees and 8 trucks, plus 2 apprentices (PHCP Pros, Sept 1 2025). The same article says they expected to pass $2M in revenue in 2025. The careers page is currently hiring a Lead Plumbing Technician, a Plumbing Assistant and a Warehouse Associate.",
+  "service_area": "Atlanta, College Park, Decatur, East Point, Fairburn, Forest Park, Hapeville, Lithia Springs, Marietta, Smyrna, Vinings, Mableton, plus more metro cities (site footer and JSON-LD areaServed)",
+  "sub_services": "Water heater repair and replacement (tank and tankless), drain cleaning, sewer line repair and replacement, water lines, gas lines, garbage disposals, sump pumps, repipes, backflow testing, a protection plan (maintenance membership), and financing with a 25C tax-credit page. PHCP Pros also lists septic, trenchless pipe replacement and underground leak detection.",
+  "business_hours": "Website (home, contact and footer): \"Mon–Fri 7:00 AM - 7:00 PM, Saturday 8:00 AM - 5:00 PM, Sunday Emergency Only.\" The GBP-sourced directory (serviceagent.ai) conflicts: Mon–Fri 8 AM–5 PM, Sat 8 AM–6 PM, Sun Closed. These are flagged as a CONFLICT. I could not open the live GBP.",
+  "owner_first_name": "Khadija",
+  "owner_last_name": "Head",
+  "owner_title": "CEO and co-owner. The site says \"Khadija J. Head, PMP — the company's CEO — leads operations and strategy.\" pmmag (Mar 2026) calls her co-owner. Second decision-maker: Odari Head, co-owner and Georgia Master Plumber, who leads field operations, technical training and customer service.",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found",
+  "owner_email_type": "None found",
+  "owner_email_confidence": "Not found",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found. Searched site:linkedin.com/in \"Khadija\" \"Head's Plumbing\" and a name+company query, and no profile was indexed. The company LinkedIn page is linked from the site footer: https://www.linkedin.com/company/head's-plumbing-sales-&-service-inc.",
+  "owner_other_socials": "No personal handles found. Company accounts linked from the site: https://www.facebook.com/HeadsPlumbing, https://www.instagram.com/heads_plumbing, https://www.youtube.com/@HeadsPlumbingService (post recency not checked)",
+  "owner_background": "Khadija J. Head, PMP. She was an NCAA Division I athlete and coached Division I college basketball for about 15 years, including as head coach at Kennesaw State (PHCP Pros Sept 2025; Tory Burch Foundation). She joined the family business about 5 years ago and leads business development, partnerships and long-term strategy. She is a 2026 Tory Burch Foundation Fellow, was named one of Plumbing & Mechanical's \"10 Influential Women of 2026 in the Plumbing Industry\" (Mar 8 2026), and has appeared on the ServiceTitan \"Toolbox for the Trades\" podcast (Ep. 150, Nov 2023) and other podcasts. The site's press page lists Sept 2026 Belle Vue Enterprise video features: \"From D1 Coach to CEO: How Khadija Head Doubled a Legacy Plumbing Business\" and \"Master Plumber Explains the Plumbing Business: 45 Years of Lessons | Odari Head.\" Odari Head has been a Master Plumber since 2004 (PHCP Pros) and modernized the company's financial and back-office operations.",
+  "owner_personality_cues": "She talks like a coach and a builder: \"I jumped off the metaphorical cliff and decided to invest in something that will outlive me. It was the best decision that took me too long to make.\" (Invest Atlanta quote on headsplumbing.com/press). She is enthusiastic about modern tools and educating homeowners. On the new website: \"My favorite part is where customers are educated about plumbing\" and \"I'm so excited for the process and to learn Slack as well.\" (ciwebgroup.com blog, Aug 2026). She leans into team development: \"Developing technicians, supporting their growth, and watching them build confidence\" (pmmag, Mar 2026). Company values listed on the About page: integrity, expertise, customer-centered service, and mentoring the next generation. Odari: \"We're not trying to be everything to everybody.\" (PHCP Pros)",
+  "best_opening_moment": "The new 1,575-page website went live Aug 6 2026 after Head's won CI Web Group's International Women's Day website giveaway. Khadija publicly said she loves its Learning Center. That new site promises \"Live dispatch\" and an \"after-hours emergency line,\" which is the natural bridge to a voice demo built from that exact site. Backup: the Plumbing & Mechanical \"10 Influential Women of 2026\" recognition (Mar 2026).",
+  "attitude_type": "Growth-Minded Operator (with Tech-Forward traits)",
+  "attitude_evidence": "1. Hiring for production roles now: the careers page says \"Now hiring across field & warehouse\" with Lead Plumbing Technician, Plumbing Assistant and Warehouse Associate roles. 2. Modern stack: the careers page requires \"5+ years of ServiceTitan experience,\" and they have partnered with ServiceTitan on community work. 3. A new 1,575-page site launched Aug 6 2026, © 2026, with FAQPage and LocalBusiness schema. 4. Heavy press and growth posture: P&M Influential Women 2026, Tory Burch Fellow 2026, and a Sept 2026 video titled \"How Khadija Head Doubled a Legacy Plumbing Business.\" Revenue grew from about $500K to an expected $2M+ (PHCP Pros 2025). 5. She is CEO with a PMP and talks about \"modern systems, family standards.\" No negatives found. I could not read review replies (GBP and Yelp were not accessible).",
+  "tech_adoption": "High. ServiceTitan (careers page), Google Tag Manager GTM-TRV5XKQC, the new HydraOS site by CI Web Group with JSON-LD, a financing page, and a protection-plan membership. No online booking widget, chat, text-us or review tool was found in the page source.",
+  "marketing_sophistication": "Medium-high. Strong PR and press machine, a modern AI-built site with schema and a 1,575-page learning center, and a new-customer coupon ($30 off through Oct 31). CI Web Group built the site as a free gift; I found no evidence of an ongoing paid retainer. Paid ads were not verified, and no call tracking or Meta pixel showed in the fetched HTML. In PHCP Pros, Khadija says they top Google for \"Black-owned plumbing companies.\"",
+  "growth_stage": "Scaling. Revenue roughly quadrupled since the early 2000s (PHCP Pros), they are hiring 3 roles now, 8 trucks, and the third generation took over leadership in the last ~5 years.",
+  "review_response_behavior": "Not checked. The GBP review panel was not accessible and Yelp returned 403. One GBP-sourced directory review praised the phone experience from \"the first phone call through completion.\"",
+  "after_hours_handling": "The site advertises \"After-Hours Emergency,\" \"Live dispatch,\" \"after-hours emergency line,\" and \"Same-day service most business days. After-hours and emergency dispatch available.\" Posted hours stop at 7 PM weekdays and 5 PM Saturday, and Sunday is \"Emergency Only.\" The GBP-sourced listing shows 8–5 weekdays and Sunday Closed. Who actually answers after hours (on-call tech, answering service or voicemail) is not stated anywhere I checked, and no answering-service or AI-voice vendor appears in the page source. Sam should record who picks up.",
+  "online_booking": "No. \"Schedule Service\" goes to an on-site service-request form (data-form-name=\"service-request\") and a \"book plumbing service\" learning-center page. No ServiceTitan scheduler, Calendly, Housecall Pro or similar script appears in the fetched HTML, and the form has no response-time promise.",
+  "chat_or_text_on_site": "No. No chat or text widget scripts (Podium, Birdeye, Tidio, Intercom, Drift, Tawk, LiveChat) were in the home, contact, about or careers HTML. The site has SMS Terms, but there is no text-us CTA.",
+  "vendors_detected": "ServiceTitan (careers page job requirements, ServiceTitan podcast and Nicholas House partnership). HydraOS website platform by CI Web Group (footer credit; site gifted Aug 2026). Google Tag Manager GTM-TRV5XKQC. Financing offered (provider not named on the pages read). No CallRail, Meta pixel, Hotjar, chat or booking vendors found.",
+  "ads_running": "Not verified. Google Ads Transparency, the LSA unit and Meta Ad Library were not checked because they need JS rendering. The site runs a \"$30 Off Any Replacement, Repair or Service for New Customers — Valid Through October 31\" promo banner. No call-tracking scripts or Meta pixel were in the fetched HTML.",
+  "ai_search_presence": "Not checked on ChatGPT, Perplexity or Gemini (no logged-out AI access in this run). As a web-search proxy, \"best emergency plumber southwest Atlanta GA 24 hour\" did not surface Head's. The names that came up were Roto-Rooter, Mr. Rooter, Unstoppable Plumbing, Atlantis Plumbing, Peach Plumbing & Drain and directories (Thumbtack, Lantern, ConsumerAffairs). The site already has FAQPage and LocalBusiness JSON-LD from CI Web Group, so the GEO wedge is weak here and the rubric scores D4 at 0. Line: \"Named in ? of 0 AI answers (no platforms checked; web proxy: not named, competitors named: Roto-Rooter, Mr. Rooter, Unstoppable Plumbing, Atlantis Plumbing, Peach Plumbing & Drain).\"",
+  "pain_signals": "1. Hours gap against the emergency promise. The site claims \"After-Hours Emergency,\" \"Live dispatch,\" and \"after-hours emergency line,\" but posted hours are \"Mon–Fri 7:00 AM - 7:00 PM, Saturday 8:00 AM - 5:00 PM, Sunday Emergency Only,\" and the GBP-sourced listing shows Sunday Closed (headsplumbing.com/contact-us; serviceagent.ai). 2. Booking friction: form-only service requests with no online booking, chat or text, and no response-time promise (page source). 3. Capacity strain proxy: hiring a Lead Tech, a Plumbing Assistant and a Warehouse Associate who \"coordinate with dispatch\" (careers page). Logged nulls: no reviews about unanswered calls or voicemail found in web search; no front-office, CSR or dispatcher job post found on the careers page or via an Indeed/web search; Yelp blocked; GBP reply rate not checked.",
+  "trigger_events": "1. New website launched Aug 6 2026 (75 days ago), the CI Web Group IWD giveaway (https://ciwebgroup.com/blog/international-womens-day-website-gift-heads-plumbing). 2. Press in Sept 2026: Belle Vue Enterprise video features on Khadija (\"Doubled a Legacy Plumbing Business\") and Odari, plus InvestFest 2026 (Aug 2026), all per headsplumbing.com/press. 3. Plumbing & Mechanical \"10 Influential Women of 2026\" (Mar 8 2026). 4. Active hiring for 3 field and warehouse roles (careers page, undated). 5. A new-customer promo through Oct 31 2026. Seasonal: the Atlanta winter-freeze and burst-pipe season is coming, and the site has its own \"Winter freeze prep\" content.",
+  "lead_score": 58,
+  "score_breakdown": "D1 Decision-maker: 8/20. Full name and role cited (Khadija J. Head, CEO, on headsplumbing.com/about-us; co-owner per pmmag.com Mar 2026; CEO per toryburchfoundation.org). The only email is the generic appointment@headsplumbing.com, with no owner LinkedIn and no direct line, so this is the call-first route.\nD2 Phone and after-hours gap: 9/20... corrected: 9/15. Phone-first (header \"Call (678) 203-8627\") in an inherently urgent niche. Posted hours are \"Mon–Fri 7–7, Sat 8–5, Sunday Emergency Only\" (the GBP-sourced listing shows Sun Closed) while the site advertises \"After-Hours Emergency.\" However, the site mentions an \"after-hours emergency line\" that is not confirmed as 24/7, so this lands at the 9 level, not 15.\nD3 Lead-response leak: 5/15. One signal type, (5) booking and contact friction: form-only, no booking or chat or text scripts in the page source, no response-time promise. Logged nulls: no call or voicemail complaints in web search, no front-office job post (careers lists field and warehouse only), Yelp 403, GBP reply rate not checked.\nD4 AI search gap: 0/10. An SEO and web vendor is credited (HydraOS by CI Web Group footer) and FAQPage plus LocalBusiness JSON-LD is present. AI platforms were not checked.\nD5 ICP fit: 15/15. Independent, family-owned, 1 location, core niche. Proxies: since 1981; 345 (site) or 304 (GBP directory) reviews; 12 staff and 8 trucks (PHCP Pros 2025); water heater, sewer and repipe tickets plus financing; 13+ city service area.\nD6 Buying signals: 11/15. Dated triggers within 60 days: Sept 2026 press features (headsplumbing.com/press). The new site launch on Aug 6 2026 is 75 days old. No paid-media signal was verified (Google Ads, LSA and Meta not checked); only group (d) was found (HydraOS/CI Web Group, GTM).\nD7 Attitude: 10/15... corrected: 10/10. Positives: (b) modern site, © 2026, launched Aug 2026; (c) ServiceTitan and financing; (e) hiring, press, awards, podcasts. No negatives. CI Web Group built the site as a free gift, and I found no evidence it is a bundled call-tracking or answering agency.\nTotal 58 = 8+9+5+0+15+11+10. Band: QUALIFIED. Status: TRUSTED. 7/7 dimensions have evidence, D1 is a positive citation, D2 is a direct hours quote, and D5 is cited. The GHL 'E4L Services' dedupe was not run in this step and must run at assembly.",
+  "disqualified_reason": "",
+  "disqualifier_check": "PASS. 1. Not in suppression.csv or seen.csv (grepped \"headsplumbing\" and \"head's/heads plumbing\"; no hits). 2. Independent, family-owned, single location; no franchise or parent language on the site (© 2026 Head's Plumbing Sales and Service, Inc.). 3. Own domain loads (launched Aug 2026). 4. Live US business at 4381 Campbellton Rd SW, Atlanta GA 30331, with © 2026 and Sept 2026 press. 5. Phone and form are both present. 6. Not a competitor category. 7. No AI receptionist or answering-service vendor in the page source. 8. No \"no solicitation\" notice seen. Not checked: GA SOS entity status (OpenCorporates was blocked by a browser check) and the GHL contact dedupe.",
+  "recommended_entry_offer": "Voice AI live demo built from the new headsplumbing.com, framed on the emergency angle: the Sunday or 2 a.m. burst-pipe call that the \"after-hours emergency line\" has to catch, plus missed-call text-back. Do not lead with GEO, because the new site already has schema from CI Web Group. Close on a Game Plan Call with Sebastian.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Who picks up Head's after-hours line?",
+  "personalized_first_line": "Khadija, congrats on the new site going live in August. It promises live dispatch and an after-hours emergency line, so I'm curious who actually picks up on a Sunday at 2 a.m.",
+  "call_angle": "Emergency coverage, not missing basics. They are a modern, growing ServiceTitan shop that sells \"live dispatch\" and an \"after-hours emergency line,\" but posted hours end at 7 PM and Sunday is emergency only (GBP-sourced listing: Sun closed). Ask who answers after hours now: an on-call tech, a service, or voicemail. Then offer a demo line trained on their new website that answers every overflow and after-hours call, books it, and texts back missed calls in under a minute. Go-live is one conditional call-forward. Mention that while they hire techs, the phones should not depend on whoever is free in the office. Ask for Khadija, who runs strategy and business development. Odari, who runs field ops and customer service, is the second decision-maker.",
+  "likely_objection": "\"We already have live dispatch and an after-hours line, so we're covered.\" A second likely one: \"We just did a whole new website with CI Web Group.\" Response: no rip-and-replace. Ask what happens to the second and third call while dispatch is on the first, or at 2 a.m. on a Sunday. Then offer the free demo line built from their new site so they can hear it before deciding anything.",
+  "why_now": "The new 1,575-page site launched Aug 6 2026 and promises after-hours emergency dispatch. Sept 2026 press is pushing new attention to the brand. They are hiring 3 field and warehouse roles, which means more jobs to book. Atlanta's winter freeze and burst-pipe season, when the after-hours phone rings most, is about 4–8 weeks out, and their own site already publishes \"Winter freeze prep\" content.",
+  "call_opener": "\"Hi Khadija, this is Sam with Eat 4 Life Marketing. I'll be upfront, this is a cold call. I was on your new website, congrats on the launch. It promises live dispatch and an after-hours emergency line, and in plumbing the 2 a.m. burst pipe goes to whoever answers first. We build an AI receptionist trained on your own site that picks up every overflow and after-hours call, books it, and texts back anything missed, and we'll build Head's a demo line you can call before you spend a dime. Can I have 20 seconds to tell you how it would work for you, and you tell me if it's worth a look?\"",
+  "best_time_to_call": "Tue–Thu 7:15–8:15 AM ET. The site says the office opens at 7 AM, so this catches her before techs dispatch and before the day's emergencies stack up. Fallback: 4:00–5:30 PM ET wrap-up. If 7 AM rings out, retry 8:00–8:30 AM ET, because the GBP-sourced listing shows an 8 AM open. Avoid Sundays (emergency only or closed).",
+  "gatekeeper_notes": "The site says calls go to \"live dispatch,\" so expect a dispatcher or CSR. No office manager or dispatcher name is published, and I found no answering service, no owner cell, and no direct line. Dial +1 678-203-8627 first (site and schema). Try +1 404-696-3175 (GBP-sourced) as the alternate, and log which number reaches whom. Ask for \"Khadija Head\" by full name, since she is the CEO who runs strategy and business development. If she is out, ask for Odari Head (co-owner, leads field operations and customer service), or ask the best time to catch Khadija in the office. Don't pitch the dispatcher. Do note who answered (human, IVR or voicemail), because that updates D2.",
+  "notes_for_chosen": "Top-up lead verified 2026-10-20, held for the next batch. 58 / QUALIFIED / TRUSTED (pending GHL dedupe). Call-first: Sam dials with the demo, no email slot. The scout pre-scored 64. I lowered it for four reasons:\n1. No owner email; only appointment@, which is also the job-application inbox.\n2. No call or voicemail complaints found.\n3. The careers page now lists 3 open roles, but they are field and warehouse, not front office.\n4. D4 = 0, because the new site carries FAQPage and LocalBusiness schema and a CI Web Group credit.\n\nCorrection to the scout: CI Web Group gave them this website for free (International Women's Day giveaway, live Aug 6 2026). It is not confirmed as a paid agency, and I found no ongoing retainer.\n\nThings to check before outreach:\n- Hours and phone conflict: the site says Mon–Fri 7–7, Sat 8–5, Sun emergency only; the GBP-sourced directory says 8–5, Sat 8–6, Sun closed. The site number is 678-203-8627 and the directory number is 404-696-3175. Check the live GBP before the demo build so the demo greets with the right hours.\n- Revenue: PHCP Pros (Sept 2025) reported they expected more than $2M in 2025, with 12 staff and 8 trucks, so they can afford Recover.\n\nRapport hooks: Khadija is an ex-D1 basketball coach with a PMP. She is a 2026 Tory Burch Fellow and a P&M Influential Woman 2026, and she publicly loved the new site's homeowner Learning Center.\n\nCompliance: keep outreach on the business. Don't reference ethnicity or family members beyond their business roles.\n\nBuild the voice demo from headsplumbing.com (D2 = 9).",
+  "evidence_links": "https://www.headsplumbing.com/, https://www.headsplumbing.com/about-us, https://www.headsplumbing.com/contact-us, https://www.headsplumbing.com/careers, https://www.headsplumbing.com/press, https://www.headsplumbing.com/team, https://ciwebgroup.com/blog/international-womens-day-website-gift-heads-plumbing, https://www.phcppros.com/articles/22049-family-legacy-in-charge-of-heads-plumbing-sales-and-service, https://www.pmmag.com/articles/107272-khadija-head-co-owner-of-heads-plumbing, https://www.toryburchfoundation.org/?p=15342, https://serviceagent.ai/directory/georgia/atlanta/plumbing/head-s-plumbing-sales-service-inc/, https://www.servicetitan.com/podcasts/toolbox-for-the-trades/heads-plumbing-interview, https://servicetitan.com/blog/power-the-nation-heads-plumbing-nicholas-house, https://www.google.com/maps/search/?api=1&query=Head%27s+Plumbing+Sales+and+Service&query_place_id=ChIJbYijWgAc9YgRGSZKKbbzIXw, https://www.contractormag.com/plumbing/plumbing-contractor/article/20879933/heads-plumbing-celebrates-30-years-in-atlanta",
+  "research_confidence": "Medium",
+  "_target": "plumbing-atlanta",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grepped headsplumbing, heads plumbing, head's plumbing, both phone numbers and the street address across suppression.csv, seen.csv, targets.csv and run-log.csv. No hits."
+    },
+    {
+     "claim": "Khadija J. Head is CEO, a co-owner and the decision-maker",
+     "result": "confirmed",
+     "note": "about-us says 'Khadija J. Head, PMP — the company's CEO — leads operations and strategy' and calls her and Odari 'third-generation owners'. pmmag (Mar 8 2026) subheading says 'Co-owner of Head's Plumbing'. A web search confirms CEO."
+    },
+    {
+     "claim": "Company phone +1 678-203-8627, plus the alternate 404-696-3175",
+     "result": "confirmed",
+     "note": "678-203-8627 appears on the home, contact and about pages as a tel: link. The 404 number is only on the directory listing and was not re-opened; the lead already flags it as unresolved. The JSON-LD telephone could not be read through the page-to-text fetch, and a direct curl was blocked by the proxy."
+    },
+    {
+     "claim": "Generic email appointment@headsplumbing.com appears on contact, footer, careers and JSON-LD",
+     "result": "not-found-on-source",
+     "note": "The email is Cloudflare-obfuscated on the contact, careers and home pages and could not be decoded here. The address is unverified, not contradicted. It is generic and not an owner email."
+    },
+    {
+     "claim": "Owner email, direct phone and LinkedIn are 'Not found'",
+     "result": "confirmed",
+     "note": "No owner email, direct line or personal LinkedIn surfaced on the fetched pages or the search. The lead correctly says 'Not found'."
+    },
+    {
+     "claim": "Hours are Mon-Fri 7-7, Sat 8-5, Sun Emergency Only",
+     "result": "confirmed",
+     "note": "Matches the contact page and about page exactly. The GBP-sourced conflict was not re-verified."
+    },
+    {
+     "claim": "Strongest pain signal: site promises 'live dispatch' and an 'after-hours emergency line' while posted hours end at 7 PM and Sunday is emergency only",
+     "result": "confirmed",
+     "note": "Home page quote: 'Live dispatch, same-day appointments most days, after-hours emergency line.' It also lists 'After-Hours Emergency' as a credential. The contact page does not repeat 'live dispatch' and says only to call (678) 203-8627 for emergencies, with no 24/7 claim. The lead's note that the line is not confirmed as 24/7 is accurate."
+    },
+    {
+     "claim": "No online booking, chat or text widget",
+     "result": "confirmed",
+     "note": "Contact page: 'Schedule Service' goes to /contact and a service-request form. No chat widget; there is only an SMS opt-in checkbox."
+    },
+    {
+     "claim": "345 Google reviews and 4.7 rating",
+     "result": "confirmed",
+     "note": "The home page shows '4.7·345 Google reviews'. This is the site's own claim, not a GBP check."
+    },
+    {
+     "claim": "ServiceTitan use, open roles, and the careers page",
+     "result": "confirmed",
+     "note": "Careers: Lead Plumbing Technician ('5+ years of ServiceTitan experience required'), Plumbing Assistant and Warehouse Associate ('ServiceTitan (office side) experience preferred'; 'Coordinate with dispatch')."
+    },
+    {
+     "claim": "New site launched Aug 6 2026 as a free CI Web Group giveaway, with Khadija's Learning Center and Slack quotes",
+     "result": "confirmed",
+     "note": "ciwebgroup.com blog: live Aug 6 2026, 1,575 pages, free Hydra OS gift for International Women's Day. Both quotes are verbatim. The footer credit 'HydraOS by CI Web Group' is on the home page."
+    },
+    {
+     "claim": "Independent, family-owned, single location, not a chain",
+     "result": "confirmed",
+     "note": "'Family-Owned in Atlanta Since 1981', third-generation owners, no franchise or parent language seen. Sources differ slightly on the founding story (one says the grandfather founded it in the 1950s, another '44 years ago'), which is immaterial."
+    },
+    {
+     "claim": "Revenue and team size (12 staff, 8 trucks, $2M+), P&M '10 Influential Women', and Tory Burch Fellow",
+     "result": "not-found-on-source",
+     "note": "Not re-opened within the call budget. The PHCP Pros, Tory Burch and pmmag URLs surfaced in search and are plausible but unchecked."
+    }
+   ],
+   "corrected_fields": {
+    "company_email_generic": "appointment@headsplumbing.com (UNVERIFIED: the address is Cloudflare-obfuscated on the site and could not be decoded on re-check; the researcher read it from page source. Confirm before use. It is generic and not an owner email.)",
+    "company_phone": "+1 678-203-8627 (site header, contact, about and home pages; verified as a tel: link). Alternate +1 404-696-3175 is directory-only and unverified; log which number reaches whom.",
+    "gatekeeper_notes": "Contact page does not mention 'live dispatch' (only the home page does) and gives no 24/7 claim; it says call (678) 203-8627 for emergencies. Do not assume a staffed 24/7 line."
+   },
+   "adjusted_score": 56,
+   "adjusted_confidence": "Medium",
+   "reason": "Identity, owner name and title, phone, hours, and the after-hours-claim pain signal are verified, and the company is not a chain and not suppressed. The generic appointment@ email and JSON-LD phone could not be verified (obfuscated), the owner email is correctly 'Not found', and some press and revenue claims were not re-checked, so the score drops 2 points."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. No hard disqualifier fired. The band is WATCH (52), not SEND TODAY, because D4 (AI spot-check) and D6 (ads/trigger sweep) could not be evidenced in budget.",
+  "disqualifier_check": "PASS on every check I could run. Chain/franchise: independent, one listed location, owner-qualified, no franchise language. This is not the Mr. Electric Durham franchise, which is a different business. Own-domain website: greenvoltelectric.com returned 200 on /, /about-us/ and /contact-us/ on 2026-10-20 with SSL. Live US business: NC electrical contractor license L.34143 is Active and expires 11/09/2026 (arls-public.ncbeec.org). Inbound channel: phone (919) 888-7960 plus request forms. Not a competitor. No AI receptionist found in the page source. Dedupe: no match for greenvolt or green volt in data/suppression.csv or data/seen.csv. NOT DONE: GHL 'E4L Services' dedupe (ghl-contacts.js not run) and NC SOS entity status (sosnc.gov returned 403).",
+  "company_name": "Green Volt Electric, LLC",
+  "niche": "Electrical (residential + commercial electrician; EV chargers, panel upgrades, generators)",
+  "niche_segment": "core",
+  "website": "https://greenvoltelectric.com",
+  "company_phone": "+1 919-888-7960",
+  "company_email_generic": "None found. The only published emails are the owner-named ones (see owner_email).",
+  "street_address": "2530 Meridian Pkwy Suite 300 (per GBP data via serviceagent.ai. The website lists only 'Durham, North Carolina')",
+  "city": "Durham",
+  "state": "NC",
+  "zip": "27713",
+  "timezone": "Eastern (America/New_York)",
+  "google_maps_url": "Not found. No direct place URL was captured. Search link: https://www.google.com/maps/search/?api=1&query=Green+Volt+Electric+LLC+Durham+NC",
+  "google_rating": "5.0 (GBP data via serviceagent.ai, as of 2026-10-20)",
+  "review_count": "98 Google reviews (via serviceagent.ai). Review dates and texts were not retrievable.",
+  "locations_count": "1. Durham is the only location found.",
+  "founded_or_years": "Not confirmed. The website was first published 2021-11-05 (homepage JSON-LD datePublished). The oldest customer review shown on the About page is dated 11/20/2021. Operating since at least late 2021, about 5 years. NC SOS formation date and license issue date were not retrieved.",
+  "service_area": "Raleigh, Durham, Chapel Hill, Wake Forest, Cary, Apex, Morrisville, Carrboro, Greensboro, Hillsborough ('top quality services in RDU', About page)",
+  "sub_services": "EV charging stations, panel and service upgrades, general repairs and safety, generator installation (home page: 'Whole home generators for Peace of mind'), whole-house surge protection, lighting upgrades and recessed lighting, renovations/remodels/upfits, new installation. Residential and commercial.",
+  "team_size_estimate": "Small crew, exact headcount Not found. The About page says 'a group of highly skilled and dedicated technicians led by Jafar Ali'. No staff are named and no LinkedIn headcount was found.",
+  "business_hours": "Mon–Sun 8:00 AM–5:30 PM ET (GBP data via serviceagent.ai). The website states no hours. No 24/7 or emergency claim on the site or the GBP data.",
+  "owner_first_name": "Jafar",
+  "owner_last_name": "Ali",
+  "owner_title": "Founder / Owner and license qualifier. The About page says 'led by Jafar Ali, who holds an unlimited license… Jafar Ali started Green Volt Electric'. The NC Board of Examiners of Electrical Contractors lists 'Jafar Husain Ali' as qualifier QUAL.U.13833 (Active) on license L.34143.",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "j.ali@greenvoltelectric.com",
+  "owner_email_type": "Personal (named)",
+  "owner_email_confidence": "Likely",
+  "owner_direct_phone": "Not found as an owner-direct line. The NC license record lists a second business contact phone, +1 919-561-0170, which differs from the main line. The record does not say it belongs to Jafar personally. Manual dial only. No SMS and no AI voice.",
+  "owner_linkedin": "Not found. Searches for 'Jafar Ali' and 'Jafar Husain Ali' with electrical and Durham returned no matching profile.",
+  "owner_other_socials": "Company Facebook: https://www.facebook.com/GreenVoltElectric (linked from the site; contents not readable when logged out). No owner-personal socials found.",
+  "owner_background": "Self-stated on the About page: 'After working for several of the larger companies in the area, Jafar Ali started Green Volt Electric with one goal in mind: to provide quality electrical services at a fair price and to create long-lasting relationships with every client we serve.' He holds an unlimited NC qualification (site claim, consistent with board qualifier QUAL.U.13833, Active). The firm license is L.34143, 'Limited Classification License', Active, expiring 11/09/2026.",
+  "owner_personality_cues": "Values-led and plain-spoken, from his own site copy: 'fair price', 'long-lasting relationships', 'safety being our number one priority', 'no hidden costs period', 'no job is too small'. Tagline: 'Electrifying the future one home and business at a time.' Reads technical and pragmatic, matching the niche playbook: likely to call the demo and try to break it. No public statements about marketing, phones or AI were found.",
+  "best_opening_moment": "Rank 2 hook, his own words: he left the bigger Triangle electrical companies to build a fair-price shop with long-term client relationships. Pair it with the rank 4 phone-process observation: GBP hours end at 5:30 PM, and that is when homeowners get home and call about EV chargers and panels. There is also a soft timing angle: the firm license renews 11/09/2026. Do not use it in copy. It is context only.",
+  "attitude_type": "Overwhelmed Owner-Operator (low-confidence lean; evidence is thin and could read as Unclear)",
+  "attitude_evidence": "The owner is the license qualifier and leads the technicians himself (About page). The site is form-plus-phone only, with no booking, chat or text-us (page source shows Gravity Forms only: no Calendly, Housecall Pro, Jobber, ServiceTitan, Podium or chat scripts). The footer copyright reads 2022, though the homepage JSON-LD shows a 2025-07-10 edit, so the site has been left largely alone. No hiring, ads, awards or growth posts found. There are no review-text complaints to prove the reachability pain, so this rests on structure, not quotes. Treat it as relief-first, call-first. Avoid jargon and keep setup effort near zero.",
+  "tech_adoption": "basic: SSL, WordPress/Elementor/Astra, Gravity Forms with reCAPTCHA, 2 GTM containers. No booking, chat, text-us, financing or review tool detected.",
+  "marketing_sophistication": "diy (small local web-designer credit 'Created by RMD'; 2 Google Tag Manager containers, GTM-NVLGF8X and GTM-TC8XFDND; no call tracking, Meta pixel or agency credit). Likely appears in an AI-oriented directory profile on lantern.llc. The page was indexed but returned 404 on 2026-10-20.",
+  "growth_stage": "established (about 5 years online since 2021, 98 Google reviews at 5.0, 10-city service area). No hiring or expansion signal found.",
+  "review_response_behavior": "unknown. GBP review texts and owner replies could not be retrieved in budget.",
+  "after_hours_handling": "Nothing published. GBP hours are 8:00 AM–5:30 PM. The site makes no 24/7, emergency or answering-service claim, and the page source shows no AI receptionist or answering-service vendor. After-hours calls most likely go to voicemail, but that is unverified. Sam should record who answers.",
+  "online_booking": "No. 'BOOK NOW' and 'SCHEDULE An Appointment' open a Gravity Forms request form: name, email, phone, service type, message, CAPTCHA. The site makes no response-time promise. No scheduling engine appears in the page source.",
+  "chat_or_text_on_site": "No. No chat widget, text-us button or SMS vendor script in the homepage, About or Contact page source.",
+  "vendors_detected": "WordPress + Elementor + Astra theme; Gravity Forms + reCAPTCHA; Yoast-style JSON-LD (WebPage/Organization only); Google Tag Manager x2 (GTM-NVLGF8X, GTM-TC8XFDND); Seraphinite Accelerator; footer credit 'Created by RMD' (web designer). Email MX is Proofpoint Essentials (mx1-us1.ppe-hosted.com). No booking, CRM, call-tracking, review or chat vendors detected.",
+  "ads_running": "Not checked. The Google Ads sponsored unit, LSA badge and Meta Ad Library could not be viewed from this environment. The site has no call-tracking number swap or Meta pixel. Only GTM is present.",
+  "ai_search_presence": "Not checked on ChatGPT, Perplexity or Gemini. As a proxy I ran 2 web-search AI answers on 2026-10-20. 'best EV charger installer electrician Durham NC' named Green Volt, via its Lantern directory profile, alongside MLS Electric, Volt Doctors and Streamline Services. 'electrician that answers the phone Durham NC panel upgrade' did NOT name Green Volt. It named Mr. Electric of Cary (advertises 24/7), Power Tech Electrical Services, DB King Electrical Contractors and Chamberlain Electric. Named in 1 of 2 web-search AI answers. No FAQPage, LocalBusiness or Service JSON-LD on the site.",
+  "pain_signals": "1) Contact friction (D3 type 5, confirmed in page source): every CTA ('BOOK NOW', 'SCHEDULE An Appointment', 'REQUEST SERVICE') leads to a Gravity Forms request form with no booking engine, no chat or text, and no response-time promise. 2) After-hours gap in an urgent trade: GBP hours are '8 AM–5:30 PM'. No 24/7, emergency or answering-service language anywhere, yet the site sells whole-home generators and safety repairs. 3) High-ticket inbound with no follow-up layer: 'EV CHARGING STATIONs', 'Panel & Services Upgrades', 'Whole home generators for Peace of mind' are sold through a form plus 'Call us at (919) 888-7960'. 4) Email mismatch on the site: the contact link targets jafarali@greenvoltelectric.com while the visible text says j.ali@greenvoltelectric.com, so one of them may lose inquiries. 5) Stale footer: 'copyright © 2022'. No review complaints about calls or response were found. Review texts could not be retrieved.",
+  "trigger_events": "None dated within 180 days. Checked: job posts (Indeed/LinkedIn web search, nothing found), news (none), site (homepage last modified 2025-07-10 per JSON-LD; copyright 2022). Context only, not a rubric trigger: NC electrical license L.34143 expires 11/09/2026. Seasonal context: the fall/winter run-up for generator and surge work. That is a vertical inference, not business-specific evidence.",
+  "lead_score": 52,
+  "score_breakdown": "Band: WATCH (52). Status: PROVISIONAL-leaning. 5 of 7 dimensions have evidence, but the GHL dedupe and SOS check were not run, D4 has no evidence, and D6 is an incomplete null.\nD1 Decision-maker: 20/20. Jafar Ali is named founder on the About page (https://greenvoltelectric.com/about-us/). The NC electrical board names 'Jafar Husain Ali' as qualifier QUAL.U.13833, Active, on license L.34143 (https://arls-public.ncbeec.org/Public/Search). Direct named email j.ali@greenvoltelectric.com is displayed on the Home, About and Contact pages; MX is present. The secondary channel is a second phone, (919) 561-0170, on the license record, distinct from the main line. Caveat: the mailto target is jafarali@, so verify which address is live before sending.\nD2 Phone/after-hours gap: 9/15. Phone in the header and 'Call us at (919) 888-7960' on the homepage, with a form-based BOOK NOW alongside it. GBP hours 'Mon–Sun 8 AM–5:30 PM' (serviceagent.ai, from GBP). Open 7 days with no 24/7 claim falls in the 9 tier. Electrical is an urgent niche, and there is no answering-service or AI vendor anywhere.\nD3 Leak evidence: 5/15. One signal type: booking/contact friction. No online scheduling, chat or text, and the form makes no response-time promise. Verified in page source (Gravity Forms only; no Calendly, Housecall Pro, Jobber, ServiceTitan, Podium, Tidio or similar). Review complaints, reply rate and job posts were checked by web search; none found or retrievable.\nD4 AI search gap: 0/10. NO EVIDENCE: ChatGPT, Perplexity and Gemini were not checked. The web-search proxy named the business in 1 of 2 answers. No FAQPage or LocalBusiness schema on the site.\nD5 ICP fit: 15/15. (a) Independent, 1 location, owner-qualified. (b) Electrical is a core niche. (c) 3 proxies: operating since at least Nov 2021 (site JSON-LD datePublished 2021-11-05; on-site review dated 11/20/2021); high-ticket EV, panel and generator work (electrical $400-3k+ row); 10-city service area. Also 98 reviews at 5.0.\nD6 Buying signals: 0/15. No trigger or spend found. Partial null: job and news search empty; site has GTM only, with no call tracking, Meta pixel or agency credit. Ads, LSA and Meta Ad Library were not viewable. Label: first-agency opportunity.\nD7 Attitude/stack: 3/10. Passive. Positives: SSL; homepage edited 2025-07-10 per JSON-LD. Negatives: footer copyright 2022, now 4 years stale; no booking, chat or financing. Review replies unknown. No incumbent agency conflict: a small web-designer credit 'Created by RMD' carries no penalty.\nTotal 20+9+5+0+15+0+3 = 52.",
+  "recommended_entry_offer": "Voice AI live demo: an AI receptionist demo line built from greenvoltelectric.com covering EV charger, panel upgrade, generator and safety-triage calls. Pair it with missed-call text-back. A free GEO audit is the follow-up hook: he was not named in the 'answers the phone / panel upgrade' check. demo_build = yes (D2 = 9, site is scrapable).",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Green Volt calls after 5:30",
+  "personalized_first_line": "Jafar, you left the bigger Triangle electrical shops to build Green Volt on fair prices and long-term clients. So I'm curious who picks up when a homeowner calls about a panel upgrade or a generator after 5:30, or while you're on a job.",
+  "call_angle": "Relief, not growth. He is a license-holding owner who leads the crew himself, and every 'BOOK NOW' on his site goes to a form with no booking, chat or text-back. GBP hours end at 5:30 PM in a trade where sparking breakers and outage-season generator calls do not wait. Offer a demo line already trained on his own site (EV chargers, panels, generators, surge) that he can call and try to break. Go-live is one conditional call-forward of missed and busy calls. Safety triage ('burning smell, sparking') routes urgently. Ask #1 is the Game Plan Call. Ask #2 is his email for the free AI visibility check.",
+  "likely_objection": "'I answer my own phone and my reviews are 5 stars, so I don't miss calls.' Or, from a technical owner: 'AI can't quote electrical work.' Response: it doesn't quote. It picks up the calls he can't reach on a ladder or after 5:30, takes the job details and urgency, and books the estimate. He can call the demo line himself before deciding anything.",
+  "why_now": "Fall into winter is when generator and whole-house surge inquiries pick up for a shop that sells 'Whole home generators for Peace of mind'. That is a vertical pattern, not business-specific evidence. His only after-hours path today is a form or voicemail with no response promise. Context only, not for copy: the firm license renews 11/09/2026.",
+  "notes_for_chosen": "Top-up lead verified 2026-10-20, held for the next batch. 1) EMAIL: the site displays j.ali@greenvoltelectric.com in visible text on 3 pages, but the mailto link targets jafarali@greenvoltelectric.com. Both are on the owner's domain and MX is present (Proofpoint). I marked it Likely because of the mismatch. Send to j.ali@ (the visible address) only after a verifier check, and do not send to both. 2) LICENSE NUANCE: the site says Jafar 'holds an unlimited license'. The board shows his individual qualifier as QUAL.U.13833 (Active), while the firm license L.34143 is 'Limited Classification', expiring 11/09/2026. Don't reference license class in outreach. 3) Second number (919) 561-0170 comes from the license record. It is not tied to Jafar by name, so treat it as manual dial only. The license record also lists a separate mailing address, intentionally not recorded. 4) Band is WATCH at 52. To promote it: run the 3 money questions on ChatGPT and Perplexity (D4), check the Google Ads/LSA unit and Meta Ad Library (D6), read the newest 20 GBP reviews for call/response complaints and reply rate (D3/D7), and run the GHL dedupe. If D4 lands at 10, it moves into QUALIFIED. 5) Lantern (lantern.llc), an AI-chatbot-facing directory, had a profile it says was published with the business's cooperation. Ask whether he already works with anyone on AI visibility before pitching GEO. 6) Not related to the Mr. Electric Durham franchise. 7) No prices in any outreach. Tier note (internal): Recover.",
+  "best_time_to_call": "Tue–Thu 8:00–8:30 AM ET, right as GBP hours open and before crews are deep into jobs (trades window 7:00–8:30 AM per playbook). Fallback 4:30–5:30 PM ET as jobs wrap and before the 5:30 PM close. He leads the technicians himself, so mid-day calls likely hit him on a job or go to voicemail.",
+  "call_opener": "Hi, is this Jafar? Jafar, this is Sam with E4L. I'll be honest, this is a cold call. Can I have 20 seconds and then you tell me if it's worth another minute? ... I was on your site. You're doing EV chargers, panel upgrades and whole-home generators from Durham out to Greensboro, and every BOOK NOW goes to a form. When you're on a ladder or it's after 5:30, those calls usually hit voicemail, and that homeowner calls the next electrician on Google. We build an AI receptionist trained on Green Volt's own site that answers those calls, gets the job details and books the estimate, and you can call the demo line yourself before you pay anything. Who answers your phone after hours right now: you, voicemail, or nobody?",
+  "gatekeeper_notes": "No office manager, dispatcher or front-desk person is named on the site or in any source found. The About page names only Jafar Ali, leading 'a group of… technicians'. No answering service or IVR vendor found in the page source. Main line +1 919-888-7960 is the same number on the site header, footer and GBP data. Expect Jafar himself or voicemail. Whether it is his cell is not confirmed. A second number, +1 919-561-0170, appears on the NC license record as the company's contact phone. Use it only as a manual-dial fallback if the main line goes to voicemail twice, and do not text it. If someone else answers, ask for Jafar by first name. He is the licensed owner and qualifier. Sam should log who answered: human, voicemail or service.",
+  "evidence_links": "https://greenvoltelectric.com/about-us/, https://arls-public.ncbeec.org/Public/Search, https://greenvoltelectric.com/, https://greenvoltelectric.com/contact-us/, https://serviceagent.ai/directory/north-carolina/durham/electrician/green-volt-electric-llc/, https://dns.google/resolve?name=greenvoltelectric.com&type=MX, https://www.facebook.com/GreenVoltElectric, https://lantern.llc/b/green-volt-electric-llc-durham, https://serviceagent.ai/directory/north-carolina/durham/electrician/, https://lantern.llc/b/mr-electric-of-cary-apex/book",
+  "research_confidence": "Medium",
+  "_target": "electrical-raleigh",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner is Jafar Ali, founder, per About page",
+     "result": "confirmed",
+     "note": "About page says Jafar Ali started the company and holds an unlimited NC license. Title 'Founder/Owner' is a fair reading."
+    },
+    {
+     "claim": "Owner email j.ali@greenvoltelectric.com displayed on site; footer mailto points to jafarali@",
+     "result": "confirmed",
+     "note": "Visible text is j.ali@ on About, Contact and Home. The footer mailto target is jafarali@, as the researcher said. 'Likely' confidence fits."
+    },
+    {
+     "claim": "Company phone (919) 888-7960 on site and GBP data",
+     "result": "confirmed",
+     "note": "Appears in the header, services section and Contact page. serviceagent.ai lists the same number."
+    },
+    {
+     "claim": "Website is own-domain WordPress, no booking/chat/24-7 claim; BOOK NOW opens a form",
+     "result": "confirmed",
+     "note": "BOOK NOW and Schedule open popup forms (name, email, phone, service type, message, CAPTCHA). No chat widget and no 24/7 or emergency claim found. The site shows no response-time promise."
+    },
+    {
+     "claim": "Footer copyright 2022 (stale footer pain signal)",
+     "result": "confirmed",
+     "note": "About page footer reads 'copyright © 2022 All rights reserved by greenvoltelectric.com'."
+    },
+    {
+     "claim": "Address 2530 Meridian Pkwy Suite 300, 98 reviews at 5.0, hours Mon-Sun 8-5:30",
+     "result": "confirmed",
+     "note": "All match the serviceagent.ai page. The website itself lists only 'Durham, North Carolina' and no hours."
+    },
+    {
+     "claim": "License L.34143 Active expiring 11/09/2026; qualifier 'Jafar Husain Ali' QUAL.U.13833",
+     "result": "could-not-open",
+     "note": "The site footer shows License L34143. The NC board search is a dynamic form with no static record, so status, expiry and qualifier name could not be re-verified. Web search also found no listing for Jafar Ali."
+    },
+    {
+     "claim": "Second phone (919) 561-0170 from the NC license record",
+     "result": "not-found-on-source",
+     "note": "Web search found no page tying this number to Green Volt. The board record could not be opened. Manual-dial-only caveat already applied."
+    },
+    {
+     "claim": "Not a chain or franchise; not the Mr. Electric Durham franchise",
+     "result": "confirmed",
+     "note": "The site has no franchise language. Search results about the Mr. Electric Durham franchise are a separate business."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grep for greenvolt, green volt, the domain, the phone number and jafar returned no matches in either file."
+    },
+    {
+     "claim": "Strongest pain signal: form-only contact friction / after-hours gap in an urgent trade",
+     "result": "confirmed",
+     "note": "Page content supports form-only contact, no chat or booking engine, and GBP hours ending 5:30 PM with no 24/7 claim. The review-complaint angle is unsupported, as the researcher already disclosed."
+    }
+   ],
+   "corrected_fields": {
+    "owner_direct_phone": "Not found. The second number (919) 561-0170 could not be verified on any public page, so use only the main line (919) 888-7960."
+   },
+   "adjusted_score": 50,
+   "adjusted_confidence": "Medium",
+   "reason": "Owner name, email, company phone, site features and pain signal are supported and the lead is not a chain or suppressed; the NC board qualifier record and the second phone could not be verified, so the secondary phone is set to Not found and the score drops 2 points."
+  }
+ },
+ {
+  "qualified": true,
+  "company_name": "Clear Light Electric, Inc.",
+  "niche": "Electrical",
+  "niche_segment": "core",
+  "website": "https://clearlightelectric.com",
+  "city": "Raleigh",
+  "state": "NC",
+  "street_address": "9650 Strickland Rd. Suite 103-171 (per the website footer; ServiceAgent shows the Google profile as 9650 Strickland Rd #103). CONFLICT: BuildZoom's license record lists 5327 Collingswood Dr, Raleigh, NC 27609",
+  "zip": "27615",
+  "company_phone": "+1 919-264-3094",
+  "company_email_generic": "sales@clearlightelectric.com (published as a mailto: on the website. The domain has Google Workspace MX records, checked via dns.google on 2026-10-20)",
+  "owner_first_name": "Dennis",
+  "owner_last_name": "Zaccagnini",
+  "owner_title": "Owner, founder and licensed electrician",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found. The only email published is the company's sales@clearlightelectric.com mailbox, and nothing shows it is Dennis's personal inbox.",
+  "owner_email_type": "Role (owner@/sales@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found. The only number published anywhere is the main line, +1 919-264-3094 (site, Houzz, BuildZoom, Google profile via ServiceAgent).",
+  "owner_linkedin": "Not found (searched \"Dennis Zaccagnini Raleigh linkedin\" with no match)",
+  "owner_other_socials": "Not found for the owner personally. Company pages linked from the site: facebook.com/clearlightelectricinc/ (also facebook.com/clearlightelectric/), yelp.com/biz/clear-light-electric-raleigh, houzz.com/pro/clearlightelectric/clear-light-electric-inc, and a YouTube embed. Facebook and Yelp blocked logged-out fetches, so they are not verified.",
+  "owner_background": "Licensed NC electrician who founded the company. The site says \"Meet Dennis Zaccagnini, our founder\" and \"Dennis Zaccagnini, owner and licensed electrician, has built a team of the finest electricians in the area\" (https://clearlightelectric.com/). Expertise.com says \"Founded by electrician Dennis Zaccagnini.\" BuildZoom lists him as the principal on NC Electrical Contractors license L.29793 (active as of Jul 2026). The company claims 15+ years serving Wake County. The site's JSON-LD shows it was first published in 2017. Founding year: Not found.",
+  "owner_personality_cues": "From his own site: \"we pride ourselves on superior workmanship,\" and the reputation is \"built on honesty, reliability, being on-time and being on-budget.\" He is community-facing: the site shows a photo of \"Dennis Zaccagnini of Clear Light Electric, Raleigh Mayor Mary-Ann Baldwin, and Jim O'Mara of O'Mara Services,\" featured by Loc8NearMe (undated). He is proud of design-forward remodel work: \"Clear Light Electric's work featured on 'The Hazelnut House'\" (I-TEN Designs). The site testimonial he chose to show praises him for staying late and taking time to talk with homeowners. The CTA \"Risk-Free, Pressure-Free\" suggests he dislikes hard selling.",
+  "best_opening_moment": "The weekday start of posted hours (8:00-8:45 AM ET, Tue-Thu), before he is deep into a job site. Second choice: 5:15-6:00 PM ET near close. Use the site's own \"within one business day\" form promise and \"Closed Weekends\" hours as the specific observation.",
+  "attitude_type": "Unclear",
+  "attitude_evidence": "Fewer than 3 independent signals from 2+ source categories point to any one type, so per attitude-model.md this is Unclear. What I found: (1) He is a named owner-operator and BuildZoom lists him as the only principal or employee, which leans Overwhelmed Owner-Operator. No reachability complaints were found, though, because Google reviews could not be read. (2) The site leans on pride and community: the mayor photo, the Hazelnut House feature, \"superior workmanship\" and \"honesty, reliability,\" which leans Family-Legacy Pride Brand. (3) No hiring, ads or expansion signals were found, so it does not read as Growth-Minded. No hostile or anti-marketing signals were found.",
+  "tech_adoption": "basic. The site runs SSL on WordPress (WP Engine, Themeco X theme, Yoast) with a Gravity Forms contact form and reCAPTCHA. It accepts QuickBooks Payments for invoices online. Page source shows no online booking, chat or text-us widget, and no scripts from calendly, housecall, jobber, servicetitan, podium, birdeye, tidio or tawk.",
+  "marketing_sophistication": "diy (likely). The only tracking is GA4 (G-BG3GE66D5P). Page source has no Google Ads (AW-) tag, Meta pixel or call tracking, and no agency credit. The title tag \"#1 Raleigh Electrician | Fast, Affordable & Free Estimates\" shows basic self-managed SEO.",
+  "growth_stage": "established. The site claims 15+ years, the site has been live since 2017, the license is active, and BuildZoom shows 912 permits (134 in 2025, 54 in 2026 to date). Review velocity is unknown.",
+  "review_response_behavior": "unknown. Google reviews could not be read. Yelp and Facebook returned 403 or a login wall. Houzz shows 1 review and no replies.",
+  "after_hours_handling": "hours_only. Site footer: \"Mon - Fri 8:00 a.m. - 6:00 p.m. Closed Weekends.\" The Google profile (via ServiceAgent) shows Mon-Fri 8 AM-6 PM, Sat-Sun Closed. The contact form says: \"Save time by filling out our self-service form. We'll reach out to you within one business day.\" The site, services page and page source mention no answering service, AI receptionist or emergency line. The homepage meta description (SEO snippet only, not visible on the page) does say \"Electrical Service 24/7,\" which contradicts the posted hours.",
+  "online_booking": "None. CTAs are \"Get Your Free Quote,\" \"Request a Free Estimate,\" \"Schedule Your Consult (Risk-Free, Pressure-Free)\" and \"Schedule Your Site Visit,\" all leading to the Gravity Forms form or the phone. Page source has no scheduling-vendor script.",
+  "chat_or_text_on_site": "None. There is no chat, text-us or SMS widget in the page source of / or /contact/.",
+  "vendors_detected": "WordPress on WP Engine (clearlight.wpengine.com assets), Themeco X/Cornerstone theme, Yoast SEO schema, Gravity Forms with reCAPTCHA, Google Analytics 4 (G-BG3GE66D5P) via googletagmanager, QuickBooks Payments for invoices, Google Workspace email (MX aspmx.l.google.com), and a YouTube embed. No answering service, AI voice, review tool or call tracking was detected.",
+  "ads_running": "Partly checked. The page source has no Google Ads conversion tag (no AW- ID), no Meta pixel and no CallRail or dynamic number swap. I could not view Google sponsored or LSA units or the Meta Ad Library from this agent. No paid-media evidence was found.",
+  "ai_search_presence": "I could not run logged-out checks on ChatGPT, Perplexity or Gemini, so this is not checked (D4 = NO EVIDENCE). As a web-search proxy, I ran 2 money-question searches (\"best electrician for panel upgrade Raleigh NC\" and \"EV charger installation electrician Raleigh NC recommended\"). Clear Light Electric was not named in either. Named instead: Levolt Electric, M-Power Electric, Royal Electric Services, Triad Electrical Services, Electric All Pro, Harris Electrical Contractors and Mr. Electric of West Raleigh. The site has no LocalBusiness or FAQPage JSON-LD, only Yoast WebPage, WebSite and BreadcrumbList.",
+  "pain_signals": "1) Hours gap: \"Mon - Fri 8:00 a.m. - 6:00 p.m. Closed Weekends\" (https://clearlightelectric.com/), confirmed by the Google profile hours via ServiceAgent. 2) Slow form response by design: \"We'll reach out to you within one business day\" (https://clearlightelectric.com/contact/). 3) No booking, chat or text-back. Every web lead waits for a human callback. 4) There is an advertised-vs-actual gap: the meta description promises \"Electrical Service 24/7\" but the business is closed evenings and weekends. 5) The owner is the only principal or employee listed on BuildZoom, and high-ticket services are listed: \"Panel/Service Changes,\" \"Manual/Automatic Transfer Switch/Generators,\" \"Electric Car Charger Installation.\" No review complaints were found because Google reviews were inaccessible, and no receptionist job post was found.",
+  "trigger_events": "None found dated within 180 days. Checked: job-post search (no Clear Light posting), site homepage (JSON-LD dateModified 2026-05-06, which is a content edit, not a redesign) and BuildZoom (latest listed permit 2025-11-14). The undated mayor photo and Hazelnut House feature are not dated triggers.",
+  "google_rating": "4.9 (Lantern/ServiceAgent, pulled from the Google profile; Expertise.com shows 4.9). Yelp 5.0 (7 reviews) and Facebook 5.0 (8 reviews), both per Expertise.com.",
+  "review_count": "45-46 Google reviews (ServiceAgent: 45; scout via Lantern: 46; Expertise.com: 43)",
+  "google_maps_url": "Not found (the Google profile could not be opened directly. ServiceAgent mirrors its data at https://serviceagent.ai/directory/north-carolina/raleigh/electrician/clear-light-electric/)",
+  "locations_count": "1",
+  "founded_or_years": "15+ years per the site (\"With over 15 years of experience serving Wake County\"). The website has been live since 2017 (JSON-LD datePublished 2017-01-05). Exact founding year: Not found.",
+  "team_size_estimate": "Small. The site says Dennis \"has built a team of the finest electricians,\" but no staff are named. BuildZoom lists Dennis Zaccagnini as the only employee or principal. Exact headcount: Not found.",
+  "service_area": "Raleigh and the Triangle: Durham, Cary, Apex, Morrisville, Garner, Holly Springs and Knightdale (site footer), plus Wake County",
+  "sub_services": "Residential: panel and service changes, generators and transfer switches, smart home wiring, recessed and LED retrofit, under-cabinet lighting, kitchen and bath remodels, room additions and sunrooms, whole-house renovations, new construction and custom home wiring, pool, hot tub and sauna wiring, landscape lighting. Commercial: troubleshooting, diagnostic and repair, renovations and fit-ups, fixture and ballast replacement, data and voice wiring, energy savings, system upgrades, EV charger installation (https://clearlightelectric.com/services/)",
+  "business_hours": "Mon-Fri 8:00 AM-6:00 PM ET. Closed Saturday and Sunday. The website and the Google profile (via ServiceAgent) agree.",
+  "timezone": "America/New_York (ET)",
+  "best_time_to_call": "Tue-Thu 8:00-8:45 AM ET, at the start of posted hours. Dennis is the only principal on public records and the owner-electrician, so this is the likeliest window before he is on a job site. Fallback: 5:15-6:00 PM ET as crews wrap up. Avoid Mondays (form backlog from the weekend, since the form promises \"within one business day\") and weekends (closed).",
+  "call_opener": "\"Hi, is this Dennis? Dennis, this is Sam with E4L. Full honesty, this is a cold call. Can I take 20 seconds to tell you why I called, and you tell me if it's worth a conversation? ... I was on Clear Light's site. You're closed weekends, and the contact form says you'll reach out within one business day. So a Saturday panel or EV-charger call usually goes to the next electrician on Google. We build a demo line trained on Clear Light's own website that answers those calls and books the site visit, and you can call it yourself before you ever pay anything. Would 20 minutes with our founder to hear it be worth it?\"",
+  "gatekeeper_notes": "No office manager, dispatcher or receptionist is named on the site, Houzz, BuildZoom or job boards. BuildZoom lists Dennis Zaccagnini as the only employee or principal, so the main line (+1 919-264-3094) likely reaches Dennis or his voicemail directly. ServiceAgent's Google-derived data tags it \"Speak to a representative / Direct line.\" No answering service was found. No owner cell is published. If someone else answers, ask for Dennis by name. If it goes to voicemail, leave a short message and retry in the 8:00 AM ET window. Note who answers (human, voicemail or service) to update D2. Do not reference family members pictured on the site.",
+  "lead_score": 44,
+  "score_breakdown": "44 / PROVISIONAL, capped at WATCH. Missing evidence: D3, D4, D6. Hard-disqualifier pass: PASS (independent single location, not a franchise, working own-domain site, active NC license L.29793 per BuildZoom, phone and form present, no AI receptionist, no match in suppression.csv or seen.csv by domain or name. GHL dedupe not run from this agent). D1 Decision-maker: 8/20. Full name and role are cited on the company's own site (\"Dennis Zaccagnini, owner and licensed electrician\"), on Houzz, by Expertise.com (\"Founded by electrician Dennis Zaccagnini\") and by BuildZoom (principal). The only contact is the generic sales@ mailbox plus the main line. No personal email, direct line or LinkedIn. D2 Phone coverage gap: 15/15. Phone in the site header (\"(919) 264-3094\" twice), electrical is an inherently urgent niche, hours are \"Mon - Fri 8:00 a.m. - 6:00 p.m. Closed Weekends,\" the form says \"We'll reach out to you within one business day,\" and no answering service or 24/7 coverage is mentioned anywhere (meta description even claims \"Electrical Service 24/7\"). D3 Lead-response leak: 0/15, NO EVIDENCE. Google reviews were inaccessible and Yelp and Facebook blocked logged-out fetches. No job post was found. Booking friction exists (no booking, chat or text), but the form does state a response time, so signal 5 does not strictly qualify. Partial null only. D4 AI search gap: 0/10, NO EVIDENCE. ChatGPT, Perplexity and Gemini were not checked. Web proxy: not named in 2 searches, competitors named, no LocalBusiness or FAQ schema. D5 ICP fit: 15/15. (a) Independent, 1 location, owner named. (b) Electrical is a core niche. Proxies: 15+ years and a site live since 2017; per-job value of $1,000 or more (panel and service changes, generators, EV chargers; BuildZoom typical permit about $46.6k); service area of 7+ Triangle cities. D6 Buying signals: 0/15, NO EVIDENCE. No dated trigger. Page source has no Ads, Meta pixel or call tracking. Google sponsored and LSA units and the Meta Ad Library could not be checked (partial null). D7 Attitude and stack: 6/10. Positives: modern SSL WordPress site updated in May 2026, QuickBooks online payments, community and press visibility (mayor photo, Hazelnut House feature). No negatives. No incumbent agency (DIY, GA4 only). Net 1-2 positives.",
+  "recommended_entry_offer": "Voice AI live demo. Build a demo line from clearlightelectric.com, since D2 = 15 and the site is scrapable. Pair it with missed-call text-back for the closed-weekends and one-business-day form gap. Treat the free GEO audit as a secondary hook once the AI check is actually run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Clear Light's weekend calls",
+  "personalized_first_line": "Dennis, your site says Clear Light is closed weekends and that form requests hear back within one business day, so a Saturday panel or EV-charger inquiry sits until Monday.",
+  "call_angle": "Missed-call relief for an owner-electrician. The business is closed evenings and weekends, the form promises a reply \"within one business day,\" and it sells high-ticket panel changes, generators and EV chargers. Every unanswered inquiry is a homeowner who can call the next electrician. Lead with the free demo line built from Clear Light's own website that answers and books the site visit, then the qualifying question: \"Who answers the phone when you're on a job or on Saturday: you, voicemail, or nobody?\" Do not open with AI jargon or reviews. Keep it relief-first and low-pressure, matching his own \"Risk-Free, Pressure-Free\" language.",
+  "likely_objection": "\"Most of my work comes from builders, remodelers and referrals, so I'm not chasing calls.\" BuildZoom shows heavy remodel and home-addition permits (typical permit about $46.6k). Response: the demo costs nothing to hear, and it covers the residential service calls (panels, EV chargers, generators) that come in while he's on those remodel jobs.",
+  "why_now": "No dated trigger was found. The timing case is the standing gap: posted hours are closed weekends, the form promises a next-business-day reply, and there is no answering, booking or text-back layer, so high-ticket residential inquiries go unanswered right now. The site was edited as recently as May 2026, so the owner is still maintaining it.",
+  "notes_for_chosen": "Top-up lead verified 2026-10-20, held for the next batch. Band: 44 / PROVISIONAL, which puts it on WATCH (the scout pre-scored 66). Blockers are D3 (Google reviews unread), D4 (AI platforms not checked) and D6 (Ads, LSA and Meta Ad Library not checked). A 2-minute Sam call plus one real ChatGPT or Perplexity check would likely move it into QUALIFIED. The owner is named and confirmed by the company's own site plus 3 third-party sources. The only email is the sales@ mailbox (Google Workspace MX present), so this is call-first, not email-first. Cautions: (1) BuildZoom work mix is remodel and addition heavy, so part of the revenue is builder or bid driven. A residential service line does exist (panels, generators, EV, troubleshooting). (2) BuildZoom also shows stale or conflicting license entries (a Vance County record expired Jul 2025 and an inactive limited classification) next to the active L.29793. Verify on the NCBEEC lookup before any send. (3) Address conflict: Strickland Rd suite (site) vs. Collingswood Dr (BuildZoom). (4) The meta description says \"24/7,\" which contradicts the posted hours. Use it as context only and do not accuse. (5) The site pictures the owner's family. Do not reference it (owner-research ethics rule). Not checked: NC SOS officer record, Wayback, Google reviews, LinkedIn (none found).",
+  "disqualifier_check": "PASS. Not a chain or franchise (single location, independent, owner-founded). Working own-domain site (HTTP 200, SSL). Live U.S. business (active NC Electrical Contractors license L.29793 per BuildZoom, Jul 2026; permits through Nov 2025). Inbound channels exist (phone and Gravity Forms quote form). Not a competitor category. No AI receptionist or answering service detected. Has a residential service line, so not a new-construction-only subcontractor. No match for clearlightelectric.com or \"Clear Light Electric\" in /home/user/E4Lmarketing/lead-machine/data/suppression.csv or seen.csv. No \"no solicitation\" notice. GHL ghl-contacts.js dedupe was not run from this agent.",
+  "disqualified_reason": "None. No hard disqualifier fired.",
+  "research_confidence": "Medium",
+  "evidence_links": "https://clearlightelectric.com/, https://clearlightelectric.com/contact/, https://clearlightelectric.com/services/, https://www.buildzoom.com/contractor/clear-light-electric-inc, https://www.houzz.co.uk/pro/clearlightelectric/clear-light-electric-inc, https://www.expertise.com/nc/raleigh/electricians, https://serviceagent.ai/directory/north-carolina/raleigh/electrician/clear-light-electric/, https://lantern.llc/b/clear-light-electric-raleigh, https://dns.google/resolve?name=clearlightelectric.com&type=MX, https://todayshomeowner.com/near-me/north-carolina/raleigh/electrical/, https://lantern.llc/b/levolt-electric-raleigh/book, https://lantern.llc/b/m-power-electric-raleigh/book",
+  "_target": "electrical-raleigh",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner Dennis Zaccagnini, owner/founder and licensed electrician",
+     "result": "confirmed",
+     "note": "Homepage source reads 'Dennis Zaccagnini, owner and licensed electrician' and 'Dennis Zaccagnini, our founder'. Web search shows Houzz and Expertise.com saying the same."
+    },
+    {
+     "claim": "Company phone (919) 264-3094",
+     "result": "confirmed",
+     "note": "Appears on the homepage, on /contact/, on BuildZoom and in the Lantern listing."
+    },
+    {
+     "claim": "Company email sales@clearlightelectric.com published on site",
+     "result": "confirmed",
+     "note": "A mailto: link is on both the homepage and /contact/. No owner-personal email was claimed. The Google Workspace MX records were not re-checked."
+    },
+    {
+     "claim": "owner_email_confidence = 'Confirmed' while owner_email is 'Not found'",
+     "result": "contradicted",
+     "note": "Only a generic sales@ mailbox exists, and nothing ties it to Dennis. 'Confirmed' on the owner email is unsupported; the field should read Not found / n.a."
+    },
+    {
+     "claim": "BuildZoom lists Dennis as the principal on license L.29793 and as the only principal or employee",
+     "result": "contradicted",
+     "note": "BuildZoom does not state a principal. It lists Dennis only as 'Employee: Dennis Zaccagnini', so 'principal' is an overstatement. License L.29793 is active (Jul 2026), and the Vance County and limited-classification entries are conflicting or inactive, as the lead already notes."
+    },
+    {
+     "claim": "Address conflict: Strickland Rd Suite 103-171 (site) vs 5327 Collingswood Dr (BuildZoom)",
+     "result": "confirmed",
+     "note": "Both addresses appear as stated. The site footer and /contact/ show 9650 Strickland Rd., Suite 103-171, Raleigh, NC 27615. BuildZoom shows 5327 Collingswood Dr."
+    },
+    {
+     "claim": "Strongest pain signal: Mon-Fri 8-6, closed weekends, form replies 'within one business day', no chat or booking",
+     "result": "confirmed",
+     "note": "Hours and the form promise appear verbatim on /contact/. The homepage source shows no chat or booking widget. The only tracking tag found was GA4 G-BG3GE66D5P, with no AW-, fbq or callrail strings."
+    },
+    {
+     "claim": "Meta description says 'Electrical Service 24/7', contradicting the posted hours",
+     "result": "confirmed",
+     "note": "Confirmed in raw page source: 'Fast, Professional & Affordable Electrical Service 24/7'. WebFetch's markdown view did not show it, but curl did."
+    },
+    {
+     "claim": "Not a chain or franchise",
+     "result": "confirmed",
+     "note": "No location or franchise mentions on the site. The business is a single Raleigh company founded by the owner."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "grep for clearlight, clear light, zaccagnini and the phone number across all data CSV and txt files returned no matches (exit 1)."
+    }
+   ],
+   "corrected_fields": {
+    "owner_email_confidence": "Not found (no owner-specific email; only the generic sales@ mailbox exists)",
+    "team_size_estimate": "Small. The site says Dennis 'has built a team of the finest electricians', but no staff are named. BuildZoom lists Dennis Zaccagnini as the only employee on the license record. It does not call him principal. Exact headcount: Not found.",
+    "owner_background": "Licensed NC electrician who founded the company. The site says 'Meet Dennis Zaccagnini, our founder' and 'Dennis Zaccagnini, owner and licensed electrician, has built a team of the finest electricians in the area'. Expertise.com says 'Founded by electrician Dennis Zaccagnini.' BuildZoom lists him as an employee on NC Electrical Contractors license L.29793 (active as of Jul 2026) and does not state a principal. The company claims 15+ years serving Wake County. Founding year: Not found."
+   },
+   "adjusted_score": 44,
+   "adjusted_confidence": "Medium",
+   "reason": "Identity, owner name, phone, sales@ email and the hours/slow-form pain signal all check out on public sources, and the lead is a single-location business not on suppression.csv or seen.csv. Fix three things: owner_email_confidence 'Confirmed' contradicts 'Not found', and BuildZoom lists Dennis as an employee, not a principal."
+  }
  }
 ]
