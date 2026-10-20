@@ -112,7 +112,7 @@ const START_PRICE = Number(process.env.SCORECARD_START_PRICE || 749);
 // Content add-on, offered only where content makes the starter work harder
 // (Reactivation, Follow-Up). Never on the front-door fixes: more attention
 // into a leaky front door just leaks more.
-const CONTENT_PACK = { name: 'Spark Content Pack', price: Number(process.env.SCORECARD_CONTENT_PRICE || 500) };
+const CONTENT_PACK = { name: 'Spark Content Pack', price: Number(process.env.SCORECARD_CONTENT_PRICE || 499) };
 const STARTERS = {
   missed_calls: {
     name: 'AI Front Desk',
@@ -131,6 +131,7 @@ const STARTERS = {
     why: 'Your fastest money is already in your contact list: past customers and old leads nobody is talking to.',
     what: 'We send your list a short text and email campaign with a reason to come back, and route every reply to you to book.',
     impact: 'Revenue from people who already know you, usually the quickest win in any business.',
+    noPrice: true,
     pair: 'Woken-up customers check your page first. Fresh posts and short videos every month give them a reason to come back, long after the campaign ends.',
   },
   follow_up: {
@@ -147,6 +148,11 @@ const STARTERS = {
     impact: 'More of your calendar turns into paid appointments instead of empty chairs.',
   },
 };
+
+function reactivationReturn(amount) {
+  if (!(amount > 0)) return 'Bring back just <b>18%</b> of your past customers and old leads, and that is real money from people who already know you. No new ad spend.';
+  return `Your list is sitting on about <b>${money(amount)} a month</b>. Bring back just <b>18%</b> of those people and that is roughly <b>${money(amount * 0.18)} a month</b> from customers who already know you. No new ad spend.`;
+}
 
 function returnLine(amount) {
   if (!(amount > 0)) return 'Built to pay for itself fast. We will show you the math on your call.';
@@ -288,11 +294,11 @@ export function renderHtml({ lead, date = new Date() }) {
   <div class="rec">
     <div class="top"><div><div class="t">Our recommendation</div>
       <div class="name"><span>${esc(starter.name)}</span></div></div>
-      <div class="price"><div class="l">Starting at</div><div class="v">${money(START_PRICE)}</div></div></div>
+      ${starter.noPrice ? '' : `<div class="price"><div class="l">Starting at</div><div class="v">${money(START_PRICE)}</div></div>`}</div>
     <p>${esc(starter.why)} ${esc(starter.what)}</p>
     <div class="ir">
       <div><div class="k">Impact</div><p>${esc(starter.impact)}</p></div>
-      <div><div class="k">Return</div><p>${returnLine(topAmount)}</p></div>
+      <div><div class="k">Return</div><p>${starter.noPrice ? reactivationReturn(topAmount) : returnLine(topAmount)}</p></div>
     </div>
     ${starter.pair ? `<div class="pair"><div class="pt"><div class="k">Pairs well with</div><div class="pn">${esc(CONTENT_PACK.name)}</div><div class="pp">Starting at ${money(CONTENT_PACK.price)}/mo</div></div><p>${esc(starter.pair)}</p></div>` : ''}
     <p class="small">No big package, no big upfront cost. One fix first. Add more once it is making you money.</p>
