@@ -1,0 +1,128 @@
+[
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passes every hard disqualifier: independent and single-location (a Bryant dealer is not a franchise), own working site, Active TN for-profit corporation (2026 annual report filed 18 Sep 2026), phone-first, not in suppression.csv or seen.csv. Score is 41, which is WATCH and below the 55 delivery floor. The row is PROVISIONAL because D4 was not checked and GHL dedupe (ghl-contacts.js) was not run.",
+  "company_name": "BryKo Heating & Air Conditioning Co.",
+  "niche": "HVAC",
+  "niche_segment": "core",
+  "website": "https://www.brykohvac.com",
+  "company_phone": "+1 901-386-2538",
+  "company_email_generic": "brykoheatandac@att.net (published in the site's HVACBusiness JSON-LD in the page source at https://www.brykohvac.com/. It is not shown as visible text, and the contact page lists no email.)",
+  "street_address": "5302 Crestview Rd (site and TN SOS mailing address). BBB and the SOS registered-agent record give 5302 Crestview Dr.",
+  "city": "Memphis",
+  "state": "TN",
+  "zip": "38134",
+  "timezone": "Central (America/Chicago, CDT until Nov 1, 2026)",
+  "business_hours": "Mon-Fri 7:30 AM-5:00 PM CT; Sat-Sun closed (site contact page and openingHoursSpecification in the schema). The site also claims '24/7 Emergency Services' and a '24/7 answering service and after-hours tech support'. GBP hours were not checked.",
+  "best_time_to_call": "Tue-Thu 7:30-8:15 AM CT. The office opens at 7:30 and the playbook's trades window is 7:00-8:30 AM, so this catches the office before the day's service calls stack up. Backup is 4:00-4:45 PM CT, before the 5:00 PM close. Do not call on weekends (closed; calls go to the answering service).",
+  "call_opener": "Hi, is this Eddie? ... Eddie, this is Sam with E4L. This is a cold call, so can I have 20 seconds to tell you why I'm calling, and then you tell me if it's worth a conversation? I saw BryKo has been family-owned since 1967, and your site promises 24/7 emergency service through an answering service. Here's the thing: when a homeowner with no heat at 9 PM gets a message-taker, a lot of them just call the next name on Google. We build an AI receptionist trained on your own company that answers those after-hours calls, sorts out the true emergencies and books the next-morning slot. We'll build you a demo line you can call yourself before you spend a dollar. Worth 20 minutes with our founder to hear it?",
+  "gatekeeper_notes": "BBB lists 'Ms. Leigh Holden, Office Manager', so she most likely answers the main line during business hours. Be friendly, and present the product as after-hours and overflow coverage only, never as a replacement for the office. Ask for 'Eddie Gelston' (BBB: 'Mr. Eddie W. Gelston, President'). If Eddie is not the current decision-maker, ask for Curtis Gelston, who is the TN registered agent at the business address (per OpenCorporates). Calls after 5 PM and on weekends go to the '24/7 answering service' (vendor not named). No owner cell or direct line is published. The BBB fax is +1 901-385-9811 (do not use). The only named technician is 'Matt' in a customer review.",
+  "owner_first_name": "Eddie",
+  "owner_last_name": "Gelston",
+  "owner_title": "President (per BBB Business Management; middle initial W.)",
+  "owner_role_type": "Unknown",
+  "owner_email": "Not found (only the business mailbox brykoheatandac@att.net exists, from the site schema)",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Likely",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found (not checked: the WebSearch budget for this run was used up)",
+  "owner_other_socials": "Company Facebook only: https://facebook.com/BrykoHeatingAirConditioningCo/ (linked from the site; content is behind the Facebook login and could not be read). No personal owner socials found.",
+  "owner_background": "Not found beyond the title. BBB names Eddie W. Gelston as President. The TN SOS record (via OpenCorporates) lists CURTIS J GELSTON as registered agent at 5302 Crestview Dr, which ties the Gelston family to the business. The company itself dates to 1967 (site 'Family-Owned Since 1967'; BBB founding date 1967-08-01; BBB accredited since 1976). Generation, years as owner and the relationship between Eddie and Curtis were not found.",
+  "owner_personality_cues": "These are brand-level statements on the site, not owner-signed: 'Honest people, honest pricing'; 'We repair whenever repair makes sense and only recommend replacement when it is truly in your best interest — not just the more profitable choice' (FAQ schema); 'Family-Owned & Locally Operated'. BBB: A+, accredited, 0 complaints in 3 years. No owner-signed review replies were found on the site's review page.",
+  "best_opening_moment": "Now: the Memphis heating season is starting (mid-October), and the site's own FAQ asks 'Do you offer emergency heating repair in Memphis?'. The first cold snap brings no-heat calls after 5 PM and on weekends, which go to the answering service. Lead with the 1967 family legacy and 'Honest people, honest pricing'.",
+  "attitude_type": "Family-Legacy Pride Brand (medium confidence)",
+  "attitude_evidence": "3 signals across 2 source categories. (1) Website: 'Family-Owned Since 1967' and 'Family-Owned & Locally Operated' (https://www.brykohvac.com/, /about-us). (2) Website copy on honesty: 'Honest people, honest pricing' and 'only recommend replacement when it is truly in your best interest — not just the more profitable choice' (homepage schema/FAQ). (3) BBB: Accredited Business since 1976, A+, 0 complaints in 3 years, founding date 1967-08-01 (https://www.bbb.org/us/tn/memphis/profile/heating-and-air-conditioning/bryko-heating-ac-company-0543-327). No contrary signals found. Approach: respect the legacy, frame the product as protecting the name after hours, use a personal and slightly formal tone, and never suggest replacing the office manager.",
+  "tech_adoption": "basic. Customer-facing: SSL, contact form, 'Make a Payment' page; no online booking, chat or text-us. FAQPage and HVACBusiness JSON-LD are present but appear vendor-built (Duda reseller site).",
+  "marketing_sophistication": "unknown, leaning agency_managed. The site is a Duda reseller build (body class 'dmResellerSite'; cdn-website.com/multiscreensite.com assets). It has monthly city-targeted blog posts (Apr 28 to Sep 25, 2026, on /resources), GA4 (G-9JVPJTCD4H) and a Xandr/AppNexus (adnxs) pixel. No agency is credited in the footer, and there is no call tracking or Meta pixel.",
+  "growth_stage": "established (since 1967; one location; active TN corp with annual reports filed every year 2019-2026)",
+  "review_response_behavior": "unknown. The site's review page shows 14 five-star excerpts with no owner replies. GBP reply rate was not checked.",
+  "after_hours_handling": "An unnamed answering service. The site says 'You'll appreciate our 24/7 answering service and after-hours tech support' and 'Bryko provides 24/7 emergency HVAC service... Call any time and a technician will respond promptly'. Office hours are Mon-Fri 7:30-5:00 and closed Sat-Sun. The contact page gives no after-hours instructions. Whether the service books jobs or only takes messages is unverified; Sam should find out by asking.",
+  "online_booking": "None. The contact page has a form ('We will get back to you as soon as possible.') and the site has a payment page, but there is no scheduler in the page source.",
+  "chat_or_text_on_site": "None (no chat or text widget scripts in the homepage source)",
+  "vendors_detected": "Duda website platform (reseller/agency build; agency not named); Google Analytics 4 via gtag (G-9JVPJTCD4H); Xandr/AppNexus adnxs pixel (px id 1913472); Bryant (official dealer). None found: CallRail, Podium, Birdeye, ServiceTitan, Housecall Pro, Jobber, Meta pixel, chat tools, financing partners.",
+  "ads_running": "Not confirmed. A Xandr/AppNexus (adnxs) pixel in the page source suggests programmatic display or retargeting, but no Google Ads (AW-) tag or call tracking is present. Google Sponsored results, LSA and the Meta Ad Library were not checked because the WebSearch budget was used up.",
+  "ai_search_presence": "Not checked: the WebSearch budget for this run was used up, and no AI platform could be queried. Note that the site already carries FAQPage plus HVACBusiness JSON-LD, so D4 would cap at 6 even if BryKo is named in 0 answers.",
+  "pain_signals": "(1) Hours gap: 'Mon - Fri 7:30 am - 5:00 pm / Sat - Sun Closed' alongside '24/7 Emergency Services', with after-hours handled by '24/7 answering service and after-hours tech support' (https://www.brykohvac.com/contact, homepage). (2) Booking friction: no online scheduling, chat or text; the contact form promises only 'We will get back to you as soon as possible.' (https://www.brykohvac.com/contact). Counter-evidence: reviews praise responsiveness, e.g. 'Came out the same day I called & fixed my AC' and 'I called and had a tech there within two hours' (https://www.brykohvac.com/reviews). No review complaints about missed calls were found, no receptionist job posts were found, and BBB shows 0 complaints.",
+  "trigger_events": "No dated business-specific trigger found. The vertical calendar puts the Memphis heating season opening now (October), and the site's FAQ and blog push heating ('How to vet a residential heating contractor in Memphis, TN'). Routine TN annual report filed 18 Sep 2026 (not a trigger). Steady monthly blog posting Apr-Sep 2026. No hiring, expansion, ownership change or new site found.",
+  "lead_score": 41,
+  "score_breakdown": "D1 Decision-maker: 8/20 — full name and role cited from BBB ('Mr. Eddie W. Gelston, President'), with the Gelston family corroborated by the TN SOS registered agent 'CURTIS J GELSTON' at 5302 Crestview Dr (OpenCorporates). The only email is the business mailbox brykoheatandac@att.net (site JSON-LD), plus a staffed main line. No owner email, cell or LinkedIn, so call-first. | D2 Phone gap: 4/15 — phone-first (click-to-call throughout, HVAC is an urgent niche, closed Sat-Sun and after 5 PM while claiming '24/7 Emergency Services'). Scored at 4 because the site credits a '24/7 answering service and after-hours tech support', which makes the pitch a cost-replacement/upgrade conversation: book the job instead of taking a message. | D3 Leak evidence: 5/15 — one signal type, booking friction (no online booking, chat or text; the form promises only 'as soon as possible'; checked in page source). Reviews on /reviews praise speed ('tech there within two hours'), BBB has 0 complaints, and no job posts were found; GBP reviews and reply rate were not checked. | D4 AI search: 0/10 — NO EVIDENCE (the WebSearch budget was used up and no AI platform was queried). The site has FAQPage and HVACBusiness JSON-LD, so the cap would be 6. | D5 ICP fit: 15/15 — independent, single location, family-owned (site); core HVAC niche; proxies: since 1967 (site and BBB 1967-08-01), a service area of 5+ cities (Memphis, Cordova, Bartlett, Germantown, Collierville), 24/7 emergency service, and full system installs (HVAC install $6-12k reference row; review: 'replaced both in and out units'). | D6 Buying signals: 3/15 — soft activity only: monthly blog posts Apr 28 to Sep 25, 2026 (/resources). Checked: footer (no agency credit), view-source (GA4 and an adnxs pixel; no AW- tag, CallRail or Meta pixel), no careers page. Not checked: Google Sponsored, LSA, Meta Ad Library. | D7 Attitude/stack: 6/10 — positives: a modern, maintained site (SSL, dynamic copyright, content updated Oct 2026) and BBB A+ since 1976. No negatives found. The site is a Duda reseller build with schema and SEO blog (some vendor manages content; not named, so no conflict flagged). Owner review replies and social activity were not observed. | TOTAL 41 / PROVISIONAL → WATCH. Missing: D4 evidence; GHL 'E4L Services' dedupe not run. Blockers: D4 and the D2 answering-service credit.",
+  "recommended_entry_offer": "Voice AI live demo built from brykohvac.com, framed as 'books the job instead of taking a message' after hours and on weekends. Keep the existing answering service optional and position the product as after-hours/overflow only. Seasonal urgency angle: heating season and no-heat nights. Secondary: a free AI-visibility check once D4 is run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "BryKo's no-heat calls after 5",
+  "personalized_first_line": "BryKo has been family-owned since 1967, and your site promises Memphis homeowners a 24/7 answering service for the nights the heat goes out.",
+  "call_angle": "After-hours booking, not just answering. They already pay for a 24/7 answering service, so the question is whether a no-heat caller at 8 PM or on Saturday gets a booked next-morning slot or just a message. Qualify with: 'Who picks up after 5 right now, and does that service book the job or take a message?' Offer the free demo line trained on BryKo's own site (legacy since 1967, Bryant dealer, 'Honest people, honest pricing') so they can compare it to their current service. Respect the family legacy, and never imply replacing the office manager.",
+  "likely_objection": "'We already have a 24/7 answering service' or 'We've done fine for 59 years.' Response: keep whatever works. The demo line costs nothing to try, so call it and your current service on the same night and judge which one gets the customer on the schedule.",
+  "why_now": "Mid-October starts the Memphis heating season. The first cold snaps bring no-heat emergencies that happen after the 5 PM close and on weekends, when the office is closed. The site's own FAQ ('Do you offer emergency heating repair in Memphis?') and heating blog show they are pushing heating work right now.",
+  "notes_for_chosen": "Benched from batch 5. Benched from batch 4 (verified 2026-10-15). WATCH (41/PROVISIONAL); below the 55 floor, so not for today's batch unless you override by hand. Facts first: Owner name comes from BBB only ('Eddie W. Gelston, President'). The SOS registered agent is Curtis J Gelston at the same address, so the family is confirmed, but the current decision-maker may be Curtis. Sam should ask for either. The scout's main point (no after-hours coverage) is weaker than reported: the site explicitly claims a '24/7 answering service and after-hours tech support', so D2 dropped to 4. The only email is brykoheatandac@att.net, found in page-source schema (generic, not owner-named; not shown on the contact page), so email is weak and this lead is call-first. Reviews on the site praise fast response, and BBB shows 0 complaints, so there is no verbatim missed-call pain to quote. The site is a Duda reseller build with FAQ schema and monthly SEO blogs, so some vendor already handles their web content (unnamed). Address mismatch: Crestview Rd (site, SOS mailing) vs Crestview Dr (BBB, registered agent). To promote it: run 3 HVAC money questions for Memphis on 2 AI platforms (D4), check GBP reviews and reply rate plus LSA/Meta Ad Library, run GHL dedupe, and have Sam learn on the first call whether the answering service books jobs. Limitation: the WebSearch budget for this run was used up, so LinkedIn, GBP, LSA, ads and AI checks were not done. A follow-up run can finish them.",
+  "evidence_links": "https://www.brykohvac.com/, https://www.brykohvac.com/contact, https://www.bbb.org/us/tn/memphis/profile/heating-and-air-conditioning/bryko-heating-ac-company-0543-327, https://opencorporates.com/companies/us_tn/000004207, https://www.brykohvac.com/about-us, https://www.brykohvac.com/reviews, https://www.brykohvac.com/resources, https://maps.app.goo.gl/YuraZwbE73XSAB6U8, https://facebook.com/BrykoHeatingAirConditioningCo/",
+  "research_confidence": "Medium",
+  "google_maps_url": "https://maps.app.goo.gl/YuraZwbE73XSAB6U8 (linked from the site; not opened)",
+  "google_rating": "Not found",
+  "review_count": "Not found (the site's /reviews page shows 14 five-star excerpts; BBB lists 0 customer reviews; the GBP count was not checked)",
+  "founded_or_years": "1967 (site 'Family-Owned Since 1967'; BBB founding date 1967-08-01; BBB accredited since 1976), about 59 years",
+  "locations_count": "1 (5302 Crestview Rd, Memphis, TN 38134)",
+  "team_size_estimate": "Not found. Small family team: BBB names a President and an Office Manager, reviews name a technician 'Matt', and the site claims 'over 100 years of combined HVAC experience'.",
+  "service_area": "Memphis, Cordova, Bartlett, Germantown, Collierville and 'neighboring areas throughout the metro region' (site)",
+  "sub_services": "HVAC repairs, HVAC installations (official Bryant equipment), preventative HVAC maintenance, residential heating, residential air conditioning, 24/7 emergency service, warranty work on Bryant units, online bill payment",
+  "disqualifier_check": "PASS. Chain/franchise: no (single location, family-owned; a Bryant dealer is not a franchise unit). Own website: yes, loads on HTTPS. Live US business: TN for-profit corporation #000004207 'Active', annual report filed 18 Sep 2026 (OpenCorporates). Inbound channel: phone plus contact form. Competitor/non-buyer: no. Already automated on both fronts: no (unnamed human answering service; no AI receptionist found). E4L world: no match in suppression.csv or seen.csv by name or domain (grep 'bryko' returned nothing). GHL 'E4L Services' dedupe NOT run. No 'no solicitation' notice seen.",
+  "_target": "hvac-memphis",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "grep -i for bryko, gelston, brykohvac and the phone digits returned no hits in either file."
+    },
+    {
+     "claim": "Owner Eddie W. Gelston, President",
+     "result": "confirmed",
+     "note": "BBB lists Eddie W. Gelston, President, and Leigh Holden, Office Manager. The company's own site names no owner, so the name rests on BBB alone, as the lead says."
+    },
+    {
+     "claim": "Curtis J Gelston is the TN registered agent, company Active, 2026 annual report filed 18 Sep 2026",
+     "result": "confirmed",
+     "note": "OpenCorporates shows Active, agent CURTIS J GELSTON, 5302 CRESTVIEW DR, and a 2026 Annual Report filed 18 Sep 2026. The mailing address is Crestview Rd, as the lead says."
+    },
+    {
+     "claim": "Company phone +1 901-386-2538",
+     "result": "confirmed",
+     "note": "The homepage, the contact page and BBB all show (901) 386-2538. BBB fax 385-9811 also matches."
+    },
+    {
+     "claim": "Generic email brykoheatandac@att.net appears in the page-source JSON-LD only, not visible text",
+     "result": "confirmed",
+     "note": "curl of the homepage source finds brykoheatandac@att.net. WebFetch's markdown view shows no email, and the contact page lists none, which matches the lead's caveat. It is a business mailbox, not an owner email."
+    },
+    {
+     "claim": "Pain signal: Mon-Fri 7:30-5:00, closed weekends, alongside 24/7 emergency claims and a 24/7 answering service",
+     "result": "confirmed",
+     "note": "The homepage shows those hours and the quoted '24/7 answering service and after-hours tech support' and '24/7 Emergency Services'. The contact page shows the hours but does not mention 24/7, so the lead cites the wrong page for the 24/7 claim; the homepage does support it."
+    },
+    {
+     "claim": "No online booking, chat or text",
+     "result": "confirmed",
+     "note": "The contact page has a form and a phone number only, with no scheduler."
+    },
+    {
+     "claim": "Not a chain or franchise; single location; Family-Owned Since 1967",
+     "result": "confirmed",
+     "note": "The homepage says 'Family-Owned Since 1967', lists one address, and calls the company an official Bryant dealer, which is not a franchise. No multi-location language."
+    },
+    {
+     "claim": "Vendor and stack details (GA4 G-9JVPJTCD4H, adnxs pixel id 1913472)",
+     "result": "confirmed",
+     "note": "Both strings are present in the homepage source."
+    }
+   ],
+   "corrected_fields": {
+    "owner_email_confidence": "N/A (no owner email; only the generic business mailbox, which is call-first only)",
+    "owner_email_type": "Generic business mailbox (not owner-specific)"
+   },
+   "adjusted_score": 41,
+   "adjusted_confidence": "Medium",
+   "reason": "Core facts check out (phone, BBB owner and title, SOS status, single location, not suppressed); the only fixes are the owner-email confidence label, which implied an owner email that does not exist, and a mis-cited 24/7 page; the lead stays WATCH at 41, below the 55 floor."
+  }
+ }
+]
