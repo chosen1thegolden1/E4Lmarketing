@@ -360,6 +360,58 @@ ${emails.map((e) => `<article>
 </main></body></html>`;
   fs.writeFileSync(path.join(outDir, 'index.html'), qa);
 
+  // One self-contained page with every email inlined, no iframes and no sibling files.
+  // The QA page needs its whole folder to render, so it only works as a published
+  // artifact; this one can be sent as a single file, opened from a phone, or attached.
+  // It exists because "I can't see the emails" has happened and a link is not always
+  // reachable.
+  const inlineOne = (e) => {
+    const raw = fs.readFileSync(path.join(outDir, `${e.key}.html`), 'utf8');
+    const inner = (raw.match(/font-size:16px[^>]*>([\s\S]*?)<\/td>/) || [])[1] || '';
+    const when = e.day ? `${e.day} ${rows.find((r) => r.key === e.key)?.date || ''}`.trim()
+               : e.bench ? 'bench, not scheduled' : 'proposed';
+    return `<article>
+  <header>
+    <div class="id">${e.key} · ${esc(when)} · ${e.side}</div>
+    <h2>${esc(e.subject)}</h2>
+    <p class="prev"><span>Preview</span> ${esc(e.preview)}</p>
+    <p class="prev"><span>Sells</span> ${esc(e.offer)}</p>
+  </header>
+  <div class="body">${inner}</div>
+</article>`;
+  };
+
+  fs.writeFileSync(path.join(outDir, 'all-in-one.html'), `<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E4L emails — week of ${week}</title>
+<style>
+:root{--surface:#fcfcfb;--card:#fff;--ink:#121211;--muted:#55544f;--line:#e4e4e0;--accent:#2a78d6;}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--surface:#151514;--card:#1d1d1b;--ink:#f3f3f0;--muted:#a5a49f;--line:#30302d;--accent:#76abef;}}
+:root[data-theme="dark"]{--surface:#151514;--card:#1d1d1b;--ink:#f3f3f0;--muted:#a5a49f;--line:#30302d;--accent:#76abef;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface);color:var(--ink);font:17px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;padding:28px 16px 64px;}
+main{max-width:660px;margin:0 auto;display:flex;flex-direction:column;gap:26px;}
+h1{font-size:23px;margin:0;letter-spacing:-.01em}
+.lede{margin:0;color:var(--muted);font-size:15px}
+article{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+header{padding:18px 20px 14px;border-bottom:1px solid var(--line)}
+.id{font:600 11px/1 ui-monospace,SFMono-Regular,monospace;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+h2{font-size:19px;margin:8px 0 10px;line-height:1.3;letter-spacing:-.01em}
+.prev{margin:2px 0;color:var(--muted);font-size:13.5px}
+.prev span{display:inline-block;min-width:60px;font-weight:600;color:var(--ink);opacity:.5}
+.body{padding:20px}
+.body p{margin:0 0 17px}
+.body p:last-child{margin-bottom:0}
+.body a{color:var(--accent);font-weight:600}
+</style></head>
+<body><main>
+<h1>E4L emails — week of ${week}</h1>
+<p class="lede">All ${emails.length} in one page: ${live.length} scheduled, the rest on the bench. Every link below is live, so clicking one opens the real destination. Sends go 8:00 AM Pacific from ${FROM}.</p>
+${emails.map(inlineOne).join('\n')}
+</main></body></html>
+`);
+
   for (const w of warnings) console.warn(`  warn  ${w}`);
   if (errors.length) {
     console.error(`\n${errors.length} problem(s) — nothing is safe to send:\n`);

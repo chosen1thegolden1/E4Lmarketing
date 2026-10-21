@@ -88,6 +88,20 @@ what it flagged, rebuilds, pushes, and publishes the rendered batch as a page.
 If Tuesday's write never landed, the editor writes the batch itself rather than reporting
 a gap. A missed week is the one outcome worth breaking role boundaries over.
 
+### If Chosen can't see the emails
+
+It has happened: the preview link and the sessions were both out of reach, and the batch
+was invisible to the one person who has to approve it.
+
+So every build also writes `docs/broadcasts/<Monday>/all-in-one.html` — one
+self-contained page with every email inlined, no iframes and no sibling files. The QA
+page needs its whole folder to render, which is why it only works as a published
+artifact. This one is a single file: it can be sent straight into the conversation,
+opened on a phone, or attached to anything.
+
+**When Chosen says he can't see them, send that file rather than re-sending the link.**
+A second copy of a link he already couldn't open is not an answer.
+
 ### Why the loop does not depend on git
 
 Scheduled sessions in this environment have not been able to push. Three weeks of Routine
