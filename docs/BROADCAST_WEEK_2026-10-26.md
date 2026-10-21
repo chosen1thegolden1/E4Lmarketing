@@ -52,16 +52,16 @@ Per the 4% rule, Monday agency and Friday student are written to the readers alr
 
 ## A1 — Monday
 
-**Subject:** "Too expensive" just lost a zero
+**Subject:** Claude just did what?
 
-**Preview text:** $1.00 down to $0.10. Not your bill, but watch where it points.
+**Preview text:** It just got 10x cheaper.
 
 **Reader:** A-2 (growing, profitable, reads fast) · **Angle:** Correlation · **Spoke:** front end → the call
 
 ```
 Hey [First Name],
 
-Short one, because you read fast.
+Quick one. You're busy, so I'll be fast.
 
 On October 7, Anthropic released Claude Haiku 5.5, its
 smallest model. It calls it "the cheapest, fastest, and
@@ -74,28 +74,19 @@ $1.00.
 
 Output: $0.50. The last one: $5.00.
 
-**A tenth.** Same kind of work, at a tenth of the list price.
+**10x cheaper.** Same kind of work, at a tenth of the list price.
 
-I'll be straight about the fine print.
+Fine print: that's what developers pay to build with it.
+It's not your bill. The tools you buy will set their own prices.
 
-That's what developers
-pay to build with it. It's not a bill you'll ever get. Your
-tools will set their own prices.
+Here's why it matters to you.
 
-Here's why I'm telling you anyway.
+Every lead that waits a day for a reply is a sale you
+already paid to get. A cheaper model means more of that
+follow-up can run without you.
 
-Remember when long-distance calls were billed by the minute?
-You watched the clock.
-
-Then it got cheap enough that nobody counted, and what an
-ordinary business could afford to do changed with it. 📞
-
-AI is on that road. The "it costs too much to answer every
-lead in minutes" excuse is getting thinner every month.
-
-Pick **the three jobs in your business that are the same
-every day.** Follow-up. Reminders. The first reply. That's
-where to point it.
+Pick **the three jobs in your business that repeat every day.**
+Follow-up. Reminders. The first reply. That's where to point it.
 
 See Anthropic's post → (LINK: https://www.anthropic.com/claude-haiku-5-5?utm_source=email&utm_medium=agency&utm_campaign=A1-2026-10-26)
 
@@ -110,7 +101,7 @@ AI Marketing Made Easy
 P.S. Next time anybody sells you an "AI add-on," ask which model is under it and what it costs them. Watch the pause. 😂
 ```
 
-*Notes:* Anthropic, "Introducing Claude Haiku 5.5", dated 2026-10-07 on Anthropic's news index; page read in full 2026-10-20. Verbatim: "the cheapest, fastest, and most capable small model we've ever released." Price table (per 1M tokens, prompts up to 100k): Haiku 5.5 input $0.10, output $0.50; Haiku 4.5 input $1.00, output $5.00. "A tenth" is arithmetic on those two columns. The page separately says "On average, it now costs around 75% less to run"; the email uses the list prices only and does **not** claim 75% (editor: do not add it, and do not change "a tenth" to "90% cheaper" without checking the over-100k column, which differs). The subject says "the old one" meaning Haiku 4.5, the previous small model; it does not claim AI in general got cheaper. "Same kind of work" is the writer's phrase and is a mild stretch: the page says Haiku 5.5 is the most capable small model it has released but scores below Sonnet 5.5. The long-distance story is a historical correlation stated as general observation, not a sourced statistic; "what an ordinary business could afford changed with it" is the writer's reading. "The excuse is getting thinner" is the writer's opinion. The P.S. is advice and a joke, not a claim about any vendor.
+*Notes:* Anthropic, "Introducing Claude Haiku 5.5", dated 2026-10-07; page read in full 2026-10-20. Verbatim: "the cheapest, fastest, and most capable small model we've ever released." Price table (per 1M tokens, prompts up to 100k): Haiku 5.5 input $0.10, output $0.50; Haiku 4.5 input $1.00, output $5.00. "10x cheaper" is arithmetic on those list prices only, and the body says it is a developer price, not a business bill. Do not add the page's "75% less" or the over-100k column. "Every lead that waits a day is a sale you already paid to get" and "more of that follow-up can run without you" are the writer's opinion, not sourced claims. The P.S. is advice, not a vendor claim.
 *Source:* https://www.anthropic.com/claude-haiku-5-5 (Anthropic, 2026-10-07)
 
 ---

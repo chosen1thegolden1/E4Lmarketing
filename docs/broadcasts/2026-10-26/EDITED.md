@@ -13,7 +13,7 @@ Build passes. No fact, number, story, URL, UTM or greeting changed; the pass onl
 ## Subjects rewritten (read-aloud test) and why
 | Was | Now | Why |
 |---|---|---|
-| This AI model costs a tenth of the old one | "Too expensive" just lost a zero | Was a news headline. $1.00 to $0.10 is literally a zero. |
+| This AI model costs a tenth of the old one | "Too expensive" just lost a zero | Claude just did what? (preview: It just got 10x cheaper.) Owner-facing hook; the old subject was a news headline aimed at developers. |
 | 534,947 filings. 29,022 businesses. | Everyone's panicking about the wrong number | Two stats is a data dump; the email's own turn is "most people read the first number and panic". |
 | 3 things about the $1.7 billion Roblox paid out | Roblox creators pulled $1.7 billion in 12 months | **Accuracy fix too:** the old one said Roblox *paid* it; the notes say the post only says creators *earned* it. |
 | 534,947 people filed to start a business | Your next client filed paperwork in September | Applications are not people; this puts the reader's client in it. |

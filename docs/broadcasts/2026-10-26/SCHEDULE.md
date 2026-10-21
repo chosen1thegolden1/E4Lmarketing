@@ -14,7 +14,7 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 
 | Send date | Day | Side | File | Subject | Preview text | Sells |
 |---|---|---|---|---|---|---|
-| 2026-10-26 | Monday | agency | `A1.html` | "Too expensive" just lost a zero | $1.00 down to $0.10. Not your bill, but watch where it points. | Game Plan Call (agency front end) |
+| 2026-10-26 | Monday | agency | `A1.html` | Claude just did what? | It just got 10x cheaper. | Game Plan Call (agency front end) |
 | 2026-10-26 | Monday | student | `S1.html` | Roblox creators pulled $1.7 billion in 12 months | Most people won't see a billion. Here's what I'd do instead. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-10-28 | Wednesday | agency | `A2.html` | Everyone's panicking about the wrong number | 534,947 filed. Census projects 29,022 get to payroll. Read the second one. | Game Plan Call (agency front end) |
 | 2026-10-28 | Wednesday | student | `S2.html` | People laughed. Then it stopped being funny. | I was a pro gamer before anybody called that a career. | From Xbox to Executive (book, free + $9.95 shipping) |
