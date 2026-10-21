@@ -44,7 +44,7 @@ Every subject should fall into one of six types, so we can test one type against
 
 ## 3. What to test, and how to read it
 
-- **Judge on clickthrough, not opens.** Ian judges his subject tests on clickthrough rate (the share who click the link), not opens. Opens are a bad signal since Apple-style privacy pre-loading inflates them. Pick the winning category by clicks.
+- **Judge on clickthrough, not opens.** Ian judges his subject tests on clickthrough rate (the share who click the link), not opens. Treat opens as a weaker signal. Pick the winning category by clicks.
 - **Test at least 3-4 variations at once,** one category each, same send time, same body. Our list is far smaller than Ian's (his test runs about 20,000 per variation). With a small list, test the biggest differences you can, not two near-identical lines. Don't call a winner on a small difference.
 - **Personalized subjects (first name in the subject)** appear in Ian's list. Do not use them until Abdullah or Chosen confirms GHL merges the first name into the subject line, not just the body. The greeting in the body already uses it.
 - **Question marks in the subject:** Ian's note is that a "??" subject line can work a few times a year, but the preview must carry the content. Do not use it by default.
