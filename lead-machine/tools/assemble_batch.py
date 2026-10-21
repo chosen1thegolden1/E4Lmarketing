@@ -118,7 +118,7 @@ for l in kept:
         if str(l.get(k, '')).strip().lower() in ('not found', 'unknown', 'n/a'): l[k] = ''
     ot = str(l.get('owner_title', '') or '')
     if len(ot) > 45:
-        short = re.split(r'\s*[\(;—]|\s+and\s+|,\s', ot, maxsplit=1)[0].strip(' ,;')
+        short = re.split(r'\s*[\(;—:]|\.\s|\s+and\s+|,\s', ot, maxsplit=1)[0].strip(' ,;.')
         if short and short != ot:
             l['owner_title'] = short
             l['notes_for_chosen'] = (f"Title detail: {ot}. " + (l.get('notes_for_chosen') or '')).strip()

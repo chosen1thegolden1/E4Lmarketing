@@ -1,0 +1,782 @@
+[
+ {
+  "qualified": true,
+  "disqualified_reason": "None. No hard disqualifier fired. This is a WATCH-band lead (44, PROVISIONAL), not a reject: Google reviews, job posts and the AI-search check could not be run this session.",
+  "disqualifier_check": "PASS on every check that could be run. Chain/franchise: independent single-entity LLC, \"locally owned\", owned and operated by Adrian Vargas, no franchise or parent brand. Website: own domain mountainprohvac.com loads (HTTP 200, Wix, SSL). Live US business: Colorado SOS shows Mountain Pro HVAC Services LLC., ID 20188004424, Good Standing, formed 12/18/2018. Inbound channel: phone (720) 643-2018 for calls or texts, plus a Wix contact form and support@ email. Not a competitor category. No AI receptionist or answering service anywhere on the site or in its source. Dedupe: grepped suppression.csv and seen.csv for the domain, \"mountain pro\", \"mountainpro\", the phone in several formats and \"Vargas\", and got zero matches. NOT DONE: the GHL 'E4L Services' dedupe (ghl-contacts.js) could not be run from here, so the score stays PROVISIONAL until Rozel checks it. No no-solicitation notice on the site.",
+  "company_name": "Mountain Pro HVAC Services LLC",
+  "niche": "HVAC",
+  "niche_segment": "core",
+  "website": "https://www.mountainprohvac.com",
+  "company_phone": "+1 720-643-2018",
+  "company_email_generic": "support@mountainprohvac.com (visible on the homepage Contact block and as a mailto: link)",
+  "street_address": "2815 West Bryant Place (business address in the site's LocalBusiness JSON-LD). The Colorado SOS principal office is in Aurora, CO 80015. Both may be residential, so do not use either in outreach.",
+  "city": "Littleton",
+  "state": "CO",
+  "zip": "80120",
+  "timezone": "America/Denver (Mountain Time; MDT until Nov 1, 2026, then MST)",
+  "google_maps_url": "https://www.google.com/maps/place/Mountain+Pro+Hvac+Services,+Llc/@39.6117063,-105.1132681,9z/data=!4m7!3m6!1s0x876c81e7aaca583f:0x8946bef987704004!8m2!3d39.6119944!4d-104.5528484!9m1!1b1?hl=en (linked from the site's \"Leave us a review\" button)",
+  "google_rating": "Not found (Google Maps could not be read this session)",
+  "review_count": "Not found (Google, HomeAdvisor and HomeGuide all blocked access: 403 or not reachable)",
+  "locations_count": "1 (one entity and one GBP pin; serves the Denver metro)",
+  "founded_or_years": "LLC formed 12/18/2018 per the Colorado SOS, so about 7 years 10 months in business",
+  "team_size_estimate": "Not found. Probably very small, likely the owner plus a few people. The site mentions \"our crew of professionals\" but names no staff, and the only testimonial names Adrian personally.",
+  "service_area": "\"Home owners and commercial clients all around the Denver metro area\", per the site's About section. Based out of Littleton, and the GBP pin sits on the Aurora side.",
+  "sub_services": "Furnace (tune-ups, repairs, certification, humidifiers, air filtration, UV treatment, ductwork, thermostats, new equipment). Air conditioning (tune-ups, repairs, certification, new equipment). Evaporative coolers (tune-ups, repairs, certification, new equipment, ductwork, spring start-ups, winterization shutdown). Rooftop package units (tune-ups, repairs, certification, new equipment, ductwork, thermostats). Residential and commercial.",
+  "business_hours": "Not found. The site lists no hours, and the GBP hours could not be read this session.",
+  "best_time_to_call": "Tue–Thu 7:00–8:15 AM MT, before he heads out to the first job. Fallback: 4:00–5:30 PM MT as jobs wrap up. Reason: he is an owner-operator, the only published channel is one \"Call or Text\" line that he most likely carries himself, and the playbook's trade window is 7:00–8:30 AM or 4:00–5:30 PM. Heating season is starting, so mornings before dispatch are the best bet. If voicemail picks up, a short text-style callback message fits his \"call or text\" setup.",
+  "call_opener": "\"Hi, is this Adrian? Adrian, this is Sam with E4L. Full honesty, this is a cold call. Can I have 20 seconds to tell you why I called, and then you tell me if it's worth another minute? ... I was on the Mountain Pro site and saw it's one number, call or text, and you're the one running the jobs. With furnace season starting, the no-heat calls come at night and while you're under a unit, and that homeowner just calls the next name on Google. We build an answering line trained on Mountain Pro's own website that picks up, gets the caller's name, address and problem, and books it. You can call the demo yourself before you spend a dime. Who's catching your calls when you're on a job right now: you, voicemail, or nobody? ... Would it be crazy to grab 20 minutes with Sebastian this week so you can hear it answer as Mountain Pro?\"",
+  "gatekeeper_notes": "No gatekeeper is visible. The site names no office manager, dispatcher or answering service, and there is no IVR or service vendor in the page source. The only line, (720) 643-2018, is listed \"for calls or texts\", which suggests it is a mobile Adrian answers himself, but that is not confirmed. No separate direct line or owner cell is published. Expect Adrian or his voicemail. If voicemail: leave a short message with your name, \"E4L\" and a callback number, and consider a text since the site invites texts. If someone else answers, ask for Adrian by first name. Record who answered (human, voicemail, service) so D2 can be updated.",
+  "owner_first_name": "Adrian",
+  "owner_last_name": "Vargas",
+  "owner_title": "Owner-operator (the site says \"owned and operated by Adrian Vargas\"; the Colorado SOS lists Adrian Eduardo Vargas as registered agent)",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found (the only published email is the generic support@mountainprohvac.com)",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Not found",
+  "owner_direct_phone": "Not found (only the main call/text line +1 720-643-2018 is published)",
+  "owner_linkedin": "Not found (not checked: the web search budget was exhausted this session)",
+  "owner_other_socials": "Not found. The site links only to Google Maps reviews and a HomeAdvisor profile (homeadvisor.com/rated.MountianProHVACServices.83178691.html). No Facebook or Instagram link on the site.",
+  "owner_background": "US Marine Corps veteran. In his business's own words, he \"served in the US Marines and battled on the front lines in Iraq and Afghanistan\" (self-stated on mountainprohvac.com, so CONFIRMED). He formed the LLC in December 2018. Trade school, certifications and any prior employer: Not found.",
+  "owner_personality_cues": "Leads with service and integrity: \"Veteran Owned and Operated, Served your country, now serving your home\". He stresses \"top notch services and solid solutions to our customers with no pressure for sales\", so he dislikes pushy selling. The only testimonial praises him personally: \"Adrian was great. He is reliable and honest.\" Expect a direct, no-nonsense, mission-minded person. Be respectful, brief and concrete, with no hype or hard sell. Mention the veteran point only lightly, if at all, as respect, never as flattery.",
+  "best_opening_moment": "The start of heating season (late October in Denver). His site advertises furnace tune-ups and repairs, and this is when no-heat calls start coming in at night while the one-person phone is in a crawlspace. Neutral phone-process observation: \"your site says call or text one number; curious who picks up when you're on a job.\"",
+  "attitude_type": "Overwhelmed Owner-Operator",
+  "attitude_evidence": "The evidence is moderate and comes from the site only. The owner is named as the person who \"owned and operated\" the business. The site's main call to action is a single \"Call or Text for service at (720)643-2018\". There is no online booking. A Wix Chat app is installed in the page source, but it was not confirmed to show on the page. The form only says \"We'll be contacting you soon!\". No hours, no office staff and no 24/7 or answering coverage are stated. The testimonial is about Adrian personally. Copyright still says 2019 and the About/Contact nav items just scroll the homepage, which points to a set-and-forget DIY site. I found no review complaints and no evidence of review replies because reviews could not be read. So this rests on structure, not on review pain; downgrade it to \"Unclear\" if Sam finds an office staffer answering.",
+  "tech_adoption": "basic. Has SSL, a Wix contact form, a Wix Chat app in the source (display not confirmed) and LocalBusiness JSON-LD that Wix generates automatically. No booking or scheduling software (no ServiceTitan, Housecall Pro or Jobber scripts), no text widget vendor, no review tool.",
+  "marketing_sophistication": "diy. A DIY Wix site with no agency credit, footer copyright still 2019, and no Google Tag Manager, Google Ads, Meta pixel or call tracking in the source. It links a HomeAdvisor profile; whether that is a paid membership was not verified.",
+  "growth_stage": "established (LLC since Dec 2018, about 7.8 years) but small and possibly plateaued: the site is unchanged since its 2019 copyright and there is no hiring or expansion evidence. Review velocity is unknown.",
+  "review_response_behavior": "unknown (Google and HomeAdvisor reviews could not be accessed this session)",
+  "after_hours_handling": "Not stated anywhere on the site. There is no 24/7 claim, no emergency line, no answering service and no hours. The only path is one \"Call or Text\" number plus a contact form promising \"We'll be contacting you soon!\". GBP hours were not checked. What actually happens after hours is unknown; Sam should record it on the first call.",
+  "online_booking": "None. No scheduler or booking vendor script (Calendly, Housecall Pro, ServiceTitan, Jobber, Square) in the homepage source.",
+  "chat_or_text_on_site": "Customers are invited to text the main number (\"Call or Text for service at (720)643-2018\"). The Wix Chat app (appDefinitionName \"Wix Chat\") is present in the page source, but whether the widget shows to visitors was not confirmed. There is also a basic Wix contact form (\"Send us a message\").",
+  "vendors_detected": "Wix (site builder, DIY, with Wix Chat app and Wix Forms). Has a HomeAdvisor profile (linked from the site). Google Business Profile exists (linked \"Leave us a review\"). Not found: field service software, call tracking, GTM/GA/Ads tags, Meta pixel, review tool, answering service, AI receptionist.",
+  "ads_running": "No ad tracking in the site source: no googletagmanager, gtag/AW- conversion tag, fbq Meta pixel, or CallRail/CallTrackingMetrics. Not checked: Google Sponsored results, the LSA badge and the Meta Ad Library, because the web search budget was exhausted. The HomeAdvisor profile may be a paid lead source but this is unverified.",
+  "ai_search_presence": "not checked. I could not run any ChatGPT, Perplexity or Gemini query or web search this session. The site has Wix-generated LocalBusiness JSON-LD but no FAQPage schema and no FAQ content. Suggested money questions for the audit: \"furnace repair near Littleton, CO\", \"emergency heating repair Aurora, CO\", \"HVAC company that answers the phone Littleton, CO\".",
+  "pain_signals": "From the site, quoted: (1) \"Call or Text for service at (720)643-2018\" is the only intake path besides a form; no hours, no after-hours or 24/7 coverage stated. (2) The contact form auto-message is \"Thanks for submitting! We'll be contacting you soon!\", with no response-time promise. (3) No online booking. (4) It is an owner-operator, \"owned and operated by Adrian Vargas\", in an inherently urgent niche (no-heat and no-cool calls) going into Denver's heating season. Not found: review complaints about calls or callbacks (reviews not accessible) and receptionist/CSR job posts (not checked).",
+  "trigger_events": "Seasonal only: Denver heating season is opening now (late Oct 2026) and the site actively lists furnace tune-ups, repairs and certification. No dated business-specific trigger found. The site is stale (copyright 2019), with no new location, no hiring and no ownership change. Hiring, GBP posts and news were not checked because the search budget was exhausted.",
+  "lead_score": 44,
+  "score_breakdown": "44 / PROVISIONAL, band WATCH. Missing evidence: D3, D4, and the GHL dedupe.\nD1 Decision-maker: 8/20. Full name and role cited from two sources (site: \"owned and operated by Adrian Vargas\"; CO SOS: registered agent ADRIAN EDUARDO VARGAS). The only contact is the generic support@mountainprohvac.com plus the main call/text line. No owner email, direct line or LinkedIn found.\nD2 Phone gap: 15/15. Phone-first: the site header says \"Call or Text for service at (720)643-2018\". HVAC is an inherently urgent niche (gap proof a). No mention anywhere on the site or in its source of 24/7, an answering service or an AI receptionist (gap proof c). No hours published. GBP hours were not checked.\nD3 Response leak: 0/15, NO EVIDENCE. Google, HomeAdvisor and HomeGuide reviews were blocked (403), job boards were not checked, and booking friction is only partial because there is no booking, but a Wix Chat app sits in the source, so signal type 5 cannot be claimed cleanly.\nD4 AI visibility: 0/10, NO EVIDENCE. No AI platform could be checked. Schema: Wix LocalBusiness JSON-LD present, no FAQPage.\nD5 ICP fit: 15/15. (a) Independent, one location, \"Veteran Owned and Operated\" and owner-run. (b) HVAC is core. (c) Three ability proxies: in business since 12/18/2018 per SOS (more than 3 years); sells \"New Equipment\" installs (HVAC install row, $6–12k); serves \"all around the Denver metro area\" (3+ cities). Caveat: probably a solo or very small shop, and review volume is unknown.\nD6 Buying signals: 3/15. Only a seasonal window, the start of heating season, with furnace services advertised. No dated trigger. Spend checklist: no GTM, Ads or Meta pixel or call tracking in the source (d: none); HomeAdvisor profile linked (e: paid status unverified); Google Ads, LSA and Meta Ad Library not checked.\nD7 Attitude/stack: 3/10. Positives: SSL, Wix Chat app installed. Negative: footer copyright 2019, more than 4 years stale, and nav items dead-end to the homepage. Net 0 with a positive observed. DIY Wix with no agency credit means a greenfield stack with no conflict. Review replies and social accounts were not checked.\nEvidence dims: D1, D2, D5, D6 and D7 (5 of 7). TRUSTED fails because the GHL dedupe was not run, D3 has no direct evidence, and the D4 spot-check was not run. The scout's pre-score of 58 drops to 44 because reviews and AI search could not be evidenced.",
+  "recommended_entry_offer": "Voice AI live demo built from mountainprohvac.com (an AI receptionist that answers no-heat calls, takes name, address and problem, and books the visit), paired with missed-call text-back. Route call-first through Sam (DEMO PATH: phone-first, D2 15, named owner, no personal email). The free GEO audit is the second ask if he wants it.",
+  "first_fit_tier": "Recover (but probably a small budget; if he is a true solo operator, have the Revenue Leak Scorecard or the solo voice agent ready as a fallback)",
+  "suggested_subject_line": "Who picks up Mountain Pro's line mid-job?",
+  "personalized_first_line": "Adrian, your site gives one number, call or text, which tells me you're probably answering it yourself between furnace jobs.",
+  "call_angle": "Missed-call and seasonal-urgency angle with a live demo. He is the operator and the phone. Furnace season is starting, and no-heat calls that ring out go to the next company. Offer a demo line trained on Mountain Pro's own site that he can call before paying anything, and keep the setup point simple: missed calls forward, nothing else changes. Qualifying question: \"Who catches your calls when you're on a job: you, voicemail, or nobody?\" Respect his \"no pressure for sales\" stance by keeping it short and permission-based. Ask 1: Game Plan Call with Sebastian. Ask 2: email for the free AI visibility audit.",
+  "likely_objection": "\"I'm a small shop. I answer my own phone and I have plenty of work\" (or \"customers want to talk to a real person, not a robot\"). Response: it only picks up the calls he can't get to (busy or missed), so he still gets every call he can answer. The demo lets him hear it for himself before deciding anything. Expect a budget objection given the size.",
+  "why_now": "Denver's heating season is starting now. Mountain Pro advertises furnace tune-ups, repairs and certifications, and that is when urgent no-heat calls arrive at night and while the owner is on a job. With one call/text line, no booking, no stated hours and no answering coverage, every unanswered call in the next few weeks is a furnace job that goes to a competitor.",
+  "notes_for_chosen": "Watch-band lead (44, PROVISIONAL), not one for today's email slots. Use it as a Sam call-first / DEMO PATH lead. What is confirmed: owner Adrian (Eduardo) Vargas, from the site plus the CO SOS. He is a Marine veteran with Iraq and Afghanistan service, self-stated on his site. The LLC has been in Good Standing since 12/18/2018. The only email is the generic support@ address (do not pattern-guess an adrian@ address). The only phone is the call/text main line. What is still unknown: Google rating and review count, review replies, any job posts, ads/LSA, and AI-search presence. The web search budget ran out and the directories returned 403. Before promoting it: (1) run the GHL dedupe; (2) open the GBP link for rating, reviews, hours and any reachability complaints; (3) run 2 money questions for Littleton/Aurora. It is probably a very small shop, so the ability to fund Recover is the real risk. Tone: he states \"no pressure for sales\", so be brief and respectful, with no hype and no pricing. Acknowledging his service is fine; do not lean on it as a sales device.",
+  "evidence_links": "https://www.mountainprohvac.com/, https://www.coloradosos.gov/biz/BusinessEntityDetail.do?quitButtonDestination=BusinessEntityResults&nameTyp=ENT&masterFileId=20188004424&entityId2=20188004424&fileId=20188004424&srchTyp=ENTITY, https://www.google.com/maps/place/Mountain+Pro+Hvac+Services,+Llc/@39.6117063,-105.1132681,9z/data=!4m7!3m6!1s0x876c81e7aaca583f:0x8946bef987704004!8m2!3d39.6119944!4d-104.5528484!9m1!1b1?hl=en, https://www.homeadvisor.com/rated.MountianProHVACServices.83178691.html, https://homeguide.com/co/centennial/furnace-repair/mountain-pro-hvac-services--llc-Jjxy_aydc",
+  "research_confidence": "Medium",
+  "_target": "hvac-denver",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver",
+   "checks": [
+    {
+     "claim": "Owner Adrian Vargas, owner-operator (site: owned and operated by Adrian Vargas, US Marines)",
+     "result": "confirmed",
+     "note": "Homepage HTML contains 'owned and operated by Adrian Vargas who served in the US Marines and battled on t...'. The Iraq/Afghanistan wording is cut off in my grep but the Marines claim is confirmed."
+    },
+    {
+     "claim": "CO SOS: Mountain Pro HVAC Services LLC, ID 20188004424, Good Standing, formed 12/18/2018, agent Adrian Eduardo Vargas",
+     "result": "confirmed",
+     "note": "Fetched the SOS page. All fields match. Principal office is 4519 S Ireland Ln, Aurora CO 80015, consistent with the lead's Aurora note."
+    },
+    {
+     "claim": "Company phone +1 720-643-2018, 'Call or Text'",
+     "result": "confirmed",
+     "note": "Appears in page text and JSON-LD telephone 7206432018."
+    },
+    {
+     "claim": "Generic email support@mountainprohvac.com; no owner email",
+     "result": "confirmed",
+     "note": "Found twice in the homepage source. No personal owner email found, and the lead correctly marks the owner email 'Not found'."
+    },
+    {
+     "claim": "Website mountainprohvac.com loads (HTTP 200, Wix), single-entity, no franchise/chain",
+     "result": "confirmed",
+     "note": "HTTP 200. Meta description says 'locally owned family HVAC business out of Littleton'. No franchise text found."
+    },
+    {
+     "claim": "Address 2815 West Bryant Place, Littleton in JSON-LD",
+     "result": "confirmed",
+     "note": "streetAddress present in the source."
+    },
+    {
+     "claim": "Pain signal: single call/text line, no booking, no 24/7 or hours, form says 'We'll be contacting you soon!'",
+     "result": "confirmed",
+     "note": "Form message confirmed. No 24/7, emergency or after-hours text found. No GTM or Meta pixel in the source. Wix Chat is present (4 mentions). Footer reads '2019 Mountain Pro HVAC Services LL...'."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grepped both files for mountainpro, mountain pro, vargas and the phone. Zero matches."
+    },
+    {
+     "claim": "Google reviews, rating, LinkedIn, job posts, AI-search presence",
+     "result": "could-not-open",
+     "note": "The lead already marks these 'Not found / not checked'. My web search budget was exhausted, so I could not re-verify them. They are not asserted as facts, so no correction is needed."
+    }
+   ],
+   "corrected_fields": {},
+   "adjusted_score": 44,
+   "adjusted_confidence": "Medium",
+   "reason": "Owner name, company phone, generic email, SOS record and site-structure pain signals all verified against the live site and Colorado SOS; the lead is not a chain and is not on the suppression or seen lists. Review, AI-search and GHL checks remain open, so it stays WATCH/PROVISIONAL at 44."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passed the hard-disqualifier pass: family-owned single shop with no franchise or parent language; own working domain; live (newest review Sept 28, 2026, newest blog post Oct 15, 2026); phone plus forms; not a competitor; no AI receptionist found. No match on charlotteheatingair.com or \"Charlotte Heating\" in suppression.csv or seen.csv. GHL 'E4L Services' dedupe was NOT run (no access from this agent), so the score is PROVISIONAL. Score 47 = WATCH band. Main blockers: D4 (AI spot-check not run because this run's web-search budget was used up) and D3/D6 (GBP, Yelp, BBB, Indeed, ads checks not possible).",
+  "company_name": "Charlotte Heating & Air",
+  "niche": "HVAC",
+  "niche_segment": "core",
+  "website": "https://charlotteheatingair.com",
+  "street_address": "8621 Fairview Rd., Suite B (as shown in the site footer and on the Contact page; the site's JSON-LD says \"Suite D.\" with locality Charlotte, so this conflict needs a check against GBP)",
+  "city": "Mint Hill",
+  "state": "NC",
+  "zip": "28227",
+  "company_phone": "+1 704-330-3177 (footer label: \"Call or Text\"; shown in the header, footer and Contact page)",
+  "company_email_generic": "Not found. The Contact page is a form only, with no mailto. The JSON-LD \"email\" field holds the placeholder text \"Email\".",
+  "google_maps_url": "Not found as a public Maps URL. The site links its Google Business Profile at https://business.google.com/n/8996164023840823758/profile?fid=3153441058396167000 (not opened).",
+  "google_rating": "5/5 per the site's review widget and its AggregateRating JSON-LD. The GBP itself was not verified.",
+  "review_count": "32 per the site widget and JSON-LD. The 32 reviews on the site run from Jul 2021 to Sep 28, 2026, with only 1 in the last 90 days. The GBP count was not verified.",
+  "locations_count": "1 (one address on the site; no locations page; \"small, Charlotte rooted neighborhood business\")",
+  "founded_or_years": "Exact founding year not found. The founder relocated to Charlotte in 2004 and started the company \"after two decades in the industry\" (company page). The home page JSON-LD datePublished is 2017-09-01. Reviews on the site go back to July 2021.",
+  "team_size_estimate": "Roughly 6-12. Reviews from 2024-2026 name at least 7 staff: techs Martin, Caleb, Dalton, JD, Brian and Zo, plus Mary on the phones. Older reviews also name Matt, Mark and Drew. This is an estimate from reviews, not a published headcount.",
+  "service_area": "Charlotte, Matthews, Mint Hill, Wesley Chapel, Waxhaw, Pineville, Huntersville, Monroe, Stallings, Indian Trail and Weddington (site JSON-LD areaServed)",
+  "sub_services": "AC, heat pumps, gas furnaces, ductless (Mitsubishi), air ducts, air handlers, indoor air quality (REME HALO), zone control, commercial heating, cooling and IAQ, HVAC maintenance plans, financing. Brands: Trane, Amana, Mitsubishi, Honeywell.",
+  "owner_first_name": "Keith",
+  "owner_last_name": "Hudson",
+  "owner_title": "Founder (per the company's own About page). Current ownership title was not verified in NC SOS or the license board.",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found",
+  "owner_email_type": "None found",
+  "owner_email_confidence": "Not found",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found (not searched: web-search budget used up)",
+  "owner_other_socials": "Company Facebook: https://www.facebook.com/CharlotteHeatingAir (login wall, contents not readable). No owner-personal socials found.",
+  "owner_background": "Self-stated on the company page: \"After moving ... to Charlotte in 2004, company founder Keith Hudson pictured the kind of HVAC business he wanted to run after two decades in the industry. He started Charlotte Heating & Air with a simple vision: to offer the best products and service at a great price.\" A Dec 5, 2021 review on the site says \"Keith has a great team,\" which corroborates the first name. Name confidence is LIKELY: the full name has only one source, and NC SOS and the NC Plumbing/Heating license board were not checked.",
+  "owner_personality_cues": "Values-led, anti-hard-sell copy on the company page: \"Honesty Is Our Policy\", \"Our pricing is upfront\", \"We focus on teaching, not selling\", \"We will never rope you into contracts, nor will we sell you unnecessary parts and service\", \"We're not a huge corporation trying to expand profit margins\", \"family-owned and operated\", \"you'll quickly get to know our names\". Community footprint: sponsors the Mint Hill youth athletic association (MHAA), Matthews Athletic and Recreation Association, and a Community Utility Fund; member of the Mint Hill Chamber of Commerce (community-involvement page).",
+  "best_opening_moment": "His own \"teaching, not selling / never rope you into contracts\" stance, paired with the May 22, 2026 review where an overnight message was returned \"first thing\" by Mary. Open with respect for how they treat customers, then a no-pressure \"call the demo line yourself\" offer framed as after-hours and overflow coverage, never as a replacement for Mary.",
+  "attitude_type": "Family-Legacy Pride Brand (with Tech-Forward secondary signals)",
+  "attitude_evidence": "Family-Legacy: \"We pride ourselves on being a family-owned and operated business\"; founder story; \"Honesty Is Our Policy\"; youth-sports sponsorships and Mint Hill Chamber membership (https://charlotteheatingair.com/company/, https://charlotteheatingair.com/community-involvement/). Tech-Forward secondary: Housecall Pro chat bubble script (proChat.js) on every page, a ServiceTitan online scheduler embed on the maintenance-plans page, a BOOK ONLINE request form, a financing banner, and the review page notes \"They text you updates on their arrival\". GBP owner-reply tone and speed were not checked.",
+  "tech_adoption": "Medium-high. WordPress (Beaver Builder, WP Rocket), Gravity Forms with reCAPTCHA, Google Tag Manager (GTM-N3XQPJ7), Housecall Pro chat, ServiceTitan scheduler embed, PrevueAPS hiring portal, financing offer, accessibility widget (accessibilityresolved.com).",
+  "marketing_sophistication": "Medium. Twice-monthly \"Homesense\" blog posts (latest Oct 15, 2026), HVACBusiness/Organization plus AggregateRating JSON-LD, and assets served from an HVAC asset CDN (assets.bxb.media), which suggests a vertical web/content vendor; the vendor is not identified and no footer credit exists. GTM is present. No Meta pixel or call-tracking script was seen in the page source. Ads were not checked.",
+  "growth_stage": "Established and steady: one location, an 11-city service area, a \"We're Hiring!\" link sitewide (no open roles visible on the PrevueAPS portal when fetched), and a steady crew of named techs.",
+  "review_response_behavior": "Not checked. Google/Yelp owner replies were not accessible this run, and the site widget does not show replies.",
+  "after_hours_handling": "Goes to a message or voicemail, with callbacks the next morning. Quoted review (May 22, 2026, Chris C., on the site): \"Yesterday the upstairs AC quit leaving us sweltering and I left a message last night and Mary called me first thing this morning.\" Oct 22, 2022 review: \"I appreciate tgat customers cannot expect 24/7 service, but just picking up the phone meant the world.\" No 24/7, emergency, answering-service or AI-receptionist wording in the visible site copy. Contradiction worth noting: the site's JSON-LD schema lists openingHours \"Mo,Tu,We,Th,Fr,Sa,Su 00:00-00:00\", which means 24/7.",
+  "online_booking": "Yes. A \"BOOK ONLINE\" button links to the /request-service/ form (preferred day and time; Gravity Forms). A ServiceTitan scheduler script (embed.scheduler.servicetitan.com) is on the HVAC maintenance plans page.",
+  "chat_or_text_on_site": "Yes. Housecall Pro chat bubble (chat.housecallpro.com/proChat.js) loads site-wide, and the footer labels the main line \"Call or Text 704-330-3177\".",
+  "vendors_detected": "Housecall Pro (chat), ServiceTitan (scheduler embed on the maintenance-plans page), Google Tag Manager GTM-N3XQPJ7, WordPress + Beaver Builder + WP Rocket, Gravity Forms + Google reCAPTCHA, Font Awesome kit, accessibilityresolved.com, assets.bxb.media (HVAC product-image CDN; vendor unidentified), PrevueAPS (careers portal). No AI receptionist, answering service, Podium, Birdeye, CallRail or Meta pixel found in the page source.",
+  "ads_running": "Not checked. The web-search budget was used up, so no Google Sponsored, LSA or Meta Ad Library check was possible. No gclid, UTM or CallRail number swap was seen in the page source.",
+  "ai_search_presence": "Not checked: the web-search budget for this run was used up before the money-question checks (\"emergency HVAC repair near Mint Hill, NC\", \"HVAC company that answers the phone Charlotte, NC\"). Schema: HVACBusiness/Organization plus AggregateRating JSON-LD present; no FAQPage schema found on the home, company or contact pages. Named in ? of 0 AI answers: still to be run before any GEO-led outreach.",
+  "pain_signals": "1) After-hours calls go to a message (review, May 22, 2026): \"I left a message last night and Mary called me first thing this morning.\" 2) A past customer acknowledging no 24/7 coverage (Oct 22, 2022): \"customers cannot expect 24/7 service, but just picking up the phone meant the world.\" 3) Their own schema claims 24/7 hours while the visible site and reviews show business-hours phone coverage. 4) HVAC heating season is opening now in Charlotte; no-heat calls at night are the emergency wedge. The reviews otherwise PRAISE responsiveness: \"Within 30 minutes, I had an appointment\" (Jul 11, 2022) and \"Mark arrived within an hour of my call\" (Aug 2023), so this is an after-hours coverage gap, not a neglect story. No negative reviews found on the site.",
+  "trigger_events": "Seasonal: the heating season is opening, and the business is publishing winter/furnace content (blog posts Sep 15 to Oct 15, 2026; e.g. \"How Can I Lower My Heating Bill This Winter?\"). The homepage was modified 2026-10-06 (JSON-LD dateModified). A sitewide \"We're Hiring!\" link to PrevueAPS shows no roles visible when fetched. \"Now Offering Flexible Financing!\" banner (undated). Older: an Aug 2023 review says the owner of Kendal Air left the business and \"many of Ken's former employees have migrated to this company\" (absorbed a competitor's customers and staff, about 3 years ago). No dated trigger within 60 days confirmed.",
+  "lead_score": 47,
+  "score_breakdown": "BAND: WATCH, 47 / PROVISIONAL. Not TRUSTED because the GHL dedupe was not run and D4 has no evidence. Blockers: D4 (run one GEO money question and re-score) and D3/D6 (GBP, Yelp, BBB, Indeed and ads not checkable this run). If D4 comes back \"named in 0\" it could rise to about 57 = QUALIFIED.\nD1 Decision-maker: 8/20. Full name \"company founder Keith Hudson\" on the company's own About page (https://charlotteheatingair.com/company/), with first name corroborated in a Dec 2021 review (\"Keith has a great team\"). No published email (form only), no direct line, no LinkedIn found, so this is the call-first route.\nD2 Phone/after-hours gap: 15/15. Phone-first (704-330-3177 in the header and the \"Call or Text\" footer). HVAC is an inherently urgent niche. No 24/7, answering-service or AI wording anywhere visible. Direct gap proof: May 22, 2026 review, \"I left a message last night and Mary called me first thing this morning.\" GBP hours were not checked.\nD3 Lead-response leak: 0/15. Partial logged null. Checked all 4 review pages on the site (32 reviews, 2021-2026), the careers portal (no roles visible), and the page source (BOOK ONLINE form, Housecall Pro chat and ServiceTitan scheduler present, so no booking-friction signal). No responsiveness complaints; reviews praise speed. GBP reply rate, Yelp, BBB and Indeed were NOT checked.\nD4 AI search gap: 0/10. NO EVIDENCE: the AI spot-check was not run (search budget used up). HVACBusiness/AggregateRating JSON-LD is present; no FAQPage found.\nD5 ICP fit: 15/15. (a) \"family-owned and operated\", 1 location, named founder. (b) HVAC is a core niche. (c) Proxies: established 3+ years (site published 2017-09-01, reviews since Jul 2021); 7+ named staff in 2024-2026 reviews; HVAC install ticket $6-12k plus financing offered; 11-city service area in JSON-LD. Review velocity is weak (1 review in the last 90 days on the site).\nD6 Buying signals: 3/15. Soft activity only: twice-monthly blog posts (latest Oct 15, 2026) and steady review inflow; the heating-season window is inferred from the vertical and their winter content. Spend checklist: (a) Google Ads not checked; (b) LSA not checked; (c) Meta Ad Library not checked; (d) GTM only, no agency credit, no call tracking, no pixel; (e) no Podium, Birdeye, NiceJob or answering service. No dated trigger within 60 days.\nD7 Attitude/stack: 6/10. Positives: (b) modern maintained site (copyright 2026, modified 2026-10-06); (c) tech adoption (Housecall Pro chat, ServiceTitan scheduler, online booking, financing). The growth posture (e) is weak: a \"We're Hiring!\" link with no visible roles. No negatives found. Review-reply tone not checked. No confirmed bundled-agency conflict (the assets.bxb.media vendor is unidentified).",
+  "recommended_entry_offer": "Voice AI live demo built from charlotteheatingair.com, framed as after-hours and overflow coverage for no-heat calls that books into the schedule they already run (Housecall Pro / ServiceTitan), plus missed-call text-back. Position it as backup for Mary after hours, never as a replacement. Run the free GEO audit once D4 is checked.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "the message Mary returned in May",
+  "personalized_first_line": "Keith, one of your reviews from this May stuck with me: a customer's upstairs AC quit, they left a message that night, and Mary called them back first thing the next morning.",
+  "call_angle": "Seasonal no-heat urgency plus after-hours coverage. Their own reviews show night calls go to a message and get returned in the morning. In heating season, a homeowner with no heat at 9 p.m. often won't wait and calls the next company on Google. Offer a demo line trained on their site that answers after hours and on overflow, qualifies the caller and books straight into their existing schedule, so Mary starts the day with booked jobs instead of voicemails. Respect their \"teaching, not selling / no contracts\" values: they can hear it first and nothing is needed before that. Avoid anything implying Mary or the office are the problem.",
+  "likely_objection": "\"Mary handles our phones and we call everyone back first thing; our customers are happy.\" A variant: \"We already have Housecall Pro / ServiceTitan.\" Reply: it only picks up when nobody can (nights, weekends, while Mary is on another line) and books into the tool they already use; they can call the demo line and judge for themselves.",
+  "why_now": "Heating season is opening in the Charlotte area now (late October). Their own site is publishing winter/furnace content (Sep 15 to Oct 15, 2026 posts) and selling maintenance plans. No-heat calls after hours are exactly the calls that currently go to a message until \"first thing\" the next morning, per their May 2026 review.",
+  "notes_for_chosen": "WATCH / PROVISIONAL at 47, which is lower than the scout's pre-score of 58, mainly because the AI spot-check and the GBP, ads and BBB checks could not run (this run's web-search budget was used up). Re-run one money question (\"emergency HVAC repair near Mint Hill, NC\") and pull GBP hours and the review-reply rate before loading; that could move it into QUALIFIED. Reach is call-first: no email published anywhere, form only. The owner name Keith Hudson is LIKELY (own About page only); confirm it via NC SOS or the NC Plumbing/Heating license board before any personalized email. Tone: family-owned, honesty-first brand (\"We focus on teaching, not selling\"; \"never rope you into contracts\"). Keep it low-pressure and offer the demo line to try. Never suggest replacing Mary, who is named warmly in multiple reviews. The schema claiming 24/7 hours vs. reviews describing overnight messages is a useful, neutral talking point. The main line is labeled \"Call or Text\", but do not text: no consent. Address conflict: footer \"Suite B, Mint Hill\" vs. JSON-LD \"Suite D, Charlotte\".",
+  "business_hours": "Not found in the visible site copy or on GBP (GBP not checked). The site's JSON-LD claims \"Mo,Tu,We,Th,Fr,Sa,Su 00:00-00:00\" (24/7), but reviews show after-hours calls go to a message, so treat office hours as unconfirmed business hours.",
+  "timezone": "America/New_York (Eastern Time)",
+  "best_time_to_call": "Tue-Thu, 9:30-11:00 AM ET. Per the May 2026 review, Mary works the overnight messages \"first thing\" in the morning, and techs are dispatched early (a Jul 2026 review has a tech on site \"just after 8\"), so mid-morning avoids the callback and dispatch rush. Avoid Mondays (weekend backlog) and the morning after the first cold snap of the season. Second window: 1:30-3:00 PM ET.",
+  "call_opener": "\"Hi, is this Keith? Keith, it's Sam with E4L. This is a cold call, so feel free to hang up, but can I take 20 seconds to tell you why I called? ... I was reading your reviews, and one from May said a customer's AC quit at night; they left a message and Mary called them back first thing in the morning. Great service. But in heating season, a lot of people with no heat at 9 p.m. won't wait for morning; they call the next name on Google. We build an answering line trained on your own website that picks up those after-hours and overflow calls and books them into your schedule, and we'll set up a demo you can call yourself before you spend anything. Worth a 20-minute look with our founder?\"",
+  "gatekeeper_notes": "Mary answers the main line and returns messages. Reviews: \"Mary is also always so kind over the phone\" (Feb 26, 2026) and \"I left a message last night and Mary called me first thing this morning\" (May 22, 2026). After hours the line goes to a message (no answering service or AI found). Ask for Keith by first name (\"Is Keith in? It's Sam, quick question about after-hours calls\"). Be warm with Mary and never imply she misses calls; position the product as nights and overflow only. If Keith is out, ask Mary when he is usually in the office and whether he handles marketing decisions. No owner cell or direct line published. The main line is labeled \"Call or Text\", but do not text without consent.",
+  "evidence_links": "https://charlotteheatingair.com/company/, https://charlotteheatingair.com/reviews/, https://charlotteheatingair.com/reviews/page/2/, https://charlotteheatingair.com/reviews/page/3/, https://charlotteheatingair.com/, https://charlotteheatingair.com/contact/, https://charlotteheatingair.com/request-service/, https://charlotteheatingair.com/hvac-maintenance-plans/, https://charlotteheatingair.com/community-involvement/, https://charlotteheatingair.com/news/, https://charlotteheatingair.com/reviews/page/4/, https://charlotteheatingair.prevueaps.com/jobs/, https://www.facebook.com/CharlotteHeatingAir, https://business.google.com/n/8996164023840823758/profile?fid=3153441058396167000",
+  "research_confidence": "Medium",
+  "_target": "hvac-charlotte",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner/founder Keith Hudson named on company About page",
+     "result": "confirmed",
+     "note": "/company/ quotes 'company founder Keith Hudson' and 'family-owned and operated'. Single source only. NC SOS and license board were not checked, and web search budget is exhausted, so title 'Owner-operator' is inferred from 'founder'."
+    },
+    {
+     "claim": "First name Keith corroborated by Dec 5, 2021 review",
+     "result": "confirmed",
+     "note": "Mark R., Dec 5, 2021: 'Keith has a great team.' (reviews page 3)"
+    },
+    {
+     "claim": "Company phone 704-330-3177 and address 8621 Fairview Rd., Suite B, Mint Hill NC 28227",
+     "result": "confirmed",
+     "note": "Phone and address appear on /company/, /contact/ and the home page footer."
+    },
+    {
+     "claim": "No generic or owner email published",
+     "result": "confirmed",
+     "note": "Contact page is a form only with no mailto. Home page and company page list no email. owner_email = Not found is correct."
+    },
+    {
+     "claim": "Strongest pain signal: May 22, 2026 review, 'I left a message last night and Mary called me first thing this morning'",
+     "result": "confirmed",
+     "note": "Chris C., May 22, 2026, on /reviews/. Quote is verbatim. It is a mild signal (customer was served promptly next morning)."
+    },
+    {
+     "claim": "Oct 22, 2022 review 'customers cannot expect 24/7 service'",
+     "result": "confirmed",
+     "note": "John P., Oct 22, 2022, on /reviews/page/3/. The review is 4 years old."
+    },
+    {
+     "claim": "Not a chain or franchise; no parent language",
+     "result": "confirmed",
+     "note": "No franchise, parent or licensing language on the home, company or contact pages. Footer shows only a copyright line."
+    },
+    {
+     "claim": "Not in suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "grep for charlotteheatingair, 'charlotte heating', the phone number and 'hudson' found only an unrelated 'Hudsonville, Michigan' row in suppression.csv. Nothing in seen.csv."
+    },
+    {
+     "claim": "JSON-LD says Suite D / Charlotte and openingHours 24/7",
+     "result": "not-found-on-source",
+     "note": "WebFetch strips JSON-LD, so this could not be verified. The visible text says Suite B, Mint Hill. The 24/7 schema talking point is unverified and should not be used in outreach."
+    },
+    {
+     "claim": "Email, direct phone and LinkedIn for owner",
+     "result": "not-found-on-source",
+     "note": "Researcher also reports Not found, which is consistent. No guess substituted."
+    }
+   ],
+   "corrected_fields": {
+    "personalized_first_line": "Use only after owner name is confirmed. Do not cite the 24/7 schema contradiction, because it could not be verified.",
+    "notes_for_chosen": "Skeptic check: owner name Keith Hudson rests on the company About page plus a first-name-only review mention, so treat it as LIKELY. Confirm via NC SOS or the license board before a personalized email. No email exists, so this is call-first. The JSON-LD claims (Suite D, 24/7 hours) could not be verified and should not be used as talking points. Visible address is Suite B, Mint Hill. The pain signal is mild: the customer was called back the next morning and reviews praise responsiveness."
+   },
+   "adjusted_score": 45,
+   "adjusted_confidence": "Medium",
+   "reason": "Identity, phone, address, the May 2026 review quote and the non-chain and non-suppressed checks all hold. The owner name is single-source and the email is correctly Not found, so deliver with fixes: drop the unverifiable JSON-LD talking point, keep the name as LIKELY, and note the weak pain signal. Web search budget was exhausted, so no independent owner check was possible."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Every hard-disqualifier check passed: independent, family-owned LLC with one location; working own-domain site; active (BBB A+, 0 complaints, Google 289 reviews at 5.0); phone-first; not a competitor; no match in suppression.csv or seen.csv by domain, name or owner surname; no prior E4L demo or GEO audit in the repo. The score is PROVISIONAL (WATCH band) only because 3 of 7 dimensions have no evidence yet. That is a research gap, not a negative finding.",
+  "company_name": "4A Electrical Services, LLC",
+  "niche": "Electrical (residential electrician: panel upgrades, EV chargers)",
+  "niche_segment": "core",
+  "website": "https://www.4aelectricalservices.com",
+  "city": "San Antonio",
+  "state": "TX",
+  "street_address": "Jiggitty Dr, San Antonio, TX 78254 (street name as published in the site's JSON-LD. A third-party directory copying the GBP shows a house number. It may be a home-based address, so do not use it in outreach.)",
+  "zip": "78254",
+  "company_phone": "+1 210-621-8687",
+  "company_email_generic": "Not found. No mailto: on the homepage, /about or /contact. Contact is the Housecall Pro 'Send Us a Message' form. BBB shows only an 'Email this Business' form.",
+  "google_maps_url": "Not found (GBP not fetched directly; the GBP data used here was relayed by serviceagent.ai)",
+  "google_rating": "5.0",
+  "review_count": "289 Google reviews (via serviceagent.ai's GBP mirror, checked 2026-10-21)",
+  "locations_count": "1",
+  "founded_or_years": "Founded 2018. Site says 'Serving San Antonio homeowners and businesses since 2018'. BBB says 'Business started 4/25/2018', LLC. That makes 8 years. Founder Henry Alonzo has 'over 20 years of experience' per the homepage.",
+  "team_size_estimate": "Small crew, exact size not found. The site mentions 'The 4A Team' of licensed electricians plus support staff, with no staff named. BBB lists no employee count.",
+  "service_area": "San Antonio, Stone Oak, Alamo Ranch, Luckey Ranch, Helotes, Boerne, Leon Valley, Olmos Park, Castle Hills, Shavano Park, Universal City, Schertz, Bulverde, Spring Branch, Fair Oaks Ranch (homepage). The business covers residential, commercial and construction work, including new builds, remodels and contractor partnerships.",
+  "sub_services": "Residential: dedicated circuits, EV charger installation, lighting installations, panel upgrades, repairs and troubleshooting, surge protection, electrical safety inspections. Also commercial (offices, retail) and construction (new builds, remodels). Featured projects: Texas Regional Bank, Horseshoe Bay, Bulverde Crossing. Wisetack consumer financing ('Rates from 0% APR*').",
+  "owner_first_name": "Henry",
+  "owner_last_name": "Alonzo",
+  "owner_title": "Founder (website) / Managing Member (BBB). Licensed electrician, TECL #33618 shown on the site.",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found",
+  "owner_email_type": "None found",
+  "owner_email_confidence": "Not found",
+  "owner_direct_phone": "Not found. Only the main line +1 210-621-8687 is published, on the site header, /contact, BBB and the GBP mirror. No cell or owner-direct number is published.",
+  "owner_linkedin": "Not found (not searched; the shared web-search budget ran out mid-task)",
+  "owner_other_socials": "Company accounts linked from the site footer: https://www.facebook.com/4Aelectricalservices/ , https://www.instagram.com/4aelectricalservices/ , https://www.tiktok.com/@4aelectricalservices , https://www.youtube.com/@4aelectricalservices . Posting recency and whether the owner appears could not be read (pages render via JavaScript). No personal owner socials found.",
+  "owner_background": "Self-stated on the homepage: 'With over 20 years of experience, licensed electrician and founder Henry Alonzo built 4A Electrical Services on quality workmanship, safety, and reliable service for the San Antonio community.' The About page says the company was 'established in 2018' and is 'family-owned and operated'. License: Texas Electrical Contractor TECL #33618 (per the site; TDLR record not opened). BBB: Mr. Henry Alonzo, Managing Member, file opened 9/7/2021. No interviews, press or prior businesses found (not searched; budget exhausted).",
+  "owner_personality_cues": "From the site copy only (observed 2026-10-21): values-forward, safety and craftsmanship language. Quotes: 'built on Henry's commitment to quality workmanship, safety, and dependable electrical solutions' and 'personalized service and clear communication throughout every project'. Vision statement: 'San Antonio's most trusted electrical services provider', which signals reputation pride and ambition. Review-reply tone and voice not checked.",
+  "best_opening_moment": "The contact page (checked 2026-10-21) reads 'OFFICE HOURS Monday – Friday 8:00 AM – 5:00 PM. Emergency service may be available after hours.' The homepage hero says '⚡Need an electrician today? 210-621-8687'. So the business invites same-day calls but only commits to office hours, and the form promises a reply 'within one business day.' Open on the evening and weekend calls about panel and EV work that land outside 8 to 5.",
+  "attitude_type": "Tech-Forward Early Adopter (leaning, moderate evidence)",
+  "attitude_evidence": "Observed in the homepage source (2026-10-21): Housecall Pro 'Book Online' scheduler (housecallpro.com/book/4A-Electrical-Services-LLC), a Housecall Pro lead form, and a Housecall Pro review widget. Wisetack financing prequalification ('Prequalify Now', 'Rates from 0% APR*'). Google Tag Manager GTM-NF9MJSN2. Current WordPress/Elementor 4.3.5 build with WP Rocket. Electrician and LocalBusiness JSON-LD schema. '© 2025' footer. Four social channels linked. Counter-note: there is no 24/7 phone coverage claim, only 'Emergency service may be available after hours', so voice AI is the missing layer. Review replies, social cadence and ads were not checked, so Growth-Minded Operator cannot be ruled in or out.",
+  "tech_adoption": "High for a small shop: Housecall Pro (booking, lead form, reviews), Wisetack financing, GTM, LocalBusiness/Electrician schema, modern Elementor site. No chat, text-us, call tracking, or AI or answering-service vendor detected in the source.",
+  "marketing_sophistication": "Moderate. The site is self-built or built by an uncredited designer (no agency footer credit), uses GTM and schema, and has 289 reviews. No agency, call tracking or Meta pixel found in the homepage source. Paid ads not checked.",
+  "growth_stage": "Established and growing small business: 8 years old (2018), 289 Google reviews, residential plus commercial and construction lines, 15-community service area, consumer financing offered. No hiring or expansion evidence found (/careers returns 404; Indeed blocked).",
+  "review_response_behavior": "Not checked. GBP and Yelp review pages were not reachable (Yelp returned 403; search budget exhausted).",
+  "pain_signals": "(1) Contact page, verbatim: 'OFFICE HOURS Monday – Friday 8:00 AM – 5:00 PM. Emergency service may be available after hours.' This is a soft promise, with no 24/7 line. (2) Contact page, verbatim: 'Send a message and our team will respond within one business day.' (3) Homepage hero invites urgency: '⚡Need an electrician today? 210-621-8687', but nothing covers the phone after 5 PM or on weekends. (4) Published hours conflict across sources: GBP via serviceagent.ai shows Mon–Thu 7 AM–8 PM, Fri and Sat 7 AM–12 PM, Sun 7 AM–8 PM. /contact says M–F 8–5. The site JSON-LD lists both 'Mo-Su 09:00-17:00' and a 00:00–23:59 every-day block. A caller can't tell when a human will pick up. (5) Housecall Pro online booking exists, so form friction is NOT a leak. No review quotes about missed calls were collected (reviews not reachable).",
+  "trigger_events": "None found. Sources checked: /careers (404), Indeed company jobs page (403). Not checked because the search budget was exhausted: Google News, Facebook/Instagram posts, SOS filings, GBP posts, Meta Ad Library, Google Ads Transparency. Re-run the D6 sweep before outreach.",
+  "after_hours_handling": "No 24/7 claim. The contact page says 'Emergency service may be available after hours.' No answering service, AI receptionist or call-tracking vendor in the homepage source. After-hours inquiries appear to go to the Housecall Pro form/booking ('respond within one business day') or presumably to voicemail; voicemail is unverified, and Sam's first call records who answers.",
+  "online_booking": "Yes. Housecall Pro 'Book Online' (https://book.housecallpro.com/book/4A-Electrical-Services-LLC/...) for service or a free estimate.",
+  "chat_or_text_on_site": "No live chat or text-us widget detected in the homepage source. A Housecall Pro 'Send Us a Message' lead form is present.",
+  "vendors_detected": "Housecall Pro (booking, lead form, review widget), Wisetack (financing), Google Tag Manager (GTM-NF9MJSN2), WordPress + Elementor 4.3.5 (Hello Elementor theme) + WP Rocket. No Podium, Birdeye, CallRail, Meta pixel, chat or AI-voice vendor found.",
+  "ads_running": "Not checked (search budget exhausted; Google Sponsored/LSA units and Meta Ad Library not viewed). No gclid/CallRail dynamic number swap in the homepage source.",
+  "ai_search_presence": "not checked. The shared web-search budget was exhausted, so no money-question spot checks ran. Schema present: Electrician/Organization and LocalBusiness JSON-LD on the homepage; no FAQPage schema seen. Questions to run: geo/money-questions/electrical.json for San Antonio, TX.",
+  "lead_score": 44,
+  "score_breakdown": "44 / PROVISIONAL, band capped at WATCH. The score is provisional because only 4 of 7 dimensions carry evidence (minimum is 5). Missing: D3, D4, D6, because the web-search budget ran out. D1 Decision-maker: 8/20. Full name Henry Alonzo with role cited in two sources (site: 'founder Henry Alonzo'; BBB: 'Mr. Henry Alonzo, Managing Member'), but no published email, owner line or LinkedIn. Contact is form plus main line only, so this is a call-first / DEMO PATH lead. D2 Phone gap: 15/15. Phone-first ('⚡Need an electrician today? 210-621-8687' hero, 'Call Now' CTA). Electrical is an urgent niche. /contact: 'Monday – Friday 8:00 AM – 5:00 PM. Emergency service may be available after hours.' No answering service or AI vendor anywhere. D3 Lead-response leak: 0/15, NO EVIDENCE. Reviews and reply rate not reachable (Yelp 403, GBP not fetched). Job posts: /careers 404, Indeed 403. Online booking exists, so type 5 friction does not apply. D4 AI search gap: 0/10, NO EVIDENCE. No AI platform checked. LocalBusiness JSON-LD is present. D5 ICP fit: 15/15. Independent, family-owned, 1 location, core niche. Proxies: since 2018 (BBB start 4/25/2018), 289 Google reviews, Wisetack financing, panel/EV tickets ($400–3k+ electrical row), 15-community service area. D6 Buying signals: 0/15, NO EVIDENCE. Trigger and spend sweeps not run. Only GTM was found, with no pixel or call tracking. D7 Attitude/stack: 6/10. Positives: (b) modern SSL site with '© 2025'; (c) Housecall Pro booking, Wisetack financing, review widget. Housecall Pro coexists with E4L, so no penalty. Review-reply tone and social cadence not checked. No negatives found.",
+  "recommended_entry_offer": "Voice AI live demo: an AI receptionist demo line built from 4aelectricalservices.com, covering after-hours and overflow calls, with missed-call text-back. Electrical row of Chosen's matrix; D2 = 15, so demo_build = yes once the lead is promoted out of Watch.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "4A calls after 5 PM",
+  "personalized_first_line": "Henry, your contact page lists office hours of 8 to 5 on weekdays and says emergency service 'may be available' after hours. I'm curious what happens to the panel and EV charger calls that come in at 7 PM.",
+  "call_angle": "Missed-call / after-hours angle. The site invites same-day calls ('Need an electrician today?') and sells big-ticket panel upgrades and EV chargers with Wisetack financing, but the office runs M–F 8–5 and after-hours service 'may be available'. Offer to build a demo line trained on their own site that answers those evening and weekend calls, triages sparking or burning-smell emergencies, and books the estimate, so Henry hears it before paying anything. Qualify with: 'Who answers the phone after 5 or when you're on a job: you, voicemail, or nobody?'",
+  "likely_objection": "'We already have Housecall Pro: people can book online.' Reply: online booking catches the people who want to fill out a form. The ones who call at 7 PM with a breaker that won't reset want a voice, and they call the next electrician if nobody picks up. Second likely objection: 'I answer my own phone.' Reply: this only covers the calls that already go to voicemail while he's on a ladder.",
+  "why_now": "No dated trigger was found (the sweep could not run). The case for calling rests on the standing after-hours gap documented on their own contact page and on a high-ticket, financing-backed residential line (panels, EV chargers), where each unanswered evening call is a quoted job lost. Re-check for a hiring post or ad activity before the call to add a timely hook.",
+  "notes_for_chosen": "Route: call-first with Sam (DEMO PATH). No email exists anywhere public, so do not spend an email slot. The score is 44 / PROVISIONAL (WATCH) only because the shared web-search budget ran out before D3 (reviews, jobs), D4 (AI spot checks) and D6 (ads, triggers) could be checked. Identity, owner, phone gap and fit are solid. Before outreach, run a quick pass on: GBP reviews and reply rate, the 3 electrical money questions for San Antonio, Google/LSA/Meta ads, Henry's LinkedIn, and the TDLR record for TECL 33618. With those, it plausibly clears QUALIFIED. Flags: (1) The site shows a 'BBB Accredited A+' badge, but the BBB profile (checked 2026-10-21) says NOT accredited with an A+ rating, so never mention BBB accreditation. (2) Published hours conflict between GBP (Mon–Thu 7 AM–8 PM, Fri–Sat 7 AM–12 PM, Sun 7 AM–8 PM), /contact (M–F 8–5) and JSON-LD (both 9–5 daily and 24/7). (3) The address appears to be a residential street, so it stays out of copy. (4) The work mix includes commercial and construction, but the residential service line is clear.",
+  "business_hours": "Conflicting sources. Website /contact: 'OFFICE HOURS Monday – Friday 8:00 AM – 5:00 PM. Emergency service may be available after hours.' GBP via serviceagent.ai: Mon–Thu 7 AM–8 PM, Fri 7 AM–12 PM, Sat 7 AM–12 PM, Sun 7 AM–8 PM. Site JSON-LD lists both 'Mo–Su 09:00–17:00' and a 00:00–23:59 every-day block.",
+  "timezone": "Central Time (America/Chicago, CDT/CST)",
+  "best_time_to_call": "Tue–Thu 7:15–8:00 AM CT. The GBP lists the phone as open from 7 AM, before the website's 8 AM office open, and a founder-led crew is usually still at the shop or in the truck before the first job. Backup: 4:30–5:15 PM CT Mon–Thu, as office hours close and crews wrap up. Avoid Fri and Sat afternoons (GBP closes at noon).",
+  "call_opener": "Hi, is this Henry? Henry, this is Sam with Eat 4 Life Marketing. Full disclosure, this is a cold call. Can I have 20 seconds and you tell me if it's worth another minute? I was on your site: panel upgrades, EV chargers, Wisetack financing, 289 five-star reviews. But your contact page says the office runs 8 to 5 on weekdays and emergency service 'may be available' after hours. A lot of homeowners with a breaker that won't reset at 7 PM just call the next name on Google. We build an AI receptionist trained on your own business that answers those calls, flags the real emergencies and books the estimate, and we'll set up a demo line for 4A you can call yourself before you ever pay anything. Who's catching your calls after 5 right now: you, voicemail, or nobody?",
+  "gatekeeper_notes": "Main line +1 210-621-8687 is the only published number (site header, /contact, BBB, GBP). No owner cell, dispatcher or office-manager name is published. The About page mentions only unnamed 'support staff' on 'The 4A Team'. Ask for 'Henry Alonzo, the owner' by full name. If staff answers, use: 'It's about the after-hours calls; Henry would want to hear the demo we're building from your site,' and ask for the best time to catch him between jobs. If voicemail, leave one short message referencing the 8-to-5 office hours. Record who answered (human, voicemail, service) in Responses, because that updates D2.",
+  "evidence_links": "https://4aelectricalservices.com/contact, https://4aelectricalservices.com/, https://4aelectricalservices.com/about, https://www.bbb.org/us/tx/san-antonio/profile/electrician/4a-electrical-services-llc-0825-1000204879, https://serviceagent.ai/directory/texas/san-antonio/electrician/4a-electrical-services-llc/, https://www.facebook.com/4Aelectricalservices/, https://www.instagram.com/4aelectricalservices/, https://www.tiktok.com/@4aelectricalservices, https://www.youtube.com/@4aelectricalservices",
+  "research_confidence": "Medium",
+  "_target": "electrical-sanantonio",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver",
+   "checks": [
+    {
+     "claim": "Owner Henry Alonzo, founder (site) / Managing Member (BBB)",
+     "result": "confirmed",
+     "note": "Homepage says 'licensed electrician and founder Henry Alonzo'. The About page lists him as founder. BBB says 'Mr. Henry Alonzo, Managing Member'."
+    },
+    {
+     "claim": "Company phone +1 210-621-8687",
+     "result": "confirmed",
+     "note": "Matches the homepage hero, /contact, BBB and the serviceagent.ai mirror."
+    },
+    {
+     "claim": "No owner email and no generic email published",
+     "result": "confirmed",
+     "note": "No email on /, /contact or /about. BBB offers only a form. The only address on serviceagent.ai is help@serviceagent.ai, which belongs to the directory, not the business. The lead correctly says 'Not found'."
+    },
+    {
+     "claim": "Strongest pain signal: /contact hours M-F 8-5, 'Emergency service may be available after hours', 'respond within one business day'",
+     "result": "confirmed",
+     "note": "All three quotes match /contact verbatim. The homepage hero '⚡Need an electrician today?' is also confirmed."
+    },
+    {
+     "claim": "Conflicting hours: GBP mirror shows Mon-Thu 7-8, Fri/Sat 7-12, Sun 7-8",
+     "result": "confirmed",
+     "note": "serviceagent.ai hours match the lead exactly, and conflict with /contact (M-F 8-5). JSON-LD was not re-checked."
+    },
+    {
+     "claim": "289 Google reviews at 5.0",
+     "result": "confirmed",
+     "note": "Matches serviceagent.ai. This is a third-party mirror, not GBP directly, and the lead says so."
+    },
+    {
+     "claim": "BBB A+, 0 complaints, NOT accredited, started 4/25/2018; the site badge contradicts the BBB profile",
+     "result": "confirmed",
+     "note": "BBB: 'Not BBB Accredited', A+ rating, no complaints in 3 years, start date April 25, 2018. The homepage shows a 'BBB Accredited Business A+ Rating' badge, so the lead's warning not to mention accreditation is right."
+    },
+    {
+     "claim": "Independent, family-owned, single location, not a chain or franchise",
+     "result": "confirmed",
+     "note": "The site says 'Family-Owned & Operated' and 'locally owned'. No franchise or multi-location mention on / or /about. No chain evidence found."
+    },
+    {
+     "claim": "TECL #33618, over 20 years, since 2018, Wisetack, Housecall Pro",
+     "result": "confirmed",
+     "note": "Homepage shows 'TECL 33618', 'over 20 years of experience' and 'since 2018'. Wisetack financing text is present. Housecall Pro appears only in the book.housecallpro.com link URLs, not in visible text."
+    },
+    {
+     "claim": "Street address shown as 'Jiggitty Dr' and possibly residential",
+     "result": "confirmed",
+     "note": "serviceagent.ai shows 9207 Jiggitty Dr, 78254. BBB gives only the city and ZIP. The lead does not use the address in copy."
+    },
+    {
+     "claim": "Not in suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grepped 4aelectric, '4A Electric', alonzo, 621-8687 and '4a|alonzo|621' across suppression.csv (1161 rows), seen.csv (151 rows), targets.csv, run-log.csv, niche-decisions.csv and recipients.txt. No hits."
+    }
+   ],
+   "corrected_fields": {},
+   "adjusted_score": 44,
+   "adjusted_confidence": "Medium",
+   "reason": "Identity, owner, title, phone, the hours-based pain signal and the BBB caveat all check out against the cited pages, and the business is not a chain or on the suppression/seen lists. No email is claimed. The only limits are the unverified third-party GBP data and the provisional score, which the lead already discloses."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passed every hard disqualifier: one family-owned location with no franchise or parent (\"no investors\" per the About page), a working own-domain site, live business with Google reviews dated Oct 2026, phone and form present, not a competitor, no AI receptionist, and no match in suppression.csv or seen.csv. The GHL 'E4L Services' dedupe was not run (no access from this agent), so Rozel should check it. Score band is WATCH (44, TRUSTED), so this lead should be held, not loaded.",
+  "company_name": "Durbin Electric LLC",
+  "niche": "Electrical (residential and commercial electrician: repairs, panels, generators, EV chargers, surge protection, 24/7 emergency)",
+  "niche_segment": "core",
+  "website": "https://durbinelectricco.com",
+  "company_phone": "+1 502-532-1099 (main line: schema telephone, footer and BBB main). The header number +1 502-557-5105 is a CallRail dynamic-swap tracking number, so do not dial it.",
+  "company_email_generic": "info@durbinelectricco.com",
+  "street_address": "12005 Shelbyville Rd Ste B",
+  "city": "Louisville",
+  "state": "KY",
+  "zip": "40243",
+  "timezone": "America/New_York (Eastern)",
+  "service_area": "Jefferson, Shelby, Spencer, Oldham and Bullitt Counties, KY (About and Contact pages)",
+  "locations_count": "1 (12005 Shelbyville Rd Ste B). The site and BBB show a single location.",
+  "founded_or_years": "The site says \"Family-owned & run since 2012\" and \"founded in Louisville, KY in 2012\". BBB says Business Started 4/4/2013 (13 years) and BBB-accredited since 6/17/2019. The domain was registered 2013-04-12 (RDAP). The one-year gap is a minor conflict, not a CONFLICT flag. The About page also claims \"18+ Years Of Experience\".",
+  "google_rating": "5.0 (from the site's Google reviews widget; GBP not opened directly)",
+  "review_count": "188 Google reviews (from the site widget). Newest are dated 16 Oct 2026, with about 20 shown from 19 Aug to 16 Oct 2026. BBB has 2 customer reviews.",
+  "google_maps_url": "Not found",
+  "sub_services": "Electrical repair; installs and upgrades; whole-home standby generator installation; whole-home surge protectors; Level 1/2 EV charger installation; circuit breaker and panel replacement or upgrade; commercial electrical; electrical inspections; 24/7 emergency electrical; new home construction wiring; GoodLeap consumer financing.",
+  "team_size_estimate": "Estimated about 5 to 10, not confirmed. Mike Durbin plus technicians named in reviews (Trey, Carson, Jack; Eric is described as a trenching service). Four field roles were posted on 2026-10-01. BBB lists no employee count.",
+  "owner_first_name": "Mike (legal name Michael)",
+  "owner_last_name": "Durbin",
+  "owner_title": "Owner, Master Electrician (KY Master License ME64457; contractor license CE64581)",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "info@durbinelectricco.com (generic company mailbox only; no personal owner email published)",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found. BBB lists an unlabeled second number, +1 502-442-6388 (\"Unknown 1\"). Its role is unknown, so do not treat it as Mike's cell.",
+  "owner_linkedin": "Not found (LinkedIn X-ray not run because the web search budget ran out)",
+  "owner_other_socials": "Not found. The site has no social links in its footer or source.",
+  "owner_background": "From the About page: KY Master Electrician (ME64457), claims 18+ years of experience, and founded Durbin Electric in Louisville in 2012. The company is a member of IEC Kentuckiana and BIA Louisville and is an EATON Certified Contractor. The About page says Mike \"isn't a name lending his license from an office — he's in the field, working alongside our electricians and overseeing every job.\" A review dated 07 Oct 2026 names \"Mike\" planning a trenching job, which is consistent with that. Military history, prior career and press appearances were not found.",
+  "owner_personality_cues": "Values-led and plain-spoken. Signed quote: \"We treat every panel, every outlet, every wire like it's protecting our own family.\" The site's written promises include: \"Our Word Is Our Bond\"; \"No Commission, No Pressure, No Games\" (techs are paid hourly); \"The Buck Stops Here — no investors, no chain of command\"; \"We Show Up. Period.\"; and shoe covers on every job. He is proud of his people answering the phone: \"When You Call, You Get Us — No overseas call centers, no third-party answering services, no scripts.\" Expect pride in that human-answer promise, and respect for straight talk with no hype.",
+  "attitude_type": "Growth-Minded Operator (with a strong human-answer brand promise, which is a Traditionalist-style copy signal)",
+  "attitude_evidence": "Growth signals:\n- Careers page JobPosting schema lists 4 field roles (Apprentice, Journeyman, Master Electrician, Service Technician), all datePosted 2026-10-01, with the line \"As a growing company…\".\n- Agency-built site (\"Web Design by One Thing Marketing\"). Sitemap lastmods run Aug to 9 Oct 2026, and the logo was uploaded in 2026/09, so the site looks recently rebuilt (not confirmed via Wayback).\n- CallRail number swap.\n- GoodLeap financing.\n- Text confirmations that include a photo of the technician.\n- BBB A+ accredited since 2019.\n- About 20 new Google reviews between mid-Aug and mid-Oct 2026.\n\nTraditionalist-style counter-signal: the copy says \"Every call is answered by a Durbin Electric employee… no third-party answering services, no scripts\" and \"A real, local person picks up the phone, 24/7.\"\n\nNo hostile or negative signals were found.",
+  "tech_adoption": "Moderate-high. Site stack: WordPress with the Avada/Fusion theme, Yoast SEO, LocalBusiness/Electrician JSON-LD, CallRail dynamic number insertion, Contact Form 7 with reCAPTCHA, a Business Reviews Bundle Google review widget, and GoodLeap financing. They send appointment texts with a technician photo (vendor not identified). There is no online scheduler and no chat widget.",
+  "marketing_sophistication": "Medium. A local agency (One Thing Marketing, Louisville web design and SEO) built the site. Service pages are city-targeted (louisville-*), the schema has areaServed for 5 counties, they use CallRail call tracking, and the copy is benefit-led. Ad platforms were not verified.",
+  "growth_stage": "Growing. Hiring 4 field roles (posted 2026-10-01), recent site build, steady review inflow, and a 5-county service area.",
+  "review_response_behavior": "Not verified. GBP owner replies were not opened; the site widget does not show replies. BBB shows 0 complaints in 3 years.",
+  "business_hours": "\"Open 24 Hours\" per the site footer and Contact page, with schema OpeningHoursSpecification present. Emergency service is advertised as \"24/7 dispatch\". BBB lists no hours; its description says \"Work Nights and Weekends at No Extra Charge!\", while the site FAQ says \"Emergency calls may include an after-hours dispatch fee\" (minor conflict).",
+  "after_hours_handling": "The company claims its own employees answer live 24/7. The About page says: \"Every call is answered by a Durbin Electric employee who knows our team… No overseas call centers, no third-party answering services, no scripts.\" The homepage FAQ says: \"We answer calls 24/7 with real people, no answering service.\" Who actually carries the phone overnight (owner, tech on call, or office) is not stated publicly. The only way to verify is Sam's first-call note.",
+  "online_booking": "None found. There is a \"Request Service\" form (/request/) and a contact form promising a reply \"within one business day, and often much sooner\". No scheduler script (Calendly, Housecall Pro, ServiceTitan, Jobber) is in the page source.",
+  "chat_or_text_on_site": "None found in the page source (no Podium, Tidio, tawk, Intercom or LeadConnector chat). They do send outbound appointment-confirmation texts, per the FAQ.",
+  "vendors_detected": "From the page source:\n- CallRail (cdn.callrail.com/companies/674385720/.../swap.js)\n- WordPress with Avada/Fusion Builder\n- Yoast SEO\n- Contact Form 7 with Google reCAPTCHA\n- Akismet\n- Business Reviews Bundle (Google reviews widget)\n- Metronet Profile Picture\n- Easy Table of Contents\n\nFrom page copy and the footer:\n- GoodLeap financing (financing page)\n- \"Web Design by One Thing Marketing\" (onethingmarketing.net, Louisville). This is a local web/SEO agency, not a bundled vertical agency.\n\nNo AI receptionist or answering-service vendor was detected.",
+  "ads_running": "Probable, not confirmed. The CallRail dynamic number swap script is on every page, and the header number (502-557-5105) differs from the schema and footer number (502-532-1099), which is source-level call tracking. The rubric counts this as a Google Ads landing-page signal. Google Ads Sponsored results, the LSA badge and the Meta Ad Library were NOT checked because this run's web search budget was used up.",
+  "ai_search_presence": "Not checked. The run's web search budget was used up and no logged-out ChatGPT, Perplexity or Gemini session was available. The site does have Electrician/HomeAndConstructionBusiness LocalBusiness JSON-LD (areaServed, OpeningHoursSpecification, telephone, email) and on-page FAQ content (Avada FAQ). No FAQPage schema was found on the homepage.",
+  "pain_signals": "There is no direct leak evidence. The 20 newest reviews on the site widget praise speed (\"Technician was able to show up the same day\", 29 Aug 26; \"without crazy wait times\", 24 Sep 26), and BBB shows 0 complaints.\n\nThe indirect pain is the phone load from their own promise:\n- Their homepage names \"Phone Tag When You Need Help: Unable to pin someone down when you need help right away\" as a top customer frustration.\n- They promise \"A real, local person picks up the phone, 24/7\", answered only by Durbin employees, plus \"Quotes arrive within 24 hours\" and \"True emergencies are handled within 24 hours\".\n- Mike is \"in the field… overseeing every job\".\n- They are hiring 4 field roles at once.\n\nTogether these mean the 24/7 answering burden sits on a small team that is adding crew. Overflow and after-hours backup is the only honest angle.",
+  "trigger_events": "1. Four field job postings (Electrical Apprentice, Journeyman Electrician, Master Electrician, Service Technician), all datePosted 2026-10-01 in the JobPosting schema at https://durbinelectricco.com/careers/. These are growth roles, not front-office roles.\n2. The site appears newly built or rebuilt by One Thing Marketing. The sitemap shows all service pages with lastmod 2026-10-08/09, privacy 2026-09-14, the sitemap page 2026-08-11, and the logo file under /uploads/2026/09/. Not confirmed via Wayback, so it is not scored as a dated trigger.\n3. Review inflow continues: about 20 Google reviews between 19 Aug and 16 Oct 2026, per the site widget.",
+  "lead_score": 44,
+  "score_breakdown": "D1 Decision-maker: 8/20. Full name and role cited from two sources: the site (\"Mike Durbin, Master Electrician & Owner\") and BBB (\"Mr. Michael K. Durbin, Owner\"). The only email is the generic info@durbinelectricco.com. No owner LinkedIn or direct line was found; BBB's second number 502-442-6388 is unlabeled.\n\nD2 Phone gap: 0/15. The site states its own staff answer live 24/7: \"Every call is answered by a Durbin Electric employee… no third-party answering services\" (/about/) and \"We answer calls 24/7 with real people, no answering service\" (homepage FAQ). The rubric scores 0 for this.\n\nD3 Leak evidence: 0/15. Logged null. Checked the 20 newest Google reviews in the site widget (all praise speed, e.g. \"show up the same day\"), BBB (0 complaints in 3 years), the careers page (field roles only, no CSR or dispatcher), and the page source (no booking or chat, but the contact form promises a reply within one business day).\n\nD4 GEO: 0/10. NO EVIDENCE. The AI platform check was not run because the web search budget was used up. Schema found: Electrician LocalBusiness JSON-LD and FAQ content.\n\nD5 ICP fit: 15/15.\n- Ownership: family-owned, 1 location, \"no investors\".\n- Niche: core electrical.\n- Ability to pay, 3+ proxies: in business since 2012 (BBB 2013); 188 Google reviews with about 20 in 60 days; named crew (Trey, Carson, Jack) plus 4 open roles; panel, generator and EV tickets plus GoodLeap financing; 5-county area with 24/7 emergency service.\n\nD6 Buying signals: 11/15. Paid-media signal (a), a CallRail dynamic number swap (swap.js, with the header number differing from the main line), plus spend group (d), the agency credit \"Web Design by One Thing Marketing\". No confirmed dated trigger: the 2026-10-01 posts are field roles, and the redesign rests on sitemap evidence only. Google Ads, LSA and Meta Ad Library were not checked.\n\nD7 Attitude and stack: 10/10. Net 3+ positives with no negatives:\n- Modern site (© 2026, SSL, recent build).\n- Tech adoption (financing, text confirmations with tech photo, review widget, CallRail).\n- Growth posture (hiring 4 roles, BBB A+, IEC and BIA memberships).\nA local web/SEO agency is not a bundled vertical-agency conflict.\n\nTOTAL 44, status TRUSTED (6 of 7 dimensions have evidence, D1 is positive, D2 has a direct quote, D5 has evidence), band WATCH. The blocker is D2/D3: their own 24/7 human-answer claim and no leak evidence. D4 is unrun and could add up to 10 if the GEO check is run (max about 54, still WATCH).",
+  "recommended_entry_offer": "Voice AI live demo, per Chosen's matrix, but framed strictly as an overflow and after-hours backup behind their human 24/7 line (it picks up only when the on-call person is already on a call or driving, then texts them the caller's details). Pair it with the free AI Search Visibility audit as the lower-friction door-opener, because the missed-call pitch runs straight into their \"a real person always answers\" brand.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Keeping Durbin's 24/7 promise as the crew grows",
+  "personalized_first_line": "Mike, your About page puts it in writing: every call gets answered by a Durbin employee, no answering service. With four field roles posted on October 1, that promise now covers a bigger crew and more calls landing at once.",
+  "call_angle": "Respect the promise, don't attack it. They have built the brand on a real person answering 24/7 and Mike working in the field. The question is what happens when two calls hit at once, or the person carrying the phone at 2 AM is already on a sparking-panel call. Position the AI receptionist as overflow-only backup trained on their own site: it catches the second call, triages urgency (burning smell, sparking, power loss), takes name, number and job, and texts it to the on-call electrician. It never replaces their people. Offer the demo line built from durbinelectricco.com so Mike can hear it first. Secondary hook: the free AI search check for \"emergency electrician near Louisville, KY\" (run it before the call if possible).\n\nQualifying question: \"When the person on call is already on a call or driving to a job, where does the next call go right now?\"",
+  "likely_objection": "\"We answer our own phones. A real person 24/7 is our whole brand, and I don't want a robot talking to my customers.\"\n\nAnswer: it doesn't touch the calls they already answer. It only picks up the ones that would otherwise ring out or hit voicemail while the on-call person is busy, then hands that caller to their team by text. They can call the demo and decide for themselves. Possible secondary objection: \"We already have a marketing company\" (One Thing Marketing). Position E4L as complementary: phones and AI search, not web design.",
+  "why_now": "They posted 4 field roles on 2026-10-01 and appear to have just relaunched the site (sitemap updates through 9 Oct 2026, with CallRail tracking every source). More crew and more tracked inbound calls means more simultaneous calls on a team that has promised a live human every time. Winter outages and the standby-generator calls they advertise also add after-hours load. The last point is an inference from their services, not evidence about this business.",
+  "notes_for_chosen": "- Band: WATCH, score 44, TRUSTED. Hold; do not load to GHL unless you promote it by hand (manual override).\n- Main blocker is D2 = 0. Durbin's own site says employees answer every call live 24/7, so a standard missed-call pitch will land badly. Use only the overflow/backup frame, or lead with the GEO audit.\n- No reachability complaints were found; reviews praise speed. Re-check in 30 to 60 days, or immediately if a review mentions calls or response, or if a CSR or dispatcher job is posted.\n- Sam should dial +1 502-532-1099. The header number 502-557-5105 is a CallRail tracking number, and dialing it pollutes their call attribution.\n- BBB lists an unlabeled extra number, 502-442-6388. Its role is unknown; don't use it as Mike's cell.\n- Not run, because this run's web search budget was used up: the AI-search money questions, owner LinkedIn, KY SOS officer check, Google Ads/LSA/Meta Ad Library, Wayback redesign confirmation, GBP owner-reply read, and the GHL dedupe. A follow-up pass could close D4 and D6.\n- Minor conflict, don't raise it on the call: BBB says \"nights and weekends at no extra charge\", while the site FAQ mentions a possible after-hours dispatch fee.\n- Compliance: no prices quoted and no results promised.",
+  "best_time_to_call": "Tue–Thu, 7:30–8:15 AM ET, before crews head out. The About page says Mike is \"in the field, working alongside our electricians and overseeing every job\", so mid-day he is likely on a job. Fallback: 4:30–5:30 PM ET as jobs wrap. The line is advertised as answered 24/7, so someone will pick up at any hour, but these windows give the best odds of reaching Mike himself.",
+  "call_opener": "\"Hi, is this Mike? Mike, this is Sam with E4L. I'll be upfront, it's a cold call. Can I have 20 seconds, and then you tell me if it's worth any more? I was on your site, and you put it in writing that every call gets answered by a Durbin employee, no answering service, 24/7. That's rare, and with four new roles posted this month, more calls are coming in at the same time. We set up a backup that only picks up the calls your on-call guy can't get to, trained on your own website, and it texts him the job. We'll build you a demo line you can call and hear for yourself before anything else. Worth 20 more seconds?\"",
+  "gatekeeper_notes": "Per the About page, every call is answered by \"a Durbin Electric employee who knows our team\"; no office manager or dispatcher is named publicly. Technicians named in reviews: Trey, Carson, Jack (Eric is a trenching service). Ask for \"Mike Durbin\" by name. If he is in the field, ask when he is usually back on the phone (early morning or end of day), and whether info@durbinelectricco.com reaches him or someone else is better. Do not pitch the person answering, since that person is the role the overflow backup supports. No owner cell is published; BBB's extra number 502-442-6388 is unlabeled, so don't treat it as his cell. Log on the first call who actually answered (employee, owner, or voicemail); that updates D2.",
+  "best_opening_moment": "The About page \"When You Call, You Get Us\" promise (\"Every call is answered by a Durbin Electric employee… no third-party answering services, no scripts\"), combined with the four field roles posted on 2026-10-01. Opener (25 words or fewer): \"Your About page promises a Durbin employee answers every call; with four new roles posted, here's how that promise holds when two calls hit at once.\"",
+  "evidence_links": "https://durbinelectricco.com/about/, https://durbinelectricco.com/, https://www.bbb.org/us/ky/louisville/profile/electrician/durbin-electric-llc-0402-159144379, https://durbinelectricco.com/careers/, https://durbinelectricco.com/contact/, https://www.durbinelectricco.com/louisville-emergency-electrical-services/, https://www.durbinelectricco.com/financing/, https://www.durbinelectricco.com/reviews/, https://www.durbinelectricco.com/page-sitemap.xml, https://www.durbinelectricco.com/sitemap_index.xml, https://rdap.verisign.com/com/v1/domain/durbinelectricco.com, https://onethingmarketing.net/",
+  "research_confidence": "Medium",
+  "_target": "electrical-louisville",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver",
+   "checks": [
+    {
+     "claim": "Owner Mike (Michael K.) Durbin, Owner / Master Electrician",
+     "result": "confirmed",
+     "note": "Homepage source has 'Master Electrician & Owner'. BBB lists 'Mr. Michael K. Durbin, Owner'. About page names Mike Durbin and license ME64457 (CE64581 in footer)."
+    },
+    {
+     "claim": "Email info@durbinelectricco.com (generic only)",
+     "result": "confirmed",
+     "note": "Appears on the Contact page body and in the homepage and careers JSON-LD. No personal owner email found, and the lead honestly labels it generic."
+    },
+    {
+     "claim": "Main phone 502-532-1099; header 502-557-5105 is CallRail tracking",
+     "result": "confirmed",
+     "note": "Schema telephone and footer both show 532-1099. The header on the About and Contact pages shows 557-5105. The CallRail swap.js script is on the homepage and careers pages."
+    },
+    {
+     "claim": "BBB: second number 502-442-6388 unlabeled, 0 complaints, A+, accredited since 6/17/2019, started 4/4/2013, 2 reviews",
+     "result": "confirmed",
+     "note": "Matches BBB profile exactly, including the 'Unknown 1' label."
+    },
+    {
+     "claim": "Single location, family-owned, no franchise or parent",
+     "result": "confirmed",
+     "note": "About page says 'family-owned... founded in Louisville, KY in 2012' and 'no investors, no chain of command'. One address, 12005 Shelbyville Rd Ste B. No franchise or parent mentioned."
+    },
+    {
+     "claim": "Suppression and seen list check",
+     "result": "confirmed",
+     "note": "grep -i for 'durbin', the phone digits and the domain returned no matches in suppression.csv or seen.csv."
+    },
+    {
+     "claim": "Pain signal: own staff answer every call live 24/7, no answering service",
+     "result": "confirmed",
+     "note": "About page: 'Every call is answered by a Durbin Employee who knows our team... no third-party answering services, no scripts.' The lead correctly treats this as a weak or negative D2/D3 signal."
+    },
+    {
+     "claim": "Four field job postings dated 2026-10-01",
+     "result": "confirmed",
+     "note": "Careers JSON-LD has 4 JobPosting entries, all datePosted 2026-10-01: Electrical Apprentice, Journeyman Electrician, Master Electrician, Service Technician. 'As a growing company' appears on the page body, not in a job posting."
+    },
+    {
+     "claim": "188 Google reviews, 5.0, newest 16 Oct 2026",
+     "result": "confirmed",
+     "note": "The reviews page shows 5.0 on 188 reviews, with newest dates 16 Oct 26, 16 Oct 26, 12 Oct 26. No missed-call complaints in the visible reviews."
+    },
+    {
+     "claim": "Hours 'Open 24 Hours' and reply-within-one-business-day wording",
+     "result": "confirmed",
+     "note": "Contact page shows both, plus 'A real person from our team replies to every message.'"
+    },
+    {
+     "claim": "Agency credit 'Web Design by One Thing Marketing'",
+     "result": "confirmed",
+     "note": "Appears in the page source and is credited on the About page. Sitemap, GBP, Wayback and ad-library claims were not re-checked."
+    },
+    {
+     "claim": "Founding date conflict",
+     "result": "confirmed",
+     "note": "Site says 2012 and BBB says 2013. The About page also has inconsistent '18+ years' wording. The lead already flags this as minor."
+    }
+   ],
+   "corrected_fields": {},
+   "adjusted_score": 44,
+   "adjusted_confidence": "Medium",
+   "reason": "Identity, owner name and title, generic email, both phones, the CallRail note, the 4 field job postings, the review counts and the 24/7 human-answer pain signal all check out. The business is not a chain and is not in suppression.csv or seen.csv. The lead is already honestly scored at 44 (WATCH), so no fields or score change."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passes every hard disqualifier: independent and single-location (a Bryant dealer is not a franchise), own working site, Active TN for-profit corporation (2026 annual report filed 18 Sep 2026), phone-first, not in suppression.csv or seen.csv. Score is 41, which is WATCH and below the 55 delivery floor. The row is PROVISIONAL because D4 was not checked and GHL dedupe (ghl-contacts.js) was not run.",
+  "company_name": "BryKo Heating & Air Conditioning Co.",
+  "niche": "HVAC",
+  "niche_segment": "core",
+  "website": "https://www.brykohvac.com",
+  "company_phone": "+1 901-386-2538",
+  "company_email_generic": "brykoheatandac@att.net (published in the site's HVACBusiness JSON-LD in the page source at https://www.brykohvac.com/. It is not shown as visible text, and the contact page lists no email.)",
+  "street_address": "5302 Crestview Rd (site and TN SOS mailing address). BBB and the SOS registered-agent record give 5302 Crestview Dr.",
+  "city": "Memphis",
+  "state": "TN",
+  "zip": "38134",
+  "timezone": "Central (America/Chicago, CDT until Nov 1, 2026)",
+  "business_hours": "Mon-Fri 7:30 AM-5:00 PM CT; Sat-Sun closed (site contact page and openingHoursSpecification in the schema). The site also claims '24/7 Emergency Services' and a '24/7 answering service and after-hours tech support'. GBP hours were not checked.",
+  "best_time_to_call": "Tue-Thu 7:30-8:15 AM CT. The office opens at 7:30 and the playbook's trades window is 7:00-8:30 AM, so this catches the office before the day's service calls stack up. Backup is 4:00-4:45 PM CT, before the 5:00 PM close. Do not call on weekends (closed; calls go to the answering service).",
+  "call_opener": "Hi, is this Eddie? ... Eddie, this is Sam with E4L. This is a cold call, so can I have 20 seconds to tell you why I'm calling, and then you tell me if it's worth a conversation? I saw BryKo has been family-owned since 1967, and your site promises 24/7 emergency service through an answering service. Here's the thing: when a homeowner with no heat at 9 PM gets a message-taker, a lot of them just call the next name on Google. We build an AI receptionist trained on your own company that answers those after-hours calls, sorts out the true emergencies and books the next-morning slot. We'll build you a demo line you can call yourself before you spend a dollar. Worth 20 minutes with our founder to hear it?",
+  "gatekeeper_notes": "BBB lists 'Ms. Leigh Holden, Office Manager', so she most likely answers the main line during business hours. Be friendly, and present the product as after-hours and overflow coverage only, never as a replacement for the office. Ask for 'Eddie Gelston' (BBB: 'Mr. Eddie W. Gelston, President'). If Eddie is not the current decision-maker, ask for Curtis Gelston, who is the TN registered agent at the business address (per OpenCorporates). Calls after 5 PM and on weekends go to the '24/7 answering service' (vendor not named). No owner cell or direct line is published. The BBB fax is +1 901-385-9811 (do not use). The only named technician is 'Matt' in a customer review.",
+  "owner_first_name": "Eddie",
+  "owner_last_name": "Gelston",
+  "owner_title": "President (per BBB Business Management; middle initial W.)",
+  "owner_role_type": "Unknown",
+  "owner_email": "Not found (only the business mailbox brykoheatandac@att.net exists, from the site schema)",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Likely",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found (not checked: the WebSearch budget for this run was used up)",
+  "owner_other_socials": "Company Facebook only: https://facebook.com/BrykoHeatingAirConditioningCo/ (linked from the site; content is behind the Facebook login and could not be read). No personal owner socials found.",
+  "owner_background": "Not found beyond the title. BBB names Eddie W. Gelston as President. The TN SOS record (via OpenCorporates) lists CURTIS J GELSTON as registered agent at 5302 Crestview Dr, which ties the Gelston family to the business. The company itself dates to 1967 (site 'Family-Owned Since 1967'; BBB founding date 1967-08-01; BBB accredited since 1976). Generation, years as owner and the relationship between Eddie and Curtis were not found.",
+  "owner_personality_cues": "These are brand-level statements on the site, not owner-signed: 'Honest people, honest pricing'; 'We repair whenever repair makes sense and only recommend replacement when it is truly in your best interest — not just the more profitable choice' (FAQ schema); 'Family-Owned & Locally Operated'. BBB: A+, accredited, 0 complaints in 3 years. No owner-signed review replies were found on the site's review page.",
+  "best_opening_moment": "Now: the Memphis heating season is starting (mid-October), and the site's own FAQ asks 'Do you offer emergency heating repair in Memphis?'. The first cold snap brings no-heat calls after 5 PM and on weekends, which go to the answering service. Lead with the 1967 family legacy and 'Honest people, honest pricing'.",
+  "attitude_type": "Family-Legacy Pride Brand (medium confidence)",
+  "attitude_evidence": "3 signals across 2 source categories. (1) Website: 'Family-Owned Since 1967' and 'Family-Owned & Locally Operated' (https://www.brykohvac.com/, /about-us). (2) Website copy on honesty: 'Honest people, honest pricing' and 'only recommend replacement when it is truly in your best interest — not just the more profitable choice' (homepage schema/FAQ). (3) BBB: Accredited Business since 1976, A+, 0 complaints in 3 years, founding date 1967-08-01 (https://www.bbb.org/us/tn/memphis/profile/heating-and-air-conditioning/bryko-heating-ac-company-0543-327). No contrary signals found. Approach: respect the legacy, frame the product as protecting the name after hours, use a personal and slightly formal tone, and never suggest replacing the office manager.",
+  "tech_adoption": "basic. Customer-facing: SSL, contact form, 'Make a Payment' page; no online booking, chat or text-us. FAQPage and HVACBusiness JSON-LD are present but appear vendor-built (Duda reseller site).",
+  "marketing_sophistication": "unknown, leaning agency_managed. The site is a Duda reseller build (body class 'dmResellerSite'; cdn-website.com/multiscreensite.com assets). It has monthly city-targeted blog posts (Apr 28 to Sep 25, 2026, on /resources), GA4 (G-9JVPJTCD4H) and a Xandr/AppNexus (adnxs) pixel. No agency is credited in the footer, and there is no call tracking or Meta pixel.",
+  "growth_stage": "established (since 1967; one location; active TN corp with annual reports filed every year 2019-2026)",
+  "review_response_behavior": "unknown. The site's review page shows 14 five-star excerpts with no owner replies. GBP reply rate was not checked.",
+  "after_hours_handling": "An unnamed answering service. The site says 'You'll appreciate our 24/7 answering service and after-hours tech support' and 'Bryko provides 24/7 emergency HVAC service... Call any time and a technician will respond promptly'. Office hours are Mon-Fri 7:30-5:00 and closed Sat-Sun. The contact page gives no after-hours instructions. Whether the service books jobs or only takes messages is unverified; Sam should find out by asking.",
+  "online_booking": "None. The contact page has a form ('We will get back to you as soon as possible.') and the site has a payment page, but there is no scheduler in the page source.",
+  "chat_or_text_on_site": "None (no chat or text widget scripts in the homepage source)",
+  "vendors_detected": "Duda website platform (reseller/agency build; agency not named); Google Analytics 4 via gtag (G-9JVPJTCD4H); Xandr/AppNexus adnxs pixel (px id 1913472); Bryant (official dealer). None found: CallRail, Podium, Birdeye, ServiceTitan, Housecall Pro, Jobber, Meta pixel, chat tools, financing partners.",
+  "ads_running": "Not confirmed. A Xandr/AppNexus (adnxs) pixel in the page source suggests programmatic display or retargeting, but no Google Ads (AW-) tag or call tracking is present. Google Sponsored results, LSA and the Meta Ad Library were not checked because the WebSearch budget was used up.",
+  "ai_search_presence": "Not checked: the WebSearch budget for this run was used up, and no AI platform could be queried. Note that the site already carries FAQPage plus HVACBusiness JSON-LD, so D4 would cap at 6 even if BryKo is named in 0 answers.",
+  "pain_signals": "(1) Hours gap: 'Mon - Fri 7:30 am - 5:00 pm / Sat - Sun Closed' alongside '24/7 Emergency Services', with after-hours handled by '24/7 answering service and after-hours tech support' (https://www.brykohvac.com/contact, homepage). (2) Booking friction: no online scheduling, chat or text; the contact form promises only 'We will get back to you as soon as possible.' (https://www.brykohvac.com/contact). Counter-evidence: reviews praise responsiveness, e.g. 'Came out the same day I called & fixed my AC' and 'I called and had a tech there within two hours' (https://www.brykohvac.com/reviews). No review complaints about missed calls were found, no receptionist job posts were found, and BBB shows 0 complaints.",
+  "trigger_events": "No dated business-specific trigger found. The vertical calendar puts the Memphis heating season opening now (October), and the site's FAQ and blog push heating ('How to vet a residential heating contractor in Memphis, TN'). Routine TN annual report filed 18 Sep 2026 (not a trigger). Steady monthly blog posting Apr-Sep 2026. No hiring, expansion, ownership change or new site found.",
+  "lead_score": 41,
+  "score_breakdown": "D1 Decision-maker: 8/20 — full name and role cited from BBB ('Mr. Eddie W. Gelston, President'), with the Gelston family corroborated by the TN SOS registered agent 'CURTIS J GELSTON' at 5302 Crestview Dr (OpenCorporates). The only email is the business mailbox brykoheatandac@att.net (site JSON-LD), plus a staffed main line. No owner email, cell or LinkedIn, so call-first. | D2 Phone gap: 4/15 — phone-first (click-to-call throughout, HVAC is an urgent niche, closed Sat-Sun and after 5 PM while claiming '24/7 Emergency Services'). Scored at 4 because the site credits a '24/7 answering service and after-hours tech support', which makes the pitch a cost-replacement/upgrade conversation: book the job instead of taking a message. | D3 Leak evidence: 5/15 — one signal type, booking friction (no online booking, chat or text; the form promises only 'as soon as possible'; checked in page source). Reviews on /reviews praise speed ('tech there within two hours'), BBB has 0 complaints, and no job posts were found; GBP reviews and reply rate were not checked. | D4 AI search: 0/10 — NO EVIDENCE (the WebSearch budget was used up and no AI platform was queried). The site has FAQPage and HVACBusiness JSON-LD, so the cap would be 6. | D5 ICP fit: 15/15 — independent, single location, family-owned (site); core HVAC niche; proxies: since 1967 (site and BBB 1967-08-01), a service area of 5+ cities (Memphis, Cordova, Bartlett, Germantown, Collierville), 24/7 emergency service, and full system installs (HVAC install $6-12k reference row; review: 'replaced both in and out units'). | D6 Buying signals: 3/15 — soft activity only: monthly blog posts Apr 28 to Sep 25, 2026 (/resources). Checked: footer (no agency credit), view-source (GA4 and an adnxs pixel; no AW- tag, CallRail or Meta pixel), no careers page. Not checked: Google Sponsored, LSA, Meta Ad Library. | D7 Attitude/stack: 6/10 — positives: a modern, maintained site (SSL, dynamic copyright, content updated Oct 2026) and BBB A+ since 1976. No negatives found. The site is a Duda reseller build with schema and SEO blog (some vendor manages content; not named, so no conflict flagged). Owner review replies and social activity were not observed. | TOTAL 41 / PROVISIONAL → WATCH. Missing: D4 evidence; GHL 'E4L Services' dedupe not run. Blockers: D4 and the D2 answering-service credit.",
+  "recommended_entry_offer": "Voice AI live demo built from brykohvac.com, framed as 'books the job instead of taking a message' after hours and on weekends. Keep the existing answering service optional and position the product as after-hours/overflow only. Seasonal urgency angle: heating season and no-heat nights. Secondary: a free AI-visibility check once D4 is run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "BryKo's no-heat calls after 5",
+  "personalized_first_line": "BryKo has been family-owned since 1967, and your site promises Memphis homeowners a 24/7 answering service for the nights the heat goes out.",
+  "call_angle": "After-hours booking, not just answering. They already pay for a 24/7 answering service, so the question is whether a no-heat caller at 8 PM or on Saturday gets a booked next-morning slot or just a message. Qualify with: 'Who picks up after 5 right now, and does that service book the job or take a message?' Offer the free demo line trained on BryKo's own site (legacy since 1967, Bryant dealer, 'Honest people, honest pricing') so they can compare it to their current service. Respect the family legacy, and never imply replacing the office manager.",
+  "likely_objection": "'We already have a 24/7 answering service' or 'We've done fine for 59 years.' Response: keep whatever works. The demo line costs nothing to try, so call it and your current service on the same night and judge which one gets the customer on the schedule.",
+  "why_now": "Mid-October starts the Memphis heating season. The first cold snaps bring no-heat emergencies that happen after the 5 PM close and on weekends, when the office is closed. The site's own FAQ ('Do you offer emergency heating repair in Memphis?') and heating blog show they are pushing heating work right now.",
+  "notes_for_chosen": "Benched from batch 5. Benched from batch 4 (verified 2026-10-15). WATCH (41/PROVISIONAL); below the 55 floor, so not for today's batch unless you override by hand. Facts first: Owner name comes from BBB only ('Eddie W. Gelston, President'). The SOS registered agent is Curtis J Gelston at the same address, so the family is confirmed, but the current decision-maker may be Curtis. Sam should ask for either. The scout's main point (no after-hours coverage) is weaker than reported: the site explicitly claims a '24/7 answering service and after-hours tech support', so D2 dropped to 4. The only email is brykoheatandac@att.net, found in page-source schema (generic, not owner-named; not shown on the contact page), so email is weak and this lead is call-first. Reviews on the site praise fast response, and BBB shows 0 complaints, so there is no verbatim missed-call pain to quote. The site is a Duda reseller build with FAQ schema and monthly SEO blogs, so some vendor already handles their web content (unnamed). Address mismatch: Crestview Rd (site, SOS mailing) vs Crestview Dr (BBB, registered agent). To promote it: run 3 HVAC money questions for Memphis on 2 AI platforms (D4), check GBP reviews and reply rate plus LSA/Meta Ad Library, run GHL dedupe, and have Sam learn on the first call whether the answering service books jobs. Limitation: the WebSearch budget for this run was used up, so LinkedIn, GBP, LSA, ads and AI checks were not done. A follow-up run can finish them.",
+  "evidence_links": "https://www.brykohvac.com/, https://www.brykohvac.com/contact, https://www.bbb.org/us/tn/memphis/profile/heating-and-air-conditioning/bryko-heating-ac-company-0543-327, https://opencorporates.com/companies/us_tn/000004207, https://www.brykohvac.com/about-us, https://www.brykohvac.com/reviews, https://www.brykohvac.com/resources, https://maps.app.goo.gl/YuraZwbE73XSAB6U8, https://facebook.com/BrykoHeatingAirConditioningCo/",
+  "research_confidence": "Medium",
+  "google_maps_url": "https://maps.app.goo.gl/YuraZwbE73XSAB6U8 (linked from the site; not opened)",
+  "google_rating": "Not found",
+  "review_count": "Not found (the site's /reviews page shows 14 five-star excerpts; BBB lists 0 customer reviews; the GBP count was not checked)",
+  "founded_or_years": "1967 (site 'Family-Owned Since 1967'; BBB founding date 1967-08-01; BBB accredited since 1976), about 59 years",
+  "locations_count": "1 (5302 Crestview Rd, Memphis, TN 38134)",
+  "team_size_estimate": "Not found. Small family team: BBB names a President and an Office Manager, reviews name a technician 'Matt', and the site claims 'over 100 years of combined HVAC experience'.",
+  "service_area": "Memphis, Cordova, Bartlett, Germantown, Collierville and 'neighboring areas throughout the metro region' (site)",
+  "sub_services": "HVAC repairs, HVAC installations (official Bryant equipment), preventative HVAC maintenance, residential heating, residential air conditioning, 24/7 emergency service, warranty work on Bryant units, online bill payment",
+  "disqualifier_check": "PASS. Chain/franchise: no (single location, family-owned; a Bryant dealer is not a franchise unit). Own website: yes, loads on HTTPS. Live US business: TN for-profit corporation #000004207 'Active', annual report filed 18 Sep 2026 (OpenCorporates). Inbound channel: phone plus contact form. Competitor/non-buyer: no. Already automated on both fronts: no (unnamed human answering service; no AI receptionist found). E4L world: no match in suppression.csv or seen.csv by name or domain (grep 'bryko' returned nothing). GHL 'E4L Services' dedupe NOT run. No 'no solicitation' notice seen.",
+  "_target": "hvac-memphis",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "grep -i for bryko, gelston, brykohvac and the phone digits returned no hits in either file."
+    },
+    {
+     "claim": "Owner Eddie W. Gelston, President",
+     "result": "confirmed",
+     "note": "BBB lists Eddie W. Gelston, President, and Leigh Holden, Office Manager. The company's own site names no owner, so the name rests on BBB alone, as the lead says."
+    },
+    {
+     "claim": "Curtis J Gelston is the TN registered agent, company Active, 2026 annual report filed 18 Sep 2026",
+     "result": "confirmed",
+     "note": "OpenCorporates shows Active, agent CURTIS J GELSTON, 5302 CRESTVIEW DR, and a 2026 Annual Report filed 18 Sep 2026. The mailing address is Crestview Rd, as the lead says."
+    },
+    {
+     "claim": "Company phone +1 901-386-2538",
+     "result": "confirmed",
+     "note": "The homepage, the contact page and BBB all show (901) 386-2538. BBB fax 385-9811 also matches."
+    },
+    {
+     "claim": "Generic email brykoheatandac@att.net appears in the page-source JSON-LD only, not visible text",
+     "result": "confirmed",
+     "note": "curl of the homepage source finds brykoheatandac@att.net. WebFetch's markdown view shows no email, and the contact page lists none, which matches the lead's caveat. It is a business mailbox, not an owner email."
+    },
+    {
+     "claim": "Pain signal: Mon-Fri 7:30-5:00, closed weekends, alongside 24/7 emergency claims and a 24/7 answering service",
+     "result": "confirmed",
+     "note": "The homepage shows those hours and the quoted '24/7 answering service and after-hours tech support' and '24/7 Emergency Services'. The contact page shows the hours but does not mention 24/7, so the lead cites the wrong page for the 24/7 claim; the homepage does support it."
+    },
+    {
+     "claim": "No online booking, chat or text",
+     "result": "confirmed",
+     "note": "The contact page has a form and a phone number only, with no scheduler."
+    },
+    {
+     "claim": "Not a chain or franchise; single location; Family-Owned Since 1967",
+     "result": "confirmed",
+     "note": "The homepage says 'Family-Owned Since 1967', lists one address, and calls the company an official Bryant dealer, which is not a franchise. No multi-location language."
+    },
+    {
+     "claim": "Vendor and stack details (GA4 G-9JVPJTCD4H, adnxs pixel id 1913472)",
+     "result": "confirmed",
+     "note": "Both strings are present in the homepage source."
+    }
+   ],
+   "corrected_fields": {
+    "owner_email_confidence": "N/A (no owner email; only the generic business mailbox, which is call-first only)",
+    "owner_email_type": "Generic business mailbox (not owner-specific)"
+   },
+   "adjusted_score": 41,
+   "adjusted_confidence": "Medium",
+   "reason": "Core facts check out (phone, BBB owner and title, SOS status, single location, not suppressed); the only fixes are the owner-email confidence label, which implied an owner email that does not exist, and a mis-cited 24/7 page; the lead stays WATCH at 41, below the 55 floor."
+  }
+ },
+ {
+  "qualified": true,
+  "company_name": "Clear Light Electric, Inc.",
+  "niche": "Electrical",
+  "niche_segment": "core",
+  "website": "https://clearlightelectric.com",
+  "city": "Raleigh",
+  "state": "NC",
+  "street_address": "9650 Strickland Rd. Suite 103-171 (per the website footer; ServiceAgent shows the Google profile as 9650 Strickland Rd #103). CONFLICT: BuildZoom's license record lists 5327 Collingswood Dr, Raleigh, NC 27609",
+  "zip": "27615",
+  "company_phone": "+1 919-264-3094",
+  "company_email_generic": "sales@clearlightelectric.com (published as a mailto: on the website. The domain has Google Workspace MX records, checked via dns.google on 2026-10-20)",
+  "owner_first_name": "Dennis",
+  "owner_last_name": "Zaccagnini",
+  "owner_title": "Owner, founder and licensed electrician",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found. The only email published is the company's sales@clearlightelectric.com mailbox, and nothing shows it is Dennis's personal inbox.",
+  "owner_email_type": "Role (owner@/sales@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found. The only number published anywhere is the main line, +1 919-264-3094 (site, Houzz, BuildZoom, Google profile via ServiceAgent).",
+  "owner_linkedin": "Not found (searched \"Dennis Zaccagnini Raleigh linkedin\" with no match)",
+  "owner_other_socials": "Not found for the owner personally. Company pages linked from the site: facebook.com/clearlightelectricinc/ (also facebook.com/clearlightelectric/), yelp.com/biz/clear-light-electric-raleigh, houzz.com/pro/clearlightelectric/clear-light-electric-inc, and a YouTube embed. Facebook and Yelp blocked logged-out fetches, so they are not verified.",
+  "owner_background": "Licensed NC electrician who founded the company. The site says \"Meet Dennis Zaccagnini, our founder\" and \"Dennis Zaccagnini, owner and licensed electrician, has built a team of the finest electricians in the area\" (https://clearlightelectric.com/). Expertise.com says \"Founded by electrician Dennis Zaccagnini.\" BuildZoom lists him as the principal on NC Electrical Contractors license L.29793 (active as of Jul 2026). The company claims 15+ years serving Wake County. The site's JSON-LD shows it was first published in 2017. Founding year: Not found.",
+  "owner_personality_cues": "From his own site: \"we pride ourselves on superior workmanship,\" and the reputation is \"built on honesty, reliability, being on-time and being on-budget.\" He is community-facing: the site shows a photo of \"Dennis Zaccagnini of Clear Light Electric, Raleigh Mayor Mary-Ann Baldwin, and Jim O'Mara of O'Mara Services,\" featured by Loc8NearMe (undated). He is proud of design-forward remodel work: \"Clear Light Electric's work featured on 'The Hazelnut House'\" (I-TEN Designs). The site testimonial he chose to show praises him for staying late and taking time to talk with homeowners. The CTA \"Risk-Free, Pressure-Free\" suggests he dislikes hard selling.",
+  "best_opening_moment": "The weekday start of posted hours (8:00-8:45 AM ET, Tue-Thu), before he is deep into a job site. Second choice: 5:15-6:00 PM ET near close. Use the site's own \"within one business day\" form promise and \"Closed Weekends\" hours as the specific observation.",
+  "attitude_type": "Unclear",
+  "attitude_evidence": "Fewer than 3 independent signals from 2+ source categories point to any one type, so per attitude-model.md this is Unclear. What I found: (1) He is a named owner-operator and BuildZoom lists him as the only principal or employee, which leans Overwhelmed Owner-Operator. No reachability complaints were found, though, because Google reviews could not be read. (2) The site leans on pride and community: the mayor photo, the Hazelnut House feature, \"superior workmanship\" and \"honesty, reliability,\" which leans Family-Legacy Pride Brand. (3) No hiring, ads or expansion signals were found, so it does not read as Growth-Minded. No hostile or anti-marketing signals were found.",
+  "tech_adoption": "basic. The site runs SSL on WordPress (WP Engine, Themeco X theme, Yoast) with a Gravity Forms contact form and reCAPTCHA. It accepts QuickBooks Payments for invoices online. Page source shows no online booking, chat or text-us widget, and no scripts from calendly, housecall, jobber, servicetitan, podium, birdeye, tidio or tawk.",
+  "marketing_sophistication": "diy (likely). The only tracking is GA4 (G-BG3GE66D5P). Page source has no Google Ads (AW-) tag, Meta pixel or call tracking, and no agency credit. The title tag \"#1 Raleigh Electrician | Fast, Affordable & Free Estimates\" shows basic self-managed SEO.",
+  "growth_stage": "established. The site claims 15+ years, the site has been live since 2017, the license is active, and BuildZoom shows 912 permits (134 in 2025, 54 in 2026 to date). Review velocity is unknown.",
+  "review_response_behavior": "unknown. Google reviews could not be read. Yelp and Facebook returned 403 or a login wall. Houzz shows 1 review and no replies.",
+  "after_hours_handling": "hours_only. Site footer: \"Mon - Fri 8:00 a.m. - 6:00 p.m. Closed Weekends.\" The Google profile (via ServiceAgent) shows Mon-Fri 8 AM-6 PM, Sat-Sun Closed. The contact form says: \"Save time by filling out our self-service form. We'll reach out to you within one business day.\" The site, services page and page source mention no answering service, AI receptionist or emergency line. The homepage meta description (SEO snippet only, not visible on the page) does say \"Electrical Service 24/7,\" which contradicts the posted hours.",
+  "online_booking": "None. CTAs are \"Get Your Free Quote,\" \"Request a Free Estimate,\" \"Schedule Your Consult (Risk-Free, Pressure-Free)\" and \"Schedule Your Site Visit,\" all leading to the Gravity Forms form or the phone. Page source has no scheduling-vendor script.",
+  "chat_or_text_on_site": "None. There is no chat, text-us or SMS widget in the page source of / or /contact/.",
+  "vendors_detected": "WordPress on WP Engine (clearlight.wpengine.com assets), Themeco X/Cornerstone theme, Yoast SEO schema, Gravity Forms with reCAPTCHA, Google Analytics 4 (G-BG3GE66D5P) via googletagmanager, QuickBooks Payments for invoices, Google Workspace email (MX aspmx.l.google.com), and a YouTube embed. No answering service, AI voice, review tool or call tracking was detected.",
+  "ads_running": "Partly checked. The page source has no Google Ads conversion tag (no AW- ID), no Meta pixel and no CallRail or dynamic number swap. I could not view Google sponsored or LSA units or the Meta Ad Library from this agent. No paid-media evidence was found.",
+  "ai_search_presence": "I could not run logged-out checks on ChatGPT, Perplexity or Gemini, so this is not checked (D4 = NO EVIDENCE). As a web-search proxy, I ran 2 money-question searches (\"best electrician for panel upgrade Raleigh NC\" and \"EV charger installation electrician Raleigh NC recommended\"). Clear Light Electric was not named in either. Named instead: Levolt Electric, M-Power Electric, Royal Electric Services, Triad Electrical Services, Electric All Pro, Harris Electrical Contractors and Mr. Electric of West Raleigh. The site has no LocalBusiness or FAQPage JSON-LD, only Yoast WebPage, WebSite and BreadcrumbList.",
+  "pain_signals": "1) Hours gap: \"Mon - Fri 8:00 a.m. - 6:00 p.m. Closed Weekends\" (https://clearlightelectric.com/), confirmed by the Google profile hours via ServiceAgent. 2) Slow form response by design: \"We'll reach out to you within one business day\" (https://clearlightelectric.com/contact/). 3) No booking, chat or text-back. Every web lead waits for a human callback. 4) There is an advertised-vs-actual gap: the meta description promises \"Electrical Service 24/7\" but the business is closed evenings and weekends. 5) The owner is the only principal or employee listed on BuildZoom, and high-ticket services are listed: \"Panel/Service Changes,\" \"Manual/Automatic Transfer Switch/Generators,\" \"Electric Car Charger Installation.\" No review complaints were found because Google reviews were inaccessible, and no receptionist job post was found.",
+  "trigger_events": "None found dated within 180 days. Checked: job-post search (no Clear Light posting), site homepage (JSON-LD dateModified 2026-05-06, which is a content edit, not a redesign) and BuildZoom (latest listed permit 2025-11-14). The undated mayor photo and Hazelnut House feature are not dated triggers.",
+  "google_rating": "4.9 (Lantern/ServiceAgent, pulled from the Google profile; Expertise.com shows 4.9). Yelp 5.0 (7 reviews) and Facebook 5.0 (8 reviews), both per Expertise.com.",
+  "review_count": "45-46 Google reviews (ServiceAgent: 45; scout via Lantern: 46; Expertise.com: 43)",
+  "google_maps_url": "Not found (the Google profile could not be opened directly. ServiceAgent mirrors its data at https://serviceagent.ai/directory/north-carolina/raleigh/electrician/clear-light-electric/)",
+  "locations_count": "1",
+  "founded_or_years": "15+ years per the site (\"With over 15 years of experience serving Wake County\"). The website has been live since 2017 (JSON-LD datePublished 2017-01-05). Exact founding year: Not found.",
+  "team_size_estimate": "Small. The site says Dennis \"has built a team of the finest electricians,\" but no staff are named. BuildZoom lists Dennis Zaccagnini as the only employee or principal. Exact headcount: Not found.",
+  "service_area": "Raleigh and the Triangle: Durham, Cary, Apex, Morrisville, Garner, Holly Springs and Knightdale (site footer), plus Wake County",
+  "sub_services": "Residential: panel and service changes, generators and transfer switches, smart home wiring, recessed and LED retrofit, under-cabinet lighting, kitchen and bath remodels, room additions and sunrooms, whole-house renovations, new construction and custom home wiring, pool, hot tub and sauna wiring, landscape lighting. Commercial: troubleshooting, diagnostic and repair, renovations and fit-ups, fixture and ballast replacement, data and voice wiring, energy savings, system upgrades, EV charger installation (https://clearlightelectric.com/services/)",
+  "business_hours": "Mon-Fri 8:00 AM-6:00 PM ET. Closed Saturday and Sunday. The website and the Google profile (via ServiceAgent) agree.",
+  "timezone": "America/New_York (ET)",
+  "best_time_to_call": "Tue-Thu 8:00-8:45 AM ET, at the start of posted hours. Dennis is the only principal on public records and the owner-electrician, so this is the likeliest window before he is on a job site. Fallback: 5:15-6:00 PM ET as crews wrap up. Avoid Mondays (form backlog from the weekend, since the form promises \"within one business day\") and weekends (closed).",
+  "call_opener": "\"Hi, is this Dennis? Dennis, this is Sam with E4L. Full honesty, this is a cold call. Can I take 20 seconds to tell you why I called, and you tell me if it's worth a conversation? ... I was on Clear Light's site. You're closed weekends, and the contact form says you'll reach out within one business day. So a Saturday panel or EV-charger call usually goes to the next electrician on Google. We build a demo line trained on Clear Light's own website that answers those calls and books the site visit, and you can call it yourself before you ever pay anything. Would 20 minutes with our founder to hear it be worth it?\"",
+  "gatekeeper_notes": "No office manager, dispatcher or receptionist is named on the site, Houzz, BuildZoom or job boards. BuildZoom lists Dennis Zaccagnini as the only employee or principal, so the main line (+1 919-264-3094) likely reaches Dennis or his voicemail directly. ServiceAgent's Google-derived data tags it \"Speak to a representative / Direct line.\" No answering service was found. No owner cell is published. If someone else answers, ask for Dennis by name. If it goes to voicemail, leave a short message and retry in the 8:00 AM ET window. Note who answers (human, voicemail or service) to update D2. Do not reference family members pictured on the site.",
+  "lead_score": 44,
+  "score_breakdown": "44 / PROVISIONAL, capped at WATCH. Missing evidence: D3, D4, D6. Hard-disqualifier pass: PASS (independent single location, not a franchise, working own-domain site, active NC license L.29793 per BuildZoom, phone and form present, no AI receptionist, no match in suppression.csv or seen.csv by domain or name. GHL dedupe not run from this agent). D1 Decision-maker: 8/20. Full name and role are cited on the company's own site (\"Dennis Zaccagnini, owner and licensed electrician\"), on Houzz, by Expertise.com (\"Founded by electrician Dennis Zaccagnini\") and by BuildZoom (principal). The only contact is the generic sales@ mailbox plus the main line. No personal email, direct line or LinkedIn. D2 Phone coverage gap: 15/15. Phone in the site header (\"(919) 264-3094\" twice), electrical is an inherently urgent niche, hours are \"Mon - Fri 8:00 a.m. - 6:00 p.m. Closed Weekends,\" the form says \"We'll reach out to you within one business day,\" and no answering service or 24/7 coverage is mentioned anywhere (meta description even claims \"Electrical Service 24/7\"). D3 Lead-response leak: 0/15, NO EVIDENCE. Google reviews were inaccessible and Yelp and Facebook blocked logged-out fetches. No job post was found. Booking friction exists (no booking, chat or text), but the form does state a response time, so signal 5 does not strictly qualify. Partial null only. D4 AI search gap: 0/10, NO EVIDENCE. ChatGPT, Perplexity and Gemini were not checked. Web proxy: not named in 2 searches, competitors named, no LocalBusiness or FAQ schema. D5 ICP fit: 15/15. (a) Independent, 1 location, owner named. (b) Electrical is a core niche. Proxies: 15+ years and a site live since 2017; per-job value of $1,000 or more (panel and service changes, generators, EV chargers; BuildZoom typical permit about $46.6k); service area of 7+ Triangle cities. D6 Buying signals: 0/15, NO EVIDENCE. No dated trigger. Page source has no Ads, Meta pixel or call tracking. Google sponsored and LSA units and the Meta Ad Library could not be checked (partial null). D7 Attitude and stack: 6/10. Positives: modern SSL WordPress site updated in May 2026, QuickBooks online payments, community and press visibility (mayor photo, Hazelnut House feature). No negatives. No incumbent agency (DIY, GA4 only). Net 1-2 positives.",
+  "recommended_entry_offer": "Voice AI live demo. Build a demo line from clearlightelectric.com, since D2 = 15 and the site is scrapable. Pair it with missed-call text-back for the closed-weekends and one-business-day form gap. Treat the free GEO audit as a secondary hook once the AI check is actually run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Clear Light's weekend calls",
+  "personalized_first_line": "Dennis, your site says Clear Light is closed weekends and that form requests hear back within one business day, so a Saturday panel or EV-charger inquiry sits until Monday.",
+  "call_angle": "Missed-call relief for an owner-electrician. The business is closed evenings and weekends, the form promises a reply \"within one business day,\" and it sells high-ticket panel changes, generators and EV chargers. Every unanswered inquiry is a homeowner who can call the next electrician. Lead with the free demo line built from Clear Light's own website that answers and books the site visit, then the qualifying question: \"Who answers the phone when you're on a job or on Saturday: you, voicemail, or nobody?\" Do not open with AI jargon or reviews. Keep it relief-first and low-pressure, matching his own \"Risk-Free, Pressure-Free\" language.",
+  "likely_objection": "\"Most of my work comes from builders, remodelers and referrals, so I'm not chasing calls.\" BuildZoom shows heavy remodel and home-addition permits (typical permit about $46.6k). Response: the demo costs nothing to hear, and it covers the residential service calls (panels, EV chargers, generators) that come in while he's on those remodel jobs.",
+  "why_now": "No dated trigger was found. The timing case is the standing gap: posted hours are closed weekends, the form promises a next-business-day reply, and there is no answering, booking or text-back layer, so high-ticket residential inquiries go unanswered right now. The site was edited as recently as May 2026, so the owner is still maintaining it.",
+  "notes_for_chosen": "Top-up lead verified 2026-10-20, held for the next batch. Band: 44 / PROVISIONAL, which puts it on WATCH (the scout pre-scored 66). Blockers are D3 (Google reviews unread), D4 (AI platforms not checked) and D6 (Ads, LSA and Meta Ad Library not checked). A 2-minute Sam call plus one real ChatGPT or Perplexity check would likely move it into QUALIFIED. The owner is named and confirmed by the company's own site plus 3 third-party sources. The only email is the sales@ mailbox (Google Workspace MX present), so this is call-first, not email-first. Cautions: (1) BuildZoom work mix is remodel and addition heavy, so part of the revenue is builder or bid driven. A residential service line does exist (panels, generators, EV, troubleshooting). (2) BuildZoom also shows stale or conflicting license entries (a Vance County record expired Jul 2025 and an inactive limited classification) next to the active L.29793. Verify on the NCBEEC lookup before any send. (3) Address conflict: Strickland Rd suite (site) vs. Collingswood Dr (BuildZoom). (4) The meta description says \"24/7,\" which contradicts the posted hours. Use it as context only and do not accuse. (5) The site pictures the owner's family. Do not reference it (owner-research ethics rule). Not checked: NC SOS officer record, Wayback, Google reviews, LinkedIn (none found).",
+  "disqualifier_check": "PASS. Not a chain or franchise (single location, independent, owner-founded). Working own-domain site (HTTP 200, SSL). Live U.S. business (active NC Electrical Contractors license L.29793 per BuildZoom, Jul 2026; permits through Nov 2025). Inbound channels exist (phone and Gravity Forms quote form). Not a competitor category. No AI receptionist or answering service detected. Has a residential service line, so not a new-construction-only subcontractor. No match for clearlightelectric.com or \"Clear Light Electric\" in /home/user/E4Lmarketing/lead-machine/data/suppression.csv or seen.csv. No \"no solicitation\" notice. GHL ghl-contacts.js dedupe was not run from this agent.",
+  "disqualified_reason": "None. No hard disqualifier fired.",
+  "research_confidence": "Medium",
+  "evidence_links": "https://clearlightelectric.com/, https://clearlightelectric.com/contact/, https://clearlightelectric.com/services/, https://www.buildzoom.com/contractor/clear-light-electric-inc, https://www.houzz.co.uk/pro/clearlightelectric/clear-light-electric-inc, https://www.expertise.com/nc/raleigh/electricians, https://serviceagent.ai/directory/north-carolina/raleigh/electrician/clear-light-electric/, https://lantern.llc/b/clear-light-electric-raleigh, https://dns.google/resolve?name=clearlightelectric.com&type=MX, https://todayshomeowner.com/near-me/north-carolina/raleigh/electrical/, https://lantern.llc/b/levolt-electric-raleigh/book, https://lantern.llc/b/m-power-electric-raleigh/book",
+  "_target": "electrical-raleigh",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner Dennis Zaccagnini, owner/founder and licensed electrician",
+     "result": "confirmed",
+     "note": "Homepage source reads 'Dennis Zaccagnini, owner and licensed electrician' and 'Dennis Zaccagnini, our founder'. Web search shows Houzz and Expertise.com saying the same."
+    },
+    {
+     "claim": "Company phone (919) 264-3094",
+     "result": "confirmed",
+     "note": "Appears on the homepage, on /contact/, on BuildZoom and in the Lantern listing."
+    },
+    {
+     "claim": "Company email sales@clearlightelectric.com published on site",
+     "result": "confirmed",
+     "note": "A mailto: link is on both the homepage and /contact/. No owner-personal email was claimed. The Google Workspace MX records were not re-checked."
+    },
+    {
+     "claim": "owner_email_confidence = 'Confirmed' while owner_email is 'Not found'",
+     "result": "contradicted",
+     "note": "Only a generic sales@ mailbox exists, and nothing ties it to Dennis. 'Confirmed' on the owner email is unsupported; the field should read Not found / n.a."
+    },
+    {
+     "claim": "BuildZoom lists Dennis as the principal on license L.29793 and as the only principal or employee",
+     "result": "contradicted",
+     "note": "BuildZoom does not state a principal. It lists Dennis only as 'Employee: Dennis Zaccagnini', so 'principal' is an overstatement. License L.29793 is active (Jul 2026), and the Vance County and limited-classification entries are conflicting or inactive, as the lead already notes."
+    },
+    {
+     "claim": "Address conflict: Strickland Rd Suite 103-171 (site) vs 5327 Collingswood Dr (BuildZoom)",
+     "result": "confirmed",
+     "note": "Both addresses appear as stated. The site footer and /contact/ show 9650 Strickland Rd., Suite 103-171, Raleigh, NC 27615. BuildZoom shows 5327 Collingswood Dr."
+    },
+    {
+     "claim": "Strongest pain signal: Mon-Fri 8-6, closed weekends, form replies 'within one business day', no chat or booking",
+     "result": "confirmed",
+     "note": "Hours and the form promise appear verbatim on /contact/. The homepage source shows no chat or booking widget. The only tracking tag found was GA4 G-BG3GE66D5P, with no AW-, fbq or callrail strings."
+    },
+    {
+     "claim": "Meta description says 'Electrical Service 24/7', contradicting the posted hours",
+     "result": "confirmed",
+     "note": "Confirmed in raw page source: 'Fast, Professional & Affordable Electrical Service 24/7'. WebFetch's markdown view did not show it, but curl did."
+    },
+    {
+     "claim": "Not a chain or franchise",
+     "result": "confirmed",
+     "note": "No location or franchise mentions on the site. The business is a single Raleigh company founded by the owner."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "grep for clearlight, clear light, zaccagnini and the phone number across all data CSV and txt files returned no matches (exit 1)."
+    }
+   ],
+   "corrected_fields": {
+    "owner_email_confidence": "Not found (no owner-specific email; only the generic sales@ mailbox exists)",
+    "team_size_estimate": "Small. The site says Dennis 'has built a team of the finest electricians', but no staff are named. BuildZoom lists Dennis Zaccagnini as the only employee on the license record. It does not call him principal. Exact headcount: Not found.",
+    "owner_background": "Licensed NC electrician who founded the company. The site says 'Meet Dennis Zaccagnini, our founder' and 'Dennis Zaccagnini, owner and licensed electrician, has built a team of the finest electricians in the area'. Expertise.com says 'Founded by electrician Dennis Zaccagnini.' BuildZoom lists him as an employee on NC Electrical Contractors license L.29793 (active as of Jul 2026) and does not state a principal. The company claims 15+ years serving Wake County. Founding year: Not found."
+   },
+   "adjusted_score": 44,
+   "adjusted_confidence": "Medium",
+   "reason": "Identity, owner name, phone, sales@ email and the hours/slow-form pain signal all check out on public sources, and the lead is a single-location business not on suppression.csv or seen.csv. Fix three things: owner_email_confidence 'Confirmed' contradicts 'Not found', and BuildZoom lists Dennis as an employee, not a principal."
+  }
+ }
+]
