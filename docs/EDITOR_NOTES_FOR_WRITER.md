@@ -65,3 +65,31 @@ Every subject should fall into one of six types, so we can test one type against
 - A **real number** for Shock and Awe, if he has one he's happy to put in writing.
 - A **real moment** for Personal Story beyond the current story bank.
 - Confirm the **first name in subject** merge works in GHL.
+
+---
+
+## 6. Chosen's real stories (added Oct 21)
+
+These come from Chosen himself, so they outrank the story bank in `references/voice.md`. Use his words and keep the details exactly as he gave them. Do not add a game year, a company name, a city, or an income figure unless he gives it to you.
+
+**The Mortal Kombat story (student list, S-A and S-B):**
+- He mastered Liu Kang and Jax in Mortal Kombat.
+- He then learned how to run ads, write emails and manage marketing campaigns.
+- His verdict, in his voice: the second one is way easier.
+- The bridge he draws: the time anybody has spent building up in gaming, in any genre, can be pointed at a laptop and AI to build an income that gives them the life they deserve.
+
+This is a Personal Story and a Combine at once, and it is built for the student list, who are gamers. It can replace the unverified "no roadmap, no degree, no counselor" elaboration in S2 (see flag in section 5 and the EDITED notes). Test it as a Personal Story subject, for example:
+- "I mastered Liu Kang before I mastered ads" (Personal Story)
+- "Your gaming hours are not wasted" (Combine, a promise the body has to pay off)
+- "What did you master in your favorite game?" (The Question)
+
+Do not promise an income. The "life you deserve" line is his, and it is a feeling, not a result.
+
+**Brand ambassador jobs (student list, S-B, and the S-SUN story):**
+- He worked brand ambassador jobs for various companies.
+- He will send pictures for those jobs, plus specific stories, **to the writer chat**. Those materials are not in this repo. Check the writer chat before you write the next student email, and use only what he sends there.
+- Until those specifics arrive, keep the S-SUN copy to what's already confirmed: brand ambassador gigs, the move to LA, and the quote. The "nobody was clapping" color is still unconfirmed.
+
+**What these two stories change for the test:**
+- Two real Personal Stories now exist on the student list, which is the list that has been short on them. Put one in each student test split.
+- Keep the MK story and the brand ambassador story in separate splits. Do not blend them in one email.
