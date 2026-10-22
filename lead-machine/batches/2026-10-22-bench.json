@@ -1,0 +1,559 @@
+[
+ {
+  "qualified": true,
+  "disqualified_reason": "None. All hard disqualifiers passed: independent family business with one location, no franchise or parent company found; the site works (davidsonroofing.com redirects to davidsonroofingcompany.com); the business is live; it is phone-first; it is not a competitor. BBB lists an A+ rating, accredited since 2006, 0 complaints in 3 years. No AI receptionist found. Note: lead_score 42 puts it in the WATCH band, so it is not SEND TODAY or QUALIFIED as researched.",
+  "company_name": "Davidson Roofing Company",
+  "niche": "Roofing",
+  "niche_segment": "core",
+  "website": "https://davidsonroofingcompany.com",
+  "street_address": "3131 Southside Avenue",
+  "city": "Richmond",
+  "state": "VA",
+  "zip": "23228",
+  "timezone": "America/New_York (ET)",
+  "company_phone": "+1 804-672-0540",
+  "company_email_generic": "sales@davidsonroofingcompany.com (published on https://davidsonroofingcompany.com/contact/; the domain's MX is Microsoft 365, davidsonroofingcompany-com.mail.protection.outlook.com)",
+  "google_maps_url": "Not found (place URL not captured; GBP data seen via https://serviceagent.ai/directory/virginia/richmond/roofing/davidson-roofing-co/)",
+  "google_rating": "4.7",
+  "review_count": "152 Google reviews (per the serviceagent.ai GBP-derived listing); BBB shows 2 customer reviews",
+  "business_hours": "Website: Office Monday–Friday 7:00 AM–4:00 PM; weekends by appointment only; \"Message Services Available 24/7\". The contact page says \"Our corporate office keeps the following hours each week, with 24/7 answering service\". The quote page says \"call 804-672-0540 between 7:00 am and 4:00 pm Monday through Friday.\" GBP-derived listing (serviceagent.ai): Mon–Fri 7 AM–4 PM, Sat 9 AM–12 PM, Sun closed. The two sources disagree on Saturday.",
+  "best_time_to_call": "Tue–Thu 7:10–8:15 AM ET. The office opens at 7, and the About page says George built the company \"personally overseeing the jobs in progress\", so the start of the day is the best chance to catch him before job sites. Backup window is 3:00–3:45 PM ET, before the 4:00 PM close. Do not call after 4 PM or on weekends for the pitch, because a message service picks up then.",
+  "call_opener": "\"Hi, is this George? George, this is Sam with E4L. I'll be honest, this is a cold call. Can I have 20 seconds to tell you why I'm calling, and you tell me if it's worth a conversation? ... I was on your site. Twenty-one years since you started Davidson with two guys, and the office takes calls 7 to 4, with a message service after that. With roofing, a homeowner with a leak at 6 PM who gets a message usually just calls the next roofer on Google. We build an AI receptionist trained on your own company. It picks up those calls, gets the address and what's going on, and books the inspection instead of taking a message. We'll build a demo line from your website that you can call yourself before you ever pay a dollar. Worth a 20-minute call with Sebastian to hear it?\"",
+  "gatekeeper_notes": "The office line +1 804-672-0540 is staffed Mon–Fri 7 AM–4 PM. BBB lists two principal contacts: \"Mr. George Davidson, President\" and \"Ms. Jamie Davidson-Laabs, Office Manger\" (sic). Jamie most likely answers or screens. She shares the family surname, but the relationship is not stated, so do not mention it. Ask for George by first name. If Jamie screens, treat her as a co-decision-maker and offer to send the demo line for both to hear. A 24/7 answering/message service takes calls after 4 PM and on weekends (vendor not named on the site). Sam should log who answered (human, service, IVR or voicemail). No owner cell or direct line is published. Fax: 804-672-8835 (do not use).",
+  "owner_first_name": "George",
+  "owner_last_name": "Davidson",
+  "owner_title": "President / Founder",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found",
+  "owner_email_type": "Role (owner@/sales@)",
+  "owner_email_confidence": "Not found",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found (not checked: web search budget exhausted this run)",
+  "owner_other_socials": "Not found. The contact page has a \"Connect Online\" heading, but no social profile links were found in the homepage source.",
+  "owner_background": "Richmond native. Founded Davidson Roofing Company in September 2005. Own site: \"Davidson Roofing Company was founded in September of 2005 by Richmond native, George Davidson.\" BBB: Business Started 9/1/2005, incorporated as a corporation 9/21/2005, President. The founder story says he grew it from two employees by \"Educating homeowners on the products being installed and personally overseeing the jobs in progress.\" Headcount conflicts on his own site: the homepage says \"more than nineteen\" and the About page says \"fourteen full-time employees\". Second decision-maker: Jamie Davidson-Laabs, Office Manager (BBB). Prior business: Not found.",
+  "owner_personality_cues": "Values-driven and relationship-first, per his own site: \"Basing his business model on the principles of quality and affordability\", \"knowing that craftsmanship and service would speak for itself\", and the company was built \"largely on the referrals from satisfied customers.\" Personal touch: \"With his signature black labs in tow he would make his rounds.\" Community-minded: \"George is proud to give back to the community\"; supports the Hanover Humane Society, the American Cancer Society and local civic and educational foundations. Values training: \"We regularly invest in our employees' education.\" Proud of the RTD award: \"awarded 'Best Roofing Company in Richmond' by the Richmond Times Dispatch five years in a row.\" Nothing public found on his views about marketing, phones or AI.",
+  "best_opening_moment": "Open with the founder story and the referral legacy (2005, two employees, built on referrals, \"Best Roofing Company in Richmond\" five years per the Richmond Times-Dispatch). Then make one neutral observation: phones close at 4 PM and after that it is a message service. Frame the AI as protecting the referral reputation after hours, as overflow, never as replacing Jamie or the office.",
+  "attitude_type": "Family-Legacy Pride Brand",
+  "attitude_evidence": "The About page headline is \"Family Owned & Locally Operated since 2005\", the surname is in the business name, and the founder story covers the black labs and the referral-built business (https://davidsonroofingcompany.com/about-us/). The community page says \"It's important to the owner of Davidson Roofing and his team of professionals to be involved in the Richmond community\" (https://davidsonroofingcompany.com/in-the-community/). BBB accredited since 1/1/2006 with an A+ rating, and a family-surname office manager, Jamie Davidson-Laabs (BBB profile). The site claims \"Best Roofing Company in Richmond\" from the Richmond Times Dispatch \"five years in a row\" (years not stated). Owner review-reply tone was not checked, so treat the read as Medium confidence.",
+  "tech_adoption": "basic. SSL, WordPress, footer copyright 2026, a quote form with photo upload and reCAPTCHA, GreenSky consumer financing page, and Heartland online bill pay. No online scheduler, chat, text-us or review widget in the page source.",
+  "marketing_sophistication": "agency_managed (light). The footer credits \"Website by Jonas Marketing\" (the WordPress author is kevincjonas, which suggests a small local designer). Google Tag Manager and GA4 G-5YX39BP0P0 are present. No call-tracking number swap, Meta pixel or ad landing pages seen. The same number, 804-672-0540, appears everywhere.",
+  "growth_stage": "established. 21 years: founded 2005, incorporated 9/21/2005. Grew from 2 to 14–19+ employees. 152 Google reviews. GAF Master Elite and CertainTeed SELECT ShingleMaster. Now selling GAF Timberline Solar shingles.",
+  "review_response_behavior": "unknown. Google owner replies could not be sampled this run (web search budget exhausted).",
+  "after_hours_handling": "Human message/answering service. Footer: \"Weekends by Appointment Only (Message Services Available 24/7)\". Contact page: \"Our corporate office keeps the following hours each week, with 24/7 answering service.\" The vendor is not named. The wording says messages are taken, not that estimates are booked. The office is staffed Mon–Fri 7 AM–4 PM only.",
+  "online_booking": "None. There is no scheduler in the page source (checked for calendly, housecallpro, jobber, servicetitan, acculynx and roofr). The site says \"Call 804-672-0540 for scheduling\", and the Request a Quote form promises \"we'll be in touch as soon as possible\" with no stated response time.",
+  "chat_or_text_on_site": "None. No chat, text-us or messaging widget in the homepage source (checked for podium, birdeye, tidio, intercom, drift, tawk and leadconnector).",
+  "vendors_detected": "WordPress with Yoast-style schema graph (WebPage/WebSite only); Google Tag Manager and GA4 (G-5YX39BP0P0); Google reCAPTCHA on forms; GreenSky consumer financing (financing-options page); Heartland Payment Services online bill pay; Microsoft 365 email (MX outlook.com); site by Jonas Marketing; GAF Factory Certified Master Elite and CertainTeed SELECT ShingleMaster; unnamed 24/7 answering/message service.",
+  "ads_running": "Not checked. The Google Ads, LSA and Meta Ad Library checks could not run because the web search budget was exhausted. No call-tracking or dynamic number swap was seen on the site.",
+  "ai_search_presence": "Not checked. The ChatGPT, Perplexity and Gemini spot checks were not run this session. Site schema: only Yoast WebPage/WebSite/BreadcrumbList JSON-LD. No LocalBusiness or FAQPage schema, although an HTML FAQ page exists (https://davidsonroofingcompany.com/faqs/). Competitors on the Expertise.com Richmond roofing list include The Pinnacle Group Inc, Jacob's Ladder, Cross Timbers Roofing, Retex Roofing and CB Chandler Roofing.",
+  "pain_signals": "1) Phone hours are narrower than the urgent service: \"call 804-672-0540 between 7:00 am and 4:00 pm Monday through Friday\" (quote-request page). 2) After hours goes to messages: \"Weekends by Appointment Only (Message Services Available 24/7)\" (site footer). 3) Booking and contact friction: no online scheduling, no chat or text, and the quote form says only \"we'll be in touch as soon as possible\" (contact and quote pages). 4) Inspection lag: FAQ says \"Normally we can come within 24-48 hours to look at your roofing issue, weather permitting.\" No review complaints about callbacks were found. Google reviews were not sampled this run. BBB shows 0 complaints in 3 years. Curated testimonials praise speed (\"I called and they came out the same day to give me a quote\").",
+  "trigger_events": "No dated business-specific trigger found. The job-post, GBP-post, news and Wayback checks could not run (search budget exhausted; Wayback connection reset). Context only: they now market GAF Timberline Solar shingles (\"Local Solar Roofing Experts\", date not known). Late October to November is fall gutter and pre-winter repair season in Central Virginia, and the Atlantic hurricane season runs to Nov 30. This is inferred from the season, not business-specific evidence.",
+  "lead_score": 42,
+  "score_breakdown": "D1 Decision-maker: 8/20. George Davidson, President/founder, is cited on the own-site About page and on BBB (\"Mr. George Davidson, President\"). The only email is the role mailbox sales@davidsonroofingcompany.com on the contact page, plus a staffed main line. No owner LinkedIn, direct line or personal email found, so this is a call-first route. Second contact: Jamie Davidson-Laabs, Office Manager (BBB). | D2 Phone/after-hours gap: 4/15. Phone-first (\"Call 804-672-0540 for scheduling\"), an urgent niche (roofing), phones staffed Mon–Fri 7–4 only, closed Sunday. But a human 24/7 answering/message service is stated on the contact page (\"with 24/7 answering service\"), so the 4-pt answering-service clause applies and the pitch becomes upgrade or cost-replacement (booking vs. message-taking). | D3 Lead-response leak: 5/15. One signal type (5, booking friction) verified in page source: no scheduler, chat or text, and the form only says \"we'll be in touch as soon as possible\". Google review complaints, reply rate and job posts were not checked (search budget exhausted). BBB: 0 complaints. | D4 AI search gap: 0/10. NO EVIDENCE; no AI platform checked. Schema: no LocalBusiness or FAQPage JSON-LD. | D5 ICP fit: 15/15. Independent, one location, family owned, surname brand. Roofing is a core niche. Ability proxies: since 2005 (BBB start 9/1/2005), 152 Google reviews, 14–19+ employees, roofing ticket $8–15k, GreenSky financing, 11-area service footprint. | D6 Buying signals: 0/15. NO EVIDENCE; partial null. Footer and page source were checked: GTM/GA4 only, no call tracking, no Meta pixel, the credit is a local web designer. Google Ads, LSA, Meta Ad Library and job boards were not checkable this run. | D7 Attitude/receptivity: 10/15? No: 10/10. Positives: (b) modern SSL site with copyright 2026; (c) GreenSky financing and online bill pay; (e) \"Best Roofing Company in Richmond\", Richmond Times Dispatch, five years. No negatives seen. Local-designer credit carries no incumbent penalty. Review-reply tone not checked. | TOTAL 42 = WATCH. Status TRUSTED-borderline: 5 of 7 dimensions evidenced (D1, D2, D3, D5, D7); D4 and D6 missing. Blockers are D4 and D6 (unchecked, not proven absent). One AI money-question run plus an Ads/LSA/Meta sweep could re-score it to QUALIFIED.",
+  "recommended_entry_offer": "Voice AI live demo: a voice-demo line built from davidsonroofingcompany.com (founder story, services, the 11-area service list, GAF/CertainTeed credentials, the FAQ's 24–48-hour inspection window). Position it as overflow and after-hours booking that sits next to their existing 24/7 message service, never as a replacement for the office. Secondary: free AI visibility audit, once D4 is actually run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "After 4pm at Davidson Roofing",
+  "personalized_first_line": "George, Davidson Roofing went from two employees in 2005 to a crew of nearly twenty on referrals, but after 4pm on weekdays and all weekend the phone goes to a message service.",
+  "call_angle": "Missed-call angle, Family-Legacy tone. A 21-year referral-built brand: the homeowner with a leak at 6 PM or on Saturday leaves a message, and a competitor who answers books the inspection. Their answering service takes messages; the AI receptionist, trained on Davidson's own site, picks up, gets the address and the problem, and books the inspection. It only covers missed and after-hours calls, so Jamie and the office keep the daytime phones. Proof lever: a demo line built from their website that George can call before paying anything. Qualify: \"Who picks up a leak call at 7 PM right now — the service, you, or voicemail? What happens to that message next morning?\" Ask #1: a 20-minute Game Plan Call with Sebastian. Ask #2: email for the free AI visibility audit.",
+  "likely_objection": "\"We already have a 24/7 answering service.\" Response: keep it if you like. The difference is that a message service takes a name and number, and you call back the next morning, while this books the inspection on the call. Call the demo line and the answering service tonight and compare. A second likely objection is \"We're all referrals, we don't need marketing.\" Answer it by saying referrals still call the office number, and this makes sure the ones calling after 4 reach Davidson.",
+  "why_now": "Late fall is gutter, leak and pre-winter repair season in Central Virginia, and the Atlantic hurricane season runs through Nov 30. This is inferred from the season, not business-specific. The concrete reason is structural: the office closes at 4 PM and the published FAQ says inspections happen in \"24-48 hours\", so every after-hours leak call currently waits overnight as a message.",
+  "notes_for_chosen": "WATCH at 42/100. It is not low-fit: it is under-evidenced because this run's web search budget ran out. D5 is a perfect 15 and D7 is 10. D4 (AI spot check) and D6 (Google Ads/LSA/Meta sweep plus job posts) were not run. Running one roofing money question (\"emergency roof repair Richmond, VA\") on two AI platforms and the spend sweep could take it to QUALIFIED (max +25). The scout's 72 pre-score overstated D2: the contact page says \"24/7 answering service\", so the pitch is booking vs. message-taking (an upgrade conversation), not \"nobody answers\". Route call-first through Sam. The only email is sales@ (role mailbox), so do not spend an email slot until the owner replies. Treat Jamie Davidson-Laabs (Office Manager per BBB, family surname) as a co-decision-maker. Never imply replacing her. DEDUPE: the canonical domain is davidsonroofingcompany.com, and davidsonroofing.com 301s to it. Neither is in suppression.csv or seen.csv; add both to seen.csv. Data conflicts: headcount (\"more than nineteen\" on the homepage vs \"fourteen full-time\" on the About page) and Saturday hours (site says by appointment only, GBP-derived says Sat 9–12). Sam can log who answers after 4 PM to confirm the message-service behavior, which updates D2.",
+  "founded_or_years": "Founded September 2005 (own site). BBB: Business Started 9/1/2005, Corporation incorporated 9/21/2005, BBB accredited since 1/1/2006. 21 years in business.",
+  "locations_count": "1 (3131 Southside Avenue, Richmond, VA 23228). Service area: Richmond, Henrico, Hanover, Glen Allen, Mechanicsville & Atlee, Goochland, East End, Chesterfield, Powhatan, Charlottesville and Williamsburg.",
+  "team_size_estimate": "14–19+ employees. The homepage says \"more than nineteen\" and the About page says \"fourteen full-time employees\" (conflict on their own site).",
+  "service_area": "Central Virginia: Richmond, Henrico, Hanover, Glen Allen, Mechanicsville & Atlee, Goochland, East End, Chesterfield, Powhatan, Charlottesville and Williamsburg (site footer and FAQ).",
+  "sub_services": "Residential roof installation and replacement; roof repairs of all kinds (architectural and dimensional shingles, metal/tin, slate, imitation slate, soffit/fascia); roof inspections; gutter replacement, repair and cleaning; skylight installation and maintenance; commercial and industrial roofing; GAF Timberline Solar shingles. GreenSky financing available. GAF Master Elite and CertainTeed SELECT ShingleMaster.",
+  "evidence_links": "https://davidsonroofingcompany.com/contact/, https://www.bbb.org/us/va/henrico/profile/roofing-contractors/davidson-roofing-company-0603-21016655, https://davidsonroofingcompany.com/about-us/, https://davidsonroofingcompany.com/, https://davidsonroofingcompany.com/quote-request/, https://serviceagent.ai/directory/virginia/richmond/roofing/davidson-roofing-co/, https://davidsonroofingcompany.com/faqs/, https://davidsonroofingcompany.com/financing-options/, https://davidsonroofingcompany.com/in-the-community/, https://davidsonroofingcompany.com/references/, https://www.expertise.com/va/richmond/roofing, https://davidsonroofing.com",
+  "research_confidence": "Medium",
+  "_target": "roofing-richmond",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner George Davidson, President/Founder, founded Sept 2005, Richmond native",
+     "result": "confirmed",
+     "note": "About page: George Davidson, Richmond native, founded Sept 2005. BBB lists Mr. George Davidson, President. The About page gives no formal title, but BBB supplies President."
+    },
+    {
+     "claim": "Company phone +1 804-672-0540, address 3131 Southside Ave, Richmond VA 23228",
+     "result": "confirmed",
+     "note": "Contact page and BBB both show 804-672-0540 and the same address. The fax 804-672-8835 also matches."
+    },
+    {
+     "claim": "Generic email sales@davidsonroofingcompany.com",
+     "result": "confirmed",
+     "note": "Published on the contact page. The owner email is correctly marked Not found."
+    },
+    {
+     "claim": "Strongest pain signal: phones staffed Mon-Fri 7-4, after hours a message service",
+     "result": "confirmed",
+     "note": "Quote page: 'call 804-672-0540 between 7:00 am and 4:00 pm Monday through Friday'. Homepage footer: 'Weekends by Appointment Only (Message Services Available 24/7)'. Contact page: '24/7 answering service'. Exact wording matches."
+    },
+    {
+     "claim": "Quote form says 'we'll be in touch as soon as possible'",
+     "result": "contradicted",
+     "note": "The quote page actually reads 'Send us an email and we'll get in touch shortly, or call 804-672-0540 between 7:00 am and 4:00 pm Monday through Friday.' The quote is paraphrased wrongly; the point about no stated response time still holds."
+    },
+    {
+     "claim": "BBB: A+, accredited since 2006, 0 complaints in 3 years, Jamie Davidson-Laabs Office Manager",
+     "result": "confirmed",
+     "note": "BBB profile matches all of it. Business started 9/1/2005, incorporated 9/21/2005, no franchise or parent listed."
+    },
+    {
+     "claim": "Headcount conflict (homepage 'more than nineteen' vs About 'fourteen full-time')",
+     "result": "confirmed",
+     "note": "Both quotes found as described."
+    },
+    {
+     "claim": "Independent single location, not a chain or franchise",
+     "result": "confirmed",
+     "note": "One address on the site, and BBB lists no franchise or parent. Further search was not possible because the web search budget was used up."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "grep -i for 'davidson', the phone digits and 'davidsonroofing' found nothing in suppression.csv (1161 lines) or seen.csv (176 lines)."
+    },
+    {
+     "claim": "No owner socials found",
+     "result": "contradicted",
+     "note": "The contact page links a Facebook page (facebook.com/davidsonroofingco) and a Google Maps short link (goo.gl/maps/78v9cJ78JqRb3nSR6). The lead says google_maps_url is 'Not found' and no socials were found. This is a company page, not a personal profile, but both fields can be filled."
+    },
+    {
+     "claim": "Saturday hours conflict (site: by appointment; GBP-derived: Sat 9-12)",
+     "result": "confirmed",
+     "note": "The site says weekends are by appointment only. The GBP-derived serviceagent.ai listing was not re-opened."
+    }
+   ],
+   "corrected_fields": {
+    "google_maps_url": "https://goo.gl/maps/78v9cJ78JqRb3nSR6 (linked from https://davidsonroofingcompany.com/contact/)",
+    "owner_other_socials": "Company Facebook page https://www.facebook.com/davidsonroofingco/ (linked from the contact page); no personal owner profiles found",
+    "pain_signals": "1) Phone hours are narrower than the urgent service: \"call 804-672-0540 between 7:00 am and 4:00 pm Monday through Friday\" (quote-request page). 2) After hours goes to messages: \"Weekends by Appointment Only (Message Services Available 24/7)\" (site footer). 3) Booking and contact friction: no online scheduling, no chat or text, and the quote page says only \"we'll get in touch shortly\" with no stated response time (corrected wording). 4) Inspection lag: FAQ says \"Normally we can come within 24-48 hours to look at your roofing issue, weather permitting.\" Google reviews were not sampled."
+   },
+   "adjusted_score": 42,
+   "adjusted_confidence": "Medium",
+   "reason": "Owner, title, phone, address, generic email and the main pain signal (7-4 phones, then a message service) are all supported. The business is independent and in neither CSV. Two fixes: the quote-form quote is misquoted, and the Facebook and Maps links were missed. The score stays at 42 (WATCH)."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. All hard disqualifiers pass. The score is PROVISIONAL (WATCH cap) because only 4 of 7 dimensions have evidence: the web-search budget for this run ran out and Yelp returned 403, so reviews, AI-search and ads checks could not be run.",
+  "disqualifier_check": "PASS on every hard disqualifier. Chain/franchise: no. This is a single-location LLC carrying the owner's surname, with no franchise or 'a [Group] company' language on the site. Own-domain site: yes, it loads over SSL (Cloudflare, built with Lovable) and the footer copyright is the current year. Live US business: yes. The City of Richmond listed it as a participating SLI plumber in an April 2026 update. Inbound channel: phone (804) 651-4607 plus Request Service and Request an Estimate forms. Competitor/non-buyer: no, it is a plumbing and gas contractor. Already automated: no. Page source has no AI voice, answering service, chat or booking vendor. Dedupe: grep for 'purgason' and 'purgasonplumbing' in suppression.csv and seen.csv returned no hits. GHL ghl-contacts.js dedupe was not run from this research agent and should be run before loading. No 'no solicitation' notice on the site.",
+  "company_name": "Purgason Plumbing LLC",
+  "niche": "Plumbing",
+  "niche_segment": "core",
+  "website": "https://www.purgasonplumbing.com",
+  "city": "Richmond",
+  "state": "VA",
+  "street_address": "Not found (site shows only 'Richmond, VA 23230')",
+  "zip": "23230",
+  "company_phone": "+1 804-651-4607",
+  "company_email_generic": "service@purgasonplumbing.com; estimates@purgasonplumbing.com (both published on the site; service@ is also on the City of Richmond SLI list)",
+  "google_maps_url": "Not found",
+  "google_rating": "Not found",
+  "review_count": "Not found (Google not checked; Yelp page returned 403). The site shows 7 curated testimonials dated Mar 2017 to Sep 2024, one labelled 'Yelp Reviewer'.",
+  "founded_or_years": "Founded 2016, about 10 years in business. The site says 'Founded Purgason Plumbing in 2016' and '10+ Years Serving Richmond', and says Brent has 20+ years in the trade.",
+  "locations_count": "1 (Richmond, VA 23230)",
+  "service_area": "Greater Richmond: Richmond city, Glen Allen, Mechanicsville, Short Pump, Midlothian, Chesterfield and surrounding communities (site FAQ)",
+  "sub_services": "Residential service and repair; remodels; new construction rough-in and finish; light commercial service and tenant upfits (backflow installs and certification, grease traps, documented invoicing for property managers); tank water heaters (A.O. Smith); tankless water heaters (Navien, Rinnai, Noritz) including descaling; water and sewer main / service line replacement, including trenchless pipe bursting where suitable; gas lines in copper, black iron and CSST; custom system design. Also a participant in the City of Richmond's Service Line Identification (SLI) grant program.",
+  "team_size_estimate": "Small team, about 3-10 (estimate). The site says Brent 'focuses on training and leading a team of dedicated technicians'. A technician named Jonathan appears in a May 2019 testimonial. The site also has an employee portal with an employee handbook, vehicle-operator acknowledgements, PTO and 90-day reviews, which suggests W-2 staff and company vehicles. No exact headcount is published.",
+  "owner_first_name": "Brent",
+  "owner_last_name": "Purgason",
+  "owner_title": "Owner & Master Plumber, Master Gasfitter",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found (the only addresses published are the generic service@purgasonplumbing.com and estimates@purgasonplumbing.com)",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Not found",
+  "owner_direct_phone": "Not found as a separate line. The main line +1 804-651-4607 is presented as Brent's line: the site says 'Call Brent for service', and the City of Richmond SLI list gives Brent Purgason as the contact on this number.",
+  "owner_linkedin": "Not found (web search budget exhausted before a LinkedIn check)",
+  "owner_other_socials": "Company pages linked from the site: https://www.facebook.com/PurgasonPlumbing/ and https://www.instagram.com/purgasonplumbing/ (not opened; Facebook returned no readable content). No personal owner handle found.",
+  "owner_background": "Per the Meet The Owner section of the site: more than 20 years in the plumbing and gas trades. Holds Master Tradesman licenses in both plumbing and gas fitting, and the company is a Virginia Class A Plumbing and Gas Contractor. He founded Purgason Plumbing in 2016 and has 'designed and worked on systems across the United States — and even abroad in Germany and the United Kingdom.' Today he 'focuses on training and leading a team of dedicated technicians.' Lists 'Specializes in System' design (custom system design). VA DPOR license number not checked.",
+  "owner_personality_cues": "Craft- and standards-driven. Site quotes: 'Gas work isn't a place to cut corners', 'Every job is pressure tested, permitted, and inspected', 'Honest is-tankless-right-for-you' advice, and 'Many customers come to us asking for tankless, but it isn't always the best fit.' He likes systems and builds them himself: the site is a custom Lovable/Supabase app with his own employee portal (handbook and vehicle acknowledgements, PTO, 90-day reviews, team schedule). Positions himself as a trainer and leader of techs. Testimonials repeatedly praise how fast he responds, for example 'The owner, Brent, is very responsive'. Expect a technical, no-fluff listener who will respect specifics and dislike hype.",
+  "best_opening_moment": "Early morning before the first jobs: Tue-Thu about 7:45-8:15 AM ET, right as the 8am office day starts. Brent appears to answer the main line himself ('Call Brent for service').",
+  "attitude_type": "Tech-Forward Early Adopter",
+  "attitude_evidence": "The site is a custom Lovable/Supabase build (canonical purgasonplumbing.lovable.app). It carries Plumber LocalBusiness and FAQPage JSON-LD, a footer copyright that tracks the current year, and Formspree request forms. Behind the footer link /employeeportal sits an internal staff app that the owner had built: handbook acknowledgement, vehicle-operator acknowledgement, PTO allowances, 90-day and annual reviews, and a team schedule. Source: https://www.purgasonplumbing.com/ and its bundle https://www.purgasonplumbing.com/assets/index-DD42rE2P.js. The gap is that there is no online booking, chat, text-us or after-hours phone coverage. One possible tension: the Google tag is a placeholder (G-XXXXXXXXXX), so analytics may not actually be tracking. Confidence in this read is medium, because review replies and social posts could not be checked.",
+  "tech_adoption": "High for a small trade shop. He runs a custom-built site plus an internal employee portal (Supabase backend), schema markup and Formspree forms. No field-service software (ServiceTitan, Housecall Pro, Jobber), booking, chat or call tracking was detected in the page source.",
+  "marketing_sophistication": "Medium-low. The site is well structured with FAQ and LocalBusiness schema and per-service pages. But the Google Analytics tag ID is a placeholder (G-XXXXXXXXXX), and there is no Meta pixel, call tracking, review widget or agency credit in the source. Ads were not checked.",
+  "growth_stage": "Established small business. 10 years old (2016), Class A, owner now in a training and leading role over a technician team, and mixing residential service with remodel, new-construction and light-commercial work.",
+  "review_response_behavior": "Not found (Google Business Profile and Yelp reviews could not be checked in this run)",
+  "after_hours_handling": "No after-hours coverage is stated anywhere on the site. Hours are 'Mon–Fri 8am–5pm' in the trust bar, the contact block and the JSON-LD (openingHours 'Mo-Fr 08:00-17:00'). The FAQ says 'Standard hours are Mon–Fri 8am–5pm. We usually respond the same day.' There is no 24/7 or emergency claim and no answering-service or AI-receptionist mention in the site copy or page source. What actually happens to calls after 5pm and on weekends (voicemail or Brent's cell) is unknown; Sam should record 'who answered' on the call.",
+  "online_booking": "None. There are only a Request Service form and a Request an Estimate form (posted to Formspree), and they show an on-screen confirmation after submit. No scheduling vendor (Calendly, Housecall Pro, ServiceTitan, Jobber) appears in the source. The site says 'Most service calls can be scheduled within a day or two.'",
+  "chat_or_text_on_site": "None. No chat widget, text-us button or SMS opt-in, and no Podium, Birdeye, Tidio, tawk or Intercom scripts in the source.",
+  "vendors_detected": "Lovable (site builder; canonical purgasonplumbing.lovable.app, og image hosted on gpt-engineer-file-uploads); Supabase (employee portal backend); Formspree (form endpoint formspree.io/f/mqejgaal); Google tag gtag.js with placeholder ID G-XXXXXXXXXX; Cloudflare. No call tracking, booking, chat, review tool or marketing-agency credit.",
+  "ads_running": "Not checked: the web-search budget was exhausted, so Google Ads, LSA and Meta Ad Library were not run. Page source shows no Meta pixel, no CallRail or other call tracking, and only a placeholder Google tag.",
+  "ai_search_presence": "not checked (no AI platform or web search available in this run). Note that the site already has Plumber LocalBusiness and FAQPage JSON-LD, so D4 could score at most 6 even if the business is named in 0 answers.",
+  "pain_signals": "Direct from the site: (1) the hours gap in an urgent trade, 'Standard hours are Mon–Fri 8am–5pm', with no 24/7 or emergency coverage stated anywhere; (2) intake is the owner's phone plus forms: 'Call Brent for service or send a few details and we'll get back with an estimate'; (3) scheduling lag: 'Most service calls can be scheduled within a day or two'; (4) the site's own testimonial shows emergency demand exists: 'I had a minor plumbing emergency after moving into a new home, and Brent was able to get me on the schedule that day'; (5) the Google tag is a placeholder (G-XXXXXXXXXX), so web leads may not be measured. No review-based responsiveness complaints were found, because Google and Yelp reviews could not be checked. The site's curated testimonials praise responsiveness: 'The owner, Brent, is very responsive.'",
+  "trigger_events": "The City of Richmond lists Purgason Plumbing LLC (contact Brent Purgason) as a participating plumber in the Service Line Identification grant program (list updated 4/1/26). Homeowners are told to 'contact one of the plumbers below to set up an appointment', which pushes inbound residential calls to the main line. Seasonal: Richmond is heading into freeze season (frozen pipes, water-heater failures), but that is inferred from the vertical calendar with no business-specific evidence. No hiring post, new location or ad activity was verified (sweep not run).",
+  "lead_score": 44,
+  "score_breakdown": "TOTAL 44 / PROVISIONAL (WATCH cap). Only 4 of 7 dimensions have evidence; missing D3, D4, D6 because the search budget ran out. Run D3/D4/D6 and the GHL dedupe, then re-score.\nD1 Decision-maker: 8/20. Full name and role are cited from two sources: the site's Meet The Owner section ('Brent Purgason, Owner & Master Plumber, Master Gasfitter') and the City of Richmond SLI list (contact Brent Purgason, (804) 651-4607, service@purgasonplumbing.com). Contact is only the generic service@ and estimates@ mailboxes plus the main line; no personal email or LinkedIn was found, so this goes call-first / DEMO PATH.\nD2 Phone gap: 15/15. Phone-first: phone in the header, 'Call Us Now' CTA, 'Call Brent for service', and the meta description says 'Call (804) 651-4607 for an estimate'. Gap (a): plumbing is an inherently urgent niche and posted hours are 'Mon–Fri 8am–5pm'. Gap (c): no 24/7, answering-service or AI-receptionist mention in the site or page source. https://www.purgasonplumbing.com/\nD3 Lead-response leak: 0/15, NO EVIDENCE. Google and Yelp reviews not checked (Yelp 403), and job boards not checked. Friction signal (5) does not fully apply: there is no booking or chat, but the FAQ promises 'We usually respond the same day' and the form confirms on submit.\nD4 AI search gap: 0/10, NO EVIDENCE (not checked). The site has FAQPage and Plumber JSON-LD, so the cap is 6.\nD5 ICP fit: 15/15. Independent single-location LLC with the owner's surname, and plumbing is on the niche list. Ability proxies: in business since 2016 (10 years); high tickets (water heaters, tankless, sewer and water main replacement, gas lines, which fall in the plumbing repipe / water heater $1.5-5k row); service area of 6+ communities (Richmond, Glen Allen, Mechanicsville, Short Pump, Midlothian, Chesterfield); a technician team plus an employee portal with vehicle-operator acknowledgements.\nD6 Buying signals: 0/15, NO EVIDENCE. Google Ads, LSA, Meta Ad Library, job boards and Wayback were not run. Source shows no pixel or call tracking and only a placeholder gtag. The City SLI listing (4/1/26) is noted but is not a rubric trigger type.\nD7 Attitude/stack: 6/10. Positives: (b) modern SSL site with a current-year copyright and a custom Lovable build; (c) adopts tech, with a self-built employee portal (handbook, PTO, reviews, schedule) and schema markup. Net 2 positives, no negatives found, and no incumbent agency (DIY builder, greenfield). Review replies and social posts not checked.",
+  "recommended_entry_offer": "Voice AI live demo, emergency angle: an AI receptionist trained on purgasonplumbing.com that answers after-5pm, weekend and on-the-job calls, triages burst pipe vs. estimate, and books, plus missed-call text-back. demo_build = yes (D2 = 15, site scrapable; the copy lives in a JS bundle, so the scraper may need a rendered fetch). Don't pitch an AI-readable site rebuild, because the site already has schema. GEO audit only if a later D4 check shows a gap.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Calls after 5 at Purgason",
+  "personalized_first_line": "Brent, your site says standard hours are Monday to Friday, 8 to 5, and that you usually get back the same day. I kept wondering who picks up when someone in Glen Allen has water coming through the ceiling at 9 on a Saturday.",
+  "call_angle": "Emergency, after-hours and on-the-job coverage for an owner who is also the phone line. The site says 'Call Brent for service' and lists hours of Mon–Fri 8–5, and the City of Richmond's SLI program sends homeowners to the same number. Frame the AI as catching only the calls that already go to voicemail while Brent is training techs or on a gas job. It takes the address and the problem, triages emergency vs. estimate, and books it, then texts back anything missed. Proof lever: a demo line built from his own site (services, gas licensing, service area) that he can call before paying anything. Speak to him as a systems guy who built his own employee portal: this is one more system, and go-live is a single conditional call-forward that he can roll back with one dial code. Qualifier: 'Who answers after 5 and on weekends right now — you, voicemail, or nobody?'",
+  "likely_objection": "'We're not really an emergency shop — we do remodels, new construction and gas work, and I answer my own phone.' Response: that's exactly why. When Brent is on a gas job or training a tech, the burst-pipe and water-heater calls still come in, including the city SLI referrals. The AI only catches the ones he already can't get to, books the estimate work into his day, and flags true emergencies to him. Nothing to buy until he has called the demo. A second likely objection is 'send me something': get the best email (service@ is generic) and offer the demo number.",
+  "why_now": "Richmond is heading into freeze season (late Oct to Feb), when frozen and burst pipes and water-heater failures push urgent calls outside 8-5. This is a seasonal inference with no business-specific evidence. Purgason is also listed on the City of Richmond's SLI grant program plumber list (updated 4/1/26), which tells homeowners to call participating plumbers to book, so more homeowner calls are reaching a Mon–Fri 8–5 line run by an owner who is also leading the crew.",
+  "notes_for_chosen": "The score is PROVISIONAL, 44 (WATCH). The web-search budget ran out mid-run, so Google reviews and reply rate, LinkedIn, VA DPOR and SOS, job boards, ads and the AI spot-check are all unrun. Re-run D3, D4 and D6; a single negative review about callbacks, or a dispatcher/CSR job post, would push this into QUALIFIED or SEND TODAY. Route call-first (Sam): there is no owner email, only generic service@ and estimates@, and 'Call Brent for service' suggests he answers the main line.\n\nThings worth knowing:\n- Brent is unusually tech-forward for a plumber. His site is a custom Lovable/Supabase build with his own employee portal at /employeeportal: handbook and vehicle acknowledgements, PTO, 90-day reviews, team schedule. Talk systems, not hype.\n- His Google tag is an unfilled placeholder (G-XXXXXXXXXX), so he may have no web analytics. That is a possible later add-on observation; don't lead with it.\n- The site leans into remodels, gas and light commercial, and testimonials praise how fast he responds. Frame the pitch as covering what he already can't reach (after 5pm, weekends, mid-job), not 'you miss calls'.\n- The site already has FAQ and LocalBusiness schema, so skip the AI-readable-site pitch.\n- Two testimonial locations (San Antonio TX, Rockville MD) look odd for a Richmond shop. Don't quote them.\n- Run GHL ghl-contacts.js dedupe before loading.\n- No prices are quoted anywhere in this copy.",
+  "business_hours": "Mon–Fri 8:00 AM–5:00 PM ET (site trust bar, contact block, FAQ and JSON-LD 'Mo-Fr 08:00-17:00'). Closed Sat and Sun per the site. Google Business Profile hours not checked.",
+  "timezone": "America/New_York (ET)",
+  "best_time_to_call": "Tue–Thu 7:45–8:15 AM ET, right as the 8am day opens and before Brent heads out with or to his technicians. The site says 'Call Brent for service', so he likely answers the main line. Backup window: 4:15–5:00 PM ET as jobs wrap, before the line closes at 5. Avoid Monday mornings (weekend backlog) and midday (on jobs or training techs).",
+  "call_opener": "Hi, is this Brent? Brent, it's Sam with E4L. I'll be honest, this is a cold call. Can I have 20 seconds, and then you tell me whether it's worth another minute? ... I was on your site: Class A, Master Plumber and Master Gasfitter, and hours Monday to Friday, 8 to 5. Plumbing's the trade where the phone rings at 9 at night with water on the floor, or while you're under a house on a gas line. We build an AI receptionist trained on your own website. It picks up the calls you can't get to, gets the address and what's going on, books the estimate, and texts back anything missed. We'd build you a demo line from purgasonplumbing.com so you can call it and hear it before you spend a dime. Who answers after 5 right now: you, voicemail, or nobody? ... Worth a 20-minute look with Sebastian, or should I just send the demo to your email?",
+  "gatekeeper_notes": "No office manager, dispatcher or answering service is named anywhere public that was checked. The site's service CTA is 'Call Brent for service', and the City of Richmond SLI list gives Brent Purgason as the contact on the same main number, +1 804-651-4607. So expect Brent himself, or voicemail if he is on a job. No owner cell is published. A technician, Jonathan, is named in a 2019 testimonial. The employee portal implies staff, but no office role is public. If someone else answers, ask for Brent by first name and say it's about how after-hours calls get covered. If voicemail, leave a short message and plan a 7:45 AM retry. If asked for email, the published options are service@purgasonplumbing.com and estimates@purgasonplumbing.com; ask Brent for his direct one.",
+  "evidence_links": "https://www.purgasonplumbing.com/, https://www.purgasonplumbing.com/assets/index-DD42rE2P.js, https://rva.gov/sites/default/files/2026-04/City%27s%20Preferred%20Plumbers%20List%20April%202026.pdf, https://www.purgasonplumbing.com/employeeportal, https://purgasonplumbing.lovable.app/, https://www.facebook.com/PurgasonPlumbing/, https://www.instagram.com/purgasonplumbing/",
+  "research_confidence": "Medium",
+  "_target": "plumbing-richmond",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner Brent Purgason, Owner & Master Plumber, Master Gasfitter",
+     "result": "confirmed",
+     "note": "The site homepage shows this exact title. The City of Richmond preferred plumbers PDF lists Contact Name Brent Purgason for Purgason Plumbing LLC."
+    },
+    {
+     "claim": "Company phone (804) 651-4607",
+     "result": "confirmed",
+     "note": "Shown on the homepage and in the City of Richmond PDF entry."
+    },
+    {
+     "claim": "Generic email service@purgasonplumbing.com",
+     "result": "confirmed",
+     "note": "Shown on the homepage and in the City PDF entry."
+    },
+    {
+     "claim": "Generic email estimates@purgasonplumbing.com",
+     "result": "not-found-on-source",
+     "note": "The rendered homepage fetch did not show it, and the JS bundle fetch only covered the first 100k of 673k characters. Not verified."
+    },
+    {
+     "claim": "Owner personal email: Not found",
+     "result": "confirmed",
+     "note": "No owner-personal address appeared on any page I opened."
+    },
+    {
+     "claim": "Hours Mon-Fri 8am-5pm and no 24/7 or emergency claim",
+     "result": "confirmed",
+     "note": "The homepage shows Mon-Fri 8am-5pm and no after-hours or emergency claim. This supports the strongest pain signal (after-hours gap)."
+    },
+    {
+     "claim": "Founded 2016; single location in Richmond VA 23230; current-year copyright",
+     "result": "confirmed",
+     "note": "The homepage shows founded 2016, a footer of Richmond, VA 23230, and © 2026."
+    },
+    {
+     "claim": "Not a chain or franchise",
+     "result": "confirmed",
+     "note": "No franchise or chain language on the site. The City list shows it as an LLC, a local contractor."
+    },
+    {
+     "claim": "City of Richmond SLI list updated 4/1/26",
+     "result": "confirmed",
+     "note": "The PDF shows 'Updated 4/1/26' and lists Purgason Plumbing LLC."
+    },
+    {
+     "claim": "Quotes 'Call Brent for service', 'Standard hours are Mon-Fri 8am-5pm. We usually respond the same day', 'scheduled within a day or two'",
+     "result": "not-found-on-source",
+     "note": "None appeared in the fetched homepage text. The nearest wording was 'Ready to start? Give us a call.' The site is a JS-rendered single-page app and the fetcher may have missed FAQ and CTA copy. Do not quote these on a call. 'Responsive' and 'on the schedule that day' testimonials were confirmed."
+    },
+    {
+     "claim": "Google tag placeholder G-XXXXXXXXXX",
+     "result": "could-not-open",
+     "note": "Only the first 100k characters of the bundle and the page source were checked. Not verified. Do not lead with this."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grep for 'purgason' and the phone number found no hits in suppression.csv, seen.csv, targets.csv, recipients.txt or run-log.csv."
+    }
+   ],
+   "corrected_fields": {
+    "company_email_generic": "service@purgasonplumbing.com (confirmed on the site and the City of Richmond SLI list); estimates@ not verified",
+    "pain_signals": "Verified: posted hours Mon-Fri 8am-5pm with no 24/7, emergency or after-hours claim anywhere on the homepage. Testimonials confirm responsiveness and emergency demand ('was able to get me on the schedule that day'; 'very responsive'). Unverified, do not quote: 'Call Brent for service', 'We usually respond the same day', 'scheduled within a day or two', and the placeholder Google tag. Review-based signals were not checked.",
+    "personalized_first_line": "Brent, your site lists hours as Monday to Friday, 8 to 5, with no after-hours line mentioned. I kept wondering who picks up when someone in Glen Allen has water coming through the ceiling at 9 on a Saturday.",
+    "call_opener": "Hi, is this Brent? Brent, it's Sam with E4L. I'll be honest, this is a cold call. Can I have 20 seconds, and then you tell me whether it's worth another minute? ... I was on your site: Class A, Master Plumber and Master Gasfitter, and hours Monday to Friday, 8 to 5. Plumbing's the trade where the phone rings at 9 at night with water on the floor, or while you're under a house on a gas line. We build an AI receptionist trained on your own website. It picks up the calls you can't get to, gets the address and what's going on, books the estimate, and texts back anything missed. We'd build you a demo line from purgasonplumbing.com so you can call it and hear it before you spend a dime. Who answers after 5 right now: you, voicemail, or nobody? ... Worth a 20-minute look with Sebastian, or should I just send the demo to your email?",
+    "gatekeeper_notes": "Whether Brent personally answers the main line is not verified: the 'Call Brent for service' wording was not found. The City of Richmond list does give Brent Purgason as the contact on (804) 651-4607. Expect Brent, voicemail or office staff. No owner cell is published. The published email is service@purgasonplumbing.com; estimates@ is unverified."
+   },
+   "adjusted_score": 42,
+   "adjusted_confidence": "Medium",
+   "reason": "Identity, owner name and title, phone, service@ email, hours and the no-24/7 gap are verified, it is not a chain, and there are no suppression or seen hits. Several quoted site lines and the estimates@ mailbox could not be found in the fetched text, so those are removed from the evidence and the score drops slightly."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. No hard disqualifier fired: site live (copyright 2026), one Florissant HQ, FAQ says \"We are not a franchise or a national chain\", has a residential service line, phone and form present, no AI receptionist found. Not on suppression.csv or seen.csv (grep for kaybee / kay-bee / kay bee returned nothing). GHL dedupe was not run from this step. Band is WATCH (44 / PROVISIONAL) because no current owner is named: D1 is the blocker.",
+  "company_name": "Kay-Bee Electric",
+  "niche": "Electrical",
+  "niche_segment": "core",
+  "website": "https://kaybeeelectric.com",
+  "city": "Florissant",
+  "state": "MO",
+  "street_address": "250 Rue St. Francois St (also written \"250 St. Francois St.\")",
+  "zip": "63031",
+  "company_phone": "+1 314-837-3308",
+  "company_email_generic": "info@kaybeeelectric.com (on the contact page, footer and emergency page; MX is Microsoft 365 / outlook.com)",
+  "owner_first_name": "Not found",
+  "owner_last_name": "Not found",
+  "owner_title": "Not found",
+  "owner_role_type": "Unknown",
+  "owner_email": "Not found",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Not found",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found",
+  "owner_other_socials": "Company Facebook: https://www.facebook.com/KayBeeElectric (linked from the site; the page content was login-walled, so post activity is unknown). No owner socials found.",
+  "owner_background": "Current owner not found. The site names the founders: \"founded after World War II in 1948 by John Kohnen and Jack Behlmann\". It says John Kohnen was inducted into the National Academy of Electrical Contracting in 1987 and Stephen Kohnen in 2010 (https://kaybeeelectric.com/2025/10/kay-bee-electric-wins-2025-best-electrician-award). Unconfirmed name: Stephen Kohnen is likely a family member in leadership, but no source gives his current role, so do not use him as owner_name. The web search budget for this run was used up, so the MO SOS, BBB and LinkedIn checks did not run. Next step: one SOS / BBB / NECA St. Louis chapter lookup, or Sam asks on the call.",
+  "owner_personality_cues": "Brand voice is family-legacy and plain-spoken. Quotes: \"Every electrician we send to your home is our employee, trained in our shop, and accountable to our name on the invoice\" (faqs). \"We don't put a price on a job before we've seen it\" (contact FAQ). Proud of its union and trade standing: \"NECA-Signatory · IBEW-Affiliated\", plus two NAEC inductions. Community pride: Greater North County Chamber \"2025 NoCo Treasures Best Electrician\" award post. Reviews praise long-tenured techs by name: \"Scott... has worked for the company for over 20 years\", plus Steve and Jake.",
+  "best_opening_moment": "The contact-page FAQ: \"For after-hours commercial and industrial emergencies, there is an on-call line that routes to an electrician; that program is B2B only.\" That means residential callers get nothing after 4:30 Mon-Thu, after 3:30 Fri, or on weekends. Meanwhile the homepage says \"Call us any time (314) 837-3308\" and markets panel, EV charger and generator work to homeowners.",
+  "attitude_type": "Family-Legacy Pride Brand",
+  "attitude_evidence": "\"Family Owned and Operated Since 1948\". Founders John Kohnen and Jack Behlmann are named on /about. NAEC inductions of John Kohnen (1987) and Stephen Kohnen (2010), and the 2025 NoCo Treasures Best Electrician chamber award (blog post Oct 2025). FAQ: \"not a franchise... accountable to our name on the invoice\". Reviews name 20+-year techs. Approach: respect the 78-year name and pitch only after-hours and overflow coverage for homeowners. Never suggest replacing the office staff who answer in-house.",
+  "tech_adoption": "basic. Has SSL, WordPress/Elementor site (copyright 2026), Gravity Forms contact form, Trustindex Google-review widget, online \"Pay Now\", and OneTap accessibility widget. No online booking, chat or text-us widget found in the page source.",
+  "marketing_sophistication": "unknown, leaning agency- or vendor-managed SEO. Signals: 30+ city landing pages (/electrician/<city>-mo), Rank Math SEO, GTM, Google Ads conversion tag AW-11391057237, Meta Pixel 271230522569847, a /landing-page URL, and blog content updated June 2026. No agency footer credit found.",
+  "growth_stage": "established. Founded 1948, 78 years. 73 Google reviews per the site widget, with the newest shown dated Mar-May 2026.",
+  "review_response_behavior": "unknown. The site widget shows Google reviews but no owner replies were visible. The GBP was not checked because the search budget was used up.",
+  "pain_signals": "1) Residential after-hours gap. \"For after-hours commercial and industrial emergencies, there is an on-call line that routes to an electrician; that program is B2B only\" (https://kaybeeelectric.com/contact). Hours: \"Mon - Thursday: 8.00 AM - 4:30 PM Friday: 8.00 AM - 3:30 PM Closed Saturday and Sunday\". 2) The homepage says \"Call us any time (314) 837-3308\" and \"Call us now if you need service and we won't let you down!\", which does not match a closed office. 3) The header shows different hours (\"Mon - Fri: 8.00 AM - 4.00 PM\") from the footer, so the hours are inconsistent. 4) Slow form: \"Fill out your details, and we'll get back to you within 2 business days. For a faster response, give us a call!\" 5) High-ticket residential inbound: \"Most weeks that means panel replacements, EV chargers, generator hookups...\" (homepage). 6) No online booking, chat or text widget in the page source. No review complaints about responsiveness were found in the site widget; reviews are positive.",
+  "lead_score": 44,
+  "score_breakdown": "Total 44 / PROVISIONAL, band WATCH. Blocker: D1 has no named current owner. Missing evidence: D3, D4.\nD1 Decision-maker: 3/20. No current owner or decision-maker named on the site, Expertise.com or Facebook. Founders (1948) and Stephen Kohnen (2010 NAEC inductee, current role unconfirmed) are on the site. Only info@kaybeeelectric.com and the staffed main line exist (https://kaybeeelectric.com/contact). SOS / BBB / LinkedIn checks did not run (search budget used up).\nD2 Phone coverage / after-hours gap: 9/15. Phone-first: header phone, \"Call us any time\", \"Call Now\". Hours are Mon-Thu 8-4:30, Fri 8-3:30, closed weekends, and the after-hours on-call line is \"B2B only\", so residential has a cited gap. Not 15, because the emergency page says contract commercial clients get \"24/7 dispatch with in-house answering (no third-party answering service)\" (https://kaybeeelectric.com/services/24-hour-emergency-services).\nD3 Lead-response leak: 0/15, NO EVIDENCE. The site review widget shows only positive reviews, some praising quick scheduling. The form gives a response promise (\"within 2 business days\"), so friction signal 5 does not qualify. Job boards, GBP, Yelp and BBB were not checked (search budget used up).\nD4 AI search gap: 0/10, NO EVIDENCE. AI spot-check not run. Schema: LocalBusiness JSON-LD is present but has empty hours and geo. No FAQPage schema on /faqs or the homepage, though the site has extensive FAQ content.\nD5 ICP fit: 15/15. (a) \"Family Owned and Operated Since 1948\", one Florissant HQ, \"not a franchise or a national chain\" (/faqs). (b) Electrical with a residential line. (c) Four proxies: 78 years; named crew and \"fleet of service vehicles staged across the metro\"; panel and service replacement, EV charger and generator tickets; St. Louis, St. Charles, Jefferson, Lincoln, Warren and Franklin counties.\nD6 Buying signals: 7/15. Only group (d): GTM, Meta Pixel and a Google Ads conversion tag (AW-11391057237) in the page source. No Sponsored result verified. No trigger in the last 180 days: the NoCo Treasures award post is dated Oct 2025, about 12 months old. LSA and Meta Ad Library were not checked.\nD7 Attitude / receptivity: 10/10. Positives: (b) copyright 2026, SSL, blog updated 2026; (c) Trustindex review widget and online Pay Now; (e) 2025 Best Electrician chamber award. No negatives and no bundled vertical agency credit found.",
+  "recommended_entry_offer": "Voice AI live demo, framed as residential after-hours and overflow coverage only, since the office still answers business hours. Route call-first through Sam to get the owner's name before any email is spent. Hold the GEO audit as a follow-up, since D4 has not been checked.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Kay-Bee calls after 3:30 on Fridays",
+  "personalized_first_line": "Seventy-eight years in Florissant and a 2025 NoCo Treasures Best Electrician award. Your contact page also says the after-hours on-call line is for commercial contract customers only. So a homeowner whose panel starts acting up on a Friday evening reaches a closed office.",
+  "call_angle": "Missed-call / after-hours angle. Kay-Bee already runs in-house 24/7 dispatch for its contract commercial clients, so they know what answered-every-time looks like. Homeowners calling about panels, EV chargers or generators after 4:30 Mon-Thu, after 3:30 Fri, or on weekends get no one. Offer a demo line trained on Kay-Bee's own site and FAQ that picks up those residential calls, takes the address and problem (the FAQ already lists what callers should have ready), flags urgent safety issues like sparking or burning smells, and books for the next business day. Frame it as covering only what the office already misses, not replacing anyone. Use the qualify question: \"Who answers residential calls after 3:30 on a Friday right now?\"",
+  "likely_objection": "\"We already have 24/7 on-call with our own people, and our office answers the phone. We don't want a robot answering for a 78-year-old family name.\" Answer: their own FAQ says the on-call line is B2B only. The demo covers just the residential calls that currently reach a closed office, and they can hear it on a demo line before deciding anything. A second possible objection: a union shop with steady commercial work may say it does not need more residential leads.",
+  "why_now": "There is no dated trigger in the last 180 days, so be honest that the timing is soft. The site is actively pushing residential high-ticket work right now: coupons for \"$200 OFF A FULL ELECTRICAL SERVICE UPGRADE\" and \"$75 OFF WHOLE-HOME SURGE PROTECTION\", plus a Google Ads conversion tag and Meta Pixel on the site. Any of those paid clicks or coupon calls that arrive after 3:30 Friday or on a weekend reach a closed office. Heading into a St. Louis winter (generator and storm-outage season) is a seasonal angle inferred from the calendar, not from business-specific evidence.",
+  "notes_for_chosen": "WATCH, 44 / PROVISIONAL. Blocker: no current owner name. Do not email info@ cold. Have Sam make the call first and ask who the owner or president is. Stephen Kohnen (NAEC inductee 2010, named on their own blog) is a probable family lead but unconfirmed, so use it only as a question (\"Is Stephen Kohnen still running things?\"), never as a fact. Size caution: this is a NECA-signatory IBEW union contractor with commercial, industrial and institutional contracts and \"a fleet of service vehicles\", so it is bigger than the typical 1-8 person shop. Budget is fine, but the decision may sit with a president or GM and the cycle may be slower. Tone: formal, respectful of the 1948 founders, after-hours and overflow only. Small free tip that builds goodwill: the header shows \"Mon-Fri 8-4\" while the footer shows \"Mon-Thu 8-4:30, Fri 8-3:30\". Also, the contact page HTML contains a typo address \"tinfo@kaybeeelectric.com\". The web search budget was used up in this run: GBP rating and replies, BBB, MO SOS officers, job posts, LSA, Meta Ad Library and the AI spot-check are still unchecked. One re-research pass could move this to QUALIFIED.",
+  "business_hours": "Mon-Thu 8:00 AM-4:30 PM, Fri 8:00 AM-3:30 PM, closed Sat-Sun (site footer and contact FAQ). The site header shows a different string, \"Mon - Fri: 8.00 AM - 4.00 PM\". Emergency dispatch is 24/7 for contract commercial and industrial clients only. GBP hours not checked.",
+  "timezone": "America/Chicago (Central Time)",
+  "best_time_to_call": "Tue-Thu 9:30-11:00 AM CT. The office is staffed 8-4:30 Mon-Thu, and the FAQ says \"call (314) 837-3308 and you will reach the office directly during business hours\". Mid-morning should avoid the start-of-day crew dispatch rush (an inference, not cited). Avoid Friday afternoon: the office closes at 3:30 PM.",
+  "call_opener": "\"Hi, this is Sam with E4L. Full honesty, this is a cold call. Can I have 20 seconds, and you tell me if it's worth continuing? I was on your website: 78 years in Florissant, and your FAQ says the after-hours on-call line is only for commercial contract customers. So when a homeowner's panel starts acting up at 5 on a Friday or on a Saturday, that call reaches a closed office, and they usually call the next electrician on Google. We build a receptionist trained on Kay-Bee's own website that picks up just those calls, gets the address and the problem, and books it for Monday. We'll set up a demo line you can call and hear yourself before you spend anything. Who's the right person to show that to, the owner?\"",
+  "gatekeeper_notes": "The main line (+1 314-837-3308) reaches the office directly during business hours (contact FAQ). No office manager, dispatcher or receptionist name is published. One review says a tech \"called the main office and had the supplies delivered that day\", so there is a staffed office or dispatch desk. Techs named in reviews: Scott (20+ years), Steve and Jake. These are field staff, not decision-makers. No answering service for residential callers. The contract commercial line uses in-house answering, and its number is not published. No owner cell found. How to get through: ask the office for \"the owner or whoever handles the company's phones and marketing\", and ask whether Stephen Kohnen is still involved, as a question only. Ask for a name and a direct email so the row can be re-scored (it is blocked on D1).",
+  "after_hours_handling": "Residential: none. The office is closed after 4:30 PM Mon-Thu, after 3:30 PM Fri, and all weekend. The FAQ says the after-hours on-call line \"is B2B only\", and no voicemail or answering-service language was found. Commercial, industrial and institutional contract clients get \"24/7 dispatch with in-house answering (no third-party answering service)\" under a signed service agreement. Non-contract callers \"can still call during business hours and we will schedule the next available slot.\"",
+  "online_booking": "None. \"BOOK APPOINTMENT\" and \"Get a Free Estimate\" lead to a Gravity Forms contact form or the phone number. No scheduling vendor (Calendly, ServiceTitan, Housecall Pro, Jobber, etc.) in the page source.",
+  "chat_or_text_on_site": "None. No chat or text-us widget in the page source (checked for Podium, Birdeye, Tidio, Tawk, Intercom, Drift, LiveChat). Contact is phone, email or form only. The form says \"we'll get back to you within 2 business days\".",
+  "vendors_detected": "WordPress + Elementor 4.3.5 (GoDaddy managed WP, secureserver.net CDN). Rank Math SEO. Gravity Forms. Trustindex Google review widget. Real Cookie Banner. OneTap accessibility widget. Google Tag Manager / gtag. Google Ads conversion tag AW-11391057237. Meta Pixel 271230522569847. Microsoft 365 email (MX kaybeeelectric-com.mail.protection.outlook.com). No call tracking (CallRail etc.) and no AI receptionist or answering-service vendor found.",
+  "ads_running": "Unconfirmed. A Google Ads conversion tag (AW-11391057237), a Meta Pixel and a /landing-page URL are on the site, which suggests paid traffic. No Sponsored result, LSA badge or Meta Ad Library check was possible (search budget used up).",
+  "ai_search_presence": "not checked (search budget used up). The site has a LocalBusiness JSON-LD block with empty hours and geo, no FAQPage schema, and substantial plain-text FAQ content on /faqs, /contact and the homepage.",
+  "trigger_events": "No trigger in the last 180 days was found. The latest dated item is the blog post \"Kay Bee Electric Wins 2025 Best Electrician Award\" (Greater North County Chamber NoCo Treasures), from the 2025/10 URL, about 12 months old. Blog and sitemap entries were modified June 2026, and the site copyright is 2026. Job posts, GBP posts and news were not checked.",
+  "google_rating": "Not found. The site's Trustindex widget says \"EXCELLENT Based on 73 reviews Posted on Google\", with no numeric rating shown.",
+  "review_count": "73 Google reviews (per the Trustindex widget on kaybeeelectric.com). Newest widget reviews are dated Mar-May 2026.",
+  "google_maps_url": "Not found",
+  "locations_count": "1 (HQ: 250 Rue St. Francois St, Florissant, MO 63031). Service vehicles are staged across the metro, but there is only one office.",
+  "founded_or_years": "1948, founded by John Kohnen and Jack Behlmann. 78 years in business.",
+  "team_size_estimate": "Not found (no headcount published). Evidence of a mid-size union shop: \"Our team of master electricians and journeyman electricians\", \"a fleet of service vehicles staged across the metro\", a staffed main office, and several named techs, one with 20+ years at the company.",
+  "service_area": "St. Louis County, St. Charles County and Jefferson County, plus Lincoln, Warren and Franklin counties (contact FAQ). 30+ city pages listed.",
+  "sub_services": "Residential: panel replacement and upgrade, EV charger installs, generator hookups and backup power, whole-home surge protection, knob-and-tube rewires, ceiling fans, lighting, outlets, switch relocation, power restoration, solar installation, new construction. Commercial, industrial and institutional: tenant buildouts, machine circuits, three-phase work, energy management, design and build, security, paging and AV systems, and 24/7 contract emergency service.",
+  "disqualifier_check": "PASS on every hard-disqualifier check that ran. Chain/franchise: none (\"not a franchise or a national chain\", one HQ). Website: live with its own domain (copyright 2026). Live US business: yes, with reviews dated 2026. Inbound channel: phone, email and form. Competitor category: no. AI receptionist: none found. No no-solicitation notice on the site. Suppression: no match in suppression.csv or seen.csv for the domain kaybeeelectric.com or the name variants. Not run: GHL dedupe and MO SOS status. Size caution: NECA/IBEW union contractor with major commercial work, but it has a residential service line, so it stays in scope.",
+  "research_confidence": "Medium",
+  "evidence_links": "https://kaybeeelectric.com/contact, https://kaybeeelectric.com/services/24-hour-emergency-services, https://kaybeeelectric.com/, https://kaybeeelectric.com/about, https://kaybeeelectric.com/faqs, https://kaybeeelectric.com/2025/10/kay-bee-electric-wins-2025-best-electrician-award, https://kaybeeelectric.com/page-sitemap.xml, https://www.facebook.com/KayBeeElectric, https://www.expertise.com/mo/st-louis/electricians, https://dns.google/resolve?name=kaybeeelectric.com&type=MX",
+  "_target": "electrical-stlouis",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grep for kaybee, kay-bee, kay bee, the domain kaybeeelectric, the phone 837-3308 and florissant returned no hits in suppression.csv, seen.csv, targets.csv or run-log.csv."
+    },
+    {
+     "claim": "Not a chain or franchise; one HQ in Florissant",
+     "result": "confirmed",
+     "note": "/faqs says \"We are not a franchise or a national chain.\" Contact page shows a single address, 250 Rue St. Francois St, Florissant, MO 63031."
+    },
+    {
+     "claim": "Company phone (314) 837-3308 and generic email info@kaybeeelectric.com",
+     "result": "confirmed",
+     "note": "Both appear on /contact. The homepage shows the same phone."
+    },
+    {
+     "claim": "Strongest pain signal: after-hours on-call line is \"B2B only\" and the office is closed after 4:30 Mon-Thu, 3:30 Fri and weekends",
+     "result": "confirmed",
+     "note": "/contact FAQ says the on-call line for after-hours commercial and industrial emergencies is \"B2B only\". The footer hours are Mon-Thu 8-4:30 and Fri 8-3:30, closed weekends. /services/24-hour-emergency-services says homeowners get service \"during regular business hours\", which supports the gap."
+    },
+    {
+     "claim": "Homepage says \"Call us any time (314) 837-3308\"",
+     "result": "confirmed",
+     "note": "Link text \"Call us any time\" sits beside the phone number, and \"Call us now if you need service and we won't let you down!\" is also present."
+    },
+    {
+     "claim": "Header and footer hours are inconsistent",
+     "result": "confirmed",
+     "note": "The header says Mon-Fri 8-4:00 and the footer says Mon-Thu 8-4:30 / Fri 8-3:30."
+    },
+    {
+     "claim": "Slow form: \"we'll get back to you within 2 business days\" (pain signal 4)",
+     "result": "contradicted",
+     "note": "/contact does say \"within 2 business days\", but the FAQ on the same page says to expect a callback \"within 1 business day\". The signal is weak and internally inconsistent, so it should not be used."
+    },
+    {
+     "claim": "Owner name, title, email, direct phone and LinkedIn are all Not found",
+     "result": "confirmed",
+     "note": "/about, /faqs, /contact and the homepage name no current owner or president. Only the 1948 founders are named. No fabricated owner data is present."
+    },
+    {
+     "claim": "Founders John Kohnen and Jack Behlmann (1948); NAEC inductions of John Kohnen (1987) and Stephen Kohnen (2010)",
+     "result": "confirmed",
+     "note": "Founders are on /about and in the blog post. The NAEC inductions are in the blog post only, not on /about. The post shows no explicit date; the Oct 2025 date comes from the URL path /2025/10/ and upload folder."
+    },
+    {
+     "claim": "73 Google reviews (Trustindex widget)",
+     "result": "not-found-on-source",
+     "note": "A static fetch of the homepage shows no review count; the widget is likely JavaScript-rendered. Unverified here, not contradicted. Treat as unconfirmed."
+    },
+    {
+     "claim": "Specials: $200 OFF full electrical service upgrade, $75 OFF whole-home surge protection; copyright 2026; NECA-Signatory / IBEW-Affiliated",
+     "result": "confirmed",
+     "note": "All appear on the homepage, in the Current Specials section and footer."
+    },
+    {
+     "claim": "In-house 24/7 dispatch for contract commercial clients",
+     "result": "confirmed",
+     "note": "The emergency page says \"24/7 dispatch with in-house answering (no third-party answering service)\" for facilities under contract."
+    },
+    {
+     "claim": "Stephen Kohnen as likely family leadership",
+     "result": "confirmed",
+     "note": "The researcher correctly treated this as an unconfirmed question only. The sources give only the 2010 induction and no current role."
+    },
+    {
+     "claim": "Independent search for owner, MO SOS, BBB or GBP corroboration",
+     "result": "could-not-open",
+     "note": "The web search budget was exhausted, so no independent owner check was possible. GHL dedupe was also not run."
+    }
+   ],
+   "corrected_fields": {
+    "review_count": "73 Google reviews reported from the Trustindex widget; not visible in a static fetch of the homepage, so unverified",
+    "pain_signals": "1) Residential after-hours gap, verified: /contact FAQ says the after-hours on-call line is \"B2B only\"; /services/24-hour-emergency-services says homeowners are scheduled \"during regular business hours\"; footer hours are Mon-Thu 8-4:30, Fri 8-3:30, closed weekends. 2) Homepage says \"Call us any time (314) 837-3308\" while the office is closed evenings and weekends. 3) Header hours (Mon-Fri 8-4:00) differ from footer hours. 4) DROPPED: the form's \"within 2 business days\" promise conflicts with the FAQ's \"within 1 business day\" callback, so it is weak and inconsistent. 5) High-ticket residential inbound (panels, EV chargers, generators). 6) No online booking, chat or text widget (not re-verified)."
+   },
+   "adjusted_score": 43,
+   "adjusted_confidence": "Medium",
+   "reason": "The identity, non-chain status, phone, generic email and strongest pain signal (residential after-hours gap, B2B-only on-call line) are verified, and the owner fields are correctly \"Not found\"; minor fixes are the unverified 73-review count and the weak, contradicted 2-day form-response signal. Not on suppression or seen."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passes every hard disqualifier: independent and single-location (a Bryant dealer is not a franchise), own working site, Active TN for-profit corporation (2026 annual report filed 18 Sep 2026), phone-first, not in suppression.csv or seen.csv. Score is 41, which is WATCH and below the 55 delivery floor. The row is PROVISIONAL because D4 was not checked and GHL dedupe (ghl-contacts.js) was not run.",
+  "company_name": "BryKo Heating & Air Conditioning Co.",
+  "niche": "HVAC",
+  "niche_segment": "core",
+  "website": "https://www.brykohvac.com",
+  "company_phone": "+1 901-386-2538",
+  "company_email_generic": "brykoheatandac@att.net (published in the site's HVACBusiness JSON-LD in the page source at https://www.brykohvac.com/. It is not shown as visible text, and the contact page lists no email.)",
+  "street_address": "5302 Crestview Rd (site and TN SOS mailing address). BBB and the SOS registered-agent record give 5302 Crestview Dr.",
+  "city": "Memphis",
+  "state": "TN",
+  "zip": "38134",
+  "timezone": "Central (America/Chicago, CDT until Nov 1, 2026)",
+  "business_hours": "Mon-Fri 7:30 AM-5:00 PM CT; Sat-Sun closed (site contact page and openingHoursSpecification in the schema). The site also claims '24/7 Emergency Services' and a '24/7 answering service and after-hours tech support'. GBP hours were not checked.",
+  "best_time_to_call": "Tue-Thu 7:30-8:15 AM CT. The office opens at 7:30 and the playbook's trades window is 7:00-8:30 AM, so this catches the office before the day's service calls stack up. Backup is 4:00-4:45 PM CT, before the 5:00 PM close. Do not call on weekends (closed; calls go to the answering service).",
+  "call_opener": "Hi, is this Eddie? ... Eddie, this is Sam with E4L. This is a cold call, so can I have 20 seconds to tell you why I'm calling, and then you tell me if it's worth a conversation? I saw BryKo has been family-owned since 1967, and your site promises 24/7 emergency service through an answering service. Here's the thing: when a homeowner with no heat at 9 PM gets a message-taker, a lot of them just call the next name on Google. We build an AI receptionist trained on your own company that answers those after-hours calls, sorts out the true emergencies and books the next-morning slot. We'll build you a demo line you can call yourself before you spend a dollar. Worth 20 minutes with our founder to hear it?",
+  "gatekeeper_notes": "BBB lists 'Ms. Leigh Holden, Office Manager', so she most likely answers the main line during business hours. Be friendly, and present the product as after-hours and overflow coverage only, never as a replacement for the office. Ask for 'Eddie Gelston' (BBB: 'Mr. Eddie W. Gelston, President'). If Eddie is not the current decision-maker, ask for Curtis Gelston, who is the TN registered agent at the business address (per OpenCorporates). Calls after 5 PM and on weekends go to the '24/7 answering service' (vendor not named). No owner cell or direct line is published. The BBB fax is +1 901-385-9811 (do not use). The only named technician is 'Matt' in a customer review.",
+  "owner_first_name": "Eddie",
+  "owner_last_name": "Gelston",
+  "owner_title": "President (per BBB Business Management; middle initial W.)",
+  "owner_role_type": "Unknown",
+  "owner_email": "Not found (only the business mailbox brykoheatandac@att.net exists, from the site schema)",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Likely",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found (not checked: the WebSearch budget for this run was used up)",
+  "owner_other_socials": "Company Facebook only: https://facebook.com/BrykoHeatingAirConditioningCo/ (linked from the site; content is behind the Facebook login and could not be read). No personal owner socials found.",
+  "owner_background": "Not found beyond the title. BBB names Eddie W. Gelston as President. The TN SOS record (via OpenCorporates) lists CURTIS J GELSTON as registered agent at 5302 Crestview Dr, which ties the Gelston family to the business. The company itself dates to 1967 (site 'Family-Owned Since 1967'; BBB founding date 1967-08-01; BBB accredited since 1976). Generation, years as owner and the relationship between Eddie and Curtis were not found.",
+  "owner_personality_cues": "These are brand-level statements on the site, not owner-signed: 'Honest people, honest pricing'; 'We repair whenever repair makes sense and only recommend replacement when it is truly in your best interest — not just the more profitable choice' (FAQ schema); 'Family-Owned & Locally Operated'. BBB: A+, accredited, 0 complaints in 3 years. No owner-signed review replies were found on the site's review page.",
+  "best_opening_moment": "Now: the Memphis heating season is starting (mid-October), and the site's own FAQ asks 'Do you offer emergency heating repair in Memphis?'. The first cold snap brings no-heat calls after 5 PM and on weekends, which go to the answering service. Lead with the 1967 family legacy and 'Honest people, honest pricing'.",
+  "attitude_type": "Family-Legacy Pride Brand (medium confidence)",
+  "attitude_evidence": "3 signals across 2 source categories. (1) Website: 'Family-Owned Since 1967' and 'Family-Owned & Locally Operated' (https://www.brykohvac.com/, /about-us). (2) Website copy on honesty: 'Honest people, honest pricing' and 'only recommend replacement when it is truly in your best interest — not just the more profitable choice' (homepage schema/FAQ). (3) BBB: Accredited Business since 1976, A+, 0 complaints in 3 years, founding date 1967-08-01 (https://www.bbb.org/us/tn/memphis/profile/heating-and-air-conditioning/bryko-heating-ac-company-0543-327). No contrary signals found. Approach: respect the legacy, frame the product as protecting the name after hours, use a personal and slightly formal tone, and never suggest replacing the office manager.",
+  "tech_adoption": "basic. Customer-facing: SSL, contact form, 'Make a Payment' page; no online booking, chat or text-us. FAQPage and HVACBusiness JSON-LD are present but appear vendor-built (Duda reseller site).",
+  "marketing_sophistication": "unknown, leaning agency_managed. The site is a Duda reseller build (body class 'dmResellerSite'; cdn-website.com/multiscreensite.com assets). It has monthly city-targeted blog posts (Apr 28 to Sep 25, 2026, on /resources), GA4 (G-9JVPJTCD4H) and a Xandr/AppNexus (adnxs) pixel. No agency is credited in the footer, and there is no call tracking or Meta pixel.",
+  "growth_stage": "established (since 1967; one location; active TN corp with annual reports filed every year 2019-2026)",
+  "review_response_behavior": "unknown. The site's review page shows 14 five-star excerpts with no owner replies. GBP reply rate was not checked.",
+  "after_hours_handling": "An unnamed answering service. The site says 'You'll appreciate our 24/7 answering service and after-hours tech support' and 'Bryko provides 24/7 emergency HVAC service... Call any time and a technician will respond promptly'. Office hours are Mon-Fri 7:30-5:00 and closed Sat-Sun. The contact page gives no after-hours instructions. Whether the service books jobs or only takes messages is unverified; Sam should find out by asking.",
+  "online_booking": "None. The contact page has a form ('We will get back to you as soon as possible.') and the site has a payment page, but there is no scheduler in the page source.",
+  "chat_or_text_on_site": "None (no chat or text widget scripts in the homepage source)",
+  "vendors_detected": "Duda website platform (reseller/agency build; agency not named); Google Analytics 4 via gtag (G-9JVPJTCD4H); Xandr/AppNexus adnxs pixel (px id 1913472); Bryant (official dealer). None found: CallRail, Podium, Birdeye, ServiceTitan, Housecall Pro, Jobber, Meta pixel, chat tools, financing partners.",
+  "ads_running": "Not confirmed. A Xandr/AppNexus (adnxs) pixel in the page source suggests programmatic display or retargeting, but no Google Ads (AW-) tag or call tracking is present. Google Sponsored results, LSA and the Meta Ad Library were not checked because the WebSearch budget was used up.",
+  "ai_search_presence": "Not checked: the WebSearch budget for this run was used up, and no AI platform could be queried. Note that the site already carries FAQPage plus HVACBusiness JSON-LD, so D4 would cap at 6 even if BryKo is named in 0 answers.",
+  "pain_signals": "(1) Hours gap: 'Mon - Fri 7:30 am - 5:00 pm / Sat - Sun Closed' alongside '24/7 Emergency Services', with after-hours handled by '24/7 answering service and after-hours tech support' (https://www.brykohvac.com/contact, homepage). (2) Booking friction: no online scheduling, chat or text; the contact form promises only 'We will get back to you as soon as possible.' (https://www.brykohvac.com/contact). Counter-evidence: reviews praise responsiveness, e.g. 'Came out the same day I called & fixed my AC' and 'I called and had a tech there within two hours' (https://www.brykohvac.com/reviews). No review complaints about missed calls were found, no receptionist job posts were found, and BBB shows 0 complaints.",
+  "trigger_events": "No dated business-specific trigger found. The vertical calendar puts the Memphis heating season opening now (October), and the site's FAQ and blog push heating ('How to vet a residential heating contractor in Memphis, TN'). Routine TN annual report filed 18 Sep 2026 (not a trigger). Steady monthly blog posting Apr-Sep 2026. No hiring, expansion, ownership change or new site found.",
+  "lead_score": 41,
+  "score_breakdown": "D1 Decision-maker: 8/20 — full name and role cited from BBB ('Mr. Eddie W. Gelston, President'), with the Gelston family corroborated by the TN SOS registered agent 'CURTIS J GELSTON' at 5302 Crestview Dr (OpenCorporates). The only email is the business mailbox brykoheatandac@att.net (site JSON-LD), plus a staffed main line. No owner email, cell or LinkedIn, so call-first. | D2 Phone gap: 4/15 — phone-first (click-to-call throughout, HVAC is an urgent niche, closed Sat-Sun and after 5 PM while claiming '24/7 Emergency Services'). Scored at 4 because the site credits a '24/7 answering service and after-hours tech support', which makes the pitch a cost-replacement/upgrade conversation: book the job instead of taking a message. | D3 Leak evidence: 5/15 — one signal type, booking friction (no online booking, chat or text; the form promises only 'as soon as possible'; checked in page source). Reviews on /reviews praise speed ('tech there within two hours'), BBB has 0 complaints, and no job posts were found; GBP reviews and reply rate were not checked. | D4 AI search: 0/10 — NO EVIDENCE (the WebSearch budget was used up and no AI platform was queried). The site has FAQPage and HVACBusiness JSON-LD, so the cap would be 6. | D5 ICP fit: 15/15 — independent, single location, family-owned (site); core HVAC niche; proxies: since 1967 (site and BBB 1967-08-01), a service area of 5+ cities (Memphis, Cordova, Bartlett, Germantown, Collierville), 24/7 emergency service, and full system installs (HVAC install $6-12k reference row; review: 'replaced both in and out units'). | D6 Buying signals: 3/15 — soft activity only: monthly blog posts Apr 28 to Sep 25, 2026 (/resources). Checked: footer (no agency credit), view-source (GA4 and an adnxs pixel; no AW- tag, CallRail or Meta pixel), no careers page. Not checked: Google Sponsored, LSA, Meta Ad Library. | D7 Attitude/stack: 6/10 — positives: a modern, maintained site (SSL, dynamic copyright, content updated Oct 2026) and BBB A+ since 1976. No negatives found. The site is a Duda reseller build with schema and SEO blog (some vendor manages content; not named, so no conflict flagged). Owner review replies and social activity were not observed. | TOTAL 41 / PROVISIONAL → WATCH. Missing: D4 evidence; GHL 'E4L Services' dedupe not run. Blockers: D4 and the D2 answering-service credit.",
+  "recommended_entry_offer": "Voice AI live demo built from brykohvac.com, framed as 'books the job instead of taking a message' after hours and on weekends. Keep the existing answering service optional and position the product as after-hours/overflow only. Seasonal urgency angle: heating season and no-heat nights. Secondary: a free AI-visibility check once D4 is run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "BryKo's no-heat calls after 5",
+  "personalized_first_line": "BryKo has been family-owned since 1967, and your site promises Memphis homeowners a 24/7 answering service for the nights the heat goes out.",
+  "call_angle": "After-hours booking, not just answering. They already pay for a 24/7 answering service, so the question is whether a no-heat caller at 8 PM or on Saturday gets a booked next-morning slot or just a message. Qualify with: 'Who picks up after 5 right now, and does that service book the job or take a message?' Offer the free demo line trained on BryKo's own site (legacy since 1967, Bryant dealer, 'Honest people, honest pricing') so they can compare it to their current service. Respect the family legacy, and never imply replacing the office manager.",
+  "likely_objection": "'We already have a 24/7 answering service' or 'We've done fine for 59 years.' Response: keep whatever works. The demo line costs nothing to try, so call it and your current service on the same night and judge which one gets the customer on the schedule.",
+  "why_now": "Mid-October starts the Memphis heating season. The first cold snaps bring no-heat emergencies that happen after the 5 PM close and on weekends, when the office is closed. The site's own FAQ ('Do you offer emergency heating repair in Memphis?') and heating blog show they are pushing heating work right now.",
+  "notes_for_chosen": "Benched from batch 5. Benched from batch 4 (verified 2026-10-15). WATCH (41/PROVISIONAL); below the 55 floor, so not for today's batch unless you override by hand. Facts first: Owner name comes from BBB only ('Eddie W. Gelston, President'). The SOS registered agent is Curtis J Gelston at the same address, so the family is confirmed, but the current decision-maker may be Curtis. Sam should ask for either. The scout's main point (no after-hours coverage) is weaker than reported: the site explicitly claims a '24/7 answering service and after-hours tech support', so D2 dropped to 4. The only email is brykoheatandac@att.net, found in page-source schema (generic, not owner-named; not shown on the contact page), so email is weak and this lead is call-first. Reviews on the site praise fast response, and BBB shows 0 complaints, so there is no verbatim missed-call pain to quote. The site is a Duda reseller build with FAQ schema and monthly SEO blogs, so some vendor already handles their web content (unnamed). Address mismatch: Crestview Rd (site, SOS mailing) vs Crestview Dr (BBB, registered agent). To promote it: run 3 HVAC money questions for Memphis on 2 AI platforms (D4), check GBP reviews and reply rate plus LSA/Meta Ad Library, run GHL dedupe, and have Sam learn on the first call whether the answering service books jobs. Limitation: the WebSearch budget for this run was used up, so LinkedIn, GBP, LSA, ads and AI checks were not done. A follow-up run can finish them.",
+  "evidence_links": "https://www.brykohvac.com/, https://www.brykohvac.com/contact, https://www.bbb.org/us/tn/memphis/profile/heating-and-air-conditioning/bryko-heating-ac-company-0543-327, https://opencorporates.com/companies/us_tn/000004207, https://www.brykohvac.com/about-us, https://www.brykohvac.com/reviews, https://www.brykohvac.com/resources, https://maps.app.goo.gl/YuraZwbE73XSAB6U8, https://facebook.com/BrykoHeatingAirConditioningCo/",
+  "research_confidence": "Medium",
+  "google_maps_url": "https://maps.app.goo.gl/YuraZwbE73XSAB6U8 (linked from the site; not opened)",
+  "google_rating": "Not found",
+  "review_count": "Not found (the site's /reviews page shows 14 five-star excerpts; BBB lists 0 customer reviews; the GBP count was not checked)",
+  "founded_or_years": "1967 (site 'Family-Owned Since 1967'; BBB founding date 1967-08-01; BBB accredited since 1976), about 59 years",
+  "locations_count": "1 (5302 Crestview Rd, Memphis, TN 38134)",
+  "team_size_estimate": "Not found. Small family team: BBB names a President and an Office Manager, reviews name a technician 'Matt', and the site claims 'over 100 years of combined HVAC experience'.",
+  "service_area": "Memphis, Cordova, Bartlett, Germantown, Collierville and 'neighboring areas throughout the metro region' (site)",
+  "sub_services": "HVAC repairs, HVAC installations (official Bryant equipment), preventative HVAC maintenance, residential heating, residential air conditioning, 24/7 emergency service, warranty work on Bryant units, online bill payment",
+  "disqualifier_check": "PASS. Chain/franchise: no (single location, family-owned; a Bryant dealer is not a franchise unit). Own website: yes, loads on HTTPS. Live US business: TN for-profit corporation #000004207 'Active', annual report filed 18 Sep 2026 (OpenCorporates). Inbound channel: phone plus contact form. Competitor/non-buyer: no. Already automated on both fronts: no (unnamed human answering service; no AI receptionist found). E4L world: no match in suppression.csv or seen.csv by name or domain (grep 'bryko' returned nothing). GHL 'E4L Services' dedupe NOT run. No 'no solicitation' notice seen.",
+  "_target": "hvac-memphis",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "grep -i for bryko, gelston, brykohvac and the phone digits returned no hits in either file."
+    },
+    {
+     "claim": "Owner Eddie W. Gelston, President",
+     "result": "confirmed",
+     "note": "BBB lists Eddie W. Gelston, President, and Leigh Holden, Office Manager. The company's own site names no owner, so the name rests on BBB alone, as the lead says."
+    },
+    {
+     "claim": "Curtis J Gelston is the TN registered agent, company Active, 2026 annual report filed 18 Sep 2026",
+     "result": "confirmed",
+     "note": "OpenCorporates shows Active, agent CURTIS J GELSTON, 5302 CRESTVIEW DR, and a 2026 Annual Report filed 18 Sep 2026. The mailing address is Crestview Rd, as the lead says."
+    },
+    {
+     "claim": "Company phone +1 901-386-2538",
+     "result": "confirmed",
+     "note": "The homepage, the contact page and BBB all show (901) 386-2538. BBB fax 385-9811 also matches."
+    },
+    {
+     "claim": "Generic email brykoheatandac@att.net appears in the page-source JSON-LD only, not visible text",
+     "result": "confirmed",
+     "note": "curl of the homepage source finds brykoheatandac@att.net. WebFetch's markdown view shows no email, and the contact page lists none, which matches the lead's caveat. It is a business mailbox, not an owner email."
+    },
+    {
+     "claim": "Pain signal: Mon-Fri 7:30-5:00, closed weekends, alongside 24/7 emergency claims and a 24/7 answering service",
+     "result": "confirmed",
+     "note": "The homepage shows those hours and the quoted '24/7 answering service and after-hours tech support' and '24/7 Emergency Services'. The contact page shows the hours but does not mention 24/7, so the lead cites the wrong page for the 24/7 claim; the homepage does support it."
+    },
+    {
+     "claim": "No online booking, chat or text",
+     "result": "confirmed",
+     "note": "The contact page has a form and a phone number only, with no scheduler."
+    },
+    {
+     "claim": "Not a chain or franchise; single location; Family-Owned Since 1967",
+     "result": "confirmed",
+     "note": "The homepage says 'Family-Owned Since 1967', lists one address, and calls the company an official Bryant dealer, which is not a franchise. No multi-location language."
+    },
+    {
+     "claim": "Vendor and stack details (GA4 G-9JVPJTCD4H, adnxs pixel id 1913472)",
+     "result": "confirmed",
+     "note": "Both strings are present in the homepage source."
+    }
+   ],
+   "corrected_fields": {
+    "owner_email_confidence": "N/A (no owner email; only the generic business mailbox, which is call-first only)",
+    "owner_email_type": "Generic business mailbox (not owner-specific)"
+   },
+   "adjusted_score": 41,
+   "adjusted_confidence": "Medium",
+   "reason": "Core facts check out (phone, BBB owner and title, SOS status, single location, not suppressed); the only fixes are the owner-email confidence label, which implied an owner email that does not exist, and a mis-cited 24/7 page; the lead stays WATCH at 41, below the 55 floor."
+  }
+ }
+]
