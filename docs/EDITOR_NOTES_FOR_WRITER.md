@@ -93,3 +93,11 @@ Do not promise an income. The "life you deserve" line is his, and it is a feelin
 **What these two stories change for the test:**
 - Two real Personal Stories now exist on the student list, which is the list that has been short on them. Put one in each student test split.
 - Keep the MK story and the brand ambassador story in separate splits. Do not blend them in one email.
+
+---
+
+## 7. Status, Oct 21
+
+- **Week of Oct 26:** Chosen approved all eight in chat ("all good to go"). The formal GO is his Slack reply to the preview DM. Distribution to Daniel happens on that GO, per the cadence doc, not before.
+- **Mortal Kombat story:** not in this week's batch. Write it into the **week of Nov 2** student emails.
+- **Brand ambassador pictures and stories:** still to come through the writer chat. Use them in the week of Nov 2 or later, not this week.
