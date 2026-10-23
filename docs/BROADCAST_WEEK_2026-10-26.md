@@ -651,4 +651,16 @@ The Oct 19 report's "Change this week" said to schedule one broadcast to the Stu
 
 ## Friday freshness check
 
-Not yet run. Friday's step re-verifies: the Anthropic Haiku 5.5 page and its prices (A1); the Census BFS release and that no newer release replaced CB26-163 (A2, S3; next scheduled 2026-11-12); the Roblox Sept 11 post (S1); the Census AI-at-work story (B1) and the Google Demand Gen post (B2). Relative dates: every email states calendar dates ("October 7", "September 11", "October 14", "In September"); no email uses "today", "yesterday", "this morning" or "last week". "Tonight" appears only in the two Sunday emails, which send on Sunday Nov 1.
+**Run Fri 2026-10-23 (send dates Oct 26 / 28 / 30 / Nov 1).** Every Source line re-fetched at the primary page. No copy changed, no email swapped.
+
+| Email | Source | Result |
+|---|---|---|
+| A1 | anthropic.com/claude-haiku-5-5 | Loads. Dated Oct 7, 2026. Quote verbatim. Haiku 5.5 $0.10 in / $0.50 out (prompts up to 100k); Haiku 4.5 $1.00 / $5.00. "10x cheaper" still holds. |
+| A2, S3 | census.gov/econ/bfs/current | Loads. Still CB26-163, Oct 14, 2026. 534,947 (+0.5% vs Aug) and 29,022 projected formations unchanged. No newer release; next one 2026-11-12, after every send. |
+| S1 | Roblox newsroom, Sep 11 post | Loads. "approximately $1.7 billion" (data through June 30) and "more than $5 billion" since 2013 both present. |
+| B1 (bench) | census.gov AI-at-work story | Loads. 56%, March 2026 survey, published Aug 11 (revised Sep 24). |
+| B2 (bench) | Google Demand Gen post | Loads. Dated Oct 13, 2026. Over-20% claim is attributed to Google's internal analysis. |
+| Book link | joineat4life.com/xboxtoexec | Loads. |
+| Booking link | api.leadconnectorhq.com/widget/bookings/cs-game-plan-call | Fetch returns a blank page (a JS widget, so WebFetch cannot render it). Not verified. Test-send click-through will confirm it. |
+
+**Relative dates on the send day:** all calendar dates ("October 7", "September 11", "October 14", "In September"). "Tonight" appears only in A-SUN and S-SUN, which send Sunday Nov 1. A3, S2, S-SUN carry no external claim. Nothing with a deadline falls before a send date.
