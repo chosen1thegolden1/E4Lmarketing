@@ -1,0 +1,485 @@
+[
+  {
+    "side": "Students (school)",
+    "locationId": "zSBqmFrgOtGwd4ALyIsD",
+    "window": {
+      "since": "2026-10-19T14:10:39.930Z",
+      "until": "2026-10-26T14:10:39.930Z",
+      "days": 7
+    },
+    "gaps": [],
+    "hygiene": [
+      "Paused campaign still holding 1227 queued contacts: \"Feb 4th - The day you stop trading time for money\" (2026-01-28)",
+      "Pipeline \"Chris Power dialer\": source is split by casing — \"11 Digital Careers - Sales Funnel\" vs \"11 digital careers - sales funnel\" — attribution counts are being divided.",
+      "Pipeline \"E4L\": 3 opportunities sit in a paid stage with $0 recorded — revenue from email can't be reported until values are entered.",
+      "Pipeline \"E4L\": 338 of 370 (91.4%) still at \"New Lead (Ebook/ads/etc)\" — the pipeline isn't being worked, so stage-based conversion will read as zero.",
+      "Pipeline \"E4L\": source is split by casing — \"11 Digital Careers - Sales Funnel\" vs \"11 digital careers - sales funnel\" — attribution counts are being divided.",
+      "Pipeline \"E4L\": source is split by casing — \"Xbox to Executive - Optin Form\" vs \"xbox to executive - optin form\" — attribution counts are being divided."
+    ],
+    "locationName": "Eat 4 Life Students",
+    "campaigns": [],
+    "workflowEmails": [
+      {
+        "subject": "Comfort is costing you thousands…",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "I work 4 hours a day and make more than I did working 60",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The call that changes everything",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "One skill separates broke from rich",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "I created 90 days of content in 3 hours (here's the system)",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "\"No\" just means \"not yet\"",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "He kept asking for the blueprint",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "You already know what to do",
+        "source": "workflow",
+        "sent": 3,
+        "byStatus": {
+          "delivered": 3
+        },
+        "delivered": 3,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Welcome to the executive table, Sebastian",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "clicked": 2
+        },
+        "delivered": 2,
+        "opened": 2,
+        "clicked": 2,
+        "bounced": 0,
+        "openRate": 100,
+        "clickRate": 100
+      },
+      {
+        "subject": "[Eat 4 Life Students] Thank you for your recent purchase",
+        "source": "app",
+        "sent": 2,
+        "byStatus": {
+          "opened": 2
+        },
+        "delivered": 2,
+        "opened": 2,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 100,
+        "clickRate": 0
+      },
+      {
+        "subject": "They didn't reject you…",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 1,
+          "opened": 1
+        },
+        "delivered": 2,
+        "opened": 1,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 50,
+        "clickRate": 0
+      },
+      {
+        "subject": "The book you asked for on Instagram",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "opened": 1,
+          "delivered": 1
+        },
+        "delivered": 2,
+        "opened": 1,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 50,
+        "clickRate": 0
+      },
+      {
+        "subject": "Why 'rise and grind' is a losing strategy in 2026",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Hiding is keeping you broke",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Why every creator hits a ceiling at $10K/month (and how to break through)",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The job path is outdated",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Entrepreneurs are basically gamers",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Your competition is asleep",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "delivered": 2
+        },
+        "delivered": 2,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Nobody is coming to pick you",
+        "source": "workflow",
+        "sent": 2,
+        "byStatus": {
+          "failed": 2
+        },
+        "delivered": 0,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 2,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Your From Xbox to Executive audiobook",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "clicked": 1
+        },
+        "delivered": 1,
+        "opened": 1,
+        "clicked": 1,
+        "bounced": 0,
+        "openRate": 100,
+        "clickRate": 100
+      },
+      {
+        "subject": "Welcome to Eat For Life",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Your link: From Xbox to Executive 🎮",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Stop explaining your dreams",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "Welcome to the executive table, Burnett",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "clicked": 1
+        },
+        "delivered": 1,
+        "opened": 1,
+        "clicked": 1,
+        "bounced": 0,
+        "openRate": 100,
+        "clickRate": 100
+      },
+      {
+        "subject": "The day you stop trading time for money",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "You don't need more time. You need a clone.",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      },
+      {
+        "subject": "The richest people in 2026 won't be the hardest workers",
+        "source": "workflow",
+        "sent": 1,
+        "byStatus": {
+          "delivered": 1
+        },
+        "delivered": 1,
+        "opened": 0,
+        "clicked": 0,
+        "bounced": 0,
+        "openRate": 0,
+        "clickRate": 0
+      }
+    ],
+    "workflowEmailsTotal": 54,
+    "hasEngagement": true,
+    "appointments": [],
+    "appointmentsTotal": 0,
+    "forms": [],
+    "formsTotal": 0,
+    "formsKnown": [
+      "Activate AI Income form*",
+      "Voice AI Demo Request",
+      "Free Eat 4 Life Training Sign Up ",
+      "Event Marketing",
+      "V2 - A2P Compliant Optin Form ",
+      "Xbox to Executive - Optin Form",
+      "11 Digital Careers - Sales Funnel"
+    ],
+    "pipelines": [
+      {
+        "name": "Chris Power dialer",
+        "total": 1000,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": []
+      },
+      {
+        "name": "E4L",
+        "total": 370,
+        "movedThisWindow": 2,
+        "byStage": {
+          "Paid Ebook -X-box- Purchased": {
+            "moved": 2,
+            "value": 46.95,
+            "fromEmail": 0
+          }
+        },
+        "purchaseStages": [
+          "Paid Ebook -X-box- Purchased",
+          "Paid Ebook -0-880- Purchased (upsell)",
+          "Course Purchased",
+          "Coaching Enrolled"
+        ]
+      },
+      {
+        "name": "E4L Students",
+        "total": 0,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": [
+          "Closed"
+        ]
+      },
+      {
+        "name": "Wilbert Power dialer",
+        "total": 1000,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": []
+      },
+      {
+        "name": "Ad campaign",
+        "total": 0,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": [
+          "Enrolled"
+        ]
+      },
+      {
+        "name": "Reactivation",
+        "total": 0,
+        "movedThisWindow": 0,
+        "byStage": {},
+        "purchaseStages": [
+          "Enrolled"
+        ]
+      }
+    ]
+  },
+  {
+    "side": "Agency (E4L Services)",
+    "locationName": "cVjZYdYSOnOs4rZPrzcs",
+    "unavailable": "no API token configured for this sub-account"
+  }
+]
