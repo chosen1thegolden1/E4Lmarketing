@@ -54,7 +54,7 @@ Per the 4% rule, Monday agency and Friday student are written to the readers alr
 
 **Subject:** Would you let AI pay your invoices?
 
-**Preview text:** Stripe just built the switch. The setting that matters is the one it left to you.
+**Preview text:** Stripe built the switch. The setting that matters is the one it left to you.
 
 **Reader:** A-2 (growing, profitable, reads fast) · **Angle:** Correlation · **Spoke:** front end → the call
 
@@ -80,7 +80,7 @@ That's the whole game.
 
 **The AI isn't the risk. Handing it the keys with no rules is.**
 
-Same goes for the stuff you actually use it on. First
+Same goes for the work you use it on. First
 replies. Follow-up. Reminders. Let it do the work. You
 approve what goes out the door.
 
@@ -107,7 +107,7 @@ P.S. If a tool wants write access to your money and can't tell you when it asks 
 
 ## A2 — Wednesday
 
-**Subject:** Your customers' AI is going to ask your business questions
+**Subject:** Could a robot find your prices?
 
 **Preview text:** Meta and Sierra are writing the rulebook. You don't have to wait for it.
 
@@ -138,19 +138,20 @@ Stripe and Walmart are among the partners.
 Here's what I take from it.
 
 When a customer's AI goes looking for a business, it
-reads what's there. **Whoever's answers are clear is
-who gets picked.**
+reads what's there. **Whoever's answers are clear
+gets picked.**
 
 So do this. Write down the five questions customers ask
 you most. Hours. Prices. How to book. What happens next.
+
 Put plain answers on one page. 💡
 
 If your answers live in your head, nothing can use them.
 
 See Sierra's post → (LINK: https://sierra.ai/blog/introducing-personal-agent-protocol?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-11-04)
 
-If you'd like help turning those answers into a lead who
-gets a reply in minutes, that's a conversation.
+If you'd like help turning those answers into leads who
+get a reply in minutes, that's a conversation.
 
 👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-11-04)
 
@@ -170,7 +171,7 @@ P.S. What's the question customers ask you that you answer by hand every single 
 
 **Subject:** My first client never saw a pitch deck
 
-**Preview text:** It started at dinner. The lesson is about what I did next.
+**Preview text:** It started over pizza. The conversation is the easy part.
 
 **Reader:** A-3 (great at sales, bad at tools) · **Angle:** Story · **Spoke:** front end → the call
 
@@ -195,7 +196,9 @@ you spot the thing, you say it plainly. **People buy from
 the person who understood them.**
 
 The part that trips you up isn't the conversation. It's
-what happens *after* it. The follow-up. The reminder. The
+what happens *after* it.
+
+The follow-up. The reminder. The
 quote that goes out Thursday instead of Monday. 😵‍💫
 
 That's the part I take off your plate.
@@ -218,9 +221,9 @@ P.S. Who's the last person you had a great conversation with and never followed 
 
 ## A-SUN — Sunday
 
-**Subject:** Check your missed calls
+**Subject:** Count your missed calls. Don't call anyone.
 
-**Preview text:** Three minutes. You'll know by the second one.
+**Preview text:** Nobody did this on purpose. The warmest leads you have are in there.
 
 **Reader:** A-1 (wants more sales) · **Angle:** the direct one · **Spoke:** front end → the call
 
@@ -232,9 +235,8 @@ It's Sunday, so here's one thing to do instead of a pitch.
 Pick up your phone. Open your missed calls and your
 voicemail. 👀
 
-Scroll back through this past week.
-
-Count the ones you never called back.
+Scroll back through this past week. Count the ones you
+never called back.
 
 Don't call anyone yet. *Just count.*
 
@@ -268,9 +270,9 @@ P.S. Pick the first number on the list and call it back before you sleep. One mi
 
 ## S1 — Monday
 
-**Subject:** They rebuilt a classic. Here's your version.
+**Subject:** Zelda comes back Thursday. Steal the idea.
 
-**Preview text:** Same game, new engine. You can do this to a flyer by tonight.
+**Preview text:** Rebuilt from the ground up. You can do it to a flyer by tonight.
 
 **Reader:** S-A (just found out digital careers exist) · **Angle:** Correlation (culture news → the lesson) · **Spoke:** front end → the book
 
@@ -292,16 +294,18 @@ Same story. Rebuilt with better tools. 🎮
 
 Here's what I see in that.
 
-Everybody loves the old thing. The winner is whoever
-rebuilds it better.
+Everybody loves the old thing. **The winner is whoever
+rebuilds it better.**
 
 **That's what AI lets one person do now.**
 
 So here's a little side quest. No experience needed.
 
 1. Find a local shop with an ugly flyer, menu, or Instagram bio.
-2. Open a free AI chat and ask it to rewrite it in a
-   way that sounds better. Tell it who the customers are.
+
+2. Open a free AI chat. Ask it to rewrite it so it sounds
+better. Tell it who the customers are.
+
 3. Save a before and after. 💡
 
 That's a sample you can show a business owner.
@@ -346,8 +350,8 @@ My verdict?
 
 **The second one is way easier.** 😂
 
-I'm not saying marketing is a cheat code. I'm saying you
-already know how to learn something hard.
+I'm not saying marketing is a cheat code. **I'm saying you
+already know how to learn something hard.**
 
 You've done it. Whatever your game was. Shooters,
 sports, racing, building. You sat with a thing that
@@ -361,7 +365,7 @@ Under it, write three things you had to get good at to
 pull it off. Patience. Reading people. Staying calm after
 a loss. 💡
 
-That list is a skill list. Nobody told you.
+That list is a skill list. *Nobody told you.*
 
 Those hours were not wasted. Point them at a laptop and
 AI, and they can build you the life you deserve.
@@ -385,9 +389,9 @@ P.S. What did you master in your favorite game? Hit reply and tell me. 🔥
 
 ## S3 — Friday
 
-**Subject:** 63% of these new companies started with one person
+**Subject:** Most of Stripe's new startups are one person
 
-**Preview text:** Stripe's numbers, Q2 2026. The part about the kids' games company is the one to read.
+**Preview text:** 63% in Q2 2026. The one-employee kids' platform is the part to read.
 
 **Reader:** S-D (made some money, now capped) · **Angle:** Results / Value · **Spoke:** front end → the book
 
@@ -412,7 +416,7 @@ That's Stripe's own customers, not the whole country. Still.
 And one example in the post is a platform that helps kids
 ages 6 to 13 make films, games, comics, and robot designs.
 
-Its founder is the only employee. He relies on AI agents
+**Its founder is the only employee.** He relies on AI agents
 to run the business.
 
 You already know what that is.
@@ -449,7 +453,7 @@ P.S. What's the one job you keep doing by hand that you shouldn't be? 📲
 
 **Subject:** Every no is just a lost round
 
-**Preview text:** What I do after I lose. It takes about a minute.
+**Preview text:** Losing doesn't end people. Tilt does.
 
 **Reader:** S-C (tried and failed) · **Angle:** the deposit · **Spoke:** front end → the book
 
@@ -464,7 +468,7 @@ You tried something. It didn't work.
 And now every time you think about trying again, a voice
 says "why would this time be different?" 😵‍💫
 
-I'm not saying I don't understand that.
+I get that.
 
 Here's how I think about it, and I've said it since *Esports
 Unlocked*:
@@ -479,7 +483,7 @@ Tilt is what ends people. Not losing.
 So here's one small thing for tonight.
 
 Write down what you tried. Then one thing you'd do
-different in the very next round.
+different in the very next round. 📝
 
 One thing. Not ten. That's it. ✊🏾
 
@@ -532,7 +536,7 @@ So here's one small thing for tonight.
 Think about the least exciting step standing between you
 and what you want. A dull task. An awkward message.
 
-Do ten minutes of it. ✊🏾
+Do ten minutes of it. 🎯
 
 👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=B1-2026-11-02)
 
