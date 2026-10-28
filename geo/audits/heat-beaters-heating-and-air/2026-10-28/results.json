@@ -1,0 +1,637 @@
+{
+  "subject": "Heat Beaters Heating and Air",
+  "city": "St. Augustine, FL",
+  "niche": "hvac",
+  "label": "HVAC (Heating & Air)",
+  "date": "2026-10-28",
+  "startedAt": "2026-10-28T22:29:54.499Z",
+  "finishedAt": "2026-10-28T22:42:36.084Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity",
+    "claude"
+  ],
+  "score": "2/28",
+  "named": 2,
+  "total": 28,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency AC repair near St. Augustine, FL",
+      "askedAt": "2026-10-28T22:29:56.310Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_chatgpt_q1_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Wilson Heating & Air Conditioning",
+        "Action Heating & Air",
+        "Extreme Air & Refrigeration Services",
+        "365 Solutions AC Repair & Plumbing",
+        "Crazy Cool Heating & Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Wilson Heating & Air Conditioning",
+        "Action Heating & Air",
+        "Extreme Air & Refrigeration Services",
+        "365 Solutions AC Repair & Plumbing",
+        "Crazy Cool Heating & Air"
+      ],
+      "note": "Listed five competing HVAC companies for emergency AC repair near St. Augustine, FL, without mentioning Heat Beaters Heating and Air.",
+      "answerChars": 1368
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable HVAC company in St. Augustine, FL",
+      "askedAt": "2026-10-28T22:31:44.639Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_chatgpt_q2_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "AC Designs Heating & Air Conditioning",
+        "Wilson Heating & Air Conditioning",
+        "Custom Heating & Air of Florida",
+        "Florida Air Flow Heating & Air LLC",
+        "Mr. T's of St Augustine",
+        "Taylor Refrigeration & Air Conditioning",
+        "Action Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "AC Designs Heating & Air Conditioning",
+        "Wilson Heating & Air Conditioning",
+        "Custom Heating & Air of Florida",
+        "Florida Air Flow Heating & Air LLC",
+        "Mr. T's of St Augustine",
+        "Taylor Refrigeration & Air Conditioning",
+        "Action Heating & Air Conditioning"
+      ],
+      "note": "Recommended a shortlist of 7 other St. Augustine HVAC companies based on reviews/directories, without mentioning Heat Beaters Heating and Air.",
+      "answerChars": 2595
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "HVAC company that answers the phone St. Augustine, FL",
+      "askedAt": "2026-10-28T22:33:36.292Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_chatgpt_q3_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Hallco Heating & Air",
+        "STA AIR",
+        "Crazy Cool Heating & Air",
+        "Action Heating & Air Conditioning",
+        "Briggs Heating"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Hallco Heating & Air",
+        "STA AIR",
+        "Crazy Cool Heating & Air",
+        "Action Heating & Air Conditioning",
+        "Briggs Heating"
+      ],
+      "note": "Recommended five competing St. Augustine HVAC companies with 24/7 service and phone numbers, never mentioning Heat Beaters Heating and Air.",
+      "answerChars": 1370
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me St. Augustine, FL",
+      "askedAt": "2026-10-28T22:35:24.955Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_chatgpt_q4_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Wright Brothers Heating & Air",
+        "Wilson Heating & Air Conditioning, Inc.",
+        "Pro-Tech Heating & Air Conditioning, Inc.",
+        "AC Designs Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Wright Brothers Heating & Air",
+        "Wilson Heating & Air Conditioning, Inc.",
+        "Pro-Tech Heating & Air Conditioning, Inc.",
+        "AC Designs Heating & Air Conditioning"
+      ],
+      "note": "Recommended four competing HVAC companies in St. Augustine with review stats, never mentioning Heat Beaters Heating and Air.",
+      "answerChars": 1371
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "HVAC St. Augustine, FL free estimate",
+      "askedAt": "2026-10-28T22:37:17.049Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_chatgpt_q5_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "The assistant asked clarifying questions and gave generic advice without naming any specific HVAC businesses.",
+      "answerChars": 1423
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in St. Augustine, FL",
+      "askedAt": "2026-10-28T22:39:01.040Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_chatgpt_q6_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on who to call (911, landlord, licensed HVAC contractor, electrician) without naming any specific businesses.",
+      "answerChars": 2695
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "furnace repair open now St. Augustine, FL",
+      "askedAt": "2026-10-28T22:40:49.393Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_chatgpt_q7_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Wright Brothers Heating & Air",
+        "Extreme Air & Refrigeration Services",
+        "Hallco Heating & Air",
+        "365 Solutions",
+        "Crazy Cool Heating & Air",
+        "Briggs Heating"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Wright Brothers Heating & Air",
+        "Extreme Air & Refrigeration Services",
+        "Hallco Heating & Air",
+        "365 Solutions",
+        "Crazy Cool Heating & Air",
+        "Briggs Heating"
+      ],
+      "note": "Listed six competing HVAC companies offering 24-hour/emergency furnace repair in St. Augustine, FL, without mentioning the audit subject.",
+      "answerChars": 1675
+    },
+    {
+      "platform": "claude",
+      "question": 1,
+      "text": "emergency AC repair near St. Augustine, FL",
+      "askedAt": "2026-10-28T22:29:56.310Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_claude_q1_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Wilson Heating & Air Conditioning, Inc.",
+        "Action Heating & Air Conditioning, Inc.",
+        "J&W Heating and Air + Plumbing",
+        "Snyder Air Conditioning & Electric",
+        "Florida Home Air Conditioning",
+        "Climate Masters",
+        "Aire Serv of Saint Augustine"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Wilson Heating & Air Conditioning, Inc.",
+        "Action Heating & Air Conditioning, Inc.",
+        "J&W Heating and Air + Plumbing",
+        "Snyder Air Conditioning & Electric",
+        "Florida Home Air Conditioning",
+        "Climate Masters",
+        "Aire Serv of Saint Augustine"
+      ],
+      "note": "Recommended 7 competing HVAC companies for emergency AC repair but did not mention Heat Beaters Heating and Air.",
+      "answerChars": 2961
+    },
+    {
+      "platform": "claude",
+      "question": 2,
+      "text": "most reliable HVAC company in St. Augustine, FL",
+      "askedAt": "2026-10-28T22:30:10.250Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_claude_q2_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Air Doctors Heating And Cooling Inc",
+        "Gibson's Heating and Air Conditioning LLC",
+        "Powell Heating & Air Conditioning, Inc.",
+        "Action Heating and Air Conditioning, Inc.",
+        "Buehler Air Conditioning & Plumbing",
+        "Steve Chapman's All American Air",
+        "Glacier Heating & Air Conditioning",
+        "Hallco Heating & Air",
+        "Taylor Refrigeration and Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Air Doctors Heating And Cooling Inc",
+        "Gibson's Heating and Air Conditioning LLC",
+        "Powell Heating & Air Conditioning, Inc.",
+        "Action Heating and Air Conditioning, Inc.",
+        "Buehler Air Conditioning & Plumbing",
+        "Steve Chapman's All American Air",
+        "Glacier Heating & Air Conditioning",
+        "Hallco Heating & Air",
+        "Taylor Refrigeration and Air Conditioning"
+      ],
+      "note": "Recommended nine other local HVAC companies by review ratings and reputation, never mentioning Heat Beaters Heating and Air.",
+      "answerChars": 3155
+    },
+    {
+      "platform": "claude",
+      "question": 3,
+      "text": "HVAC company that answers the phone St. Augustine, FL",
+      "askedAt": "2026-10-28T22:30:27.978Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_claude_q3_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Glacier Heating & Air Conditioning",
+        "Action Heating & Air Conditioning",
+        "Hot Heads Heating & Cooling",
+        "J&W Heating and Air + Plumbing",
+        "Taylor Refrigeration and Air Conditioning",
+        "Air Doctors Heating And Cooling Inc",
+        "Snyder Air Conditioning & Electric"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Glacier Heating & Air Conditioning",
+        "Action Heating & Air Conditioning",
+        "Hot Heads Heating & Cooling",
+        "J&W Heating and Air + Plumbing",
+        "Taylor Refrigeration and Air Conditioning",
+        "Air Doctors Heating And Cooling Inc",
+        "Snyder Air Conditioning & Electric"
+      ],
+      "note": "Recommended seven other local HVAC companies known for fast phone response, never mentioning Heat Beaters Heating and Air.",
+      "answerChars": 2882
+    },
+    {
+      "platform": "claude",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me St. Augustine, FL",
+      "askedAt": "2026-10-28T22:30:44.351Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_claude_q4_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Air Doctors Heating And Cooling Inc",
+        "Gibson's Heating and Air Conditioning LLC",
+        "Powell Heating & Air Conditioning, Inc.",
+        "Atlantic Mechanical AC",
+        "Glacier Heating and Air Conditioning",
+        "Heat Beaters Heating and Air",
+        "Hallco Heating and Air",
+        "All American Air"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Air Doctors Heating And Cooling Inc",
+        "Gibson's Heating and Air Conditioning LLC",
+        "Powell Heating & Air Conditioning, Inc.",
+        "Atlantic Mechanical AC",
+        "Glacier Heating and Air Conditioning",
+        "Hallco Heating and Air",
+        "All American Air"
+      ],
+      "note": "Ranked Heat Beaters 6th among 7 top-rated HVAC companies, with a brief mention of a lower-rated competitor as a caution.",
+      "answerChars": 3030
+    },
+    {
+      "platform": "claude",
+      "question": 5,
+      "text": "HVAC St. Augustine, FL free estimate",
+      "askedAt": "2026-10-28T22:31:00.369Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_claude_q5_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Florida Air Conditioning",
+        "Hallco Heating & Air LLC",
+        "Action Heating & Air",
+        "Wilson Heating & Air Conditioning",
+        "Weather Engineers",
+        "Duck Duck Rooter Plumbing, AC & Septic Services",
+        "Cool-R-Us, Inc.",
+        "Climate Innovations Heating & Air Conditioning, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Florida Air Conditioning",
+        "Hallco Heating & Air LLC",
+        "Action Heating & Air",
+        "Wilson Heating & Air Conditioning",
+        "Weather Engineers",
+        "Duck Duck Rooter Plumbing, AC & Septic Services",
+        "Cool-R-Us, Inc.",
+        "Climate Innovations Heating & Air Conditioning, Inc."
+      ],
+      "note": "Listed 8 competing HVAC companies in St. Augustine offering free estimates, never mentioning Heat Beaters Heating and Air.",
+      "answerChars": 3632
+    },
+    {
+      "platform": "claude",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in St. Augustine, FL",
+      "askedAt": "2026-10-28T22:31:17.225Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_claude_q6_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on finding an HVAC contractor without naming any specific business, including the audit subject.",
+      "answerChars": 1829
+    },
+    {
+      "platform": "claude",
+      "question": 7,
+      "text": "furnace repair open now St. Augustine, FL",
+      "askedAt": "2026-10-28T22:31:30.401Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_claude_q7_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Glacier Heating & Air Conditioning",
+        "Aire Serv of Saint Augustine",
+        "Wilson Heating & Air Conditioning",
+        "Reel Cool AC & Heating",
+        "Florida Air Flow",
+        "Action Heating & Air Conditioning",
+        "Hall Co AC",
+        "J&W Heating and Air",
+        "Climate Masters"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Glacier Heating & Air Conditioning",
+        "Aire Serv of Saint Augustine",
+        "Wilson Heating & Air Conditioning",
+        "Reel Cool AC & Heating",
+        "Florida Air Flow",
+        "Action Heating & Air Conditioning",
+        "Hall Co AC",
+        "J&W Heating and Air",
+        "Climate Masters"
+      ],
+      "note": "Listed nine local HVAC companies with 24/7 emergency service but did not mention Heat Beaters Heating and Air.",
+      "answerChars": 2865
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency AC repair near St. Augustine, FL",
+      "askedAt": "2026-10-28T22:29:56.310Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_gemini_q1_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Dave Does Air",
+        "Action Heating & Air",
+        "Aire Serv of Saint Augustine",
+        "J&W Heating and Air + Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dave Does Air",
+        "Action Heating & Air",
+        "Aire Serv of Saint Augustine",
+        "J&W Heating and Air + Plumbing"
+      ],
+      "note": "Recommended four competing HVAC companies for emergency AC repair near St. Augustine, FL, but did not mention Heat Beaters Heating and Air.",
+      "answerChars": 1490
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable HVAC company in St. Augustine, FL",
+      "askedAt": "2026-10-28T22:30:26.602Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_gemini_q2_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Wilson Heating & Air Conditioning",
+        "Buehler Air Conditioning & Plumbing",
+        "Climate Masters",
+        "Taylor Refrigeration & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Wilson Heating & Air Conditioning",
+        "Buehler Air Conditioning & Plumbing",
+        "Climate Masters",
+        "Taylor Refrigeration & Air Conditioning"
+      ],
+      "note": "Recommended four competing HVAC companies in St. Augustine without mentioning Heat Beaters Heating and Air.",
+      "answerChars": 2223
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "HVAC company that answers the phone St. Augustine, FL",
+      "askedAt": "2026-10-28T22:30:47.490Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_gemini_q3_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Aire Serv of St. Augustine",
+        "Action Heating & Air Conditioning",
+        "Wilson Heating & Air Conditioning",
+        "Glacier Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Aire Serv of St. Augustine",
+        "Action Heating & Air Conditioning",
+        "Wilson Heating & Air Conditioning",
+        "Glacier Heating & Air Conditioning"
+      ],
+      "note": "Recommended four local HVAC companies with 24/7 phone support, none of which was the audit subject.",
+      "answerChars": 1211
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me St. Augustine, FL",
+      "askedAt": "2026-10-28T22:31:07.434Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_gemini_q4_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Glacier Heating & Air Conditioning",
+        "Aire Serv of Saint Augustine",
+        "Buehler Air Conditioning & Plumbing",
+        "Climate Masters Heating & Air Conditioning, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Glacier Heating & Air Conditioning",
+        "Aire Serv of Saint Augustine",
+        "Buehler Air Conditioning & Plumbing",
+        "Climate Masters Heating & Air Conditioning, Inc."
+      ],
+      "note": "Recommended four competing HVAC companies in St. Augustine, FL but did not mention Heat Beaters Heating and Air.",
+      "answerChars": 2596
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "HVAC St. Augustine, FL free estimate",
+      "askedAt": "2026-10-28T22:31:28.516Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_gemini_q5_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Florida Air Flow",
+        "David Gray Heating & Air",
+        "Aire Serv of Saint Augustine",
+        "Heat Beaters Heating and Air",
+        "Weather Engineers, Inc."
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Florida Air Flow",
+        "David Gray Heating & Air",
+        "Aire Serv of Saint Augustine",
+        "Weather Engineers, Inc."
+      ],
+      "note": "Listed 5 local HVAC companies offering free estimates, including the audit subject, with general tips on getting quotes.",
+      "answerChars": 1756
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in St. Augustine, FL",
+      "askedAt": "2026-10-28T22:31:48.753Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_gemini_q6_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Glacier Heating & Air Conditioning",
+        "Atlantic Mechanical AC",
+        "Aire Serv of Saint Augustine",
+        "Climate Masters Heating & Air Conditioning"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Glacier Heating & Air Conditioning",
+        "Atlantic Mechanical AC",
+        "Aire Serv of Saint Augustine",
+        "Climate Masters Heating & Air Conditioning"
+      ],
+      "note": "Recommended four competing local HVAC companies and did not mention Heat Beaters Heating and Air at all.",
+      "answerChars": 2097
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "furnace repair open now St. Augustine, FL",
+      "askedAt": "2026-10-28T22:32:10.559Z",
+      "ok": true,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_gemini_q7_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Glacier Heating & Air Conditioning",
+        "Aire Serv of Saint Augustine",
+        "Hallco Heating & Air",
+        "Action Heating & Air Conditioning",
+        "Del-Air Heating, Air Conditioning & Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Glacier Heating & Air Conditioning",
+        "Aire Serv of Saint Augustine",
+        "Hallco Heating & Air",
+        "Action Heating & Air Conditioning",
+        "Del-Air Heating, Air Conditioning & Plumbing"
+      ],
+      "note": "Recommended five local HVAC competitors with 24/7 emergency furnace repair, none of which was the audit subject.",
+      "answerChars": 1572
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency AC repair near St. Augustine, FL",
+      "askedAt": "2026-10-28T22:29:56.310Z",
+      "ok": false,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_perplexity_q1_2026-10-28.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable HVAC company in St. Augustine, FL",
+      "askedAt": "2026-10-28T22:31:05.386Z",
+      "ok": false,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_perplexity_q2_2026-10-28.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "HVAC company that answers the phone St. Augustine, FL",
+      "askedAt": "2026-10-28T22:32:14.049Z",
+      "ok": false,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_perplexity_q3_2026-10-28.jpg",
+      "error": "locator.waitFor: Timeout 25000ms exceeded."
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed HVAC company near me St. Augustine, FL",
+      "askedAt": "2026-10-28T22:33:22.696Z",
+      "ok": false,
+      "screenshot": "screenshots/heat-beaters-heating-and-air_perplexity_q4_2026-10-28.jpg",
+      "error": "sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "HVAC St. Augustine, FL free estimate",
+      "askedAt": "2026-10-28T22:34:21.838Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call when my AC stops cooling in St. Augustine, FL",
+      "askedAt": "2026-10-28T22:34:21.838Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "furnace repair open now St. Augustine, FL",
+      "askedAt": "2026-10-28T22:34:21.838Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    }
+  ]
+}

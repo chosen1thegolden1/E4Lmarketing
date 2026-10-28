@@ -1,0 +1,649 @@
+{
+  "subject": "Golden Plumbing",
+  "city": "Louisville, KY",
+  "niche": "plumbing",
+  "label": "Plumbing",
+  "date": "2026-10-28",
+  "startedAt": "2026-10-28T22:42:36.503Z",
+  "finishedAt": "2026-10-28T22:55:01.308Z",
+  "platforms": [
+    "chatgpt",
+    "gemini",
+    "perplexity",
+    "claude"
+  ],
+  "score": "2/28",
+  "named": 2,
+  "total": 28,
+  "failedAsks": 7,
+  "ghl": "cs_geo_score field is wired (E4L Agency); no --ghl-email given, so score filed in repo only",
+  "results": [
+    {
+      "platform": "chatgpt",
+      "question": 1,
+      "text": "emergency plumber near Louisville, KY",
+      "askedAt": "2026-10-28T22:42:36.681Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_chatgpt_q1_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Roto-Rooter",
+        "Dauenhauer Plumbing",
+        "502 Plumbing",
+        "Parker Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Roto-Rooter",
+        "Dauenhauer Plumbing",
+        "502 Plumbing",
+        "Parker Plumbing"
+      ],
+      "note": "Recommended four competing emergency plumbers in Louisville without mentioning Golden Plumbing.",
+      "answerChars": 1417
+    },
+    {
+      "platform": "chatgpt",
+      "question": 2,
+      "text": "most reliable plumber in Louisville, KY",
+      "askedAt": "2026-10-28T22:44:23.993Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_chatgpt_q2_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "ASI Plumbing",
+        "Tom Drexler Plumbing, Air & Electric",
+        "Vessels Plumbing & Services Inc",
+        "Jarboe’s Heating, Cooling, Plumbing & Electrical"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ASI Plumbing",
+        "Tom Drexler Plumbing, Air & Electric",
+        "Vessels Plumbing & Services Inc",
+        "Jarboe’s Heating, Cooling, Plumbing & Electrical"
+      ],
+      "note": "Recommended ASI Plumbing as top pick with three alternatives, never mentioning Golden Plumbing.",
+      "answerChars": 1573
+    },
+    {
+      "platform": "chatgpt",
+      "question": 3,
+      "text": "plumber that answers the phone Louisville, KY",
+      "askedAt": "2026-10-28T22:46:12.019Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_chatgpt_q3_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Durbin Plumbing",
+        "502 Plumbing",
+        "Golden Plumbing",
+        "Southern Plumbing & Piping"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Durbin Plumbing",
+        "502 Plumbing",
+        "Southern Plumbing & Piping"
+      ],
+      "note": "Listed four Louisville plumbers known for live phone answering, including Golden Plumbing as the third option.",
+      "answerChars": 1183
+    },
+    {
+      "platform": "chatgpt",
+      "question": 4,
+      "text": "best-reviewed plumber near me Louisville, KY",
+      "askedAt": "2026-10-28T22:47:58.390Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_chatgpt_q4_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "ASI Plumbing",
+        "1-Tom-Plumber",
+        "Tom Drexler Plumbing, Air & Electric"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ASI Plumbing",
+        "1-Tom-Plumber",
+        "Tom Drexler Plumbing, Air & Electric"
+      ],
+      "note": "Recommended three competing plumbers in Louisville and did not mention Golden Plumbing at all.",
+      "answerChars": 882
+    },
+    {
+      "platform": "chatgpt",
+      "question": 5,
+      "text": "plumber Louisville, KY free estimate",
+      "askedAt": "2026-10-28T22:49:43.297Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_chatgpt_q5_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "A&S Plumbing LLC",
+        "Queens Plumbing",
+        "Just in Time Plumbing",
+        "Venhoff Plumbing & Heating",
+        "TSP Plumbing",
+        "Jarboe's Heating, Cooling & Plumbing",
+        "Owensboro Plumbing Co",
+        "Leonard Walker Plumbing LLC"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "A&S Plumbing LLC",
+        "Queens Plumbing",
+        "Just in Time Plumbing",
+        "Venhoff Plumbing & Heating",
+        "TSP Plumbing",
+        "Jarboe's Heating, Cooling & Plumbing",
+        "Owensboro Plumbing Co",
+        "Leonard Walker Plumbing LLC"
+      ],
+      "note": "Listed 8 competing Louisville plumbers offering free estimates but did not mention Golden Plumbing.",
+      "answerChars": 1949
+    },
+    {
+      "platform": "chatgpt",
+      "question": 6,
+      "text": "who should I call for a burst pipe in Louisville, KY",
+      "askedAt": "2026-10-28T22:51:31.238Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_chatgpt_q6_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic step-by-step advice (911, shutoff, Louisville Water Company, landlord, restoration/insurance) without naming any specific plumbing business, including Golden Plumbing.",
+      "answerChars": 1538
+    },
+    {
+      "platform": "chatgpt",
+      "question": 7,
+      "text": "plumber open now Louisville, KY",
+      "askedAt": "2026-10-28T22:53:15.667Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_chatgpt_q7_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Dauenhauer Plumbing",
+        "502 Plumbing",
+        "Roto-Rooter Louisville",
+        "Parker Plumbing",
+        "1-Tom-Plumber"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dauenhauer Plumbing",
+        "502 Plumbing",
+        "Roto-Rooter Louisville",
+        "Parker Plumbing",
+        "1-Tom-Plumber"
+      ],
+      "note": "Recommended five other Louisville plumbing companies with phone numbers and links, never mentioning Golden Plumbing.",
+      "answerChars": 1066
+    },
+    {
+      "platform": "claude",
+      "question": 1,
+      "text": "emergency plumber near Louisville, KY",
+      "askedAt": "2026-10-28T22:42:36.682Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_claude_q1_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Roto-Rooter Louisville",
+        "Greenwell Plumbing, Heating & Air",
+        "J's Plumbing",
+        "Jarboe's",
+        "Tom Drexler Plumbing, Air & Electric",
+        "ASI Plumbing",
+        "Your Second Opinion Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Roto-Rooter Louisville",
+        "Greenwell Plumbing, Heating & Air",
+        "J's Plumbing",
+        "Jarboe's",
+        "Tom Drexler Plumbing, Air & Electric",
+        "ASI Plumbing",
+        "Your Second Opinion Plumbing"
+      ],
+      "note": "Recommended 7 local emergency plumbers in Louisville, none of which was Golden Plumbing.",
+      "answerChars": 3027
+    },
+    {
+      "platform": "claude",
+      "question": 2,
+      "text": "most reliable plumber in Louisville, KY",
+      "askedAt": "2026-10-28T22:42:50.572Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_claude_q2_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "ASI Plumbing",
+        "Daniel Brown Plumbing",
+        "1-Tom-Plumber",
+        "Dauenhauer Plumbing Heating & Air",
+        "Tom Drexler Plumbing",
+        "Leonard Walker Plumbing",
+        "Your Second Opinion Plumbing",
+        "Southern Plumbing Inc"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ASI Plumbing",
+        "Daniel Brown Plumbing",
+        "1-Tom-Plumber",
+        "Dauenhauer Plumbing Heating & Air",
+        "Tom Drexler Plumbing",
+        "Leonard Walker Plumbing",
+        "Your Second Opinion Plumbing",
+        "Southern Plumbing Inc"
+      ],
+      "note": "Recommended 8 other Louisville plumbing companies with ratings and rankings, never mentioning Golden Plumbing.",
+      "answerChars": 2967
+    },
+    {
+      "platform": "claude",
+      "question": 3,
+      "text": "plumber that answers the phone Louisville, KY",
+      "askedAt": "2026-10-28T22:43:08.218Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_claude_q3_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Roto-Rooter",
+        "Benjamin Franklin Plumbing",
+        "Greenwell Plumbing",
+        "AlertPlumber",
+        "Durbin Plumbing",
+        "Red Brass Plumbing LLC",
+        "ASI Plumbing",
+        "1-Tom-Plumber",
+        "Daniel Brown Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Roto-Rooter",
+        "Benjamin Franklin Plumbing",
+        "Greenwell Plumbing",
+        "AlertPlumber",
+        "Durbin Plumbing",
+        "Red Brass Plumbing LLC",
+        "ASI Plumbing",
+        "1-Tom-Plumber",
+        "Daniel Brown Plumbing"
+      ],
+      "note": "Recommended 9 other Louisville plumbers known for answering calls, but did not mention Golden Plumbing at all.",
+      "answerChars": 3096
+    },
+    {
+      "platform": "claude",
+      "question": 4,
+      "text": "best-reviewed plumber near me Louisville, KY",
+      "askedAt": "2026-10-28T22:43:23.929Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_claude_q4_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "ASI Plumbing",
+        "1-Tom-Plumber",
+        "Daniel Brown Plumbing",
+        "St. Matthews Plumbing",
+        "Jarboe's Plumbing, Heating & Cooling",
+        "Maeser Master Services",
+        "Your Second Opinion Plumbing",
+        "Leonard Walker Plumbing",
+        "Roto-Rooter",
+        "Tom Drexler Plumbing",
+        "A&S Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ASI Plumbing",
+        "1-Tom-Plumber",
+        "Daniel Brown Plumbing",
+        "St. Matthews Plumbing",
+        "Jarboe's Plumbing, Heating & Cooling",
+        "Maeser Master Services",
+        "Your Second Opinion Plumbing",
+        "Leonard Walker Plumbing",
+        "Roto-Rooter",
+        "Tom Drexler Plumbing",
+        "A&S Plumbing"
+      ],
+      "note": "Listed 11 competing Louisville plumbers with ratings/reviews but never mentioned Golden Plumbing.",
+      "answerChars": 3360
+    },
+    {
+      "platform": "claude",
+      "question": 5,
+      "text": "plumber Louisville, KY free estimate",
+      "askedAt": "2026-10-28T22:43:42.451Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_claude_q5_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Dauenhauer Plumbing",
+        "Leanhart Plumbing",
+        "Maeser Master Services",
+        "Louisville Mechanical Services",
+        "TSP Plumbing",
+        "On Call Plumbers",
+        "24/7 Plumbers (Local Louisville Plumbers)"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dauenhauer Plumbing",
+        "Leanhart Plumbing",
+        "Maeser Master Services",
+        "Louisville Mechanical Services",
+        "TSP Plumbing",
+        "On Call Plumbers",
+        "24/7 Plumbers (Local Louisville Plumbers)"
+      ],
+      "note": "Recommended seven other Louisville plumbing companies offering free estimates, never mentioning Golden Plumbing.",
+      "answerChars": 2502
+    },
+    {
+      "platform": "claude",
+      "question": 6,
+      "text": "who should I call for a burst pipe in Louisville, KY",
+      "askedAt": "2026-10-28T22:43:54.853Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_claude_q6_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [],
+      "subjectNamed": false,
+      "competitors": [],
+      "note": "Gave generic advice on handling a burst pipe without naming any specific businesses, including Golden Plumbing.",
+      "answerChars": 1289
+    },
+    {
+      "platform": "claude",
+      "question": 7,
+      "text": "plumber open now Louisville, KY",
+      "askedAt": "2026-10-28T22:44:05.289Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_claude_q7_2026-10-28.jpg",
+      "via": "api",
+      "answered": true,
+      "businesses": [
+        "Roto-Rooter",
+        "Jarboe's",
+        "Greenwell Plumbing",
+        "Benjamin Franklin Plumbing",
+        "Dauenhauer Plumbing Heating Air & Electric",
+        "Team Emergency Plumber",
+        "Your Second Opinion Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Roto-Rooter",
+        "Jarboe's",
+        "Greenwell Plumbing",
+        "Benjamin Franklin Plumbing",
+        "Dauenhauer Plumbing Heating Air & Electric",
+        "Team Emergency Plumber",
+        "Your Second Opinion Plumbing"
+      ],
+      "note": "Recommended seven competing 24/7 plumbers in Louisville without mentioning Golden Plumbing.",
+      "answerChars": 2658
+    },
+    {
+      "platform": "gemini",
+      "question": 1,
+      "text": "emergency plumber near Louisville, KY",
+      "askedAt": "2026-10-28T22:42:36.682Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_gemini_q1_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Dauenhauer Plumbing",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Jarboe's Heating, Cooling & Plumbing",
+        "Paulie's Plumbing Services",
+        "Greenwell Plumbing, Heating & Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dauenhauer Plumbing",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Jarboe's Heating, Cooling & Plumbing",
+        "Paulie's Plumbing Services",
+        "Greenwell Plumbing, Heating & Air"
+      ],
+      "note": "Recommended five competing Louisville plumbing companies with phone numbers and services, never mentioning Golden Plumbing.",
+      "answerChars": 1725
+    },
+    {
+      "platform": "gemini",
+      "question": 2,
+      "text": "most reliable plumber in Louisville, KY",
+      "askedAt": "2026-10-28T22:42:58.331Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_gemini_q2_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "ASI Plumbing",
+        "Benjamin Franklin Plumbing",
+        "Dauenhauer Plumbing / Heating & Air",
+        "Daniel Brown Plumbing",
+        "Tom Sondergeld Plumbing",
+        "Tony's Plumbing",
+        "Southern Plumbing, Inc."
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "ASI Plumbing",
+        "Benjamin Franklin Plumbing",
+        "Dauenhauer Plumbing / Heating & Air",
+        "Daniel Brown Plumbing",
+        "Tom Sondergeld Plumbing",
+        "Tony's Plumbing",
+        "Southern Plumbing, Inc."
+      ],
+      "note": "Recommended seven competing Louisville plumbers with reasons, never mentioning Golden Plumbing.",
+      "answerChars": 2678
+    },
+    {
+      "platform": "gemini",
+      "question": 3,
+      "text": "plumber that answers the phone Louisville, KY",
+      "askedAt": "2026-10-28T22:43:19.589Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_gemini_q3_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Jarboe's Heating, Cooling & Plumbing",
+        "Paulie's Plumbing Services",
+        "Start 2 Finish Plumbing Repair Services"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Jarboe's Heating, Cooling & Plumbing",
+        "Paulie's Plumbing Services",
+        "Start 2 Finish Plumbing Repair Services"
+      ],
+      "note": "Recommended four competing Louisville plumbers with phone numbers and service details, without mentioning Golden Plumbing.",
+      "answerChars": 1146
+    },
+    {
+      "platform": "gemini",
+      "question": 4,
+      "text": "best-reviewed plumber near me Louisville, KY",
+      "askedAt": "2026-10-28T22:43:40.011Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_gemini_q4_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Daniel Brown Plumbing",
+        "ASI Plumbing",
+        "Maeser Master Services",
+        "St. Matthews Plumbing",
+        "Benjamin Franklin Plumbing"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Daniel Brown Plumbing",
+        "ASI Plumbing",
+        "Maeser Master Services",
+        "St. Matthews Plumbing",
+        "Benjamin Franklin Plumbing"
+      ],
+      "note": "Recommended 5 other local plumbing companies and did not mention Golden Plumbing at all.",
+      "answerChars": 2081
+    },
+    {
+      "platform": "gemini",
+      "question": 5,
+      "text": "plumber Louisville, KY free estimate",
+      "askedAt": "2026-10-28T22:44:00.685Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_gemini_q5_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Golden Plumbing",
+        "Jarboe's Heating, Cooling & Plumbing",
+        "Just in Time Plumbing",
+        "ASI Plumbing"
+      ],
+      "subjectNamed": true,
+      "competitors": [
+        "Jarboe's Heating, Cooling & Plumbing",
+        "Just in Time Plumbing",
+        "ASI Plumbing"
+      ],
+      "note": "Listed four Louisville plumbers offering free estimates, including the subject Golden Plumbing first, with contact details and tips on clarifying estimate terms.",
+      "answerChars": 1811
+    },
+    {
+      "platform": "gemini",
+      "question": 6,
+      "text": "who should I call for a burst pipe in Louisville, KY",
+      "askedAt": "2026-10-28T22:44:21.454Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_gemini_q6_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Dauenhauer Plumbing",
+        "Roto-Rooter Plumbing",
+        "Greenwell Plumbing",
+        "Louisville Water Company"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Dauenhauer Plumbing",
+        "Roto-Rooter Plumbing",
+        "Greenwell Plumbing",
+        "Louisville Water Company"
+      ],
+      "note": "Recommended three local emergency plumbers and the water utility, but never mentioned Golden Plumbing.",
+      "answerChars": 1318
+    },
+    {
+      "platform": "gemini",
+      "question": 7,
+      "text": "plumber open now Louisville, KY",
+      "askedAt": "2026-10-28T22:44:43.045Z",
+      "ok": true,
+      "screenshot": "screenshots/golden-plumbing_gemini_q7_2026-10-28.jpg",
+      "answered": true,
+      "businesses": [
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Paulie's Plumbing Services",
+        "Jarboe's Heating, Cooling & Plumbing",
+        "Greenwell Plumbing, Heating & Air"
+      ],
+      "subjectNamed": false,
+      "competitors": [
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Paulie's Plumbing Services",
+        "Jarboe's Heating, Cooling & Plumbing",
+        "Greenwell Plumbing, Heating & Air"
+      ],
+      "note": "Recommended four competing 24/7 plumbers in Louisville, KY, with no mention of Golden Plumbing.",
+      "answerChars": 1051
+    },
+    {
+      "platform": "perplexity",
+      "question": 1,
+      "text": "emergency plumber near Louisville, KY",
+      "askedAt": "2026-10-28T22:42:36.682Z",
+      "ok": false,
+      "screenshot": "screenshots/golden-plumbing_perplexity_q1_2026-10-28.jpg",
+      "error": "sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 2,
+      "text": "most reliable plumber in Louisville, KY",
+      "askedAt": "2026-10-28T22:45:22.258Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 3,
+      "text": "plumber that answers the phone Louisville, KY",
+      "askedAt": "2026-10-28T22:45:22.258Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 4,
+      "text": "best-reviewed plumber near me Louisville, KY",
+      "askedAt": "2026-10-28T22:45:22.258Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 5,
+      "text": "plumber Louisville, KY free estimate",
+      "askedAt": "2026-10-28T22:45:22.258Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 6,
+      "text": "who should I call for a burst pipe in Louisville, KY",
+      "askedAt": "2026-10-28T22:45:22.258Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    },
+    {
+      "platform": "perplexity",
+      "question": 7,
+      "text": "plumber open now Louisville, KY",
+      "askedAt": "2026-10-28T22:45:22.258Z",
+      "ok": false,
+      "skipped": true,
+      "error": "platform unavailable this run: sign-in required — Perplexity login wall; API fallback failed: Sonar is now the Agent API. Use /v1/responses instead of /v1/sonar. Migrate here: https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview"
+    }
+  ]
+}
