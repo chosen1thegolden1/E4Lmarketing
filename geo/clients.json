@@ -4,5 +4,7 @@
     "city": "Los Angeles, CA",
     "niche": "marketing-agency",
     "contactEmail": "chosen1@gsgagency.com"
-  }
+  },
+  { "name": "Heat Beaters Heating and Air", "city": "St. Augustine, FL", "niche": "hvac" },
+{ "name": "Golden Plumbing", "city": "Louisville, KY", "niche": "plumbing" }
 ]
