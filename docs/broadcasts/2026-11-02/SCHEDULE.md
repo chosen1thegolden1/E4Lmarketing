@@ -19,7 +19,7 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 | 2026-11-04 | Wednesday | agency | `A2.html` | Could a robot find your prices? | Meta and Sierra are writing the rulebook. You don't have to wait for it. | Game Plan Call (agency front end) |
 | 2026-11-04 | Wednesday | student | `S2.html` | I mastered Liu Kang before I mastered ads | One of them was a lot harder than the other. Not the one you'd guess. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-11-06 | Friday | agency | `A3.html` | My first client never saw a pitch deck | It started over pizza. The conversation is the easy part. | Game Plan Call (agency front end) |
-| 2026-11-06 | Friday | student | `S3.html` | Most of Stripe's new startups are one person | 63% in Q2 2026. The one-employee kids' platform is the part to read. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-11-06 | Friday | student | `S3.html` | Most new Stripe Atlas startups are one person | 63% in Q2 2026. The one-employee kids' platform is the part to read. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-11-08 | Sunday | agency | `A-SUN.html` | Count your missed calls. Don't call anyone. | Nobody did this on purpose. The warmest leads you have are in there. | Game Plan Call (agency front end) |
 | 2026-11-08 | Sunday | student | `S-SUN.html` | Every no is just a lost round | Losing doesn't end people. Tilt does. | From Xbox to Executive (book, free + $9.95 shipping) |
 

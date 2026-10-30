@@ -389,7 +389,7 @@ P.S. What did you master in your favorite game? Hit reply and tell me. 🔥
 
 ## S3 — Friday
 
-**Subject:** Most of Stripe's new startups are one person
+**Subject:** Most new Stripe Atlas startups are one person
 
 **Preview text:** 63% in Q2 2026. The one-employee kids' platform is the part to read.
 
@@ -644,3 +644,11 @@ To run Fri 2026-10-30 (send dates Nov 2 / 4 / 6 / 8). Re-fetch every Source line
 | Booking link | api.leadconnectorhq.com/widget/bookings/cs-game-plan-call | A JS widget (WebFetch can't render it); test-send click-through confirms. |
 
 **Relative dates on the send day:** all calendar dates ("October 21", "October 6", "Thursday, November 5", "second quarter of 2026"). "Tonight" appears only in A-SUN and S-SUN (Sunday Nov 8) and in the P.S. of A3 (Friday). S1 says "On Thursday, November 5", which is correct on Monday Nov 2. Nothing with a deadline falls before a send date.
+
+### Result — run Fri 2026-10-30 (WebFetch at each primary page)
+
+- **A1 / S3 (Stripe, Oct 21):** page dated Oct 21. Agent actions confirmed (balances, pay invoices, transfers, currency); read-only vs act and human-approval controls confirmed. 63% confirmed, but the source scope is "C corps formed through Stripe Atlas", not all Stripe startups. **Changed:** S3 subject "Most of Stripe's new startups are one person" overclaimed; now "Most new Stripe Atlas startups are one person". Body already stated the scope correctly. Kubrio confirmed (founder is only employee). No deadlines. A1 unchanged.
+- **A2 (Sierra, Oct 6):** dated Oct 6; v0.1 spec still described as planned for "later this month", not shown as published; quote and partners (Genesys, Instinct, Rocket, Shopify, Stripe, Walmart) unchanged. Copy does not claim a spec date, so it reads true. Re-check Wed Nov 4 if anyone is nervous.
+- **S1 (Nintendo):** Ocarina of Time for Switch 2 still lists Nov 5, 2026 (Thursday), "built from the ground up". No swap needed.
+- **A3, A-SUN, S2, S-SUN:** story-bank, no external claims. Relative dates ("tonight", "Thursday") are correct on their send days.
+- **Links:** joineat4life.com/xboxtoexec and the booking widget not re-fetched in this run (widget is JS; test-send click-through is the check, already on Abdullah's list).
