@@ -87,12 +87,15 @@ If you want to book a call directly with the team for a free 20 min consult. Cli
 9. **Sign-off:** add `Sebastian / Eat 4 Life / AI Marketing Made Easy`. He didn't write
    one.
 
-## One claim to confirm with Chosen before it ships
+## Chosen's decisions, 2026-10-31 — settled, don't reopen
 
-**"EVERY day here at E4L we get messages from business owners who JUST couldn't figure
-out how to FOLLOW UP."** It's his line and it may well be true. But it's stated as fact,
-and the last report (Daniel, Oct 30) said "still no replies from leads." If it's not
-literally every day, *"all the time"* keeps the punch and stays true. **The writer asks
-him when it places this, and does not change it on its own.**
+- **Subject and preview swapped.** Subject: **Are you ready to level up in 2027?**
+  Preview: his "Well read this clearly…." line, which the editor reads as "Well, read this
+  closely…". Item 3 above is decided.
+- **"EVERY day" becomes "all the time."** The line reads: *"And you know what's
+  crazy…all the time here at E4L we get messages from business owners who JUST couldn't
+  figure out how to FOLLOW UP."* Chosen: "no we don't hear from business owners everyday
+  but it sounds good and we're keeping it." So the sentence stays in, worded "all the
+  time." **Editor: don't put "EVERY day" back, and don't cut the line.**
 
 "Free 20 min consult" is fine: the site says "Book a 20-minute Game Plan Call."
