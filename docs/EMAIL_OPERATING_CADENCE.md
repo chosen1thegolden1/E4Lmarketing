@@ -148,6 +148,13 @@ subject lines. Nothing moves until Chosen replies.
   behavior, not a failure. This is the one step in the whole system that blocks.
 
 ### Wednesday or Thursday 8:30 AM — out to Daniel
+
+**It checks every six hours from Wednesday through Sunday, UTC.** Cron days are UTC, so a
+schedule that stops at UTC Friday stops at 5 PM Pacific Friday. Chosen's GO for the week of
+Nov 2 came at 3:20 PM Pacific Friday Oct 30, four hours after the last firing, and the next
+one was scheduled for the following Wednesday. Same failure as Sept 30 and Oct 15. Saturday
+and Sunday UTC are now on the schedule, so a weekend GO still gets out before Monday's 8 AM
+send. Most of those firings find nothing to do, which is fine.
 On the GO, Claude writes `APPROVED.txt` with Chosen's exact words, then sends **one DM to
 Daniel** holding both batches, the agency four and the student four, in two clearly
 labelled sections with the preview link. Daniel owns both sides now, so there is nothing
@@ -252,7 +259,7 @@ on that date every cron below needs +1 hour or the whole week drifts an hour ear
 | Monday report | `trig_01VBcd6sX3PjEeBthvAa32x5` | `0 14 * * 1` | 7:00 AM Mon |
 | **1. Write** | `trig_01Cmnf478rsjFXzSLVLBGY1P` | `0 13 * * 2` | 6:00 AM Tue |
 | **2. Edit + your check** | `trig_01QTNr9k6H9QLzeej6kw5GvM` | `30 16 * * 2` | 9:30 AM Tue |
-| **3. Your GO → Daniel** | `trig_01M6zQLriHnZzHXgq3bD9EkC` | `30 15 * * 3,4` | 8:30 AM Wed and Thu |
+| **3. Your GO → Daniel** | `trig_01M6zQLriHnZzHXgq3bD9EkC` | `34 */6 * * 0,3,4,5,6` | Every 6 hours, Wed through Sun (UTC days) |
 | Friday: Abdullah loads | `trig_018LEeke4LN4WWr485s212GV` | `30 13 * * 5` | 6:30 AM Fri |
 | Friday evening: is it queued? | `trig_01SakWNdDC5732ZhhxV5xTz7` | `30 0 * * 6` | 5:30 PM Fri |
 
