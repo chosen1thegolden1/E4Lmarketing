@@ -20,6 +20,14 @@ This pass changes **how the email looks and reads**, not what it says.
 - A subject line or preview text that misses badly — flagged in the notes, never
   changed silently.
 
+## Energy check (Chosen, 2026-10-31)
+
+Read each email next to its bar: student emails against the five in
+`docs/emails/STUDENT_POSSIBILITY_SERIES.md` (money making, lifestyle change, ease of use), and
+agency emails against `docs/emails/AGENCY_NOT_YOUR_FAULT.md` (emotion, then education). The
+editor can't add claims to fix a flat email, so **flag it to Chosen by name** in `EDITED.md`
+and the GO message: say which email is flat and what it's missing.
+
 ## Possibility emails: one extra check
 
 When the email sells the dream of making money with AI (Shape 2), read the walls at the

@@ -20,6 +20,28 @@ week ahead. Nothing about that moves.
 
 ---
 
+## Standing direction: the energy every batch is written to (from the week of Nov 9)
+
+Chosen, 2026-10-31, after reading the five possibility emails: *"These are great… they
+should guide the point. No matter what product we drop for our student audience, these are
+8/10 the energy we want to get them to take action… I expect to see the emails for the next
+week reflect this energy. Agency ones use emotion and education to motivate the businesses,
+and money making, lifestyle change and ease of use motivate the students."*
+
+- **Student list: money making, lifestyle change, ease of use.** The bar is the five
+  possibility emails in `docs/emails/STUDENT_POSSIBILITY_SERIES.md` (Chosen rated them 8/10
+  for energy). Sprinkle possibility emails in among the book-subject, trending and sales
+  emails, and let that energy guide every student email, whatever product it sells.
+  Study notes: `.claude/skills/e4l-email-sharpener/references/possibility.md`.
+- **Agency list: emotion and education.** Make the owner *feel* the cost (the lead dying
+  at 7pm, the customer list nobody emails), then teach one thing they didn't know. Models:
+  `docs/emails/AGENCY_NOT_YOUR_FAULT.md` and `docs/emails/AGENCY_EMAIL_YOUR_LIST.md`.
+- **The writer** writes to this. **The editor** checks it. A student email that reads flat
+  next to the five examples, or an agency email that informs without making the owner feel
+  anything, gets flagged to Chosen in `EDITED.md` and the GO message, not passed quietly.
+- The walls don't move for energy: no income promises to students, no invented facts, no
+  fake deadlines.
+
 ## The week at a glance
 
 Two clocks run at once. The **send clock** is this week's batch going out. The

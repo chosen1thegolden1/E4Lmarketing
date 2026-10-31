@@ -13,6 +13,10 @@ away from the rat race. Just like we talk about in Xbox to Exec."* And on the mi
 give them these pillars as their northern star will garner the most interest around the
 courses."*
 
+**Chosen's verdict on the five examples (2026-10-31):** *"these are 8/10 the energy we want
+to get them to take action… they should guide the point. No matter what product we drop."*
+So the energy is the bar for every student email, not just this shape.
+
 **Shape:** Shape 2 in `templates.md`. **Five finished examples:**
 `docs/emails/STUDENT_POSSIBILITY_SERIES.md` (image, website, game, video, creatives). Read
 one before writing another. Their energy is the target.

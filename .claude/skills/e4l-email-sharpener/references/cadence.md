@@ -99,13 +99,20 @@ the student side."
   idea is needed and not on file, flag it in the batch header for Chosen rather than guess.
 - Agency side is unchanged.
 
-## Mix in possibility emails on the student side (Chosen, 2026-10-31)
+## The energy bar for both lists (Chosen, 2026-10-31)
 
-Alongside the book-subject emails and trending topics, mix in **possibility emails**
-(Shape 2 in `templates.md`, study notes in `possibility.md`): one thing you can make with
-AI, how easy it is, what a business pays for it, the life it buys, and Chosen's belief in
-the reader. There's no quota and no calendar. Chosen: *"We don't need to do anything special
-for the 12 months."* Use them where they fit, so the pillars stay the reader's north star.
+Chosen, 2026-10-31, after reading the five possibility emails: *"These are great… they
+should guide the point. No matter what product we drop for our student audience, these are
+8/10 the energy we want to get them to take action… I expect to see the emails for the next
+week reflect this energy. Agency ones use emotion and education to motivate the businesses,
+and money making, lifestyle change and ease of use motivate the students."*
+
+- **Student:** possibility emails (Shape 2 in `templates.md`, notes in `possibility.md`)
+  are sprinkled in among the book-subject, trending and sales emails, with no quota. Their
+  energy guides *every* student email, whatever product it sells. Motivators: money making,
+  lifestyle change, ease of use. Bar: the five in `docs/emails/STUDENT_POSSIBILITY_SERIES.md`.
+- **Agency:** emotion and education. Make the owner feel the cost, then teach one thing.
+  Bar: `docs/emails/AGENCY_NOT_YOUR_FAULT.md` and `docs/emails/AGENCY_EMAIL_YOUR_LIST.md`.
 
 ## Sequences (automations in GHL — write once, run forever)
 
