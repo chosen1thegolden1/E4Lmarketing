@@ -42,6 +42,10 @@ exact work, read off e4lagency.com on 2026-10-31.
 The reader does the "that's ONE client" math themselves, which is more persuasive than a
 promise anyway. **Editor and writer: never turn any of these into "you'll make $X."**
 
+**Chosen approved all five as written, 2026-10-31,** including every line flagged for his
+confirmation ("Same chair," the studio line, "I know what it feels like," "I read these")
+and the cover art as generated.
+
 ## The example images are real outputs, not mockups
 
 Chosen asked for "an example of what the coffee game looks like" (2026-10-31). Each image
@@ -53,7 +57,7 @@ is what the tool really returned for the prompt the email quotes:
 | Website | `docs/assets/examples/braids-site.jpg` | Claude, from the email's prompt. Source is `braids-site.html`, beside it. The prompt says "her hours" rather than "her best reviews", so the screenshot carries no invented reviews. Prices are placeholders, and the caption says it isn't a real business. |
 | Game | `docs/assets/examples/coffee-spin-game.jpg` | Claude, from the email's prompt. Source `coffee-spin-game.html` really plays: the wheel spins and allows one spin a day. |
 | Video | Malik, hosted on GHL's own media CDN (the same image e4lagency.com uses) | Already ours, so there's no upload step. |
-| Creatives | `docs/assets/examples/night-shift-cover.jpg` | Higgsfield (gpt_image_2_5), the prompt quoted in the email, first try. Job `ff13b1e8`. "NIGHT SHIFT" is an invented example song. |
+| Creatives | `docs/assets/examples/night-shift-cover.jpg` | Higgsfield (gpt_image_2_5), the prompt quoted in the email, first try. Job `ff13b1e8`. "NIGHT SHIFT" is an invented example song. The "Parental Advisory" label the model added stays, approved by Chosen 2026-10-31. |
 
 **Loader:** the four repo images must be uploaded to GHL Media and their `src` swapped. The
 build checklist lists each one. **Editor:** "first try" and "that exact sentence" are true
@@ -431,9 +435,7 @@ P.S. Malik is on our agency's website if you want to meet him. Just don't tell h
 tools we use for client content." "He answers questions" refers to the site's "Ask Malik"
 feature. Higgsfield turning a product photo into a video ad in minutes: Higgsfield's
 Marketing Studio (its own guide, plus reviews). "Video service… starts at $497 a month":
-e4lagency.com, The Content Engine "from $497/mo." **Editor: "I used to think you needed a
-studio…" is written as Chosen's belief. Confirm it with him or cut it.** It's the one line
-here not taken from the story bank. "Most of them have a great product and zero video" is
+e4lagency.com, The Content Engine "from $497/mo." "I used to think you needed a studio…" is Chosen's belief, **approved by him 2026-10-31.** "Most of them have a great product and zero video" is
 an opinion about small vendors, not a stat. Emoji: 👀 🎬 ✈️ 👉 😂 = five, the maximum.
 *Source:* https://e4lagency.com/ (read 2026-10-31); Higgsfield Marketing Studio
 (geo.higgsfield.ai guide).
@@ -524,10 +526,9 @@ P.S. I gotta question: who's the first artist you'd want to help? Reply with the
 
 *Notes:* "Published musician": `voice.md` bio. "I know what it feels like when the thing
 you made is ready and nobody's seen it yet" is Chosen's feeling, written from that bio.
-**Editor: confirm with him or soften to "I've been there."** No price is given, on
+**Approved by Chosen 2026-10-31. Keep as written.** No price is given, on
 purpose: the email is honest that artists pay less, and "your tenth one won't be" is the
 upside without a number. Higgsfield turning a still image into motion: Higgsfield's
-image-to-video. Claude building a link page: Claude Artifacts coverage. "I read these":
-**only keep it if Chosen actually reads student replies. Otherwise cut those three words.**
+image-to-video. Claude building a link page: Claude Artifacts coverage. "I read these": **approved by Chosen 2026-10-31. Keep.**
 Emoji: 🎨 🔥 👉 ✍🏾 = four.
 *Source:* `voice.md` bio; Higgsfield; Claude Artifacts coverage.
