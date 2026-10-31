@@ -84,10 +84,16 @@ You need ONE business that trusts you. ✅
 So here's my one rule: **find one business sitting on a list
 they never use.**
 
-Tonight, open your inbox. Look at the places you've bought
-from. Which one hasn't emailed you in a month?
+Now think about your own inbox, [First Name].
 
-That's a business sitting on a list.
+Your barber. Your gym. The pizza spot you order from
+every Friday. The app that got your email for a discount
+code.
+
+How many of them emailed you this month?
+
+The ones that went quiet? That's a business sitting on a
+list. And it could be your first client.
 
 The book shows you how to pick ONE skill and get paid for
 it inside 90 days.
@@ -108,7 +114,9 @@ The client is unnamed and stays unnamed. Emergency Roofing's $1,000 + $1,000/mo 
 cold email is from the story bank in `voice.md`. "Lives twelve hours ahead of me" is the
 team member who loads our GHL emails, Asia/Karachi time vs. Pacific; he stays unnamed.
 "Pick ONE skill and get paid for it inside 90 days" is the book's own promise, as used
-in the gold-standard email. **Editor: don't add an earnings figure for the reader, don't
+in the gold-standard email. The inbox beat speaks to one reader by name, with places from their own week
+(Chosen, 2026-10-31: personalize it, don't make them feel like they're on a list).
+"It could be your first client" is a possibility, not a promise, so keep "could". **Editor: don't add an earnings figure for the reader, don't
 multiply the client out ("imagine five of these"), and don't turn the ❌/✅ pair into a
 quote from the book.** Emoji: 👀 💥 ❌ ✅ 👉 = five, the student maximum. None in the
 opening line, and the signoff ✊🏾 is the signoff.
