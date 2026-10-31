@@ -1,0 +1,46 @@
+# The email queue
+
+**What this is.** When Chosen hands over an email — a draft, a template, a shape he wants,
+a thing he says out loud — it lands here with a target week. The Tuesday writer session
+reads this file before it chooses a single angle, and places anything due.
+
+**Why it exists.** Before this file, an email Chosen asked for lived in a chat message and
+in one person's memory. A good email that nobody slots is a good email that never sends.
+
+## The rules
+
+1. **One row per email.** A row is only real once it has a target week.
+2. **The writer places due rows first**, then fills the rest of the batch around them. A
+   queued email is a commitment, not a suggestion.
+3. **A row with an unmet gate does not ship.** The gate column says what is missing. The
+   writer writes the batch without that email, says so plainly in its final message, and
+   asks Chosen again. It never invents the missing thing — not a URL, not a price, not a
+   deadline, not a number.
+4. **Target weeks are Mondays**, and a batch for week W is written on the Tuesday six days
+   before W. So a row targeting the week of Nov 9 needs its gate cleared by Tue Nov 3.
+5. **At most one queued email per list per week.** Two queued rows for the same list in the
+   same week means one moves. Earlier target date wins; if they tie, the one with a deadline
+   wins. Say which one moved and where it went.
+6. **Move the status to `shipped` with the date and the slot** once it sends. A shipped row
+   stays as history — do not delete it, and never place it a second time.
+7. **A row Chosen has not confirmed a week for sits in Unscheduled** and gets asked about in
+   the writer's final message, every week, until he gives it a week or kills it.
+
+## Live queue
+
+| Email | List | Target week | Default slot | Status | Gate — what's missing | Source |
+|---|---|---|---|---|---|---|
+| The course email, Version A — general broadcast. Full copy in `docs/COURSE_EMAIL.md`. | student | 2026-11-09 | S3 (Fri Nov 13) | **queued** | **The course sales page URL.** Only URL on record anywhere in this repo is the book at `joineat4life.com/xboxtoexec`. Also: Chosen to confirm the line "Eight weeks from now you could have one client and one invoice you sent yourself" is a timeline the course genuinely delivers. | Chosen, 2026-10-30 and 2026-10-31 |
+| The course email, Version B — Black Friday. Same email, four changes, listed in `docs/COURSE_EMAIL.md`. | student | 2026-11-23 | the promo open | **queued** | The six Black Friday decisions in `docs/PROMOS.md`, plus the $500 checkout built and test-purchased. Version A must have shipped first — B is written as the familiar argument with a number attached, and it loses that if A never ran. | Chosen, 2026-10-30 |
+
+## Unscheduled — asked about every week
+
+| Email | List | Status | What's needed from Chosen |
+|---|---|---|---|
+| _(nothing yet)_ | | | |
+
+## Shipped
+
+| Email | List | Week | Slot | Shipped |
+|---|---|---|---|---|
+| _(nothing yet)_ | | | | |

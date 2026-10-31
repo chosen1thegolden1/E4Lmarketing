@@ -221,6 +221,14 @@ The batch ships anyway. That is the rule everything else bends around.
 
 ## Standing rules
 
+**An email Chosen asks for goes in `docs/EMAIL_QUEUE.md` with a target week, the same day he
+asks for it.** Not in a chat message, not in somebody's head. The Tuesday writer reads that
+file before it picks a single angle, and places anything due that week. A row with an unmet
+gate — a missing URL, an unconfirmed price — does not ship: the writer writes the batch
+without it, says so, and asks him again. It never invents the missing thing to make the
+email work.
+
+
 - **Send from** `chosen@mail.e4lmarketingdemos.com`. Never gsgagency.com. Not once.
 - **Agency opens "Hey [First Name]," — student opens "Yo [First Name],"** The builder
   fails the batch if this is wrong.
@@ -271,6 +279,7 @@ The Monday report Routine has the same gap, and has had it since Sept 17.
 
 | Thing | Path |
 |---|---|
+| Emails Chosen has asked for, and their target weeks | `docs/EMAIL_QUEUE.md` |
 | The week's copy | `docs/BROADCAST_WEEK_<Monday>.md` |
 | Paste-ready HTML, schedule, QA page | `docs/broadcasts/<Monday>/` |
 | The builder | `scripts/build-emails.js` |

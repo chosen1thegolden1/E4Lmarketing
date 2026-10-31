@@ -120,21 +120,35 @@ The Black Friday sequence is six emails, not one. This is the open. See
 
 ---
 
-## Proposed slot for Version A — week of Nov 2
+## Slot for Version A — week of 2026-11-09
 
-**Recommendation: replace S3 (Friday Nov 6) and move the current S3 to the bench.**
+**Chosen, 2026-10-31: "Well I mean the week after. Whatever. Don't gotta be next week."**
+So it is not the Nov 2 batch. It goes in the batch for the **week of Monday 2026-11-09**,
+which the writer session writes on **Tuesday 2026-11-03**.
 
-The current S3 is "Most new Stripe Atlas startups are one person" — a good data email aimed
-at S-D, who is also exactly who buys a course. Trading it costs the least and reaches the
-right reader. It keeps as bench copy because nothing in it expires.
+That is the better answer for a reason worth recording: the Nov 2 batch was already written,
+edited and sitting on Chosen's GO, with Friday being Abdullah's load day. Re-cutting a slot
+in a batch that is already downstream is how a wrong version gets loaded. Nothing in the
+Nov 2 batch changes.
 
-Not the other three: Monday's Zelda email and Wednesday's Liu Kang story are Chosen's own
-voice at its strongest, and Sunday's "every no is just a lost round" is the deposit that
-pays for asks like this one.
+**Default slot: S3, Friday 2026-11-13.** The writer may move it to another student slot that
+week if the batch reads better that way, but it ships that week and it is not split across
+two. Veterans Day falls Wednesday Nov 11 — see `seasons.md`; it is not this email's hook and
+this email is not the week's seasonal slot.
 
-**One caution worth saying out loud.** The wheel in `cadence.md` has most emails pointing
-at the front end and the backend getting its own promo weeks. A course sell in a normal
-week is a departure from that, and three weeks before a Black Friday course sale it risks
-spending the audience twice. The 4% rule argues the other way: write to the readers already
-winning and let the rest overhear. **Chosen asked for it, so it goes in** — but if the Nov 6
-send lands flat, that is the reason to look at first, not the copy.
+**The current S3 in the Nov 2 batch stays where it is.** "Most new Stripe Atlas startups are
+one person" ships Friday Nov 6 as written. It was only ever the trade candidate because it
+aims at S-D, who is also who buys a course; with the course email moved out a week, there is
+nothing to trade.
+
+**One caution worth saying out loud.** The wheel in `cadence.md` has most emails pointing at
+the front end and the backend getting its own promo weeks. A course sell in a normal week is
+a departure from that, and two weeks before a Black Friday course sale it risks spending the
+audience twice. The 4% rule argues the other way: write to the readers already winning and
+let the rest overhear. **Chosen asked for it, so it goes in** — but if the Nov 13 send lands
+flat, that is the reason to look at first, not the copy.
+
+**Hard gate: the course sales page URL.** `(LINK: NEEDED)` fails the build on purpose, so
+this cannot ship by accident. The writer needs the URL by **Tuesday 2026-11-03**. If it is
+not on record by then, the writer writes the Nov 9 batch without this email, says so, and
+asks Chosen again — it does not invent a URL and does not point the CTA at the book.
