@@ -178,10 +178,10 @@ Claude re-verifies every dated claim first, then sends Abdullah his Friday updat
 Abdullah gets the links whether or not Daniel already sent them. A duplicate
 link costs nothing; a lost batch costs the week.
 
-> ⚠️ **Abdullah's brief scopes him to E4L Services only** — "never touch the E4L School
-> sub-account, no reads, no writes." (The brief says "E4L School"; the sub-account is actually called **Student**.) The student list lives in Student. So as written,
-> Abdullah can load the agency four and cannot load the student four. **Unresolved — see
-> the open question at the bottom of this doc.**
+> **Abdullah loads both lists: the agency four in E4L Services and the student four in
+> Student.** Chosen, 2026-10-31: "Abdullah is allowed in… we've done it 4 weeks in a row
+> now." His brief carries this as a stated exception. He's in Student to load
+> broadcasts, and anything else there he asks about first.
 
 ### Daniel — second pair of eyes on both sub-accounts
 **Daniel covers E4L Services and Student** (he already has access to the Student
@@ -299,26 +299,11 @@ The Monday report Routine has the same gap, and has had it since Sept 17.
 
 ---
 
-## Open question — who loads the student side?
+## Settled — Abdullah loads the student side too
 
-Abdullah is the loader. His brief (`ABDULLAH_BRIEF.md`) scopes him to **E4L Services
-only** and says plainly: never touch the "E4L School" sub-account (the sub-account is actually called **Student**), no reads, no writes.
-The student list lives in Student. So as written he can load the agency four and not
-the student four.
-
-That wall was set deliberately, so it isn't Claude's to move. Two ways out:
-
-1. **Daniel loads the student side.** He already has access to Student as well as E4L Services
-   (he took Sammy's role Oct 7), so this needs no new access and no change to Abdullah's
-   brief. It does add a doing job to someone whose role here is checking, and a second
-   sub-account to someone who had one, so it is worth naming rather than sliding into.
-2. **Widen Abdullah's scope** to cover loading broadcasts in Student, and amend his
-   brief so the wall carries a stated exception instead of being quietly ignored.
-
-Option 1 is the smaller change and the one the Friday routine assumes until told
-otherwise. Either way it needs Chosen's word, because both options alter a boundary he
-set on purpose.
-
-Until it's settled, the Friday routine sends the agency four to Abdullah and flags the
-student four to Chosen as unassigned. That is a real gap, not a formality: a week where
-nobody owns the student load is a week the student list hears nothing.
+This used to be an open question, because Abdullah's brief said to stay out of the
+Student sub-account. **Chosen settled it on 2026-10-31:** Abdullah is allowed in to
+load the student broadcasts, and had already done it four weeks running. The brief now
+carries that as a stated exception rather than having it quietly ignored. The Friday
+routine sends Abdullah all eight emails, and nobody needs to flag the student four as
+unassigned any more.

@@ -32,7 +32,7 @@ Both live in the same GHL sub-account when finished.
 Before you can start, Chosen sets these up. Ask him if any are missing:
 
 - [ ] **GHL Admin on E4L Services** (the new sub-account) — Chosen creates the sub-account himself and invites you as Admin. Send you the Location ID when the invite goes out.
-  - You should NEVER perform any action inside the **E4L School** sub-account. It's off-limits for reads and writes. Your invite is scoped to E4L Services only.
+  - Your invite is scoped to E4L Services. The other sub-account (this brief used to call it **E4L School**; its real name is **Student**) is off-limits **except for one job: loading and scheduling the weekly student broadcast emails.** Chosen confirmed that exception 2026-10-31, after you'd already been doing it for four weeks.
 - [ ] **GHL delegate on GoDaddy** — for the DNS work (Task 3)
 - [ ] **GitHub collaborator** on `chosen1thegolden1/E4Lmarketing` — Write role (lets you push code, edit workflows, manage Pages; does not expose repo secrets)
 - [ ] **Slack workspace access** if not already — needs to be in E4L's workspace for Task 2's Slack wiring
@@ -137,7 +137,7 @@ That's the entire task. No copy rewrite, no new pages.
 
 From the mission brief, section 05 (page 6). Ignoring any of these breaks the client-services separation Chosen paid to establish:
 
-- **Never touch the E4L School sub-account.** No reads, no writes. If any action would occur outside E4L Services, stop and ask.
+- **Stay out of the Student sub-account (called "E4L School" in older copies of this brief), except to load the weekly student broadcasts.** Chosen, 2026-10-31: "Abdullah is allowed in… we've done it 4 weeks in a row now." Loading and scheduling those emails is the exception. Anything else in Student, ask first.
   - *One exception, and it isn't yours:* Chosen asked (2026-09-10 and 2026-09-17) for a
     weekly email report across **both** sub-accounts. `voice-ai-demo-builder/src/email-report.js`
     reads the School sub-account for that — reads only, no writes, and it's the only
