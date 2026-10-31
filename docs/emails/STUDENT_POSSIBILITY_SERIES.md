@@ -373,7 +373,7 @@ Meet Malik.
 He's the mascot for my agency. He's got a personality.
 He answers questions. People like him.
 
-He also doesn't exist. 👀
+Nobody sketched him. No animation studio. No art team. 👀
 
 We made him with the same AI tools we use for client
 content.
@@ -428,11 +428,13 @@ Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
 Eat 4 Life
 
-P.S. Malik is on our agency's website if you want to meet him. Just don't tell him he isn't real. He's sensitive about it. 😂
+P.S. Malik is on our agency's website if you want to meet him. He'll answer your questions. He'll never ask for a raise. 😂
 ```
 
 *Notes:* Malik: e4lagency.com, "E4L Agency's animated mascot, created with the same AI
-tools we use for client content." "He answers questions" refers to the site's "Ask Malik"
+tools we use for client content." He's visibly animated, so the email never pretends he's
+real. The point is *who made him*: no sketch, no studio, no art team (Chosen, 2026-10-31:
+"it's obvious he's not real… the lesson you dropped after is still potent"). "He answers questions" refers to the site's "Ask Malik"
 feature. Higgsfield turning a product photo into a video ad in minutes: Higgsfield's
 Marketing Studio (its own guide, plus reviews). "Video service… starts at $497 a month":
 e4lagency.com, The Content Engine "from $497/mo." "I used to think you needed a studio…" is Chosen's belief, **approved by him 2026-10-31.** "Most of them have a great product and zero video" is
