@@ -80,6 +80,12 @@ where the money is: last-day FAQ, then a last-hours reminder to recent openers o
    the headline on the big sends, and the **book + free audiobook** carries the Sunday and
    the softer slots as the low-ticket entry. Confirm or reorder.
 
+### Drafted copy
+`docs/BLACK_FRIDAY_2026.md` holds the open written out in the GAIN shape Chosen supplied,
+so the Nov 17 writer starts from copy rather than a blank page. It carries
+`(LINK: NEEDED)` so it cannot ship before the checkout exists, and it claims no deadline
+and no $2,000 until he confirms both.
+
 ### ⚠️ Must be built before Tue Nov 17 — Abdullah
 Without these the emails have nothing to point at:
 - A checkout for **$500 lifetime course including the book and audiobook**.
