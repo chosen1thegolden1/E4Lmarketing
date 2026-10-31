@@ -266,6 +266,12 @@ function parse(md, week) {
       style(key, 'emoji in the opening sentence — move it to a later beat (formatting.md)');
     }
 
+    // voice.md, "Talk to one person": every email is a text to one reader. "Some of you"
+    // tells them they're one of thousands on a broadcast, which is the moment it stops
+    // reading like a text. Chosen asked for it gone (2026-10-31).
+    const crowd = raw.match(/\b(some|many|most|all|those|a few) of you\b|\beveryone reading\b|\by'all\b/i);
+    if (crowd) style(key, `talks to a crowd ("${crowd[0]}") — say it to one reader (voice.md)`);
+
     emails.push({
       id: h.id, key, side, day, bench, proposed, subject, preview, meta,
       offer: offerFor(links, meta),

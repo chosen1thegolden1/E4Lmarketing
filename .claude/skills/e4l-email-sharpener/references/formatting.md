@@ -13,6 +13,10 @@ This pass changes **how the email looks and reads**, not what it says.
 - Typos, doubled words, wrong homophones, broken punctuation.
 - Sentences that are correct but clumsy, where a shorter one says the same thing.
 - **Bold**, *italics*, emoji, line breaks, paragraph splits, list spacing.
+- **Crowd phrasing.** "Some of you," "many of you," "those of you who," "everyone
+  reading," "y'all." Rewrite to one reader: "your list," "the people who booked with
+  you," or `[First Name]` mid-email at the beat that matters. Chosen's call, 2026-10-31:
+  the reader should never feel like they're on a list. See `voice.md`, "Talk to one person."
 - A subject line or preview text that misses badly — flagged in the notes, never
   changed silently.
 
@@ -101,8 +105,8 @@ email in one dense block does not get read on a phone.
 
 You do not have to remember all of this. `scripts/build-emails.js` fails the build on:
 a leftover asterisk, a missing UTM tag, a crossed list, an unreadable link marker, an
-agency email opening with "Yo", a bench email that doesn't say which list it's for, and
-**an emoji in the opening sentence**. Emoji counts, bold counts and paragraph length are
+agency email opening with "Yo", a bench email that doesn't say which list it's for,
+**an emoji in the opening sentence**, and **crowd phrasing** ("some of you" and the like). Emoji counts, bold counts and paragraph length are
 still yours to judge.
 
 A file marked `**Style checks:** archived` gets style rules as warnings instead of

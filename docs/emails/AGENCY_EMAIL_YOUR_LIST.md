@@ -109,9 +109,14 @@ From one channel.
 
 Email.
 
-Now look at your list. Some of you have THOUSANDS of people
-in there. How many times this week have you checked whether
-they still need you?
+Now think about your own list, [First Name].
+
+Every person who ever booked with you. Bought from you.
+Asked you for a quote.
+
+They're all still in there.
+
+How many of them did you check on this week?
 
 If it's less than 4, give us a ring. We can fix it.
 
@@ -135,8 +140,9 @@ the ">100%" arrow. **Editor: don't add a store total, a before/after, or "$47K" 
 Chosen has confirmed it in writing. And "email-attributed" is not "caused by email."
 "From email" is as far as the copy goes.** The client isn't named and the screenshot
 shows no name. Keep it that way. Changes from Chosen's hand-written draft: typos;
-"Look (Fname)" became the agency greeting plus "Look."; "less than than 4x this week"
-became a plain question; and "get your more sales" became "help you get more sales",
+"Look (Fname)" became the agency greeting plus "Look."; "Some of you have THOUSANDS"
+became one owner, by name, thinking about their own customers (Chosen, 2026-10-31: don't
+make them feel like they're on a list); "less than than 4x this week" became a plain question; and "get your more sales" became "help you get more sales",
 because the site says "We never promise results up front."
 *Source:* Drip "September 2026 Performance Snapshot" emailed to Sebastian; screenshot
 supplied by Chosen 2026-10-31.

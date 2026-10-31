@@ -45,6 +45,20 @@ From *Esports Unlocked*, the harder edge that's still him:
 He'll say the uncomfortable thing and then say "I'm not saying I don't understand."
 That's the shape: name the excuse, refuse it, empathize, hand them the move.
 
+## Talk to one person, never to the list
+
+Chosen, 2026-10-31, on a line that said "some of you have THOUSANDS of emails in your
+database": *"instead of making them feel like they are on a list… we can personalize that
+part."*
+
+Every email reads as a text from Sebastian to **one** person. So **never "some of you,"
+"many of you," "those of you who," "everyone reading," or "y'all."** Each of those reminds
+the reader they're one of thousands getting a broadcast, and that's the moment the email
+stops feeling like a text. When a point really does vary from reader to reader, say it
+to *this* reader: "your list," "the people who booked with you," or `[First Name]`
+dropped mid-email where a friend would say your name. Use it once, at the beat that
+matters, not as a tic.
+
 ## The two lists have different signoffs — this is a wall
 
 | | Agency | Student |
