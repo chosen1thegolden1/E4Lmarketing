@@ -81,7 +81,9 @@ function inline(escaped) {
  */
 // `(IMAGE: path/in/repo.png | alt text)` on its own line. Proof screenshots, mostly —
 // a client's numbers land harder as the dashboard than as a sentence.
-const IMAGE_LINE = /^\s*\(IMAGE:\s*([^|)]+?)\s*\|\s*([^)]*?)\s*\)\s*$/;
+// An optional third field sets a display width in px for tall or small images
+// (a mascot, a phone screenshot); without it the image runs the full 544px column.
+const IMAGE_LINE = /^\s*\(IMAGE:\s*([^|)]+?)\s*\|\s*([^|)]*?)\s*(?:\|\s*(\d+)\s*)?\)\s*$/;
 const REPO_ROOT = path.resolve(__dirname, '..');
 const LINK_LINE = /^(\s*)(.*?)\s*(?:→|:)\s*\(LINK:\s*([^)\s]+)\)\s*$/;
 const LEADING_DECOR = /^((?:[^\w\[(]|\s)*)(.*)$/u;
@@ -109,7 +111,8 @@ function renderBody(rawIn, id) {
   const html = raw.split('\n').map((line) => {
     const img = line.match(IMAGE_LINE);
     if (img) {
-      const [, src, alt] = img;
+      const [, src, alt, w] = img;
+      const width = Math.min(+(w || 544), 544);
       if (!alt.trim()) fail(id, `image has no alt text: ${line.trim()}`);
       const remote = /^https?:\/\//.test(src);
       if (!remote && !fs.existsSync(path.join(REPO_ROOT, src))) fail(id, `image file not found in the repo: ${src}`);
@@ -118,7 +121,7 @@ function renderBody(rawIn, id) {
       // In a real inbox a relative src is a broken image, so the load checklist tells the
       // loader to upload it to GHL Media and swap the src before it schedules.
       const shown = remote ? src : path.basename(src);
-      return `<img src="${esc(shown)}" alt="${esc(alt)}" width="544" style="display:block;width:100%;max-width:544px;height:auto;border:0;border-radius:4px;">`;
+      return `<img src="${esc(shown)}" alt="${esc(alt)}" width="${width}" style="display:block;width:100%;max-width:${width}px;height:auto;border:0;border-radius:4px;margin:0 auto;">`;
     }
     if (line.includes('(IMAGE')) fail(id, `image marker the builder could not read: ${line.trim()}`);
     const m = line.match(LINK_LINE);

@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- Built from the email's prompt: "make me a spin-the-wheel game for a coffee shop.
+     Customers spin once a day and win a free cookie or 10% off." -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spin for a Treat</title>
+<style>
+  :root{--bean:#3b2418;--crema:#f3e6d3;--milk:#fffaf3;--caramel:#c8823a;--mint:#2f7d62}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--crema);font-family:Georgia,"Times New Roman",serif;color:var(--bean)}
+  .card{width:360px;background:var(--milk);border-radius:28px;padding:26px 22px 24px;box-shadow:0 18px 40px rgba(59,36,24,.18);text-align:center}
+  .brand{font:600 12px/1 -apple-system,Segoe UI,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--caramel)}
+  h1{font-size:30px;margin:8px 0 4px}
+  .sub{font:15px/1.4 -apple-system,Segoe UI,sans-serif;margin:0 0 16px;color:#6d5544}
+  .wheelwrap{position:relative;width:280px;height:280px;margin:0 auto}
+  canvas{width:280px;height:280px;transition:transform 3.6s cubic-bezier(.17,.89,.22,1)}
+  .pointer{position:absolute;top:-6px;left:50%;transform:translateX(-50%);width:0;height:0;border-left:14px solid transparent;border-right:14px solid transparent;border-top:24px solid var(--bean)}
+  button{margin-top:18px;width:100%;padding:15px;border:0;border-radius:14px;background:var(--bean);color:var(--milk);font:700 17px -apple-system,Segoe UI,sans-serif;cursor:pointer}
+  button:disabled{background:#9b8778;cursor:default}
+  .result{margin-top:14px;padding:12px;border-radius:12px;background:#e7f3ee;color:var(--mint);font:700 17px -apple-system,Segoe UI,sans-serif;display:none}
+  .fine{font:12px -apple-system,Segoe UI,sans-serif;color:#8a7362;margin-top:10px}
+</style></head><body>
+<div class="card">
+  <div class="brand">Scan · Spin · Sip</div>
+  <h1>Spin for a Treat ☕</h1>
+  <p class="sub">One spin a day while you wait for your order.</p>
+  <div class="wheelwrap"><div class="pointer"></div><canvas id="w" width="560" height="560"></canvas></div>
+  <button id="spin">Spin the wheel</button>
+  <div class="result" id="res"></div>
+  <div class="fine">Show this screen at the counter. One spin per customer per day.</div>
+</div>
+<script>
+const prizes=["Free cookie","10% off","Free cookie","10% off","Free cookie","10% off"];
+const colors=["#c8823a","#3b2418","#e2b07a","#5a3726","#c8823a","#3b2418"];
+const c=document.getElementById('w'),x=c.getContext('2d'),n=prizes.length,a=2*Math.PI/n;
+prizes.forEach((p,i)=>{x.beginPath();x.moveTo(280,280);x.arc(280,280,270,i*a-Math.PI/2,(i+1)*a-Math.PI/2);x.fillStyle=colors[i];x.fill();
+ x.save();x.translate(280,280);x.rotate(i*a+a/2-Math.PI/2);x.textAlign="right";x.fillStyle=i%2?"#fffaf3":"#3b2418";x.font="bold 30px -apple-system,Segoe UI,sans-serif";x.fillText(p,245,10);x.restore();});
+x.beginPath();x.arc(280,280,46,0,2*Math.PI);x.fillStyle="#fffaf3";x.fill();x.font="40px serif";x.textAlign="center";x.fillText("🍪",280,294);
+const key='spun-'+new Date().toDateString();
+const btn=document.getElementById('spin'),res=document.getElementById('res');
+function show(p){res.textContent="🎉 You won: "+p+"!";res.style.display="block";btn.disabled=true;btn.textContent="Come back tomorrow";}
+let saved=null;try{saved=localStorage.getItem(key)}catch(e){}
+if(saved)show(saved);
+btn.onclick=()=>{const i=Math.floor(Math.random()*n);const turns=5*360+(360-(i*360/n+180/n));
+ c.style.transform=`rotate(${turns}deg)`;btn.disabled=true;
+ setTimeout(()=>{show(prizes[i]);try{localStorage.setItem(key,prizes[i])}catch(e){}},3700);};
+window.__land=(i)=>{c.style.transition='none';c.style.transform=`rotate(${5*360+(360-(i*360/n+180/n))}deg)`;show(prizes[i]);};
+</script></body></html>

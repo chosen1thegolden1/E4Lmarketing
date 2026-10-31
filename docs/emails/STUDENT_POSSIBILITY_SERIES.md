@@ -42,6 +42,23 @@ exact work, read off e4lagency.com on 2026-10-31.
 The reader does the "that's ONE client" math themselves, which is more persuasive than a
 promise anyway. **Editor and writer: never turn any of these into "you'll make $X."**
 
+## The example images are real outputs, not mockups
+
+Chosen asked for "an example of what the coffee game looks like" (2026-10-31). Each image
+is what the tool really returned for the prompt the email quotes:
+
+| Email | Image | How it was made |
+|---|---|---|
+| Image | `docs/assets/examples/taco-truck-promo.jpg` | Higgsfield (gpt_image_2_5), the email's exact prompt, first try. Job `ca763910`. |
+| Website | `docs/assets/examples/braids-site.jpg` | Claude, from the email's prompt. Source is `braids-site.html`, beside it. The prompt says "her hours" rather than "her best reviews", so the screenshot carries no invented reviews. Prices are placeholders, and the caption says it isn't a real business. |
+| Game | `docs/assets/examples/coffee-spin-game.jpg` | Claude, from the email's prompt. Source `coffee-spin-game.html` really plays: the wheel spins and allows one spin a day. |
+| Video | Malik, hosted on GHL's own media CDN (the same image e4lagency.com uses) | Already ours, so there's no upload step. |
+| Creatives | `docs/assets/examples/night-shift-cover.jpg` | Higgsfield (gpt_image_2_5), the prompt quoted in the email, first try. Job `ff13b1e8`. "NIGHT SHIFT" is an invented example song. |
+
+**Loader:** the four repo images must be uploaded to GHL Media and their `src` swapped. The
+build checklist lists each one. **Editor:** "first try" and "that exact sentence" are true
+of these files. If anyone regenerates an image, those words have to stay true or go.
+
 ## Facts used, and their sources (checked 2026-10-31)
 
 - **Claude builds playable games and working web pages from a description, right in the
@@ -96,8 +113,13 @@ image for a taco truck. $2 Tuesdays. Neon sign vibe."
 
 Hit enter.
 
-Under a minute later you're holding something that looks
-like a design agency made it. 🤯
+Under a minute later you're holding this:
+
+(IMAGE: docs/assets/examples/taco-truck-promo.jpg | Neon promo image reading Taco Truck, $2 Tuesdays, made in Higgsfield from one sentence)
+
+*That's real. That's what came back from that exact sentence.*
+
+Looks like a design agency made it. 🤯
 
 You didn't go to art school. You didn't learn Photoshop.
 You just made a business look better than it did this
@@ -174,10 +196,14 @@ Open Claude. Describe the business like you're telling a
 friend.
 
 "One-page site for Maria's Braids in Inglewood. Prices,
-a booking button, her best reviews, gold and black."
+a booking button, her hours, gold and black."
 
 It builds the page. Right there. You can click around
 in it.
+
+(IMAGE: docs/assets/examples/braids-site.jpg | A black and gold one-page website for a braiding salon with prices, hours and a booking button | 300)
+
+*What Claude built from that one sentence. Example only, not a real business.*
 
 Don't like the colors? Say "make it purple." Want photos?
 Say "add a gallery." You're not coding. You're *talking.*
@@ -259,6 +285,10 @@ cookie or 10% off."
 
 It builds it. Playable. Right there in the chat.
 
+(IMAGE: docs/assets/examples/coffee-spin-game.jpg | A coffee shop spin-the-wheel game on a phone screen, showing You won a free cookie | 300)
+
+*That's the real game Claude built from that sentence. It spins, and it only lets you play once a day.*
+
 And Astra, OpenAI's newest model, came out in September.
 People are already posting whole games they built with it.
 
@@ -333,6 +363,8 @@ Claude Artifacts coverage.
 Yo [First Name],
 
 Meet Malik.
+
+(IMAGE: https://assets.cdn.filesafe.space/cVjZYdYSOnOs4rZPrzcs/media/6adb4bbc3699fd27a0b58e1b.jpg | Malik, the E4L Agency mascot, leaning on a gold wall and pointing | 240)
 
 He's the mascot for my agency. He's got a personality.
 He answers questions. People like him.
@@ -443,6 +475,14 @@ to. Somebody to say "here's the plan."
 That's you now.
 
 Cover art concept? ChatGPT or Higgsfield, one sentence.
+Like this one: "Single cover art for an up-and-coming
+rapper's song called NIGHT SHIFT. Moody city lights at
+3am, bold title type."
+
+(IMAGE: docs/assets/examples/night-shift-cover.jpg | Moody cover art for a song called Night Shift, a figure on a rooftop over a city at 3am | 400)
+
+*That's exactly what came back. First try.*
+
 Promo clip? Higgsfield turns the cover into motion.
 The link page? Claude builds it while you describe it.
 
