@@ -36,6 +36,7 @@ const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 
 const OFFERS = [
   [/cs-game-plan-call/, 'Game Plan Call (agency front end)'],
   [/joineat4life\.com\/xboxtoexec/, 'From Xbox to Executive (book, free + $9.95 shipping)'],
+  [/e4lagency\.com/, 'E4L Agency website (Scorecard + Game Plan Call live there)'],
 ];
 function offerFor(links, meta) {
   for (const url of links) {
