@@ -79,6 +79,10 @@ function inline(escaped) {
  * Anchor the visible text, keep any leading emoji outside the anchor so the
  * arrow or pointer still reads as decoration rather than part of the link.
  */
+// `(IMAGE: path/in/repo.png | alt text)` on its own line. Proof screenshots, mostly —
+// a client's numbers land harder as the dashboard than as a sentence.
+const IMAGE_LINE = /^\s*\(IMAGE:\s*([^|)]+?)\s*\|\s*([^)]*?)\s*\)\s*$/;
+const REPO_ROOT = path.resolve(__dirname, '..');
 const LINK_LINE = /^(\s*)(.*?)\s*(?:→|:)\s*\(LINK:\s*([^)\s]+)\)\s*$/;
 const LEADING_DECOR = /^((?:[^\w\[(]|\s)*)(.*)$/u;
 
@@ -101,7 +105,22 @@ function joinWrappedEmphasis(raw) {
 function renderBody(rawIn, id) {
   const raw = joinWrappedEmphasis(rawIn);
   const links = [];
+  const images = [];
   const html = raw.split('\n').map((line) => {
+    const img = line.match(IMAGE_LINE);
+    if (img) {
+      const [, src, alt] = img;
+      if (!alt.trim()) fail(id, `image has no alt text: ${line.trim()}`);
+      const remote = /^https?:\/\//.test(src);
+      if (!remote && !fs.existsSync(path.join(REPO_ROOT, src))) fail(id, `image file not found in the repo: ${src}`);
+      images.push({ src, remote });
+      // A repo file goes into the week folder next to the HTML, so the preview shows it.
+      // In a real inbox a relative src is a broken image, so the load checklist tells the
+      // loader to upload it to GHL Media and swap the src before it schedules.
+      const shown = remote ? src : path.basename(src);
+      return `<img src="${esc(shown)}" alt="${esc(alt)}" width="544" style="display:block;width:100%;max-width:544px;height:auto;border:0;border-radius:4px;">`;
+    }
+    if (line.includes('(IMAGE')) fail(id, `image marker the builder could not read: ${line.trim()}`);
     const m = line.match(LINK_LINE);
     if (!m) {
       if (line.includes('(LINK')) fail(id, `link marker the builder could not read: ${line.trim()}`);
@@ -117,7 +136,7 @@ function renderBody(rawIn, id) {
     // Emphasis is applied to the visible text only — never to the URL.
     return `${esc(indent)}${inline(esc(decor))}<a href="${url}" style="color:#2a78d6;font-weight:600;">${inline(esc(text))}</a>`;
   }).join('\n');
-  return { html, links };
+  return { html, links, images };
 }
 
 /**
@@ -214,7 +233,7 @@ function parse(md, week) {
     if (/gsgagency\.com/i.test(raw)) fail(key, 'body mentions gsgagency.com');
     if (!bench && !proposed && !day) fail(key, 'no send day in the heading');
 
-    const { html, links } = renderBody(raw, key);
+    const { html, links, images } = renderBody(raw, key);
     const strays = (html.match(/\*/g) || []).length;
     if (strays) fail(key, `${strays} leftover asterisk(s) — an unclosed **bold** or *italic* would ship literally`);
 
@@ -251,7 +270,7 @@ function parse(md, week) {
       id: h.id, key, side, day, bench, proposed, subject, preview, meta,
       offer: offerFor(links, meta),
       bodyHtml: html.replace(/\[First Name\]/g, TAG_FIRST_NAME),
-      linkCount: links.length, week,
+      linkCount: links.length, week, images,
     });
   });
   return emails;
@@ -294,6 +313,11 @@ function main() {
 
   const live = emails.filter((e) => !e.bench && !e.proposed);
   for (const e of emails) fs.writeFileSync(path.join(outDir, `${e.key}.html`), wrap(e));
+  for (const e of emails) {
+    for (const im of e.images.filter((x) => !x.remote)) {
+      fs.copyFileSync(path.join(REPO_ROOT, im.src), path.join(outDir, path.basename(im.src)));
+    }
+  }
 
   const rows = live
     .map((e) => ({ ...e, date: sendDate(week, e.day) }))
@@ -325,7 +349,7 @@ ${rows.map((e) => `| ${e.date} | ${e.day} | ${e.side} | \`${e.key}.html\` | ${e.
 - [ ] Schedule for 8:00 AM Pacific on the send date shown.
 - [ ] Test send to yourself: first name renders, unsubscribe works, every link opens.
 - [ ] Agency rows go to the agency list, student rows to the student list. Never crossed.
-
+${live.flatMap((e) => e.images.filter((x) => !x.remote).map((x) => `- [ ] **\`${e.key}.html\` has an image.** Upload \`${path.basename(x.src)}\` (it's in this folder) to GHL Media, then replace the image's \`src\` with the GHL URL. Left as is, it shows in the preview and arrives **blank** in a real inbox.\n`)).join('')}
 ${emails.filter((e) => e.bench).length ? `## Bench — not scheduled\n\n${emails.filter((e) => e.bench).map((e) => `- \`${e.key}.html\` — ${e.subject}`).join('\n')}\n` : ''}${emails.filter((e) => e.proposed).length ? `## Proposed alternates — Chosen's call, not scheduled\n\n${emails.filter((e) => e.proposed).map((e) => `- \`${e.key}.html\` — ${e.subject}`).join('\n')}\n` : ''}`;
 
   fs.writeFileSync(path.join(outDir, 'SCHEDULE.md'), schedule);

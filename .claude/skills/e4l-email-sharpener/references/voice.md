@@ -75,6 +75,15 @@ stories get written once and reused forever.
 - **Stiiizy sales floor.** Chosen's note: people have questions, but if you keep
   restating the value and giving examples of use, people WANT what works. Use for:
   objection handling, "logic is panic's prey."
+- **The client whose email took off: September 2026 (Drip).** A former agency client,
+  unnamed. She emailed her list her discounts, sales and services, and email brought in
+  **$14,960 that month, more than double August, 33% of her store revenue, from 91 orders.**
+  **Always show the screenshot:** `docs/assets/proof/drip-client-sept-2026.jpg`, via the
+  `(IMAGE: path | alt)` marker (Chosen, 2026-10-31: "Use this image when I talk about the
+  client email we grew sales with"). Only the numbers on the screenshot are usable. It
+  shows no store total and no before/after month, so never write "33K → 47K" or any total
+  unless Chosen confirms it from her store data. "33%" is not "$33K". Never name her. Use for:
+  results emails, "email your list," "you own your list."
 - **Emergency Roofing closed ($1,000 + $1,000/mo × 3) off a cold email** and
   wirthplasticsurgery.com replied — proof the agency's own email works. Use for:
   results emails, patient-zero proof.
