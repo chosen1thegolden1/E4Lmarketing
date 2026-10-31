@@ -23,6 +23,7 @@ sounding like Chosen and sounding like a copywriter doing Chosen.
 | For a specific reader | `references/audiences.md` — the seven segments |
 | A subject line, a headline, a bullet | `references/sauce.md` — formulas that already work |
 | Deciding what to send this week | `references/cadence.md` — rhythm, wheel, sequences |
+| **Any batch, before you pick an angle** | `references/seasons.md` — US holidays, what the season does to each reader, which slots to skip |
 | The output shape | `assets/email-template.md` — the exact format |
 
 ## What "aggressive" means here
@@ -55,6 +56,14 @@ and the list dies in sixty days. Most emails should deposit *and* sell — that'
 Speaker, not the Teacher, not the Used Car Salesman.
 
 ## The procedure
+
+**Before step 1: check the season.** Read `references/seasons.md` and work out which
+holidays fall in or beside the send week. Both lists are mostly American, and the season
+changes who the reader is that week — a correct email sent into the wrong week still
+loses. Thanksgiving is quiet time for a business owner and a hard family question for
+somebody who tried and failed; the same date is two different emails. Name the season in
+the doc header, and if a slot should be skipped (Christmas Day, New Year's Day) say so
+there too.
 
 1. **Name the reader.** One of the seven segments in `audiences.md`. Not "students" —
    *which* student. The email is written to one person.
@@ -122,6 +131,12 @@ Speaker, not the Teacher, not the Used Car Salesman.
   or clients. If a normal person couldn't do it tonight on their phone, wrong side quest.
 - **The book's five roles are translated in email, not quoted.** "Five jobs every
   business needs handled" — never "Damage / Support / Tank."
+- **Never invent an offer or a deadline.** Seasonal urgency is only honest when
+  something really ends. The calendar ends by itself; a sale ends only if Chosen said so.
+  A promo needs his decision — ask, don't borrow Black Friday's urgency for an offer that
+  doesn't exist. Same wall as inventing a fact.
+- **No "Happy [holiday]" subject lines, and no holiday emoji as decoration.** 🦃🎄 in a
+  business inbox is an unsubscribe. December does not loosen the emoji rules.
 - **Never invent a fact.** Every stat is dated and sourced under the email. Every story
   is true — Hollywood-ize the telling, never the events.
 - **Nothing sends from gsgagency.com.** That domain is still healing.

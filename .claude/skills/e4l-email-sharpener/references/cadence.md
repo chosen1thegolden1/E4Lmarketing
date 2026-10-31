@@ -28,6 +28,15 @@ It renders each email to paste-ready HTML with live links and fails the build on
 missing UTM, a crossed list, a broken link marker, or an agency email that opens with
 "Yo". If the builder fails, the batch is not done.
 
+## Before you write: check the season
+
+`references/seasons.md` holds the US holiday calendar, what each season does to each
+reader, and which send slots collide. Read it before choosing angles. The season decides
+what the reader is living through that week; the wheel only decides what you sell them.
+
+Two slots a year are right to skip: **Christmas Day and New Year's Day.** Both are
+Fridays in 2026/2027. Say the skip in the header so nobody thinks the batch came up short.
+
 ## Before you write: pay what the list is owed
 
 Read `docs/PROMISES_OWED.md` first. When an email promises something in a later email —
