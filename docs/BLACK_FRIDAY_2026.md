@@ -85,7 +85,12 @@ at four because four is what can be sourced — see the gaps below. No "much, mu
    line available — "$500 for what normally costs $2,000" — and it stays out until Chosen
    confirms the course has genuinely sold at $2,000.
 
-**⚠️ AND THE REAL GAP: nobody has told me what is in the course.**
+**RESOLVED 2026-10-30 — the course is 8 video modules, a workbook, 8 weeks of content,
+lifetime access** (Chosen's words). The bullets below predate that and are superseded by
+Version A in `docs/COURSE_EMAIL.md`, which states the real format. Use that file as the
+source for both the general broadcast and the Black Friday open.
+
+**The earlier gap, kept for the record:**
 
 The four bullets are inferred from the book's framework and the story bank, because that is
 all that is on record. They may describe a course that doesn't exist. Before this ships,
