@@ -25,6 +25,7 @@ sounding like Chosen and sounding like a copywriter doing Chosen.
 | Deciding what to send this week | `references/cadence.md` — rhythm, wheel, sequences |
 | **Any batch, before you pick an angle** | `references/seasons.md` — US holidays, what the season does to each reader, which slots to skip |
 | A promo, or a shape Chosen handed over | `references/templates.md` — his email shapes and how to adapt them without sounding like a swipe file |
+| A student "possibility" email (make money with AI) | `references/possibility.md` (study notes, pillars, idea bank) and Shape 2 in `references/templates.md` |
 | The output shape | `assets/email-template.md` — the exact format |
 
 ## What "aggressive" means here

@@ -20,6 +20,13 @@ This pass changes **how the email looks and reads**, not what it says.
 - A subject line or preview text that misses badly — flagged in the notes, never
   changed silently.
 
+## Possibility emails: one extra check
+
+When the email sells the dream of making money with AI (Shape 2), read the walls at the
+bottom of `possibility.md` before editing. **Any line that promises the reader an income
+gets cut and flagged, not polished.** Our published prices and the reader's own "that's
+ONE client" math are fine.
+
 ## What the editor may never change
 
 - The argument, the claim, the number, the story. Those came from research and from

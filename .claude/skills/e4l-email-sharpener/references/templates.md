@@ -64,3 +64,48 @@ your first client" becomes "One job. One client. 90 days."
 ### Worked example
 `docs/BLACK_FRIDAY_2026.md` holds this shape written out for the course offer, with the
 honest gaps marked.
+
+## Shape 2 — the possibility email (student)
+
+**Where it came from:** Chosen, 2026-10-31. As a former Billy Gene student, he knows what
+makes these emails land: *"the promise of making money and using these tools to continue
+making money or break away from the rat race."* Study notes, Billy lessons and an idea
+bank are in `possibility.md`. Five finished examples are in
+`docs/emails/STUDENT_POSSIBILITY_SERIES.md`. Read one before writing another.
+
+### The skeleton
+
+1. **A scene they can check tonight.** A real kind of place in their life (the taco truck,
+   their barber, the coffee shop) and the gap in it (last post two months ago, no website,
+   no video). The reader goes and looks. No invented business.
+2. **The flip.** "That's not a sad story. That's an OPENING."
+3. **How easy it is now.** One tool, one sentence typed into it, what comes back. Write the
+   actual prompt in quotes. It makes the ease real.
+4. **The bold rule.** One line they can repeat: "If you can describe it, you can build it."
+5. **The money.** What a business really pays **E4L** for this exact work, from
+   e4lagency.com that week, then "That's ONE client." Never what the reader will earn.
+6. **The life it buys.** From anywhere (the couch, the bus, another country), shown through
+   Chosen's real story or the team, never promised.
+7. **Belief + timing.** "I believe you can do this," varied every time, and "the door is
+   open RIGHT now" as opinion, never as a fake deadline.
+8. **The book.** "The book shows you how to pick ONE skill and get paid for it inside 90
+   days." Then the 👉 CTA.
+9. **P.S.** A question about *their* version ("what's the first spot you'd make one for?"),
+   a reply ask, or a joke. Vary it.
+
+### Energy
+
+Billy Gene's: short lines, CAPS on the one word that carries the beat, "here's what's
+crazy," and a reader who should feel slightly out of breath by the CTA. Chosen's voice on
+top: "Yo," "I'm not even playing," "real talk," the gaming handshake. Five emoji max, none
+in the opening line.
+
+### Walls specific to this shape
+
+- **No income claims.** No "you'll make," no "per client per month," no "replace your
+  salary." Our prices, a real proof (story bank, Drip screenshot), and the reader's own math.
+- **Tool claims stay modest and sourced the week they're written.** "A simple game." "A
+  one-page site." "A video ad in minutes." If the tool changed, the email changes.
+- **Never invent a scene as if it happened.** "Picture it" and "try this tonight" are fine.
+  "Last week a student of mine…" is not, unless Chosen supplied it.
+

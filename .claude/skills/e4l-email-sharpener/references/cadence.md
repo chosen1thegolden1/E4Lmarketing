@@ -99,6 +99,14 @@ the student side."
   idea is needed and not on file, flag it in the batch header for Chosen rather than guess.
 - Agency side is unchanged.
 
+## Mix in possibility emails on the student side (Chosen, 2026-10-31)
+
+Alongside the book-subject emails and trending topics, mix in **possibility emails**
+(Shape 2 in `templates.md`, study notes in `possibility.md`): one thing you can make with
+AI, how easy it is, what a business pays for it, the life it buys, and Chosen's belief in
+the reader. There's no quota and no calendar. Chosen: *"We don't need to do anything special
+for the 12 months."* Use them where they fit, so the pillars stay the reader's north star.
+
 ## Sequences (automations in GHL — write once, run forever)
 
 | Sequence | Trigger | Length | Notes |

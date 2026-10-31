@@ -18,8 +18,10 @@ in one person's memory. A good email that nobody slots is a good email that neve
    deadline, not a number.
 4. **Target weeks are Mondays**, and a batch for week W is written on the Tuesday six days
    before W. So a row targeting the week of Nov 9 needs its gate cleared by Tue Nov 3.
-5. **At most one queued email per list per week.** Two queued rows for the same list in the
-   same week means one moves. Earlier target date wins; if they tie, the one with a deadline
+5. **At most two queued emails per list per week,** so the writer always keeps at least two
+   slots for the week's own work (trending, book subject, the Sunday deposit). Raised from
+   one on 2026-10-31, when the possibility series arrived. A third queued row for the same list
+   in the same week means one moves. Earlier target date wins; if they tie, the one with a deadline
    wins. Say which one moved and where it went.
 6. **Move the status to `shipped` with the date and the slot** once it sends. A shipped row
    stays as history — do not delete it, and never place it a second time.
@@ -36,6 +38,11 @@ in one person's memory. A good email that nobody slots is a good email that neve
 | Agency — "The fortune is in the follow up" / ready for 2027. **Chosen wrote it by hand**; the editor cleans it up and keeps his voice. Verbatim copy and the editor's list in `docs/emails/AGENCY_FOLLOW_UP_2027.md`. | agency | 2026-12-28 | A2 (Wed Dec 30) | **queued** | None. Chosen settled both 2026-10-31: subject and preview swapped, and "EVERY day" becomes "all the time". Links: e4lagency.com + Game Plan Call, both by his choice. | Chosen, 2026-10-31 |
 | Agency — "If you're not doing this you have a problem." **Chosen by hand**, with the Drip proof screenshot. Copy in `docs/emails/AGENCY_EMAIL_YOUR_LIST.md`. | agency | 2026-11-16 | A1 (Mon Nov 16) | **queued** | Ships as written, using only the screenshot's numbers. His "33K → 47K" line stays out unless he confirms real store totals (the screenshot shows ~$45.3K total and no before/after). Loader must upload the image to GHL Media and swap the src; the build checklist says so. | Chosen, 2026-10-31 |
 | Student — "This is what ONE client looks like." The Drip story flipped for students: what the person who builds that is worth, from anywhere, and it's ONE client. Copy in `docs/emails/STUDENT_ONE_CLIENT.md`. | student | 2026-11-16 | S2 (Wed Nov 18) | **queued** | None. No earnings promise to the reader; the money is the screenshot plus the real Emergency Roofing deal. Loader uploads the image to GHL Media (build checklist says so). | Chosen, 2026-10-31 |
+| Student possibility #1 — "Your first client might be a taco truck" (the image). Copy in `docs/emails/STUDENT_POSSIBILITY_SERIES.md`. | student | 2026-11-09 | S1 (Mon Nov 9) | **queued** | None. Re-check e4lagency.com prices and the tool claims the week it's written. | Chosen, 2026-10-31 |
+| Student possibility #2 — "Type one paragraph. Get a website." Copy in `docs/emails/STUDENT_POSSIBILITY_SERIES.md`. | student | 2026-11-16 | S3 (Fri Nov 20) | **queued** | None. Re-check e4lagency.com prices and the tool claims the week it's written. | Chosen, 2026-10-31 |
+| Student possibility #3 — "Your gaming hours were the training" (the game). Copy in `docs/emails/STUDENT_POSSIBILITY_SERIES.md`. | student | 2026-12-07 | S1 (Mon Dec 7) | **queued** | None. Re-check e4lagency.com prices and the tool claims the week it's written. | Chosen, 2026-10-31 |
+| Student possibility #4 — "No camera. No actors. Still a video ad." Copy in `docs/emails/STUDENT_POSSIBILITY_SERIES.md`. | student | 2026-12-14 | S1 (Mon Dec 14) | **queued** | None. Re-check e4lagency.com prices and the tool claims the week it's written. Editor: confirm with Chosen or cut "I used to think you needed a studio…". | Chosen, 2026-10-31 |
+| Student possibility #5 — "Not into businesses? Cool. Help an artist." Copy in `docs/emails/STUDENT_POSSIBILITY_SERIES.md`. | student | 2026-12-21 | S1 (Mon Dec 21) | **queued** | None. Re-check e4lagency.com prices and the tool claims the week it's written. Editor: confirm with Chosen "I know what it feels like…" and that he reads replies ("I read these"), or soften or cut. | Chosen, 2026-10-31 |
 
 ## Unscheduled — asked about every week
 
