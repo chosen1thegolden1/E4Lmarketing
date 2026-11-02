@@ -1,0 +1,680 @@
+[
+ {
+  "qualified": true,
+  "disqualified_reason": "None. All hard disqualifiers passed. Not a chain or franchise: About page says \"Family owned and operated\", one location. Own Duda-built website loads with SSL. GBP is live with 60 reviews. Phone and contact form exist. Not a competitor. No AI receptionist found in page source. No turtle-electric.com domain, 985-778-7385 phone, or \"Turtle Electric\" name match in suppression.csv or seen.csv. The only \"Turtle\" hit is Turtle Roofing, turtleroofing.com, Omaha NE, which is a different business. Dedupe against the GHL E4L Services sub-account was NOT run from this worker; run ghl-contacts.js before loading.",
+  "company_name": "Turtle Electric",
+  "niche": "Electrical",
+  "niche_segment": "core",
+  "website": "https://www.turtle-electric.com",
+  "company_phone": "+1 985-778-7385",
+  "company_email_generic": "info@turtle-electric.com. It appears in the site's LocalBusiness JSON-LD \"email\" field on the homepage source, not as a visible mailto. MX is present: turtleelectric-com01e.mail.protection.outlook.com.",
+  "street_address": "Not found. This is a service-area business: the site only says \"Located in Mandeville, La\", and the schema streetAddress field holds just \"70448\".",
+  "city": "Mandeville",
+  "state": "LA",
+  "zip": "70448 (from the site's LocalBusiness schema)",
+  "timezone": "Central (CT, America/Chicago)",
+  "google_maps_url": "https://business.google.com/v/turtle-electric/016209284629622975505/a2aa/_",
+  "google_rating": "4.9 (GBP page fetched 2026-11-02)",
+  "review_count": "60 on GBP, fetched 2026-11-02. The scout's search snippet showed 44, so reviews may have grown recently. Unverified because the snippet date is unknown.",
+  "locations_count": "1 (Mandeville; service-area business)",
+  "service_area": "The GBP lists Slidell, Covington, Mandeville, Folsom, Abita Springs, Goodbee, Lacombe, and Madisonville LA. The site schema lists Mandeville, Covington, Abita Springs, and Madisonville. Both describe it as the Northshore of St. Tammany Parish.",
+  "business_hours": "The sources conflict. The site's LocalBusiness schema says Mon-Fri 9:00 AM-6:00 PM. The GBP says \"Open 24 hours\" Mon-Sun. The visible site pages list no hours.",
+  "founded_or_years": "Founding year not found. The domain was registered 2018-07-26 per Verisign RDAP. The oldest dated testimonial on the site is Feb 21, 2021. That points to roughly 5-8 years operating, but the start date is unconfirmed.",
+  "team_size_estimate": "Small crew, about 2-5 people. The About page photo caption shows \"Four adults standing together in black shirts\". A May-2026-era Google review names Kevin and Justin. ZoomInfo estimates 1-10 per the scout; my fetch returned 403, so that figure is unverified.",
+  "sub_services": "Outdoor lighting, electrical updating, fixtures and fans, electrical repairs, generator installation, new construction, troubleshooting, panel upgrades (FAQ), and emergency electrician service. The FAQ sells standby generators for hurricane season. GBP lists outlet and switch install and relocation. A review describes a kitchen-remodel lighting and appliance rough-in job.",
+  "owner_first_name": "Kevin",
+  "owner_last_name": "Bovia",
+  "owner_title": "Owner/Operator",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found. No personal email is published. The only email is the generic info@turtle-electric.com.",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found. No separate owner line is published; the only number is the main line, 985-778-7385. A 2021 site testimonial says \"Late on a Friday night, I called Kevin\", which suggests the main line reaches Kevin, but nothing explicitly ties the number to him.",
+  "owner_linkedin": "Not found. The web-search budget was exhausted for this run, so the LinkedIn X-ray was not run.",
+  "owner_other_socials": "Business pages linked from the site: facebook.com/turtle.electric and instagram.com/turtle.electric/. Facebook needs a login and Instagram returned 429, so post recency was not checked. No personal owner handles were found.",
+  "owner_background": "The About page says only: \"Kevin Bovia, the owner/operator, has a passion for anything outdoors.\" It also says the nickname \"Turtle\" came from local workout groups: \"They ask you about your life and hobbies and give you a name based on that.\" License number, years in the trade, and prior career were not found. The site says only \"state licensed and insured\".",
+  "owner_personality_cues": "The About page shows a community and fitness-group identity: the business is named after Kevin's workout-group nickname \"Turtle\" and he has a \"passion for anything outdoors\". His brand values on the site are \"prompt, quality service\", \"Honest Pricing. No surprises. No hidden fees\", and \"Customer-focused approach\". Reviews describe him as personally hands-on: \"Kevin ... cared about getting it right\" (Yasmine Josephine, GBP, about 5 months ago), and \"Late on a Friday night, I called Kevin about my electrical problem. He came out within an hour\" (Debbie Cain Tarver, site testimonial, Aug 25, 2021). The tone is warm and personal, not salesy.",
+  "attitude_type": "Unclear (leaning Overwhelmed Owner-Operator)",
+  "attitude_evidence": "Signals pointing to an owner-operator on the tools: the About page names Kevin as \"owner/operator\"; there is one phone line with a \"CALL NOW!\" hero; there is no booking, chat or text; a GBP review names Kevin doing the work; and a 2021 testimonial has a customer calling Kevin directly late on a Friday. The Overwhelmed type requires 2+ reachability complaints, and none were seen. The 2 reviews visible on GBP praise \"communication was great\". No owner review replies were seen, but that is only 2 of 60 reviews. No ads, hiring, or growth posture was found, so Growth-Minded is not supported. Overall the evidence is too thin to assign a type with confidence.",
+  "tech_adoption": "basic. The site has SSL, a 2026 copyright, a contact form, and a claimed GBP. Page source has no booking, chat, text-us, review-tool, or call-tracking scripts. Email runs on Microsoft 365 per the Outlook MX record.",
+  "marketing_sophistication": "diy / light web-designer. The Duda site carries a reseller flag (\"dmResellerSite\"), so a web designer or reseller probably built it. It has SEO-style copy plus FAQPage and LocalBusiness JSON-LD. No GTM, gtag, Meta pixel, or CallRail was found, and there is no agency footer credit.",
+  "growth_stage": "established. Dated testimonials go back to Feb 2021, the domain dates from 2018, and the GBP has 60 reviews. Velocity is unconfirmed; the 44-to-60 change comes from an undated scout snippet.",
+  "review_response_behavior": "unknown. The 2 reviews visible on the GBP page have no owner response, but the full set of 60 reviews could not be sampled.",
+  "after_hours_handling": "No answering service, 24/7 answering, or AI receptionist is mentioned on the site or in page source. The GBP is set to \"Open 24 hours\" while the site schema says Mon-Fri 9-6. The homepage says \"Emergency Electrician Near You ... If something doesn't seem right, call immediately.\" The single line appears to route to Kevin himself: the 2021 testimonial says \"Late on a Friday night, I called Kevin\". After-hours calls likely depend on the owner picking up, but this is inference, not confirmed.",
+  "online_booking": "None. The homepage has only a contact form (Name, Email, Phone, Address, Type of Service, Description). No scheduling scripts (calendly, jobber, housecallpro, servicetitan, etc.) were found in the page source.",
+  "chat_or_text_on_site": "None. No chat or text widget scripts (podium, birdeye, tidio, tawk, intercom, drift) were found in the source of the home, about, or testimonials pages.",
+  "vendors_detected": "Duda website builder (reseller site, published Jul 21, 2026) and Microsoft 365 / Outlook email (MX). No call tracking, booking, chat, review, or answering vendor was found.",
+  "ads_running": "Not checked. Google Ads, LSA, and Meta Ad Library were not run because the web-search budget was exhausted. The site has no GTM, gtag, fbq, or CallRail scripts.",
+  "ai_search_presence": "Not checked. ChatGPT, Perplexity, and Gemini could not be queried from this worker. The site already has FAQPage and LocalBusiness JSON-LD, so if they are not named, D4 maxes at 6 per the rubric.",
+  "pain_signals": "1) Electrical is an urgent niche, and the site pushes calls itself: \"Burning smells, sparking outlets, sudden power loss, or buzzing panels should never be ignored... If something doesn't seem right, call immediately\" (homepage). 2) Everything rides on one phone line, \"CALL NOW! 985-778-7385\". There is no booking, chat, or text, and the contact form has no stated response time. 3) The \"Contact Us\" page in the site menu (turtle-electric.com/contact) returns \"The page you are looking for can not be found\" as of 2026-11-02. 4) Hours conflict: GBP shows \"Open 24 hours\" while the site schema shows Mon-Fri 9-6, so after-hours callers are told the business is open. 5) Owner-on-the-tools: \"Late on a Friday night, I called Kevin... He came out within an hour\" (site testimonial, 2021). No reachability complaints were found in the reviews visible to this worker.",
+  "trigger_events": "Site republished on Duda, PublicationDate \"Jul 21, 2026\" (page source); the domain record was last changed 2026-07-27 (RDAP). That is about 104 days ago, but no Wayback diff confirmed it was a redesign. GBP showed 60 reviews on 2026-11-02 versus 44 in the scout's snippet, which is possible review growth but unverified. Seasonal: the site's FAQ sells standby generators for hurricane season, which ends Nov 30. No hiring or expansion news was found; search was unavailable.",
+  "lead_score": 49,
+  "score_breakdown": "D1 Decision-maker: 8/20. Full name and role are cited on a business-controlled page: \"Kevin Bovia, the owner/operator\" (turtle-electric.com/about). The only email is generic info@ (in the site's JSON-LD, MX present) plus the staffed main line. No owner LinkedIn or direct line was found, so 14 is not met.\nD2 Phone gap: 15/15. Phone-first with a \"CALL NOW! 985-778-7385\" hero CTA. Electrical is on the urgent-niche list, and the site says \"Emergency Electrician Near You... call immediately\". Page source mentions no answering service or AI receptionist. GBP \"Open 24 hours\" conflicts with the site schema's Mon-Fri 9:00-18:00.\nD3 Leak evidence: 5/15. One signal type, booking friction (5): page source has no online scheduling and no chat or text widget, and the form gives no response-time promise; the Contact Us nav page also returns a 404. No reachability complaints were seen in the 2 visible GBP reviews or the 4 site testimonials. Reply rate and job posts were not checkable; search budget exhausted.\nD4 GEO: 0/10, NO EVIDENCE. No AI platform was checked. FAQPage and LocalBusiness JSON-LD are present, which caps D4 at 6 when it is checked.\nD5 ICP fit: 15/15. Test (a): \"Family owned and operated\", 1 location, owner named. Test (b): electrical is a core niche. Ability proxies: operating 5+ years (testimonials dated Feb 2021, domain 2018-07-26; a proxy, not a \"since\" claim); a service area of 8 cities on GBP; generator installation and panel upgrades as high-ticket lines, using the electrical $400-3k row plus generator jobs; and 60 GBP reviews.\nD6 Buying signals: 3/15. Soft activity only: a steady review inflow (GBP reviews about 3 and 5 months old, total now 60). The Duda republish of Jul 21, 2026 is not confirmed as a redesign; if Wayback confirms it, D6 rises to 7. The spend checklist found no GTM, gtag, fbq, or CallRail in the source and no agency credit. Google Ads, LSA, and Meta Ad Library were not checked.\nD7 Attitude/stack: 3/15. One positive: a modern site with SSL and a 2026 copyright. One negative: a dead link, the /contact nav page 404. That nets to 0 with a positive observed, so 3. No incumbent agency conflict was found.\nTOTAL 49 = WATCH band. Trust status: TRUSTED with caveats. 6 of 7 dimensions have evidence, D1 has a positive citation, and D2 has direct evidence. GHL dedupe was not run. The band is capped below SEND TODAY because D4 was not run. Blocker: D4 (run 3 money questions) and D1 (no direct owner channel). If D4 comes back \"named 0 of 6\" (6 points, because schema exists), the score becomes 55 and moves to QUALIFIED. Route: call-first, Sam, DEMO PATH-style, since this is a phone-first business with D2 15 and a named owner.",
+  "recommended_entry_offer": "Voice AI live demo: a demo line built from turtle-electric.com, trained on emergency triage (sparking, burning smell, power loss), generator and panel estimate booking, and missed-call text-back. Route call-first through Sam.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Kevin, the Friday-night calls",
+  "personalized_first_line": "Kevin, one of your customers wrote that she called you late on a Friday night and you were out within the hour. That kind of service is hard to keep up when you're the one in the attic all day.",
+  "call_angle": "Missed-call and emergency angle for a hands-on owner-operator. The site tells homeowners with sparking outlets or burning smells to \"call immediately\", and everything goes to one line that Kevin seems to answer himself; the GBP even says \"Open 24 hours\". Offer a free demo line built from his own site that answers when he is on a ladder, triages the emergency, and books generator and panel estimates. Ask the qualify question: \"Who picks up when you're mid-job or after 6?\" As a helpful aside, mention that the Contact Us link in the site menu goes to a \"page not found\".",
+  "likely_objection": "\"I answer my own phone, my customers like talking to me,\" or \"We're small, word of mouth keeps us busy.\" Response: it only picks up the calls he can't get to and forwards only missed or busy calls, so nothing changes when he answers, and he can call the demo line himself before deciding anything.",
+  "why_now": "The site was republished in July 2026 (Duda publication date), and the GBP is set to \"Open 24 hours\" while the site lists weekday hours. Emergency and after-hours callers are being invited to call, and the menu's Contact Us page is broken today. Hurricane season ends Nov 30; the site's own FAQ sells standby generators for storm season, so the off-season is a good window to get call handling right before next year's storm and generator demand.",
+  "notes_for_chosen": "WATCH at 49, not SEND TODAY, because the AI-search check could not be run and no direct owner channel was found. Run 3 electrician money questions for Mandeville or Covington; that likely lifts the score to 55+ and QUALIFIED. Call-first: the only email is info@ (Generic, Confirmed on the site's JSON-LD, Outlook MX), so no personal email slot is spent. Kevin's first name is used in reviews; a second person, \"Justin\", is named in one GBP review with an unknown role. Data hygiene items to mention gently as a favor: the /contact page 404s, and the GBP hours (\"Open 24 hours\") conflict with the site's Mon-Fri 9-6. The site is Duda reseller-built, so a web designer may be involved; ask who handles the site before pitching AI-readable site work. The street address is not public (service-area business). Not completed from this worker: GHL dedupe, the LA contractor license lookup (LSLBC), the SOS entity, LinkedIn, Meta Ad Library, LSA, and a full review sweep. The web-search budget was exhausted mid-run; a follow-up run can fill these. Never promise results or quote prices.",
+  "best_opening_moment": "Kevin's own customer story is the best opener, and it is published on his site: \"Late on a Friday night, I called Kevin... He came out within an hour\" (testimonials page). It shows he already wins on responsiveness, and the AI line protects that when he can't pick up. A second option is his \"Turtle\" nickname from local workout groups (About page), as a light rapport line only.",
+  "best_time_to_call": "Tue-Thu 7:45-8:30 AM CT, before the crew is on site, with a fallback of 5:00-5:45 PM CT as jobs wrap. Kevin is a hands-on owner/operator who works the jobs himself (a GBP review names him on the work). The single published line appears to reach him directly per the 2021 Friday-night testimonial. The site schema lists 9-6 office hours, but there is no office staff to wait for. Avoid Monday mornings, which are typically the emergency backlog in trades.",
+  "call_opener": "\"Hi, is this Kevin? Kevin, this is Sam with Eat 4 Life Marketing. Full honesty, this is a cold call. Can I have 20 seconds to tell you why, and you tell me if it's worth another minute? ... Your site tells folks with a sparking outlet or burning smell to call immediately, and one of your customers wrote you were out within the hour on a Friday night. When you're up in an attic, those calls hit voicemail and that homeowner calls the next electrician on Google. We build an assistant that answers those calls as Turtle Electric, flags the emergencies, and books the estimate. We'd build you a free demo line from your own website to call yourself first. Worth a 20-minute look this week?\"",
+  "gatekeeper_notes": "No office manager, dispatcher, or answering service was found on the site, GBP, or in page source. One line, 985-778-7385, appears on both the site and the GBP. A 2021 testimonial (\"I called Kevin... He came out within an hour\") suggests Kevin answers it himself, so ask for Kevin by first name. If someone else answers, a GBP review names a \"Justin\" with an unknown role; ask \"When's the best time to catch Kevin off a job?\" No owner cell is published beyond the main line. If it goes to voicemail, leave a short message with the demo-line hook and call back at the other window.",
+  "evidence_links": "https://www.turtle-electric.com/about, https://www.turtle-electric.com, https://business.google.com/v/turtle-electric/016209284629622975505/a2aa/_, https://www.turtle-electric.com/testimonials, https://www.turtle-electric.com/contact, https://rdap.verisign.com/com/v1/domain/turtle-electric.com, https://dns.google/resolve?name=turtle-electric.com&type=MX, https://facebook.com/turtle.electric, https://instagram.com/turtle.electric/, https://www.zoominfo.com/c/turtle-electric/539533230",
+  "research_confidence": "Medium",
+  "_target": "electrical-neworleans",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner Kevin Bovia, Owner/Operator (about page)",
+     "result": "confirmed",
+     "note": "About page: 'Kevin Bovia, the owner/operator, has a passion for anything outdoors.' Nickname Turtle from workout groups confirmed."
+    },
+    {
+     "claim": "Not a chain/franchise; family owned, one location, Mandeville LA",
+     "result": "confirmed",
+     "note": "'Family owned and operated, state licensed and insured.' 'Located in Mandeville, La'. No chain mention."
+    },
+    {
+     "claim": "Company phone 985-778-7385 and website",
+     "result": "confirmed",
+     "note": "Phone on site (CALL NOW!), JSON-LD telephone, and GBP all match."
+    },
+    {
+     "claim": "Generic email info@turtle-electric.com in JSON-LD",
+     "result": "confirmed",
+     "note": "Raw homepage source has \"email\" : \"info@turtle-electric.com\". Not visible on page (as the lead says). Owner personal email correctly Not found."
+    },
+    {
+     "claim": "Schema hours Mon-Fri 9-6 vs GBP Open 24 hours; GBP 4.9 / 60 reviews; Kevin and Justin named in review",
+     "result": "confirmed",
+     "note": "Schema opens 09:00 closes 18:00 Mon-Fri; GBP fetch shows Open 24 hours, 4.9, 60 reviews, review names Kevin and Justin."
+    },
+    {
+     "claim": "Testimonial 'Late on a Friday night, I called Kevin' (Debbie Cain Tarver, Aug 25, 2021)",
+     "result": "confirmed",
+     "note": "Testimonials page matches author, date, and opening line; Kevin arrives within an hour."
+    },
+    {
+     "claim": "Pain signal 3: site menu 'Contact Us' page returns 'page not found' (turtle-electric.com/contact 404)",
+     "result": "contradicted",
+     "note": "The nav 'Contact Us' link points to /contact-us, which returns HTTP 200. Only the guessed URL /contact returns 404. The broken-link claim, the call-angle aside, the 'dead link' D7 negative, and the why_now mention are all unsupported."
+    },
+    {
+     "claim": "No booking/chat widgets; single phone line, contact form only",
+     "result": "confirmed",
+     "note": "Homepage shows only a contact form with Name, Email, Phone, Address, Type of Service, Description; no widgets seen."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grep for turtle/985-778-7385 hits only Turtle Roofing (turtleroofing.com, Omaha NE) in suppression.csv, a different business. No hit in seen.csv."
+    },
+    {
+     "claim": "Owner LinkedIn / ads / AI search / ZoomInfo size",
+     "result": "could-not-open",
+     "note": "Web search budget exhausted for this turn; lead already marks these as unchecked or unverified."
+    }
+   ],
+   "corrected_fields": {
+    "pain_signals": "1) Electrical is an urgent niche, and the site pushes calls itself: \"Burning smells, sparking outlets, sudden power loss, or buzzing panels should never be ignored... If something doesn't seem right, call immediately\" (homepage). 2) Everything rides on one phone line, \"CALL NOW! 985-778-7385\". There is no booking, chat, or text, and the contact form has no stated response time. 3) Hours conflict: GBP shows \"Open 24 hours\" while the site schema shows Mon-Fri 9-6, so after-hours callers are told the business is open. 4) Owner-on-the-tools: \"Late on a Friday night, I called Kevin... He came out within an hour\" (site testimonial, 2021). No reachability complaints were found in the reviews visible to this worker. (Removed the earlier 'Contact Us 404' signal: the nav link goes to /contact-us, which loads fine.)",
+    "call_angle": "Missed-call and emergency angle for a hands-on owner-operator. The site tells homeowners with sparking outlets or burning smells to \"call immediately\", and everything goes to one line that Kevin seems to answer himself; the GBP even says \"Open 24 hours\". Offer a free demo line built from his own site that answers when he is on a ladder, triages the emergency, and books generator and panel estimates. Ask the qualify question: \"Who picks up when you're mid-job or after 6?\" Do NOT mention a broken Contact Us page; it is not broken.",
+    "why_now": "The site was republished in July 2026 (Duda publication date), and the GBP is set to \"Open 24 hours\" while the site lists weekday hours. Emergency and after-hours callers are being invited to call. Hurricane season ends Nov 30; the site's own FAQ sells standby generators for storm season, so the off-season is a good window to get call handling right before next year's storm and generator demand.",
+    "notes_for_chosen": "WATCH at 47, not SEND TODAY, because the AI-search check could not be run and no direct owner channel was found. Run 3 electrician money questions for Mandeville or Covington. Call-first: the only email is info@ (Generic, found in the site's JSON-LD, Outlook MX), so no personal email slot is spent. Kevin's first name is used in reviews; a second person, \"Justin\", is named in one GBP review with an unknown role. Data hygiene item to mention gently: the GBP hours (\"Open 24 hours\") conflict with the site's Mon-Fri 9-6. Do NOT claim the Contact Us page 404s; the nav link /contact-us returns 200. The site is Duda reseller-built, so a web designer may be involved. The street address is not public (service-area business). Not completed: GHL dedupe, LA contractor license lookup, SOS entity, LinkedIn, Meta Ad Library, LSA, full review sweep, and this skeptic pass could not re-run web search (budget exhausted).",
+    "score_breakdown": "D1 8/20; D2 15/15; D3 5/15 (booking friction only; the Contact Us 404 claim was refuted and is not counted); D4 0/10 (not checked); D5 15/15; D6 3/15; D7 1/15 (modern site with SSL and 2026 copyright; the dead-link negative was removed but the positive is thin, so reduced by the prior netting of 3 to 1 pending review); TOTAL 47 = WATCH band."
+   },
+   "adjusted_score": 47,
+   "adjusted_confidence": "Medium",
+   "reason": "Identity, owner Kevin Bovia, phone, generic info@ email, non-chain status and suppression checks all hold, but the 'Contact Us page 404' pain signal and call-angle aside are wrong (nav link /contact-us returns 200; only the guessed /contact 404s), so those are removed and the score is lowered slightly."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. The hard-disqualifier pass came back clean: independent and family owned, one location, working own-domain site, live Florida business, phone plus forms, not a competitor, no AI receptionist found, and no \"no solicitation\" notice. The domain, name, both phones and the address are not in suppression.csv or seen.csv. The GHL \"E4L Services\" dedupe (ghl-contacts.js) was NOT run. Score is 52/100, which is the WATCH band and PROVISIONAL, so it is borderline.",
+  "company_name": "Key to Cool (legal name: Air Conditioning by Key to Cool, Inc.)",
+  "niche": "HVAC",
+  "niche_segment": "core",
+  "website": "https://keytocool.com",
+  "company_phone": "+1 239-309-2991",
+  "street_address": "3900 Mannix Dr STE 106",
+  "city": "Naples",
+  "state": "FL",
+  "zip": "34114",
+  "timezone": "America/New_York (Eastern)",
+  "service_area": "Naples, Bonita Springs, Estero, Marco Island and surrounding areas (keytocool.com/company; service-area pages). Trane dealer page lists ZIPs 33928, 34102-34105, 34108-34110, 34113, 34114, 34116, 34119, 34120, 34134, 34135, 34139, 34142, 34145.",
+  "locations_count": "1. locations.kml has a single placemark: 3900 Mannix Dr STE 106, Naples.",
+  "founded_or_years": "Founded June 2006 by Kevin Pastor (keytocool.com/company). BBB: business started and incorporated 6/6/2006, about 20 years in business, BBB accredited since 10/29/2007.",
+  "google_rating": "5.0 per expertise.com; 4.9 per the Trane dealer page. GBP itself not opened.",
+  "review_count": "433 Google and 12 Yelp per expertise.com; 487 Google per the Trane dealer page (a later snapshot). BBB has 1 review and 0 complaints in 3 years.",
+  "google_maps_url": "Not found. The site schema \"hasMap\" link (https://maps.app.goo.gl/3myZUsskwBpok9R67) points to an unrelated business (Clay Studios, Columbus, OH), so the site's own map link is broken.",
+  "sub_services": "AC repair, 24/7 emergency AC repair, AC installation and system replacement, heating, preventive maintenance program (2 visits a year plus 15% off service calls), indoor air quality and dehumidifiers, duct cleaning and sanitizing. Residential and commercial. Trane Comfort Specialist servicing all makes. NATE-certified techs. 0% APR financing up to 60 months through Wells Fargo.",
+  "team_size_estimate": "Not found (no headcount published). The site mentions \"comfort specialists\" plus NATE-certified \"service technicians\". BBB names 2 managers (Kevin Pastor, Sandra Fernandez).",
+  "owner_first_name": "Kevin",
+  "owner_last_name": "Pastor",
+  "owner_title": "President/Owner (BBB); Founder (keytocool.com/company)",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found",
+  "owner_email_type": "None found",
+  "owner_email_confidence": "Not found",
+  "company_email_generic": "Not found. The site has forms only, and the BBB email link is obfuscated.",
+  "owner_direct_phone": "Not found. BBB lists +1 239-272-5324 as the \"main\" company number, separate from the site line +1 239-309-2991, but nothing marks it as the owner's direct line. Fax: +1 239-304-1745.",
+  "owner_linkedin": "Not found (not checked: web search budget was used up this run)",
+  "owner_other_socials": "Company only: Facebook https://www.facebook.com/Air-Conditioning-by-KEY-TO-COOL-227356230655011/ (login wall, activity not checked) and Twitter https://twitter.com/KeytoCool_AC (not checked). No owner-personal socials found.",
+  "owner_background": "Founded Key to Cool in June 2006 and \"remains continually involved in the day-to-day operations\" (keytocool.com/company). Second decision-maker: Sandra Fernandez, Vice President (BBB). Prior career, trade background and certifications not found.",
+  "owner_personality_cues": "From company copy only, so OBSERVED rather than owner-voiced: \"family-owned and operated\", core values \"passion, honesty, quality, commitment and teamwork\", \"we believe an educated customer is the best customer\", \"100-percent customer satisfaction guarantee\", and an A+ BBB accreditation held since 2007. The site has a Spanish-speaking team (\"Hablamos Espa\u00f1ol\"). No owner quotes, review replies or press found.",
+  "best_opening_moment": "The company page promises two things: \"If your air conditioner stops working after our regular business hours, rest assured we offer 24/7 emergency AC repair services\" and \"A comfort specialist is standing by to answer your call right away\". BBB lists office hours as Mon-Fri 8:00 AM-5:00 PM. That gap is the opener: who picks up at 9 PM or on a Sunday? Also, November is the slow season before the next summer rush, so there is time to set something up.",
+  "attitude_type": "Family-Legacy Pride Brand",
+  "attitude_evidence": "Moderate evidence. Schema description: \"Local family owned and operated business since 2006... Better Business Bureau A+ rated.\" Company page: \"Kevin Pastor founded Key to Cool in June of 2006, and he remains continually involved in the day-to-day operations\", with core values \"passion, honesty, quality, commitment and teamwork\". BBB accredited since 10/29/2007. Owner review replies and social posts were not checked, so this read rests on site copy and BBB only.",
+  "tech_adoption": "basic, leaning modern. SSL, WordPress site updated Oct 2026, Gravity Forms request form with SMS opt-in, consumer financing. No online scheduler, no chat or text widget, and no review-request tool found in the homepage source.",
+  "marketing_sophistication": "Probably agency_managed, but unconfirmed. Signals: 92 city-keyword SEO blog posts (latest Oct 16, 2026), Yoast plus Yoast Local SEO, FAQPage and HVACBusiness JSON-LD, Google Tag Manager, NitroPack. No agency is credited in the footer.",
+  "growth_stage": "established (20 years, 433-487 Google reviews, one location)",
+  "review_response_behavior": "unknown (Google review replies not checked: search budget used up)",
+  "business_hours": "Sources conflict. BBB: Mon-Fri 8:00 AM-5:00 PM, no weekend hours. Site schema says \"Mo-Su 07:00-19:00\" in one block and 00:00-23:59 daily in another. The site advertises 24/7 emergency repair \"after our regular business hours\". GBP hours not verified.",
+  "best_time_to_call": "Tue-Thu 8:15-9:30 AM ET, after the office opens at 8 per BBB and probably before techs are out on calls (an inference). Backup: 4:00-4:45 PM ET, before the BBB-listed 5 PM close. Avoid Mondays (weekend emergency backlog) and Fridays.",
+  "call_opener": "\"Hi, is this Kevin? Kevin, this is Sam with Eat For Life Marketing. I'll be upfront, this is a cold call. Can I have 20 seconds to tell you why I called, and you tell me if it's worth a conversation? ... Your site says a comfort specialist is standing by and you do 24/7 emergency AC repair, but your office hours are 8 to 5. So when a homeowner in Naples calls at 9 at night with no AC, who picks up? We build an AI receptionist trained on Key to Cool's own website that answers those calls, books them, and texts back anything that gets missed. We'll even set up a demo line you can call before you spend a dime. Worth 20 minutes with our founder Sebastian to see it?\"",
+  "gatekeeper_notes": "The site says \"a comfort specialist is standing by to answer your call\", so expect a CSR or office staff member, not Kevin. No office manager or dispatcher is named publicly. The second decision-maker is Sandra Fernandez, Vice President (BBB), worth asking for if Kevin is out. Two lines: the site and Trane line +1 239-309-2991, and the BBB \"main\" line +1 239-272-5324. Dial 309-2991 first, try 272-5324 if it doesn't get through, and log who answers each. The team speaks Spanish. Ask for \"Kevin Pastor, the owner\" by full name. If screened, say it's about how after-hours emergency calls get answered and ask when Kevin is usually in the office. Sam should note whether a person, an answering service or voicemail answers. That also confirms the D2 gap.",
+  "after_hours_handling": "Not verified. The site claims 24/7 emergency AC repair \"after our regular business hours\" and \"A comfort specialist is standing by to answer your call right away\" (keytocool.com/company). Who answers after hours (on-call tech, answering service, or voicemail) is not stated. The homepage source has no answering-service or AI-voice vendor. Sam should confirm on the call.",
+  "online_booking": "No. /schedule-appointment is a request form (preferred day Mon-Fri, desired time including \"Emergency / ASAP\") with \"Appointment dates and times are subject to availability\" and no response-time promise. No scheduler vendor in the source (checked calendly, servicetitan, housecallpro, jobber, acuity).",
+  "chat_or_text_on_site": "None. No chat or text widget in the homepage source (checked podium, birdeye, tidio, intercom, drift, tawk, livechat). The forms only have an SMS marketing opt-in checkbox.",
+  "vendors_detected": "WordPress (picostrap5 child theme, LiveCanvas blocks), NitroPack (speed), Yoast SEO plus Yoast Local SEO (wpseo-local), Gravity Forms, Complianz (cookie consent), Google Tag Manager GTM-MXQZ8FF, Wells Fargo financing, Trane Comfort Specialist dealer program, BBB Accredited. No CallRail or call tracking, no Meta pixel, and no agency footer credit found in the homepage source.",
+  "ads_running": "Not checked (search budget used up). Google Ads Sponsored unit, LSA badge and Meta Ad Library not checked. The homepage has GTM but no Meta pixel or call-tracking script.",
+  "ai_search_presence": "not checked: web search budget used up, and no AI platform was queried. The site has FAQPage and HVACBusiness JSON-LD schema. Competitors named on the expertise.com Naples HVAC list (not an AI answer): Severyn Cool Services, Conditioned Air, Jones Air Conditioning and Electric, JP Brett & Sons, AMA Air Conditioning, Comfort Cool, Cool Zone.",
+  "pain_signals": "Two items, none of them review complaints. (1) Hours gap: the company page says \"If your air conditioner stops working after our regular business hours, rest assured we offer 24/7 emergency AC repair services\" and \"A comfort specialist is standing by to answer your call right away\", while BBB lists hours as Mon-Fri 8:00 AM-5:00 PM with no weekend hours. (2) Booking friction: the schedule page is a request form only, \"Appointment dates and times are subject to availability\", with no response-time promise, no chat or text widget, and no online scheduler. Review complaint text was not checked. BBB shows 0 complaints in 3 years.",
+  "trigger_events": "No dated business trigger found. Soft activity only: blog post \"Shopping for an HVAC Replacement in Estero, FL?\" dated October 16, 2026, and homepage dateModified 2026-10-14. The careers page has a general application with no front-office role listed. Seasonal context: November is SW Florida HVAC's off-peak, so this is set-up time before the summer rush (a vertical-calendar inference, not business-specific).",
+  "lead_score": 52,
+  "score_breakdown": "52 / PROVISIONAL. WATCH band (35-54). Missing: D4 (no AI check run) and the GHL dedupe (ghl-contacts.js not run). Checked 2026-11-02.\nD1 Decision-maker: 8/20. Kevin Pastor is named as founder (\"remains continually involved in the day-to-day operations\", keytocool.com/company) and as President/Owner (BBB profile). Two sources. No published email (forms only; the BBB email is obfuscated), no owner LinkedIn found, and no owner-direct line. The second number, 239-272-5324 on BBB, is a company line.\nD2 Phone/after-hours gap: 15/15. Phone-first: tel: links in the header and the meta description says \"Call for a free estimate!\". HVAC is an inherently urgent niche. Gap text: \"If your air conditioner stops working after our regular business hours, rest assured we offer 24/7 emergency AC repair services\" (company page), and BBB hours are \"Mon-Fri 8:00 AM-5:00 PM\" with no weekend. No answering-service or AI vendor in the page source. Caveat: \"A comfort specialist is standing by to answer your call right away\" could mean live 24/7 staff, so Sam must confirm. If staff answer live, D2 drops to 0.\nD3 Response leak: 5/15. One signal type, booking friction: request form only, \"subject to availability\", no response-time promise, and no scheduler, chat or text vendor in the homepage source. The careers page has no front-office role. BBB: 0 complaints. Google and Yelp review text and reply rate not checked (search budget).\nD4 AI visibility: 0/10, NO EVIDENCE. The spot-check was not run. FAQPage and HVACBusiness JSON-LD are present.\nD5 ICP fit: 15/15. Independent, family owned, 1 location (locations.kml), HVAC core niche. Proxies: in business since 6/6/2006 (BBB); 433 Google reviews (expertise.com) and 487 (Trane page); 24/7 emergency service; 0% APR Wells Fargo financing up to 60 months; 4-city service area; HVAC install ticket of $6-12k.\nD6 Buying signals: 3/15. Soft activity only: blog post Oct 16, 2026 and 92 SEO posts. GTM is present but there is no pixel or call tracking. Google Ads, LSA and Meta Ad Library not checked (search budget). No dated trigger.\nD7 Attitude/stack: 6/10. Positives: (b) modern site, \u00a9 2026, SSL, updated Oct 2026; (c) consumer financing and SMS opt-in. No incumbent agency credited and no negatives found. Review-reply tone and social recency not checked.",
+  "recommended_entry_offer": "Voice AI live demo line built from keytocool.com. Pitch it as after-hours and overflow coverage for the 24/7 emergency promise, not as a replacement for the comfort specialists, with missed-call text-back. Send the Revenue Leak Scorecard as the follow-up. GEO audit only after the AI spot-check is run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Key to Cool after 5 PM",
+  "personalized_first_line": "Kevin, your site tells Naples homeowners a comfort specialist is standing by and that Key to Cool does 24/7 emergency AC repair. With the office listed at 8 to 5 on weekdays, I was curious who picks up those 9 PM and Sunday calls.",
+  "call_angle": "Lead with the after-hours promise. Key to Cool sells 24/7 emergency repair and a \"standing by\" phone experience, but the listed office hours are 8 to 5 on weekdays. Ask the qualifying question: \"Who answers your phones after hours right now: you, an on-call tech, a service, or voicemail?\" Then offer a live demo line trained on their own site, positioned as overflow and after-hours protection for 20 years of reputation, never as a replacement for staff. Mention Spanish: the AI can greet callers in Spanish, which matches their \"Hablamos Espa\u00f1ol\" promise. Close on the Game Plan Call with Sebastian, or on an email for the demo number. No prices, no promised results.",
+  "likely_objection": "\"We already have someone answering 24/7. Our on-call tech or comfort specialist picks up.\" Answer: then the demo is a free way to compare, and the bigger value is overflow when every line is busy in July and texting back anything missed. Second likely objection: \"We get calls from marketing companies all the time.\"",
+  "why_now": "November is SW Florida's off-season for AC, so there's room to set up and test call coverage before next summer's rush. The site is being actively maintained (new post Oct 16, 2026; homepage updated Oct 14, 2026), so the owner is investing in inbound now.",
+  "notes_for_chosen": "Borderline. 52/100, PROVISIONAL and WATCH because this run's web search budget was used up, so these were not checked: Google review text and reply rate, LinkedIn, Sunbiz officers, Indeed jobs, Google Ads/LSA/Meta ads, and the AI search spot-check. The GHL dedupe was also not run. The candidate's pre-score of 66 does not hold up on evidence yet. The facts that do hold up: Kevin Pastor is President/Owner (BBB) and the founder still running day-to-day (site). Sandra Fernandez is VP (BBB). Two phones: 239-309-2991 (site) and 239-272-5324 (BBB \"main\"). No email is published anywhere, so this is call-first (Sam), not email-first. Strongest hook: the 24/7 and \"standing by\" promise against BBB's Mon-Fri 8-5 hours. If Sam learns after-hours calls go to voicemail or a message service, D2 holds and D3 rises. If live staff answer 24/7, D2 drops to 0 and this becomes a GEO-only conversation. Family-legacy tone: personal, slightly formal, respect the 20 years. Small finding to keep in your pocket: the site's own Google Maps link in its schema points to a pottery studio in Columbus, OH. Worth a re-run of D3, D4 and D6 before promoting.",
+  "evidence_links": "https://keytocool.com/company, https://www.bbb.org/us/fl/naples/profile/air-conditioning-contractor/air-conditioning-by-key-to-cool-inc-0653-90039442, https://keytocool.com/, https://keytocool.com/schedule-appointment, https://www.expertise.com/fl/naples/hvac, https://www.trane.com/residential/en/dealers/air-conditioning-by-key-to-cool-naples-fl.html, https://keytocool.com/company/careers, https://keytocool.com/locations.kml, https://keytocool.com/post-sitemap.xml, https://maps.app.goo.gl/3myZUsskwBpok9R67",
+  "research_confidence": "Medium",
+  "_target": "hvac-fortmyers",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Kevin Pastor founded Key to Cool in June 2006 and stays involved day to day",
+     "result": "confirmed",
+     "note": "keytocool.com/company says he founded it in June 2006 and \"remains continually involved in the day-to-day operations\". The page gives no title."
+    },
+    {
+     "claim": "Kevin Pastor is President/Owner and Sandra Fernandez is Vice President",
+     "result": "confirmed",
+     "note": "The BBB profile lists Kevin Pastor as President/Owner and Sandra Fernandez as Vice President."
+    },
+    {
+     "claim": "Company phone +1 239-309-2991 is the site line, and BBB lists 239-272-5324 as the main line",
+     "result": "confirmed",
+     "note": "The homepage and company page show (239) 309-2991. BBB shows Main (239) 272-5324, Other (239) 309-2991, fax (239) 304-1745."
+    },
+    {
+     "claim": "No owner email or generic company email is published",
+     "result": "confirmed",
+     "note": "The homepage and company page have forms only. BBB has an obfuscated email link. The homepage source contains no email address. The \"Not found\" values are correct."
+    },
+    {
+     "claim": "The strongest pain signal is a gap between the 24/7 emergency promise and 8-5 hours",
+     "result": "contradicted",
+     "note": "The 24/7 emergency and \"comfort specialist is standing by\" quotes are real. The company-page fetch listed no business hours. The homepage says \"We are available 24/7\" and \"24/7 emergency services, including holidays\". The homepage schema says daily 07:00-19:00 plus 00:00-23:59. The only 8-5 source is BBB, a third-party listing, so the gap is speculative. The lead never mentions the homepage \"available 24/7\" line."
+    },
+    {
+     "claim": "Independent, single location, not a chain or franchise",
+     "result": "confirmed",
+     "note": "One address (3900 Mannix Dr STE 106). Neither the homepage nor the company page mentions franchising, and the homepage source has no \"franchis\" string. The Trane Comfort Specialist designation is a dealer program, not a franchise."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grepped both files for keytocool, key to cool, both phone numbers and pastor. The only hit was Monarch Valley Dental (drpastorek), which is unrelated. The other Naples rows are roofers."
+    },
+    {
+     "claim": "No online booking and no chat or text widget",
+     "result": "confirmed",
+     "note": "The homepage fetch shows a schedule-appointment request link, a contact form with an SMS opt-in checkbox, and no chat widget."
+    },
+    {
+     "claim": "Owner LinkedIn, review text, and ads data",
+     "result": "could-not-open",
+     "note": "The web search budget is used up, so none of these could be re-checked. The lead already marks them not checked. The lead also tags target hvac-fortmyers, but Key to Cool is in Naples."
+    }
+   ],
+   "corrected_fields": {
+    "pain_signals": "Weak and unverified. The company page promises \"24/7 emergency AC repair\" and \"a comfort specialist is standing by\". The homepage also says \"We are available 24/7\" and \"24/7 emergency services, including holidays\", and its schema lists daily 07:00-19:00. The only 8-5 weekday hours are on the third-party BBB listing, so an after-hours gap is a hypothesis, not a finding. Booking friction is real: the schedule page is a request form, with no chat, text widget or scheduler. Sam must ask who answers after hours.",
+    "best_opening_moment": "Open with a question, not a claim of a gap. The site says \"We are available 24/7\" and \"a comfort specialist is standing by\". Ask who answers a 9 PM call. BBB lists weekday 8-5 hours, but the site publishes no hours, so do not tell Kevin his hours are 8-5."
+   },
+   "adjusted_score": 45,
+   "adjusted_confidence": "Medium",
+   "reason": "Identity, owner name and title, phones, single-location status and the not-found email all check out and the lead is not suppressed. The headline hours-gap pain signal is weaker than stated, because the homepage claims 24/7 availability and 8-5 comes only from BBB. Score lowered from 52 to 45, and the lead should be treated as a watch-list call-first lead."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passes every hard disqualifier: independent and owned by two individuals, not a franchise; working own-domain site (copyright 2026); live US business with reviews from 3 days ago; phone-first; no AI receptionist found; no match in suppression.csv or seen.csv by domain, name, phone (926-4842) or owner surnames. Band is WATCH (45). GHL dedupe through ghl-contacts.js was not run from this session.",
+  "company_name": "Ray Page Plumbing, Inc.",
+  "niche": "Plumbing",
+  "niche_segment": "core",
+  "website": "https://www.raypageplumbing.com",
+  "street_address": "8 Gerber Blvd Unit #2",
+  "city": "Vernon",
+  "state": "CT",
+  "zip": "06066",
+  "timezone": "America/New_York (Eastern)",
+  "company_phone": "+1 860-926-4842",
+  "company_email_generic": "Info@raypageplumbing.com",
+  "google_maps_url": "Not found (the site links to a maps.app.goo.gl address link, but Google Business Profile could not be opened from this session)",
+  "google_rating": "4.9 (from the Google review widget on raypageplumbing.com; not verified directly on the Google Business Profile)",
+  "review_count": "996 Google reviews per the site's review widget (site copy also says \"560+ 5-Star Reviews\"); Angi about 71 per the scout (Angi page returned 403, not re-verified)",
+  "founded_or_years": "\"Since 2007\" (homepage and job posts). The site's other figures conflict: \"24+ years of proven expertise\" and \"60+ Years of Experience\". Founder Ray Page is a second-generation master plumber. Acquired in 2024 by Coleen Faircloth and Andrew Roussey.",
+  "locations_count": "1 (Vernon, CT shop)",
+  "service_area": "North Central / Northern Connecticut (site award section and job posts); reviews mention Ellington. Exact town list not captured.",
+  "sub_services": "Residential and commercial plumbing, maintenance, pipe repair, water heater repair and maintenance, water treatment, well services and repair (WEC license), sewer line repair, sewer ejector pump repair and installation, drain cleaning (rooting and jetting), toilets, tub and shower, fixtures, garbage disposals. GreenSky financing (Synovus Bank).",
+  "team_size_estimate": "About 10-20 (inference). The About page has 14 team photo slots, but every caption is a placeholder \"Jonathan Adams\". Reviews name about 12 field techs (Cole, Nate, Daniel, Alex, Luke, Eddie, Everett, Josh, Scott, David, Corey) plus Rebecca on scheduling/dispatch and a front desk/receptionist. Exact headcount not found.",
+  "owner_first_name": "Andrew",
+  "owner_last_name": "Roussey",
+  "owner_title": "Co-Owner (licensed plumber; previously general manager for 7+ years). Co-owner: Coleen Faircloth (previously operations manager for 10+ years).",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found (no personal owner email published; only the generic Info@raypageplumbing.com, which is on the site and the domain has Google Workspace MX)",
+  "owner_email_type": "Generic (info@/office@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found (the search budget ran out before a LinkedIn check could run)",
+  "owner_other_socials": "Company only: facebook.com/raypageplumbinginc, instagram.com/raypageplumbinginc, youtube.com/@raypageplumbinginc5061. No owner-personal accounts found. Facebook showed only a login wall.",
+  "owner_background": "From the About page: Coleen Faircloth and Andrew Roussey bought the business in 2024 from founder Ray Page. The page calls this \"a new era of growth & innovation.\" Coleen was operations manager for over 10 years before buying in, and Andrew, a licensed plumber, was general manager for over 7 years. Both are long-time insiders who became owners, not outside buyers. A review from about 2 months ago gives \"a shout out to Andrew (the owner)\", which suggests he is visible to customers. Nothing found on what either owner has said publicly about marketing, phones, or AI.",
+  "owner_personality_cues": "Observed from site and review copy only: \"No job is too small for us! We are a repair company that is here when you need us.\" They emphasize honesty: they say they do not sell customers things they do not need, offer free quotes (\"We do Quotes, no estimates!\") and a one-year warranty. Ops-heavy owners (former GM and former ops manager) who run on ServiceTitan, text updates and ETA trackers. Expect them to judge any tool by whether it fits dispatch, not by marketing talk.",
+  "best_opening_moment": "The 2026 award (\"voted Best Plumbing Service in North Central News' 2026 Readers Poll\") plus the Sunday-to-Monday callback gap. A review says a customer who reached them on a Sunday afternoon \"assumed I would have to call back the next day, but I received a call from Rebecca at 7:15am.\" Praise them for the 7:15 callback, then ask what happens to the Sunday-night sewer backup caller who does not wait until 7:15.",
+  "attitude_type": "Growth-Minded Operator",
+  "attitude_evidence": "The About page says the 2024 acquisition is \"ushering in a new era of growth & innovation\". They are hiring production roles: a Workhands Plumbing Apprentice post open Aug 30 to Nov 30 2026, a Career.com Drain Technician post from 4/9/2026, and a Journeyman post. Review velocity is high (996 Google reviews on the site widget, newest 3 days old). They won Best Plumbing Service in North Central News' 2026 Readers Poll. They invest in ops tech: ServiceTitan (\"Daily use in Service Titan\"), text-us, technician photo and ETA tracker texts, GreenSky financing. They are not overwhelmed: reviews praise the office and fast dispatch, so lead with growth and capture, not relief.",
+  "tech_adoption": "modern. ServiceTitan per job posts; \"Call, email, text to schedule now! 860-926-4842\"; texts with technician photo and ETA tracker per a review; GreenSky financing; review widget on site. No online self-booking widget was confirmed.",
+  "marketing_sophistication": "diy-to-agency (unclear). WordPress (Avada theme) site with a review widget and an award banner; no agency footer credit found. Page source could not be read (Cloudflare blocked it), so pixels, call tracking and agency platform were not verified.",
+  "growth_stage": "scaling. Established since 2007, under new ownership since 2024, hiring several tech roles in 2026, strong review velocity.",
+  "review_response_behavior": "unknown. The Google Business Profile could not be opened, so owner reply rate and tone were not checked.",
+  "business_hours": "Not found on the site, the Contact page or the Schedule Now page, and the Google Business Profile was not reachable. Job posts give the crew shift: \"7:30am - 3:30pm, Monday to Friday, some overtime required, never weekends.\" Reviews show the office makes calls by 7:15 AM and that someone picked up on a Sunday afternoon. Weekend coverage is unclear: it may be an answering service or on-call staff.",
+  "after_hours_handling": "Partial and unconfirmed. The site has no 24/7, emergency or after-hours claim; its CTAs are \"SCHEDULE NOW!\" and \"Have a Questions? Call Today!\" One review (Melissa Duenas-Witter, about 1 month ago, on the homepage widget) says \"I spoke with someone on a Sunday afternoon... I had made an assumption I would have to call back the next day, but I received a call from Rebecca at 7:15am.\" So a Sunday call was answered or logged and returned next morning, not booked live. Another review (LZ / Linda Zizzamia, about 2 months ago): \"We contacted Ray Page Plumbing on a Sunday evening to address a sewer line that needed cleaning.\" Who answers off-hours (owner, on-call tech, or an answering service) is not confirmed. Crews never work weekends by policy.",
+  "online_booking": "No self-serve scheduler confirmed. /schedule-now/ is a \"request a Free estimate\" form (\"A member of our team will reach out to schedule your estimate\"). The contact form promises a reply \"as soon as possible\". ServiceTitan is used internally, but no ServiceTitan booking widget was seen in the extracted page text (page source was blocked).",
+  "chat_or_text_on_site": "Text-us on the main line: \"Call, email, text to schedule now! 860-926-4842\" (homepage). The Contact page lists the same number under \"Text us\". No live chat widget seen in the extracted text.",
+  "vendors_detected": "ServiceTitan (job posts: \"Utilize ServiceTitan daily for work orders, customer information, scheduling, documentation, and job tracking\"); GreenSky consumer financing (Synovus Bank); Prevue APS hiring portal (raypageinc.prevueaps.com); WordPress site. Raw page source was blocked by Cloudflare, so analytics, call-tracking and chat scripts were not verified.",
+  "ads_running": "Not checked. The web search budget ran out, so the Google Ads, LSA and Meta Ad Library checks were not run. An Angi listing exists (about 71 reviews per the scout; the page returned 403 here).",
+  "ai_search_presence": "not checked. Web search and AI-assistant checks were unavailable in this session (the search budget ran out). Schema could not be checked because page source was blocked by Cloudflare.",
+  "pain_signals": "Weak on public pain. No complaints about phones or responsiveness found in the review widget; reviews praise the office (\"The staff at the office are warm and inviting\"; \"Rebecca was great to work with in scheduling\") and speed (\"Someone was at my house in less than 2 hours\"). The real gap is structural:\n(1) Off-hours calls get a next-morning callback, not a live booking: \"I had made an assumption I would have to call back the next day, but I received a call from Rebecca at 7:15am\" (Sunday call).\n(2) Crews are \"never weekends\" per job posts, yet the company sells urgent work (sewer line, ejector pumps, water heaters, wells).\n(3) There is no 24/7 or emergency language anywhere on the site.\n(4) Price pushback in reviews (\"$3200 pricetag\" for a water heater; \"Averaged $350/hr... Stay away!!!!!\") means callers compare quotes, so speed to answer matters.",
+  "trigger_events": "Ownership change: acquired by Coleen Faircloth and Andrew Roussey in 2024, which is more than 180 days ago (About page). Award: \"voted Best Plumbing Service in North Central News' 2026 Readers Poll\" (homepage; exact date not found). Hiring: Plumbing Apprentice on Workhands, posted Aug 30 2026 and open to Nov 30 2026; Drain Technician on Career.com, posted 4/9/2026 and closed 5/16/2026; Journeyman Service Plumber on CareerBuilder (403, date not verified). No CSR, dispatcher or receptionist post found. Seasonal: November in Connecticut brings the frozen and burst pipe season.",
+  "lead_score": 45,
+  "score_breakdown": "D1 Decision-maker: 8/20. Both owners named with roles on the About page (\"acquired by Coleen Faircloth and Andrew Roussey\"; Owner titles). A review corroborates \"Andrew (the owner)\". Contact is only the generic Info@ (Google Workspace MX) plus a staffed main line. No owner LinkedIn, direct email or cell found.\nD2 Phone gap: 9/20... corrected: 9/15. Phone-first: number in the header, \"Call Today\", \"text to schedule\". Plumbing is inherently urgent. No 24/7 claim on site. A review shows a Sunday call was answered by someone but returned next day at 7:15am, so off-hours coverage exists but is not confirmed live booking.\nD3 Leak evidence: 0/15. Logged null. Checked the review widget on the homepage, job posts (Workhands, Career.com) and the Contact and Schedule pages. No responsiveness complaints; reviews actively praise the office and dispatch. No CSR, dispatcher or receptionist post. A text-us option exists. Google Business Profile reply rate was not checkable.\nD4 GEO: 0/10. NO EVIDENCE. No AI platform could be checked (search budget used up) and page source was blocked.\nD5 ICP fit: 15/15. Independent, 1 location, owners named; core plumbing niche. Proxies: since 2007; 996 Google reviews at 4.9 (site widget), newest 3 days old; about 12 techs named in reviews plus a dispatcher; GreenSky financing; water heater, sewer and well tickets.\nD6 Buying signals: 3/15. Only soft activity: steady review inflow and a 2026 Readers Poll award (undated). The 2024 ownership change is older than 180 days. Tech hiring posts are not office roles. Google Ads, LSA and Meta checks were not run (no search budget), so no spend is confirmed.\nD7 Attitude/stack: 10/10. Positives: modern site with 2026 copyright; tech adoption (ServiceTitan, text-us, ETA-tracker texts, GreenSky); growth posture (\"new era of growth & innovation\", hiring, 2026 award). No hostile signals found. ServiceTitan coexists with E4L. No bundled agency found.\nTOTAL 45, band WATCH. Six of seven dimensions have evidence; D4 is missing. GHL dedupe not run here, so treat the score as PROVISIONAL until that is done. The blocker is D3/D6: no quotable leak and no confirmed ad spend.",
+  "recommended_entry_offer": "Voice AI live demo built from raypageplumbing.com, framed as after-hours and weekend capture rather than fixing a broken office. Lead with the Sunday-night sewer or burst-pipe caller the 7:15 AM callback cannot catch. Secondary hook: the free GEO audit once the AI check is run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Sunday night calls at Ray Page",
+  "personalized_first_line": "Coleen and Andrew, congrats on Best Plumbing Service in North Central News' 2026 Readers Poll. One of your reviewers called on a Sunday, expected to chase you Monday, and got a call from Rebecca at 7:15 AM. That's a well-run office.",
+  "call_angle": "Lead with growth, not relief. The office is clearly good: Rebecca, ServiceTitan, ETA texts, a 2026 award. Crews are \"never weekends\" and the site makes no after-hours promise, so the money question is what happens between 3:30 PM Friday and 7:15 AM Monday when a sewer line or ejector pump backs up. Offer a demo line trained on their own site that answers those calls live, gets name, address and urgency, and books into their next morning, so Rebecca starts Monday with booked jobs instead of callbacks. Position it as backing up the office, never replacing staff. Qualifier: \"Who answers 860-926-4842 at 9 PM on a Saturday right now: you, a service, or voicemail?\"",
+  "likely_objection": "\"We already have that covered: our office calls everyone back first thing, and our reviews prove it.\" Response: agree, the reviews show it. The question is the caller with water on the floor who won't wait until 7:15 and calls the next plumber on Google. The demo costs them nothing to hear. A second possible objection is \"we run everything through ServiceTitan.\" Answer it by framing the agent as a front door that hands clean job details to their existing process.",
+  "why_now": "November starts Connecticut's frozen and burst pipe season, which is exactly when the weekend and overnight emergency calls spike for a crew that is \"never weekends\". The owners describe the 2024 acquisition as \"a new era of growth & innovation\", and they are still hiring techs through Nov 30 2026. The added capacity only pays off if after-hours demand gets captured.",
+  "notes_for_chosen": "WATCH band (45). Hold from the daily 10 unless slots remain; it is a better phone call than cold email. Strengths: high-volume, well-run independent shop (996 Google reviews, 4.9) with growth-minded insider-turned-owner partners. Weaknesses: no public pain (reviews praise responsiveness), no owner email (Info@ only), and no AI or ads checks (search budget ran out). Re-score after one AI money-question check and an ads/LSA check. Do not open with their reviews as a criticism, since they are proud of their office; open with the award and the after-hours scenario. Data hygiene: the About page \"Meet Our Team\" photos are all captioned \"Jonathan Adams\" (placeholder) and the years-in-business copy conflicts (2007 vs \"24+\" vs \"60+\"). That could be a soft website-refresh conversation later, not an opener. Coleen (former ops manager) likely owns the phone and office process (inference); Andrew is the licensed plumber whom customers name. Address both. No prices in any outreach.",
+  "best_time_to_call": "Tue-Thu, 9:30-11:00 AM ET. The crews start at 7:30 AM (job posts) and the office is calling customers from about 7:15 AM (review), so the dispatch rush should be over by mid-morning. Backup window 2:30-3:30 PM ET, before the 3:30 crew end-of-day. Avoid Monday mornings, when the weekend callback queue is being worked.",
+  "call_opener": "\"Hi, is this Rebecca? This is Sam with E4L. Full disclosure, it's a cold call. Is Andrew or Coleen around? ... [Owner:] Andrew, Sam with E4L, and yes, this is a cold call, so I'll be quick. Congrats on Best Plumbing Service in the North Central News poll. I was reading your reviews, and one customer called on a Sunday and got Rebecca at 7:15 Monday morning, which is great. My question is the sewer backup at 9 PM Saturday who won't wait till Monday. We build an answering line trained on your own website that picks up those calls, gets the details and books them for the morning. You can call a demo before you ever pay anything. Can I have 20 seconds to tell you how it works, and you tell me if it's worth a look?\"",
+  "gatekeeper_notes": "The main line +1 860-926-4842 doubles as the text line. Several reviews name Rebecca as the scheduler and dispatcher: \"Rebecca who did the scheduling\", \"Thank you so much Rebecca for dispatching Luke\", \"I received a call from Rebecca at 7:15am\". Reviews also mention a \"front desk\" and a \"receptionist\". Ask for Andrew Roussey or Coleen Faircloth by full name; both are co-owners on the About page. Be friendly with Rebecca and never imply the office misses calls; frame it as covering nights and weekends. No owner cell or direct line is published. Who answers off-hours (answering service, on-call or owner) is unknown; Sam should log who answers on the first call to update D2.",
+  "evidence_links": "https://www.raypageplumbing.com/about-us/, https://www.raypageplumbing.com/, https://www.raypageplumbing.com/contact-us/, https://www.raypageplumbing.com/schedule-now/, https://workhands.com/organizations/ray-page-plumbing-inc/openings/plumbing-apprentice-residential-service, https://www.career.com/job/ray-page-plumbing-inc/drain-cleaner-drain-technician/j202604091402297522676, https://www.careerbuilder.com/job-details/service-plumber-journeyman-vernon-ct--91ff09f5-d9a3-4bf7-9360-182a53ab5d2f, https://angi.com/companylist/us/ct/vernon/ray-page-plumbing-inc-reviews-1.htm, https://dns.google/resolve?name=raypageplumbing.com&type=MX",
+  "research_confidence": "Medium",
+  "_target": "plumbing-hartford",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owners Andrew Roussey and Coleen Faircloth, co-owners, acquired business in 2024",
+     "result": "confirmed",
+     "note": "About page: 'In 2024, the business was acquired by Coleen Faircloth and Andrew Roussey'; Andrew = licensed plumber and former GM 7+ years; Coleen = former ops manager 10+ years; 'Coleen & Andrew (owners)'."
+    },
+    {
+     "claim": "Company phone +1 860-926-4842 and website raypageplumbing.com, address 8 Gerber Blvd Unit #2, Vernon CT 06066",
+     "result": "confirmed",
+     "note": "Homepage and Contact page both show the same phone, text number and address."
+    },
+    {
+     "claim": "Generic email Info@raypageplumbing.com; no personal owner email or direct phone",
+     "result": "confirmed",
+     "note": "Only Info@ is published (About, Home, Contact); no owner-personal email or phone anywhere. owner_email correctly 'Not found'. The 'Confirmed' confidence tag on a generic mailbox is only about the generic address."
+    },
+    {
+     "claim": "Strongest pain signal: Sunday call answered, callback from Rebecca at 7:15am; no 24/7 claim",
+     "result": "confirmed",
+     "note": "Homepage review by Melissa Duenas-Witter says she spoke with someone Sunday afternoon and got a call from Rebecca at 7:15am. No 24/7 or emergency claim on the homepage. Workhands post confirms 7:30-3:30 Mon-Fri, 'never weekends'. This is a structural gap, not a complaint."
+    },
+    {
+     "claim": "Rating 4.9 / 996 Google reviews; 560+ 5-star reviews; 2026 Readers Poll award",
+     "result": "confirmed",
+     "note": "Homepage shows 4.9 based on 996 reviews (Google) and '560+ 5-Star Reviews'. Award text reads 'Best Plumbing Service in North Central Connecticut for 2026' in North Central News' 2026 Readers Poll; the lead's wording is a slight paraphrase."
+    },
+    {
+     "claim": "Years-in-business: since 2007, '24+ years', '60+ years'",
+     "result": "not-found-on-source",
+     "note": "'Since 2007' and '60+ Years of Experience' are on the About page. '24+' was not found (counters render as '0 +'). Minor; the lead already flags the conflict."
+    },
+    {
+     "claim": "Hiring: Workhands apprentice post Aug 30 to Nov 30 2026, ServiceTitan used daily",
+     "result": "confirmed",
+     "note": "Workhands page confirms the dates, ServiceTitan daily use and iPad, and 'never weekends'."
+    },
+    {
+     "claim": "Independent, not a chain or franchise",
+     "result": "confirmed",
+     "note": "About page calls it 'locally owned and operated'; no franchise language, one Vernon location."
+    },
+    {
+     "claim": "Not in suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Case-insensitive grep for raypage, 'ray page', roussey, faircloth, 926-4842 and 9264842 found no match in either file. A 'ray' substring hit only in unrelated rows, and no Vernon rows exist."
+    },
+    {
+     "claim": "Sunday-evening sewer review (Linda Zizzamia), Angi ~71 reviews, CareerBuilder/Career.com posts, MX records",
+     "result": "could-not-open",
+     "note": "Not re-checked within budget; web search budget is exhausted. These are supporting details, not core fields. Angi returned 403 for the researcher too."
+    }
+   ],
+   "corrected_fields": {
+    "founded_or_years": "\"Since 2007\" (About page and homepage); About page also shows \"60+ Years of Experience\". The \"24+ years\" figure was not found on the site. The counters render as \"0 +\"."
+   },
+   "adjusted_score": 45,
+   "adjusted_confidence": "Medium",
+   "reason": "Owner names, titles, phone, website, generic email, the 7:15am Sunday-callback signal and non-chain status all check out against the sources, and there is no suppression or seen match. The only correction is that the '24+ years' claim is not on the site. The score stays 45 (WATCH), and GHL dedupe is still outstanding."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Passes every hard disqualifier: independent family-owned business with one location, live own-domain site, phone-first, MN SOS assumed name Active / In Good Standing, not on suppression.csv or seen.csv (grep on name and domain returned nothing), no AI receptionist found. The total is 54/100 (TRUSTED), which is WATCH under rubric.md, one point below QUALIFIED. Hold it rather than load it unless Chosen promotes it by hand.",
+  "company_name": "Bloomington Heating & Air",
+  "niche": "HVAC (heating, air conditioning, furnace/AC repair and replacement, maintenance plans)",
+  "niche_segment": "core",
+  "website": "https://www.bloomingtonheating.com",
+  "city": "Bloomington",
+  "state": "MN",
+  "street_address": "1101 W. 80th St. (website footer + HVACBusiness JSON-LD). CONFLICT: the MN SOS assumed-name record and Checkbook list 640 W 92nd St, Bloomington, MN 55420",
+  "zip": "55420",
+  "company_phone": "+1 952-884-3552",
+  "company_email_generic": "Not found (the site has no mailto: link and no email address)",
+  "google_rating": "5.0 (site review badge and JSON-LD aggregateRating; Google Business Profile not opened directly)",
+  "review_count": "1,114 Google reviews (site badge and JSON-LD reviewCount, checked 2026-11-02); 104 Checkbook ratings, 95% superior; 7 Yelp reviews shown on MapQuest",
+  "google_maps_url": "Not found",
+  "locations_count": "1 (one address; the site has no locations page)",
+  "founded_or_years": "The site says \"family owned and operated since we started out over 37 years ago\" (roughly the late 1980s; no year is stated). The MN SOS assumed name \"Bloomington Heating and Air Conditioning\" (File 2054250-4) was filed 10/26/2006. That is the date of the filing, not the founding.",
+  "team_size_estimate": "Not found. Reviews name at least 5 staff (Kade, Jaden, Cody, Cory, Scott). The site says there is a receptionist, and 1,114 reviews suggest a multi-truck crew.",
+  "service_area": "Bloomington plus Apple Valley, Burnsville, Eagan, Eden Prairie, Edina, Excelsior, Golden Valley, Lakeville, Minnetonka, Prior Lake, Richfield, St. Louis Park and Wayzata (footer: \"we service Bloomington, MN and the surrounding communities 24/7\")",
+  "sub_services": "Furnace and AC repair, replacement and installation, maintenance (Comfort Savings Plan), 24/7 emergency service, HVAC financing, rebates. Footer licenses: Bloomington Mechanical License #LCC201600213 and Electrical License #EA748806. MapQuest also lists the business under plumbing contractors.",
+  "owner_first_name": "Scott",
+  "owner_last_name": "Newgaard",
+  "owner_title": "Owner. This title is LIKELY, not confirmed. The business's own FAQ page quotes a customer: \"A BIG Thank You to Scott Newgaard and Bloomington Heating & Air for keeping me warm.\" That confirms the spelling \"Newgaard\" but gives no title. The owner title comes from BuildZoom (via the scout; returned 403 to me) and from a Checkbook customer review the scout quoted (\"Scott Newgard the owner\"), which I could not see in the page I fetched. MN SOS assumed-name details do not show the holder without logging in.",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "Not found",
+  "owner_email_type": "None found",
+  "owner_email_confidence": "Not found",
+  "owner_direct_phone": "Not found",
+  "owner_linkedin": "Not found (web search budget was used up this run, so the LinkedIn X-ray was not run)",
+  "owner_other_socials": "Business Facebook: https://www.facebook.com/bloomingtonheating/ (JSON-LD sameAs; not opened). No personal owner socials found.",
+  "owner_background": "Not found. The only public cue is hands-on involvement: an Oct 2026 Google review on the site says \"the technician and the owner stepped up and insured that I was taken care of,\" and an Oct 21 2026 review says \"I couldn't be more pleased with Cory and Scott.\"",
+  "owner_personality_cues": "From the website copy only: \"Family-owned for over 37 years,\" \"We have remained a locally owned small business,\" and on the careers page, \"a company that treats you like family.\" A recent customer says the owner stepped in personally when a job went wrong. No owner-voiced posts or review replies were found.",
+  "attitude_type": "Unclear (leans Family-Legacy Pride Brand, with tech-forward operations)",
+  "attitude_evidence": "Every signal comes from one source category (the website), so the 3-signals / 2-categories rule is not met. (1) Homepage: \"Family-owned for over 37 years, we've built a reputation for excellence in Bloomington.\" (2) About: \"We have remained a locally owned small business.\" (3) Careers: \"Come work for our family-owned and operated business ... a company that treats you like family.\" (4) The page source shows a modern stack: ServiceTitan Scheduling Engine (embed.scheduler.servicetitan.com), ServiceTitan text2chat (static.servicetitan.com/text2chat/shim.js), CallRail number swap (cdn.calltrk.com), Google tag, and a footer dated \u00a92026. Google review replies and social posts could not be read.",
+  "tech_adoption": "High. ServiceTitan online scheduler, ServiceTitan text2chat (website chat/text), CallRail call tracking with dynamic number swap, Google tag, consumer financing page, and a modern Next.js site with FAQPage and HVACBusiness JSON-LD.",
+  "marketing_sophistication": "Medium-high. Call tracking with dynamic number insertion (usually used for paid-traffic attribution), schema markup, a review-feed widget showing 1,114 Google reviews, and city service-area pages. No agency credit found in the footer, and no Scorpion/Hibu/Thryv scripts.",
+  "growth_stage": "Established and growing. 37+ years in business, actively hiring (footer \"WE'RE HIRING\" and an open application form with no role named), reviews still coming in (several dated Oct 2026).",
+  "review_response_behavior": "unknown (the Google Business Profile could not be opened; no owner replies seen on Checkbook or MapQuest/Yelp)",
+  "after_hours_handling": "The site advertises \"OPEN 24/7\" and a \"24/7 Emergency Phone Line\". JSON-LD hours are 00:00-23:59, Monday-Sunday. Who answers after hours (staff, answering service or on-call tech) is not stated. One old Yelp review (Adam B., 2020-06-17) says: \"Called on a Saturday to have a technician come look at my central air system. Receptionist said I would receive a call on Monday.\"",
+  "online_booking": "Yes. The ServiceTitan Scheduling Engine is embedded (scheduler-v1.js, schedulerid sched_e5hqms86cc3yiquvc1ethybx). The \"Book Online\" buttons use href=\"#\" but carry the se-widget-button st-scheduler-button classes, so they open the ServiceTitan widget through JavaScript. The scout's \"dead links\" read is almost certainly wrong.",
+  "chat_or_text_on_site": "Yes. ServiceTitan text2chat (static.servicetitan.com/text2chat/shim.js) is loaded on the site.",
+  "vendors_detected": "ServiceTitan (FSM, Scheduling Engine, text2chat); CallRail (cdn.calltrk.com swap.js, company 879949877); Google tag/gtag (googletagmanager); Next.js site, still serving legacy /wp-content/ uploads. No AI receptionist, answering service or bundled vertical agency found in the page source.",
+  "ads_running": "Partly evidenced. CallRail dynamic number swap plus gtag usually means tracked paid or organic traffic. The Google Ads sponsored-result check, the LSA check and the Meta Ad Library check were NOT run (the web search budget was used up).",
+  "ai_search_presence": "not checked (no web search budget, and no logged-out access to ChatGPT, Perplexity or Gemini this run). The site already has FAQPage and HVACBusiness JSON-LD schema, which weakens the GEO pitch.",
+  "pain_signals": "Weak. (1) Yelp review via MapQuest, Adam B., 2020-06-17, 1 star: \"Called on a Saturday to have a technician come look at my central air system. Receptionist said I would receive a call on Monday. I said 'really? Because I got that same song and dance from...'\" The scout dated this Aug 2022, but the JSON-LD says 2020-06-17, which is more than 18 months old. (2) Yelp via MapQuest, Paul J., about 4 years ago: a tech said a unit was too old for parts (not about response). (3) The careers page has an open \"Position Interested In\" application with no receptionist or dispatcher role named. Recent reviews praise the phone handling instead: \"The person on the phone was very helpful and scheduled an appointment a couple days away\" (MapQuest top review). No current review complaints about calls or callbacks were found.",
+  "trigger_events": "(1) The Minnesota heating season is starting now (Nov 2026) and the site sells furnace repair, replacement and 24/7 emergency service. (2) The site footer and careers page say \"WE'RE HIRING\" (undated, role not named). (3) Reviews keep coming in (Oct 21, Oct 31, 2026). No dated job post, ownership change, new location or press found. The assumed name renewal is due 12/31/2026 (administrative only).",
+  "lead_score": 54,
+  "score_breakdown": "D1 Decision-maker: 8/20 \u2014 the full name \"Scott Newgaard\" appears on the business's own FAQ page (customer quote, no title). The owner role rests on third-party claims (BuildZoom via the scout, 403 to me; a Checkbook review via the scout, not visible to me). No email or direct line; the main line +1 952-884-3552 is staffed by a receptionist. Call-first. | D2 Phone/after-hours gap: 9/15 \u2014 phone-first (header \"Call (952) 884-3552\", \"OPEN 24/7\") in an inherently urgent niche, but the site claims a \"24/7 Emergency Phone Line\" and nothing confirms who answers it, so the 15-point gap proof is not met. | D3 Lead-response leak: 5/15 \u2014 the only responsiveness complaint (Yelp, 2020-06-17, the Saturday \"call on Monday\" quote) is more than 18 months old. Booking friction is absent (ServiceTitan scheduler and text2chat are present). The careers form names no receptionist or dispatcher role. | D4 AI search gap: 0/10 \u2014 NO EVIDENCE; the AI spot-check was not run. FAQPage and HVACBusiness JSON-LD are already on the site. | D5 ICP fit: 15/15 \u2014 family-owned, one location, core HVAC niche. Proxies: 37+ years (site) and SOS assumed name since 2006; 1,114 Google reviews with reviews dated Oct 2026; financing page; 13-city service area plus 24/7 service; 5+ named staff. | D6 Buying signals: 7/15 \u2014 one paid-media-type signal (CallRail dynamic number swap, cdn.calltrk.com swap.js) and no dated business-specific trigger. The heating-season peak is inferred from the vertical calendar. Not checked: Google Ads, LSA, Meta Ad Library. | D7 Attitude/stack: 10/10 \u2014 modern site (\u00a92026, Next.js, schema); tech already adopted (ServiceTitan scheduling and chat, CallRail, financing); growth posture (hiring). No hostile signals and no bundled agency credited. Caveat: ServiceTitan text2chat overlaps E4L's text-back offer. | TOTAL 54 \u2014 TRUSTED (6 of 7 dimensions evidenced, D1 positive, direct D2/D3 evidence, D5 evidenced) \u2014 band WATCH (blocker: D3 weak/old leak plus D4 unchecked). Re-score once the GEO check runs, or if a recent phone or callback complaint or a CSR/dispatcher job post appears.",
+  "recommended_entry_offer": "Voice AI live demo (a demo line built from bloomingtonheating.com), framed as overflow and after-hours coverage for heating-season call spikes. The 24/7 line and the ServiceTitan booking/chat already exist, so pitch it as backup for the phone, not a replacement. Secondary: the free AI visibility audit once the GEO check is run.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "your 24/7 line in January",
+  "personalized_first_line": "Your site promises a 24/7 emergency line and 37 years of family ownership, and with 1,114 five-star Google reviews behind you, that promise gets tested hardest on the first sub-zero night in Bloomington.",
+  "call_angle": "Overflow and after-hours backup for the advertised 24/7 line during furnace season, not a replacement. They already run ServiceTitan booking and chat, so the hook is: when every line is lit up on a no-heat night, or the receptionist is off, the caller hears a voice trained on Bloomington Heating's own site that takes the details and books the visit instead of hanging up and calling the next company. Proof lever: a demo line built from their website that Scott can call himself. Qualify with: \"Who actually answers that 24/7 line at 2am right now \u2014 a tech on call, a service, or voicemail?\"",
+  "likely_objection": "\"We're already 24/7, our office answers, and ServiceTitan handles booking and texts.\" Reply: keep all of that. This only picks up the calls that roll over when the lines are full or nobody is at the desk, and the demo line lets him hear it before deciding anything. Possible second objection: busy season, no time now. Reply: the demo takes nothing from him except a call to a number.",
+  "why_now": "The Twin Cities heating season is starting (early November 2026). No-heat calls are emergencies and peak on the first cold snaps, and the business advertises a 24/7 emergency line and is hiring. Any rolled-over or deferred call in January goes to the next HVAC name on Google. The one public complaint (a Saturday caller told to wait until Monday) is exactly that scenario, though it dates from 2020.",
+  "notes_for_chosen": "WATCH band (54, TRUSTED). Hold unless you want to promote it by hand; it is a strong-fit business with a thin leak signal. Corrections to the scout: (1) the \"Book Online\" buttons are not dead; they are ServiceTitan Scheduling Engine hooks, and ServiceTitan text2chat is also on the site; (2) the Saturday \"call on Monday\" Yelp review is dated 2020-06-17, not Aug 2022. The owner name \"Scott Newgaard\" is spelled that way on the business's own FAQ page, but the owner title rests on third-party sources I could not open (BuildZoom 403; the Checkbook review was not visible), so treat it as LIKELY until Sam hears it on the phone. Address conflict: the site says 1101 W 80th St; MN SOS and Checkbook say 640 W 92nd St (possibly an older or mailing address). Not checked this run because the web search budget was used up: the GEO spot-check, the Google Ads/LSA/Meta ads checks, Google review replies, LinkedIn, and job boards. Run those before re-scoring. CallRail plus a modern stack suggests someone manages their marketing, so ask Sam to find out who. No email found; this is call-first.",
+  "best_opening_moment": "The first cold snap or no-heat stretch of the season, or right after a busy weekend of emergency calls. Recent reviews show the owner personally steps in on problem jobs (\"the technician and the owner stepped up\"), so an overflow-coverage message fits his hands-on style.",
+  "business_hours": "OPEN 24/7 (site header and footer; JSON-LD openingHours Monday-Sunday 00:00-23:59; MapQuest shows open 24 hours Monday-Saturday). Office and receptionist hours are not published.",
+  "timezone": "America/Chicago (Central Time)",
+  "best_time_to_call": "Tue-Thu, 10:00-11:30 AM CT, after the morning dispatch rush and before afternoon emergencies stack up during heating season. Avoid Monday mornings and the first cold-snap days. Reason: the line is staffed by a receptionist (Yelp review and MapQuest top review), and the owner appears to be hands-on in the field. No public evidence of when the owner is at the desk, so ask the receptionist when Scott is usually in.",
+  "call_opener": "\"Hi, is this Scott? Scott, this is Sam with Eat For Life Marketing. Full disclosure, this is a cold call. Can I have 20 seconds to tell you why I called, and you tell me if it's worth another minute? ... I was on your site and saw you promise a 24/7 emergency line going into furnace season. We build an AI receptionist trained on your own website that picks up the calls that roll over when every line is busy or nobody's at the desk, gets the caller's details and books the visit, and texts back anyone who hangs up. We'll build you a demo line you can call yourself before you ever pay a dollar. Worth a 20-minute look with our founder this week?\"",
+  "gatekeeper_notes": "A receptionist or office staffer answers the main line, +1 952-884-3552 (Yelp, 2020: \"Receptionist said I would receive a call on Monday\"; MapQuest top review: \"The person on the phone was very helpful and scheduled an appointment\"). No receptionist, dispatcher or office-manager name is published, and no owner cell or direct line is posted. The number shown on the site may be swapped by CallRail, so dial 952-884-3552 as listed. To get through: ask for \"Scott Newgaard\" by full name and say it is about how they cover overflow calls on the 24/7 line, not a sales pitch for equipment. If he is in the field, ask the best time he is in the office, or whether he or someone else handles marketing (CallRail plus a modern stack suggests someone may manage it). Log who answered: a human, a service, or IVR.",
+  "evidence_links": "https://www.bloomingtonheating.com, https://www.bloomingtonheating.com/about/hvac-faqs/, https://www.bloomingtonheating.com/about/testimonials/, https://www.bloomingtonheating.com/about/career-opportunities/, https://www.bloomingtonheating.com/about-us/, https://startpage.mapquest.com/us/minnesota/bloomington-heating-air-633023791, https://mblsportal.sos.state.mn.us/Business/SearchDetails?filingGuid=29029786-8ed4-e011-a886-001ec94ffe7f, https://checkbook.org/mn/bloomington/air-conditioning-and-heating-contractors/bloomington-heating-and-air-conditioning/qr1d4, https://www.buildzoom.com/contractor/bloomington-heating-air-conditioning (403 to me; owner name per scout), https://www.facebook.com/bloomingtonheating/ (sameAs, not opened), https://embed.scheduler.servicetitan.com/scheduler-v1.js, https://static.servicetitan.com/text2chat/shim.js",
+  "research_confidence": "Medium",
+  "disqualifier_check": "PASS on all six (checked 2026-11-02). Chain/franchise: none; family-owned, 1 location, no franchise or parent language. Website: live, \u00a92026. Live US business: MN SOS assumed name File 2054250-4 is Active / In Good Standing, and reviews are dated Oct 2026. Inbound channel: phone, booking and chat all present. Competitor category: no. Already automated on both fronts: no AI receptionist detected (ServiceTitan text2chat and a human receptionist only); the AI-search front was not checked. Do-not-contact: no match for name, \"bloomingtonheating\" or \"Newgaard\" in suppression.csv or seen.csv. No anti-solicitation notice. GHL dedupe (ghl-contacts.js) was not run from this agent.",
+  "_target": "hvac-minneapolis",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Company is independent, not a chain/franchise",
+     "result": "confirmed",
+     "note": "Homepage says family owned and operated and locally owned, with no franchise or parent language. It is a Carrier factory-authorized dealer, which is not a franchise."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "I grepped both files for bloomington, bloomingtonheating, newgaard and the phone number. The only hits were Krengel Dental (Bloomington MN) and two dental practices in Bloomington, Indiana and Illinois. None is this business."
+    },
+    {
+     "claim": "Company phone +1 952-884-3552",
+     "result": "confirmed",
+     "note": "The phone matches on the homepage, the Checkbook page and the MapQuest page."
+    },
+    {
+     "claim": "Website bloomingtonheating.com is live and the footer address is 1101 W. 80th St, 55420",
+     "result": "confirmed",
+     "note": "The homepage footer and MapQuest both show 1101 W 80th St."
+    },
+    {
+     "claim": "Address conflict: Checkbook lists 640 W 92nd St",
+     "result": "confirmed",
+     "note": "Checkbook and its JSON-LD show 640 W 92nd St, 55420, so the conflict is real."
+    },
+    {
+     "claim": "Owner name Scott Newgaard",
+     "result": "confirmed",
+     "note": "The FAQ page quotes a customer: \"A BIG Thank You to Scott Newgaard and Bloomington Heating & Air for keeping me warm.\" The spelling is supported, but he is not described as the owner."
+    },
+    {
+     "claim": "Owner title is Owner (LIKELY)",
+     "result": "not-found-on-source",
+     "note": "The FAQ page gives no title. The about-us page names \"Cory and Scott\" with no roles and mentions an unnamed \"owner\" separately. MapQuest has no owner name. Checkbook does not mention Scott or the owner. BuildZoom returned 403. Nothing I could open ties Scott Newgaard to the owner role. He could be a technician."
+    },
+    {
+     "claim": "No email found",
+     "result": "confirmed",
+     "note": "I found no email or mailto link on the homepage, FAQ, about-us or Checkbook pages."
+    },
+    {
+     "claim": "Strongest pain signal: Yelp review, 'Receptionist said I would receive a call on Monday'",
+     "result": "confirmed",
+     "note": "The quote is on MapQuest from Adam B., shown as \"6 years ago\", which fits 2020. It is old and the signal is weak, as the lead already says."
+    },
+    {
+     "claim": "Checkbook: 104 ratings, 95% superior",
+     "result": "confirmed",
+     "note": "The Checkbook page shows 104 ratings and 95% superior."
+    },
+    {
+     "claim": "ServiceTitan scheduler/text2chat and CallRail present",
+     "result": "could-not-open",
+     "note": "The markdown-converted page does not show script tags, so I could not confirm or refute these. The homepage 'Book Online' buttons do link to '#'. I did not re-fetch the raw page source."
+    },
+    {
+     "claim": "1,114 Google reviews and 37+ years",
+     "result": "not-found-on-source",
+     "note": "The 37+ years is confirmed on the about page. The homepage intro also says \"over 35 years\", so the two figures conflict. I could not see the 1,114 Google review count in the converted text."
+    }
+   ],
+   "corrected_fields": {
+    "owner_title": "Not found (Scott Newgaard is named only in a customer thank-you on the FAQ page; no public page I could open states his title or that he is the owner)",
+    "owner_first_name": "Not found",
+    "owner_last_name": "Not found",
+    "owner_role_type": "Not found (unverified; the name 'Scott Newgaard' is on the FAQ page, but ownership is unconfirmed)",
+    "founded_or_years": "Site says 'over 37 years' on the about page and 'over 35 years' in the homepage intro (conflict); no founding year stated",
+    "notes_for_chosen": "Owner identity is unverified. Scott Newgaard appears only in a customer thank-you on the FAQ page, with no title. The about-us page mentions an unnamed 'owner' and separately names 'Cory and Scott' with no roles. MapQuest shows an 'Owner verified' badge and no name. Checkbook never names him. BuildZoom was blocked. Confirm by asking the receptionist who owns the business. No email, call-first. The Yelp 'call on Monday' complaint is about 6 years old."
+   },
+   "adjusted_score": 49,
+   "adjusted_confidence": "Medium",
+   "reason": "The company, phone, address, non-chain status and clean suppression check all hold; the owner name and title are unsupported on any page I could open (Scott Newgaard is only a thanked customer-quote name), so I set them to Not found and cut D1 about 5 points, giving 49 (still WATCH)."
+  }
+ },
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Hard-disqualifier pass: PASS. Independent family business since 1982 with one location. Carrier Factory Authorized Dealer is a manufacturer dealer program, not a franchise. The website loads, the business is live (Carrier review dated 17 Jul 2026), it has a phone line, it is not a competitor, and no AI receptionist or answering service was found. No match for nutmegmechanical.com, 'Nutmeg Mechanical' or 'Wierzbicki' in suppression.csv or seen.csv. GHL 'E4L Services' dedupe was NOT run by this agent and must be done before loading. Band is WATCH (53), not SEND TODAY or QUALIFIED. See score_breakdown.",
+  "disqualifier_check": "Chain/franchise: PASS. Family owned since 1982, one Manchester address, 'founding brothers Steve and Henry Wierzbicki' (about-us). Carrier dealer status is a manufacturer program. Website: PASS. nutmegmechanical.com loads over HTTPS, though the footer says 'Copyright \u00a92015'. Live US business: PASS. BBB A+, accredited since 6/22/2011; Carrier review 17 Jul 2026. Inbound channel: PASS. Phone 860.643.2042 is in the header. Competitor category: PASS. Already automated: PASS. Page source shows no AI-voice, answering-service, booking or chat vendor. It has a HubSpot tracking script (js.hs-scripts.com/5829525.js) and an Angie's List badge script. Do-not-contact notice: none seen. Dedupe: suppression.csv and seen.csv were grepped for nutmeg / wierzbicki and nothing matched. GHL ghl-contacts.js dedupe was not run.",
+  "company_name": "Nutmeg Mechanical Services Inc",
+  "niche": "HVAC",
+  "niche_segment": "core",
+  "website": "https://www.nutmegmechanical.com",
+  "street_address": "130 Utopia Rd Ste 3",
+  "city": "Manchester",
+  "state": "CT",
+  "zip": "06042",
+  "company_phone": "+1 860-643-2042",
+  "company_email_generic": "sales@nutmegmechanical.com (labelled 'Sales General Mail Box' on the contact page)",
+  "google_maps_url": "Not found",
+  "google_rating": "Not found. Google Business Profile was not opened. Carrier dealer page: 5/5 from 11 Carrier reviews. BBB: 5/5 (customer reviews tab). A search snippet credited Birdeye with 4.8 from 177 reviews, but no source page was opened, so that figure is unverified.",
+  "review_count": "Not found on Google. Carrier: 11 reviews. BBB: 4 to 6 customer reviews.",
+  "founded_or_years": "Since 1982. BBB lists the business as started 11/1/1982 and incorporated 4/7/1988. The Carrier page says 44 years in business.",
+  "locations_count": "1 (130 Utopia Rd, Manchester, CT)",
+  "team_size_estimate": "No headcount was found. The contact page names 6 staff: Chris Wierzbicki, Quentin Eastman, Leo Marinak and Shane Auclair (sales), Kim Dionne (service dispatch) and Sheila Cordner (accounting). The site also mentions licensed NATE-certified technicians, registered apprentices and 'sons and daughters' working day to day.",
+  "service_area": "Connecticut, Hartford area. The footer reads 'HARTFORD heating & air conditioning/hvac'. Residential and commercial.",
+  "sub_services": "Heating, air conditioning and mini-split service and installation (all brands); Carrier Factory Authorized Dealer; geothermal heat pumps; radiant heating; indoor air quality; solar water heating; Aeroseal duct sealing; service plans; commercial installs (shopping centers, banks, churches, industrial plants, offices); construction and installation; financing page (empty) and online bill pay.",
+  "owner_first_name": "Stephen (Steve)",
+  "owner_last_name": "Wierzbicki",
+  "owner_title": "President and co-founder. Henry Wierzbicki is Vice President and co-founder (BBB plus the About page).",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "sales@nutmegmechanical.com",
+  "owner_email_type": "Role (owner@/sales@)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found. The Carrier dealer page lists a second number, +1 860-288-7236, which is probably a Carrier locator or tracking line, not the owner's phone.",
+  "owner_linkedin": "Not found",
+  "owner_other_socials": "No owner accounts were found. The site links a company Facebook page, https://www.facebook.com/pages/Nutmeg-Mechanical-Service/192161277487844, whose activity was not checked.",
+  "owner_background": "Steve co-founded Nutmeg Mechanical in 1982 with his brother Henry. BBB lists him as President, and the business was incorporated in 1988. Nutmeg holds CT sheet-metal (SM 10155), unlimited (S1 303267) and solar thermal (ST1 0398034) licenses. It sponsors apprentices with the CT Dept. of Labor and belongs to ASHRAE, IGSHPA, ACCA and the Building Performance Institute. Per the About page, the next generation ('sons and daughters') helps run day-to-day operations. No prior career, military service or press interviews were found.",
+  "owner_personality_cues": "Values workmanship and reputation, with a guarantee-style voice: 'our work is 100% Right! And you will be 100% Satisfied!', 'THE WAY IT SHOULD BE', and 'If you have any problem our people cannot solve, you can, at Nutmeg still talk to an owner.' Strong local community ties: 'Our family has sponsored Manchester Little League teams for over 45 years', plus Christmas In April Manchester, the Manchester Police Explorers and MACC. Proud of the dispatch team ('Our service dispatchers are specially trained to evaluate your emergency') and the office staff ('friendliness office staff you will every [sic] meet'). Tone is warm and personal, slightly old-school. Source: https://www.nutmegmechanical.com/about-us",
+  "best_opening_moment": "Now, as Connecticut heating season starts (early November). The site promises '24 hour emergency service 7 days a week', and no-heat calls on cold nights and weekends test that promise. The '44 years / since 1982' legacy is a safe, warm hook.",
+  "attitude_type": "Family-Legacy Pride Brand",
+  "attitude_evidence": "From the About page (https://www.nutmegmechanical.com/about-us): 'The founding brothers Steve and Henry Wierzbicki...', 'Sons and Daughters help with the day to day operation... bringing Nutmeg Mechanical to the next generation', 'Our family has sponsored Manchester Little League teams for over 45 years', and 'you can, at Nutmeg still talk to an owner'. The employment page says 'Family owned & operated since 1982... local enough to know your name'. The site is dated but maintained (copyright 2015, local designer Image Works LLC). BBB A+, accredited since 2011. The approach should be protection and continuity: after-hours and overflow coverage only, never replacing the dispatchers. A next-generation family member (possibly Chris Wierzbicki, who is on the sales contact list) may be the real champion.",
+  "tech_adoption": "basic. Has SSL, mailto-based contact, a HubSpot tracking script (js.hs-scripts.com/5829525.js), an online bill-pay page and an Angie's List badge. No online booking, chat, text-us widget or field-software scheduler in the page source. Footer copyright is 2015.",
+  "marketing_sophistication": "diy. A local web designer is credited ('CT Web Design | Image Works, LLC'). The HubSpot tracking script is present. The promo page 'Red Hot Deals' still shows an expired offer ('January 1, 2025 through March 15, 2025'). The Specials and Financing pages are empty shells. No agency credit, call tracking or schema markup was found.",
+  "growth_stage": "established. 44 years in business, a stable team, ongoing recruiting of techs and sales staff, and a Carrier review dated Jul 2026.",
+  "review_response_behavior": "unknown. Google reviews and owner replies were not reachable in the time box, and BBB does not show business replies.",
+  "after_hours_handling": "The site claims '24 hour emergency service 7 days a week' (homepage) and says 'service dispatchers are specially trained to evaluate your emergency' (about-us). A directory lists regular hours as Mon\u2013Fri only, with emergency coverage daily. How after-hours calls are actually answered (on-call dispatcher, answering service or voicemail) was not found publicly. Sam should record who answers on the first call.",
+  "online_booking": "None. The page source has no ServiceTitan, Housecall Pro, Jobber, Calendly or similar scheduler. The contact page is a list of mailto links plus a customer satisfaction survey, and the homepage has a 'Request A Quote' link.",
+  "chat_or_text_on_site": "None visible in the static HTML of the home, about, contact and employment pages. A HubSpot tracking script is loaded, which could serve a HubSpot chat widget if one is enabled. None was detected.",
+  "vendors_detected": "HubSpot tracking script (js.hs-scripts.com/5829525.js); Angie's List web badge script; Microsoft 365/Outlook mail (MX nutmegmechanical-com.mail.protection.outlook.com); site by Image Works, LLC; Carrier Factory Authorized Dealer locator page; comfortinstitute.org embed. No booking, chat, call-tracking, review-tool or AI-voice vendor was found.",
+  "ads_running": "Not checked. No Google Ads sponsored-result, LSA or Meta Ad Library check was run. On the site, the 'Red Hot Deals' promo expired 15 Mar 2025, and the Specials page is empty. The Carrier dealer page carries a different phone number (+1 860-288-7236), which may be a Carrier co-op or locator tracking line (unverified).",
+  "ai_search_presence": "Not checked. ChatGPT, Perplexity and Gemini could not be queried from this environment. No application/ld+json, FAQPage or LocalBusiness schema appears on the home, about, contact or employment pages, so the site is not AI-readable. Run a GEO spot-check ('emergency furnace repair near Manchester, CT', 'HVAC that answers the phone Manchester, CT') before outreach.",
+  "pain_signals": "1) The homepage promises 'provide 24 hour emergency service 7 days a week', but a directory lists regular hours as 'Mon - Fri' only, and no answering service is mentioned anywhere. 2) Contact friction: the contact page offers only mailto links ('Please included Name, Address, and Phone Number'), with no booking, chat, text-us or response-time promise. 3) Stale web presence: footer 'Copyright \u00a92015', the promo page expired 15 Mar 2025, and the Specials and Financing pages have no content. Counter-evidence: no missed-call complaints were found, and a BBB review praises weekend response: 'From the very first call during a weekend emergency, their team responded quickly.' Pitch overflow and after-hours coverage, and do not say they miss calls.",
+  "trigger_events": "Heating season is starting now in CT (early Nov 2026), which is a seasonal window inferred from the vertical with no current business-specific heating promo. They recruit continuously ('always interested in hearing from HVAC professionals', 'also looking for sales professionals'). The latest dated customer review is on Carrier, 17 Jul 2026. No new location, ownership change, redesign or press was found.",
+  "lead_score": 53,
+  "score_breakdown": "D1 Decision-maker: 8/20. Stephen Wierzbicki, President, is cited by BBB, and the About page names founding brothers Steve and Henry. No email belonging to Steve is published, and no LinkedIn or direct line was found. The only owner-reachable channels are the staffed main line and the role inbox sales@ (Confirmed on the contact page, MX present). chris@nutmegmechanical.com belongs to Chris Wierzbicki (listed under sales, likely family), not the cited owner, so it does not lift D1.\nD2 Phone/after-hours gap: 15/15. The phone is the primary CTA ('Need A Technician? 860.643.2042' in the header). HVAC is an inherently urgent niche, and the site promises '24 hour emergency service 7 days a week'. A directory lists regular hours as Mon\u2013Fri. No answering service or AI receptionist is mentioned on the site or in the source.\nD3 Lead-response leak: 5/15. One signal type: booking/contact friction (no scheduler, chat or text vendor in the page source of 4 pages; mailto-only contact; no response-time promise). Searched for responsiveness complaints on BBB, Carrier and Angi (Angi returned 403) and found none. BBB reviews praise responsiveness. Google reviews and the owner reply rate were not reachable. The employment page recruits techs and sales staff, not front office, so it does not count.\nD4 AI search gap: 0/10, NO EVIDENCE. No AI platform could be queried. No JSON-LD schema on 4 pages (noted, not scored).\nD5 ICP fit: 15/15. (a) Independent family business with one location and named owners. (b) HVAC is a core niche. (c) Proxies: since 1982 (BBB); 6 named staff on the contact page plus techs and apprentices; HVAC install, geothermal and commercial ticket size; 24-hour emergency service claim.\nD6 Buying signals: 7/15. Only group (d)/(e) evidence was found: HubSpot tracking script, Angie's List badge, and a Carrier dealer listing with a separate number. No dated trigger in 60 days (heating season is inferred only). Google Ads, LSA and Meta Ad Library were NOT checked.\nD7 Attitude/stack: 3/10. Positive: growth posture (ongoing hiring, apprenticeship sponsor). Negative: copyright 2015 is more than 4 years stale, the promo page has been expired since Mar 2025, and the Specials and Financing pages are empty. That nets to 0 with one positive, i.e. passive. No incumbent agency conflict (local designer, no penalty).\nTOTAL 53. Band: WATCH. Trust: 6 of 7 dimensions have evidence and D1 has a positive citation. D2 has direct evidence and D5 has evidence. GHL dedupe is still pending, so this is PROVISIONAL until that dedupe runs. Blockers: D4 not run, and no owner-direct email. A GEO spot-check could add up to 10 points (QUALIFIED band). DEMO PATH applies (D2 at least 9, named owner, no owner email), so the route is call-first via Sam.",
+  "recommended_entry_offer": "Voice AI live demo: a demo line built from nutmegmechanical.com and framed as after-hours and overflow coverage for no-heat emergencies this heating season (seasonal urgency angle). Go-live is conditional call forwarding of missed or busy calls only, so the dispatchers keep answering first. Follow with a free GEO audit, since there is no schema and AI visibility is not yet checked.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "Nutmeg's 24-hour line this heating season",
+  "personalized_first_line": "Steve, Nutmeg has promised 24-hour emergency service seven days a week since 1982, and heating season is when that promise gets tested hardest.",
+  "call_angle": "Respect the 44-year family legacy and the dispatch team they are proud of. Position the voice agent as a backup for the no-heat calls that land after hours, on weekends, or while Kim's line is busy. It is trained on Nutmeg's own site, takes name, address and urgency, and books or flags the emergency. Their people still answer everything they can. Offer the live demo number so Steve can hear his own business answer. Do not say they miss calls (BBB reviews praise weekend response), and do not lead with the word 'AI' or 'modernize'. If a next-generation family member (Chris Wierzbicki is on the sales line) picks up, treat them as the champion.",
+  "likely_objection": "'Our dispatchers already handle emergencies, we've done it this way for 44 years, and our customers want a real person, not a robot.' Response: it only answers what would otherwise ring out or hit voicemail. A human still answers first. Go-live is one call-forwarding setting, rollback is one dial code, and they can hear the demo before deciding anything.",
+  "why_now": "Connecticut heating season starts this month. No-heat calls are emergencies, and they come at night and on weekends, which is exactly when a '24 hour emergency service 7 days a week' promise depends on someone picking up. The site's last promotion expired in March 2025, so nothing current is working the season yet.",
+  "notes_for_chosen": "Route call-first via Sam (DEMO PATH). There is no Steve-specific email. sales@ is the published role inbox. chris@nutmegmechanical.com (Chris Wierzbicki, Residential & Commercial Sales, contact page) is the only named Wierzbicki email. His relationship to Steve is not confirmed publicly, so email him only as 'Chris' about the business, not as the owner. Score is 53 (WATCH) because D4 could not be run and Ads, LSA and Meta were not checked. A quick GEO spot-check for Manchester/Hartford could move it into QUALIFIED. The ghl-contacts.js dedupe must run before loading. Tone should be personal, slightly formal and legacy-respecting. A safe warm hook is 45+ years of Manchester Little League sponsorship (community, not personal family). Never suggest replacing the dispatchers. BBB reviews praise weekend emergency response, so do not open with a missed-call accusation. The Carrier dealer page shows a different phone number (+1 860-288-7236), so dial the main line +1 860-643-2042. Do not use Henry's personal BuildZoom listing (home address) in any outreach.",
+  "business_hours": "Regular hours Mon\u2013Fri, opening and closing times not published (Superpages directory). The website claims '24 hour emergency service 7 days a week'. Google Business Profile hours were not found.",
+  "timezone": "America/New_York (Eastern Time)",
+  "best_time_to_call": "Tue\u2013Thu 7:30\u20138:30 AM ET, before techs are dispatched and before heating-season service calls pile onto the line. Fallback is 4:00\u20135:00 PM ET as crews wrap up. Avoid Monday mornings during heating season, when the weekend's no-heat backlog hits dispatch. The office is Mon\u2013Fri only per the directory, so do not call weekends: the line is for emergencies then.",
+  "call_opener": "\"Hi, is this Steve? Steve, it's Sam with Eat 4 Life Marketing. Full honesty, this is a cold call, so I'll be quick. I saw on your site that Nutmeg has offered 24-hour emergency service seven days a week since 1982. With heating season starting, we build a backup receptionist trained on your own website that picks up the no-heat calls at night or when your dispatch line is busy, and your people still answer everything they can. We'd set up a demo line so you can call it and hear it yourself. Can I have 20 seconds to explain how it works, and you tell me if it's worth a look?\"",
+  "gatekeeper_notes": "The main line +1 860-643-2042 most likely reaches the office or dispatch. Kim Dionne is listed for 'Service Dispatch' on the contact page. Sheila Cordner is listed for Accounting on the contact page and as Office Manager on BBB. Ask by name: 'Hi Kim, is Steve Wierzbicki around this morning?' If Steve isn't available, ask for Henry (VP, co-founder) or Chris Wierzbicki (sales). The About page says 'you can, at Nutmeg still talk to an owner', which is a polite lever for getting through. No owner cell is published, and no answering service is named. Note who answers (human, service or voicemail) for D2.",
+  "evidence_links": "https://www.nutmegmechanical.com/about-us, https://www.bbb.org/us/ct/manchester/profile/heating-and-air-conditioning/nutmeg-mechanical-services-inc-0111-51002312, https://www.nutmegmechanical.com/contact-us, https://www.nutmegmechanical.com/, https://www.nutmegmechanical.com/employment, https://www.carrier.com/us/en/residential/dealers/ct/manchester/130-ste-3-utopia-road-13108-loc, https://www.superpages.com/manchester-ct/bpp/nutmeg-mechanical-services-inc-483291454, https://www.nutmegmechanical.com/red-hot-deals, https://www.nutmegmechanical.com/nutmeg-mechanical-specials, https://www.facebook.com/pages/Nutmeg-Mechanical-Service/192161277487844, https://prod.bbb.org/us/ct/manchester/profile/heating-and-air-conditioning/nutmeg-mechanical-services-inc-0111-51002312/customer-reviews, https://angi.com/companylist/us/ct/manchester/nutmeg-mechanical-services-inc-reviews-293588.htm",
+  "research_confidence": "Medium",
+  "_target": "hvac-hartford",
+  "_rank": 2,
+  "_verify": {
+   "verdict": "deliver-with-fixes",
+   "checks": [
+    {
+     "claim": "Owner Stephen (Steve) Wierzbicki, President",
+     "result": "confirmed",
+     "note": "BBB lists Mr. Stephen Wierzbicki, President (confirmed) and Henry as VP. About page names founding brothers Steve and Henry but gives no titles, so 'co-founder' comes from About and 'President' from BBB."
+    },
+    {
+     "claim": "owner_email sales@nutmegmechanical.com, Confirmed",
+     "result": "contradicted",
+     "note": "Contact page lists sales@ only as 'Sales General Mail Box'. Steve is not listed on the contact page and no email for him exists. It is a generic company inbox, not the owner's email, so 'Confirmed' for owner_email is unsupported."
+    },
+    {
+     "claim": "Company phone 860-643-2042 and website",
+     "result": "confirmed",
+     "note": "Homepage header, contact page, BBB and Superpages all show 860.643.2042. Website loads. Address 130 Utopia Rd Ste 3, Manchester CT 06042 matches BBB."
+    },
+    {
+     "claim": "Contact page staff list (Chris, Quentin, Leo, Shane, Kim, Sheila) incl. chris@ email",
+     "result": "confirmed",
+     "note": "All six names and emails are present. The page gives no titles. Kim is under Service Dispatch, Sheila under Accounting."
+    },
+    {
+     "claim": "Strongest pain signal: site promises 24-hour emergency service 7 days but directory shows Mon-Fri only",
+     "result": "contradicted",
+     "note": "Homepage does say '24 hour emergency service 7 days a week'. But the cited Superpages listing says regular hours Mon-Fri 7:30-4:30 AND 'Emergency: Open 24 hours, Monday to Sunday', so there is no gap between site and directory. The signal is weak and inferential."
+    },
+    {
+     "claim": "Business hours opening/closing times not published",
+     "result": "contradicted",
+     "note": "Superpages gives Mon-Fri 7:30 am to 4:30 pm, with emergency 24 hours daily."
+    },
+    {
+     "claim": "About page: 'talk to an owner', Little League 45+ years, sons and daughters",
+     "result": "confirmed",
+     "note": "All quotes present. The About page does not mention 24-hour service; that appears only on the homepage."
+    },
+    {
+     "claim": "Carrier dealer: 11 reviews, 5/5, review 17 Jul 2026, second phone 860-288-7236, 44 years",
+     "result": "confirmed",
+     "note": "Matches the Carrier page. The page does not say 'Factory Authorized' in the fetched text, but it is a Carrier dealer listing, not a franchise."
+    },
+    {
+     "claim": "BBB A+, accredited 6/22/2011, started 11/1/1982, incorporated 4/7/1988",
+     "result": "confirmed",
+     "note": "Matches the BBB profile."
+    },
+    {
+     "claim": "Footer Copyright 2015, no chat or booking widget on the homepage",
+     "result": "confirmed",
+     "note": "Footer reads 'Copyright \u00a92015. Nutmeg Mechanical.' No chat or booking widget found."
+    },
+    {
+     "claim": "Not a chain or franchise",
+     "result": "confirmed",
+     "note": "Single location, family business since 1982. Carrier dealer status is not a franchise."
+    },
+    {
+     "claim": "Not on suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "I ran grep -i -E 'nutmeg|wierzbicki' on both files and got no matches (exit 1)."
+    }
+   ],
+   "corrected_fields": {
+    "owner_email": "Not found",
+    "owner_email_type": "Not found (sales@nutmegmechanical.com is only the company's generic 'Sales General Mail Box'; Steve has no published email)",
+    "owner_email_confidence": "Not found",
+    "owner_title": "President (per BBB); co-founder with brother Henry (per About page)",
+    "business_hours": "Regular hours Mon-Fri 7:30 am to 4:30 pm; emergency service listed as open 24 hours, Mon-Sun (Superpages). Website claims '24 hour emergency service 7 days a week'. Google Business Profile hours not checked.",
+    "pain_signals": "1) Weak, unproven: the homepage promises '24 hour emergency service 7 days a week' and Superpages lists emergency as open 24 hours, so the claim is consistent across sources. How after-hours calls are answered is unknown. A 2011 Superpages review mentions a callback within 10 minutes on a Friday night, which suggests an on-call or callback system already exists. 2) Contact friction: mailto-only contact page with no booking, chat, text or response-time promise. 3) Stale web presence: footer 'Copyright \u00a92015', expired promo, empty Specials and Financing pages. No missed-call complaints were found. Do not say they miss calls.",
+    "notes_for_chosen": "Route call-first via Sam. There is NO verified email for Steve. sales@ is the generic company inbox, not the owner's. chris@nutmegmechanical.com is the only named Wierzbicki email; his relationship to Steve is unconfirmed, so email him only as 'Chris' about the business. Superpages shows emergency coverage is already advertised 24/7 with a callback model, so the after-hours gap is unproven and the pitch should be framed as overflow or backup only. Dial the main line +1 860-643-2042, not the Carrier number. Do not use Henry's BuildZoom listing. GHL dedupe is still pending."
+   },
+   "adjusted_score": 46,
+   "adjusted_confidence": "Medium",
+   "reason": "Identity, owner name and title, phone and website are supported, and it is not a chain or on either suppression list. But sales@ is a generic mailbox wrongly labelled a Confirmed owner email, and the Mon-Fri versus 24-hour pain signal is contradicted by the same directory listing, so the owner email is set to Not found and the score drops from 53 to 46."
+  }
+ }
+]
