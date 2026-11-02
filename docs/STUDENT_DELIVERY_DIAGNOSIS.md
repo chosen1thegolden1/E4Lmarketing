@@ -23,26 +23,33 @@ automated nurture workflow, a handful of contacts.
 - **Daniel, Nov 2:** "Monday's A1 and S1 went out." And "the report shows 'no broadcasts',
   but S1–S4 went out last week (S2 opened at 6%)."
 
-## The most likely explanation (unconfirmed)
+## What we actually know, and the correction
 
-Both can be true if **the student emails are being scheduled inside E4L Services**, the
-only sub-account Abdullah's invite ever covered, to a student list or tag there, and not
-to the ~2,900 contacts in the Students sub-account. That would explain:
+**Corrected 2026-11-02, same evening.** An earlier version of this section guessed that
+Abdullah only had access to E4L Services and was sending the student emails from there.
+**That was wrong.** Chosen checked: Abdullah is in both sub-accounts.
 
-- why the Students sub-account shows nothing since Oct 11,
-- why Daniel still sees a send with opens (6%), and
-- why it "isn't hitting": the real student list may not be getting them, and whatever list
-  is getting them opens at 6%, against 17.4% for agency.
+What the data really shows is narrower than "the emails didn't go out." The Students
+token's `/emails/schedule` view lists **email campaigns** only. GHL can also send email by
+**Bulk Actions** (select contacts → send email) and by workflows, and this view can't see
+those. Abdullah being in both accounts, and Daniel quoting a 6% open on S2, fit
+"sent, by a route the report can't see."
 
-**Asked to confirm, Nov 2:** Abdullah and Daniel, by Slack DM: which sub-account, which list,
-and a screenshot.
+**The 30-second check (Chosen, in GHL → Students):** Marketing → Emails → Campaigns for
+today's S1, "Zelda comes back Thursday. Steal the idea." If it's not there, Contacts → Bulk
+Actions history for an email action this morning. Either one shows recipients, delivered
+and opened.
+
+**The system failure, whichever way it lands:** the Monday report said "no student
+broadcasts" three weeks running, the Friday check said "nothing queued" twice, and the
+loader said "loaded." Nothing reconciled those three until Chosen noticed. The fix:
+broadcasts are loaded as **Campaigns** so both checks can see them, and the report flags a
+mismatch with the team the first week it happens.
 
 ## What to fix, in order
 
-1. **Find where they're sending.** (Asked.) If it's Services: decide whether the student emails
-   move to the Students sub-account (Abdullah needs an invite there; Chosen confirmed
-   2026-10-31 he's allowed) or the student list moves to Services. Either way, one list,
-   one place.
+1. **Confirm how they're sending:** Campaign, Bulk Action, or not at all (the check above). If
+   it's Bulk Actions, switch to Campaigns so the report and the Friday check can see them.
 2. **Services read token** (`GHL_SERVICES_TOKEN`), so the Monday report can see the agency side,
    and the student emails if they're being sent from there.
 3. **Email-stats permission on both tokens.** The Students token gets 401 on campaign stats, so
