@@ -168,7 +168,10 @@ function render(sides) {
     L.push(`## ${s.side} — ${s.locationName}`, '');
     if (s.unavailable) { L.push(`_Not pulled: ${s.unavailable}_`, ''); continue; }
     L.push(`### Broadcasts sent this week`);
-    if (!s.campaigns.length) L.push('_None._');
+    // The weekly broadcasts go out as GHL *Bulk Action* campaigns, which this API
+    // cannot list. "None" here read as "nothing was sent" for three weeks while
+    // ~2,000 students got every email (found 2026-11-02). Never say none.
+    if (!s.campaigns.length) L.push('_No email campaigns visible to the API. **This does not mean nothing was sent.** The weekly broadcasts go out as Bulk Action campaigns, which this report cannot read. Their real numbers are in GHL → Marketing → Emails → Statistics, and belong in `manual-stats.md` in this week\'s folder._');
     else { L.push('| Subject | Sent | Failed | Opens | Clicks | UTM |', '|---|---|---|---|---|---|'); for (const c of s.campaigns) L.push(`| ${c.subject} | ${c.sent} | ${c.failed} | ${c.stats?.opened ?? c.stats?.opens ?? '—'} | ${c.stats?.clicked ?? c.stats?.clicks ?? '—'} | ${c.utm ? 'yes' : '**no**'} |`); }
     L.push('', `### Workflow emails by subject line (${s.workflowEmailsTotal} emails seen)`);
     if (!s.workflowEmails.length) L.push('_None in window._');
