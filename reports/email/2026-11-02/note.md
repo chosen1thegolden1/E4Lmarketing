@@ -8,8 +8,19 @@ This report originally said "no broadcasts." **That was wrong.** The student ema
 | Sun Nov 1 | Nobody was clapping when I moved to LA | 2,008 | **17.93%** | 0.15% |
 | Mon Nov 2 | Zelda comes back Thursday. Steal the idea. | 2,007 | 6.23% | 0.10% |
 
-## What worked
-- "Nobody was clapping when I moved to LA" opened at 17.93%, about **3x** every other student email. It's a first-person confession about the unglamorous part of Chosen's own story. The other three are curiosity or news hooks. One data point, and Sunday may help, but it's the clearest signal we've had.
+## Agency side (Services → Statistics, last 7 days, screenshot from Chosen 2026-11-02)
+Overall: **20.86% open**, 295 opened of 1,414 delivered, up 22.9% vs the prior 7 days. All sent as Bulk Action campaigns.
+
+| Send | Subject | Delivered | Open | Click |
+|---|---|---|---|---|
+| Wed Oct 28 | Everyone's panicking about the wrong number | 356 | 17.42% | 1.97% |
+| Fri Oct 30 | "I'll think about it" is a question | 356 | 13.48% | 1.97% |
+| Sun Nov 1 | The five who went quiet | 351 | **31.91%** | 1.99% |
+| Mon Nov 2 | Would you let AI pay your invoices? | 351 | 20.80% | **2.56%** |
+
+Agency is the healthy list: about 3x the student open rate and **about 10x the click rate** (~2% vs 0.1–0.3%), on a list one-sixth the size.
+
+- "Nobody was clapping when I moved to LA" opened at 17.93%, about **3x** every other student email. **But Sunday was also the best day on the agency list (31.91%).** So two things could explain it: the first-person confession subject, or Sunday itself. One week can't separate them.
 - Delivery is clean: 100% delivered after Abdullah filtered out invalid contacts.
 
 ## What didn't
@@ -18,5 +29,6 @@ This report originally said "no broadcasts." **That was wrong.** The student ema
 - The Students-side workflow emails (the old nurture sequence) show near-zero opens. They keep sending to people who never open, which drags down the domain the broadcasts share.
 
 ## Change this week
-- **Subjects:** at least two of the four student subjects this week are first-person confessions from Chosen's real story, the way "Nobody was clapping when I moved to LA" was. "I," a real moment, the unglamorous part, no news hook. Keep one curiosity subject to compare against. Never invent the moment. Use the story bank in voice.md or ask Chosen.
+- **Subjects (a real test, not a guess):** put a first-person confession subject from Chosen's real story ("I," a real moment, the unglamorous part, no news hook, like "Nobody was clapping when I moved to LA") on a **weekday** student slot, Monday or Wednesday. If it beats ~6%, the subject style is doing it. If only Sunday wins again, it's the day. Keep Sunday strong on both lists either way: it was the top email on both. Never invent the moment. Use the story bank in voice.md or ask Chosen.
+- **Agency:** keep doing what's working: 20.9% opens and ~2% clicks. "Would you let AI pay your invoices?" got the best clicks (2.56%) with a dated news hook and one clear rule. More of that shape.
 - **Clicks:** not every student email asks for the book. At least one this week asks for a reply (one question, answered in a word), and one uses the possibility energy (STUDENT_POSSIBILITY_SERIES.md) so the click is "see what you can make," with the book as the way to learn it.
