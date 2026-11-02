@@ -1,5 +1,13 @@
 # Why the student emails aren't landing — diagnosis, 2026-11-02
 
+> **RESOLVED the same evening: the emails went out.** Chosen's GHL screenshot (Students →
+> Marketing → Emails → Statistics) shows every student email sent as a **Bulk Action
+> campaign**: about 2,000 delivered each, 100% delivered. Opens 6.1% / 6.4% / **17.9%** (Sun,
+> "Nobody was clapping when I moved to LA") / 6.2%, clicks 0.10–0.30%. The report reads
+> email Campaigns only, so it said "none." The report now says it can't see Bulk Actions.
+> The real problem is engagement, not delivery. See `reports/email/2026-11-02/note.md`.
+> Everything below is the investigation as it happened, including a wrong guess.
+
 Chosen, 2026-11-02: *"I feel like the emails aren't hitting the students… Let's fix this now."*
 
 ## What the data says (read-only, from the Eat 4 Life Students sub-account)
