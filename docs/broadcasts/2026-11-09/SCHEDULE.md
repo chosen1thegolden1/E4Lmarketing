@@ -16,12 +16,12 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 |---|---|---|---|---|---|---|
 | 2026-11-09 | Monday | agency | `A1.html` | The Gen Z kid was half right | Posting more was the right half. Nobody sold you the other one. | E4L Agency website (Scorecard + Game Plan Call live there) |
 | 2026-11-09 | Monday | student | `S1.html` | Your first client might be a taco truck | One picture. One business. That's the whole first move. | From Xbox to Executive (book, free + $9.95 shipping) |
-| 2026-11-11 | Wednesday | agency | `A2.html` | Google can bill you for the call you missed | Twenty seconds. That's the whole rule. | Game Plan Call (agency front end) |
+| 2026-11-11 | Wednesday | agency | `A2.html` | Did you pay for a call you never answered? | Twenty seconds on the line. Nobody home. Still your lead. | Game Plan Call (agency front end) |
 | 2026-11-11 | Wednesday | student | `S2.html` | I don't have a degree | The permission slip you're waiting on might not exist. | From Xbox to Executive (book, free + $9.95 shipping) |
-| 2026-11-13 | Friday | agency | `A3.html` | 848 robot calls to local businesses. Here's what happened. | One in three stayed on the line. Only 1 in 25 had their own AI answering. | Game Plan Call (agency front end) |
-| 2026-11-13 | Friday | student | `S3.html` | 13 days to Thanksgiving. Try this instead of scrolling. | A side quest that costs $0 and takes ten minutes a day. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-11-13 | Friday | agency | `A3.html` | A robot is about to call your business | 848 calls went out in early October. Only 1 in 25 businesses had an AI picking up. | Game Plan Call (agency front end) |
+| 2026-11-13 | Friday | student | `S3.html` | The holidays are coming. The money isn't. | Thirteen days, $0, ten minutes a day. Better than scrolling. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-11-15 | Sunday | agency | `A-SUN.html` | What does your January look like? | Whoever starts in November is already running by March. | Game Plan Call (agency front end) |
-| 2026-11-15 | Sunday | student | `S-SUN.html` | Where "Everybody Eats" came from | Everyone works hard, so everyone eats. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-11-15 | Sunday | student | `S-SUN.html` | You haven't eaten yet | Everyone works hard, so everyone eats. | From Xbox to Executive (book, free + $9.95 shipping) |
 
 ## Load checklist — tick each one
 

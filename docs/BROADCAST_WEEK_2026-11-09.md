@@ -130,9 +130,9 @@ thing we do. Look for yourself: (LINK: https://e4lagency.com/?utm_source=email&u
 ---
 ## A2 — Wednesday
 
-**Subject:** Google can bill you for the call you missed
+**Subject:** Did you pay for a call you never answered?
 
-**Preview text:** Twenty seconds. That's the whole rule.
+**Preview text:** Twenty seconds on the line. Nobody home. Still your lead.
 
 **Reader:** A-1 (wants more sales; the demon is "we're fine") · **Angle:** Worst Way · **Spoke:** front end → the call
 
@@ -143,21 +143,27 @@ Here's a rule most owners have never read.
 
 If you run Google Local Services Ads, Google can bill you for a call you never picked up. 👀
 
-Google's own help page says it plainly. If you missed a phone call during your business hours and the customer stays on the line for more than 20 seconds, that counts as a valid lead.
+Google's own help page says it plainly.
+
+If you missed a phone call during your business hours and the customer stays on the line for more than 20 seconds, that counts as a valid lead.
 
 Read that twice.
 
-A customer called. Nobody answered. They waited 20 seconds. And the invoice landed on you, not the job. 😬
+A customer called. Nobody answered. They waited 20 seconds.
+
+And the invoice landed on you, not the job. 😬
 
 Even if you don't run ads, that call still happened. Ads just put a price on it.
 
 **A missed call isn't a missed call. It's a customer who dialed the next name on the list.**
 
-So here's your homework. Pull up your ad leads this week and look for the ones you never spoke to.
+So here's your homework.
+
+Pull up your ad leads this week and look for the ones you never spoke to.
 
 Those are the calls you paid for and lost.
 
-That's the gap we built the AI Front Desk to close. Every missed call, DM, text and form fill gets a reply in under 60 seconds, then gets followed up until they book. A real person on our team watches it. 
+That's the gap we built the AI Front Desk to close. Every missed call, DM, text and form fill gets a reply in under 60 seconds, then gets followed up until they book. A real person on our team watches it.
 
 If you want to see how, that's a 20-minute conversation.
 
@@ -176,16 +182,18 @@ P.S. Don't take my word for the rule. It's on Google's help page, "How leads wor
 ---
 ## A3 — Friday
 
-**Subject:** 848 robot calls to local businesses. Here's what happened.
+**Subject:** A robot is about to call your business
 
-**Preview text:** One in three stayed on the line. Only 1 in 25 had their own AI answering.
+**Preview text:** 848 calls went out in early October. Only 1 in 25 businesses had an AI picking up.
 
 **Reader:** A-3 (great at sales, bad at tools) · **Angle:** Correlation (news → the gap) · **Spoke:** front end → the call
 
 ```
 Hey [First Name],
 
-Quick one. A company called Voygr wanted to know what happens when an AI phones a local business.
+Quick one.
+
+A company called Voygr wanted to know what happens when an AI phones a local business.
 
 So in early October, its AI agents made 848 calls. 📞
 
@@ -193,7 +201,7 @@ Here's what came back, as reported by the San Francisco Standard:
 
 About 1 in 3 people stayed on the line after learning they were talking to an AI.
 
-Dentist and vet offices were the most likely to keep talking. Dry cleaners and bars were the most likely to hang up. 😂
+Dentist and vet offices were the most likely to keep talking. Dry cleaners and bars were the most likely to hang up.
 
 And only 1 in 25 of those businesses already had an AI of their own picking up the phone.
 
@@ -203,11 +211,11 @@ Fine. Early days.
 
 But here's what I can't shake: your customers are about to send a robot to call you. And whatever answers, human or machine, is your front desk.
 
-**24 out of 25 had nothing answering but a person. Does a person pick up every time?** 👀
+**24 out of 25 had no AI answering. Does a person pick up every time?** 👀
 
 If the honest answer is "not at 7pm," that's the gap.
 
-See the full story →  (LINK: https://sfstandard.com/2026/10/29/ai-agents-calling-local-businesses/?utm_source=email&utm_medium=agency&utm_campaign=A3-2026-11-09)
+See the full story → (LINK: https://sfstandard.com/2026/10/29/ai-agents-calling-local-businesses/?utm_source=email&utm_medium=agency&utm_campaign=A3-2026-11-09)
 
 If you want to see what answering every time looks like, I'll show you.
 
@@ -301,7 +309,7 @@ image for a taco truck. $2 Tuesdays. Neon sign vibe."
 
 Hit enter.
 
-Under a minute later you're holding this:
+Under a minute later you're holding this: 👀
 
 (IMAGE: docs/assets/examples/taco-truck-promo.jpg | Neon promo image reading Taco Truck, $2 Tuesdays, made in Higgsfield from one sentence)
 
@@ -375,7 +383,7 @@ I worked brand ambassador gigs. Then I moved across the country to LA.
 
 I wrote two books. Then I built an agency.
 
-None of that came with a diploma. All of it came with a **lot** of learning.
+None of that came with a diploma. All of it came with a *lot* of learning.
 
 I say it this way: **Being a lifelong student is more valuable than a degree from the Ivy Leagues.** 👀
 
@@ -393,7 +401,7 @@ Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
 Eat 4 Life
 
-P.S. The 90-day version of my answer is in From Xbox to Executive →  (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S2-2026-11-09)
+P.S. 👉 The 90-day version of my answer is in From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S2-2026-11-09)
 ```
 
 *Notes:* **This is the Monday report's test: a first-person confession subject on a WEEKDAY student slot.** Last week's winner ("Nobody was clapping when I moved to LA", 17.93%) sent on a Sunday; if this beats ~6% on a Wednesday, the subject style is doing the work. Facts are only story bank: "Six figures, debt-free, no degree"; pro gamer; brand ambassador gigs then LA; two books; the agency; the Ivy League quote. **Chosen to confirm "I never got one" is true as worded (see Things to settle #1).** No income promise: "not a promise for you" is in the copy on purpose. **Editor: don't add a number, a school or a year.** The main ask is a one-word reply (Monday report: at least one student email asks for a reply). Veterans Day falls on this send; no reference.
@@ -402,9 +410,9 @@ P.S. The 90-day version of my answer is in From Xbox to Executive →  (LINK: ht
 ---
 ## S3 — Friday
 
-**Subject:** 13 days to Thanksgiving. Try this instead of scrolling.
+**Subject:** The holidays are coming. The money isn't.
 
-**Preview text:** A side quest that costs $0 and takes ten minutes a day.
+**Preview text:** Thirteen days, $0, ten minutes a day. Better than scrolling.
 
 **Reader:** S-A (just found out this exists; money tight before the holidays) · **Angle:** Miyagi (soft teach) · **Spoke:** front end → the book
 
@@ -417,7 +425,7 @@ Holiday spending is already on its way, and the money isn't. I know that feeling
 
 So here's a 13-day side quest. It costs $0. It takes ten minutes a day.
 
-It will NOT promise you a paycheck by the turkey. It promises you'll start.
+It will NOT promise you a paycheck by the turkey. **It promises you'll start.**
 
 1. Days 1 to 3: Make a list.
 Ten local places you actually spend money. The barber. The cafe. The gym. The taco truck.
@@ -432,7 +440,7 @@ That's it. 💡
 
 Here's the part that gets me.
 
-At the table, somebody is going to ask, "So what are you working on?"
+At the table, somebody is going to ask, *"So what are you working on?"*
 
 You'll have a real answer. "I'm helping a barber." 🙌
 
@@ -453,7 +461,7 @@ P.S. If the barber says no, that's one lost round. Shake it off and queue the ne
 ---
 ## S-SUN — Sunday
 
-**Subject:** Where "Everybody Eats" came from
+**Subject:** You haven't eaten yet
 
 **Preview text:** Everyone works hard, so everyone eats.
 
@@ -476,7 +484,7 @@ I'm also not going to tell you it was easy. Success requires sacrifice. That par
 
 But trying and not getting there doesn't mean you didn't work hard.
 
-It means you haven't eaten yet.
+It means you haven't eaten *yet*.
 
 I'm not saying I don't understand. I'm saying the table still has a seat for you. 💪
 
@@ -486,7 +494,7 @@ Think of the last thing you quit. Pick the smallest piece of it. Ten minutes.
 
 Do just that piece.
 
-That's how you get back in the match.
+That's how you get back in the match. 🎮
 
 The book is how I'd plan the next 90 days if I were you.
 
@@ -589,7 +597,7 @@ Sebastian
 Eat 4 Life
 AI Marketing Made Easy
 
-P.S. What did the last vendor promise that they never delivered? Hit reply, I'm curious. 😂
+P.S. What did the last vendor promise that they never delivered? Hit reply, I'm curious.
 ```
 
 *Notes:* Carried over from last week's bench (unused). No external claim. Tilt control from the story bank. "I'll show you what a plain answer looks like" is the offer, not a promise of results. Swap for any agency slot.
