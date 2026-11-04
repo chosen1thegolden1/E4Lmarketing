@@ -1,0 +1,115 @@
+[
+ {
+  "qualified": true,
+  "disqualified_reason": "None. Hard-disqualifier pass: PASS on chain/franchise, website, live business, inbound channel, competitor and automation checks. Checked against suppression.csv and seen.csv by name, domain and phone with no hits. GHL 'E4L Services' dedupe was not run from this agent. Rubric band is WATCH (47, PROVISIONAL), so this lead should not go into the daily 10 without a manual override.",
+  "disqualifier_check": "Chain/franchise: PASS. The business is family owned, has 1 location and no corporate parent (own site; Houzz; MN SOS). Own-domain website: PASS. johnkivelelectric.com loads, built on GoDaddy GoCentral. Live US business: PASS. MN SOS lists John Kivel Electric Inc. as 'Active / In Good Standing', with an annual renewal on 9/10/2026 and the next renewal due 12/31/2027. Inbound channel: PASS. Phone (651) 775-9625, a contact form and a published email. Competitor/non-buyer: PASS (residential/commercial electrician). Already automated: PASS. No answering service, AI receptionist or GEO vendor found on the site. Do-not-contact: no 'no solicitation' notice on the site. Not in suppression.csv (1,161 rows) or seen.csv (326 rows) by 'kivel', domain or phone 7759625. GHL dedupe (ghl-contacts.js) was NOT run here.",
+  "company_name": "John Kivel Electric (site and listings say 'John Kivel Electric, LLC'; MN SOS entity is 'John Kivel Electric Inc.')",
+  "niche": "Electrical (residential electrician / master electrician)",
+  "niche_segment": "core",
+  "website": "https://www.johnkivelelectric.com",
+  "company_phone": "+1 651-775-9625",
+  "company_email_generic": "Not found (the only published email is the owner's personal johnkivel@msn.com)",
+  "street_address": "3553 Bailey Ridge Dr (MN SOS registered and principal executive office; also on the Birdeye profile; appears to be a home-based office)",
+  "city": "Woodbury",
+  "state": "MN",
+  "zip": "55125",
+  "timezone": "Central (America/Chicago)",
+  "google_maps_url": "Not found (Google Maps could not be fetched; the web search budget for this run was used up)",
+  "google_rating": "4.8 (Google, mirrored on Birdeye); voolt.pro mirror shows 4.7",
+  "review_count": "83 Google reviews (Birdeye mirror); 80 on voolt.pro mirror; Houzz 1 review (5.0). Only 5 reviews are visible on the mirrors, dated 'a year ago' or '2 years ago'. Recent review velocity could not be verified.",
+  "locations_count": "1 (Woodbury, MN; serves the Twin Cities metro)",
+  "founded_or_years": "MN SOS: John Kivel Electric Inc. original filing 2/13/2018 (file 1000373800052). The site lists Angie's List Super Service Awards 2010-2018 ('9 years running'), which implies operating since at least 2010. Experience claims: site says 'almost 100 years of experience'; Houzz says 'over 50 years of experience' and that the owner has 'over 40 years in the field' and is a 'third-generation electrician'. CONFLICT: the entity type differs ('LLC' on the site and listings vs. 'Inc.' at SOS). A BeginsWith SOS search returned only the Inc.",
+  "service_area": "Woodbury-based. Site: 'most of Washington, Dakota, Ramsey, and Hennepin Counties', plus the wider Twin Cities metro (Minneapolis, St. Paul).",
+  "sub_services": "Storm damage and power outages, troubleshooting, electrical panel upgrades and repair, EV car charging stations, lighting design and LED upgrades, under-cabinet / landscape / security and motion lighting, speakers, smart TV/HDMI, phone and network jacks, garage and outbuilding power, outlets and switches, GFI and grounding, ceiling and exhaust fans, real estate inspection addendum corrections (johnkivelelectric.com)",
+  "team_size_estimate": "1-2. John Kivel, Master Electrician, does the work himself ('You'll talk directly to John as the Electrician doing the work'). A Google review says 'John and his wife are an amazing duo', so his wife appears to work alongside him. No other staff are named.",
+  "owner_first_name": "John",
+  "owner_last_name": "Kivel",
+  "owner_title": "Owner / Master Electrician. MN SOS lists 'John T Kivel' as Chief Executive Officer.",
+  "owner_role_type": "Owner-operator",
+  "owner_email": "johnkivel@msn.com",
+  "owner_email_type": "Personal (named)",
+  "owner_email_confidence": "Confirmed",
+  "owner_direct_phone": "Not found as a separately published owner cell. The main line +1 651-775-9625 is the only number, and the site says callers talk 'directly to John'. Treat it as the owner-answered main line and dial it by hand only (no SMS or AI-voice consent).",
+  "owner_linkedin": "Not found (search budget used up; not checked)",
+  "owner_other_socials": "Facebook business page linked from the site: https://www.facebook.com/1581366405415026 (it shows a login wall, so post recency could not be read). Houzz: https://www.houzz.com/pro/johnkivel",
+  "owner_background": "Master Electrician, described on Houzz as a 'third-generation electrician' with 'over 40 years in the field'. His business won Angie's List Super Service Awards for Electrical and Lighting 2010-2018 (own site). He has been CEO of the MN corporation since its 2018 filing (SOS). Prior businesses: Not found.",
+  "owner_personality_cues": "Hands-on and personal: 'You'll talk directly to John as the Electrician doing the work' (site). Reviews describe him as generous and plain-spoken: 'John is a great guy who will give you a great deal. Superior work quality great communication' (Nick Phillips, Google, ~1 yr ago). Another reviewer called to book a GFI repair; John talked them through fixing it by phone and did not charge (Sam McClenahan, Google, ~1 yr ago). He is proud of craft and family ('family owned', third-generation). No public statements about marketing, phones or AI were found.",
+  "best_opening_moment": "Mention his own promise that customers talk directly to John, the electrician doing the work. Frame the offer as protecting that promise when he is mid-job, not replacing him. A nod to the GFI review (he solved it over the phone for free) shows Sam read his reviews.",
+  "attitude_type": "Skeptical Old-School Traditionalist (medium-low confidence; secondary fit: Overwhelmed Owner-Operator)",
+  "attitude_evidence": "Site copy is built around talking to the owner himself: 'You'll talk directly to John as the Electrician doing the work or be directed to Him within 1 business day'. Site footer copyright is 2017 on a GoDaddy GoCentral template, and it still leads with Angie's List awards 2010-2018. The email is an msn.com free-mail address. The Birdeye profile is unclaimed. No owner replies are visible on the 5 mirrored Google reviews. The Overwhelmed Owner-Operator profile is only partial: the 'you reach John or wait a business day' model fits, but no reachability complaints were found, and reviews praise his communication ('great communication', 'communicates well'). Approach: do not lead with AI. Lead with the calls that already go to voicemail while he is on a job, and make clear he still answers every call he can.",
+  "tech_adoption": "none-to-basic: SSL and a GoDaddy contact form with reCAPTCHA. Copyright 2017. No online booking, chat or text-us. Free-mail email.",
+  "marketing_sophistication": "diy (GoDaddy GoCentral site builder, no agency credit, stale directory badges)",
+  "growth_stage": "established (operating since at least 2010 per the awards; entity filed 2018; ~83 reviews; recent velocity unknown, possibly plateau)",
+  "review_response_behavior": "none observed: 0 owner replies on the 5 Google reviews mirrored by Birdeye and voolt.pro. The full Google reply rate was not verified.",
+  "business_hours": "Site: 'Always open to hear from you! Calls between 8AM & 8PM are appreciated. We work on Sundays by appointment.' GBP hours as mirrored on Birdeye and voolt.pro: Mon-Fri 8:00 AM-8:00 PM, Sat 8:00 AM-5:00 PM, Sun Closed (Central).",
+  "after_hours_handling": "No answering service, after-hours line or 24/7 claim anywhere on the site. Emergencies: 'You will be directed to John Kivel immediately for any emergency.' Otherwise callers reach John directly 'or be directed to Him within 1 business day'. Phone hours are 8AM-8PM, and Sunday is by appointment only. In practice John is the receptionist and voicemail is the backup (inference from site copy; not confirmed by a call).",
+  "online_booking": "None. The only options are a 'Call for free estimate' button and a basic contact form (email, name, phone).",
+  "chat_or_text_on_site": "None found (no chat widget or text-us; the WebFetch render showed only the contact form and reCAPTCHA. Raw page source could not be fetched because the proxy reset the connection).",
+  "vendors_detected": "GoDaddy GoCentral Website Builder ('Powered by GoDaddy GoCentral Website Builder'), Google reCAPTCHA, msn.com (Microsoft Outlook) email. Directory presence: Angie's List (award badges), Houzz profile, Birdeye (unclaimed, auto-generated). No call tracking, CRM, booking or field-service software detected.",
+  "ads_running": "Not checked. The web search budget for this run was used up, so the Google Ads sponsored check, LSA unit and Meta Ad Library could not be run. No call-tracking number or ad landing page was seen on the site.",
+  "ai_search_presence": "not checked (web search budget used up; no AI platform could be queried). D4 is scored 0, NO EVIDENCE. Named in ? of 0 AI answers.",
+  "pain_signals": "1) Callback lag is built in: 'You'll talk directly to John as the Electrician doing the work or be directed to Him within 1 business day' (site). 2) Phone hours are narrower than demand: 'Calls between 8AM & 8PM are appreciated', 'We work on Sundays by appointment', and GBP shows Sunday closed, while the business sells urgent 'Storm Damage' and 'Power Outages' work. 3) The owner is the only phone answerer and also the electrician on the job; a reviewer wrote 'I called John Kivel Electric this morning to set up an appointment...' (Sam McClenahan, Google, ~1 yr ago, via Birdeye). 4) Booking friction: no online scheduling, no chat or text, only a basic form. 5) Stale web presence: copyright 2017, Birdeye profile unclaimed, no review replies visible. No responsiveness complaints were found in the 5 visible reviews; reviews praise his communication.",
+  "trigger_events": "None dated within 60 days found. MN SOS annual renewal was filed 9/10/2026 (routine upkeep, not a trigger). The Minnesota winter storm and outage season is relevant because the business lists 'Storm Damage' and 'Power Outages', but there is no business-specific dated evidence. The job-post and hiring sweep was not run (search budget used up).",
+  "lead_score": 47,
+  "score_breakdown": "47 / PROVISIONAL, band WATCH. Reasons: no GHL dedupe was run, and D4 and D6 have no evidence (5 of 7 dimensions evidenced). D1 Decision-maker: 14/20. Full name and role are cited from two sources: the own site ('John Kivel, Master Electrician') and MN SOS, which lists 'John T Kivel' as CEO at the same Woodbury address. A personal email, johnkivel@msn.com, is published on the own site (msn.com MX record verified). It is free-mail, not on the business domain, and no secondary channel was found (no LinkedIn or owner cell), so it does not reach 20. D2 Phone gap: 15/15. Phone-first ('Call for free estimate' button, phone is the main CTA). Gap proof: (a) electrical is an urgent niche and the business sells storm damage and power outage work; (b) 'be directed to Him within 1 business day', 'Calls between 8AM & 8PM are appreciated', Sunday closed per GBP mirror; (c) no answering service or AI mention anywhere. D3 Leak evidence: 5/15. One signal type: booking/contact friction (no online booking, no chat or text, plain contact form, GoDaddy builder). The reply-rate signal is partial (0 replies on 5 mirrored reviews; the 20 newest Google reviews could not be read). No responsiveness complaints were found, and reviews praise communication. No job posts were checked. D4 AI visibility: 0/10, NO EVIDENCE (no AI platform could be checked; search budget used up). D5 ICP fit: 10/15. (a) Independent, family owned, 1 location, owner identified. (b) Electrical is a core niche. Two proxies: 3+ years (SOS 2018, awards from 2010) and a service area of 4 counties (Washington, Dakota, Ramsey, Hennepin). The review count of 83 falls short of 100 and recent velocity is unverified. The electrical ticket row of $400-3k was not counted, though panel and EV work is high-ticket. Note: a 1-2 person shop, so budget is a risk. D6 Buying signals: 0/15, NO EVIDENCE. No dated trigger was found, and the ads, LSA, Meta and job sweeps could not be run, so this is an incomplete null. Directory presence (Angi awards to 2018, Houzz) is historical, not proven current spend. D7 Attitude: 3/10. Passive profile: copyright 2017 (stale), no visible review replies, Birdeye unclaimed. No hostile or anti-marketing signals. The GoDaddy DIY site counts as greenfield, with no incumbent conflict.",
+  "recommended_entry_offer": "Voice AI live demo, framed as 'hear it yourself': a demo line built from johnkivelelectric.com that picks up only the calls John cannot take while he is on a job, then books the estimate. Pair it with missed-call text-back. Because the band is WATCH, build the demo only after John says yes on Sam's call. Fallback: Revenue Leak Scorecard.",
+  "first_fit_tier": "Recover",
+  "suggested_subject_line": "John, the calls that come in while you're on a job",
+  "personalized_first_line": "John, your site promises that people talk directly to you as the electrician doing the work, or hear back within one business day. That's a great promise, until the phone rings while you're inside someone's panel.",
+  "call_angle": "Relief, with a human-first frame. John answers his own phone and is proud of it ('you'll talk directly to John'). The pitch is not to replace him. It covers the calls that hit voicemail while he is on a ladder, after 8 PM, or on Sunday: storm damage, outages, panel and EV charger estimates. Those callers often just try the next electrician. Offer a demo line built from his own website that he can call and hear before anything else. Go-live is one call-forwarding rule for missed calls only. Do not lead with 'AI', GEO or jargon. Ask: 'Who picks up when you're on a job or after 8 at night: you, voicemail, or nobody?'",
+  "likely_objection": "'My customers like talking to me, not a machine. I call everybody back, and word of mouth keeps me busy.' Possibly also 'It's just me (and my wife), I don't need that.' Response: he still answers every call he can; this only catches the ones already going to voicemail, and he can hear it on a demo line first with no commitment.",
+  "why_now": "Minnesota is heading into winter, and storm damage and power outage calls are on his own service list. Those calls are urgent and cannot wait a business day, and they arrive while he is on other jobs. His site, last updated in 2017, sends every new customer to a single phone with a 1-business-day callback promise, so each missed call during the busy season can go to whichever electrician picks up first. No dated business-specific trigger was found.",
+  "notes_for_chosen": "WATCH, 47 / PROVISIONAL. Not a SEND TODAY lead. The score is held down by things this run could not check, not by negative findings. The web search budget was used up, so D4 (AI visibility) and D6 (ads, LSA, job posts) are NO EVIDENCE, and GHL dedupe was not run. A re-check of the AI money questions and ads could move it into QUALIFIED. What is confirmed: John T Kivel is CEO of John Kivel Electric Inc. (MN SOS, Active / In Good Standing, renewed 9/10/2026), at the same Woodbury address as the Birdeye listing. His personal email johnkivel@msn.com is published on his own site. Entity-name conflict: the site says LLC, SOS says Inc.; use 'John Kivel Electric' in copy. This is a 1-2 person shop (John plus, per a review, his wife), so budget is a real risk; consider the solo voice agent rather than the full Recover tier. Route call-first through Sam, who reaches John himself on the main line. If emailing, keep it short, plain text, and leave 'AI' out of the subject line. Do not open with his reviews as a problem; they are strong and praise his communication.",
+  "best_time_to_call": "Tue-Thu 7:45-8:30 AM CT, at the start of his stated call window ('Calls between 8AM & 8PM are appreciated') and before he is likely mid-job. Second choice: 5:30-7:00 PM CT, after jobs wrap and still inside his 8 PM cutoff. Avoid Sundays (by appointment only, GBP closed) and Saturday afternoons (GBP closes at 5 PM). The timing is inferred from his posted hours; no review evidence says when he answers.",
+  "call_opener": "Hi, is this John? John, this is Sam with Eat 4 Life Marketing. Full honesty, it's a cold call. Can I have 20 seconds, and then you tell me if it's worth another minute? ... I was on your site and saw you promise people they'll talk directly to you as the electrician doing the work, or hear back within one business day. That's rare. The catch is when you're up in a panel, the person with a storm outage or an EV charger question often just calls the next electrician on Google. We'd build a phone line from your own website that only picks up the calls you can't get to and books the estimate for you. You'd still answer everything you can. Would it be crazy if I set up a demo line you could call and hear for yourself?",
+  "gatekeeper_notes": "No gatekeeper is expected. The site says callers talk 'directly to John as the Electrician doing the work', and emergencies are 'directed to John Kivel immediately'. There is no office manager, dispatcher or answering service on the site. A Google review ('John and his wife are an amazing duo') suggests his wife works with him and may pick up. If she answers, ask for John by name and offer to call back at a time she suggests; she is a likely second decision-maker. If it goes to voicemail, leave one short message referencing his 'within 1 business day' promise and call back the next morning around 8 AM CT. Main line +1 651-775-9625 only: dial by hand, no SMS or autodial (no consent).",
+  "evidence_links": "https://www.johnkivelelectric.com/, https://mblsportal.sos.mn.gov/Business/SearchDetails?filingGuid=368b5b69-d710-e811-9156-00155d0d6f70, https://reviews.birdeye.com/john-kivel-electric-llc-166883305109044, https://voolt.pro/minnesota/woodbury/electrical-hvac/john-kivel-electric-llc, https://www.houzz.com/pro/johnkivel, https://www.facebook.com/1581366405415026, https://cloudflare-dns.com/dns-query?name=msn.com&type=MX",
+  "research_confidence": "Medium",
+  "_target": "electrical-minneapolis",
+  "_rank": 1,
+  "_verify": {
+   "verdict": "deliver",
+   "checks": [
+    {
+     "claim": "Owner John Kivel, Master Electrician; MN SOS CEO John T Kivel",
+     "result": "confirmed",
+     "note": "Site says Master Electrician. SOS lists CEO John T Kivel, Active / In Good Standing, filed 2/13/2018, address 3553 Bailey Ridge Dr, Woodbury."
+    },
+    {
+     "claim": "Email johnkivel@msn.com",
+     "result": "confirmed",
+     "note": "The email is published on johnkivelelectric.com."
+    },
+    {
+     "claim": "Phone (651) 775-9625",
+     "result": "confirmed",
+     "note": "Listed on the site. The Birdeye page shows no number, which does not matter."
+    },
+    {
+     "claim": "Strongest pain signal: 'talk directly to John ... within 1 business day', calls 8AM-8PM, Sunday by appointment, no chat/booking, copyright 2017",
+     "result": "confirmed",
+     "note": "All of this appears on the site. The Birdeye hours (Mon-Fri 8-8, Sat 8-5, Sun closed) also match."
+    },
+    {
+     "claim": "Reviews: 4.8 stars, 83 Google reviews; Sam McClenahan GFI review",
+     "result": "confirmed",
+     "note": "The Birdeye page shows 4.8 and 83. The GFI review text matches. The reviewer is named Sam, and so is the caller in the call opener. The call script must not conflate the two."
+    },
+    {
+     "claim": "Not a chain or franchise",
+     "result": "confirmed",
+     "note": "Nothing on the site suggests a chain or franchise. SOS lists a single-entity corporation with one address."
+    },
+    {
+     "claim": "Not in suppression.csv or seen.csv",
+     "result": "confirmed",
+     "note": "Grep for kivel, 7759625 and 775-9625 returned no hits in either file (1161 and 326 rows). The suppression.csv and seen.csv checks are clean."
+    }
+   ],
+   "corrected_fields": {},
+   "adjusted_score": 47,
+   "adjusted_confidence": "Medium",
+   "reason": "Owner name, title, email, phone, address, rating and the main pain signal (site copy on a 1-business-day callback and 8AM-8PM hours) all check out against the site, MN SOS and Birdeye. No suppression or seen hits, and it is not a chain. It stays WATCH at 47, with the GHL dedupe and the D4 and D6 checks still unrun."
+  }
+ }
+]
