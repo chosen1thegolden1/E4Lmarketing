@@ -163,15 +163,25 @@ async function pullSide(side, token, locationId) {
 function render(sides) {
   const L = [];
   const d = s => s.slice(0, 10);
-  L.push(`# Weekly email report — ${d(SINCE.toISOString())} to ${d(UNTIL.toISOString())}`, '');
+  // A re-render keeps the window the data was pulled for, not today's.
+  const w = sides.find(x => x.window)?.window || { since: SINCE.toISOString(), until: UNTIL.toISOString() };
+  L.push(`# Weekly email report — ${d(w.since)} to ${d(w.until)}`, '');
   for (const s of sides) {
     L.push(`## ${s.side} — ${s.locationName}`, '');
-    if (s.unavailable) { L.push(`_Not pulled: ${s.unavailable}_`, ''); continue; }
+    if (s.unavailable && !s.bulk) { L.push(`_Not pulled: ${s.unavailable}_`, ''); continue; }
     L.push(`### Broadcasts sent this week`);
+    if (s.bulk) {
+      L.push(`_Sent as GHL Bulk Action campaigns. Numbers from ${s.bulkSource}, because the API can't read Bulk Actions._`, '');
+      L.push('| Sent | Subject | Delivered | Open % | Click % |', '|---|---|---|---|---|');
+      for (const b of s.bulk) L.push(`| ${b.sent} | ${b.subject} | ${b.delivered} | ${b.openRate} | ${b.clickRate} |`);
+      if (s.bulkSummary) L.push('', s.bulkSummary);
+      if (s.unavailable) { L.push('', `_Everything else on this side not pulled: ${s.unavailable}_`, ''); continue; }
+      L.push('');
+    }
     // The weekly broadcasts go out as GHL *Bulk Action* campaigns, which this API
     // cannot list. "None" here read as "nothing was sent" for three weeks while
     // ~2,000 students got every email (found 2026-11-02). Never say none.
-    if (!s.campaigns.length) L.push('_No email campaigns visible to the API. **This does not mean nothing was sent.** The weekly broadcasts go out as Bulk Action campaigns, which this report cannot read. Their real numbers are in GHL → Marketing → Emails → Statistics, and belong in `manual-stats.md` in this week\'s folder._');
+    if (!s.campaigns.length) { if (!s.bulk) L.push('_No email campaigns visible to the API. **This does not mean nothing was sent.** The weekly broadcasts go out as Bulk Action campaigns, which this report cannot read. Their real numbers are in GHL → Marketing → Emails → Statistics, and belong in `manual-stats.json` in this week\'s folder._'); }
     else { L.push('| Subject | Sent | Failed | Opens | Clicks | UTM |', '|---|---|---|---|---|---|'); for (const c of s.campaigns) L.push(`| ${c.subject} | ${c.sent} | ${c.failed} | ${c.stats?.opened ?? c.stats?.opens ?? '—'} | ${c.stats?.clicked ?? c.stats?.clicks ?? '—'} | ${c.utm ? 'yes' : '**no**'} |`); }
     L.push('', `### Workflow emails by subject line (${s.workflowEmailsTotal} emails seen)`);
     if (!s.workflowEmails.length) L.push('_None in window._');
@@ -217,8 +227,22 @@ if (RENDER_ONLY) {
     results.push(await pullSide(c.side, c.token, c.loc));
   }
   fs.writeFileSync(path.join(dir, 'data.json'), JSON.stringify(results, null, 2));
-  fs.writeFileSync(path.join(dir, 'report.md'), render(results));
 }
+// manual-stats.json carries what the API can't read: the weekly broadcasts go out
+// as Bulk Action campaigns, so their delivered/open/click numbers are copied by hand
+// from GHL → Marketing → Emails → Statistics. Shape:
+//   { "source": "...", "sides": { "<side name>": { "summary": "...", "rows": [
+//       { "sent": "Mon Nov 2", "subject": "...", "delivered": 2007, "openRate": "6.23%", "clickRate": "0.10%" } ] } } }
+const manualPath = path.join(dir, 'manual-stats.json');
+if (fs.existsSync(manualPath)) {
+  const m = JSON.parse(fs.readFileSync(manualPath, 'utf8'));
+  for (const r of results) {
+    const side = m.sides?.[r.side];
+    if (side) { r.bulk = side.rows; r.bulkSummary = side.summary; r.bulkSource = m.source; }
+  }
+}
+if (RENDER_ONLY) fs.writeFileSync(path.join(dir, 'report.md'), render(results));
+else fs.writeFileSync(path.join(dir, 'report.md'), render(results));
 // note.md is written by the Monday session after reading report.md; the html
 // is the thing that actually gets emailed.
 const notePath = path.join(dir, 'note.md');

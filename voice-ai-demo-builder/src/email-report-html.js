@@ -28,7 +28,8 @@ export function parseNote(md = '') {
 
 function callout(icon, label, color, items) {
   if (!items.length) return '';
-  const lis = items.map(i => `<li style="margin:0 0 8px 0;line-height:1.45">${esc(i)}</li>`).join('');
+  // The note is markdown: **bold** carries the line a skimmer should catch.
+  const lis = items.map(i => `<li style="margin:0 0 8px 0;line-height:1.45">${esc(i).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')}</li>`).join('');
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 14px 0;page-break-inside:avoid;break-inside:avoid"><tr>
     <td style="width:5px;background:${color};border-radius:3px 0 0 3px"></td>
     <td style="padding:12px 16px;background:#ffffff;border:1px solid ${LINE};border-left:0;border-radius:0 6px 6px 0">
@@ -66,16 +67,30 @@ function list(items, color) {
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="width:4px;background:${color};border-radius:2px"></td><td style="padding:2px 0 2px 14px"><ul style="margin:0;padding:0 0 0 18px;font:14px ${FONT};color:${INK};line-height:1.5">${items.map(i => `<li style="margin:0 0 6px 0">${esc(i)}</li>`).join('')}</ul></td></tr></table>`;
 }
 
+// The weekly broadcasts, from manual-stats.json (GHL Statistics, entered by hand).
+function bulkBlock(s) {
+  if (!s.bulk) return '';
+  const cell = (v, right) => `<td${right ? ' align="right"' : ''} style="padding:8px 10px;font:14px ${FONT};color:${INK};border-bottom:1px solid ${LINE}">${v}</td>`;
+  const head = ['Sent', 'Subject', 'Delivered', 'Open', 'Click'].map((h, i) => `<td${i > 1 ? ' align="right"' : ''} style="padding:6px 10px;font:600 12px ${FONT};color:${INK2};border-bottom:1px solid ${LINE}">${h}</td>`).join('');
+  return h3('Broadcasts this week') +
+    `<div style="overflow-x:auto"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;min-width:480px"><tr>${head}</tr>` +
+    s.bulk.map(b => `<tr>${cell(esc(b.sent))}${cell(esc(b.subject))}${cell(n(b.delivered), 1)}${cell(esc(b.openRate), 1)}${cell(esc(b.clickRate), 1)}</tr>`).join('') + '</table></div>' +
+    (s.bulkSummary ? `<p style="font:14px ${FONT};color:${INK};margin:10px 0 0 0;line-height:1.5">${esc(s.bulkSummary)}</p>` : '') +
+    `<p style="font:12px ${FONT};color:${INK2};margin:6px 0 0 0">Sent as GHL Bulk Action campaigns. Numbers from ${esc(s.bulkSource || 'GHL Statistics')}, because the API can't read Bulk Actions.</p>`;
+}
+
 function sideBlock(s) {
+  if (s.unavailable && s.bulk) return `<div style="page-break-before:always;break-before:page"></div>` + h2(s.side) + bulkBlock(s) + `<p style="font:12px ${FONT};color:${INK2};margin:16px 0 0 0">Everything else on this side (forms, bookings, pipeline) not pulled: ${esc(s.unavailable)}.</p>`;
   if (s.unavailable) return `${h2(s.side)}<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="width:5px;background:${WARN};border-radius:3px"></td><td style="padding:12px 16px;font:14px ${FONT};color:${INK}">⚠️&nbsp; <b>Not pulled.</b> ${esc(s.unavailable)}.</td></tr></table>`;
-  const delivered = s.workflowEmails.reduce((a, w) => a + w.delivered, 0) + s.campaigns.reduce((a, c) => a + c.sent, 0);
+  const delivered = s.workflowEmails.reduce((a, w) => a + w.delivered, 0) + s.campaigns.reduce((a, c) => a + c.sent, 0) + (s.bulk || []).reduce((a, b) => a + (+b.delivered || 0), 0);
   const bounced = s.workflowEmails.reduce((a, w) => a + w.bounced, 0) + s.campaigns.reduce((a, c) => a + c.failed, 0);
   const moved = s.pipelines.reduce((a, p) => a + p.movedThisWindow, 0);
   const purchases = s.pipelines.reduce((a, p) => a + Object.entries(p.byStage).filter(([st]) => p.purchaseStages.includes(st)).reduce((b, [, v]) => b + v.moved, 0), 0);
   let html = `<div style="page-break-before:always;break-before:page"></div>` + h2(`${s.side} — ${s.locationName}`);
-  html += `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="page-break-inside:avoid;break-inside:avoid"><tr>${tile('Delivered', delivered, `${s.workflowEmailsTotal} workflow · ${s.campaigns.length} broadcast`)}${tile('Bounced', bounced, delivered ? `${Math.round(bounced / delivered * 1000) / 10}% of sent` : '')}${tile('Form fills', s.formsTotal, s.forms.map(f => f.form).slice(0, 2).join(', ') || 'none this week')}${tile('Booked', s.appointmentsTotal, s.appointments.map(a => a.calendar).slice(0, 2).join(', ') || 'none this week')}</tr></table>`;
+  html += `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="page-break-inside:avoid;break-inside:avoid"><tr>${tile('Delivered', delivered, `${s.workflowEmailsTotal} workflow · ${s.campaigns.length + (s.bulk || []).length} broadcast`)}${tile('Bounced', bounced, delivered ? `${Math.round(bounced / delivered * 1000) / 10}% of sent` : '')}${tile('Form fills', s.formsTotal, s.forms.map(f => f.form).slice(0, 2).join(', ') || 'none this week')}${tile('Booked', s.appointmentsTotal, s.appointments.map(a => a.calendar).slice(0, 2).join(', ') || 'none this week')}</tr></table>`;
   html += `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="page-break-inside:avoid;break-inside:avoid"><tr>${tile('Stage moves', moved, 'across all pipelines')}${tile('Purchases', purchases, 'entered a paid stage')}<td width="50%"></td></tr></table>`;
-  html += h3('Subject lines') + subjectTable(s);
+  html += bulkBlock(s);
+  html += h3('Workflow emails (automations)') + subjectTable(s);
   if (s.campaigns.length) { html += h3('Broadcasts'); html += `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse">` + s.campaigns.map(c => `<tr><td style="padding:8px 10px;font:14px ${FONT};color:${INK};border-bottom:1px solid ${LINE}">${esc(c.subject)}</td><td align="right" style="padding:8px 10px;font:14px ${FONT};color:${INK};border-bottom:1px solid ${LINE}">${n(c.sent)} sent${c.stats ? ` · ${n(c.stats.opened ?? c.stats.opens ?? '—')} opened · ${n(c.stats.clicked ?? c.stats.clicks ?? '—')} clicked` : ''}${c.utm ? '' : ' · <span style="color:' + CRIT + '">no UTM</span>'}</td></tr>`).join('') + '</table>'; }
   if (s.forms.length || s.appointments.length) { html += h3('Where conversions came from'); html += list([...s.forms.map(f => `${f.form}: ${f.submissions} submission${f.submissions === 1 ? '' : 's'}`), ...s.appointments.map(a => `${a.calendar}: ${a.booked} booked`)], ACCENT); }
   const stageLines = s.pipelines.flatMap(p => Object.entries(p.byStage).map(([st, b]) => `${p.name} → ${st}: ${b.moved} moved${b.value ? `, $${b.value}` : ''}${b.fromEmail ? `, ${b.fromEmail} from email` : ''}`));

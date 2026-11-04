@@ -44,3 +44,22 @@ loop for this report any more.** Anything that needs a person goes to Chosen
    you notify.
 
 6. Commit the new `reports/email/<today>/` folder and push. That folder is the archive.
+
+## The broadcasts are Bulk Actions, so the API can't see them (added 2026-11-02)
+
+The weekly broadcasts on **both** lists go out as GHL **Bulk Action campaigns**. This report's
+API reads email Campaigns only, so it can't see them. For three weeks it wrote "no
+broadcasts" while ~2,000 students and ~350 agency contacts got every email. Rules from now on:
+
+1. **Never write "no broadcasts," "none sent" or "0 broadcasts" in the note.** The report can't
+   see them, and that is not the same as nothing sent.
+2. **If `manual-stats.json` exists in this week's folder,** the report already folds its numbers
+   in. Write the note from them: each send's delivered, open % and click %.
+3. **If it doesn't exist,** DM Daniel (U0C0JE303KN) once, first thing: *"Can you send this
+   week's GHL Statistics numbers for both accounts (Marketing → Emails → Statistics, last 7
+   days): each email's delivered, open % and click %?"* When the numbers arrive, write them to
+   `manual-stats.json` (shape in `voice-ai-demo-builder/src/email-report.js`), re-run with
+   `--render-only`, and republish. Until then the note says plainly that broadcast numbers
+   are pending from GHL, and draws no conclusion about the broadcasts.
+4. This goes away once the broadcasts are loaded as email **Campaigns** with the email-stats
+   permission on both tokens. That's Chosen's call.

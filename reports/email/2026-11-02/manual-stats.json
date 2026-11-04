@@ -1,0 +1,23 @@
+{
+  "source": "GHL → Marketing → Emails → Statistics, last 7 days, screenshots from Chosen 2026-11-02",
+  "sides": {
+    "Students (school)": {
+      "summary": "8,084 sent in 7 days, 100% delivered. Three weekday emails opened at ~6%; Sunday's personal story opened at 17.9%. Clicks 0.10–0.30% on all four.",
+      "rows": [
+        { "sent": "Wed Oct 28", "subject": "People laughed. Then it stopped being funny.", "delivered": 2016, "openRate": "6.10%", "clickRate": "0.15%" },
+        { "sent": "Fri Oct 30", "subject": "Your next client filed paperwork in September", "delivered": 2014, "openRate": "6.41%", "clickRate": "0.30%" },
+        { "sent": "Sun Nov 1", "subject": "Nobody was clapping when I moved to LA", "delivered": 2008, "openRate": "17.93%", "clickRate": "0.15%" },
+        { "sent": "Mon Nov 2", "subject": "Zelda comes back Thursday. Steal the idea.", "delivered": 2007, "openRate": "6.23%", "clickRate": "0.10%" }
+      ]
+    },
+    "Agency (E4L Services)": {
+      "summary": "20.86% open overall (295 of 1,414 delivered), up 22.9% on the prior 7 days. About 2% clicks on every send.",
+      "rows": [
+        { "sent": "Wed Oct 28", "subject": "Everyone's panicking about the wrong number", "delivered": 356, "openRate": "17.42%", "clickRate": "1.97%" },
+        { "sent": "Fri Oct 30", "subject": "\"I'll think about it\" is a question", "delivered": 356, "openRate": "13.48%", "clickRate": "1.97%" },
+        { "sent": "Sun Nov 1", "subject": "The five who went quiet", "delivered": 351, "openRate": "31.91%", "clickRate": "1.99%" },
+        { "sent": "Mon Nov 2", "subject": "Would you let AI pay your invoices?", "delivered": 351, "openRate": "20.80%", "clickRate": "2.56%" }
+      ]
+    }
+  }
+}

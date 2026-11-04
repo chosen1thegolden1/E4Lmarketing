@@ -20,6 +20,7 @@ Overall: **20.86% open**, 295 opened of 1,414 delivered, up 22.9% vs the prior 7
 
 Agency is the healthy list: about 3x the student open rate and **about 10x the click rate** (~2% vs 0.1–0.3%), on a list one-sixth the size.
 
+## What worked
 - "Nobody was clapping when I moved to LA" opened at 17.93%, about **3x** every other student email. **But Sunday was also the best day on the agency list (31.91%).** So two things could explain it: the first-person confession subject, or Sunday itself. One week can't separate them.
 - Delivery is clean: 100% delivered after Abdullah filtered out invalid contacts.
 
