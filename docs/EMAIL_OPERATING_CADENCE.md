@@ -20,6 +20,15 @@ week ahead. Nothing about that moves.
 
 ---
 
+## Standing direction: student emails go to the Readers list (from the week of Nov 16)
+
+Sent to Abdullah 2026-11-06, with Chosen's OK. In the Students account, the weekly student
+emails go to the **Readers** smart list only: anyone who opened or clicked an email in the
+last 90 days (928 of 2,958 on Nov 5). Everyone else is on **Quiet** and gets one email a
+month, which Claude picks. Nobody is removed. Both lists are refreshed every Friday before
+loading. **Exception: Black Friday emails go to the whole list.** Hand-offs and Friday
+updates say "Readers list" for the student four. Details: `docs/STUDENT_LIST_LANES.md`.
+
 ## Standing direction: what the results say to write (Chosen, 2026-11-06)
 
 From Daniel's report for Nov 2–6 (`reports/email/2026-11-09/daniel-report-nov2-6.pdf`). Chosen:

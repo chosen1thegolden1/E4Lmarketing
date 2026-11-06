@@ -28,7 +28,7 @@ The readers lane is **928**, not the ~120 a single weekday open suggests. Differ
 open different emails. Each weekly send currently delivers to about 2,000, so roughly 1,100
 quiet contacts get every email and open none of them.
 
-**Waiting on:** Chosen's OK to send Abdullah the setup steps below.
+**Approved by Chosen and sent to Abdullah 2026-11-06.** Waiting on his "done" for the two smart lists.
 
 ## Then (for Abdullah, once Chosen sees the count)
 - A smart list or tag for each lane, keyed on email activity in the last 90 days.
