@@ -24,7 +24,8 @@ Beats with text behind the subject run slower, because the person cut-out is com
 
 **clips[]** play back to back: `src` (video or still image), `in`, `out`, `zoom` (static punch-in, e.g. 1.12),
 `focus [x,y]` crop focus 0 to 1, `fit` (`cover` | `blurpad` for horizontal footage | `contain`),
-`kenburns` (end scale for a slow push), `volume`, `mute`, and `transition` *into* this clip:
+`kenburns` (slow zoom across the whole clip: `1.3` pushes in 1.0→1.3, `[1.4, 1.0]` zooms out),
+`zoom_focus [x,y]` (the point the clip's zoom/kenburns aims at, e.g. `[0.3, 0.3]` = upper-left), `volume`, `mute`, and `transition` *into* this clip:
 `cut` | `punch` | `whip` | `flash` | `glitch` | `zoomblur`.
 
 **captions:** `auto: true` (transcribe) or `words: [{word,start,end}]`, `keywords []` (shown in yellow),

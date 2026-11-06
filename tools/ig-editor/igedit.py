@@ -702,7 +702,7 @@ class Timeline:
             clip = dict(src=src, t_in=t_in, dur=t_out - t_in, start=t, fit=c.get("fit", "cover"),
                         focus=tuple(c.get("focus", [0.5, 0.5])), zoom=float(c.get("zoom", 1.0)),
                         transition=c.get("transition", "cut"), volume=float(c.get("volume", 1.0)),
-                        has_audio=has_audio and not c.get("mute"), still=is_img, kenburns=c.get("kenburns"))
+                        has_audio=has_audio and not c.get("mute"), still=is_img, kenburns=c.get("kenburns"), zoom_focus=c.get("zoom_focus"))
             self.clips.append(clip)
             t += clip["dur"]
         self.duration = t
@@ -840,9 +840,13 @@ def render(plan_path, t_from=None, t_to=None, preview=False):
 
         s, cx, cy, dx, dy = camera(t)
         s *= c["zoom"]
+        if c["zoom_focus"] and not any(float(z["at"]) <= t < float(z["at"]) + float(z.get("dur", 1)) and "focus" in z for z in zooms):
+            cx, cy = c["zoom_focus"][0] * W, c["zoom_focus"][1] * H
         if c["kenburns"]:
-            p = (t - c["start"]) / c["dur"]
-            s *= 1 + (float(c["kenburns"]) - 1) * p
+            kb = c["kenburns"]
+            k0, k1 = (float(kb[0]), float(kb[1])) if isinstance(kb, (list, tuple)) else (1.0, float(kb))
+            p = ease_in_out_sine(clamp((t - c["start"]) / c["dur"]))
+            s *= k0 + (k1 - k0) * p
         blur_amt, mblur, flash = 0.0, 0, 0.0
         # transition out of this clip (owned by the next clip)
         if ci + 1 < len(tl.clips):
