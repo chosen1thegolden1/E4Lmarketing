@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E4L Vault | Marketing Prompts, Claude Skills & GoHighLevel Snapshots</title>
+<meta name="description" content="The E4L Vault: ready-to-use marketing prompts, Claude skills, GoHighLevel snapshots and video editing with AI. New tools every month. Founding price $10/mo.">
+<meta property="og:title" content="E4L Vault | Your AI marketing toolkit">
+<meta property="og:description" content="Prompts, Claude skills, GoHighLevel snapshots and video editing with AI. New tools every month.">
+<meta property="og:url" content="https://joine4l.com/vault">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --gold:#FFC200; --gold-soft:#FFD95A; --gold-dim:rgba(255,194,0,.12);
+  --ink:#0A0A0A; --ink-2:#121212; --ink-3:#1B1B1B; --line:#2A2A2A;
+  --paper:#F6F3EA; --text:#F4F1E8; --muted:#A9A498;
+  --sans:'Rethink Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --mono:'Space Mono',ui-monospace,Menlo,monospace;
+  --r:14px; --max:1140px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--text);font-family:var(--sans);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.mono{font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase;font-size:13px}
+.eyebrow{color:var(--gold);margin-bottom:16px;display:inline-block}
+h1,h2,h3{line-height:1.08;font-weight:800;letter-spacing:-.02em}
+h1{font-size:clamp(40px,6.4vw,76px)}
+h2{font-size:clamp(32px,4.4vw,52px)}
+h3{font-size:22px;letter-spacing:-.01em}
+.gold{color:var(--gold)}
+section,header{padding:96px 0;scroll-margin-top:68px}
+.lead{font-size:clamp(18px,2vw,21px);color:var(--muted);max-width:640px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:#000;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--sans);font-weight:800;font-size:18px;padding:18px 30px;border-radius:999px;text-decoration:none;border:2px solid var(--gold);cursor:pointer;transition:transform .2s ease,background .2s ease,box-shadow .2s ease}
+.btn-gold{background:var(--gold);color:#000;box-shadow:0 10px 30px -10px rgba(255,194,0,.6)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 16px 40px -12px rgba(255,194,0,.75)}
+.btn-ghost{background:transparent;color:var(--gold)}
+.btn-ghost:hover{background:var(--gold-dim)}
+.btn .arrow{transition:transform .2s ease}
+.btn:hover .arrow{transform:translateX(4px)}
+
+/* Nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;text-decoration:none}
+.logo-mark{width:34px;height:34px;border-radius:9px;background:var(--gold);color:#000;display:grid;place-items:center;font-family:var(--mono);font-size:13px;font-weight:700}
+nav .btn{padding:10px 20px;font-size:15px}
+
+/* Context banner (changes by ?from=) */
+.context{background:var(--gold);color:#000}
+.context .wrap{display:flex;align-items:center;gap:14px;padding-top:14px;padding-bottom:14px;font-weight:700;font-size:16px}
+.context .check{flex:none;width:26px;height:26px;border-radius:50%;background:#000;color:var(--gold);display:grid;place-items:center;font-size:14px}
+.context[hidden]{display:none}
+
+/* Hero */
+.hero{padding:88px 0 72px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-40% -10% auto auto;width:780px;height:780px;background:radial-gradient(circle,rgba(255,194,0,.16),transparent 62%);pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;position:relative}
+.hero h1 .gold{display:block}
+.hero .lead{margin:24px 0 36px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.price-note{margin-top:18px;color:var(--muted);font-size:15px}
+.price-note s{opacity:.7}
+.price-note b{color:var(--text)}
+
+/* Vault door visual */
+.door{aspect-ratio:1;border-radius:28px;background:linear-gradient(145deg,#1d1d1d,#0d0d0d);border:1px solid var(--line);position:relative;display:grid;place-items:center;box-shadow:inset 0 0 0 10px #151515,0 40px 80px -30px rgba(0,0,0,.8)}
+.dial{width:62%;aspect-ratio:1;border-radius:50%;border:2px solid rgba(255,194,0,.55);display:grid;place-items:center;position:relative;animation:spin 60s linear infinite}
+.dial::before{content:"";position:absolute;inset:9%;border-radius:50%;border:1px dashed rgba(255,194,0,.35)}
+.dial-core{width:46%;aspect-ratio:1;border-radius:50%;background:var(--gold);color:#000;display:grid;place-items:center;font-weight:800;font-size:clamp(20px,3vw,30px);box-shadow:0 0 60px rgba(255,194,0,.35);animation:spin 60s linear infinite reverse}
+.tick{position:absolute;width:2px;height:8%;background:var(--gold);top:2%;left:calc(50% - 1px);transform-origin:50% 600%}
+.door-tag{position:absolute;font-family:var(--mono);font-size:12px;padding:8px 12px;border-radius:999px;background:#000;border:1px solid var(--line);color:var(--text);white-space:nowrap}
+.door-tag b{color:var(--gold)}
+.t1{top:8%;left:-6%}.t2{top:40%;right:-8%}.t3{bottom:9%;left:4%}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.dial,.dial-core{animation:none}html{scroll-behavior:auto}}
+
+/* Strip */
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--ink-2)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding-top:28px;padding-bottom:28px}
+.stat b{display:block;font-size:30px;font-weight:800;color:var(--gold);line-height:1.1}
+.stat span{color:var(--muted);font-size:15px}
+
+/* Inside grid */
+.head{max-width:720px;margin-bottom:56px}
+.head .lead{margin-top:18px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--ink-2);border:1px solid var(--line);border-radius:var(--r);padding:30px;position:relative;transition:border-color .2s ease,transform .2s ease}
+.card:hover{border-color:rgba(255,194,0,.5);transform:translateY(-3px)}
+.card .num{font-family:var(--mono);font-size:12px;color:var(--gold)}
+.card h3{margin:14px 0 10px}
+.card p{color:var(--muted);font-size:16px}
+.card .tag{position:absolute;top:24px;right:24px;font-family:var(--mono);font-size:11px;padding:4px 9px;border-radius:999px;background:var(--gold);color:#000;font-weight:700}
+.card.wide{grid-column:span 2}
+
+/* Builder demo */
+.builder-sec{background:var(--paper);color:#111}
+.builder-sec .lead{color:#5a5649}
+.builder-sec .eyebrow{color:#8a6a00}
+.builder{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;background:#fff;border-radius:22px;padding:28px;box-shadow:0 30px 60px -30px rgba(0,0,0,.35);border:1px solid #e6e0cf}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.tab{font-family:var(--sans);font-weight:700;font-size:15px;padding:10px 16px;border-radius:999px;border:2px solid #111;background:#fff;color:#111;cursor:pointer}
+.tab[aria-selected="true"]{background:#111;color:var(--gold)}
+.field{margin-bottom:14px}
+.field label{display:block;font-weight:700;font-size:14px;margin-bottom:6px}
+.field input,.field select{width:100%;font-family:var(--sans);font-size:16px;padding:12px 14px;border-radius:10px;border:1.5px solid #d8d1bd;background:#fcfbf7;color:#111}
+.field input:focus,.field select:focus{outline:none;border-color:#111;box-shadow:0 0 0 3px rgba(255,194,0,.5)}
+.output{background:#0d0d0d;color:#EDEAE0;border-radius:16px;padding:22px;display:flex;flex-direction:column;min-height:100%}
+.output-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;color:var(--gold)}
+.copy{font-family:var(--mono);font-size:12px;text-transform:uppercase;background:var(--gold);color:#000;border:none;padding:8px 12px;border-radius:8px;cursor:pointer;font-weight:700}
+.output pre{font-family:var(--mono);font-size:13.5px;line-height:1.65;white-space:pre-wrap;word-break:break-word;flex:1}
+.output pre .hl{color:var(--gold)}
+.builder-note{margin-top:18px;font-size:15px;color:#5a5649}
+
+/* Monthly drop */
+.drops{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.drop{border-top:3px solid var(--gold);padding-top:18px}
+.drop h3{font-size:19px;margin-bottom:8px}
+.drop p{color:var(--muted);font-size:15.5px}
+
+/* Who */
+.who{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.who .card{padding:36px}
+.who ul{list-style:none;margin-top:18px}
+.who li{padding:10px 0 10px 30px;position:relative;border-bottom:1px solid var(--line);color:var(--text);font-size:16.5px}
+.who li::before{content:"→";position:absolute;left:0;color:var(--gold);font-weight:800}
+.license{margin-top:20px;display:flex;gap:18px;align-items:flex-start;background:var(--gold-dim);border:1px solid rgba(255,194,0,.35);border-radius:var(--r);padding:24px 28px}
+.license b{color:var(--gold)}
+
+/* Pricing */
+.pricing{background:var(--ink-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.toggle{display:inline-flex;background:#000;border:1px solid var(--line);border-radius:999px;padding:5px;margin-bottom:36px}
+.toggle button{font-family:var(--sans);font-weight:700;font-size:15px;border:none;background:transparent;color:var(--muted);padding:10px 20px;border-radius:999px;cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--gold);color:#000}
+.save{font-family:var(--mono);font-size:11px;margin-left:6px}
+.plans{display:grid;grid-template-columns:.85fr 1.15fr;gap:20px;align-items:stretch}
+.plan{background:var(--ink);border:1px solid var(--line);border-radius:20px;padding:36px;display:flex;flex-direction:column}
+.plan.pro{border:2px solid var(--gold);position:relative;box-shadow:0 30px 70px -40px rgba(255,194,0,.5)}
+.badge{position:absolute;top:-14px;left:36px;background:var(--gold);color:#000;font-family:var(--mono);font-size:12px;font-weight:700;padding:6px 12px;border-radius:999px}
+.amount{font-size:58px;font-weight:800;letter-spacing:-.03em;line-height:1;margin:18px 0 6px}
+.amount small{font-size:18px;color:var(--muted);font-weight:500;letter-spacing:0}
+.was{color:var(--muted);font-size:15px;min-height:24px}
+.plan ul{list-style:none;margin:26px 0 30px;flex:1}
+.plan li{padding:9px 0 9px 30px;position:relative;font-size:16px}
+.plan li::before{content:"";position:absolute;left:2px;top:15px;width:14px;height:8px;border-left:3px solid var(--gold);border-bottom:3px solid var(--gold);transform:rotate(-45deg)}
+.plan.free li::before{border-color:var(--muted)}
+.plan .btn{width:100%}
+.fine{margin-top:14px;color:var(--muted);font-size:14px;text-align:center}
+
+/* Next steps */
+.next{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.next a{display:block;text-decoration:none;background:var(--ink-2);border:1px solid var(--line);border-radius:var(--r);padding:30px;transition:border-color .2s ease}
+.next a:hover{border-color:var(--gold)}
+.next p{color:var(--muted);font-size:16px;margin-top:8px}
+.next .go{color:var(--gold);font-weight:700;margin-top:14px;display:inline-block}
+
+/* FAQ */
+.faq{max-width:820px}
+details{border-bottom:1px solid var(--line);padding:22px 0}
+summary{cursor:pointer;font-weight:700;font-size:19px;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--gold);font-size:26px;line-height:1;font-weight:500;transition:transform .2s ease}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--muted);margin-top:12px;font-size:16.5px}
+
+/* Final */
+.final{text-align:center;padding:110px 0}
+.final h2{max-width:820px;margin:0 auto 22px}
+.final .lead{margin:0 auto 36px}
+footer{border-top:1px solid var(--line);padding:36px 0 110px;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{color:var(--muted)}
+
+/* Sticky mobile CTA */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(10,10,10,.95);border-top:1px solid var(--line);padding:12px 16px;display:none;align-items:center;justify-content:space-between;gap:12px;transform:translateY(100%);transition:transform .25s ease}
+.sticky.show{transform:none}
+.sticky span{font-size:14px;color:var(--muted)}
+.sticky span b{color:var(--text);display:block;font-size:16px}
+.sticky .btn{padding:12px 20px;font-size:15px}
+
+/* Reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+/* Responsive */
+@media (max-width:960px){
+  .hero-grid,.builder,.plans{grid-template-columns:1fr}
+  .door{max-width:420px;margin:0 auto;width:100%}
+  .grid{grid-template-columns:1fr 1fr}
+  .drops{grid-template-columns:1fr 1fr}
+  .strip .wrap{grid-template-columns:1fr 1fr}
+}
+@media (max-width:680px){
+  body{font-size:17px}
+  .wrap{padding:0 16px}
+  section{padding:68px 0}
+  .hero{padding:52px 0 56px}
+  .grid,.drops,.who,.next{grid-template-columns:1fr}
+  .card.wide{grid-column:auto}
+  .builder{padding:18px}
+  .plan{padding:28px 22px}
+  .t1{left:2%}.t2{right:2%}
+  nav .btn{display:none}
+  .sticky{display:flex}
+  .hero-ctas .btn{width:100%}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav aria-label="Main">
+  <div class="wrap">
+    <a href="#top" class="logo"><span class="logo-mark">E4L</span> Vault</a>
+    <a href="#pricing" class="btn btn-gold" data-cta>Get founding access</a>
+  </div>
+</nav>
+
+<!-- Context banner: text set by ?from= (pdf, ebook, scorecard, activate) -->
+<div class="context" id="context" hidden role="status">
+  <div class="wrap"><span class="check" aria-hidden="true">✓</span><span id="context-text"></span></div>
+</div>
+
+<main id="main">
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="reveal">
+      <span class="mono eyebrow" id="hero-eyebrow">The E4L Vault · Founding members</span>
+      <h1 id="hero-title">Stop starting from a blank page. <span class="gold">Open the Vault.</span></h1>
+      <p class="lead" id="hero-lead">Ready-to-use marketing prompts, Claude skills, GoHighLevel snapshots and video editing with AI, built and tested by the E4L team. Copy it, paste it, get the result. New tools land every month.</p>
+      <div class="hero-ctas">
+        <a href="#pricing" class="btn btn-gold" id="hero-cta" data-cta>Get founding access <span class="arrow" aria-hidden="true">→</span></a>
+        <a href="#inside" class="btn btn-ghost">See what's inside</a>
+      </div>
+      <p class="price-note" id="hero-price"><b>$10/mo</b> founding price <s>$20/mo</s> · First 50 members only · Cancel anytime</p>
+    </div>
+    <div class="door reveal" aria-hidden="true">
+      <div class="dial">
+        <span class="tick"></span>
+        <div class="dial-core">E4L</div>
+      </div>
+      <span class="door-tag t1"><b>100+</b> prompts</span>
+      <span class="door-tag t2"><b>GHL</b> snapshots</span>
+      <span class="door-tag t3"><b>New</b> every month</span>
+    </div>
+  </div>
+</header>
+
+<div class="strip">
+  <div class="wrap">
+    <div class="stat reveal"><b>100+</b><span>marketing prompts at launch</span></div>
+    <div class="stat reveal"><b>6</b><span>Claude skills, ready to install</span></div>
+    <div class="stat reveal"><b>3</b><span>GoHighLevel snapshots</span></div>
+    <div class="stat reveal"><b>1</b><span>live call every month</span></div>
+  </div>
+</div>
+
+<section id="inside">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">What's inside</span>
+      <h2>Everything you need to market with AI, in one place.</h2>
+      <p class="lead">Every tool is sorted by the job you're trying to do: ads, email, content, video and follow-up. Find it, use it, move on.</p>
+    </div>
+    <div class="grid">
+      <article class="card reveal">
+        <span class="num">01</span>
+        <h3>Marketing prompt library</h3>
+        <p>Tested prompts for ads, emails, content, offers and reading your results. Works in ChatGPT, Claude and Gemini.</p>
+      </article>
+      <article class="card reveal">
+        <span class="num">02</span>
+        <h3>Prompt builder</h3>
+        <p>Pick a task, answer a few questions about your business, and get a finished prompt. Try it below.</p>
+      </article>
+      <article class="card reveal">
+        <span class="num">03</span>
+        <h3>Claude skills</h3>
+        <p>Install once and Claude becomes a specialist that already knows your business: ad copywriter, email writer, content planner.</p>
+      </article>
+      <article class="card wide reveal">
+        <span class="tag">ONLY HERE</span>
+        <span class="num">04</span>
+        <h3>GoHighLevel snapshots, plus a version for everyone else</h3>
+        <p>Missed-call text-back, speed-to-lead follow-up and review requests: the same kind of systems our agency installs. Import in minutes if you use GoHighLevel. Not on it? Every snapshot comes with a "Run it anywhere" playbook, so you get every message, the timing and the trigger to set up in any tool.</p>
+      </article>
+      <article class="card reveal">
+        <span class="tag">NEW</span>
+        <span class="num">05</span>
+        <h3>Video editing with Claude</h3>
+        <p>Find your best clips, cut silences, make vertical versions and add captions. From planning the edit to letting Claude do the cutting.</p>
+      </article>
+      <article class="card reveal">
+        <span class="num">06</span>
+        <h3>Ads training series</h3>
+        <p>Short lessons every month on writing, launching and fixing Facebook and Instagram ads, with the prompts to do each step.</p>
+      </article>
+      <article class="card reveal">
+        <span class="num">07</span>
+        <h3>Monthly live call</h3>
+        <p>Bring your ads, emails and funnels. We review them live and answer your questions.</p>
+      </article>
+      <article class="card reveal">
+        <span class="num">08</span>
+        <h3>Step-by-step tutorials</h3>
+        <p>A short video for every snapshot and skill, so nothing sits unused because you couldn't set it up.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="builder-sec" id="builder" aria-labelledby="builder-title">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">Try it now · Free</span>
+      <h2 id="builder-title">See the prompt builder work on your business.</h2>
+      <p class="lead">Fill in three blanks. Copy the prompt into ChatGPT or Claude. This is one task. Members get the full builder and the whole library.</p>
+    </div>
+    <div class="builder reveal">
+      <div>
+        <div class="tabs" role="tablist" aria-label="Choose a task">
+          <button class="tab" role="tab" aria-selected="true" data-task="ad">Facebook ad</button>
+          <button class="tab" role="tab" aria-selected="false" data-task="email">Sales email</button>
+          <button class="tab" role="tab" aria-selected="false" data-task="video">Short video script</button>
+        </div>
+        <div class="field">
+          <label for="f-biz">Your business</label>
+          <input id="f-biz" type="text" placeholder="e.g. a family-owned plumbing company in Austin">
+        </div>
+        <div class="field">
+          <label for="f-offer">What you're promoting</label>
+          <input id="f-offer" type="text" placeholder="e.g. $49 drain cleaning this month">
+        </div>
+        <div class="field">
+          <label for="f-aud">Who it's for</label>
+          <input id="f-aud" type="text" placeholder="e.g. homeowners with older houses">
+        </div>
+        <div class="field">
+          <label for="f-tone">Tone</label>
+          <select id="f-tone">
+            <option>friendly and down-to-earth</option>
+            <option>bold and direct</option>
+            <option>premium and polished</option>
+            <option>funny and light</option>
+          </select>
+        </div>
+      </div>
+      <div class="output" aria-live="polite">
+        <div class="output-top"><span class="mono">Your prompt</span><button class="copy" id="copy" type="button">Copy</button></div>
+        <pre id="prompt-out"></pre>
+      </div>
+    </div>
+    <p class="builder-note reveal">Paste it into ChatGPT or Claude and you'll get usable copy back, not a generic draft.</p>
+  </div>
+</section>
+
+<section id="monthly">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">The monthly drop</span>
+      <h2>The Vault gets bigger every month.</h2>
+      <p class="lead">AI changes fast. So the Vault does too. Here's what lands for members every month.</p>
+    </div>
+    <div class="drops">
+      <div class="drop reveal"><h3>A hook pack</h3><p>30 new ad and video hooks, ready to test.</p></div>
+      <div class="drop reveal"><h3>An email of the month</h3><p>A fill-in-the-blanks email that's working right now.</p></div>
+      <div class="drop reveal"><h3>A teardown</h3><p>An ad or funnel that's working, broken down so you can borrow the idea.</p></div>
+      <div class="drop reveal"><h3>A new skill or snapshot</h3><p>One new Claude skill or GoHighLevel snapshot, with its tutorial.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="who" style="padding-top:0">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">Who it's for</span>
+      <h2>Built for two kinds of people.</h2>
+    </div>
+    <div class="who">
+      <div class="card reveal">
+        <h3>Business owners doing their own marketing</h3>
+        <ul>
+          <li>Write ads and emails in minutes, not evenings</li>
+          <li>Stop losing leads with follow-up that runs itself</li>
+          <li>Turn one video into a week of content</li>
+          <li>Get your questions answered on the live call</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h3>People earning with AI</h3>
+        <ul>
+          <li>Install proven systems for your clients</li>
+          <li>Deliver ad copy, emails and video edits faster</li>
+          <li>Pitch services you can show working</li>
+          <li>Keep your toolkit current without the research</li>
+        </ul>
+      </div>
+    </div>
+    <div class="license reveal">
+      <span class="mono gold" style="flex:none">License</span>
+      <p><b>Use it for your clients.</b> Every prompt, skill and snapshot can be used in work you do for your own clients. Many prompt libraries forbid that. We don't.</p>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="pricing" aria-labelledby="pricing-title">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">Founding pricing</span>
+      <h2 id="pricing-title">Lock in half price, for life.</h2>
+      <p class="lead">The first 50 members pay $10 a month, and keep that price for as long as they stay. After that, the Vault is $20 a month.</p>
+    </div>
+    <div class="toggle reveal" role="group" aria-label="Billing period">
+      <button type="button" aria-pressed="true" data-bill="mo">Monthly</button>
+      <button type="button" aria-pressed="false" data-bill="yr">Yearly <span class="save">2 months free</span></button>
+    </div>
+    <div class="plans">
+      <div class="plan free reveal">
+        <span class="mono" style="color:var(--muted)">Free</span>
+        <div class="amount">$0</div>
+        <div class="was">Free forever</div>
+        <ul>
+          <li>25 starter prompts</li>
+          <li>Prompt builder, 3 uses a month</li>
+          <li>The monthly tip email</li>
+        </ul>
+        <a href="#" class="btn btn-ghost" id="free-link">Start free</a>
+      </div>
+      <div class="plan pro reveal">
+        <span class="badge">FOUNDING MEMBER</span>
+        <span class="mono gold">Vault Pro</span>
+        <div class="amount" id="pro-amount">$10<small>/month</small></div>
+        <div class="was" id="pro-was"><s>$20/month</s> · price locked for life</div>
+        <ul>
+          <li>The full prompt library, growing every month</li>
+          <li>Unlimited prompt builder</li>
+          <li>All Claude skills</li>
+          <li>Every GoHighLevel snapshot, plus "Run it anywhere" playbooks</li>
+          <li>Video editing with Claude series</li>
+          <li>Ads training series</li>
+          <li>Monthly live call</li>
+          <li>Client-use license</li>
+        </ul>
+        <a href="#" class="btn btn-gold" id="pro-link" data-cta>Get founding access <span class="arrow" aria-hidden="true">→</span></a>
+        <p class="fine" id="pro-fine">Billed monthly. Cancel anytime from your account.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="next">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">When you're ready for more</span>
+      <h2>The Vault is step one.</h2>
+    </div>
+    <div class="next">
+      <a href="#" id="activate-link" class="reveal">
+        <span class="mono gold">E4L Activate</span>
+        <h3 style="margin-top:10px">Turn these tools into income.</h3>
+        <p>An 8-week cohort that teaches you to sell AI marketing services to clients. Members hear first when a new cohort opens.</p>
+        <span class="go">Learn about Activate →</span>
+      </a>
+      <a href="#" id="agency-link" class="reveal">
+        <span class="mono gold">E4L Agency</span>
+        <h3 style="margin-top:10px">Rather we just did it for you?</h3>
+        <p>Our team installs, runs and improves these systems in your business. You never touch the tech.</p>
+        <span class="go">Book a Game Plan Call →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:0">
+  <div class="wrap faq">
+    <div class="head reveal" style="margin-bottom:24px">
+      <span class="mono eyebrow">Questions</span>
+      <h2>Good questions.</h2>
+    </div>
+    <details class="reveal"><summary>Do I need a paid ChatGPT or Claude plan?</summary><p>No. The prompts work in the free versions of ChatGPT, Claude and Gemini. Claude skills and the hands-on video editing work best with a paid Claude plan, and each tutorial tells you exactly what you need.</p></details>
+    <details class="reveal"><summary>I don't use GoHighLevel. Is the Vault still worth it?</summary><p>Yes. Every snapshot comes with a "Run it anywhere" playbook: the exact messages, timing and trigger, ready to set up in whatever tool you use, or by hand. GoHighLevel is just the fastest way to run them.</p></details>
+    <details class="reveal"><summary>Can I use this for my clients?</summary><p>Yes. Our license lets you use every prompt, skill and snapshot in work for your own clients. You just can't resell the Vault itself or share your login.</p></details>
+    <details class="reveal"><summary>What happens to my founding price?</summary><p>It's locked for as long as you stay a member. If you cancel and come back later, you'll pay the price at that time.</p></details>
+    <details class="reveal"><summary>How do I cancel?</summary><p>From your account, anytime. You keep access until the end of the period you've paid for.</p></details>
+    <details class="reveal"><summary>How is this different from other AI prompt libraries?</summary><p>It's built for marketing, not everything. It includes GoHighLevel systems nobody else offers, a monthly live call with real people, and a license to use it for your clients.</p></details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2 class="reveal">Your next ad, email and video are <span class="gold">already in the Vault.</span></h2>
+    <p class="lead reveal">Founding price for the first 50 members: $10 a month, locked in for life.</p>
+    <a href="#pricing" class="btn btn-gold reveal" data-cta>Get founding access <span class="arrow" aria-hidden="true">→</span></a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr"></span> Eat 4 Life Marketing · E4L Vault</span>
+    <span><a href="#" id="terms-link">Terms</a> · <a href="#" id="privacy-link">Privacy</a></span>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky" aria-hidden="true">
+  <span><b>E4L Vault · $10/mo</b>Founding price, first 50</span>
+  <a href="#pricing" class="btn btn-gold" tabindex="-1">Join now</a>
+</div>
+
+<script>
+/* ============================================================
+   CONFIG: edit these before launch. Paste the GoHighLevel
+   checkout / order-form links for each plan.
+   ============================================================ */
+const CONFIG = {
+  checkout: {
+    monthly: "#CHECKOUT-MONTHLY",   // $10/mo founding
+    yearly:  "#CHECKOUT-YEARLY",    // $99/yr founding
+    trial:   "#CHECKOUT-TRIAL",     // free trial offer (PDF / ebook buyers)
+    free:    "#SIGNUP-FREE"
+  },
+  links: {
+    activate: "#ACTIVATE-PAGE",
+    agency:   "#GAME-PLAN-CALL",
+    terms:    "#TERMS",
+    privacy:  "#PRIVACY"
+  },
+  trialDays: 7,
+  price: { mo: 10, moFull: 20, yr: 99, yrFull: 199 }
+};
+
+/* Entry points: joine4l.com/vault?from=pdf | ebook | scorecard | activate
+   Each one changes the banner, headline and main button so the page
+   reads as the next step of whatever the visitor just did. */
+const ENTRY = {
+  pdf: {
+    banner: "Your prompt PDF is on its way to your inbox. One more thing before you go:",
+    eyebrow: "Buyers only · Free trial",
+    title: 'That PDF is a taste. <span class="gold">This is the whole Vault.</span>',
+    lead: "You just got a handful of prompts. Members get the full library, the prompt builder, Claude skills, GoHighLevel snapshots and video editing with AI, with new tools every month.",
+    cta: "Start my free trial", ctaHref: "trial",
+    price: () => `<b>Free for ${CONFIG.trialDays} days</b>, then $${CONFIG.price.mo}/mo founding price <s>$${CONFIG.price.moFull}/mo</s> · Cancel anytime`
+  },
+  ebook: {
+    banner: "Thanks for reading the E4L ebook. Here's your next step:",
+    eyebrow: "For ebook readers · Free trial",
+    title: 'You read the playbook. <span class="gold">Here are the tools.</span>',
+    lead: "Everything in the book, ready to use: prompts for every chapter, Claude skills that know your business, and GoHighLevel snapshots that run your follow-up for you.",
+    cta: "Start my free trial", ctaHref: "trial",
+    price: () => `<b>Free for ${CONFIG.trialDays} days</b>, then $${CONFIG.price.mo}/mo founding price <s>$${CONFIG.price.moFull}/mo</s> · Cancel anytime`
+  },
+  scorecard: {
+    banner: "Thanks for taking the Revenue Leak Scorecard.",
+    eyebrow: "Fix the leaks yourself",
+    title: 'Not ready for done-for-you? <span class="gold">Fix the leaks yourself.</span>',
+    lead: "The Vault has the same kind of systems our agency installs: missed-call text-back, speed-to-lead follow-up and review requests, with step-by-step setup. Start with your biggest leak this week.",
+    cta: "Get founding access", ctaHref: "pricing",
+    price: null
+  },
+  activate: {
+    banner: "E4L Activate student? The Vault is included free during your 8 weeks.",
+    eyebrow: "E4L Activate · Included",
+    title: 'Your toolkit for <span class="gold">client work.</span>',
+    lead: "Every prompt, skill and snapshot in the Vault can be used for your clients. It's included while you're in the cohort. Keep it afterwards at the member price.",
+    cta: "Claim my Vault access", ctaHref: "trial",
+    price: () => `<b>Free during Activate</b>, then $${CONFIG.price.mo}/mo founding price · Cancel anytime`
+  }
+};
+
+(function () {
+  const $ = (id) => document.getElementById(id);
+  document.getElementById("yr").textContent = new Date().getFullYear();
+
+  // Wire links
+  $("free-link").href = CONFIG.checkout.free;
+  $("activate-link").href = CONFIG.links.activate;
+  $("agency-link").href = CONFIG.links.agency;
+  $("terms-link").href = CONFIG.links.terms;
+  $("privacy-link").href = CONFIG.links.privacy;
+
+  // Billing toggle
+  let bill = "mo";
+  function setBill(b) {
+    bill = b;
+    document.querySelectorAll("[data-bill]").forEach(btn =>
+      btn.setAttribute("aria-pressed", String(btn.dataset.bill === b)));
+    const p = CONFIG.price;
+    if (b === "mo") {
+      $("pro-amount").innerHTML = `$${p.mo}<small>/month</small>`;
+      $("pro-was").innerHTML = `<s>$${p.moFull}/month</s> · price locked for life`;
+      $("pro-fine").textContent = "Billed monthly. Cancel anytime from your account.";
+      $("pro-link").href = CONFIG.checkout.monthly;
+    } else {
+      $("pro-amount").innerHTML = `$${p.yr}<small>/year</small>`;
+      $("pro-was").innerHTML = `<s>$${p.yrFull}/year</s> · about $${(p.yr / 12).toFixed(2)} a month`;
+      $("pro-fine").textContent = "Billed once a year. Cancel anytime from your account.";
+      $("pro-link").href = CONFIG.checkout.yearly;
+    }
+  }
+  document.querySelectorAll("[data-bill]").forEach(btn =>
+    btn.addEventListener("click", () => setBill(btn.dataset.bill)));
+  setBill("mo");
+
+  // Entry point
+  const from = new URLSearchParams(location.search).get("from");
+  const e = ENTRY[from];
+  if (e) {
+    $("context-text").textContent = e.banner;
+    $("context").hidden = false;
+    $("hero-eyebrow").textContent = e.eyebrow;
+    $("hero-title").innerHTML = e.title;
+    $("hero-lead").textContent = e.lead;
+    $("hero-cta").firstChild.textContent = e.cta + " ";
+    if (e.ctaHref === "trial") $("hero-cta").href = CONFIG.checkout.trial;
+    if (e.price) $("hero-price").innerHTML = e.price();
+  }
+
+  // Prompt builder demo
+  const TASKS = {
+    ad: (b, o, a, t) =>
+`You are a direct-response copywriter who has written Facebook and Instagram ads for local businesses for 10 years.
+
+Write 3 Facebook ad variations for <hl>${b}</hl>, promoting <hl>${o}</hl>, aimed at <hl>${a}</hl>.
+
+For each variation give me:
+1. A scroll-stopping first line (under 12 words)
+2. Body copy, 60 to 90 words, ${t}
+3. One clear call to action
+4. A headline for under the image (under 8 words)
+
+Rules: talk about the customer's problem before the offer. No hype words like "game-changer" or "unlock". Make each variation use a different angle: pain, result, and proof.`,
+    email: (b, o, a, t) =>
+`You are an email marketer who writes emails people actually open and click.
+
+Write a sales email for <hl>${b}</hl> promoting <hl>${o}</hl> to <hl>${a}</hl>. The tone is ${t}.
+
+Give me:
+1. 5 subject lines under 45 characters, and tell me which one you'd test first
+2. A preview line
+3. The email, 120 to 180 words: open with something the reader recognizes from their own life, then the offer, then one link
+4. A P.S. that adds urgency without sounding pushy
+
+Write it like one person emailing another. Short paragraphs. No "I hope this email finds you well."`,
+    video: (b, o, a, t) =>
+`You are a short-form video strategist for small businesses.
+
+Write a 30 to 45 second vertical video script for <hl>${b}</hl> promoting <hl>${o}</hl>, made for <hl>${a}</hl>. The tone is ${t}.
+
+Give me:
+1. 3 hook options for the first 2 seconds (spoken words and on-screen text)
+2. The script, split into shots, with what to film for each one
+3. Captions for each shot, 6 words max per line
+4. A closing call to action
+5. A caption for the post, with 3 hashtags
+
+Keep it something one person can film on a phone in 20 minutes.`
+  };
+  let task = "ad";
+  const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  function val(id, fallback) { const v = $(id).value.trim(); return v ? esc(v) : fallback; }
+  function render() {
+    const raw = TASKS[task](
+      val("f-biz", "[your business]"),
+      val("f-offer", "[your offer]"),
+      val("f-aud", "[your audience]"),
+      esc($("f-tone").value)
+    );
+    $("prompt-out").innerHTML = raw.replace(/<hl>(.*?)<\/hl>/g, '<span class="hl">$1</span>');
+  }
+  document.querySelectorAll(".tab").forEach(tab => tab.addEventListener("click", () => {
+    task = tab.dataset.task;
+    document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t === tab)));
+    render();
+  }));
+  ["f-biz", "f-offer", "f-aud", "f-tone"].forEach(id => $(id).addEventListener("input", render));
+  render();
+  $("copy").addEventListener("click", async () => {
+    const text = $("prompt-out").textContent;
+    try { await navigator.clipboard.writeText(text); }
+    catch (_) {
+      const ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta);
+      ta.select(); try { document.execCommand("copy"); } catch (_) {} ta.remove();
+    }
+    $("copy").textContent = "Copied ✓";
+    setTimeout(() => ($("copy").textContent = "Copy"), 1800);
+  });
+
+  // Reveal on scroll
+  const io = "IntersectionObserver" in window ? new IntersectionObserver(entries => {
+    entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } });
+  }, { threshold: 0.12 }) : null;
+  document.querySelectorAll(".reveal").forEach(el => io ? io.observe(el) : el.classList.add("in"));
+
+  // Sticky mobile CTA after the hero
+  const sticky = $("sticky"), hero = document.querySelector(".hero"), pricing = $("pricing");
+  function onScroll() {
+    const past = hero.getBoundingClientRect().bottom < 0;
+    const r = pricing.getBoundingClientRect();
+    const atPricing = r.top < innerHeight && r.bottom > 0;
+    sticky.classList.toggle("show", past && !atPricing);
+  }
+  addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
+</body>
+</html>
