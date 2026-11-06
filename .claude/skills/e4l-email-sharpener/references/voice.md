@@ -59,6 +59,28 @@ to *this* reader: "your list," "the people who booked with you," or `[First Name
 dropped mid-email where a friend would say your name. Use it once, at the beat that
 matters, not as a tic.
 
+## Agency: an owner talking to an owner, never an agency talking (Chosen, 2026-11-06)
+
+*"I don't want NO more stuff on agency that speaks like an agency to these potential
+CLIENTS."* The agency reader runs a business. They are not a marketer, and they aren't
+interested in how marketing agencies work.
+
+- **About their business, never ours.** Their money, time, customers and phone, not our
+  clients, our process, our first deal or our pitch deck.
+- **No marketing jargon:** leads, funnel, CRM, SEO, AEO, AI search visibility, pipeline,
+  nurture, conversion, engagement, attribution, workflow, content strategy, omnichannel. Say
+  the thing that happens instead: "the call at 7pm nobody answered," "the customer who never
+  came back."
+- Proof: "Would you let AI pay your invoices?" opened at 22.2% (Nov 2). Agency-insider
+  subjects came in at 9–13.5%.
+
+## Student subjects: Chosen's gaming life and motivation, never the news (2026-11-06)
+
+"I mastered Liu Kang before I mastered ads" opened at 19.7% on a Wednesday. News-pegged
+subjects get 6–8%, even gaming news ("Zelda comes back Thursday," 8.3%). Student subjects
+lead with Chosen: a game, a grind, a real moment, a push. News can sit in the body. It
+never leads.
+
 ## The two lists have different signoffs — this is a wall
 
 | | Agency | Student |

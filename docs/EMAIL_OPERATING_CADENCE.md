@@ -20,6 +20,38 @@ week ahead. Nothing about that moves.
 
 ---
 
+## Standing direction: what the results say to write (Chosen, 2026-11-06)
+
+From Daniel's report for Nov 2–6 (`reports/email/2026-11-09/daniel-report-nov2-6.pdf`). Chosen:
+*"Looks like the gaming subject matter and motivation does better than the news on
+students AND I don't want NO more stuff on agency that speaks like an agency to these
+potential CLIENTS."*
+
+**Students: gaming and motivation, not news.**
+- "I mastered Liu Kang before I mastered ads" opened at **19.7% on a Wednesday**. "Nobody was
+  clapping when I moved to LA" got 17.9% the Sunday before. The news-pegged subjects got
+  6–8%: "Zelda comes back Thursday" 8.3% (gaming, but pegged to news), Stripe Atlas 7.2%.
+  That settles the subject-or-Sunday question: **it's the subject.**
+- So student subjects are **Chosen's own gaming life and motivation**: "I," a real moment,
+  a game or a grind. A news hook can sit in the body as garnish. It never leads the
+  subject, gaming news included.
+
+**Agency: talk like an owner to an owner, never like an agency.**
+- The reader is a **potential client**, not a marketer. "Would you let AI pay your
+  invoices?" (22.2%, the best agency email yet) is about *their* business and *their* money.
+  "My first client never saw a pitch deck" and "Could a robot find your prices?" are about
+  how agencies work or what agencies sell, and they came in lower.
+- **Never** write about agencies, our clients, our process, pitch decks or "what we do."
+  **No marketing jargon**: leads, funnel, CRM, SEO, AEO, "AI search visibility," pipeline,
+  nurture, conversion, engagement, attribution, workflow, content strategy, omnichannel.
+  Say what happens in their shop instead: "the phone rings at 7pm and nobody picks up," not
+  "lead capture."
+- The subject is a short, direct question or statement about the owner's business, money,
+  time or customers. The CTA (the call, or the site) stays at the end and reads like a
+  next step, not a pitch.
+- The editor flags any agency email that reads like an agency talking about itself, in
+  `EDITED.md` and the GO message.
+
 ## Standing direction: the energy every batch is written to (from the week of Nov 9)
 
 Chosen, 2026-10-31, after reading the five possibility emails: *"These are great… they

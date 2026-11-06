@@ -1,0 +1,21 @@
+{
+  "source": "Daniel's weekly report, Nov 2–6 (GHL Statistics; Friday numbers taken a few hours after sending). Sunday Nov 8 sends not included yet",
+  "sides": {
+    "Students (school)": {
+      "summary": "Personal and gaming subjects won: \"I mastered Liu Kang before I mastered ads\" opened at 19.7% on a Wednesday, about 3x the news-style subjects (8.3% and 7.2%). Last week: 6.0% and 6.0%.",
+      "rows": [
+        { "sent": "Mon Nov 2", "subject": "Zelda comes back Thursday. Steal the idea.", "delivered": 2010, "openRate": "8.3%", "clickRate": "2 clicks" },
+        { "sent": "Wed Nov 4", "subject": "I mastered Liu Kang before I mastered ads", "delivered": 2010, "openRate": "19.7%", "clickRate": "5 clicks" },
+        { "sent": "Fri Nov 6", "subject": "Most new Stripe Atlas startups are one person", "delivered": 2000, "openRate": "7.2% (early)", "clickRate": "1 click" }
+      ]
+    },
+    "Agency (E4L Services)": {
+      "summary": "\"Would you let AI pay your invoices?\" opened at 22.2%, the best agency rate so far: a short, direct question about the owner's own business. 13 bounces this week (some repeats); tagging them bounced and putting them on Email DND is waiting on Chosen.",
+      "rows": [
+        { "sent": "Mon Nov 2", "subject": "Would you let AI pay your invoices?", "delivered": 351, "openRate": "22.2%", "clickRate": "9 clicks" },
+        { "sent": "Wed Nov 4", "subject": "Could a robot find your prices?", "delivered": 355, "openRate": "9.0%", "clickRate": "7 clicks" },
+        { "sent": "Fri Nov 6", "subject": "My first client never saw a pitch deck", "delivered": 355, "openRate": "13.5% (early)", "clickRate": "7 clicks" }
+      ]
+    }
+  }
+}

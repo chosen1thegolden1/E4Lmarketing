@@ -20,6 +20,14 @@ This pass changes **how the email looks and reads**, not what it says.
 - A subject line or preview text that misses badly — flagged in the notes, never
   changed silently.
 
+## Agency-speak check (Chosen, 2026-11-06)
+
+Read every agency email as the owner of a roofing company. If it talks about agencies, our
+clients or our process, or uses marketing jargon (leads, funnel, CRM, SEO, AI search
+visibility, pipeline, nurture, conversion, workflow), **swap the jargon word for the plain
+thing that happens** where that's a pure wording change ("missed calls," not "lead leakage").
+Flag anything bigger to Chosen by name. See `voice.md`, "Agency: an owner talking to an owner."
+
 ## Energy check (Chosen, 2026-10-31)
 
 Read each email next to its bar: student emails against the five in
