@@ -16,9 +16,19 @@ no one says yes. Our whole list will be tiny, more honest. but tiny."* So nobody
    re-engagement there is. Openers move into the readers lane.
 5. **Revisit after Black Friday** with real numbers.
 
-## Waiting on
-- **Abdullah, asked 2026-11-04:** total contacts, opened-or-clicked in the last 90 days, and
-  neither, in the Students account. That sizes each lane.
+## The count (Abdullah, 2026-11-05)
+
+| Students account | Contacts |
+|---|---|
+| Total | 2,958 |
+| Opened or clicked in the last 90 days (**readers lane**) | 928 (31%) |
+| Neither (**quiet lane**) | 2,030 (69%) |
+
+The readers lane is **928**, not the ~120 a single weekday open suggests. Different people
+open different emails. Each weekly send currently delivers to about 2,000, so roughly 1,100
+quiet contacts get every email and open none of them.
+
+**Waiting on:** Chosen's OK to send Abdullah the setup steps below.
 
 ## Then (for Abdullah, once Chosen sees the count)
 - A smart list or tag for each lane, keyed on email activity in the last 90 days.
