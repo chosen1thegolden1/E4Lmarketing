@@ -642,3 +642,15 @@ To run Fri 2026-11-06 (send dates Nov 9 / 11 / 13 / 15). Re-fetch every Source l
 | Booking link | api.leadconnectorhq.com/widget/bookings/cs-game-plan-call | JS widget (WebFetch can't render it); test-send click-through confirms. |
 
 **Relative dates on the send day:** all calendar-pinned. "Thanksgiving is 13 days from this Friday" (S3) is true on Fri Nov 13; "Christmas is 40 days from this Sunday" (A-SUN) is true on Sun Nov 15. Nothing with a deadline falls before a send date.
+
+### Friday freshness check — 2026-11-06 (re-fetched at the primary pages)
+
+| Email | Result |
+|---|---|
+| A1, S1 | e4lagency.com loads. Front Desk "from $500/mo", Creative Packs "from $750", Revenue Leak Scorecard and 20-minute Game Plan Call all unchanged. |
+| A2 | Google "How leads work" still reads: "You missed a phone call during your business hours and the customer stays on the line for more than 20 seconds." Page carries no date. |
+| A3 | SF Standard article (2026-10-29) loads, last modified same day, no correction. 848 calls, ~1 in 3, 1 in 25, vets/dentists vs dry cleaners/bars all match. Article is ambiguous whether "1 in 25" covers all businesses called or only those that stayed on the line; the email says "those businesses", as the article does. |
+| Book link | joineat4life.com/xboxtoexec: $9.95 digital copy, optional audiobook +$9.95, no shipping line. Still conflicts with "free + $9.95 shipping" in PROMOS.md. No email states a price. Open question for Chosen. |
+| Booking widget | JS widget, not fetchable. Test send click-through confirms. |
+
+Relative dates re-read against send dates: S3 "13 days to Thanksgiving" true on Fri Nov 13; A-SUN "40 days to Christmas" true on Sun Nov 15. No deadline passes before any send. **No dead emails, no swaps, no copy changes.**
