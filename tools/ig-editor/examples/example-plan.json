@@ -1,0 +1,28 @@
+{
+ "output": "edit.mp4",
+ "look": "punchy",
+ "progress_bar": true,
+ "sfx": true,
+ "music": {"src": "music.mp3", "volume": 0.15},
+ "clips": [
+  {"src": "raw.mp4", "in": 0.0, "out": 2.4},
+  {"src": "raw.mp4", "in": 2.9, "out": 5.6, "zoom": 1.12, "transition": "punch"},
+  {"src": "broll.mp4", "in": 0, "out": 1.5, "transition": "whip"},
+  {"src": "raw.mp4", "in": 6.1, "out": 10.0, "transition": "flash"}
+ ],
+ "captions": {"auto": true, "keywords": ["leads", "booked"], "style": "pop", "y": 0.66},
+ "zooms": [{"at": 3.1, "dur": 0.7, "scale": 1.25, "type": "punch"}],
+ "shakes": [],
+ "texts": [
+  {"text": "Stop losing leads", "style": "slam", "at": 0.05, "dur": 1.8, "y": 0.25, "hide_captions": true},
+  {"text": "LEADS", "style": "condensed", "size": 320, "color": "yellow", "behind": true, "at": 2.5, "dur": 1.6, "y": 0.2},
+  {"text": "", "style": "count", "from": 0, "to": 212, "prefix": "+", "suffix": "%", "at": 6.2, "dur": 1.8, "y": 0.26},
+  {"text": "more booked calls", "style": "bar", "at": 6.5, "dur": 1.5, "y": 0.34},
+  {"text": "Link in bio", "style": "pill", "at": 8.6, "dur": 1.4, "y": 0.3}
+ ],
+ "images": [
+  {"src": "client-photo.jpg", "cutout": true, "frame": "sticker", "w": 0.42, "x": 0.27, "y": 0.36, "rotate": -8, "anim": "pop", "float": true, "at": 4.0, "dur": 1.6},
+  {"src": "dashboard.png", "frame": "card", "w": 0.7, "y": 0.38, "rotate": 3, "anim": "slide-left", "out": "slide-left", "at": 7.0, "dur": 1.5},
+  {"src": "testimonial.mp4", "frame": "card", "w": 0.4, "aspect": 0.5625, "x": 0.74, "y": 0.38, "rotate": 5, "anim": "drop", "at": 8.4, "dur": 1.6}
+ ]
+}

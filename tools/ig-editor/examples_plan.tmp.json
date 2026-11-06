@@ -1,0 +1,322 @@
+{
+ "output": "edit.mp4",
+ "look": "punchy",
+ "progress_bar": true,
+ "sfx": true,
+ "clips": [
+  {
+   "src": "aroll.mp4",
+   "in": 0,
+   "out": 1.08,
+   "zoom": 1.0,
+   "transition": "cut"
+  },
+  {
+   "src": "aroll.mp4",
+   "in": 1.36,
+   "out": 3.44,
+   "zoom": 1.12,
+   "transition": "punch"
+  },
+  {
+   "src": "aroll.mp4",
+   "in": 3.72,
+   "out": 4.58,
+   "zoom": 1.0,
+   "transition": "whip"
+  },
+  {
+   "src": "aroll.mp4",
+   "in": 4.86,
+   "out": 5.68,
+   "zoom": 1.12,
+   "transition": "flash"
+  },
+  {
+   "src": "aroll.mp4",
+   "in": 6.06,
+   "out": 6.86,
+   "zoom": 1.0,
+   "transition": "glitch"
+  },
+  {
+   "src": "aroll.mp4",
+   "in": 7.16,
+   "out": 12.66,
+   "zoom": 1.12,
+   "transition": "zoomblur"
+  }
+ ],
+ "captions": {
+  "words": [
+   {
+    "word": "Graph",
+    "start": 0.0,
+    "end": 0.5
+   },
+   {
+    "word": "rise,",
+    "start": 0.5,
+    "end": 0.98
+   },
+   {
+    "word": "glass",
+    "start": 1.18,
+    "end": 1.48
+   },
+   {
+    "word": "to",
+    "start": 1.48,
+    "end": 1.82
+   },
+   {
+    "word": "X,",
+    "start": 1.82,
+    "end": 2.04
+   },
+   {
+    "word": "orbit",
+    "start": 2.42,
+    "end": 2.7
+   },
+   {
+    "word": "spin,",
+    "start": 2.7,
+    "end": 3.06
+   },
+   {
+    "word": "pull",
+    "start": 3.26,
+    "end": 3.44
+   },
+   {
+    "word": "out",
+    "start": 3.44,
+    "end": 3.6
+   },
+   {
+    "word": "reveal,",
+    "start": 3.6,
+    "end": 3.92
+   },
+   {
+    "word": "phone",
+    "start": 4.12,
+    "end": 4.34
+   },
+   {
+    "word": "frame,",
+    "start": 4.34,
+    "end": 4.74
+   },
+   {
+    "word": "dolly",
+    "start": 4.94,
+    "end": 5.3
+   },
+   {
+    "word": "zoom,",
+    "start": 5.3,
+    "end": 5.54
+   },
+   {
+    "word": "news",
+    "start": 5.74,
+    "end": 5.82
+   },
+   {
+    "word": "wall,",
+    "start": 5.82,
+    "end": 6.28
+   },
+   {
+    "word": "frame",
+    "start": 6.58,
+    "end": 6.9
+   },
+   {
+    "word": "pop,",
+    "start": 6.9,
+    "end": 7.3
+   },
+   {
+    "word": "punch",
+    "start": 7.54,
+    "end": 7.76
+   },
+   {
+    "word": "through",
+    "start": 7.76,
+    "end": 8.0
+   },
+   {
+    "word": "cut",
+    "start": 8.0,
+    "end": 8.26
+   },
+   {
+    "word": "green",
+    "start": 8.26,
+    "end": 8.56
+   },
+   {
+    "word": "screen,",
+    "start": 8.56,
+    "end": 8.92
+   },
+   {
+    "word": "interface",
+    "start": 9.34,
+    "end": 9.72
+   },
+   {
+    "word": "world",
+    "start": 9.72,
+    "end": 10.1
+   },
+   {
+    "word": "tick",
+    "start": 10.1,
+    "end": 10.64
+   },
+   {
+    "word": "list.",
+    "start": 10.64,
+    "end": 11.04
+   }
+  ],
+  "keywords": [
+   "spin",
+   "zoom",
+   "screen",
+   "pop"
+  ],
+  "y": 0.66,
+  "style": "pop",
+  "max_words": 3
+ },
+ "zooms": [
+  {
+   "at": 4.9,
+   "dur": 0.6,
+   "scale": 1.25,
+   "type": "punch"
+  },
+  {
+   "at": 6.0,
+   "dur": 4.5,
+   "scale": 1.15,
+   "type": "slow"
+  }
+ ],
+ "shakes": [],
+ "texts": [
+  {
+   "text": "Your editor just got replaced",
+   "style": "slam",
+   "at": 0.05,
+   "dur": 1.6,
+   "y": 0.25,
+   "hide_captions": true
+  },
+  {
+   "text": "EDITING",
+   "style": "condensed",
+   "at": 1.9,
+   "dur": 1.6,
+   "y": 0.2,
+   "size": 300,
+   "behind": true,
+   "color": "yellow"
+  },
+  {
+   "text": "10X \u2197",
+   "style": "pill",
+   "at": 3.1,
+   "dur": 1.4,
+   "x": 0.72,
+   "y": 0.33,
+   "rotate": -6
+  },
+  {
+   "text": "",
+   "style": "count",
+   "at": 7.0,
+   "dur": 1.8,
+   "y": 0.25,
+   "from": 0,
+   "to": 40000,
+   "prefix": "$",
+   "hide_captions": false
+  },
+  {
+   "text": "in 30 days",
+   "style": "bar",
+   "at": 7.3,
+   "dur": 1.5,
+   "y": 0.33
+  },
+  {
+   "text": "using",
+   "style": "label",
+   "at": 9.0,
+   "dur": 1.6,
+   "y": 0.24
+  },
+  {
+   "text": "AI Employees",
+   "style": "script",
+   "at": 9.1,
+   "dur": 1.5,
+   "y": 0.29
+  },
+  {
+   "text": "Run an agent swarm_",
+   "style": "headline",
+   "anim": "type",
+   "size": 64,
+   "at": 10.2,
+   "dur": 0.9,
+   "y": 0.3
+  }
+ ],
+ "images": [
+  {
+   "src": "person.png",
+   "cutout": true,
+   "frame": "sticker",
+   "w": 0.42,
+   "x": 0.27,
+   "y": 0.36,
+   "rotate": -8,
+   "anim": "pop",
+   "at": 3.0,
+   "dur": 1.6,
+   "float": true
+  },
+  {
+   "src": "result.png",
+   "frame": "card",
+   "w": 0.62,
+   "x": 0.5,
+   "y": 0.4,
+   "rotate": 4,
+   "anim": "slide-left",
+   "out": "slide-left",
+   "at": 5.0,
+   "dur": 1.6
+  },
+  {
+   "src": "broll.mp4",
+   "frame": "card",
+   "w": 0.4,
+   "aspect": 0.5625,
+   "x": 0.74,
+   "y": 0.38,
+   "rotate": 5,
+   "anim": "drop",
+   "at": 7.0,
+   "dur": 2.0
+  }
+ ]
+}

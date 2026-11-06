@@ -39,17 +39,29 @@ skill. This file holds what they all share.
 1 to 3 words on screen at a time, white heavy sans with a drop shadow. The key word of each phrase is yellow.
 Words appear in time with speech.
 
-## Render pipeline (tools in this container)
-- **ffmpeg**: cuts, scale/crop, overlays, zoompan, final mux.
-- **Playwright + HTML/CSS** for motion-graphic layers. Render a transparent PNG sequence
-  (`page.screenshot({omitBackground:true})` per frame, driving a `t` variable), then overlay it with ffmpeg.
-  Use this for cards, notes, charts, UI mockups, and kinetic type.
-- **Python (PIL/numpy/opencv)** for per-frame compositing and mattes.
-- **Subject matte** (needed by orbit spin, phone frame, dolly zoom, frame pop, green screen,
-  interface world, sketch boil, glass text occlusion): `pip install rembg onnxruntime` or
-  `mediapipe` selfie segmentation. Run it per frame, feather 3 px, then temporal-smooth the alpha.
-- **Transcription**: faster-whisper with word timestamps. Fall back to the ElevenLabs transcribe tool.
-- Keep work files in the scratchpad. Only skills and final deliverables go into the repo.
+## Render engine: `tools/ig-editor/` (use this for every edit)
+`igedit.py` renders a JSON plan. `autoplan.py` turns raw footage into a starting plan. The full key reference
+is in `tools/ig-editor/README.md`. Setup in a fresh container:
+`pip install faster-whisper mediapipe opencv-python-headless` and `apt-get install -y libegl1 libgles2`.
+
+Standard run for a brief:
+1. `python3 tools/ig-editor/autoplan.py <raw clips> -o <scratch>/plan.json --keywords <from brief> --hook "<hook line>"`
+   transcribes, cuts dead air, alternates 1.0x/1.12x framing per cut, and adds captions and a progress bar.
+2. Edit the plan with the beats from the brief. The building blocks:
+   - **Edits**: transitions `punch`, `whip`, `flash`, `glitch`, `zoomblur`; punch or slow zooms; shakes; B-roll clips; `blurpad` for horizontal footage.
+   - **Captions**: `pop`, `box`, or `karaoke`, with keywords in yellow.
+   - **Words**: text styles `slam`, `condensed`, `bar`, `pill`, `count`, `label`, `script`, `serif`, `marker`, `outline`,
+     plus `anim: type` for typewriter. Set `behind: true` to put the word behind the person.
+   - **Pop-outs**: images or videos as `card`, `sticker`, `polaroid`, or `circle`. Use `cutout: true` to cut a person out of a photo.
+     Animations are pop, drop, spin, slide-*, and float.
+   - **Sound**: SFX are added automatically for every pop, slam, and transition. Add music with `music`.
+3. Render a section fast with `--from/--to` while iterating. Finish with `--preview` for the contact sheet.
+   Look at the sheet before sending.
+4. Send the MP4 plus the sheet to the user. Keep work files in the scratchpad. Never commit client footage.
+
+Effects in the index that need extra work beyond the engine (orbit spin, dolly zoom, sketch boil,
+pull-out reveal, interface world, page highlight, card wall) are built as a custom pre-rendered clip
+or overlay video, then dropped into the plan as a `clip` or a video `image` layer.
 
 ## Style index
 Effect skills (each is one 1 to 2 s beat):
