@@ -24,6 +24,8 @@ Beats with text behind the subject run slower, because the person cut-out is com
 
 **clips[]** play back to back: `src` (video or still image), `in`, `out`, `zoom` (static punch-in, e.g. 1.12),
 `focus [x,y]` crop focus 0 to 1, `fit` (`cover` | `blurpad` for horizontal footage | `contain`),
+`speed` (e.g. `0.45` = slow-mo with motion-interpolated frames and slowed, deeper audio; set
+`interp: false` to skip the smoothing), `grade` (per-clip look, e.g. `replay` = muted color and vignette),
 `kenburns` (slow zoom across the whole clip: `1.3` pushes in 1.0→1.3, `[1.4, 1.0]` zooms out),
 `zoom_focus [x,y]` (the point the clip's zoom/kenburns aims at, e.g. `[0.3, 0.3]` = upper-left), `volume`, `mute`, and `transition` *into* this clip:
 `cut` | `punch` | `whip` | `flash` | `glitch` | `zoomblur`.
@@ -72,6 +74,8 @@ python3 tools/ig-editor/track.py clip.mp4 --at 4.0 --box 492,251,22,49 --from 3 
             {"type": "fire", "track": "me", "at": 3.03, "dur": 3.6, "intensity": 1.0, "trail": 0.55}]
 ```
 - `follow` zooms in and keeps the tracked person framed. The camera glides on a smoothed path.
+  Chain a second follow with `from_scale` to glide between zoom levels (e.g. tight on the shooter, then wider to include the rim).
+  Point a track at a slowed clip (`"clip": 1`) to reuse it in a replay; times follow the slow-down automatically.
 - `ring` draws a glowing ring at the feet that draws itself on, with a bouncing pointer over the head.
 - `fire` is a ring of particle flames at the feet. It bursts on start and moves with the person.
   `trail` controls how much the flames lag behind when they run: 0 means glued to them, 1 means the flames stay where they spawned.

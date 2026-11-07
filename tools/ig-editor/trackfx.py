@@ -40,7 +40,7 @@ class Track:
         self.cam = np.stack([np.convolve(pad[:, j], np.ones(k) / k, mode="valid") for j in range(4)], 1)
 
     def at(self, t, smooth=False):
-        st = t - self.clip["start"] + self.clip["t_in"]
+        st = self.clip["t_in"] + (t - self.clip["start"]) * self.clip.get("speed", 1.0)
         if st < self.t[0] - 1e-3 or st > self.t[-1] + 1e-3:
             return None
         arr = self.cam if smooth else self.xywh
@@ -58,9 +58,14 @@ def follow_affine(z, track, t):
     rem = float(z["at"]) + float(z.get("dur", 1e9)) - t
     if z.get("release") and rem < float(z["release"]):
         u *= _ease(rem / float(z["release"]))
-    s = 1 + (float(z.get("scale", 1.5)) - 1) * u
     cxy = z.get("center", [0.5, 0.5])
     Px, Py = p[0], p[1]
+    if "from_scale" in z:          # continue from a previous follow: glide between two zoom levels, stay centered
+        fs = float(z["from_scale"])
+        s = fs + (float(z.get("scale", 1.5)) - fs) * u
+        u = 1.0
+    else:
+        s = 1 + (float(z.get("scale", 1.5)) - 1) * u
     Qx = Px + (cxy[0] * W - Px) * u
     Qy = Py + (cxy[1] * H - Py) * u
     tx, ty = Qx - s * Px, Qy - s * Py

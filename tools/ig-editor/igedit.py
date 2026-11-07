@@ -90,7 +90,9 @@ def probe(src):
 class VideoReader:
     """Streams frames of src[t_in : t_in+dur] scaled to (w,h) at FPS. Holds the last frame after the end."""
 
-    def __init__(self, src, t_in, dur, w=W, h=H, fit="cover", focus=(0.5, 0.5), grade=None, loop=False):
+    def __init__(self, src, t_in, dur, w=W, h=H, fit="cover", focus=(0.5, 0.5), grade=None, loop=False,
+                 speed=1.0, interp=True):
+        """dur is in SOURCE seconds. speed < 1 = slow motion (motion-interpolated when interp)."""
         self.w, self.h, self.last = w, h, None
         fx, fy = focus
         if fit == "blurpad":
@@ -103,6 +105,10 @@ class VideoReader:
         else:
             vf = (f"scale={w}:{h}:force_original_aspect_ratio=increase,"
                   f"crop={w}:{h}:(iw-{w})*{fx}:(ih-{h})*{fy}")
+        if abs(speed - 1) > 1e-3:
+            pre_f = f"setpts=(PTS-STARTPTS)/{speed},"
+            pre_f += (f"minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1," if interp else f"fps={FPS},")
+            vf = pre_f + vf
         vf += f",fps={FPS}"
         if grade:
             vf += "," + grade
@@ -125,10 +131,12 @@ class VideoReader:
             self.p.stdout.close(); self.p.kill(); self.p.wait(); self.p = None
 
 
-def read_audio(src, t_in, dur):
+def read_audio(src, t_in, dur, speed=1.0):
+    """dur is in OUTPUT seconds; with speed != 1 the source span is dur*speed, slowed and pitched."""
     n = int(round(dur * SR))
-    out = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t_in:.3f}", "-t", f"{dur:.3f}", "-i", src,
-                          "-vn", "-ac", "2", "-ar", str(SR), "-f", "f32le", "-"], capture_output=True).stdout
+    af = ["-af", f"asetrate={SR}*{speed},aresample={SR}"] if abs(speed - 1) > 1e-3 else []
+    out = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t_in:.3f}", "-t", f"{dur * speed:.3f}", "-i", src,
+                          "-vn", "-ac", "2", "-ar", str(SR), *af, "-f", "f32le", "-"], capture_output=True).stdout
     a = np.frombuffer(out, np.float32).reshape(-1, 2) if out else np.zeros((0, 2), np.float32)
     if len(a) < n:
         a = np.vstack([a, np.zeros((n - len(a), 2), np.float32)])
@@ -699,7 +707,9 @@ class Timeline:
             if "dur" in c and "out" not in c:
                 t_out = t_in + float(c["dur"])
             is_img = vw is not None and vdur < 0.1
-            clip = dict(src=src, t_in=t_in, dur=t_out - t_in, start=t, fit=c.get("fit", "cover"),
+            speed = float(c.get("speed", 1.0))
+            clip = dict(src=src, t_in=t_in, dur=(t_out - t_in) / speed, speed=speed, interp=c.get("interp", True),
+                        grade=c.get("grade"), start=t, fit=c.get("fit", "cover"),
                         focus=tuple(c.get("focus", [0.5, 0.5])), zoom=float(c.get("zoom", 1.0)),
                         transition=c.get("transition", "cut"), volume=float(c.get("volume", 1.0)),
                         has_audio=has_audio and not c.get("mute"), still=is_img, kenburns=c.get("kenburns"), zoom_focus=c.get("zoom_focus"))
@@ -718,7 +728,7 @@ class Timeline:
         for c in self.clips:
             n = int(round(c["dur"] * SR))
             if c["has_audio"]:
-                a = read_audio(c["src"], c["t_in"], c["dur"]) * c["volume"]
+                a = read_audio(c["src"], c["t_in"], c["dur"], c["speed"]) * c["volume"]
                 f = min(len(a) // 2, int(.012 * SR))  # de-click
                 if f:
                     ramp = np.linspace(0, 1, f, dtype=np.float32)[:, None]
@@ -839,7 +849,12 @@ def render(plan_path, t_from=None, t_to=None, preview=False):
             if c["still"]:
                 readers[ci] = VideoReader(c["src"], 0, c["dur"] + 1, fit=c["fit"], focus=c["focus"], grade=tl.grade, loop=True)
             else:
-                readers[ci] = VideoReader(c["src"], c["t_in"] + lt, c["dur"] - lt + .5, fit=c["fit"], focus=c["focus"], grade=tl.grade)
+                g = tl.grade
+                if c["grade"]:
+                    g = {"replay": "eq=saturation=0.8:contrast=1.12:brightness=-0.02,vignette=PI/4.5"}.get(c["grade"], c["grade"])
+                sp = c["speed"]
+                readers[ci] = VideoReader(c["src"], c["t_in"] + lt * sp, (c["dur"] - lt) * sp + .5, fit=c["fit"],
+                                          focus=c["focus"], grade=g, speed=sp, interp=c["interp"])
         frame = readers[ci].read()
         A = np.float32([[1, 0, 0], [0, 1, 0]])
         for z in follows:
