@@ -58,3 +58,21 @@ photo of a person), `rotate`, `radius`, `border`, `border_color`, `aspect` (vide
 **anim** (in) and **out:** `pop` | `slam` | `zoom` | `fade` | `drop` | `spin` | `wipe` | `type` |
 `slide-left` | `slide-right` | `slide-up` | `slide-down` | `none`; out also accepts `cut`.
 Every pop, slam, slide, and transition automatically gets a matching sound effect.
+
+## Tracking a person + effects that follow them
+```bash
+# 1. track (box = x,y,w,h in the clip's pixels at --at; --key t,cx,cy hand-places them through occlusions)
+python3 tools/ig-editor/track.py clip.mp4 --at 4.0 --box 492,251,22,49 --from 3 --to 9.2 -o me.track.json --check check.jpg
+```
+2. Add the track and its effects to the plan:
+```json
+"tracks":  {"me": {"file": "me.track.json", "clip": 0}},
+"zooms":   [{"type": "follow", "track": "me", "at": 0, "dur": 6.6, "scale": 1.85, "ramp": 1.0}],
+"trackfx": [{"type": "ring", "track": "me", "at": 0.4, "dur": 2.6, "color": "yellow", "pointer": true},
+            {"type": "fire", "track": "me", "at": 3.03, "dur": 3.6, "intensity": 1.0, "trail": 0.55}]
+```
+- `follow` zooms in and keeps the tracked person framed. The camera glides on a smoothed path.
+- `ring` draws a glowing ring at the feet that draws itself on, with a bouncing pointer over the head.
+- `fire` is a ring of particle flames at the feet. It bursts on start and moves with the person.
+  `trail` controls how much the flames lag behind when they run: 0 means glued to them, 1 means the flames stay where they spawned.
+- Times are timeline seconds. The ring gets a whoosh and the fire gets a hit sound automatically.

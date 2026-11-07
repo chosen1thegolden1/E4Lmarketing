@@ -789,6 +789,10 @@ def render(plan_path, t_from=None, t_to=None, preview=False):
         if l.anim == "slam" and l.s.get("shake", True):
             shakes.append({"at": l.at + l.in_d * .8, "dur": .18, "amount": 14})
     flashes = list(plan.get("flashes", []))
+    import trackfx
+    tracks, tfx = trackfx.build(plan, base, tl)
+    follows = [z for z in zooms if z.get("type") == "follow"]
+    zooms = [z for z in zooms if z.get("type") != "follow"]
 
     def camera(t):
         s, dx, dy = 1.0, 0.0, 0.0
@@ -837,6 +841,13 @@ def render(plan_path, t_from=None, t_to=None, preview=False):
             else:
                 readers[ci] = VideoReader(c["src"], c["t_in"] + lt, c["dur"] - lt + .5, fit=c["fit"], focus=c["focus"], grade=tl.grade)
         frame = readers[ci].read()
+        A = np.float32([[1, 0, 0], [0, 1, 0]])
+        for z in follows:
+            if float(z["at"]) <= t < float(z["at"]) + float(z.get("dur", 1e9)) and z["track"] in tracks:
+                Af = trackfx.follow_affine(z, tracks[z["track"]], t)
+                if Af is not None:
+                    A = Af
+                    frame = cv2.warpAffine(frame, A, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
 
         s, cx, cy, dx, dy = camera(t)
         s *= c["zoom"]
@@ -882,6 +893,14 @@ def render(plan_path, t_from=None, t_to=None, preview=False):
             o = int(30 * (1 - lt / .2))
             frame = frame.copy(); frame[..., 0] = np.roll(frame[..., 0], o, 1); frame[..., 2] = np.roll(frame[..., 2], -o, 1)
         frame = np.ascontiguousarray(frame)
+        if tfx:
+            B = np.float32([[s, 0, (1 - s) * cx + dx], [0, s, (1 - s) * cy + dy]])
+            M = np.hstack([B[:, :2] @ A[:, :2], (B[:, :2] @ A[:, 2] + B[:, 2])[:, None]]).astype(np.float32)
+            for spec, fxo in tfx:
+                if fxo.at <= t < fxo.at + fxo.dur + 1.0:
+                    box = tracks[spec["track"]].at(t) if spec["track"] in tracks else None
+                    if box is not None:
+                        fxo.draw(frame, t, box, M)
 
         active = [l for l in layers if l.active(t)]
         if seg_needed and any(l.behind for l in active):
@@ -930,6 +949,8 @@ def render(plan_path, t_from=None, t_to=None, preview=False):
             elif c["transition"] in ("flash", "glitch"):
                 events.append((c["start"], "hit"))
         events += [(e["at"], e["kind"]) for e in plan.get("sfx_events", [])]
+        events += [(f["at"], "hit") for f in plan.get("trackfx", []) if f["type"] == "fire"]
+        events += [(f["at"], "whoosh") for f in plan.get("trackfx", []) if f["type"] == "ring"]
         for at, kind in events:
             s = synth(kind, sv); i = int((at - t0) * SR)
             if i < 0 or i >= n:

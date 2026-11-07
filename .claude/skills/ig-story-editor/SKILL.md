@@ -55,6 +55,9 @@ Standard run for a brief:
    - **Pop-outs**: images or videos as `card`, `sticker`, `polaroid`, or `circle`. Use `cutout: true` to cut a person out of a photo.
      Animations are pop, drop, spin, slide-*, and float.
    - **Sound**: SFX are added automatically for every pop, slam, and transition. Add music with `music`.
+   - **Tracking / keyframing a person** ("circle me", "put fire on me", "follow me"): run `track.py` to get a path,
+     check its contact sheet, and fix occlusions with `--key`. Then use `follow` zoom and `trackfx` ring/fire (see README).
+     Sports clips: find the exact make or release frame by stepping through the rim area at 15 fps before timing effects.
 3. Render a section fast with `--from/--to` while iterating. Finish with `--preview` for the contact sheet.
    Look at the sheet before sending.
 4. Send the MP4 plus the sheet to the user. Keep work files in the scratchpad. Never commit client footage.
