@@ -14,10 +14,10 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 
 | Send date | Day | Side | File | Subject | Preview text | Sells |
 |---|---|---|---|---|---|---|
-| 2026-11-16 | Monday | agency | `A1.html` | If you're not doing this you have a problem | Fix it now. | Game Plan Call (agency front end) |
-| 2026-11-16 | Monday | student | `S1.html` | Before the agency, I showed up | The first job isn't the opposite of the dream. It's the on-ramp. | From Xbox to Executive (book, free + $9.95 shipping) |
-| 2026-11-18 | Wednesday | agency | `A2.html` | Who owes you money right now? | Last year it was 47%. This year it's worse. | Game Plan Call (agency front end) |
-| 2026-11-18 | Wednesday | student | `S2.html` | What did you master in your favorite game? | I'll go first. It took me years. Then I used it somewhere else. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-11-16 | Monday | agency | `A1.html` | If you're not doing this you have a problem | Everyone you ever sold to is still in there. | Game Plan Call (agency front end) |
+| 2026-11-16 | Monday | student | `S1.html` | I worked the gigs before any of this | The first job isn't the opposite of the dream. It's the on-ramp. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-11-18 | Wednesday | agency | `A2.html` | Who owes you money right now? | 47% last year. 59% now. Somebody is covering that gap, and it's not them. | Game Plan Call (agency front end) |
+| 2026-11-18 | Wednesday | student | `S2.html` | What did you master in your favorite game? | I'll go first. Then I'll tell you what came after. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-11-20 | Friday | agency | `A3.html` | Does Google know you're closed Thursday? | One setting. A couple of minutes. Before the holiday week. | Game Plan Call (agency front end) |
 | 2026-11-20 | Friday | student | `S3.html` | Type one paragraph. Get a website. | No code. No templates. Just tell it what the business does. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-11-22 | Sunday | agency | `A-SUN.html` | Who's texting your business tonight? | Monday morning is a long time to wait. | Game Plan Call (agency front end) |

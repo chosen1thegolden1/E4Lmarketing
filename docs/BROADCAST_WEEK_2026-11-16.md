@@ -65,7 +65,7 @@ TIME-SENSITIVE: A2 cites the QuickBooks report (dated July 2026); A3 cites Googl
 
 **Subject:** If you're not doing this you have a problem
 
-**Preview text:** Fix it now.
+**Preview text:** Everyone you ever sold to is still in there.
 
 **Reader:** A-1 (busy owner with a customer list they never email) · **Angle:** Results · **Spoke:** front end → the call
 
@@ -77,8 +77,9 @@ Look. You gotta email your client list more.
 It's the most important form of marketing out there.
 
 Well, besides word of mouth. That's been #1 since 0 B.C., and
-it's not changing. Who doesn't want to try something their
-friend recommends?
+it's not changing.
+
+Who doesn't want to try something their friend recommends?
 
 BUT
 
@@ -105,8 +106,10 @@ As long as THEY opted in, YOU have their attention. You
 exist in their world.
 
 But here's the question: how often are you reminding them
-what you do? *If you don't tell them, they won't ask.* That's
-money sitting on the table. Every day.
+what you do?
+
+*If you don't tell them, they won't ask.* That's money
+sitting on the table. Every day.
 
 2. YOU OWN YOUR LIST.
 
@@ -166,7 +169,7 @@ Check out the E4L Agency site → (LINK: https://e4lagency.com/?utm_source=email
 
 **Subject:** Who owes you money right now?
 
-**Preview text:** Last year it was 47%. This year it's worse.
+**Preview text:** 47% last year. 59% now. Somebody is covering that gap, and it's not them.
 
 **Reader:** A-1 (busy owner; the demon is "it's just how business works") · **Angle:** Correlation (dated report → their cash) · **Spoke:** front end → the call
 
@@ -187,7 +190,7 @@ And 39% said one late payment made it hard to cover payroll or bills in the past
 
 Read that last one twice.
 
-One customer goes quiet, and suddenly the problem isn't theirs. It's your Friday.
+One customer goes quiet, and suddenly the problem isn't theirs. **It's your Friday.**
 
 Here's the part I keep thinking about.
 
@@ -199,13 +202,15 @@ That's one report, and it shows a pattern, not a guarantee. But it's a one-line 
 
 So here's your homework this week.
 
-Pull up your unpaid list. Find the oldest one. Pick up the phone and call that customer. Not an email. A call.
+Pull up your unpaid list. Find the oldest one. Pick up the phone and call that customer. Not an email. *A call.*
 
 Money you're owed and customers who went quiet are the same problem. Somebody has to follow up, and it never feels urgent until it hurts.
 
 I'll be straight with you: we don't chase invoices.
 
-We handle the other silence. The call, text, DM or form from someone who wants to hire you. Every one gets a reply in under 60 seconds, then gets followed up until they book. A real person on our team watches it.
+We handle the other silence. The call, text, DM or form from someone who wants to hire you.
+
+Every one gets a reply in under 60 seconds, then gets followed up until they book. A real person on our team watches it.
 
 If you want to see how that works, that's a 20-minute conversation.
 
@@ -252,7 +257,7 @@ Here's the whole fix:
 1. Open your Google Business Profile and choose Edit profile, then Hours.
 2. Click the pencil next to "Special hours."
 3. Add the date. Uncheck "Closed" to set your hours, or leave it checked for a closed day.
-4. Save. ✅
+4. Save.
 
 Google says special hours show to customers only on the days you set.
 
@@ -260,13 +265,15 @@ That takes a couple of minutes. Do it this weekend and it's handled.
 
 Now the harder question.
 
-Hours tell people when you're closed. They don't stop the phone from ringing.
+Hours tell people when you're closed. **They don't stop the phone from ringing.**
 
 Somebody with a problem doesn't check your holiday schedule. They call, they get nothing, and they dial the next name on the list.
 
 So what answers your phone while you're at the table? 📞
 
-That's what we built the AI Front Desk for. Your phone gets answered, even the 7pm one. Every call, text, DM and form gets a reply in under 60 seconds, then gets followed up until they book. A real person on our team watches it.
+That's what we built the AI Front Desk for. Your phone gets answered, even the 7pm one.
+
+Every call, text, DM and form gets a reply in under 60 seconds, then gets followed up until they book. A real person on our team watches it.
 
 👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A3-2026-11-16)
 
@@ -294,7 +301,7 @@ Hey [First Name],
 
 Quick Sunday one.
 
-Somebody out there is deciding which business to contact on Monday. Maybe it's yours. Maybe it's the one next to you on the map.
+Somebody out there is deciding which business to contact on Monday. Maybe it's *yours*. Maybe it's the one next to you on the map.
 
 They'll send a text. Or fill out a form. Or call.
 
@@ -306,7 +313,9 @@ Monday at 10? Tuesday?
 
 The person who writes back first has a head start. 📱
 
-We built the AI Front Desk so the answer is under 60 seconds, even on a Sunday night. Then it keeps following up until they book. A real person on our team watches it.
+We built the AI Front Desk so the answer is under 60 seconds, even on a Sunday night.
+
+Then it keeps following up until they book. A real person on our team watches it.
 
 If you want to see it work, I'll show you in 20 minutes.
 
@@ -327,7 +336,7 @@ P.S. It's Sunday. Go enjoy it. This keeps until Monday. 🙌
 
 ## S1 — Monday
 
-**Subject:** Before the agency, I showed up
+**Subject:** I worked the gigs before any of this
 
 **Preview text:** The first job isn't the opposite of the dream. It's the on-ramp.
 
@@ -375,7 +384,7 @@ P.S. What's the boring thing you keep skipping? Hit reply. 😅
 
 **Subject:** What did you master in your favorite game?
 
-**Preview text:** I'll go first. It took me years. Then I used it somewhere else.
+**Preview text:** I'll go first. Then I'll tell you what came after.
 
 **Reader:** S-A (a gamer who thinks those hours were wasted) · **Angle:** The Question (first person) · **Spoke:** a one-word reply; the book is the P.S. link
 
@@ -402,7 +411,7 @@ Every hour you put into getting good at a game, in any genre, is real practice a
 
 That time can be pointed at a laptop and AI to build an income that gives you the life you deserve.
 
-That's not a promise. It's a direction. And you're a lot closer than you think.
+That's not a promise. It's a direction. And you're a lot *closer* than you think.
 
 So I wanna know what you've got.
 
@@ -466,8 +475,10 @@ words, is done before your food gets cold.
 **If you can describe it, you can build it.**
 
 And businesses pay real money for pages that bring in
-customers. Our agency's interactive pages start at $500 a
-month. For ONE business.
+customers.
+
+Our agency's interactive pages start at $500 a month.
+For ONE business.
 
 One client. Every month.
 
@@ -533,9 +544,11 @@ send.
 What do you think that person is worth to her?
 
 I'm not gonna hand you a number and act like it's yours.
-But I'll tell you what one of OUR clients paid. A roofing
-company. $1,000 to start and $1,000 a month for three
-months. Off one cold email.
+
+But I'll tell you what one of OUR clients paid.
+
+A roofing company. $1,000 to start and $1,000 a month for
+three months. Off one cold email.
 
 That's ONE client.
 
@@ -593,7 +606,9 @@ Quick math.
 
 Think of one local spot whose Instagram went quiet. Last post: two months ago. 📱
 
-Our agency sells a monthly content service for ONE business. It starts at $497 a month. Something new to post every week, and the business never films a thing.
+Our agency sells a monthly content service for ONE business. It starts at $497 a month.
+
+Something new to post every week, and the business never films a thing.
 
 That's the price on our site. It's not a promise for you.
 
