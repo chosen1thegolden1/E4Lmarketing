@@ -104,6 +104,36 @@ nav .btn{padding:10px 20px;font-size:15px}
 .card .tag{position:absolute;top:24px;right:24px;font-family:var(--mono);font-size:11px;padding:4px 9px;border-radius:999px;background:var(--gold);color:#000;font-weight:700}
 .card.wide{grid-column:span 2}
 
+/* Pain */
+.pain-sec{padding-top:88px}
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pain{background:var(--ink-2);border:1px solid var(--line);border-left:4px solid #E5484D;border-radius:var(--r);padding:22px 22px 20px}
+.pain p{font-size:17px;line-height:1.5}
+.pain p b{display:block;font-size:19px;margin-bottom:6px;letter-spacing:-.01em}
+.agitate{margin-top:36px;font-size:clamp(20px,2.4vw,26px);font-weight:700;line-height:1.35;max-width:860px}
+.agitate .gold{color:var(--gold)}
+.math{margin-top:28px;display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;background:var(--gold-dim);border:1px solid rgba(255,194,0,.4);border-radius:18px;padding:24px 28px;max-width:860px}
+.math .big{font-size:clamp(36px,5vw,54px);font-weight:800;color:var(--gold);line-height:1;letter-spacing:-.03em}
+.math p{font-size:16.5px}
+.math small{display:block;color:var(--muted);font-size:13px;margin-top:6px}
+.card .fix{font-size:17px;font-weight:700;color:var(--text);margin:-2px 0 10px}
+.card .ex{margin-top:14px;padding:14px 16px;border-radius:12px;background:rgba(255,194,0,.08);border:1px dashed rgba(255,194,0,.45);font-size:15px;color:var(--text);line-height:1.55}
+.card .ex b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:4px}
+.vs{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin:-24px 0 28px;font-size:16px;color:#5a5649}
+.vs s{background:#fff;border:1px solid #e6e0cf;padding:6px 12px;border-radius:999px;color:#8a8576}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.compare .col{border-radius:20px;padding:34px}
+.compare .without{background:var(--ink-2);border:1px solid var(--line)}
+.compare .with{background:var(--ink-2);border:2px solid var(--gold);box-shadow:0 30px 70px -40px rgba(255,194,0,.45)}
+.compare h3{font-size:24px;margin-bottom:16px}
+.compare ul{list-style:none}
+.compare li{padding:11px 0 11px 30px;position:relative;border-bottom:1px solid var(--line);font-size:16.5px}
+.compare .without li{color:var(--muted)}
+.compare .without li::before{content:"✕";position:absolute;left:2px;color:#E5484D;font-weight:800}
+.compare .with li::before{content:"✓";position:absolute;left:2px;color:var(--gold);font-weight:800}
+.who.three{grid-template-columns:repeat(3,1fr)}
+.who .sub{color:var(--muted);font-size:15.5px;margin-top:6px}
+
 /* Builder demo */
 .builder-sec{background:var(--paper);color:#111}
 .builder-sec .lead{color:#5a5649}
@@ -196,6 +226,8 @@ footer a{color:var(--muted)}
 
 /* Responsive */
 @media (max-width:960px){
+  .pains,.who.three{grid-template-columns:1fr 1fr}
+  .compare{grid-template-columns:1fr}
   .hero-grid,.builder,.plans{grid-template-columns:1fr}
   .door{max-width:420px;margin:0 auto;width:100%}
   .grid{grid-template-columns:1fr 1fr}
@@ -207,7 +239,9 @@ footer a{color:var(--muted)}
   .wrap{padding:0 16px}
   section{padding:68px 0}
   .hero{padding:52px 0 56px}
-  .grid,.drops,.who,.next{grid-template-columns:1fr}
+  .grid,.drops,.who,.next,.pains,.who.three{grid-template-columns:1fr}
+  .math{grid-template-columns:1fr}
+  .compare .col{padding:26px 20px}
   .card.wide{grid-column:auto}
   .builder{padding:18px}
   .plan{padding:28px 22px}
@@ -250,6 +284,13 @@ summary::after{color:var(--gold-text)}
 footer{background:var(--ink-2)}
 .door-tag{color:#F4F1E8}
 .door-tag b{color:var(--gold)}
+
+.pain{background:#fff}
+.agitate .gold{color:var(--text);background:linear-gradient(transparent 58%,var(--gold) 58%,var(--gold) 92%,transparent 92%)}
+.math .big{color:var(--gold-text)}
+.card .ex{background:#FFF8E1;border-color:rgba(200,150,0,.45)}
+.card .ex b{color:var(--gold-text)}
+.compare .without,.compare .with{background:#fff}
 </style>
 </head>
 <body>
@@ -301,55 +342,85 @@ footer{background:var(--ink-2)}
   </div>
 </div>
 
+<section class="pain-sec" id="problem">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">Sound familiar?</span>
+      <h2>Your marketing is costing you customers. Every single week.</h2>
+    </div>
+    <div class="pains">
+      <div class="pain reveal"><p><b>It's 10pm. The promo starts tomorrow.</b>The ad still isn't written, and you've been staring at the same blank box for 40 minutes.</p></div>
+      <div class="pain reveal"><p><b>The phone rang while you were on a job.</b>By the time you called back, they'd already booked someone else.</p></div>
+      <div class="pain reveal"><p><b>You asked ChatGPT for an ad.</b>It gave you "Unlock the power of..." and you closed the tab.</p></div>
+      <div class="pain reveal"><p><b>You posted every day for two weeks.</b>Then life got busy. Now your page looks closed.</p></div>
+      <div class="pain reveal"><p><b>A lead filled out your form on Friday.</b>Nobody followed up until Tuesday. They'd gone cold.</p></div>
+      <div class="pain reveal"><p><b>You spent money on ads last month.</b>You still can't say if they worked.</p></div>
+    </div>
+    <p class="agitate reveal">None of these are rare. They happen every week, and each one is a customer walking out the door. The business down the street isn't better than you. <span class="gold">They're just faster.</span></p>
+    <div class="math reveal">
+      <span class="big">$2,400</span>
+      <p>A month in jobs that never happen, if one missed call is a $300 job and you miss two a week. The Vault's missed-call text-back snapshot answers every one of them in 60 seconds. Founding price: $10 a month.<small>Example math. Put in your own job value and number of missed calls.</small></p>
+    </div>
+  </div>
+</section>
+
 <section id="inside">
   <div class="wrap">
     <div class="head reveal">
       <span class="mono eyebrow">What's inside</span>
-      <h2>Everything you need to market with AI, in one place.</h2>
-      <p class="lead">Every tool is sorted by the job you're trying to do: ads, email, content, video and follow-up. Find it, use it, move on.</p>
+      <h2>Here's what fixes it.</h2>
+      <p class="lead">Every tool in the Vault solves one of those problems. Here's what that looks like on a normal Tuesday.</p>
     </div>
     <div class="grid">
       <article class="card reveal">
-        <span class="num">01</span>
-        <h3>Marketing prompt library</h3>
-        <p>Tested prompts for ads, emails, content, offers and reading your results. Works in ChatGPT, Claude and Gemini.</p>
+        <span class="num">01 · Prompt library</span>
+        <h3>100+ prompts that sound like a marketer wrote them</h3>
+        <p>Ads, emails, posts, offers and reading your numbers. Works in the free versions of ChatGPT, Claude and Gemini.</p>
+        <div class="ex"><b>Real life</b>Your Black Friday sale starts in 12 hours. Open the holiday ad prompt, fill in your offer, and get a full ad set before your coffee's cold.</div>
       </article>
       <article class="card reveal">
-        <span class="num">02</span>
-        <h3>Prompt builder</h3>
-        <p>Pick a task, answer a few questions about your business, and get a finished prompt. Try it below.</p>
+        <span class="num">02 · Prompt builder</span>
+        <h3>Answer 3 questions. Get a prompt built for your business.</h3>
+        <p>No more "write me an ad." The builder turns your business into instructions AI can't misread.</p>
+        <div class="ex"><b>Real life</b>Type "mobile dog groomer in Phoenix, $20 off the first groom." Get ads that sound like you, not a robot. Try it below.</div>
       </article>
       <article class="card reveal">
-        <span class="num">03</span>
-        <h3>Claude skills</h3>
-        <p>Install once and Claude becomes a specialist that already knows your business: ad copywriter, email writer, content planner.</p>
+        <span class="num">03 · Claude skills</span>
+        <h3>Teach Claude your business once. It remembers.</h3>
+        <p>Install a skill and Claude becomes your ad writer, email writer or content planner, already knowing your offers and voice.</p>
+        <div class="ex"><b>Real life</b>Install the email skill on Monday. By Friday, Claude writes your newsletter in your voice without you explaining your business again.</div>
       </article>
       <article class="card wide reveal">
         <span class="tag">ONLY HERE</span>
-        <span class="num">04</span>
-        <h3>GoHighLevel snapshots, plus a version for everyone else</h3>
-        <p>Missed-call text-back, speed-to-lead follow-up and review requests: the same kind of systems our agency installs. Import in minutes if you use GoHighLevel. Not on it? Every snapshot comes with a "Run it anywhere" playbook, so you get every message, the timing and the trigger to set up in any tool.</p>
+        <span class="num">04 · GoHighLevel snapshots</span>
+        <h3>Follow-up that works while you're busy working</h3>
+        <p>Missed-call text-back, speed-to-lead follow-up and review requests: the same kind of systems our agency installs for clients. Import in minutes on GoHighLevel. Not on it? Every snapshot comes with a "Run it anywhere" playbook with every message, the timing and the trigger.</p>
+        <div class="ex"><b>Real life</b>A customer calls while you're under a sink. You can't answer. Sixty seconds later they get a text with your booking link, and they book. You find out when it shows up on your calendar.</div>
       </article>
       <article class="card reveal">
         <span class="tag">NEW</span>
-        <span class="num">05</span>
-        <h3>Video editing with Claude</h3>
-        <p>Find your best clips, cut silences, make vertical versions and add captions. From planning the edit to letting Claude do the cutting.</p>
+        <span class="num">05 · Video editing</span>
+        <h3>One video becomes a week of posts</h3>
+        <p>Claude finds your best clips, cuts the dead air, makes vertical versions and writes the captions.</p>
+        <div class="ex"><b>Real life</b>Film one 20-minute video on Sunday. Post a new short clip every day until the next Sunday.</div>
       </article>
       <article class="card reveal">
-        <span class="num">06</span>
-        <h3>Ads training series</h3>
-        <p>Short lessons every month on writing, launching and fixing Facebook and Instagram ads, with the prompts to do each step.</p>
+        <span class="num">06 · Ads training</span>
+        <h3>Stop guessing with your ad money</h3>
+        <p>Short monthly lessons on writing, launching and fixing Facebook and Instagram ads.</p>
+        <div class="ex"><b>Real life</b>Paste last week's numbers. Find out which ad to turn off, which to keep, and what to test next, in plain English.</div>
       </article>
       <article class="card reveal">
-        <span class="num">07</span>
-        <h3>Monthly live call</h3>
-        <p>Bring your ads, emails and funnels. We review them live and answer your questions.</p>
+        <span class="num">07 · Live call</span>
+        <h3>Real people looking at your marketing</h3>
+        <p>Once a month, bring your ads, emails and funnels. We review them live.</p>
+        <div class="ex"><b>Real life</b>Bring the ad that isn't working. Leave with a rewrite and the reason it'll do better.</div>
       </article>
       <article class="card reveal">
-        <span class="num">08</span>
-        <h3>Step-by-step tutorials</h3>
-        <p>A short video for every snapshot and skill, so nothing sits unused because you couldn't set it up.</p>
+        <span class="num">08 · Tutorials</span>
+        <h3>Never get stuck on setup</h3>
+        <p>A 5-minute video for every skill and snapshot.</p>
+        <div class="ex"><b>Real life</b>Never installed anything in your life? Pause, click, follow along. Done before the video ends.</div>
       </article>
     </div>
   </div>
@@ -359,9 +430,10 @@ footer{background:var(--ink-2)}
   <div class="wrap">
     <div class="head reveal">
       <span class="mono eyebrow">Try it now · Free</span>
-      <h2 id="builder-title">See the prompt builder work on your business.</h2>
-      <p class="lead">Fill in three blanks. Copy the prompt into ChatGPT or Claude. This is one task. Members get the full builder and the whole library.</p>
+      <h2 id="builder-title">Watch a lazy prompt turn into a pro one.</h2>
+      <p class="lead">"Write me an ad" gets you generic junk. Fill in your business below and watch the builder write the kind of prompt that gets ads you'd actually run. Switch the tone and watch it rewrite.</p>
     </div>
+    <div class="vs reveal"><span>What most people type:</span><s>"write me a Facebook ad for my business"</s><span>→ What the Vault builds:</span></div>
     <div class="builder reveal">
       <div>
         <div class="tabs" role="tablist" aria-label="Choose a task">
@@ -396,7 +468,7 @@ footer{background:var(--ink-2)}
         <pre id="prompt-out"></pre>
       </div>
     </div>
-    <p class="builder-note reveal">Paste it into ChatGPT or Claude and you'll get usable copy back, not a generic draft.</p>
+    <p class="builder-note reveal">Copy it into ChatGPT, Claude or Gemini (free versions work). This demo has 3 tasks. Members get the full builder for ads, emails, posts, offers and more.</p>
   </div>
 </section>
 
@@ -405,7 +477,7 @@ footer{background:var(--ink-2)}
     <div class="head reveal">
       <span class="mono eyebrow">The monthly drop</span>
       <h2>The Vault gets bigger every month.</h2>
-      <p class="lead">AI changes fast. So the Vault does too. Here's what lands for members every month.</p>
+      <p class="lead">AI changes every month. You don't have time to keep up, so we do it for you. Here's what lands for members every month.</p>
     </div>
     <div class="drops">
       <div class="drop reveal"><h3>A hook pack</h3><p>30 new ad and video hooks, ready to test.</p></div>
@@ -420,31 +492,74 @@ footer{background:var(--ink-2)}
   <div class="wrap">
     <div class="head reveal">
       <span class="mono eyebrow">Who it's for</span>
-      <h2>Built for two kinds of people.</h2>
+      <h2>If one of these is you, you need the Vault.</h2>
     </div>
-    <div class="who">
+    <div class="who three">
       <div class="card reveal">
-        <h3>Business owners doing their own marketing</h3>
+        <h3>Business owners</h3>
+        <p class="sub">You're the owner, the salesperson and the marketing department.</p>
         <ul>
-          <li>Write ads and emails in minutes, not evenings</li>
-          <li>Stop losing leads with follow-up that runs itself</li>
-          <li>Turn one video into a week of content</li>
-          <li>Get your questions answered on the live call</li>
+          <li>A week of posts in one sitting, not seven late nights</li>
+          <li>Stop losing jobs to whoever called back first</li>
+          <li>Know which ads work before you spend another dollar</li>
+          <li>Answers from people who do this every day</li>
         </ul>
       </div>
       <div class="card reveal">
-        <h3>People earning with AI</h3>
+        <h3>Marketers and AI earners</h3>
+        <p class="sub">You sell results. The Vault makes delivering them faster.</p>
         <ul>
-          <li>Install proven systems for your clients</li>
-          <li>Deliver ad copy, emails and video edits faster</li>
-          <li>Pitch services you can show working</li>
-          <li>Keep your toolkit current without the research</li>
+          <li>Install follow-up systems for clients in an afternoon</li>
+          <li>Turn a 2-hour copy job into 20 minutes</li>
+          <li>Walk into a pitch with a working demo, not a slideshow</li>
+          <li>Stay current without spending nights on research</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h3>New to AI</h3>
+        <p class="sub">Only ever used ChatGPT for a recipe? Perfect.</p>
+        <ul>
+          <li>Copy, fill in the blanks, paste. That's it</li>
+          <li>Works in the free versions of ChatGPT, Claude and Gemini</li>
+          <li>A 5-minute video for anything that needs setup</li>
+          <li>A live call every month for "am I doing this right?"</li>
         </ul>
       </div>
     </div>
     <div class="license reveal">
       <span class="mono gold" style="flex:none">License</span>
       <p><b>Use it for your clients.</b> Every prompt, skill and snapshot can be used in work you do for your own clients. Many prompt libraries forbid that. We don't.</p>
+    </div>
+  </div>
+</section>
+
+<section id="choice" style="padding-top:0">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">Your call</span>
+      <h2>Next month goes one of two ways.</h2>
+    </div>
+    <div class="compare">
+      <div class="col without reveal">
+        <h3>You keep doing it alone</h3>
+        <ul>
+          <li>More late nights writing posts nobody sees</li>
+          <li>Missed calls you never even hear about</li>
+          <li>Ads you're not sure are working</li>
+          <li>Leads that go cold before anyone follows up</li>
+          <li>Watching a competitor "get lucky" with AI</li>
+        </ul>
+      </div>
+      <div class="col with reveal">
+        <h3>You open the Vault</h3>
+        <ul>
+          <li>Ads and emails written in minutes, in your voice</li>
+          <li>Every missed call gets a text back in 60 seconds</li>
+          <li>One video turns into a week of content</li>
+          <li>Follow-up that runs while you work</li>
+          <li>A live call when you're stuck, for $10 a month</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -535,7 +650,7 @@ footer{background:var(--ink-2)}
 <section class="final">
   <div class="wrap">
     <h2 class="reveal">Your next ad, email and video are <span class="gold">already in the Vault.</span></h2>
-    <p class="lead reveal">Founding price for the first 50 members: $10 a month, locked in for life.</p>
+    <p class="lead reveal">$10 a month, locked in for life, for the first 50 members. After that it's $20. The missed calls and blank pages won't wait either.</p>
     <a href="#pricing" class="btn btn-gold reveal" data-cta>Get founding access <span class="arrow" aria-hidden="true">→</span></a>
   </div>
 </section>
@@ -699,15 +814,23 @@ const ENTRY = {
   }
 
   // Prompt builder demo
+  const TONES = {
+    "friendly and down-to-earth": "Friendly and down-to-earth. Sound like a neighbor recommending a business they trust. Warm, simple words and contractions. No pressure, no hype.",
+    "bold and direct": "Bold and direct. Short, punchy sentences. Lead with the strongest benefit and make a confident claim I can back up. A clear call to action with zero softening.",
+    "premium and polished": "Premium and polished. Calm, confident and refined. Sell quality, experience and craftsmanship, never discounts. No exclamation points, no slang.",
+    "funny and light": "Funny and light. Playful and a little self-aware, with one clever joke or twist per piece. The offer must still be crystal clear. Never make fun of the customer."
+  };
   const TASKS = {
     ad: (b, o, a, t) =>
 `You are a direct-response copywriter who has written Facebook and Instagram ads for local businesses for 10 years.
 
 Write 3 Facebook ad variations for <hl>${b}</hl>, promoting <hl>${o}</hl>, aimed at <hl>${a}</hl>.
 
+Tone: <hl>${t}</hl>
+
 For each variation give me:
 1. A scroll-stopping first line (under 12 words)
-2. Body copy, 60 to 90 words, ${t}
+2. Body copy, 60 to 90 words
 3. One clear call to action
 4. A headline for under the image (under 8 words)
 
@@ -715,7 +838,9 @@ Rules: talk about the customer's problem before the offer. No hype words like "g
     email: (b, o, a, t) =>
 `You are an email marketer who writes emails people actually open and click.
 
-Write a sales email for <hl>${b}</hl> promoting <hl>${o}</hl> to <hl>${a}</hl>. The tone is ${t}.
+Write a sales email for <hl>${b}</hl> promoting <hl>${o}</hl> to <hl>${a}</hl>.
+
+Tone: <hl>${t}</hl>
 
 Give me:
 1. 5 subject lines under 45 characters, and tell me which one you'd test first
@@ -727,7 +852,9 @@ Write it like one person emailing another. Short paragraphs. No "I hope this ema
     video: (b, o, a, t) =>
 `You are a short-form video strategist for small businesses.
 
-Write a 30 to 45 second vertical video script for <hl>${b}</hl> promoting <hl>${o}</hl>, made for <hl>${a}</hl>. The tone is ${t}.
+Write a 30 to 45 second vertical video script for <hl>${b}</hl> promoting <hl>${o}</hl>, made for <hl>${a}</hl>.
+
+Tone: <hl>${t}</hl>
 
 Give me:
 1. 3 hook options for the first 2 seconds (spoken words and on-screen text)
@@ -746,7 +873,7 @@ Keep it something one person can film on a phone in 20 minutes.`
       val("f-biz", "[your business]"),
       val("f-offer", "[your offer]"),
       val("f-aud", "[your audience]"),
-      esc($("f-tone").value)
+      esc(TONES[$("f-tone").value] || $("f-tone").value)
     );
     $("prompt-out").innerHTML = raw.replace(/<hl>(.*?)<\/hl>/g, '<span class="hl">$1</span>');
   }
@@ -755,7 +882,7 @@ Keep it something one person can film on a phone in 20 minutes.`
     document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t === tab)));
     render();
   }));
-  ["f-biz", "f-offer", "f-aud", "f-tone"].forEach(id => $(id).addEventListener("input", render));
+  ["f-biz", "f-offer", "f-aud", "f-tone"].forEach(id => { $(id).addEventListener("input", render); $(id).addEventListener("change", render); });
   render();
   $("copy").addEventListener("click", async () => {
     const text = $("prompt-out").textContent;
