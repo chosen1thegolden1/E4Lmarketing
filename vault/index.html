@@ -538,8 +538,26 @@ const CONFIG = {
     privacy:  "#PRIVACY"
   },
   trialDays: 7,
-  price: { mo: 10, moFull: 20, yr: 99, yrFull: 199 }
+  price: { mo: 10, moFull: 20, yr: 99, yrFull: 199 },
+
+  /* Black Friday sale: switches on and off by itself.
+     Times are Pacific (-08:00). Starts Fri Nov 27, ends end of Cyber Monday. */
+  sale: {
+    start: "2026-11-27T00:00:00-08:00",
+    end:   "2026-12-01T00:00:00-08:00",
+    yr: 39,
+    checkoutYearly: "#CHECKOUT-BF-YEARLY",   // $39 first year
+    banner: "Black Friday: the Vault is $39 for your first year. Ends Cyber Monday at midnight."
+  }
 };
+// Preview the sale before Nov 27 with ?sale=on
+const SALE_ON = (() => {
+  const q = new URLSearchParams(location.search).get("sale");
+  if (q === "on") return true;
+  if (q === "off") return false;
+  const now = Date.now();
+  return now >= Date.parse(CONFIG.sale.start) && now < Date.parse(CONFIG.sale.end);
+})();
 
 /* Entry points: joine4l.com/vault?from=pdf | ebook | scorecard | activate
    Each one changes the banner, headline and main button so the page
@@ -602,6 +620,12 @@ const ENTRY = {
       $("pro-was").innerHTML = `<s>$${p.moFull}/month</s> · price locked for life`;
       $("pro-fine").textContent = "Billed monthly. Cancel anytime from your account.";
       $("pro-link").href = CONFIG.checkout.monthly;
+    } else if (SALE_ON) {
+      const s = CONFIG.sale;
+      $("pro-amount").innerHTML = `$${s.yr}<small>/first year</small>`;
+      $("pro-was").innerHTML = `<s>$${p.yr}/year</s> · Black Friday price, about $${(s.yr / 12).toFixed(2)} a month`;
+      $("pro-fine").textContent = `Billed once. Renews at the $${p.yr}/year founding price. Ends Cyber Monday.`;
+      $("pro-link").href = s.checkoutYearly;
     } else {
       $("pro-amount").innerHTML = `$${p.yr}<small>/year</small>`;
       $("pro-was").innerHTML = `<s>$${p.yrFull}/year</s> · about $${(p.yr / 12).toFixed(2)} a month`;
@@ -611,7 +635,20 @@ const ENTRY = {
   }
   document.querySelectorAll("[data-bill]").forEach(btn =>
     btn.addEventListener("click", () => setBill(btn.dataset.bill)));
-  setBill("mo");
+  setBill(SALE_ON ? "yr" : "mo");
+
+  // Black Friday: banner, hero price line, badge (an entry-point banner wins if present)
+  if (SALE_ON) {
+    const s = CONFIG.sale;
+    document.querySelector(".badge").textContent = "BLACK FRIDAY";
+    document.querySelector('[data-bill="yr"] .save').textContent = `$${s.yr} first year`;
+    if (!new URLSearchParams(location.search).get("from")) {
+      $("context-text").textContent = s.banner;
+      $("context").hidden = false;
+      $("hero-price").innerHTML = `<b>$${s.yr} for your first year</b> <s>$${CONFIG.price.yr}</s> · Black Friday through Cyber Monday · Or $${CONFIG.price.mo}/mo founding price`;
+      $("hero-cta").firstChild.textContent = "Get the Black Friday price ";
+    }
+  }
 
   // Entry point
   const from = new URLSearchParams(location.search).get("from");
