@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>50 Ad Hooks That Stop the Scroll | E4L Vault</title>
+<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+@page{size:Letter;margin:0}
+:root{--gold:#FFC200;--ink:#0A0A0A;--paper:#FBF8EF;--muted:#5d584b;--line:#E7E0CB}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Rethink Sans',Arial,sans-serif;color:var(--ink);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:8.5in;height:11in;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:.7in .75in}
+.page:last-child{page-break-after:auto}
+.mono{font-family:'Space Mono',monospace;text-transform:uppercase;letter-spacing:.06em;font-size:10pt}
+h1,h2,h3{font-weight:800;letter-spacing:-.02em;line-height:1.05}
+.foot{position:absolute;bottom:.45in;left:.75in;right:.75in;display:flex;justify-content:space-between;color:var(--muted);font-family:'Space Mono',monospace;font-size:8pt;text-transform:uppercase;letter-spacing:.06em}
+
+/* Cover */
+.cover{background:var(--ink);color:#fff;padding:0}
+.cover img{position:absolute;inset:auto 0 0 0;width:100%;height:7.2in;object-fit:cover;object-position:center 30%}
+.cover::after{content:"";position:absolute;left:0;right:0;top:3.4in;height:1.4in;background:linear-gradient(var(--ink),transparent)}
+.cover .top{position:relative;z-index:2;padding:.65in .75in 0}
+.cover .badge{display:inline-block;background:var(--gold);color:#000;padding:6px 12px;border-radius:999px;font-weight:700}
+.cover h1{font-size:54pt;margin-top:20px}
+.cover h1 span{color:var(--gold)}
+.cover p{font-size:15pt;color:#d9d4c6;margin-top:14px;max-width:6in}
+
+/* Section pages */
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;border-bottom:3px solid var(--ink);padding-bottom:12px;margin-bottom:18px}
+.sec-head h2{font-size:30pt}
+.sec-head .num{font-family:'Space Mono',monospace;font-size:44pt;font-weight:700;color:var(--gold);-webkit-text-stroke:1.5px var(--ink);line-height:1}
+.why{font-size:12pt;color:var(--muted);margin-bottom:16px;max-width:6.4in}
+ol.hooks{list-style:none;counter-reset:h var(--start)}
+ol.hooks li{counter-increment:h;display:grid;grid-template-columns:.5in 1fr;gap:6px;padding:12px 0;border-bottom:1px solid var(--line);font-size:14.5pt;line-height:1.35;font-weight:500}
+ol.hooks li::before{content:counter(h,decimal-leading-zero);font-family:'Space Mono',monospace;font-weight:700;font-size:11pt;color:#8a6a00;padding-top:2px}
+ol.hooks li em{font-style:normal;background:#FFE9A3;padding:0 4px;border-radius:3px;font-weight:700}
+ol.hooks li small{display:block;color:var(--muted);font-size:9.5pt;font-weight:400;margin-top:2px}
+.tip{margin-top:16px;background:var(--ink);color:#fff;border-radius:12px;padding:14px 18px;font-size:11pt;display:flex;gap:12px}
+.tip b{color:var(--gold);font-family:'Space Mono',monospace;text-transform:uppercase;font-size:9.5pt;padding-top:2px;white-space:nowrap}
+
+/* Intro */
+.intro h2{font-size:34pt;margin:10px 0 18px}
+.steps{display:grid;gap:14px;margin-top:10px}
+.step{display:grid;grid-template-columns:.6in 1fr;gap:10px;align-items:start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
+.step .n{width:.5in;height:.5in;border-radius:50%;background:var(--gold);display:grid;place-items:center;font-weight:800;font-size:16pt}
+.step h3{font-size:15pt;margin-bottom:4px}
+.step p{font-size:11.5pt;color:var(--muted);line-height:1.45}
+.angles{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:22px}
+.angles div{background:var(--ink);color:#fff;border-radius:10px;padding:12px 10px;font-size:10pt}
+.angles b{display:block;color:var(--gold);font-size:12pt;margin-bottom:4px}
+.honest{margin-top:20px;border-left:4px solid var(--gold);padding:8px 14px;font-size:11pt;color:var(--muted)}
+
+/* Prompts */
+.prompt{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:14px}
+.prompt h3{font-size:14pt;margin-bottom:6px}
+.prompt .use{font-size:10.5pt;color:var(--muted);margin-bottom:8px}
+.prompt pre{font-family:'Space Mono',monospace;font-size:8.6pt;line-height:1.5;white-space:pre-wrap;background:var(--ink);color:#EDEAE0;border-radius:10px;padding:12px 14px}
+.prompt pre .b{color:var(--gold)}
+
+.tracker{width:100%;border-collapse:collapse;margin-top:6px;background:#fff;border-radius:12px;overflow:hidden;font-size:11pt}
+.tracker th{background:var(--ink);color:var(--gold);font-family:'Space Mono',monospace;font-size:8.5pt;text-transform:uppercase;text-align:left;padding:10px}
+.tracker td{border-bottom:1px solid var(--line);padding:16px 10px;color:var(--muted)}
+/* Last page */
+.last{background:var(--ink);color:#fff}
+.last h2{font-size:38pt;margin:12px 0 14px;max-width:6in}
+.last h2 span{color:var(--gold)}
+.last p{font-size:13pt;color:#d9d4c6;max-width:4.4in;line-height:1.5;position:relative;z-index:2}
+.last .cta{position:relative;z-index:2}
+.last ul{list-style:none;margin:20px 0;max-width:3.9in;position:relative;z-index:2}
+.last li{padding:7px 0 7px 26px;position:relative;font-size:12pt;border-bottom:1px solid #2a2a2a}
+.last li::before{content:"→";position:absolute;left:0;color:var(--gold);font-weight:800}
+.cta{display:inline-block;margin-top:14px;background:var(--gold);color:#000;font-weight:800;font-size:16pt;padding:16px 26px;border-radius:999px;text-decoration:none}
+.url{margin-top:12px;font-family:'Space Mono',monospace;color:var(--gold);font-size:11pt}
+.last img{position:absolute;right:-1.3in;bottom:0;height:5.4in;width:auto;object-fit:cover;object-position:left;opacity:.95;-webkit-mask-image:linear-gradient(to left,#000 65%,transparent);mask-image:linear-gradient(to left,#000 65%,transparent)}
+.last .foot{color:#8a857a}
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="page cover">
+  <div class="top">
+    <span class="mono badge">E4L Vault · Prompt Pack</span>
+    <h1>50 Ad Hooks<br>That <span>Stop the Scroll.</span></h1>
+    <p>Fill-in-the-blank opening lines for Facebook and Instagram ads, plus 3 prompts that write hooks for your business.</p>
+  </div>
+  <img src="../../malik-vault.jpg" alt="">
+</section>
+
+<!-- HOW TO USE -->
+<section class="page intro">
+  <span class="mono" style="color:#8a6a00">Start here</span>
+  <h2>Your first line decides if anyone reads the rest.</h2>
+  <p class="why">People decide in about a second whether to keep scrolling. These 50 hooks are opening lines you fill in with your own business, offer and city. Pick five, run them, keep the winner.</p>
+  <div class="steps">
+    <div class="step"><span class="n">1</span><div><h3>Pick 5 hooks from different angles</h3><p>One pain, one result, one curiosity, one proof and one offer hook. Different angles tell you what your customers care about.</p></div></div>
+    <div class="step"><span class="n">2</span><div><h3>Fill in the highlighted blanks</h3><p>Use real details: your city, your real price, a real review. Specific beats clever every time.</p></div></div>
+    <div class="step"><span class="n">3</span><div><h3>Turn your favorite into a full ad</h3><p>Use Bonus Prompt 2 at the back. Paste it into ChatGPT, Claude or Gemini (free versions work).</p></div></div>
+    <div class="step"><span class="n">4</span><div><h3>Test for 7 days, keep the winner</h3><p>Run all five with the same picture and budget. The hook with the cheapest leads or clicks wins. Bonus Prompt 3 helps you read the results.</p></div></div>
+  </div>
+  <div class="angles">
+    <div><b>Pain</b>Hooks 1–10</div><div><b>Result</b>Hooks 11–20</div><div><b>Curiosity</b>Hooks 21–30</div><div><b>Proof</b>Hooks 31–40</div><div><b>Offer</b>Hooks 41–50</div>
+  </div>
+  <p class="honest"><b>Keep it honest.</b> Only use numbers, reviews, deadlines and spot limits that are true. Fake urgency gets ads rejected and burns trust. Meta also restricts ads that call out personal traits like health or money problems, so talk about the situation, not the person.</p>
+  <div class="foot"><span>E4L Vault · 50 Ad Hooks</span><span>02</span></div>
+</section>
+
+<!-- PAIN -->
+<section class="page">
+  <div class="sec-head"><h2>Pain hooks</h2><span class="num">01</span></div>
+  <p class="why">Name the problem before you name the product. People stop for a problem they recognize.</p>
+  <ol class="hooks" style="--start:0">
+    <li><span>Still dealing with <em>[PROBLEM]</em> every <em>[WEEK / MONTH]</em>? There's an easier way.</span></li>
+    <li><span>The real reason <em>[PROBLEM]</em> keeps coming back. It's not what most people think.</span></li>
+    <li><span>Most <em>[AUDIENCE]</em> make this mistake with <em>[TOPIC]</em>. Here's how to avoid it.</span></li>
+    <li><span>Stop paying for <em>[EXPENSIVE FIX]</em> before you try this.</span></li>
+    <li><span>What nobody tells you about <em>[TOPIC]</em> until it's too late.</span></li>
+    <li><span>That small <em>[ISSUE]</em> turns into a <em>[BIG, COSTLY PROBLEM]</em> faster than you'd think.</span></li>
+    <li><span>Sick of <em>[FRUSTRATION]</em>? So were our customers. So we fixed it.</span></li>
+    <li><span>If <em>[SITUATION]</em> just happened, don't <em>[COMMON MISTAKE]</em> yet. Read this first.</span></li>
+    <li><span>The <em>[SEASON]</em> problem every <em>[AUDIENCE]</em> in <em>[CITY]</em> runs into.</span></li>
+    <li><span>You shouldn't have to <em>[ANNOYING TASK]</em> to get <em>[BASIC RESULT]</em>.</span></li>
+  </ol>
+  <div class="tip"><b>Tip</b><span>Use the exact words customers use when they call you. "My AC is blowing warm air" beats "HVAC performance issues."</span></div>
+  <div class="foot"><span>E4L Vault · 50 Ad Hooks</span><span>03</span></div>
+</section>
+
+<!-- RESULT -->
+<section class="page">
+  <div class="sec-head"><h2>Result hooks</h2><span class="num">02</span></div>
+  <p class="why">Show the after. People buy the outcome, not the service.</p>
+  <ol class="hooks" style="--start:10">
+    <li><span>How a <em>[CUSTOMER TYPE]</em> went from <em>[BEFORE]</em> to <em>[AFTER]</em> in <em>[TIME]</em>.<small>Use a real customer story only.</small></span></li>
+    <li><span>Imagine <em>[DESIRED OUTCOME]</em> by <em>[DATE OR EVENT]</em>.</span></li>
+    <li><span><em>[RESULT]</em> without <em>[THING THEY HATE]</em>.</span></li>
+    <li><span>Here's what <em>[OUTCOME]</em> actually looks like for a <em>[AUDIENCE]</em>.</span></li>
+    <li><span>The <em>[NUMBER]</em>-minute <em>[ACTION]</em> that <em>[RESULT]</em>.</span></li>
+    <li><span>Get <em>[RESULT]</em> this <em>[WEEK / MONTH]</em>, even if <em>[COMMON OBJECTION]</em>.</span></li>
+    <li><span>This is exactly what <em>[PRICE]</em> gets you at <em>[BUSINESS]</em>.</span></li>
+    <li><span>Your <em>[THING]</em>, but <em>[CLEANER / FASTER / CHEAPER TO RUN]</em>.</span></li>
+    <li><span>Done in <em>[TIME]</em>. Built to last <em>[TIME]</em>.</span></li>
+    <li><span>Picture your <em>[SPACE / PROJECT]</em> like this before <em>[HOLIDAY / EVENT]</em>.</span></li>
+  </ol>
+  <div class="tip"><b>Tip</b><span>Pair a result hook with a real photo of your own work. Stock photos make good hooks look fake.</span></div>
+  <div class="foot"><span>E4L Vault · 50 Ad Hooks</span><span>04</span></div>
+</section>
+
+<!-- CURIOSITY -->
+<section class="page">
+  <div class="sec-head"><h2>Curiosity hooks</h2><span class="num">03</span></div>
+  <p class="why">Open a loop the reader wants closed. Then actually close it in the ad. No bait and switch.</p>
+  <ol class="hooks" style="--start:20">
+    <li><span>I almost didn't post this.</span></li>
+    <li><span>We don't usually share this, but <em>[INSIDER TIP]</em>.</span></li>
+    <li><span>The <em>[TOPIC]</em> question we get asked most. The answer surprises people.</span></li>
+    <li><span>3 things I'd never do as a <em>[YOUR PROFESSION]</em>.</span></li>
+    <li><span>Watch what happens when we <em>[ACTION]</em>.</span></li>
+    <li><span>One change that made the biggest difference for our <em>[CUSTOMERS]</em>.</span></li>
+    <li><span><em>[CITY]</em>, you need to see this.</span></li>
+    <li><span>Why we stopped <em>[COMMON INDUSTRY PRACTICE]</em>.</span></li>
+    <li><span>The <em>[ITEM]</em> most people throw away that could <em>[BENEFIT]</em>.</span></li>
+    <li><span>Most people <em>[DO COMMON THING]</em> the hard way. Here's the easy way.</span></li>
+  </ol>
+  <div class="tip"><b>Tip</b><span>Curiosity hooks work best in video. Say the hook in the first 2 seconds and put it on screen as text too.</span></div>
+  <div class="foot"><span>E4L Vault · 50 Ad Hooks</span><span>05</span></div>
+</section>
+
+<!-- PROOF -->
+<section class="page">
+  <div class="sec-head"><h2>Proof hooks</h2><span class="num">04</span></div>
+  <p class="why">Let your customers do the selling. Every number and quote here must be real.</p>
+  <ol class="hooks" style="--start:30">
+    <li><span>"<em>[SHORT REAL REVIEW QUOTE]</em>" – <em>[FIRST NAME]</em>, <em>[CITY]</em></span></li>
+    <li><span><em>[REAL NUMBER]</em> <em>[CITY]</em> families trusted us with <em>[SERVICE]</em> this year.</span></li>
+    <li><span>Before and after: <em>[PROJECT]</em> in <em>[NEIGHBORHOOD]</em>.<small>Fine for homes, cars and spaces. Avoid before/after for health, weight or appearance.</small></span></li>
+    <li><span>We've done <em>[REAL NUMBER]</em> <em>[JOBS]</em>. Here's what we've learned.</span></li>
+    <li><span>Rated <em>[RATING]</em> on Google by <em>[NUMBER]</em> neighbors. Here's why.</span></li>
+    <li><span>Why <em>[CUSTOMER TYPE]</em> keep coming back to <em>[BUSINESS]</em>.</span></li>
+    <li><span>A real message we got from a customer this week:</span></li>
+    <li><span>Licensed, insured and serving <em>[CITY]</em> since <em>[YEAR]</em>.</span></li>
+    <li><span>What <em>[NUMBER]</em> customers said about <em>[SERVICE]</em>. Unfiltered.</span></li>
+    <li><span>Our most requested <em>[SERVICE]</em>, and why people keep asking for it.</span></li>
+  </ol>
+  <div class="tip"><b>Tip</b><span>A screenshot of a real text or review as the ad image, with hook 37 as the first line, is one of the simplest ads to make.</span></div>
+  <div class="foot"><span>E4L Vault · 50 Ad Hooks</span><span>06</span></div>
+</section>
+
+<!-- OFFER -->
+<section class="page">
+  <div class="sec-head"><h2>Offer &amp; local hooks</h2><span class="num">05</span></div>
+  <p class="why">Lead with the deal when you have a good one. Deadlines and limits must be real.</p>
+  <ol class="hooks" style="--start:40">
+    <li><span><em>[CITY]</em>: <em>[OFFER]</em> this <em>[MONTH]</em> only.</span></li>
+    <li><span>Free <em>[BONUS]</em> for the first <em>[REAL NUMBER]</em> people who book.</span></li>
+    <li><span>Now booking <em>[MONTH]</em>. <em>[REAL NUMBER]</em> spots left.</span></li>
+    <li><span><em>[PRICE]</em> <em>[SERVICE]</em>. No upsells. No surprises.</span></li>
+    <li><span>New to <em>[CITY]</em>? Here's <em>[OFFER]</em> to welcome you.</span></li>
+    <li><span>Free download: the <em>[SEASON]</em> <em>[TOPIC]</em> checklist.</span></li>
+    <li><span>Take the 60-second quiz: is your <em>[THING]</em> <em>[COSTING YOU MONEY / READY FOR WINTER]</em>?</span></li>
+    <li><span>Black Friday at <em>[BUSINESS]</em>: <em>[REAL OFFER]</em>, <em>[START DATE]</em> to <em>[END DATE]</em>.</span></li>
+    <li><span>Comment "<em>[KEYWORD]</em>" and we'll send you <em>[FREE THING]</em>.</span></li>
+    <li><span>Locals only: <em>[OFFER]</em> for <em>[NEIGHBORHOOD]</em> residents.</span></li>
+  </ol>
+  <div class="tip"><b>Tip</b><span>Hook 49 works great for lead magnets. Set up an automatic DM reply so nobody waits for the free thing.</span></div>
+  <div class="foot"><span>E4L Vault · 50 Ad Hooks</span><span>07</span></div>
+</section>
+
+<!-- BONUS PROMPTS -->
+<section class="page">
+  <div class="sec-head"><h2>Bonus prompts</h2><span class="num">+3</span></div>
+  <p class="why">Copy these into ChatGPT, Claude or Gemini. Replace everything in [BRACKETS] first.</p>
+
+  <div class="prompt">
+    <h3>1. Write 30 hooks for your business</h3>
+    <p class="use">You'll get 30 hooks across all 5 angles, ranked strongest first.</p>
+<pre>You are a direct-response copywriter who has written Facebook ads for local businesses for 10 years.
+
+My business: <span class="b">[BUSINESS + CITY]</span>
+What I'm promoting: <span class="b">[OFFER + PRICE]</span>
+Who it's for: <span class="b">[AUDIENCE]</span>
+What they're frustrated about: <span class="b">[MAIN PROBLEM]</span>
+
+Write 30 ad hooks, 6 for each angle: pain, result, curiosity, proof, offer. Each under 12 words. Then rank the top 5 and say why.
+
+Rules: use only details I gave you. Don't invent numbers or reviews. Talk about the situation, not the person's traits. No em dashes, no emojis, no hype words.</pre>
+  </div>
+
+  <div class="prompt">
+    <h3>2. Turn your best hook into a full ad</h3>
+    <p class="use">You'll get 3 complete ads built on your hook, ready to paste into Meta.</p>
+<pre>You are a Facebook ads copywriter for small businesses.
+
+Hook: <span class="b">[YOUR HOOK]</span>
+Business and offer: <span class="b">[BUSINESS, OFFER, PRICE]</span>
+Proof I have (real only): <span class="b">[REVIEW, NUMBER OF JOBS, YEARS IN BUSINESS]</span>
+
+Write 3 ads that start with this hook. For each: primary text (60 to 100 words), headline (under 40 characters), and one call to action. Version A short, B story-style, C bullet points. Then tell me which to run first.
+
+Rules: problem before offer, one clear next step, write like a person talking to one person.</pre>
+  </div>
+
+  <div class="foot"><span>E4L Vault · 50 Ad Hooks</span><span>08</span></div>
+</section>
+
+<section class="page">
+  <div class="sec-head"><h2>Test &amp; track</h2><span class="num">+</span></div>
+  <p class="why">Run 5 hooks for 7 days with the same image and budget. Fill this in, then paste it into Bonus Prompt 3.</p>
+  <div class="prompt">
+    <h3>3. Read your hook test results</h3>
+    <p class="use">You'll get a plain-English verdict on which hook to keep and what to test next.</p>
+<pre>Here are my ad results after 7 days. Same image, same budget, different hooks:
+<span class="b">[PASTE: HOOK, SPEND, IMPRESSIONS, CLICKS, LEADS FOR EACH AD]</span>
+
+Work only from these numbers and show your math. For each hook give cost per click and cost per lead. Tell me which to keep, which to turn off, and if the sample is too small to decide. Then suggest 3 new hooks in the style of the winner.</pre>
+  </div>
+
+  <table class="tracker">
+    <thead><tr><th>Hook</th><th>Angle</th><th>Spend</th><th>Clicks</th><th>Leads</th><th>Cost / lead</th></tr></thead>
+    <tbody><tr><td>#</td><td></td><td>$</td><td></td><td></td><td>$</td></tr><tr><td>#</td><td></td><td>$</td><td></td><td></td><td>$</td></tr><tr><td>#</td><td></td><td>$</td><td></td><td></td><td>$</td></tr><tr><td>#</td><td></td><td>$</td><td></td><td></td><td>$</td></tr><tr><td>#</td><td></td><td>$</td><td></td><td></td><td>$</td></tr></tbody>
+  </table>
+  <div class="tip"><b>Rule</b><span>Don't judge a hook before it has had about $50 to $70 in spend, or about a week. Small numbers swing wildly. When in doubt, let it run.</span></div>
+  <div class="foot"><span>E4L Vault · 50 Ad Hooks</span><span>09</span></div>
+</section>
+
+<!-- LAST PAGE -->
+<section class="page last">
+  <span class="mono" style="color:var(--gold)">What's next</span>
+  <h2>That was 50 hooks. <span>The Vault has the whole kit.</span></h2>
+  <p>Hooks get the click. The Vault helps with everything after it.</p>
+  <ul>
+    <li>100+ marketing prompts for ads, email, content and offers</li>
+    <li>A prompt builder that writes prompts for your business</li>
+    <li>GoHighLevel snapshots for follow-up that runs itself</li>
+    <li>Video editing with Claude</li>
+    <li>New tools every month and a monthly live call</li>
+  </ul>
+  <a class="cta" href="https://joine4l.com/vault?from=pdf">Try the Vault free →</a>
+  <p class="url">joine4l.com/vault</p>
+  <img src="../../malik-vault.jpg" alt="">
+  <div class="foot"><span>© Eat 4 Life Marketing</span><span>E4L Vault</span></div>
+</section>
+
+</body>
+</html>
