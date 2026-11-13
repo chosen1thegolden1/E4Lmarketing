@@ -723,3 +723,18 @@ To run Fri 2026-11-13 (send dates Nov 16 / 18 / 20 / 22). Re-fetch every Source 
 | Booking link | api.leadconnectorhq.com/widget/bookings/cs-game-plan-call | JS widget (not fetchable); test-send click-through confirms. |
 
 **Relative dates on the send day:** A3 "Thanksgiving is next Thursday, Nov 26" is true on Fri Nov 20; A-SUN is pinned to a Sunday. Nothing with a deadline falls before a send date.
+
+### Result — run Fri 2026-11-13 (~15:30 UTC)
+
+**No copy changes. All eight scheduled emails stand; bench not needed.**
+
+| Email | Checked at the primary source | Result |
+|---|---|---|
+| A2 | QuickBooks 2026 Late Payments Report | Unchanged: 59% overdue 30+ days, up from 47%; "$17.7K on average" (page: "Businesses with unpaid invoices are owed $17.7K on average"); 39% payroll/bills; 55% net-30 vs 26% immediate. Page timestamps still July 7 / July 9, 2026. P.S. link (with UTMs) loads the report. |
+| A3 | support.google.com/business/answer/6303076 | Unchanged: uses list "Holidays / Special events / Other exceptional circumstances"; "even if they're the same as your regular hours"; Edit profile → Hours → edit icon next to "Special hours" → "Add a date" → uncheck "Closed" to enter hours or leave checked → Save; "will appear to customers on Google only for the designated days." |
+| A2, A3, A-SUN, S3, B1 | e4lagency.com | Unchanged: "reply in under 60 seconds, then gets followed up until they book"; "Every call, even the 7pm one"; named human supervising; AI Front Desk listed; Quiz Funnel Pages "from $500/mo"; Content Engine "from $497/mo"; no invoice service ("we don't chase invoices" still true). |
+| S3 | Claude Help Center artifacts article | Still says "single-page websites", "opens beside your conversation", "Ask Claude to change the artifact." |
+| All student | joineat4life.com/xboxtoexec | 200. Page: $9.95 instant digital copy, optional +$9.95 audiobook, no shipping. No email states a price, so the copy is fine; the "free + $9.95 shipping" label in SCHEDULE.md's *Sells* column (internal only) is still the open question #5. |
+| All links | curl / WebFetch, every URL in the 10 HTML files | All 200 (booking widget ×5, e4lagency.com, book ×5, QuickBooks via WebFetch). |
+
+**Relative dates on send day:** A3 "Thanksgiving is next Thursday, Nov 26" is correct on Fri Nov 20; P.S. Small Business Saturday Nov 28 correct. A1/S-SUN "September" and "the month before" are fixed dates. A-SUN is pinned to Sunday. No deadline falls on or before any send date. Still on the loader: upload the Drip and braids images to GHL Media and swap the `src` in A1, S3, S-SUN.
