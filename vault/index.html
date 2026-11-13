@@ -582,29 +582,6 @@ footer a{color:var(--muted)}
   </div>
 </section>
 
-<section id="next">
-  <div class="wrap">
-    <div class="head reveal">
-      <span class="mono eyebrow">When you're ready for more</span>
-      <h2>The Vault is step one.</h2>
-    </div>
-    <div class="next">
-      <a href="#" id="activate-link" class="reveal">
-        <span class="mono gold">E4L Activate</span>
-        <h3 style="margin-top:10px">Turn these tools into income.</h3>
-        <p>An 8-week cohort that teaches you to sell AI marketing services to clients. Members hear first when a new cohort opens.</p>
-        <span class="go">Learn about Activate →</span>
-      </a>
-      <a href="#" id="agency-link" class="reveal">
-        <span class="mono gold">E4L Agency</span>
-        <h3 style="margin-top:10px">Rather we just did it for you?</h3>
-        <p>Our team installs, runs and improves these systems in your business. You never touch the tech.</p>
-        <span class="go">Book a Game Plan Call →</span>
-      </a>
-    </div>
-  </div>
-</section>
-
 <section id="faq" style="padding-top:0">
   <div class="wrap faq">
     <div class="head reveal" style="margin-bottom:24px">
@@ -655,8 +632,6 @@ const CONFIG = {
     free:    "#SIGNUP-FREE"
   },
   links: {
-    activate: "#ACTIVATE-PAGE",
-    agency:   "#GAME-PLAN-CALL",
     terms:    "#TERMS",
     privacy:  "#PRIVACY"
   },
@@ -726,8 +701,6 @@ const ENTRY = {
 
   // Wire links
   $("free-link").href = CONFIG.checkout.free;
-  $("activate-link").href = CONFIG.links.activate;
-  $("agency-link").href = CONFIG.links.agency;
   $("terms-link").href = CONFIG.links.terms;
   $("privacy-link").href = CONFIG.links.privacy;
 
