@@ -103,6 +103,11 @@ nav .btn{padding:10px 20px;font-size:15px}
 .card p{color:var(--muted);font-size:16px}
 .card .tag{position:absolute;top:24px;right:24px;font-family:var(--mono);font-size:11px;padding:4px 9px;border-radius:999px;background:var(--gold);color:#000;font-weight:700}
 .card.wide{grid-column:span 2}
+.card.full{grid-column:1/-1}
+.card ul.ticks{list-style:none;margin:14px 0 4px;display:grid;gap:8px}
+.card ul.ticks li{position:relative;padding-left:26px;font-size:15.5px;color:var(--muted);line-height:1.5}
+.card ul.ticks li b{color:var(--text)}
+.card ul.ticks li::before{content:"✓";position:absolute;left:2px;top:0;color:var(--gold);font-weight:800}
 
 /* Pain */
 .pain-sec{padding-top:88px}
@@ -344,30 +349,38 @@ footer a{color:var(--muted)}
         <div class="ex"><b>Real life</b>Type "mobile dog groomer in Phoenix, $20 off the first groom." Get ads that sound like you, not a robot. Try it below.</div>
       </article>
       <article class="card reveal">
-        <span class="num">03 · Claude skills</span>
-        <h3>Teach Claude your business once. It remembers.</h3>
-        <p>Install a skill and Claude becomes your ad writer, email writer or content planner, already knowing your offers and voice.</p>
-        <div class="ex"><b>Real life</b>Install the email skill on Monday. By Friday, Claude writes your newsletter in your voice without you explaining your business again.</div>
-      </article>
-      <article class="card wide reveal">
-        <span class="tag">ONLY HERE</span>
-        <span class="num">04 · GoHighLevel snapshots</span>
-        <h3>Follow-up that works while you're busy working</h3>
-        <p>Missed-call text-back, speed-to-lead follow-up and review requests: the same kind of systems our agency installs for clients. Import in minutes on GoHighLevel. Not on it? Every snapshot comes with a "Run it anywhere" playbook with every message, the timing and the trigger.</p>
-        <div class="ex"><b>Real life</b>A customer calls while you're under a sink. You can't answer. Sixty seconds later they get a text with your booking link, and they book. You find out when it shows up on your calendar.</div>
-      </article>
-      <article class="card reveal">
         <span class="tag">NEW</span>
-        <span class="num">05 · Video editing</span>
+        <span class="num">03 · Video editing</span>
         <h3>One video becomes a week of posts</h3>
         <p>Claude finds your best clips, cuts the dead air, makes vertical versions and writes the captions.</p>
         <div class="ex"><b>Real life</b>Film one 20-minute video on Sunday. Post a new short clip every day until the next Sunday.</div>
       </article>
+      <article class="card wide reveal">
+        <span class="tag">BUILT FOR MARKETING</span>
+        <span class="num">04 · Claude skills</span>
+        <h3>Skills built to market your business. Not to impress developers.</h3>
+        <p>You've probably seen free Claude skills online. Most are made by developers, for developers. They take setup you don't have time for, and they know nothing about your business. The Vault's skills are different:</p>
+        <ul class="ticks">
+          <li><b>One job each.</b> Ad Writer, Email Writer, Content Planner, Offer Builder, Clip Finder and Results Reader.</li>
+          <li><b>They learn your business once.</b> A 60-second setup interview teaches each skill your offers, customers and voice.</li>
+          <li><b>Tested before they ship.</b> Our team runs every skill on real small-business marketing first.</li>
+          <li><b>Kept up to date.</b> When Claude changes, we update the skills so they don't quietly break.</li>
+          <li><b>Yours to use for clients.</b> Same license as everything else in the Vault.</li>
+        </ul>
+        <div class="ex"><b>Real life</b>A free skill writes "an email." The Vault's Email Writer already knows you run a med spa in Tampa, your Botox special ends Friday, and you never use exclamation points. You type "write this week's email." It's done.</div>
+      </article>
       <article class="card reveal">
-        <span class="num">06 · Ads training</span>
+        <span class="num">05 · Ads training</span>
         <h3>Stop guessing with your ad money</h3>
         <p>Short monthly lessons on writing, launching and fixing Facebook and Instagram ads.</p>
         <div class="ex"><b>Real life</b>Paste last week's numbers. Find out which ad to turn off, which to keep, and what to test next, in plain English.</div>
+      </article>
+      <article class="card wide reveal">
+        <span class="tag">ONLY HERE</span>
+        <span class="num">06 · GoHighLevel snapshots</span>
+        <h3>Follow-up that works while you're busy working</h3>
+        <p>Missed-call text-back, speed-to-lead follow-up and review requests: the same kind of systems our agency installs for clients. Import in minutes on GoHighLevel. Not on it? Every snapshot comes with a "Run it anywhere" playbook with every message, the timing and the trigger.</p>
+        <div class="ex"><b>Real life</b>A customer calls while you're under a sink. You can't answer. Sixty seconds later they get a text with your booking link, and they book. You find out when it shows up on your calendar.</div>
       </article>
       <article class="card reveal">
         <span class="num">07 · Live call</span>
@@ -375,7 +388,7 @@ footer a{color:var(--muted)}
         <p>Once a month, bring your ads, emails and funnels. We review them live.</p>
         <div class="ex"><b>Real life</b>Bring the ad that isn't working. Leave with a rewrite and the reason it'll do better.</div>
       </article>
-      <article class="card reveal">
+      <article class="card full reveal">
         <span class="num">08 · Tutorials</span>
         <h3>Never get stuck on setup</h3>
         <p>A 5-minute video for every skill and snapshot.</p>
