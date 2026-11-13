@@ -52,6 +52,9 @@ section,header{padding:96px 0;scroll-margin-top:68px}
 nav{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
 .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;text-decoration:none}
+.logo img{height:44px;width:auto;display:block}
+.logo-div{width:1px;height:28px;background:var(--line)}
+.logo-vault{font-weight:800;font-size:20px;letter-spacing:-.01em}
 .logo-mark{width:34px;height:34px;border-radius:9px;background:var(--gold);color:#000;display:grid;place-items:center;font-family:var(--mono);font-size:13px;font-weight:700}
 nav .btn{padding:10px 20px;font-size:15px}
 
@@ -305,7 +308,7 @@ footer{background:var(--ink-2)}
 
 <nav aria-label="Main">
   <div class="wrap">
-    <a href="#top" class="logo"><span class="logo-mark">E4L</span> Vault</a>
+    <a href="#top" class="logo"><img src="logo-black.png" width="88" height="60" alt="Eat For Life"><span class="logo-div" aria-hidden="true"></span><span class="logo-vault">Vault</span></a>
     <a href="#pricing" class="btn btn-gold" data-cta>Get founding access</a>
   </div>
 </nav>
