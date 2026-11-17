@@ -26,6 +26,7 @@ TIME-SENSITIVE: A1 quotes two Google help pages (both undated, "©2026 Google");
 - **Sun Nov 29 (day before Cyber Monday):** S-SUN sells the book hard at its normal price, because Sunday is the highest-intent day and this is the week people buy. It carries no discount and no deadline, and does not mention Cyber Monday.
 - **Same date, two different emails:** the agency Thanksgiving email is about the owner's quiet hour; the student one is about the family table. Nothing is split across lists.
 - **No Christmas Day or New Year's Day slot falls in this week.** Nothing is skipped; all eight slots are written.
+- **Editor check (2026-11-17):** holidays named above confirmed against `seasons.md`. One seasonal email per list (A2, S2), no "Happy [holiday]" subject, no holiday emoji, no offer or deadline anywhere (PROMOS row not live: no checkout, window unconfirmed). Nothing changed by the seasonal check.
 
 **PROMO. No promo ships in this batch, and no email carries a deadline.** `docs/PROMOS.md` has one row headed LIVE (Black Friday / Cyber Monday, student), but it is not a live offer yet:
 - **No checkout URL exists.** The row lists all three checkouts ($500 lifetime course, book with free audiobook, $50 mini course) as "does not exist yet" / "must be built". There was nothing to WebFetch, so nothing to sell.
@@ -88,7 +89,9 @@ Now picture a stranger looking you up tonight. Same town. Same problem that cust
 
 What do they see?
 
-Not the handshake at the door. Not the thank-you text. They see a star rating, and whatever the last few people bothered to write.
+Not the handshake at the door. Not the thank-you text.
+
+They see a star rating, and whatever the last few people bothered to write.
 
 **The best thing anybody ever said about your business might be sitting in your phone where nobody else can see it.**
 
@@ -111,7 +114,9 @@ Reviews make the stranger pick up the phone. They don't answer it.
 
 A five-star profile with a phone nobody picks up is a billboard for the business down the street.
 
-That's what our AI Front Desk is for. Every call, even the 7pm one. Every missed call, text, DM and form gets a reply in under 60 seconds, then gets followed up until they book.
+That's what our AI Front Desk is for. Every call, even the 7pm one.
+
+Every missed call, text, DM and form gets a reply in under 60 seconds, then gets followed up until they book.
 
 If you want to see how that works for your business, it's a 20-minute call.
 
@@ -130,7 +135,7 @@ P.S. Do the review link on a computer, not your phone. Google says the review QR
 ---
 ## A2 — Wednesday
 
-**Subject:** The quote you sent in October
+**Subject:** Did that October quote ever actually say no?
 
 **Preview text:** Five quiet days. One list worth an hour of them.
 
@@ -163,9 +168,13 @@ Pick the three you'd most like to win. Next week, send each one a single line:
 
 That's not pushy. That's the text they were half waiting for.
 
-Doing this once, over a holiday, is easy. Doing it every week is where it falls apart, because you're busy doing the actual work.
+Doing this once, over a holiday, is easy.
 
-We built our AI Front Desk so the people who reach out don't go quiet in the first place. Every call, text, DM and form gets a reply in under 60 seconds, then gets followed up until they book. A named person on our team supervises it.
+Doing it every week is where it falls apart, because you're busy doing the actual work.
+
+We built our AI Front Desk so the people who reach out don't go quiet in the first place.
+
+Every call, text, DM and form gets a reply in under 60 seconds, then gets followed up until they book. A named person on our team supervises it.
 
 👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-11-23)
 
@@ -223,7 +232,8 @@ Sebastian
 Eat 4 Life
 AI Marketing Made Easy
 
-P.S. When the people they send pick up the phone and call you, does somebody answer? If you're not sure, that's a 20-minute call → (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A3-2026-11-23)
+P.S. When the people they send call you, does somebody answer?
+👉 Not sure? That's a 20-minute call → (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A3-2026-11-23)
 ```
 
 *Notes:* **Sends Fri Nov 27, Black Friday.** Deliberately the pattern interrupt from `seasons.md`: the shortest agency email of the week, nothing sold in the body, the only link in the P.S., and no mention of Black Friday (which would make a second seasonal agency email). No external claim. "I'd bet it wasn't an ad" and "almost nobody thanks them" are opinion, said as opinion; **editor: don't turn either into a statistic.** "Enjoy the weekend" is true on a Friday send. Emoji: 🙏 = one; the P.S. link has no 👉 on purpose, so it reads as a note, not a CTA button.
@@ -259,9 +269,13 @@ And every one of them came out of your evening.
 
 Here's what we built instead.
 
-The AI Front Desk answers your calls and your DMs. Every call, text, DM and form gets a reply in under 60 seconds, then gets followed up until they book.
+The AI Front Desk answers your calls and your DMs.
 
-A named person on our team supervises it. And your customer list, your calls and your numbers live in your accounts, not ours.
+Every call, text, DM and form gets a reply in under 60 seconds, then gets followed up until they book.
+
+A named person on our team supervises it.
+
+And your customer list, your calls and your numbers live in your accounts, not ours.
 
 You keep the conversations that need you. It takes the ones that don't.
 
@@ -284,9 +298,9 @@ P.S. What's the question you're sickest of answering? Hit reply. I read them.
 
 ## S1 — Monday
 
-**Subject:** I learned to sell on a sales floor
+**Subject:** You think you have to be smooth to sell
 
-**Preview text:** Nobody there wanted a speech. They wanted to see it work.
+**Preview text:** The sales floor taught me the opposite. People WANT what works.
 
 **Reader:** S-B (believes Chosen, thinks selling means being smooth) · **Angle:** Story (first person) → Best Way Without · **Spoke:** front end → the book
 
@@ -303,7 +317,7 @@ People have questions. That's normal. That's not a no.
 
 The move isn't a better speech.
 
-**Keep showing the value. Keep giving examples of how it gets used. People WANT what works.**
+Keep showing the value. Keep giving examples of how it gets used. **People WANT what works.**
 
 Why am I telling you this?
 
@@ -324,7 +338,9 @@ Pick the best one. Then show the owner: "Made this for you. Want it?"
 
 You're not pitching. You're showing an example. That's the whole sales floor in one message. 💡
 
-And this is real work businesses pay for. Our agency's AI Front Desk, which includes the texts and emails a business sends its customers, starts at $500 a month.
+And this is real work businesses pay for.
+
+Our agency's AI Front Desk, which includes the texts and emails a business sends its customers, starts at $500 a month.
 
 For ONE business.
 
@@ -347,9 +363,9 @@ P.S. What's one thing you'd feel confident showing a business owner? One line. H
 ---
 ## S2 — Wednesday
 
-**Subject:** Thursday's a boss fight. Here's your build.
+**Subject:** Thursday's dinner is a boss fight
 
-**Preview text:** For when somebody at the table asks "so what are you doing now?"
+**Preview text:** Somebody's gonna ask "so what are you doing now?" You'll have an answer.
 
 **Reader:** S-C (tried and failed, dreading the family question) · **Angle:** Paradigm Shift / forgiveness · **Spoke:** front end → the book
 
@@ -362,7 +378,7 @@ Somewhere between the turkey and the pie, somebody's gonna ask it.
 
 "So… what are you doing now?" 😬
 
-If you tried something this year and it didn't pan out, a course you didn't finish, a side hustle that made $0, that question hits different.
+If you tried something this year and it didn't pan out (a course you didn't finish, a side hustle that made $0), that question hits different.
 
 So let me say this before you sit down.
 
@@ -372,7 +388,11 @@ In From Xbox to Executive I call it tilt control. Every no is a lost round. You 
 
 Nobody quits the game over one lost round. 🎮
 
-And real talk, most of what you were sold was built wrong. Five skills at once. No order. No first client. That's a design problem, not a *you* problem.
+And real talk, most of what you were sold was built wrong.
+
+Five skills at once. No order. No first client.
+
+That's a design problem, not a *you* problem.
 
 Here's your build for Thursday:
 
@@ -410,7 +430,7 @@ P.S. That cousin who keeps asking? They're probably wondering the same thing abo
 
 **Subject:** One side quest. Ten minutes. This weekend.
 
-**Preview text:** Your phone, one prompt, zero experience. That's the whole quest.
+**Preview text:** Do day 1. Just day 1. That's how every grind you ever won started.
 
 **Reader:** S-A (just found out this exists) · **Angle:** Miyagi (one small thing, no pitch) · **Spoke:** the book, P.S. only
 
@@ -435,7 +455,7 @@ That's it.
 
 You don't need a new year, a new laptop or a new you.
 
-You need one small task you actually finish. Then another one.
+**You need one small task you actually finish.** Then another one.
 
 That's how every grind you ever won started. 💪
 
@@ -454,7 +474,7 @@ P.S. 👉 Want the whole map, not just one quest? Get From Xbox to Executive: (L
 
 **Subject:** You're not a single hero anymore
 
-**Preview text:** A line from my book, for anybody still trying to carry solo.
+**Preview text:** You tried to carry solo. You still lost.
 
 **Reader:** S-B (ready to decide) · **Angle:** Paradigm Shift · **Spoke:** front end → the book
 
@@ -470,11 +490,15 @@ You're a whole team in one chair. ✅
 
 Remember solo queue?
 
-You try to carry. You're the damage, the healing, the shot-calling. And you still lose, because one person can't play five roles at once.
+You try to carry. You're the damage, the healing, the shot-calling.
+
+And you still lose, because one person can't play five roles at once.
 
 That's what running a business used to feel like.
 
-Every business needs five jobs handled. Getting attention. Turning attention into conversations. Closing. Delivering. Keeping people happy.
+Every business needs five jobs handled.
+
+Getting attention. Turning attention into conversations. Closing. Delivering. Keeping people happy.
 
 Most are running two. Badly. 👀
 
@@ -496,7 +520,7 @@ Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
 Eat 4 Life
 
-P.S. I gotta question: out of those five jobs, which one would you pick first?
+P.S. I got a question: out of those five jobs, which one would you pick first?
 ```
 
 *Notes:* Pinned to a Sunday send (Nov 29). Not seasonal; does not mention Cyber Monday, carries no discount and no deadline. The ❌/✅ pair and "AI covers the parts that used to take a whole staff" are Chosen's own words from the gold-standard email, where he introduces them as "In From Xbox to Executive I say it like this" (`voice.md`). **Editor: keep the two lines exactly.** The five jobs are translated, never Damage/Support/Tank; "damage, healing, shot-calling" describes solo queue, not the book's role names. "Most are running two" and "one skill, paid inside 90 days" are the book's framework (story bank). No price stated. Emoji: ❌ ✅ 👀 🎯 👉 ✊🏾.
@@ -540,9 +564,11 @@ Open Claude and type:
 
 It builds it. Right there. You can click through it. 👀
 
-Don't like a question? Say "change question 3." You're not coding. You're *talking.*
+Don't like a question? Say "change question 3." You're not coding. You're *talking*.
 
-And businesses pay for this. Our agency's interactive quiz pages start at $500 a month.
+And businesses pay for this.
+
+Our agency's interactive quiz pages start at $500 a month.
 
 For ONE business.
 
@@ -620,7 +646,7 @@ P.S. The reply isn't for the reviewer. Write it for the next customer.
 ## Monday report follow-through
 
 The Nov 16 report's "Change this week" said: *keep every student broadcast subject first-person personal or gaming-story, no news hooks, with at least two on Mon/Wed slots.* How the batch acted on it:
-- **All four student subjects are first-person or gaming-story, and none is news:** S1 Mon "I learned to sell on a sales floor" (first person), S2 Wed "Thursday's a boss fight. Here's your build." (gaming-story), S3 Fri "One side quest. Ten minutes. This weekend." (gaming), S-SUN "You're not a single hero anymore" (Chosen's own book line, gaming frame).
+- **All four student subjects are first-person or gaming-story, and none is news:** S1 Mon "You think you have to be smooth to sell" (editor rewrite; the first-person sales-floor story is in the preview and body), S2 Wed "Thursday's dinner is a boss fight" (gaming-story), S3 Fri "One side quest. Ten minutes. This weekend." (gaming), S-SUN "You're not a single hero anymore" (Chosen's own book line, gaming frame).
 - **Mon and Wed both carry them**, so the instruction is met on the weekday slots, and this week there was no queued student email to work around.
 - **No news source appears anywhere on the student side**, not even as garnish in the body.
 - **Agency:** unchanged from Chosen's Nov 6 direction. All four talk about the owner's reviews, quotes, referrers and evenings, never about agencies or marketing. "We" appears only where the email names what the Front Desk does, after the owner's problem is made.
