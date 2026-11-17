@@ -106,6 +106,15 @@ Without these the emails have nothing to point at:
 
 ---
 
+### Status, 2026-11-17 (Tuesday writer)
+
+- **The Nov 17 date passed with no answers** to the six questions and no checkouts built. The week-of-Nov-23 batch shipped **without** the Black Friday open; nothing in it carries an offer or a deadline.
+- **Still possible:** if Chosen answers and the three checkouts are built and test-purchased by **Thu Nov 19**, the open in `docs/BLACK_FRIDAY_2026.md` can replace S3 (Fri Nov 27) in an edit pass before Friday's load. The **close** (Cyber Monday, Nov 30) needs everything by **Tue Nov 24**, when that batch is written.
+- **Monthly product:** Chosen described the **E4L Vault** in Slack on Nov 11 (monthly membership, joine4l.com/vault, founding members $10/mo or $99/yr for the first 50, then $20/mo or $199/yr). Not confirmed as "the monthly product" in this file, so nothing sells it. The page did not respond on 2026-11-17. Asked again.
+- **The $2,000 question:** the same Slack message lists the course as "E4L Activate" at **$1,997**. A list price is not proof it has sold at that price, so the comparison stays out until Chosen confirms.
+
+---
+
 ## Past promos
 
 *(none yet — record each one here with what it actually sold, so next year has a baseline
