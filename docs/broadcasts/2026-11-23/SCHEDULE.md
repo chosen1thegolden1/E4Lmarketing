@@ -14,8 +14,8 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 
 | Send date | Day | Side | File | Subject | Preview text | Sells |
 |---|---|---|---|---|---|---|
-| 2026-11-23 | Monday | agency | `A1.html` | Who told you "you're the best" this year? | Google never heard it. | Game Plan Call (agency front end) |
-| 2026-11-23 | Monday | student | `S1.html` | You think you have to be smooth to sell | The sales floor taught me the opposite. People WANT what works. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-11-23 | Monday | agency | `A1.html` | Did your customers just move to Vice City? | GTA 6 dropped Thursday. Here's how your shop shows up in it. | Game Plan Call (agency front end) |
+| 2026-11-23 | Monday | student | `S1.html` | AI + GTA = 🤯 | Vice City is open. So is the best content window of the year. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-11-25 | Wednesday | agency | `A2.html` | Did that October quote ever actually say no? | Five quiet days. One list worth an hour of them. | Game Plan Call (agency front end) |
 | 2026-11-25 | Wednesday | student | `S2.html` | Thursday's dinner is a boss fight | Somebody's gonna ask "so what are you doing now?" You'll have an answer. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-11-27 | Friday | agency | `A3.html` | Who sent you your best customer? | One name. One text. No pitch in this one. | Game Plan Call (agency front end) |
@@ -31,8 +31,12 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 - [ ] Schedule for 8:00 AM Pacific on the send date shown.
 - [ ] Test send to yourself: first name renders, unsubscribe works, every link opens.
 - [ ] Agency rows go to the agency list, student rows to the student list. Never crossed.
+- [ ] **`A1.html` has an image.** Upload `vice-city-barbershop.jpg` (it's in this folder) to GHL Media, then replace the image's `src` with the GHL URL. Left as is, it shows in the preview and arrives **blank** in a real inbox.
+- [ ] **`S1.html` has an image.** Upload `vice-city-barbershop.jpg` (it's in this folder) to GHL Media, then replace the image's `src` with the GHL URL. Left as is, it shows in the preview and arrives **blank** in a real inbox.
 
 ## Bench — not scheduled
 
+- `B3.html` — Who told you "you're the best" this year?
+- `B4.html` — You think you have to be smooth to sell
 - `B1.html` — I'd build a quiz before a website
 - `B2.html` — Did you answer your last bad review?

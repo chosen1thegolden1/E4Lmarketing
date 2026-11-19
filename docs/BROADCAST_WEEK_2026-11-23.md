@@ -41,6 +41,8 @@ TIME-SENSITIVE: A1 quotes two Google help pages (both undated, "©2026 Google");
 
 ## ⚠️ Things to settle before this sends
 
+- **Mondays replaced 2026-11-19 (Chosen):** A1 and S1 are now the GTA 6 launch emails ("Did your customers just move to Vice City?" / "AI + GTA = 🤯"). The reviews email and the sales-floor email moved to the bench as B3 and B4, with their own UTMs. Both Mondays carry the same image (`docs/assets/examples/vice-city-barbershop.jpg`), which the loader uploads to GHL Media in each sub-account.
+
 **1. S1 says "I've worked a sales floor" and uses Chosen's sales-floor note** ("People have questions… keep restating the value and giving examples of use, people WANT what works") as the lesson. It's the same framing the agency list got on Oct 28 (A3, week of Oct 26), now to students. It does not name Stiiizy, a city, a year or a customer. **A real moment from the floor would make it his.**
 
 **2. S2 is the Thanksgiving email and leans on one true line** from the story bank: "People laughed. Then it stopped being funny." It does not say *who* laughed or at what table. **If Chosen has a real Thanksgiving-table moment** (the year somebody asked what he did, and what he said), S2 gets rewritten around it.
@@ -69,6 +71,69 @@ TIME-SENSITIVE: A1 quotes two Google help pages (both undated, "©2026 Google");
 # AGENCY SIDE
 
 ## A1 — Monday
+
+**Subject:** Did your customers just move to Vice City?
+
+**Preview text:** GTA 6 dropped Thursday. Here's how your shop shows up in it.
+
+**Reader:** A-1 (busy owner, local business) · **Angle:** Correlation (the week's biggest moment → their shop) · **Spoke:** front end → the call
+
+```
+Hey [First Name],
+
+Thursday, after 13 years of waiting, Grand Theft Auto VI came out.
+
+Odds are some of your customers spent the weekend in Vice City.
+
+Here's why that matters to you, even if you've never held a
+controller.
+
+For the next month or so, that look is going to be everywhere.
+The neon. The palm trees. The painted sunset. In feeds, in
+memes, in ads.
+
+When everybody's already staring at one thing, you don't fight
+it.
+
+**You show up looking like it.** 🌴
+
+Like this:
+
+(IMAGE: docs/assets/examples/vice-city-barbershop.jpg | A painted neon poster for a barbershop called Fresh Fades, palm trees and a pink sunset, made with AI | 420)
+
+*A barbershop poster in that style. Made with AI from one sentence.*
+
+Now picture yours. Your shop. Your sign. Your best offer. Painted
+like a game's loading screen, and posted this week while
+everybody's still in it.
+
+One rule, and it matters: **use the look, not their stuff.**
+
+The colors, the sunset, the painted style are fair game. Their
+logo, their characters and the name "Grand Theft Auto" belong
+to Rockstar. Keep those out and nobody can make you take it down.
+
+My bet: this look stays hot through the holidays. That's about
+five weeks of people already primed to stop and look.
+
+Don't have time to make it yourself? We'll make it for you. Twenty
+minutes and you'll see what yours could look like.
+
+👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A1-2026-11-23)
+
+Sebastian
+Eat 4 Life
+AI Marketing Made Easy
+
+P.S. If somebody at your house went quiet on Thursday night, now you know why. 😂
+```
+
+*Notes:* **Replaces the reviews email (moved to bench as B3) at Chosen's request, 2026-11-19:** "replace BOTH monday Emails with a post GTA 6 launch email… For companies, who they could be using AI to create a GTA6 style piece of content that will trend HIGH for the next 4-6 weeks." Facts: Rockstar Newswire, "Grand Theft Auto VI is Now Set to Launch November 19, 2026" (Thursday; PS5 and Xbox Series X|S; modern-day Vice City); ABC News wire, "After a 13-year wait, 'Grand Theft Auto VI' arrives…" (GTA V was 2013). Launch confirmed as rolling out Nov 19 (ABC, Yahoo Tech). **No sales or player numbers are used, because none were verified.** "Odds are some of your customers…", "my bet: this look stays hot through the holidays" and "about five weeks" are Chosen's prediction (his "4-6 weeks"), said as opinion. The image is real Higgsfield output (gpt_image_2_5, job 72ed8165, 2026-11-19), from a one-sentence prompt for an original barbershop poster with no game logos or titles. The "use the look, not their stuff" rule is general trademark caution, not legal advice. **Editor: don't add a sales figure, don't name a real business, and keep the "use the look" paragraph.** "We'll make it for you" is the CTA's next step, not a story about the agency. Emoji: 🌴 👉 😂 = three.
+*Source:* https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026 · https://abcnews.com/amp/Business/wireStory/after-13-year-wait-grand-theft-auto-vi-138239193
+
+---
+
+### B3 — agency, the reviews (was Monday A1; replaced by the GTA 6 email 2026-11-19)
 
 **Subject:** Who told you "you're the best" this year?
 
@@ -120,13 +185,13 @@ Every missed call, text, DM and form gets a reply in under 60 seconds, then gets
 
 If you want to see how that works for your business, it's a 20-minute call.
 
-👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A1-2026-11-23)
+👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=B3-2026-11-23)
 
 Sebastian
 Eat 4 Life
 AI Marketing Made Easy
 
-P.S. Do the review link on a computer, not your phone. Google says the review QR code can only be made in a computer browser. Here are their steps → (LINK: https://support.google.com/business/answer/16816815?utm_source=email&utm_medium=agency&utm_campaign=A1-2026-11-23)
+P.S. Do the review link on a computer, not your phone. Google says the review QR code can only be made in a computer browser. Here are their steps → (LINK: https://support.google.com/business/answer/16816815?utm_source=email&utm_medium=agency&utm_campaign=B3-2026-11-23)
 ```
 
 *Notes:* **Two Google help pages, read 2026-11-17.** (1) "Tips to get more reviews": "Reviews can help your business stand out and give potential customers helpful info" (quoted exactly; **editor: do not alter the quote**). (2) "Create a Google link or QR code to request reviews": steps are "Go to your Business Profile", select "Read Reviews," then "Get more reviews", share the link or QR code, "To copy the link, select 'Copy'"; "Currently, reviews QR codes can only be generated on a computer browser, not on mobile devices"; "Offering incentives, like free or discounted goods or services, to customers in exchange for reviews" is "considered fake engagement and is strictly prohibited." **"Ask everybody. Not just the ones who smiled." is the writer's advice, not a Google quote** (Google's wider review policy also discourages selectively asking for positive reviews, but that line was not read on these two pages, so the email does not attribute it to Google). "A five-star profile with a phone nobody picks up is a billboard for the business down the street" is the writer's line, no statistic. Front Desk lines are e4lagency.com, read 2026-11-17: "Every missed call, DM, text, and form fill gets a reply in under 60 seconds, then gets followed up until they book"; "Your phone gets answered. Every call, even the 7pm one." Not seasonal. No jargon. Emoji: 🙌 👉 = two.
@@ -298,6 +363,79 @@ P.S. What's the question you're sickest of answering? Hit reply. I read them.
 
 ## S1 — Monday
 
+**Subject:** AI + GTA = 🤯
+
+**Preview text:** Vice City is open. So is the best content window of the year.
+
+**Reader:** S-B (got interested off Chosen's story, has never done this) · **Angle:** Paradigm Shift (the gaming moment → their skill) · **Spoke:** front end → the book
+
+```
+Yo [First Name],
+
+13 years.
+
+That's how long we waited. And Thursday, GTA 6 finally dropped. 🎮
+
+If you've been in Vice City all weekend, no judgment. I get it.
+
+But here's what's crazy.
+
+Everybody is staring at the same thing right now. The neon. The
+palm trees. That sunset. For the next month, that look is going
+to be everywhere you scroll.
+
+And you can make it. Today. With AI.
+
+I typed one sentence and got this:
+
+(IMAGE: docs/assets/examples/vice-city-barbershop.jpg | A painted neon poster for a barbershop called Fresh Fades, palm trees and a pink sunset, made with AI | 420)
+
+*A loading-screen poster for a barbershop. One sentence. No art school.*
+
+Now think about what that means for you.
+
+**For you:** your own thumbnails, your own "loading screen" intro,
+a profile that looks like it shipped with the game.
+
+**For a business:** the barbershop, the taco truck, the gym down
+the street. Make them a poster like that and DM it to them. "Made
+this for you. Want one every week?" 🤯
+
+That's how a first client starts. Not with a portfolio. With one
+picture they can't stop looking at.
+
+One rule: use the vibe, not their stuff. The colors, the sunset
+and the painted style are yours to use. Rockstar's logo,
+characters and the game's name are not. Keep it clean and nobody
+can take it down.
+
+People told you gaming was wasted time. You spent years learning
+exactly what makes somebody stop and look.
+
+Now you've got the tools to make it. 💪
+
+The window is open right now. It won't stay open forever. And I
+believe you're the one who walks through it.
+
+The book shows you how to pick ONE skill and get paid for it
+inside 90 days.
+
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S1-2026-11-23)
+
+Holla Back – Get ya Dolla Back. ✊🏾
+Sebastian
+Eat 4 Life
+
+P.S. I got a question: what's the first thing you'd make in the Vice City style? Hit reply. I read these.
+```
+
+*Notes:* **Replaces the sales-floor email (moved to bench as B4) at Chosen's request, 2026-11-19.** His subject, verbatim: "AI + GTA = 🤯". Facts: GTA VI launched Thursday Nov 19, 2026 (Rockstar Newswire); 13-year wait (ABC News; GTA V was 2013). No sales numbers. Gaming and motivation first, per the Nov 6 direction ("gaming subject matter and motivation does better than the news"). Possibility pillars: ease (one sentence, an image), money only as "first client" (no income claim), belief + timing. The image is the same real Higgsfield output as A1 (job 72ed8165). "People told you gaming was wasted time" echoes the story bank's "People laughed. Then it stopped being funny." "I read these" was approved by Chosen for student P.S. lines 2026-10-31. The subject emoji is allowed: the no-emoji rule is for the body's opening sentence. **Editor: keep the subject exactly as Chosen wrote it, don't add sales or player numbers, and keep the "use the vibe" paragraph.** Body emoji: 🎮 🤯 💪 👉 ✊🏾.
+*Source:* https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026 · https://abcnews.com/amp/Business/wireStory/after-13-year-wait-grand-theft-auto-vi-138239193
+
+---
+
+### B4 — student, the sales floor (was Monday S1; replaced by the GTA 6 email 2026-11-19)
+
 **Subject:** You think you have to be smooth to sell
 
 **Preview text:** The sales floor taught me the opposite. People WANT what works.
@@ -348,7 +486,7 @@ That's not a promise for you. It's what the work is worth to an owner.
 
 The book shows you how to pick ONE skill and get paid for it inside 90 days.
 
-👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=S1-2026-11-23)
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/xboxtoexec?utm_source=email&utm_medium=student&utm_campaign=B4-2026-11-23)
 
 Holla Back – Get ya Dolla Back. ✊🏾
 Sebastian
