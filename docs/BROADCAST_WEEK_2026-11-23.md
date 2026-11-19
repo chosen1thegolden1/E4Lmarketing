@@ -101,7 +101,11 @@ Like this:
 
 (IMAGE: docs/assets/examples/vice-city-barbershop.jpg | A painted neon poster for a barbershop called Fresh Fades, palm trees and a pink sunset, made with AI | 420)
 
-*A barbershop poster in that style. Made with AI from one sentence.*
+*A barbershop poster in that style, made with AI.*
+
+Here's the exact prompt I typed. Copy it and swap in your shop:
+
+*Painted video-game loading-screen style poster for a local barbershop called Fresh Fades. Neon Miami sunset, palm trees, pastel pink and teal sky, a barber in the doorway, bold hand-painted title text FRESH FADES and the line OPEN LATE. Original artwork, no game logos or titles.*
 
 Here's what that gets you.
 
@@ -116,9 +120,9 @@ And you look current. The shop that posts this next week looks
 like it knows what's going on. The one still posting a blurry
 menu photo doesn't.
 
-The best part? It's easy. Describe your shop in that style in one
-sentence. Under a minute later you've got a poster. No designer.
-No photoshoot.
+The best part? It's easy. Paste that prompt, swap in your shop's
+name and your offer. Under a minute later you've got a poster. No
+designer. No photoshoot.
 
 Here's the part that should bug you a little. The shop down the
 street can do this tonight. In a few weeks this look will feel
@@ -146,7 +150,7 @@ AI Marketing Made Easy
 P.S. If somebody at your house went quiet on Thursday night, now you know why. 😂
 ```
 
-*Notes:* **Revised 2026-11-19 per Chosen: "talk about the benefits of using the style. The trending topic which will bring more eyeballs which MAY bring more revenue. And talk about the ease and avoiding getting left behind."** "More eyeballs can mean more customers… Not every view turns into a sale" keeps the MAY. No promise of revenue. "Under a minute" is true of the real generation (job 72ed8165 finished in about 20 seconds). "In a few weeks this look will feel old" is opinion. **Replaces the reviews email (moved to bench as B3) at Chosen's request, 2026-11-19:** "replace BOTH monday Emails with a post GTA 6 launch email… For companies, who they could be using AI to create a GTA6 style piece of content that will trend HIGH for the next 4-6 weeks." Facts: Rockstar Newswire, "Grand Theft Auto VI is Now Set to Launch November 19, 2026" (Thursday; PS5 and Xbox Series X|S; modern-day Vice City); ABC News wire, "After a 13-year wait, 'Grand Theft Auto VI' arrives…" (GTA V was 2013). Launch confirmed as rolling out Nov 19 (ABC, Yahoo Tech). **No sales or player numbers are used, because none were verified.** "Odds are some of your customers…", "my bet: this look stays hot through the holidays" and "about five weeks" are Chosen's prediction (his "4-6 weeks"), said as opinion. The image is real Higgsfield output (gpt_image_2_5, job 72ed8165, 2026-11-19), from a one-sentence prompt for an original barbershop poster with no game logos or titles. The "use the look, not their stuff" rule is general trademark caution, not legal advice. **Editor: don't add a sales figure, don't name a real business, and keep the "use the look" paragraph.** "We'll make it for you" is the CTA's next step, not a story about the agency. Emoji: 🌴 👉 😂 = three.
+*Notes:* **Revised 2026-11-19 per Chosen: "talk about the benefits of using the style. The trending topic which will bring more eyeballs which MAY bring more revenue. And talk about the ease and avoiding getting left behind."** "More eyeballs can mean more customers… Not every view turns into a sale" keeps the MAY. No promise of revenue. The exact prompt is quoted in italics (Chosen, 2026-11-19: "only thing missing… is the Prompt"); it is the real one used for job 72ed8165. "Under a minute" is true of the real generation (job 72ed8165 finished in about 20 seconds). "In a few weeks this look will feel old" is opinion. **Replaces the reviews email (moved to bench as B3) at Chosen's request, 2026-11-19:** "replace BOTH monday Emails with a post GTA 6 launch email… For companies, who they could be using AI to create a GTA6 style piece of content that will trend HIGH for the next 4-6 weeks." Facts: Rockstar Newswire, "Grand Theft Auto VI is Now Set to Launch November 19, 2026" (Thursday; PS5 and Xbox Series X|S; modern-day Vice City); ABC News wire, "After a 13-year wait, 'Grand Theft Auto VI' arrives…" (GTA V was 2013). Launch confirmed as rolling out Nov 19 (ABC, Yahoo Tech). **No sales or player numbers are used, because none were verified.** "Odds are some of your customers…", "my bet: this look stays hot through the holidays" and "about five weeks" are Chosen's prediction (his "4-6 weeks"), said as opinion. The image is real Higgsfield output (gpt_image_2_5, job 72ed8165, 2026-11-19), from a one-sentence prompt for an original barbershop poster with no game logos or titles. The "use the look, not their stuff" rule is general trademark caution, not legal advice. **Editor: don't add a sales figure, don't name a real business, and keep the "use the look" paragraph.** "We'll make it for you" is the CTA's next step, not a story about the agency. Emoji: 🌴 👉 😂 = three.
 *Source:* https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026 · https://abcnews.com/amp/Business/wireStory/after-13-year-wait-grand-theft-auto-vi-138239193
 
 ---
@@ -404,11 +408,15 @@ to be everywhere you scroll.
 
 And you can make it. Today. With AI.
 
-I typed one sentence and got this:
+Here's exactly what I typed:
+
+*Painted video-game loading-screen style poster for a local barbershop called Fresh Fades. Neon Miami sunset, palm trees, pastel pink and teal sky, a barber in the doorway, bold hand-painted title text FRESH FADES and the line OPEN LATE. Original artwork, no game logos or titles.*
+
+And here's what came back:
 
 (IMAGE: docs/assets/examples/vice-city-barbershop.jpg | A painted neon poster for a barbershop called Fresh Fades, palm trees and a pink sunset, made with AI | 420)
 
-*A loading-screen poster for a barbershop. One sentence. No art school.*
+*A loading-screen poster for a barbershop. No art school.*
 
 Here's why that matters.
 
@@ -425,8 +433,8 @@ like that. More people stop on their post. More people stopping
 MAY turn into more people walking in. That's exactly why a
 business would pay you to make it. 🤯
 
-And the hard part? There isn't one. One sentence. Under a
-minute. If you can describe it, you can make it.
+And the hard part? There isn't one. Copy that prompt, swap the
+name. Under a minute. If you can describe it, you can make it.
 
 Now here's the part I don't want you to miss.
 
