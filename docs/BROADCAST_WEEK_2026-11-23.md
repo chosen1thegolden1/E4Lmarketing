@@ -116,7 +116,7 @@ past.
 More eyeballs can mean more customers. Not every view turns into a
 sale. But **nobody books a shop they never saw.**
 
-And you look current. The shop that posts this next week looks
+And you look current. The shop that posts it this week looks
 like it knows what's going on. The one still posting a blurry
 menu photo doesn't.
 
@@ -856,3 +856,23 @@ To run Fri 2026-11-20 (send dates Nov 23 / 25 / 27 / 29). Re-fetch every Source 
 | PROMOS | `docs/PROMOS.md` | If Chosen confirmed the promo and the checkouts exist and test-purchase, swap the open into S3 (whole student list) before the load. Otherwise nothing changes. |
 
 **Relative dates on the send day:** A2 and S2 "Thanksgiving is Thursday" are true only on Wed Nov 25. A3 "Enjoy the weekend" is true on Fri Nov 27. S2 "On Friday, pick ONE thing" means Fri Nov 27. A-SUN and S-SUN are pinned to Sunday. No deadline anywhere.
+
+### Results — run Fri 2026-11-20 (Friday routine)
+
+**Status going in:** APPROVED.txt present (Chosen "GO", 2026-11-19 17:46 UTC, after the GTA 6 rewrite). DISTRIBUTED.txt present (Daniel, 2026-11-19 ~18:36 UTC).
+
+**Checked:**
+- **GTA VI launch (A1, S1).** Rockstar Newswire page still reads "Grand Theft Auto VI is Now Set to Launch November 19, 2026" (200). ABC News wire (200), dated Nov 18, 2026: "After a 13-year wait, 'Grand Theft Auto VI' has begun its global rollout", with the US release following on Thursday. Launch-day coverage (Kotaku, Beebom, Techloy) confirms PS5 / Xbox Series X|S is live. "Thursday… came out" reads correctly on Mon Nov 23 (last Thursday), and so does "all weekend". The 13-year wait still holds. No sales numbers are used, and none were added.
+- **e4lagency.com (A1, A2, A3, A-SUN), 200.** Still says "reply in under 60 seconds… followed up until they book", "Every call, even the 7pm one", "Every agent we install has a named human on our team supervising it", AI Front Desk "from $500/mo", Quiz Funnel Pages "from $500/mo", and "your accounts, not ours". One wording caveat: "Email + text workflows" now appears under the Quiz Funnel Pages card, not clearly under AI Front Desk. That affects only **B4** (bench, not scheduled). Re-check it before B4 ships.
+- **Google help pages** 3474122 and 16816815 load (200). They are now used only by bench emails B2 and B3, not by any scheduled email.
+- **Claude artifacts help page** (B1, bench) loads (200).
+- **Links in the eight built HTML files:** booking widget (4 agency, UTM `utm_medium=agency`) and joineat4life.com/xboxtoexec (4 student, UTM `utm_medium=student`) both return 200. Every link carries UTMs, there are 8 unsubscribe tags, and nothing crosses lists.
+- **Deadlines:** none in any email. Nothing passed or will pass before its send date. Thanksgiving is Thu Nov 26, so "Thanksgiving is Thursday" (A2, S2) is correct on Wed Nov 25, and "On Friday, pick ONE thing" in S2 means Fri Nov 27.
+- **PROMOS:** `docs/PROMOS.md` is unchanged since Oct 31. No checkout exists and Chosen hasn't confirmed the window, so the Black Friday open does **not** replace S3. S3 ships as written.
+
+**Changed:**
+- **A1:** "The shop that posts this next week looks like it knows what's going on" became "The shop that posts it this week looks…". This line was written Thu Nov 19, when "next week" meant the week of Nov 23. Read on Mon Nov 23, it would point at the week of Nov 30. This is wording only: no fact, link or UTM changed. Rebuilt.
+
+**Swapped:** nothing. No email died.
+
+**Loader reminder:** A1 and S1 still reference `vice-city-barbershop.jpg` relatively. Upload it to GHL Media in each sub-account and swap the `src`, or it arrives blank.
