@@ -20,6 +20,23 @@ week ahead. Nothing about that moves.
 
 ---
 
+## Standing direction: student subjects are about the reader (Chosen, 2026-11-22; replaces the Nov 6 student-subject rule)
+
+Starts with the batch for the **week of Nov 30**, including the Black Friday Vault sends.
+**Every student subject line and opening hook is about the reader, not about Chosen and not
+about a tool.** Lead with their money, their time, their job, their holidays, their next
+move. Chosen's story and the tools can still be *inside* the email. They don't lead.
+
+**Why (same Readers list, about 2,000):**
+| Week | Subjects | Opens |
+|---|---|---|
+| Nov 9, about the reader | "Your first client might be a taco truck", "I don't have a degree", "The holidays are coming. The money isn't.", "You haven't eaten yet" | **23–29%** |
+| Nov 16, about Chosen or a tool | "I worked the gigs before any of this", "Type one paragraph. Get a website.", "This is what ONE client looks like" | **6–12%** |
+
+This supersedes the Nov 6 line "student subjects lead with Chosen's gaming life." Gaming can
+still frame the email, as long as the subject is about the reader ("Your gaming hours were the
+training" passes; "I mastered Liu Kang before I mastered ads" would not).
+
 ## Standing direction: student emails go to the Readers list (from the week of Nov 16)
 
 Sent to Abdullah 2026-11-06, with Chosen's OK. In the Students account, the weekly student

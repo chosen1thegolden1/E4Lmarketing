@@ -74,12 +74,15 @@ interested in how marketing agencies work.
 - Proof: "Would you let AI pay your invoices?" opened at 22.2% (Nov 2). Agency-insider
   subjects came in at 9–13.5%.
 
-## Student subjects: Chosen's gaming life and motivation, never the news (2026-11-06)
+## Student subjects: about the reader, never about Chosen or a tool (2026-11-22)
 
-"I mastered Liu Kang before I mastered ads" opened at 19.7% on a Wednesday. News-pegged
-subjects get 6–8%, even gaming news ("Zelda comes back Thursday," 8.3%). Student subjects
-lead with Chosen: a game, a grind, a real moment, a push. News can sit in the body. It
-never leads.
+*Replaces the Nov 6 rule that student subjects lead with Chosen's gaming life.* Chosen,
+2026-11-22: "make every subject line and topic about the reader, not about me or a tool."
+Reader-first subjects opened at 23–29% (week of Nov 9: "Your first client might be a taco
+truck", "The holidays are coming. The money isn't."). Chosen- or tool-first subjects opened
+at 6–12% (week of Nov 16: "I worked the gigs before any of this", "Type one paragraph. Get a
+website."). Lead with **their** money, time, job, holidays, next move. Chosen's story and the
+tools live inside the email. News still never leads.
 
 ## The two lists have different signoffs — this is a wall
 

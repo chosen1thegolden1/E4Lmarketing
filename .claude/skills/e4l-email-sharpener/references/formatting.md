@@ -20,6 +20,13 @@ This pass changes **how the email looks and reads**, not what it says.
 - A subject line or preview text that misses badly — flagged in the notes, never
   changed silently.
 
+## Student subject check (Chosen, 2026-11-22)
+
+Read every student subject and opening hook and ask: **is this about the reader** (their money,
+time, job, holidays, next move), or about Chosen or a tool? If it's about Chosen or a tool,
+rewrite the subject to put the reader first. Subjects are already the editor's job. Say which
+ones you changed in `EDITED.md`. See `voice.md`.
+
 ## Agency-speak check (Chosen, 2026-11-06)
 
 Read every agency email as the owner of a roofing company. If it talks about agencies, our
