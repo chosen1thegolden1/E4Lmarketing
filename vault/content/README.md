@@ -120,3 +120,7 @@
 ## Used in the $5 PDF
 
 - [50 Ad Hooks That Stop the Scroll](../pdfs/ad-hooks/50-ad-hooks.pdf): hooks plus 3 bonus prompts drawn from the Ads category.
+
+## Skills
+
+The six Vault skills that run on these prompts are in [`../skills/`](../skills/README.md).

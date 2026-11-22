@@ -1,5 +1,7 @@
 # E4L Vault — Skills build spec (launch)
 
+**Status (Nov 22, 2026):** all six built in [`../skills/`](../skills/). Requirement 5 (testing in both apps on two real businesses) and requirement 6 (the install tutorial video) are still to do.
+
 Six skills ship at launch. Each one works in **both Claude and ChatGPT**.
 
 | Skill | Job | Pulls from |
