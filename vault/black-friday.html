@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E4L Vault | Black Friday: $149 for life or $39 for Lite</title>
+<meta name="description" content="Your whole marketing department, in 100 prompts. Black Friday only: $149 once for the Lifetime Pass (50 passes) or $39 once for Vault Lite. Ends 11:59 PM Pacific on Cyber Monday.">
+<meta property="og:title" content="The E4L Vault cracks open for Black Friday">
+<meta property="og:description" content="100 ready-to-run marketing prompts across five rooms. $149 for life or $39 for Lite. One payment.">
+<meta property="og:url" content="https://joineat4life.com/vault">
+<meta property="og:image" content="malik-vault.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --gold:#FFC200; --gold-soft:#FFD95A; --gold-dim:rgba(255,194,0,.12);
+  --ink:#0A0A0A; --ink-2:#121212; --ink-3:#1B1B1B; --line:#2A2A2A;
+  --paper:#F6F3EA; --text:#F4F1E8; --muted:#A9A498;
+  --sans:'Rethink Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --mono:'Space Mono',ui-monospace,Menlo,monospace;
+  --r:14px; --max:1140px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--text);font-family:var(--sans);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.mono{font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase;font-size:13px}
+.eyebrow{color:var(--gold);margin-bottom:16px;display:inline-block}
+h1,h2,h3{line-height:1.08;font-weight:800;letter-spacing:-.02em}
+h1{font-size:clamp(40px,6.4vw,76px)}
+h2{font-size:clamp(32px,4.4vw,52px)}
+h3{font-size:22px;letter-spacing:-.01em}
+.gold{color:var(--gold)}
+section,header{padding:96px 0;scroll-margin-top:68px}
+.lead{font-size:clamp(18px,2vw,21px);color:var(--muted);max-width:640px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:#000;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--sans);font-weight:800;font-size:18px;padding:18px 30px;border-radius:999px;text-decoration:none;border:2px solid var(--gold);cursor:pointer;transition:transform .2s ease,background .2s ease,box-shadow .2s ease}
+.btn-gold{background:var(--gold);color:#000;box-shadow:0 10px 30px -10px rgba(255,194,0,.6)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 16px 40px -12px rgba(255,194,0,.75)}
+.btn-ghost{background:transparent;color:var(--gold)}
+.btn-ghost:hover{background:var(--gold-dim)}
+.btn .arrow{transition:transform .2s ease}
+.btn:hover .arrow{transform:translateX(4px)}
+
+/* Nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;text-decoration:none}
+.logo img{height:46px;width:auto;display:block}
+.logo-div{width:1px;height:28px;background:var(--line)}
+.logo-vault{font-weight:800;font-size:20px;letter-spacing:-.01em}
+.logo-mark{width:34px;height:34px;border-radius:9px;background:var(--gold);color:#000;display:grid;place-items:center;font-family:var(--mono);font-size:13px;font-weight:700}
+nav .btn{padding:10px 20px;font-size:15px}
+
+/* Context banner (changes by ?from=) */
+.context{background:var(--gold);color:#000}
+.context .wrap{display:flex;align-items:center;gap:14px;padding-top:14px;padding-bottom:14px;font-weight:700;font-size:16px}
+.context .check{flex:none;width:26px;height:26px;border-radius:50%;background:#000;color:var(--gold);display:grid;place-items:center;font-size:14px}
+.context[hidden]{display:none}
+
+/* Hero */
+.hero{padding:56px 0 64px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-40% -10% auto auto;width:780px;height:780px;background:radial-gradient(circle,rgba(255,194,0,.16),transparent 62%);pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;position:relative}
+.hero h1 .gold{display:block}
+.hero .lead{margin:24px 0 36px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.price-note{margin-top:18px;color:var(--muted);font-size:15px}
+.price-note s{opacity:.7}
+.price-note b{color:var(--text)}
+
+/* Vault door visual */
+.door{aspect-ratio:1;border-radius:28px;background:linear-gradient(145deg,#1d1d1d,#0d0d0d);border:1px solid var(--line);position:relative;display:grid;place-items:center;box-shadow:inset 0 0 0 10px #151515,0 40px 80px -30px rgba(0,0,0,.8)}
+.dial{width:62%;aspect-ratio:1;border-radius:50%;border:2px solid rgba(255,194,0,.55);display:grid;place-items:center;position:relative;animation:spin 60s linear infinite}
+.dial::before{content:"";position:absolute;inset:9%;border-radius:50%;border:1px dashed rgba(255,194,0,.35)}
+.dial-core{width:46%;aspect-ratio:1;border-radius:50%;background:var(--gold);color:#000;display:grid;place-items:center;font-weight:800;font-size:clamp(20px,3vw,30px);box-shadow:0 0 60px rgba(255,194,0,.35);animation:spin 60s linear infinite reverse}
+.tick{position:absolute;width:2px;height:8%;background:var(--gold);top:2%;left:calc(50% - 1px);transform-origin:50% 600%}
+.hero-art{display:block;box-shadow:0 40px 90px -30px rgba(255,194,0,.35),0 0 0 1px var(--line)}
+.hero-art picture,.hero-art img{width:100%;height:100%;object-fit:cover;border-radius:28px}
+.door-tag{position:absolute;box-shadow:0 8px 20px rgba(0,0,0,.5);font-family:var(--mono);font-size:12px;padding:8px 12px;border-radius:999px;background:#000;border:1px solid var(--line);color:var(--text);white-space:nowrap}
+.door-tag b{color:var(--gold)}
+.t1{top:6%;right:-6%}.t2{top:46%;right:-8%}.t3{bottom:6%;right:6%}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.dial,.dial-core{animation:none}html{scroll-behavior:auto}}
+
+/* Strip */
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--ink-2)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding-top:28px;padding-bottom:28px}
+.stat b{display:block;font-size:30px;font-weight:800;color:var(--gold);line-height:1.1}
+.stat span{color:var(--muted);font-size:15px}
+
+/* Inside grid */
+.head{max-width:720px;margin-bottom:56px}
+.head .lead{margin-top:18px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--ink-2);border:1px solid var(--line);border-radius:var(--r);padding:30px;position:relative;transition:border-color .2s ease,transform .2s ease}
+.card:hover{border-color:rgba(255,194,0,.5);transform:translateY(-3px)}
+.card .num{font-family:var(--mono);font-size:12px;color:var(--gold)}
+.card h3{margin:14px 0 10px}
+.card p{color:var(--muted);font-size:16px}
+.card .tag{position:absolute;top:24px;right:24px;font-family:var(--mono);font-size:11px;padding:4px 9px;border-radius:999px;background:var(--gold);color:#000;font-weight:700}
+.card.wide{grid-column:span 2}
+.card.full{grid-column:1/-1}
+.card ul.ticks{list-style:none;margin:14px 0 4px;display:grid;gap:8px}
+.card ul.ticks li{position:relative;padding-left:26px;font-size:15.5px;color:var(--muted);line-height:1.5}
+.card ul.ticks li b{color:var(--text)}
+.card ul.ticks li::before{content:"✓";position:absolute;left:2px;top:0;color:var(--gold);font-weight:800}
+
+/* Founding urgency */
+.announce{background:var(--gold);color:#000;font-weight:700;font-size:15px;text-align:center;padding:10px 16px;line-height:1.4}
+.announce b{font-weight:800}
+.announce a{color:#000;text-decoration:underline;text-underline-offset:3px;margin-left:6px;white-space:nowrap}
+.announce[hidden],.founding[hidden],.price-note[hidden]{display:none}
+.founding{margin-top:22px;background:linear-gradient(135deg,rgba(255,194,0,.16),rgba(255,194,0,.04));border:1.5px solid var(--gold);border-radius:16px;padding:18px 20px;max-width:560px}
+.founding .top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.founding .label{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.founding .spots{font-weight:800;font-size:15px}
+.founding p{font-size:15.5px;margin-top:8px;color:var(--text)}
+.founding p s{color:var(--muted)}
+.bar{height:10px;background:rgba(255,255,255,.1);border-radius:999px;overflow:hidden;margin-top:12px}
+.bar i{display:block;height:100%;background:var(--gold);border-radius:999px;width:0;transition:width 1.2s ease}
+.bar[hidden]{display:none}
+.lock{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:center;margin:0 0 30px;max-width:760px}
+.lock .side{border-radius:16px;padding:18px 20px;border:1px solid var(--line);background:var(--ink)}
+.lock .side.now{border:2px solid var(--gold);background:rgba(255,194,0,.08)}
+.lock .k{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.lock .now .k{color:var(--gold)}
+.lock .v{font-size:30px;font-weight:800;letter-spacing:-.02em;margin-top:4px}
+.lock .later .v{color:var(--muted);text-decoration:line-through;text-decoration-thickness:2px}
+.lock .d{font-size:14px;color:var(--muted);margin-top:2px}
+.lock .vs2{font-weight:800;color:var(--muted)}
+.final .spots-line{font-family:var(--mono);color:var(--gold);font-size:14px;letter-spacing:.04em;text-transform:uppercase;margin:-14px 0 26px}
+@media (max-width:680px){.lock{grid-template-columns:1fr}.lock .vs2{text-align:center}.announce{font-size:13.5px}}
+
+/* Pain */
+.pain-sec{padding-top:88px}
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pain{background:var(--ink-2);border:1px solid var(--line);border-left:4px solid #E5484D;border-radius:var(--r);padding:22px 22px 20px}
+.pain p{font-size:17px;line-height:1.5}
+.pain p b{display:block;font-size:19px;margin-bottom:6px;letter-spacing:-.01em}
+.agitate{margin-top:36px;font-size:clamp(20px,2.4vw,26px);font-weight:700;line-height:1.35;max-width:860px}
+.agitate .gold{color:var(--gold)}
+.math{margin-top:28px;display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;background:var(--gold-dim);border:1px solid rgba(255,194,0,.4);border-radius:18px;padding:24px 28px;max-width:860px}
+.math .big{font-size:clamp(36px,5vw,54px);font-weight:800;color:var(--gold);line-height:1;letter-spacing:-.03em}
+.math p{font-size:16.5px}
+.math small{display:block;color:var(--muted);font-size:13px;margin-top:6px}
+.card .fix{font-size:17px;font-weight:700;color:var(--text);margin:-2px 0 10px}
+.card .ex{margin-top:14px;padding:14px 16px;border-radius:12px;background:rgba(255,194,0,.08);border:1px dashed rgba(255,194,0,.45);font-size:15px;color:var(--text);line-height:1.55}
+.card .ex b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:4px}
+.vs{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin:-24px 0 28px;font-size:16px;color:#5a5649}
+.vs s{background:#fff;border:1px solid #e6e0cf;padding:6px 12px;border-radius:999px;color:#8a8576}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.compare .col{border-radius:20px;padding:34px}
+.compare .without{background:var(--ink-2);border:1px solid var(--line)}
+.compare .with{background:var(--ink-2);border:2px solid var(--gold);box-shadow:0 30px 70px -40px rgba(255,194,0,.45)}
+.compare h3{font-size:24px;margin-bottom:16px}
+.compare ul{list-style:none}
+.compare li{padding:11px 0 11px 30px;position:relative;border-bottom:1px solid var(--line);font-size:16.5px}
+.compare .without li{color:var(--muted)}
+.compare .without li::before{content:"✕";position:absolute;left:2px;color:#E5484D;font-weight:800}
+.compare .with li::before{content:"✓";position:absolute;left:2px;color:var(--gold);font-weight:800}
+.who.three{grid-template-columns:repeat(3,1fr)}
+.who .sub{color:var(--muted);font-size:15.5px;margin-top:6px}
+
+/* Builder demo */
+.builder-sec{background:var(--paper);color:#111}
+.builder-sec .lead{color:#5a5649}
+.builder-sec .eyebrow{color:#8a6a00}
+.builder{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;background:#fff;border-radius:22px;padding:28px;box-shadow:0 30px 60px -30px rgba(0,0,0,.35);border:1px solid #e6e0cf}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.tab{font-family:var(--sans);font-weight:700;font-size:15px;padding:10px 16px;border-radius:999px;border:2px solid #111;background:#fff;color:#111;cursor:pointer}
+.tab[aria-selected="true"]{background:#111;color:var(--gold)}
+.field{margin-bottom:14px}
+.field label{display:block;font-weight:700;font-size:14px;margin-bottom:6px}
+.field input,.field select{width:100%;font-family:var(--sans);font-size:16px;padding:12px 14px;border-radius:10px;border:1.5px solid #d8d1bd;background:#fcfbf7;color:#111}
+.field input:focus,.field select:focus{outline:none;border-color:#111;box-shadow:0 0 0 3px rgba(255,194,0,.5)}
+.output{background:#0d0d0d;color:#EDEAE0;border-radius:16px;padding:22px;display:flex;flex-direction:column;min-height:100%}
+.output-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;color:var(--gold)}
+.copy{font-family:var(--mono);font-size:12px;text-transform:uppercase;background:var(--gold);color:#000;border:none;padding:8px 12px;border-radius:8px;cursor:pointer;font-weight:700}
+.output pre{font-family:var(--mono);font-size:13.5px;line-height:1.65;white-space:pre-wrap;word-break:break-word;flex:1}
+.output pre .hl{color:var(--gold)}
+.builder-note{margin-top:18px;font-size:15px;color:#5a5649}
+
+/* Monthly drop */
+.drops{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.drop{border-top:3px solid var(--gold);padding-top:18px}
+.drop h3{font-size:19px;margin-bottom:8px}
+.drop p{color:var(--muted);font-size:15.5px}
+
+/* Who */
+.who{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.who .card{padding:36px}
+.who ul{list-style:none;margin-top:18px}
+.who li{padding:10px 0 10px 30px;position:relative;border-bottom:1px solid var(--line);color:var(--text);font-size:16.5px}
+.who li::before{content:"→";position:absolute;left:0;color:var(--gold);font-weight:800}
+.license{margin-top:20px;display:flex;gap:18px;align-items:flex-start;background:var(--gold-dim);border:1px solid rgba(255,194,0,.35);border-radius:var(--r);padding:24px 28px}
+.license b{color:var(--gold)}
+
+/* Pricing */
+.pricing{background:var(--ink-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.toggle{display:inline-flex;background:#000;border:1px solid var(--line);border-radius:999px;padding:5px;margin-bottom:36px}
+.toggle button{font-family:var(--sans);font-weight:700;font-size:15px;border:none;background:transparent;color:var(--muted);padding:10px 20px;border-radius:999px;cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--gold);color:#000}
+.save{font-family:var(--mono);font-size:11px;margin-left:6px}
+.plans{display:grid;grid-template-columns:.85fr 1.15fr;gap:20px;align-items:stretch}
+.plan{background:var(--ink);border:1px solid var(--line);border-radius:20px;padding:36px;display:flex;flex-direction:column}
+.plan.pro{border:2px solid var(--gold);position:relative;box-shadow:0 30px 70px -40px rgba(255,194,0,.5)}
+.badge{position:absolute;top:-14px;left:36px;background:var(--gold);color:#000;font-family:var(--mono);font-size:12px;font-weight:700;padding:6px 12px;border-radius:999px}
+.amount{font-size:58px;font-weight:800;letter-spacing:-.03em;line-height:1;margin:18px 0 6px}
+.amount small{font-size:18px;color:var(--muted);font-weight:500;letter-spacing:0}
+.was{color:var(--muted);font-size:15px;min-height:24px}
+.plan ul{list-style:none;margin:26px 0 30px;flex:1}
+.plan li{padding:9px 0 9px 30px;position:relative;font-size:16px}
+.plan li::before{content:"";position:absolute;left:2px;top:15px;width:14px;height:8px;border-left:3px solid var(--gold);border-bottom:3px solid var(--gold);transform:rotate(-45deg)}
+.plan.free li::before{border-color:var(--muted)}
+.plan .btn{width:100%}
+.fine{margin-top:14px;color:var(--muted);font-size:14px;text-align:center}
+
+/* Next steps */
+.next{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.next a{display:block;text-decoration:none;background:var(--ink-2);border:1px solid var(--line);border-radius:var(--r);padding:30px;transition:border-color .2s ease}
+.next a:hover{border-color:var(--gold)}
+.next p{color:var(--muted);font-size:16px;margin-top:8px}
+.next .go{color:var(--gold);font-weight:700;margin-top:14px;display:inline-block}
+
+/* FAQ */
+.faq{max-width:820px}
+details{border-bottom:1px solid var(--line);padding:22px 0}
+summary{cursor:pointer;font-weight:700;font-size:19px;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--gold);font-size:26px;line-height:1;font-weight:500;transition:transform .2s ease}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--muted);margin-top:12px;font-size:16.5px}
+
+/* Final */
+.final{text-align:center;padding:110px 0}
+.final h2{max-width:820px;margin:0 auto 22px}
+.final .lead{margin:0 auto 36px}
+footer{border-top:1px solid var(--line);padding:36px 0 110px;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{color:var(--muted)}
+
+/* Sticky mobile CTA */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(10,10,10,.95);border-top:1px solid var(--line);padding:12px 16px;display:none;align-items:center;justify-content:space-between;gap:12px;transform:translateY(100%);transition:transform .25s ease}
+.sticky.show{transform:none}
+.sticky span{font-size:14px;color:var(--muted)}
+.sticky span b{color:var(--text);display:block;font-size:16px}
+.sticky .btn{padding:12px 20px;font-size:15px}
+
+/* Reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+/* Responsive */
+@media (max-width:960px){
+  .pains,.who.three{grid-template-columns:1fr 1fr}
+  .compare{grid-template-columns:1fr}
+  .hero-grid,.builder,.plans{grid-template-columns:1fr}
+  .door{max-width:420px;margin:0 auto;width:100%}
+  .grid{grid-template-columns:1fr 1fr}
+  .drops{grid-template-columns:1fr 1fr}
+  .strip .wrap{grid-template-columns:1fr 1fr}
+}
+@media (max-width:680px){
+  body{font-size:17px}
+  .wrap{padding:0 16px}
+  section{padding:68px 0}
+  .hero{padding:52px 0 56px}
+  .grid,.drops,.who,.next,.pains,.who.three{grid-template-columns:1fr}
+  .math{grid-template-columns:1fr}
+  .compare .col{padding:26px 20px}
+  .card.wide{grid-column:auto}
+  .builder{padding:18px}
+  .plan{padding:28px 22px}
+  .t1,.t2{right:3%}.t3{right:3%}
+  nav .btn{display:none}
+  .sticky{display:flex}
+  .hero-ctas .btn{width:100%}
+}
+</style>
+<style>
+/* Black Friday page additions */
+.door-tag.t3{white-space:nowrap}
+.plans.bf{grid-template-columns:1.15fr .85fr}
+.plan .badge.b2{left:auto;right:36px;background:#000;color:var(--gold);border:1px solid var(--gold)}
+.plan .amount small{display:block;margin-top:8px}
+.plan li.no::before{content:"×";border:0;transform:none;top:6px;left:4px;color:var(--muted);font-weight:800;width:auto;height:auto}
+.plan li.no{color:var(--muted)}
+.plan .intro{color:var(--muted);font-size:15.5px;margin-top:6px}
+.after-plans{margin-top:28px;text-align:center;color:var(--muted);font-size:16px}
+.rooms{grid-template-columns:repeat(5,1fr)}
+@media (max-width:980px){.rooms{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:680px){.plans.bf,.rooms{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="announce" role="note"><b>BLACK FRIDAY:</b> The Vault cracks open. $149 for life or $39 for Lite. One payment. Gone at 11:59 PM Pacific on Cyber Monday.<a href="#offers">See both →</a></div>
+
+<nav aria-label="Main">
+  <div class="wrap">
+    <a href="#top" class="logo"><img src="wordmark-gold.png" width="240" height="164" alt="Eat For Life"><span class="logo-div" aria-hidden="true"></span><span class="logo-vault">Vault</span></a>
+    <a href="#CHECKOUT-LIFETIME-149" class="btn btn-gold" data-cta>Lock in lifetime</a>
+  </div>
+</nav>
+
+<main id="main">
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="reveal">
+      <span class="mono eyebrow">Black Friday · Only 50 Lifetime Passes</span>
+      <h1>Your whole marketing department, in <span class="gold">100 prompts.</span></h1>
+      <p class="lead">You didn't start a business to spend your nights guessing at marketing. The Vault hands you 100 ready-to-run prompts that cover all of it: getting leads, following up, posting, selling and reading the numbers. Only 50 Lifetime Passes.</p>
+      <div class="hero-ctas">
+        <a href="#CHECKOUT-LIFETIME-149" class="btn btn-gold" data-cta>Lock in lifetime <span class="arrow" aria-hidden="true">→</span></a>
+        <a href="#inside" class="btn btn-ghost">See what's inside</a>
+      </div>
+      <p class="price-note"><b>$149 once</b> for life · or <b>$39 once</b> for Lite · Ends Cyber Monday, 11:59 PM Pacific</p>
+    </div>
+    <div class="door hero-art reveal">
+      <picture>
+        <source srcset="malik-vault.webp" type="image/webp">
+        <img src="malik-vault.jpg" width="1024" height="1024" alt="Malik, the E4L mascot, in an Eat 4Life hoodie, pointing into an open gold vault" fetchpriority="high">
+      </picture>
+      <span class="door-tag t1"><b>100</b> prompts</span>
+      <span class="door-tag t2"><b>5</b> rooms</span>
+      <span class="door-tag t3"><b>50</b> Lifetime Passes</span>
+    </div>
+  </div>
+</header>
+
+<section class="pain-sec" id="problem">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">Sound familiar?</span>
+      <h2>Be honest with <span class="gold">yourself.</span></h2>
+      <p class="lead">You're the marketer, the salesperson, the follow-up department and the analyst, and you're losing at all four.</p>
+    </div>
+    <div class="pains">
+      <div class="pain reveal"><p>Leads come in at 9 PM and hear back in three days, if ever.</p></div>
+      <div class="pain reveal"><p>Your feed went quiet two weeks ago.</p></div>
+      <div class="pain reveal"><p>You've got a great service and an offer nobody can explain.</p></div>
+      <div class="pain reveal"><p>You're spending money and can't say what's working.</p></div>
+    </div>
+    <p class="agitate reveal">Every one of those has a fix waiting in the Vault. <span class="gold">Copy it. Paste it. Fill in your business. Done.</span></p>
+  </div>
+</section>
+
+<section id="inside">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">A peek inside</span>
+      <h2>Five rooms. <span class="gold">100 prompts.</span></h2>
+    </div>
+    <div class="grid rooms">
+      <article class="card reveal"><span class="num">01</span><h3>Email and text</h3><p>Speed-to-lead and missed-call text-backs, so new leads hear from you before they call someone else.</p></article>
+      <article class="card reveal"><span class="num">02</span><h3>Offers and sales</h3><p>Build your offer, price it in three tiers, and handle the 10 objections you hear most.</p></article>
+      <article class="card reveal"><span class="num">03</span><h3>Content</h3><p>A 30-day content calendar and posts in your own brand voice, so your feed never goes dark again.</p></article>
+      <article class="card reveal"><span class="num">04</span><h3>Analytics</h3><p>Find where your funnel leaks and pick the one move that matters most this month.</p></article>
+      <article class="card reveal"><span class="num">05</span><h3>Ads</h3><p>Write the ad, test it on $10 a day, and know exactly what to judge after 7 days.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="offers" aria-labelledby="offers-title">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="mono eyebrow">Black Friday</span>
+      <h2 id="offers-title">Pick your <span class="gold">one payment.</span></h2>
+    </div>
+    <div class="plans bf">
+      <div class="plan pro reveal">
+        <span class="badge">BEST VALUE</span>
+        <span class="badge b2">ONLY 50</span>
+        <span class="mono gold">Lifetime Pass</span>
+        <div class="amount">$149<small>once. Never again.</small></div>
+        <p class="intro">Your whole marketing department, unlocked for good:</p>
+        <ul>
+          <li>All 100 prompts across all five rooms: email and text, offers and sales, content, analytics and ads. The library keeps growing.</li>
+          <li>The 50 Ad Hooks pack</li>
+          <li>Every new skill, system and workflow we drop, the day it ships</li>
+          <li>Use it on your business and your clients' work</li>
+        </ul>
+        <!-- ABDULLAH: replace #CHECKOUT-LIFETIME-149 with the $149 Lifetime checkout link (every Lock in lifetime button) -->
+        <a href="#CHECKOUT-LIFETIME-149" class="btn btn-gold" data-cta>Lock in lifetime <span class="arrow" aria-hidden="true">→</span></a>
+        <p class="fine">50 passes. When they're gone, they're gone. No monthly bill, ever.</p>
+      </div>
+      <div class="plan free reveal">
+        <span class="mono" style="color:var(--muted)">Vault Lite</span>
+        <div class="amount">$39<small>once</small></div>
+        <p class="intro">The core library, yours to keep:</p>
+        <ul>
+          <li>All 100 prompts across all five rooms</li>
+          <li>The 50 Ad Hooks pack</li>
+          <li class="no">New skills, systems and workflows not included</li>
+        </ul>
+        <!-- ABDULLAH: replace #CHECKOUT-LITE-39 with the $39 Vault Lite checkout link -->
+        <a href="#CHECKOUT-LITE-39" class="btn btn-ghost">Get Vault Lite</a>
+        <p class="fine">One payment. Nothing recurring.</p>
+      </div>
+    </div>
+    <p class="after-plans reveal">At 11:59 PM Pacific on Cyber Monday, both one-time prices vanish. After that you're back to guessing, or paying monthly.</p>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:0">
+  <div class="wrap faq">
+    <div class="head reveal" style="margin-bottom:24px">
+      <span class="mono eyebrow">Questions</span>
+      <h2>Good questions.</h2>
+    </div>
+    <details class="reveal" open><summary>What's the difference between Lifetime and Lite?</summary><p>Lite is $39 once for all 100 prompts and the 50 Ad Hooks pack, yours forever. Lifetime is $149 once for everything in the Vault, including every new skill, system and workflow we add.</p></details>
+    <details class="reveal"><summary>Can I use the prompts for my clients?</summary><p>Yes. The Lifetime Pass covers your own business and your clients' work.</p></details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2 class="reveal">The Vault is open <span class="gold">until Cyber Monday.</span></h2>
+    <p class="lead reveal">Gone at 11:59 PM Pacific. One payment, then it's yours.</p>
+    <a href="#CHECKOUT-LIFETIME-149" class="btn btn-gold reveal" data-cta>Lock in lifetime <span class="arrow" aria-hidden="true">→</span></a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr"></span> Eat 4 Life Marketing · E4L Vault. Prompts are tools, not guarantees. Your results depend on your business and how you use them.</span>
+    <!-- ABDULLAH: point these at the real Terms and Privacy pages (not the GHL preview link) -->
+    <span><a href="#TERMS">Terms</a> · <a href="#PRIVACY">Privacy</a></span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  document.getElementById("yr").textContent = new Date().getFullYear();
+  const io = "IntersectionObserver" in window ? new IntersectionObserver(entries => {
+    entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } });
+  }, { threshold: 0.12 }) : null;
+  document.querySelectorAll(".reveal").forEach(el => io ? io.observe(el) : el.classList.add("in"));
+})();
+</script>
+</body>
+</html>
