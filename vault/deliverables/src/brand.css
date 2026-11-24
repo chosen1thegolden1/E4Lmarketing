@@ -1,0 +1,44 @@
+/* Shared E4L Vault print styles (matches pdfs/ad-hooks) */
+:root{--gold:#FFC200;--ink:#0A0A0A;--paper:#FBF8EF;--muted:#5d584b;--line:#E7E0CB;--gold-ink:#8a6a00}
+@page{size:Letter;margin:.75in .75in .8in;background:#FBF8EF;
+  @bottom-left{content:string(doc);font-family:'Space Mono',monospace;font-size:7.5pt;color:#5d584b;text-transform:uppercase;letter-spacing:.06em}
+  @bottom-right{content:counter(page);font-family:'Space Mono',monospace;font-size:7.5pt;color:#5d584b}
+  @top-right{content:string(room);font-family:'Space Mono',monospace;font-size:7.5pt;color:#8a6a00;text-transform:uppercase;letter-spacing:.06em}}
+@page cover{margin:0;background:#0A0A0A;@bottom-left{content:none}@bottom-right{content:none}@top-right{content:none}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Rethink Sans',Arial,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.45}
+.docname{string-set:doc content();display:none}
+.mono{font-family:'Space Mono',monospace;text-transform:uppercase;letter-spacing:.06em;font-size:9pt}
+h1,h2,h3{font-weight:800;letter-spacing:-.02em;line-height:1.08}
+.kicker{font-family:'Space Mono',monospace;text-transform:uppercase;letter-spacing:.06em;font-size:9pt;color:var(--gold-ink)}
+.break{break-before:page}
+
+/* Cover */
+.cover{page:cover;height:11in;width:8.5in;position:relative;overflow:hidden;background:var(--ink);color:#fff}
+.cover img.art{position:absolute;left:0;bottom:0;width:8.5in;height:6.3in;object-fit:cover;object-position:center 30%}
+.cover .fade{position:absolute;left:0;right:0;top:4.7in;height:1.4in;background:linear-gradient(#0A0A0A,rgba(10,10,10,0))}
+.cover .top{position:relative;z-index:2;padding:.65in .75in 0}
+.cover .badge{display:inline-block;background:var(--gold);color:#000;padding:5px 12px;border-radius:999px;font-weight:700;font-family:'Space Mono',monospace;text-transform:uppercase;letter-spacing:.06em;font-size:9pt}
+.cover .wm{height:.42in;width:auto;display:block;margin-bottom:20px}
+.cover h1{font-size:42pt;margin-top:16px}
+.cover h1 span{color:var(--gold)}
+.cover p{font-size:14pt;color:#d9d4c6;margin-top:12px;max-width:6.2in;line-height:1.4}
+
+/* Generic blocks */
+h2.page-title{font-size:28pt;margin:8px 0 14px}
+.lead{font-size:12pt;color:var(--muted);margin-bottom:16px;max-width:6.6in}
+.steps{display:block}
+.step{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px 16px;margin-bottom:10px;break-inside:avoid}
+.step .n{flex:0 0 .42in;width:.42in;height:.42in;border-radius:50%;background:var(--gold);text-align:center;line-height:.42in;font-weight:800;font-size:14pt}
+.step h3{font-size:13pt;margin-bottom:3px}
+.step p{font-size:10.5pt;color:var(--muted)}
+.step code,.c{font-family:'Space Mono',monospace;font-size:9pt;background:#FFE9A3;padding:0 4px;border-radius:3px}
+.note{margin-top:14px;border-left:4px solid var(--gold);padding:7px 14px;font-size:10pt;color:var(--muted);break-inside:avoid}
+.dark{background:var(--ink);color:#fff;border-radius:12px;padding:14px 18px;margin-top:14px;break-inside:avoid}
+.dark b{color:var(--gold)}
+table.t{width:100%;border-collapse:collapse;background:#fff;font-size:10pt;margin:6px 0 12px}
+table.t th{background:var(--ink);color:var(--gold);text-align:left;font-family:'Space Mono',monospace;font-size:8pt;text-transform:uppercase;letter-spacing:.05em;padding:7px 10px}
+table.t td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+h3.sub{font-size:15pt;margin:18px 0 8px}
+ul.list{margin:4px 0 8px 18px}
+ul.list li{margin-bottom:4px}
