@@ -82,7 +82,9 @@ Who bought from you over the long weekend?
 
 Not the regulars. The new faces.
 
-The woman who grabbed a gift card for her sister. The guy who finally booked after looking at you for months. The family that walked in because the place next door was packed.
+The woman who grabbed a gift card for her sister.
+The guy who finally booked after looking at you for months.
+The family that walked in because the place next door was packed.
 
 They liked you enough to pay you.
 
@@ -98,9 +100,14 @@ By January, you're "that place… what was it called?"
 
 So this week, send every new customer one message. Three lines:
 
-1. Thanks for coming in. Use their name.
-2. One useful thing. How to take care of what they bought, or when it's worth coming back.
-3. The next step. "Want me to hold a spot for you in January?"
+1. Thanks for coming in.
+Use their name.
+
+2. One useful thing.
+How to take care of what they bought, or when it's worth coming back.
+
+3. The next step.
+"Want me to hold a spot for you in January?"
 
 No discount. No coupon. Just a business that remembered them. 👀
 
@@ -108,7 +115,9 @@ Doing it once, by hand, is easy.
 
 Doing it every week, by hand, falls apart by February, because you're busy doing the actual work.
 
-That's the part we take off your plate. We set it up so every new customer gets that message on time, and your customer list stays in your accounts, not ours.
+That's the part we take off your plate.
+
+We set it up so every new customer gets that message on time, and your customer list stays in your accounts, not ours.
 
 Twenty minutes and I'll show you what that looks like for your shop.
 
@@ -145,11 +154,15 @@ She finds you on Google Maps.
 
 And now, right next to the Call button, there's a new one. Message.
 
-That's not me guessing. Google announced it on November 5. Customers on Android and iPhone "can now find a prominent Message button right next to 'Call' on your Google Maps listing."
+That's not me guessing. Google announced it on November 5.
+
+Customers on Android and iPhone "can now find a prominent Message button right next to 'Call' on your Google Maps listing."
 
 Read Google's announcement → (LINK: https://support.google.com/business/thread/476642299?hl=en&utm_source=email&utm_medium=agency&utm_campaign=A2-2026-11-30)
 
-Google even says why it matters to you. When you're mid-appointment or out on a job, customers get a way to reach you *instead of giving up*.
+Google even says why it matters to you.
+
+When you're mid-appointment or out on a job, customers get a way to reach you *instead of giving up*.
 
 So here's the uncomfortable question.
 
@@ -164,14 +177,18 @@ A customer who's waiting is a customer who's already opening the next listing.
 Here's the five-minute check, straight from Google's help page:
 
 1. Go to your Business Profile and click Edit profile, then Contact.
+
 2. Next to "Chat," select Edit.
+
 3. Pick Text message, and enter a number that can actually receive texts. Click Save.
 
 One heads-up. Google says chat is only available in select regions, so it might not show up for your profile.
 
 Then text that number yourself at 8pm, and time the reply.
 
-If the honest answer is "first thing in the morning," that's the job our AI Front Desk does. Every missed call, DM, text and form gets a reply in under 60 seconds, then gets followed up until they book. A named person on our team supervises it.
+If the honest answer is "first thing in the morning," that's the job our AI Front Desk does.
+
+Every missed call, DM, text and form gets a reply in under 60 seconds, then gets followed up until they book. A named person on our team supervises it.
 
 👉 Book a call: (LINK: https://api.leadconnectorhq.com/widget/bookings/cs-game-plan-call?utm_source=email&utm_medium=agency&utm_campaign=A2-2026-11-30)
 
@@ -212,7 +229,9 @@ Now sort them into three piles:
 
 Pile 3 is the one nobody talks about. 😅
 
-The scheduling app that was gonna end the phone tag. The email tool that was gonna bring customers back. The "all-in-one" that was gonna replace the other five.
+The scheduling app that was gonna end the phone tag.
+The email tool that was gonna bring customers back.
+The "all-in-one" that was gonna replace the other five.
 
 They're still billing you. They're just not doing anything.
 
@@ -232,7 +251,9 @@ Keep the one or two you'd actually miss.
 
 And be honest about the rest. Things are never going to slow down enough for you to set them up. They haven't yet.
 
-You bring the business. We install what's worth keeping, in your accounts, not ours, and a named person on our team runs it with you.
+You bring the business.
+
+We install what's worth keeping, in your accounts, not ours, and a named person on our team runs it with you.
 
 Twenty minutes and we'll look at what you're already paying for.
 
@@ -252,9 +273,9 @@ P.S. If pile 3 is longer than pile 1, you're not bad at tech. You got sold tools
 
 ## A-SUN — Sunday
 
-**Subject:** What does a customer hear when they call you on a Sunday?
+**Subject:** Call your own business tonight. Not from your phone.
 
-**Preview text:** Find out this evening. From a number your phone won't recognize.
+**Preview text:** Listen like a stranger would. That's who called you this weekend.
 
 **Reader:** A-2 (busy, profitable, has never heard what callers hear) · **Angle:** Miyagi (a two-minute test) · **Spoke:** front end → the call
 
@@ -273,13 +294,19 @@ Does it ring out? Is the greeting from three years ago? Is the voicemail box ful
 
 That's what a new customer heard if they called you this weekend. 👀
 
-Sunday's when people finally sit down with the thing they've been putting off. The roof that leaked again. The tooth that still hurts. The car that's been making that noise since October.
+Sunday's when people finally sit down with the thing they've been putting off.
+
+The roof that leaked again.
+The tooth that still hurts.
+The car that's been making that noise since October.
 
 My bet: they don't leave a voicemail. They call the next name.
 
 **You don't lose that customer Monday morning. You lose them Sunday night, and you never find out.**
 
-That's what our AI Front Desk is for. Every call, even the 7pm one. A reply in under 60 seconds, then follow-up until they book. A named person on our team supervises it.
+That's what our AI Front Desk is for. Every call, even the 7pm one.
+
+A reply in under 60 seconds, then follow-up until they book. A named person on our team supervises it.
 
 Twenty minutes and I'll show you what your callers would hear instead.
 
@@ -332,9 +359,9 @@ Here's what you can do this week, from your phone.
 
 Open ChatGPT and type this:
 
-*Make a bold holiday promo image for a local bakery called Sugar Block. Text on the image: GIFT BOXES FOR THE HOLIDAYS. Warm lights, cozy vibe.*
+"Make a bold holiday promo image for a local bakery called Sugar Block. Text on the image: GIFT BOXES FOR THE HOLIDAYS. Warm lights, cozy vibe."
 
-Under a minute later, you're holding a promo a small shop would actually post. 🤯
+In under a minute, you're holding a promo a small shop would actually post. 🤯
 
 Swap in a real shop near you. Then DM it to them.
 
@@ -342,7 +369,7 @@ Swap in a real shop near you. Then DM it to them.
 
 **That's how you switch sides. You stop being the person getting sold to, and become the person businesses pay.**
 
-And businesses do pay. Our agency's creative packs start at $750.
+And businesses do pay. Our agency's creative packs start at **$750**.
 
 That's ONE client. 💼
 
@@ -395,7 +422,9 @@ That's a business consult you've been giving away for free.
 
 And you've been the customer your whole life. That was the training. 🎮
 
-In From Xbox to Executive I break it down like this. Every business needs five jobs handled: getting attention, turning attention into conversations, closing, delivering, and keeping people happy.
+In From Xbox to Executive I break it down like this.
+
+Every business needs five jobs handled: getting attention, turning attention into conversations, closing, delivering, and keeping people happy.
 
 Most are running two.
 
@@ -407,7 +436,9 @@ The reminder that never came: keeping people happy.
 
 And AI turns each of those into something one person can fix from a phone. 📱
 
-My first client was a pizza shop on Melrose. It started as a conversation over dinner. Two people talking, and one of us recognizing what the other needed. 🍕
+My first client was a pizza shop on Melrose. It started as a conversation over dinner.
+
+Two people talking, and one of us recognizing what the other needed. 🍕
 
 Your move this week: pick ONE of those three things. Just one.
 
@@ -491,7 +522,7 @@ P.S. Keep the game. Just play it after the hour. 😂
 
 ## S-SUN — Sunday
 
-**Subject:** Where do you want to be by next December?
+**Subject:** Last December, what were you hoping would change?
 
 **Preview text:** Not a resolution. One job, one business, and a year that's going by anyway.
 
@@ -544,9 +575,9 @@ P.S. Write down one thing you want to be true next December. Put it somewhere yo
 
 ### B1 — agency, the gift card
 
-**Subject:** Did somebody try to give you as a gift this year?
+**Subject:** Somebody tried to buy you as a gift. They got a candle.
 
-**Preview text:** If they couldn't buy you, they bought something else.
+**Preview text:** You never even knew that sale existed.
 
 **Reader:** A-1 (service business that doesn't push gift cards) · **Angle:** Worst Way (the sale that walked) · **Spoke:** front end → the call
 
@@ -555,7 +586,9 @@ Hey [First Name],
 
 Somebody wanted to give you as a gift this year.
 
-A daughter who wanted to book her mom a massage. A guy who wanted his brother's truck detailed. A wife who wanted to cover the dog's grooming for a year.
+A daughter who wanted to book her mom a massage.
+A guy who wanted his brother's truck detailed.
+A wife who wanted to cover the dog's grooming for a year.
 
 They looked you up.
 
@@ -572,7 +605,9 @@ And the second one is somebody who might never have found you on their own.
 So this week, put "Gift cards available" in three places:
 
 1. The top of your website.
+
 2. A post on your Google Business Profile.
+
 3. Every receipt and "thanks for coming in" text you send in December.
 
 That's it. No discount needed.
@@ -651,7 +686,7 @@ P.S. I got a question: if you had zero followers forever, what would you still w
 ## Monday report follow-through
 
 The Nov 23 report's "Change this week" said: *every student subject in the Nov 30 batch (Black Friday Vault sends included) leads with the reader's money, time or job — no subject that opens with "I" or names a tool.* How the batch acted on it:
-- **All four student subjects (and the bench) lead with the reader**, none opens with "I", none names a tool: S1 "Everybody's selling to you this week. Want to switch sides?" (their money and next move), S2 "You already know what your barber is doing wrong" (their eye), S3 "What are you doing with 7pm to midnight?" (their time), S-SUN "Where do you want to be by next December?" (their year), B2 "You don't need followers to get paid" (their money).
+- **All four student subjects (and the bench) lead with the reader**, none opens with "I", none names a tool: S1 "Everybody's selling to you this week. Want to switch sides?" (their money and next move), S2 "You already know what your barber is doing wrong" (their eye), S3 "What are you doing with 7pm to midnight?" (their time), S-SUN "Last December, what were you hoping would change?" (their year; editor rewrite), B2 "You don't need followers to get paid" (their money).
 - **Tools and Chosen's story moved inside the emails.** ChatGPT appears only inside S1's body; the pizza shop and the pro-gaming past sit mid-email.
 - **"Black Friday Vault sends included":** there are none to include. No Vault row exists in `PROMOS.md` and joine4l.com/vault doesn't respond (see PROMO). Asked Chosen.
 - **Agency:** unchanged from Chosen's Nov 6 direction. All four talk about the owner's new customers, texts, card statement and Sunday calls. "We" appears only after the owner's problem is made.

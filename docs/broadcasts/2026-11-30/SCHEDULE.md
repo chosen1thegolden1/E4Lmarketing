@@ -20,8 +20,8 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 | 2026-12-02 | Wednesday | student | `S2.html` | You already know what your barber is doing wrong | You've been the customer your whole life. That was the training. | From Xbox to Executive (book, free + $9.95 shipping) |
 | 2026-12-04 | Friday | agency | `A3.html` | How many apps are you paying for that you never set up? | Open last month's card statement. Count them. Then stop feeling bad. | Game Plan Call (agency front end) |
 | 2026-12-04 | Friday | student | `S3.html` | What are you doing with 7pm to midnight? | Your job owns the day. The night is still yours. | From Xbox to Executive (book, free + $9.95 shipping) |
-| 2026-12-06 | Sunday | agency | `A-SUN.html` | What does a customer hear when they call you on a Sunday? | Find out this evening. From a number your phone won't recognize. | Game Plan Call (agency front end) |
-| 2026-12-06 | Sunday | student | `S-SUN.html` | Where do you want to be by next December? | Not a resolution. One job, one business, and a year that's going by anyway. | From Xbox to Executive (book, free + $9.95 shipping) |
+| 2026-12-06 | Sunday | agency | `A-SUN.html` | Call your own business tonight. Not from your phone. | Listen like a stranger would. That's who called you this weekend. | Game Plan Call (agency front end) |
+| 2026-12-06 | Sunday | student | `S-SUN.html` | Last December, what were you hoping would change? | Not a resolution. One job, one business, and a year that's going by anyway. | From Xbox to Executive (book, free + $9.95 shipping) |
 
 ## Load checklist — tick each one
 
@@ -34,5 +34,5 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 
 ## Bench — not scheduled
 
-- `B1.html` — Did somebody try to give you as a gift this year?
+- `B1.html` — Somebody tried to buy you as a gift. They got a candle.
 - `B2.html` — You don't need followers to get paid
