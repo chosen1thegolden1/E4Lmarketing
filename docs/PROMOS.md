@@ -113,6 +113,13 @@ Without these the emails have nothing to point at:
 - **Monthly product:** Chosen described the **E4L Vault** in Slack on Nov 11 (monthly membership, joine4l.com/vault, founding members $10/mo or $99/yr for the first 50, then $20/mo or $199/yr). Not confirmed as "the monthly product" in this file, so nothing sells it. The page did not respond on 2026-11-17. Asked again.
 - **The $2,000 question:** the same Slack message lists the course as "E4L Activate" at **$1,997**. A list price is not proof it has sold at that price, so the comparison stays out until Chosen confirms.
 
+### Status, 2026-11-24 (Tuesday writer)
+
+- **The Black Friday / Cyber Monday promo did not happen.** The close needed everything by today (Tue Nov 24), when the week-of-Nov-30 batch was written. Still no answers to the six questions, no confirmed window, and no checkouts. The Nov 30 batch carries **no promo and no deadline**; S1 (Cyber Monday) sells the book at its normal price. Version B of the course email moved to Unscheduled in `docs/EMAIL_QUEUE.md`.
+- **This row should move to "Past promos" as "not run"** once Chosen confirms. Leaving it headed LIVE invites a later writer to treat it as live.
+- **"Black Friday Vault sends."** The Nov 22 cadence note and the Nov 23 report both mention them. No Vault row exists here, so nothing sold it. joine4l.com/vault returned no response on 2026-11-24. Asked Chosen whether the Vault is the monthly product, and if so for its price, discount, window, list and checkout.
+- **Monthly product:** asked again.
+
 ---
 
 ## Past promos
