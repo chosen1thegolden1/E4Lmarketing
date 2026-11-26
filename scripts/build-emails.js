@@ -37,6 +37,8 @@ const OFFERS = [
   [/cs-game-plan-call/, 'Game Plan Call (agency front end)'],
   [/joineat4life\.com\/xboxtoexec/, 'From Xbox to Executive (book, free + $9.95 shipping)'],
   [/e4lagency\.com/, 'E4L Agency website (Scorecard + Game Plan Call live there)'],
+  [/joineat4life\.com\/(vault|lifetime-checkout|litepass-checkout)/, 'E4L Vault: $149 lifetime / $39 Lite, ends Mon Nov 30 11:59 PM PT'],
+  [/joineat4life\.com\/?(\?|$)/, 'From Xbox to Executive ($9.95 ebook, +$9.95 audiobook)'],
 ];
 function offerFor(links, meta) {
   for (const url of links) {
@@ -220,6 +222,9 @@ function parse(md, week) {
     const chunk = md.slice(h.after, i + 1 < heads.length ? heads[i + 1].start : md.length);
     const proposed = /propos/i.test(h.rest);
     const day = DAYS.find((d) => h.rest.includes(d)) || null;
+    // A heading like "## A4 — Monday 2:00 PM" sends at that time instead of 8:00 AM,
+    // for a second send on the same day (a sale's last-hours email).
+    const time = (h.rest.match(/\b(\d{1,2}:\d{2}\s*[AP]M)\b/i) || [])[1] || null;
     const bench = /^B\d+$/.test(h.id);
 
     const subject = (chunk.match(/^\*\*Subject:\*\*\s*(.+)$/m) || [])[1];
@@ -276,7 +281,7 @@ function parse(md, week) {
     if (crowd) style(key, `talks to a crowd ("${crowd[0]}") — say it to one reader (voice.md)`);
 
     emails.push({
-      id: h.id, key, side, day, bench, proposed, subject, preview, meta,
+      id: h.id, key, side, day, time, bench, proposed, subject, preview, meta,
       offer: offerFor(links, meta),
       bodyHtml: html.replace(/\[First Name\]/g, TAG_FIRST_NAME),
       linkCount: links.length, week, images,
@@ -342,20 +347,20 @@ He gets the schedule and the offers so he can tie traffic and sales back to
 the sends.
 
 **Send from:** ${FROM} — never gsgagency.com.
-**Send time:** 8:00 AM Pacific.
+**Send time:** 8:00 AM Pacific, unless the Day column gives another time.
 **Merge tags:** first name \`${TAG_FIRST_NAME}\`, unsubscribe \`${TAG_UNSUBSCRIBE}\`. Send yourself a
 test first — if either renders literally, fix it once in \`scripts/build-emails.js\`.
 
 | Send date | Day | Side | File | Subject | Preview text | Sells |
 |---|---|---|---|---|---|---|
-${rows.map((e) => `| ${e.date} | ${e.day} | ${e.side} | \`${e.key}.html\` | ${e.subject} | ${e.preview} | ${e.offer} |`).join('\n')}
+${rows.map((e) => `| ${e.date} | ${e.day}${e.time ? ` **${e.time} PT**` : ''} | ${e.side} | \`${e.key}.html\` | ${e.subject} | ${e.preview} | ${e.offer} |`).join('\n')}
 
 ## Load checklist — tick each one
 
 - [ ] Paste each file's HTML into the GHL email builder (source/code view), one campaign per row.
 - [ ] Subject and preview text copied exactly from the table above.
 - [ ] Sending address is ${FROM}.
-- [ ] Schedule for 8:00 AM Pacific on the send date shown.
+- [ ] Schedule each at its time: 8:00 AM Pacific on the send date, unless the Day column gives another time.
 - [ ] Test send to yourself: first name renders, unsubscribe works, every link opens.
 - [ ] Agency rows go to the agency list, student rows to the student list. Never crossed.
 ${live.flatMap((e) => e.images.filter((x) => !x.remote).map((x) => `- [ ] **\`${e.key}.html\` has an image.** Upload \`${path.basename(x.src)}\` (it's in this folder) to GHL Media, then replace the image's \`src\` with the GHL URL. Left as is, it shows in the preview and arrives **blank** in a real inbox.\n`)).join('')}

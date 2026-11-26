@@ -40,6 +40,9 @@ TIME-SENSITIVE: A1 and S1 are pinned to **Mon Nov 30 (Cyber Monday)**: "over the
 
 ## ⚠️ Things to settle before this sends
 
+- **Chosen's notes, 2026-11-26 (applied):** all eight subjects swapped to his versions. The GHL first-name merge tag `{{contact.first_name}}` is used as-is in subjects, so the loader pastes it exactly. Three agency previews were rewritten, because the new subjects now say what the old previews said (A1, A2, A3). Bodies untouched.
+- **Four sale emails added (Chosen, 2026-11-26):** the E4L Vault last day (A4/S4, **Mon Nov 30 at 2:00 PM PT**, a second send that day, after the 8 AM email) and the book (A5/S5, **Tue Dec 1, 8:00 AM PT**). Facts come from the live pages, read 2026-11-26: Vault $149 Lifetime ("Only 50 Lifetime Passes") and $39 Vault Lite, both one-time, both ending 11:59 PM Pacific on Cyber Monday. The book is $9.95, with **no Black Friday price on the page**, so the book emails sell it as "never on sale" and invent no discount. Live row in `docs/PROMOS.md`.
+
 **1. A1 says "we set it up so every new customer gets that message on time, from your accounts."** That describes what the agency builds for an owner (follow-up texts and emails to past buyers), which e4lagency.com doesn't spell out for past customers in so many words; the site's lines are about inbound replies in under 60 seconds and "your accounts, not ours." **Chosen: confirm we do follow-up to past buyers, or the editor trims that sentence to the call offer only.**
 
 **2. S2 retells the pizza shop on Melrose** as "two people talking, and one of us recognizing what the other needed." That is the story bank's wording turned around a little ("one recognizing what the other knew"). **A real detail from that dinner** (what the shop was getting wrong that he noticed) would make S2 his.
@@ -69,9 +72,9 @@ TIME-SENSITIVE: A1 and S1 are pinned to **Mon Nov 30 (Cyber Monday)**: "over the
 
 ## A1 — Monday
 
-**Subject:** Who bought from you over the long weekend?
+**Subject:** They'll forget you by January
 
-**Preview text:** By January they won't remember your name. Unless you send one message.
+**Preview text:** Unless you send them one message this week.
 
 **Reader:** A-1 (owner with new faces from the long weekend) · **Angle:** Worst Way (the second message nobody sends) · **Spoke:** front end → the call
 
@@ -137,9 +140,9 @@ P.S. A gift card buyer is two customers. The one who paid, and the one who's goi
 
 ## A2 — Wednesday
 
-**Subject:** Somebody tried to text you from Google Maps
+**Subject:** Google just gave your customers a text button
 
-**Preview text:** Google put a Message button right next to Call. Where does that text go?
+**Preview text:** It sits right next to Call. Where does that text go when you're busy?
 
 **Reader:** A-1 (owner who's mid-job when the customer reaches out) · **Angle:** Correlation (Google's change → their phone at 8pm) · **Spoke:** front end → the call
 
@@ -206,9 +209,9 @@ P.S. If you add both WhatsApp and text, Google only shows customers the text opt
 
 ## A3 — Friday
 
-**Subject:** How many apps are you paying for that you never set up?
+**Subject:** Check your card statement
 
-**Preview text:** Open last month's card statement. Count them. Then stop feeling bad.
+**Preview text:** Count the apps you never set up. Then stop feeling bad.
 
 **Reader:** A-3 (great at the business, bad at tools) · **Angle:** Paradigm Shift / forgiveness · **Spoke:** front end → the call
 
@@ -273,7 +276,7 @@ P.S. If pile 3 is longer than pile 1, you're not bad at tech. You got sold tools
 
 ## A-SUN — Sunday
 
-**Subject:** Call your own business tonight. Not from your phone.
+**Subject:** Call yourself tonight
 
 **Preview text:** Listen like a stranger would. That's who called you this weekend.
 
@@ -328,7 +331,7 @@ P.S. If the test went fine, hit reply and tell me. I read them.
 
 ## S1 — Monday
 
-**Subject:** Everybody's selling to you this week. Want to switch sides?
+**Subject:** {{contact.first_name}}, I'll skip the BS. Switch sides.
 
 **Preview text:** Every one of those ads, somebody got paid to make.
 
@@ -393,7 +396,7 @@ P.S. Next Cyber Monday, I want you on the other side of the screen.
 
 ## S2 — Wednesday
 
-**Subject:** You already know what your barber is doing wrong
+**Subject:** I know what your barber's doing wrong
 
 **Preview text:** You've been the customer your whole life. That was the training.
 
@@ -462,7 +465,7 @@ P.S. I got a question: what's the one thing your barber keeps getting wrong? Rep
 
 ## S3 — Friday
 
-**Subject:** What are you doing with 7pm to midnight?
+**Subject:** {{contact.first_name}}, what are you doing tonight?
 
 **Preview text:** Your job owns the day. The night is still yours.
 
@@ -522,7 +525,7 @@ P.S. Keep the game. Just play it after the hour. 😂
 
 ## S-SUN — Sunday
 
-**Subject:** Last December, what were you hoping would change?
+**Subject:** Hi, do you remember last December?
 
 **Preview text:** Not a resolution. One job, one business, and a year that's going by anyway.
 
@@ -572,6 +575,240 @@ P.S. Write down one thing you want to be true next December. Put it somewhere yo
 ---
 
 # Bench — swaps, not scheduled
+
+## A4 — Monday 2:00 PM
+
+**Subject:** {{contact.first_name}}, this is gone at midnight
+
+**Preview text:** Your whole marketing department, in 100 prompts. $149 for life, until 11:59 PM Pacific.
+
+**Reader:** A-1 (owner doing every marketing job alone) · **Angle:** Worst Way → last day of a live promo · **Spoke:** promo → the E4L Vault
+
+```
+Hey [First Name],
+
+Quick one. The clock's running.
+
+At 11:59 PM Pacific tonight, the E4L Vault's one-time prices
+disappear.
+
+Think about how you've been doing marketing all year.
+
+Answering the same "how much?" text at 9pm. Staring at a blank
+post on a Tuesday. Writing an offer from scratch, again. Paying
+for ads you're not sure are working. Watching a missed call turn
+into a customer for the guy down the street.
+
+That's the slow, expensive, exhausting, do-it-all-yourself way.
+
+The Vault is 100 ready-to-use AI prompts that hand that work to
+the machine. Five rooms. A whole marketing department:
+
+- Email and text: the missed call gets a text back before they call somebody else.
+- Offers and sales: build your offer, price it three ways, and answer the 10 objections you hear most.
+- Content: a 30-day calendar and posts in your own voice, so your page never goes dark.
+- Analytics: find where money is leaking and the one fix that matters this month.
+- Ads: write the ad, test it on $10 a day, and know what to judge after 7 days.
+
+Two ways in. Both one payment. **Both gone at 11:59 PM Pacific
+tonight.**
+
+**$149, for life.** All 100 prompts, the 50 Ad Hooks pack, and
+every new skill, system and workflow we add, the day it ships.
+Only 50 Lifetime Passes exist.
+
+$39, Vault Lite. All 100 prompts and the 50 Ad Hooks pack.
+Nothing recurring.
+
+Tomorrow morning you'll have the same phone, the same inbox and
+the same blank Tuesday post. The only question is whether you
+face them alone or with a department behind you.
+
+Prompts are tools, not magic. You still run the business. You
+just stop running the marketing by yourself. 🔥
+
+👉 Open the Vault: (LINK: https://joineat4life.com/vault?utm_source=email&utm_medium=agency&utm_campaign=A4-2026-11-30)
+
+Sebastian
+Eat 4 Life
+AI Marketing Made Easy
+
+P.S. Already know you want lifetime? Here's the direct door. Only 50, and none after midnight: (LINK: https://joineat4life.com/lifetime-checkout?utm_source=email&utm_medium=agency&utm_campaign=A4-2026-11-30)
+```
+
+*Notes:* **Live promo, last day** (`docs/PROMOS.md`, Vault row). Chosen, 2026-11-26: "Sell the WHOLE Vault and what it does for the business… adjective-filled and knife-turning… Monday framed as the last day." Every product claim is from joineat4life.com/vault, read 2026-11-26: "$149 once for life"; "Only 50 Lifetime Passes"; "$39 once", "One payment. Nothing recurring."; Lifetime includes "All 100 prompts across all five rooms", "The 50 Ad Hooks pack", "Every new skill, system and workflow we drop, the day it ships"; Lite has no new skills; the five rooms are summarized in plain words from the page's own descriptions; the deadline is "Gone at 11:59 PM Pacific on Cyber Monday" (Mon Nov 30). **The page says "Only 50 Lifetime Passes," not "first 50 buyers," and we have no count of how many are left, so the email never says "almost gone."** "Prompts are tools, not magic" echoes the page footer ("Prompts are tools, not guarantees"). No result promised. Jargon translated for owners ("speed-to-lead" became "the missed call gets a text back"; "funnel leaks" became "where money is leaking"). **Sends at 2:00 PM PT, the second agency send that day.** Emoji: 🔥 👉 = two.
+*Source:* https://joineat4life.com/vault (read 2026-11-26)
+
+---
+
+## A5 — Tuesday
+
+**Subject:** {{contact.first_name}}, it was never on sale
+
+**Preview text:** The book behind all of this is $9.95. Every day.
+
+**Reader:** A-1 (owner tired of countdown timers) · **Angle:** Paradigm Shift (the anti-sale) · **Spoke:** front end → the book
+
+```
+Hey [First Name],
+
+Your inbox spent the last five days screaming LAST CHANCE.
+
+This isn't one of those.
+
+My book, From Xbox to Executive, wasn't on sale for Black Friday.
+It's $9.95. It was $9.95 last week, and it'll be $9.95 next week.
+
+So why should an owner read a book with "Xbox" in the title?
+
+Because every business on earth needs five jobs handled: getting
+attention, turning attention into conversations, closing,
+delivering, and keeping people happy.
+
+Most businesses are doing two of them well. The other three leak
+money quietly, every single week.
+
+**The book walks you through all five**, so you can see which one
+your business is dropping, and how one person with AI doing the
+heavy lifting covers what used to take a whole team.
+
+Read it in an evening. Rather listen in the truck? The audiobook
+is an add-on for another $9.95.
+
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/?utm_source=email&utm_medium=agency&utm_campaign=A5-2026-11-30)
+
+Sebastian
+Eat 4 Life
+AI Marketing Made Easy
+
+P.S. No countdown timer. No "only 3 left." Just a $9.95 book that might show you the one job your business keeps skipping. 📘
+```
+
+*Notes:* Chosen, 2026-11-26, asked for "a Black Friday email for each list pushing the book… Check the live page for any Black Friday price before you write the offer." **The live page (joineat4life.com, read 2026-11-26) shows no Black Friday or sale price:** "Get your eBook for just $9.95"; "YES add the Audiobook +$9.95"; no struck-through price, no deadline. So this sells the book honestly as never on sale, and **sends Tuesday after the sale weekend**, not into the Cyber Monday noise. **This also settles the old book-price question: $9.95 ebook, +$9.95 audiobook, not "free + $9.95 shipping."** The five jobs are the book's five roles, translated per `voice.md`. "AI doing the heavy lifting… what used to take a whole team" is the book's line as quoted in the student gold standard. "Most businesses are doing two of them well" is Chosen's opinion (it's in the course email too). The agency CTA is normally the call; this one is the book because Chosen asked for it. Emoji: 👉 📘 = two.
+*Source:* https://joineat4life.com (read 2026-11-26)
+
+---
+
+## S4 — Monday 2:00 PM
+
+**Subject:** {{contact.first_name}}, midnight. Then it's gone.
+
+**Preview text:** 100 AI prompts that do the work businesses pay for. $149 for life or $39 once.
+
+**Reader:** S-B (wants in, needs the tools) · **Angle:** last day of a live promo · **Spoke:** promo → the E4L Vault
+
+```
+Yo [First Name],
+
+You know that feeling when the shop rotates at midnight and the
+skin you wanted is gone for good?
+
+That's tonight. 🎮
+
+At 11:59 PM Pacific, the E4L Vault's one-time prices disappear.
+
+Here's what you'd be walking away from. 100 AI prompts that do the
+exact work businesses pay somebody to do, in five rooms:
+
+- Email and text: the text-back that catches a missed call before the customer calls somebody else.
+- Offers and sales: build an offer, price it three ways, handle the 10 objections you'll hear most.
+- Content: a 30-day calendar and posts in a brand's own voice.
+- Analytics: find where a business is leaking money and the one move that matters.
+- Ads: write the ad, test it on $10 a day, know what to judge after 7 days.
+
+Read that list again. That's not a course you watch. That's a
+whole marketing department, sitting in your pocket. 💰
+
+And the Lifetime Pass says it straight: use it on your business
+and your clients' work.
+
+So picture it. One laptop. A coffee shop in a different city. You
+running a barbershop's texts and a taco truck's posts off prompts
+you already own. ✈️
+
+Two ways in. Both one payment.
+
+**$149, for life.** All 100 prompts, the 50 Ad Hooks pack, and
+every new skill, system and workflow, the day it drops. Only 50
+Lifetime Passes exist.
+
+$39, Vault Lite. All 100 prompts plus the 50 Ad Hooks pack.
+Nothing recurring.
+
+**After midnight, both prices are gone.**
+
+Everybody else spent Black Friday buying stuff that loses value
+the second it ships. This is the one thing in your cart that works
+for you.
+
+Prompts are tools, not a shortcut to a paycheck. You still have to
+show up. But you won't be showing up empty-handed.
+
+I believe you're going to use this.
+
+👉 Open the Vault: (LINK: https://joineat4life.com/vault?utm_source=email&utm_medium=student&utm_campaign=S4-2026-11-30)
+
+Holla Back – Get ya Dolla Back. ✊🏾
+Sebastian
+Eat 4 Life
+
+P.S. Know you want lifetime? Straight to checkout. Only 50, and none after midnight: (LINK: https://joineat4life.com/lifetime-checkout?utm_source=email&utm_medium=student&utm_campaign=S4-2026-11-30)
+```
+
+*Notes:* **Live promo, last day** (`docs/PROMOS.md`, Vault row). Same page facts as A4 (joineat4life.com/vault, read 2026-11-26), including "Use it on your business and your clients' work" (Lifetime), quoted. **No income claim to the reader:** "the exact work businesses pay somebody to do" describes the work, not what the reader will earn, and "Prompts are tools, not a shortcut to a paycheck" keeps it honest (the page says "Prompts are tools, not guarantees"). "Picture it" is an invitation, not a promise. No "almost gone": the page gives no count. The subject is about the reader's deadline, per the Nov 22 reader-first rule. **Sends at 2:00 PM PT, the second student send that day.** Per the Readers-list rule's exception, sale emails go to the **whole** student list. Emoji: 🎮 💰 ✈️ 👉 ✊🏾.
+*Source:* https://joineat4life.com/vault (read 2026-11-26)
+
+---
+
+## S5 — Tuesday
+
+**Subject:** {{contact.first_name}}, missed every Black Friday deal?
+
+**Preview text:** Good. The one that matters is still $9.95.
+
+**Reader:** S-A (just found out this is possible) · **Angle:** Paradigm Shift (the anti-sale) · **Spoke:** front end → the book
+
+```
+Yo [First Name],
+
+If you spent the weekend watching deals expire, I've got good news.
+
+The one that matters didn't.
+
+From Xbox to Executive is $9.95. It wasn't marked down for Black
+Friday, because it never needed to be. That's the price of a
+burrito. 🌯
+
+Here's what's inside for you:
+
+- How to pick ONE skill from the five jobs every business needs, starting with what you're already good at.
+- How the first client usually starts. Mine was a pizza shop on Melrose, over dinner.
+- How AI turns one person into a whole team, so "I don't know anybody" and "I don't have experience" stop being reasons.
+
+**The book shows you how to pick ONE skill and get paid for it
+inside 90 days.**
+
+Rather listen on the bus? Add the audiobook for another $9.95. 🎧
+
+You've grinded harder for a skin than this book will ever ask of
+you. 🎮
+
+I believe this is the cheapest step you'll ever take toward the
+life you keep picturing.
+
+👉 Get From Xbox to Executive: (LINK: https://joineat4life.com/?utm_source=email&utm_medium=student&utm_campaign=S5-2026-11-30)
+
+Holla Back – Get ya Dolla Back. ✊🏾
+Sebastian
+Eat 4 Life
+
+P.S. I got a question: what's the ONE skill you'd pick if you started tonight? Hit reply. I read these.
+```
+
+*Notes:* Chosen, 2026-11-26: a Black Friday book email for the student list. **The live page has no Black Friday price** ($9.95 ebook, +$9.95 audiobook, read 2026-11-26), so it runs on the honest "never needed a sale" angle, **Tuesday after the sale weekend**. "The price of a burrito" is a comparison. The pizza shop on Melrose is in the story bank (X2E). The five jobs and "AI turns one person into a whole team" are book material on file (`voice.md` gold standard). "Pick ONE skill and get paid for it inside 90 days" is the book's own promise, as used before. The subject is about the reader, per the Nov 22 rule. Emoji: 🌯 🎧 🎮 👉 ✊🏾.
+*Source:* https://joineat4life.com (read 2026-11-26)
+
+---
 
 ### B1 — agency, the gift card
 

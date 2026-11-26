@@ -18,6 +18,28 @@ an offer with no link is an email that cannot convert.
 
 ---
 
+## LIVE: E4L Vault, Black Friday to Cyber Monday 2026 (both lists)
+
+**Confirmed by Chosen, 2026-11-26** (his notes on the week of Nov 30): "AI Mastery Vault: the
+sale is still on through Mon Nov 30 (Nov 27-30 PT)… Daniel says both checkouts work." The
+terms below are **as the live page states them** (joineat4life.com/vault, read 2026-11-26),
+which wins over the notes where they differ.
+
+| | |
+|---|---|
+| Product | E4L Vault: "Your whole marketing department, in 100 prompts." Five rooms: email and text, offers and sales, content, analytics, ads. |
+| Offer 1 | **$149 once, for life.** All 100 prompts, the 50 Ad Hooks pack, every new skill/system/workflow the day it ships, "Use it on your business and your clients' work." **"Only 50 Lifetime Passes."** (The page does *not* say "first 50 buyers," and gives no live count. Never write "almost gone.") |
+| Offer 2 | **$39 once, Vault Lite.** All 100 prompts plus the 50 Ad Hooks pack. "One payment. Nothing recurring." No new skills. |
+| Ends | **11:59 PM Pacific, Cyber Monday, Mon Nov 30, 2026.** Both prices. |
+| Page | https://joineat4life.com/vault |
+| Checkouts | https://joineat4life.com/lifetime-checkout · https://joineat4life.com/litepass-checkout (working, per Daniel) |
+| Guarantee | None on the page. The footer says "Prompts are tools, not guarantees." No email promises a result. |
+| Emails | A4 / S4: last day, Mon Nov 30, 2:00 PM PT. Whole lists (sale exception to the Readers-list rule). |
+
+**The book is not on sale.** joineat4life.com shows $9.95 ebook, +$9.95 audiobook, with no
+Black Friday price (read 2026-11-26). The "audiobook free for book buyers" idea in the row below
+never went live on the page, so no email says it.
+
 ## LIVE: Black Friday / Cyber Monday 2026 — student list
 
 **Chosen's words, 2026-10-31, verbatim:**
