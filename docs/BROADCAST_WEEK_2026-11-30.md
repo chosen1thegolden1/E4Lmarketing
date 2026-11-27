@@ -958,3 +958,26 @@ To run Fri 2026-12-04 (send dates Nov 30 / Dec 2 / Dec 4 / Dec 6). **Note: A1 an
 | PROMOS | `docs/PROMOS.md` | Nothing to swap in. The Black Friday / Cyber Monday window has passed. |
 
 **Relative dates on the send day:** A1 "over the long weekend" and S1 "It's Cyber Monday" are true only on Mon Nov 30. A3 "this weekend" means Sat–Sun Dec 5–6 (Fri send). S3 "by the end of February" is counted from Fri Dec 4. A-SUN "this evening", "this weekend" and S-SUN "a Sunday in December" are pinned to Sun Dec 6. No deadline anywhere.
+
+### Done Fri 2026-11-27 (Black Friday), for sends Mon Nov 30 to Sun Dec 6
+
+**Approval state at the time of the check:** no `APPROVED.txt`, no `DISTRIBUTED.txt`, and no GO from Chosen in the Slack DM after the last GO request (Fri Nov 27 02:35 CAT). The copy was **not** sent to Abdullah or Daniel; Chosen was told the batch is waiting on his GO.
+
+**Every link loaded (HTTP 200, 2026-11-27):** the booking widget `api.leadconnectorhq.com/widget/bookings/cs-game-plan-call`, Google's bulletin thread 476642299, Google help answer 15013580, the Adobe release, `joineat4life.com/xboxtoexec`, `joineat4life.com/`, `joineat4life.com/vault`, `joineat4life.com/lifetime-checkout` and `e4lagency.com`. Every link in the twelve scheduled HTML files is one of these (plus `{{unsubscribe_url}}`).
+
+| Email | Re-checked at the source | Result |
+|---|---|---|
+| A2 | Google bulletin: "customers on both Android and iOS can now find a prominent Message button right next to "Call" on your Google Maps listing"; "…instead of giving up"; author Lisa Landsman | Still on the page, word for word. |
+| A2 | Help page 15013580: Edit profile → Contact → Chat → Edit → WhatsApp or Text message → Save; "select regions" caveat; "only the text message option will be shown" | Unchanged. |
+| S1 | Adobe, Sept 28, 2026: Cyber Monday (Nov. 30) "consumers spending over $15 billion…", $15.1B, +6.2% | Unchanged. Email says "forecast", so it stays true on Mon Nov 30. |
+| A1, A2, A3, A-SUN, S1 | e4lagency.com: reply in under 60 seconds then followed up until they book; "Every call, even the 7pm one"; named human supervising; "your accounts, not ours"; Creative Packs "from $750" | All five present, verbatim. |
+| A4, S4 | joineat4life.com/vault: $149 once for life, $39 Lite, "Only 50 Lifetime Passes", Lifetime = 100 prompts + 50 Ad Hooks + every new skill the day it ships, Lite excludes new skills, "Use it on your business and your clients' work", five rooms, "Prompts are tools, not guarantees", deadline "Gone at 11:59 PM Pacific on Cyber Monday" | All unchanged. No sold-out or remaining-count language, so the emails' "never says almost gone" still holds. Deadline is after the 2:00 PM PT Monday send, so the emails are alive. |
+| A4, S4 P.S. | joineat4life.com/lifetime-checkout | Loads, shows the $149 Lifetime Pass and the same Cyber Monday deadline. |
+| A5, S5 | joineat4life.com: "Get your eBook for just $9.95", "YES add the Audiobook +$9.95", **no Black Friday / sale / struck-through price on Black Friday itself** | "It was never on sale" / "It wasn't marked down for Black Friday" are still true. If a book sale is added before Tue Dec 1, A5 and S5 become false and must be pulled. |
+| S1, S2, S3, S-SUN, B2 | joineat4life.com/xboxtoexec: From Xbox to Executive, $9.95 | Loads. |
+
+**Relative dates, read on each send date:** A1 "over the long weekend" and S1 "It's Cyber Monday" are right on Mon Nov 30. A4/S4 "tonight… 11:59 PM Pacific" are right on Mon Nov 30 at 2 PM PT. A5 "the last five days" (Thu Nov 26 to Mon Nov 30) and S5 "the weekend" are right on Tue Dec 1. A2 "Google announced it on November 5" is a fixed date, so it reads right on Wed Dec 2; the subject's "just" is Chosen's own wording, left as is. A3 "this weekend" (Dec 5–6), S3 "by the end of February", A-SUN "this evening" and S-SUN "a Sunday in December" all hold on their days.
+
+**Deadlines:** the only deadline in the batch is the Vault's, 11:59 PM PT Mon Nov 30, after its send. Nothing has died. No bench swap.
+
+**Changed:** nothing in the copy. This section only.
