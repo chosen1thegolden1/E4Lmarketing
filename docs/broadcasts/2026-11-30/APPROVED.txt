@@ -1,0 +1,3 @@
+Approved by Chosen in Slack DM, 2026-11-27 23:23 CAT (21:23 UTC).
+Exact words: "GO"
+Given after the Friday freshness check (last copy commit f3e0f91).
