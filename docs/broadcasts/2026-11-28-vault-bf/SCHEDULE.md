@@ -7,7 +7,7 @@ Built by `scripts/build-emails.js`. Every link below is already live in the HTML
 He gets the schedule and the offers so he can tie traffic and sales back to
 the sends.
 
-**Send from:** chosen@mail.e4lmarketingdemos.com — never gsgagency.com.
+**Send from:** agency (A6) from chosen@mail.e4lmarketingdemos.com; student (S6) from chosen@mail.joineat4life.com, as every week. Never gsgagency.com.
 **Send time:** 8:00 AM Pacific, unless the Day column gives another time.
 **Merge tags:** first name `{{contact.first_name}}`, unsubscribe `{{unsubscribe_url}}`. Send yourself a
 test first — if either renders literally, fix it once in `scripts/build-emails.js`.
@@ -21,8 +21,8 @@ test first — if either renders literally, fix it once in `scripts/build-emails
 
 - [ ] Paste each file's HTML into the GHL email builder (source/code view), one campaign per row.
 - [ ] Subject and preview text copied exactly from the table above.
-- [ ] Sending address is chosen@mail.e4lmarketingdemos.com.
+- [ ] Sending address: A6 from chosen@mail.e4lmarketingdemos.com, S6 from chosen@mail.joineat4life.com.
 - [ ] Schedule each at its time: 8:00 AM Pacific on the send date, unless the Day column gives another time.
 - [ ] Test send to yourself: first name renders, unsubscribe works, every link opens.
-- [ ] Agency rows go to the agency list, student rows to the student list. Never crossed.
+- [ ] Agency rows go to the agency list, student rows to the whole student list (Black Friday exception). Never crossed.
 
